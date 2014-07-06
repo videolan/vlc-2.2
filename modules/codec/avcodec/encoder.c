@@ -1167,7 +1167,12 @@ static block_t *EncodeVideo( encoder_t *p_enc, picture_t *p_pict )
                          p_sys->p_context->bits_per_coded_sample ?
                          p_sys->p_context->bits_per_coded_sample :
                          24;
-    const int blocksize = __MAX( FF_MIN_BUFFER_SIZE, ( bitsPerPixel * p_sys->p_context->height * p_sys->p_context->width ) / 8 + 200 );
+    unsigned blocksize = __MAX( FF_MIN_BUFFER_SIZE, ( bitsPerPixel * p_sys->p_context->height * p_sys->p_context->width ) / 8 + 200 );
+    if( p_enc->fmt_out.i_codec == VLC_CODEC_TIFF )
+    {
+        blocksize = 2 * blocksize +
+            4 * p_sys->p_context->height; /* space for strip sizes */
+    }
     block_t *p_block = block_Alloc( blocksize );
     if( unlikely(p_block == NULL) )
         return NULL;
