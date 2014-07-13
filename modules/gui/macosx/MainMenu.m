@@ -22,11 +22,12 @@
  *****************************************************************************/
 
 #import "MainMenu.h"
+#import "intf.h"
+
 #import <vlc_common.h>
 #import <vlc_playlist.h>
 #import <vlc_input.h>
 
-#import "intf.h"
 #import "open.h"
 #import "wizard.h"
 #import "about.h"
@@ -265,7 +266,46 @@ static VLCMainMenu *_o_sharedInstance = nil;
     [self setupVarMenuItem: o_mi_add_intf target: (vlc_object_t *)p_intf
                              var: "intf-add" selector: @selector(toggleVar:)];
 
-    [self setupExtensionsMenu];
+    /* setup extensions menu */
+    // FIXME: Implement preference for autoloading extensions on mac
+    if (![o_extMgr isLoaded] && ![o_extMgr cannotLoad])
+        [o_extMgr loadExtensions];
+
+    /* Let the ExtensionsManager itself build the menu */
+    [o_extMgr buildMenu:o_mu_extensions];
+    [o_mi_extensions setEnabled: ([o_mu_extensions numberOfItems] > 0)];
+
+    /* setup post-proc menu */
+    NSUInteger count = (NSUInteger) [o_mu_ffmpeg_pp numberOfItems];
+    if (count > 0)
+        [o_mu_ffmpeg_pp removeAllItems];
+
+    NSMenuItem * o_mitem;
+    [o_mu_ffmpeg_pp setAutoenablesItems: YES];
+    [o_mu_ffmpeg_pp addItemWithTitle: _NS("Disable") action:@selector(togglePostProcessing:) keyEquivalent:@""];
+    o_mitem = [o_mu_ffmpeg_pp itemAtIndex: 0];
+    [o_mitem setTag: -1];
+    [o_mitem setEnabled: YES];
+    [o_mitem setTarget: self];
+    for (NSUInteger x = 1; x < 7; x++) {
+        [o_mu_ffmpeg_pp addItemWithTitle:[NSString stringWithFormat:_NS("Level %i"), x]
+                                               action:@selector(togglePostProcessing:)
+                                        keyEquivalent:@""];
+        o_mitem = [o_mu_ffmpeg_pp itemAtIndex:x];
+        [o_mitem setEnabled:YES];
+        [o_mitem setTag:x];
+        [o_mitem setTarget:self];
+    }
+    char *psz_config = config_GetPsz(p_intf, "video-filter");
+    if (psz_config) {
+        if (!strstr(psz_config, "postproc"))
+            [[o_mu_ffmpeg_pp itemAtIndex:0] setState:NSOnState];
+        else
+            [[o_mu_ffmpeg_pp itemWithTag:config_GetInt(p_intf, "postproc-q")] setState:NSOnState];
+        free(psz_config);
+    } else
+        [[o_mu_ffmpeg_pp itemAtIndex:0] setState:NSOnState];
+    [o_mi_ffmpeg_pp setEnabled: NO];
 
     [self refreshAudioDeviceList];
 
@@ -677,29 +717,6 @@ static VLCMainMenu *_o_sharedInstance = nil;
 }
 
 #pragma mark -
-#pragma mark Extensions
-
-- (void)setupExtensionsMenu
-{
-    /* Load extensions if needed */
-    // TODO: Implement preference for autoloading extensions on mac
-
-    // if (!var_InheritBool(p_intf, "qt-autoload-extensions")
-    //     && ![o_extMgr isLoaded])
-    // {
-    //     return;
-    // }
-
-    if (![o_extMgr isLoaded] && ![o_extMgr cannotLoad]) {
-        [o_extMgr loadExtensions];
-    }
-
-    /* Let the ExtensionsManager itself build the menu */
-    [o_extMgr buildMenu:o_mu_extensions];
-    [o_mi_extensions setEnabled: ([o_mu_extensions numberOfItems] > 0)];
-}
-
-#pragma mark -
 #pragma mark View
 
 - (IBAction)toggleEffectsButton:(id)sender
@@ -927,6 +944,34 @@ static VLCMainMenu *_o_sharedInstance = nil;
             vlc_object_release(p_vout);
         }
         vlc_object_release(p_input);
+    }
+}
+
+- (void)_disablePostProcessing
+{
+    [[VLCCoreInteraction sharedInstance] setVideoFilter:"postproc" on:false];
+}
+
+- (void)_enablePostProcessing
+{
+    [[VLCCoreInteraction sharedInstance] setVideoFilter:"postproc" on:true];
+}
+
+- (IBAction)togglePostProcessing:(id)sender
+{
+    char *psz_name = "postproc";
+    NSInteger count = [o_mu_ffmpeg_pp numberOfItems];
+    for (NSUInteger x = 0; x < count; x++)
+        [[o_mu_ffmpeg_pp itemAtIndex:x] setState:NSOffState];
+
+    if ([sender tag] == -1) {
+        [self _disablePostProcessing];
+        [sender setState:NSOnState];
+    } else {
+        [self _enablePostProcessing];
+        [sender setState:NSOnState];
+
+        [[VLCCoreInteraction sharedInstance] setVideoFilterProperty:"postproc-q" forFilter:"postproc" integer:[sender tag]];
     }
 }
 
