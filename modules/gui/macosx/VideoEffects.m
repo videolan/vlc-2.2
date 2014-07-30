@@ -321,6 +321,7 @@ static VLCVideoEffects *_o_sharedInstance = nil;
     [o_adjust_contrast_sld setFloatValue: config_GetFloat(p_intf, "contrast")];
     [o_adjust_brightness_sld setFloatValue: config_GetFloat(p_intf, "brightness")];
     [o_adjust_saturation_sld setFloatValue: config_GetFloat(p_intf, "saturation")];
+    [o_adjust_brightness_ckb setState:(config_GetInt(p_intf, "brightness-threshold") != 0 ? NSOnState : NSOffState)];
     [o_adjust_gamma_sld setFloatValue: config_GetFloat(p_intf, "gamma")];
     [o_adjust_brightness_sld setToolTip: [NSString stringWithFormat:@"%0.3f", config_GetFloat(p_intf, "brightness")]];
     [o_adjust_contrast_sld setToolTip: [NSString stringWithFormat:@"%0.3f", config_GetFloat(p_intf, "contrast")]];
@@ -711,7 +712,7 @@ static VLCVideoEffects *_o_sharedInstance = nil;
 
 - (NSString *)generateProfileString
 {
-    return [NSString stringWithFormat:@"%@;%@;%@;%lli;%f;%f;%f;%f;%f;%lli;%f;%@;%lli;%lli;%lli;%lli;%lli;%lli;%@;%lli;%lli;%lli;%lli;%lli;%@;%lli;%@;%lli;%lli;%lli;%lli;%lli",
+    return [NSString stringWithFormat:@"%@;%@;%@;%lli;%f;%f;%f;%f;%f;%lli;%f;%@;%lli;%lli;%lli;%lli;%lli;%lli;%@;%lli;%lli;%lli;%lli;%lli;%@;%lli;%@;%lli;%lli;%lli;%lli;%lli;%lli",
             B64EncAndFree(config_GetPsz(p_intf, "video-filter")),
             B64EncAndFree(config_GetPsz(p_intf, "sub-source")),
             B64EncAndFree(config_GetPsz(p_intf, "video-splitter")),
@@ -743,7 +744,9 @@ static VLCVideoEffects *_o_sharedInstance = nil;
             config_GetInt(p_intf, "logo-opacity"),
             config_GetInt(p_intf, "clone-count"),
             config_GetInt(p_intf, "wall-rows"),
-            config_GetInt(p_intf, "wall-cols")
+            config_GetInt(p_intf, "wall-cols"),
+            // version 2 of profile string:
+            config_GetInt(p_intf, "brightness-threshold") // index: 32
             ];
 }
 
@@ -800,6 +803,13 @@ static VLCVideoEffects *_o_sharedInstance = nil;
 
     /* fetch preset */
     NSArray *items = [[[defaults objectForKey:@"VideoEffectProfiles"] objectAtIndex:selectedProfile] componentsSeparatedByString:@";"];
+
+    // version 1 of profile string has 32 entries
+    if ([items count] < 32) {
+        msg_Err(p_intf, "Error in parsing profile string");
+        [self resetValues];
+        return;
+    }
 
     /* filter handling */
     NSString *tempString = B64DecNSStr([items objectAtIndex:0]);
@@ -865,6 +875,10 @@ static VLCVideoEffects *_o_sharedInstance = nil;
     [self setVideoFilterProperty:"clone-count" forFilter:"clone" integer:[[items objectAtIndex:29] intValue]];
     [self setVideoFilterProperty:"wall-rows" forFilter:"wall" integer:[[items objectAtIndex:30] intValue]];
     [self setVideoFilterProperty:"wall-cols" forFilter:"wall" integer:[[items objectAtIndex:31] intValue]];
+
+    if ([items count] >= 33) { // version >=2 of profile string
+        [vci_si setVideoFilterProperty: "brightness-threshold" forFilter: "adjust" boolean: [[items objectAtIndex:32] intValue]];
+    }
 
     [defaults setInteger:selectedProfile forKey:@"VideoEffectSelectedProfile"];
     [defaults synchronize];
