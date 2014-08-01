@@ -2415,7 +2415,6 @@ static int InputSourceInit( input_thread_t *p_input,
 
         if( in->p_demux == NULL )
         {
-            stream_Delete( p_stream );
             if( vlc_object_alive( p_input ) )
             {
                 msg_Err( p_input, "no suitable demux module for `%s/%s://%s'",
@@ -2426,6 +2425,7 @@ static int InputSourceInit( input_thread_t *p_input,
                                   _("The format of '%s' cannot be detected. "
                                     "Have a look at the log for details."), psz_mrl );
             }
+            stream_Delete( p_stream );
             goto error;
         }
         assert( in->p_demux->pf_demux != NULL );
