@@ -397,8 +397,7 @@ int RarParse(stream_t *s, int *count, rar_file_t ***file, bool b_extonly)
             return VLC_SUCCESS;
 
         const int s_flags = s->i_flags;
-        if (has_next < 0)
-            s->i_flags |= OBJECT_FLAGS_NOINTERACT;
+        s->i_flags |= OBJECT_FLAGS_NOINTERACT;
         vol = stream_UrlNew(s, volume_mrl);
         s->i_flags = s_flags;
 
