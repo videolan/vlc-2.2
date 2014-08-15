@@ -6,7 +6,7 @@
 # nrbbi <nrbbiyoutube@gmail.com>, 2013
 # Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013-2014
 # bbuullll33rr <madsrbojesen@gmail.com>, 2013
-# DeNelo <niels.f@noee.dk>, 2013-2014
+# Adam Jerjir Ancker <nrbbiyoutube@gmail.com>, 2013
 # Peter Jespersen <flywheeldk@gmail.com>, 2013
 # Sejani, 2013
 # ulrik, 2013-2014
@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-06-10 15:44-0400\n"
-"PO-Revision-Date: 2014-04-05 03:04+0000\n"
+"PO-Revision-Date: 2014-07-01 12:21+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/da/)\n"
@@ -416,9 +416,8 @@ msgid "Advanced settings"
 msgstr "Avancerede indstillinger"
 
 #: include/vlc_input.h:568
-#, fuzzy
 msgid "Subtitle track added"
-msgstr "Undertekstspor"
+msgstr "Tilføjede undertekstspor"
 
 #: include/vlc_interface.h:140
 msgid ""
@@ -514,14 +513,12 @@ msgid "Create Folder..."
 msgstr "Opret mappe..."
 
 #: include/vlc_intf_strings.h:70
-#, fuzzy
 msgid "Rename Directory..."
-msgstr "Opret mappe ..."
+msgstr "Omdøb katalog ..."
 
 #: include/vlc_intf_strings.h:71
-#, fuzzy
 msgid "Rename Folder..."
-msgstr "Opret mappe..."
+msgstr "Omdøb mappe ..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
@@ -1124,7 +1121,7 @@ msgstr "Pause"
 
 #: src/config/keys.c:112
 msgid "Print"
-msgstr ""
+msgstr "Udskriv"
 
 #: src/config/keys.c:114 modules/demux/mp4/id3genres.h:76
 msgid "Space"
@@ -1185,9 +1182,8 @@ msgid "Command+"
 msgstr "Æble+"
 
 #: src/darwin/error.c:37
-#, fuzzy
 msgid "Unknown error"
-msgstr "Ukendt video"
+msgstr "Ukendt fejl"
 
 #: src/input/control.c:226
 #, c-format
@@ -1220,27 +1216,24 @@ msgstr "VLC kunne ikke åbne dekodningsmodulet."
 
 #: src/input/decoder.c:691
 msgid "No description for this codec"
-msgstr ""
+msgstr "Ingen beskrivelse for dette codec"
 
 #: src/input/decoder.c:693
-#, fuzzy
 msgid "Codec not supported"
-msgstr "Klientport"
+msgstr "Codec understøttes ikke"
 
 #: src/input/decoder.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr "VLC kunne ikke åbne filen \"%s\" (%m)."
+msgstr "VLC kunne ikke afkode formatet \"%4.4s\" (%s)"
 
 #: src/input/decoder.c:698
-#, fuzzy
 msgid "Unidentified codec"
-msgstr "Video-codec"
+msgstr "Uidentificeret codec"
 
 #: src/input/decoder.c:699
-#, fuzzy
 msgid "VLC could not identify the audio or video codec"
-msgstr "VLC kunne ikke åbne dekodningsmodulet."
+msgstr "VLC kunne ikke identificere lyd- eller videocodec"
 
 #: src/input/es_out.c:926 src/input/es_out.c:931 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -1470,31 +1463,28 @@ msgid "Track ID"
 msgstr "Spor-id"
 
 #: src/input/meta.c:72
-#, fuzzy
 msgid "Number of Tracks"
-msgstr "Antal rækker"
+msgstr "Antallet af spor"
 
 #: src/input/meta.c:73
 msgid "Director"
-msgstr ""
+msgstr "Instruktør"
 
 #: src/input/meta.c:74
 msgid "Season"
-msgstr ""
+msgstr "Sæson"
 
 #: src/input/meta.c:75
 msgid "Episode"
-msgstr ""
+msgstr "Episode"
 
 #: src/input/meta.c:76
-#, fuzzy
 msgid "Show Name"
-msgstr "Vis basal"
+msgstr "Vis navn"
 
 #: src/input/meta.c:77
-#, fuzzy
 msgid "Actors"
-msgstr "Faktor"
+msgstr "Skuespillere"
 
 #: src/input/var.c:158
 msgid "Bookmark"
@@ -2778,12 +2768,10 @@ msgstr ""
 "landekoder på to eller tre bogstaver; du kan også bruge 'any')."
 
 #: src/libvlc-module.c:596
-#, fuzzy
 msgid "Menu language"
-msgstr "Menusprog:"
+msgstr "Menusprog"
 
 #: src/libvlc-module.c:598
-#, fuzzy
 msgid ""
 "Language of the menus you want to use with DVD/BluRay (comma separated, two "
 "or three letters country code, you may use 'any' as a fallback)."
@@ -3270,11 +3258,13 @@ msgid "HTTP/TLS server certificate"
 msgstr "Certifikat for HTTP/TLS-server"
 
 #: src/libvlc-module.c:832
-#, fuzzy
 msgid ""
 "This X.509 certicate file (PEM format) is used for server-side TLS. On OS X, "
 "the string is used as a label to search the certificate in the keychain."
-msgstr "Denne X.509-certifikatfil (PEM-format) bruges til serversiden af TLS."
+msgstr ""
+"Denne X.509-certifikatfil (PEM-format) bruges til serversiden af TLS. På OS "
+"X bruges tekststrengen som etikette ved søgning efter certifikatet i "
+"nøglekæden."
 
 #: src/libvlc-module.c:835
 msgid "HTTP/TLS server private key"
@@ -3305,6 +3295,8 @@ msgid ""
 "This file contains an optional CRL to prevent remote clients from using "
 "revoked certificates in TLS sessions."
 msgstr ""
+"Denne fil indeholder en valgfri CRL, der forhindrer at fjernklienter "
+"anvender tilbagekaldte certifikater i TLS-sessioner."
 
 #: src/libvlc-module.c:849
 msgid "SOCKS server"
@@ -3784,7 +3776,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Use only one instance when started from file manager"
-msgstr ""
+msgstr "Brug kun én instans, når der startes fra filhåndteringen"
 
 #: src/libvlc-module.c:1087
 msgid "Increase the priority of the process"
@@ -3807,7 +3799,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "Enqueue items into playlist in one instance mode"
-msgstr ""
+msgstr "Sæt elementer i spillelistens kø ved tilstanden én instans."
 
 #: src/libvlc-module.c:1099
 msgid ""
@@ -3841,7 +3833,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 #: modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Allow metadata network access"
-msgstr ""
+msgstr "Tillad netværksadgang for metadata"
 
 #: src/libvlc-module.c:1118
 msgid "Services discovery modules"
@@ -4637,7 +4629,7 @@ msgstr "Formindsk skaleringsfaktor"
 
 #: src/libvlc-module.c:1366
 msgid "Toggle deinterlacing"
-msgstr ""
+msgstr "Slå deinterlacing til/fra"
 
 #: src/libvlc-module.c:1367
 msgid "Activate or deactivate deinterlacing."
@@ -4692,11 +4684,11 @@ msgstr "Optagelsesadgangsfiler start/stop."
 
 #: src/libvlc-module.c:1381
 msgid "Normal/Loop/Repeat"
-msgstr ""
+msgstr "Normal/løkke/gentag"
 
 #: src/libvlc-module.c:1382
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr ""
+msgstr "Skift mellem tilstanden normal/gentag/løkke for afspilningslister"
 
 #: src/libvlc-module.c:1385
 msgid "Toggle random playlist playback"
@@ -4903,9 +4895,8 @@ msgid "print version information"
 msgstr "udskriv versionsoplysninger"
 
 #: src/libvlc-module.c:2690
-#, fuzzy
 msgid "core program"
-msgstr "hovedprogram"
+msgstr "kerneprogram"
 
 #: src/misc/update.c:473
 #, c-format
@@ -5816,16 +5807,15 @@ msgstr "Vedhæftet input"
 
 #: modules/access/avio.h:33
 msgid "AVIO"
-msgstr ""
+msgstr "AVIO"
 
 #: modules/access/avio.h:34
 msgid "libavformat AVIO access"
-msgstr ""
+msgstr "libavformat AVIO-adgang"
 
 #: modules/access/avio.h:44
-#, fuzzy
 msgid "libavformat AVIO access output"
-msgstr "Adgangs-output"
+msgstr "uddata for libavformat AVIO-adgang"
 
 #: modules/access/bd/bd.c:54
 msgid "BD"
@@ -5833,49 +5823,53 @@ msgstr "BD"
 
 #: modules/access/bd/bd.c:55
 msgid "Blu-ray Disc Input"
-msgstr ""
+msgstr "Blu-ray-diskinput"
 
 #: modules/access/bluray.c:67
 msgid "Blu-ray menus"
-msgstr ""
+msgstr "Blu-ray-menuer"
 
 #: modules/access/bluray.c:68
 msgid "Use Blu-ray menus. If disabled, the movie will start directly"
 msgstr ""
+"Brug Blu-ray-menuer. Hvis slået fra, så vil filmen starte med det samme"
 
 #: modules/access/bluray.c:70
-#, fuzzy
 msgid "Region code"
-msgstr "Regionens øverste række"
+msgstr "Regionskode"
 
 #: modules/access/bluray.c:71
 msgid ""
 "Blu-Ray player region code. Some discs can be played only with a correct "
 "region code."
 msgstr ""
+"Regionskode for Blu-ray-afspiller. Nogle diske kan kun afspilles med korrekt "
+"regionskode."
 
 #: modules/access/bluray.c:87 modules/services_discovery/udev.c:597
 #: modules/gui/qt4/ui/open_disk.h:300
 msgid "Blu-ray"
-msgstr ""
+msgstr "Blu-ray"
 
 #: modules/access/bluray.c:88
 msgid "Blu-ray Disc support (libbluray)"
-msgstr ""
+msgstr "Diskunderstøttelse af Blu-ray (libbluray)"
 
 #: modules/access/bluray.c:349
 msgid "Path doesn't appear to be a Blu-ray"
-msgstr ""
+msgstr "Stien ser ikke ud til at være en Blu-ray"
 
 #: modules/access/bluray.c:361
 msgid ""
 "This Blu-ray Disc needs a library for AACS decoding, and your system does "
 "not have it."
 msgstr ""
+"Denne Blu-ray-disk kræver et bibliotek til AACS-afkodning, og dit system har "
+"det ikke."
 
 #: modules/access/bluray.c:367
 msgid "Blu-ray Disc is corrupted."
-msgstr ""
+msgstr "Blu-ray-disk er beskadiget."
 
 #: modules/access/bluray.c:369
 msgid "Missing AACS configuration file!"
@@ -5884,6 +5878,8 @@ msgstr "Mangler en AACS-konfigurationsfil!"
 #: modules/access/bluray.c:371
 msgid "No valid processing key found in AACS config file."
 msgstr ""
+"Der blev ikke fundet en gyldig nøgle til behandlingen i config-filen for "
+"AACS. "
 
 #: modules/access/bluray.c:373
 msgid "No valid host certificate found in AACS config file."
@@ -5902,6 +5898,8 @@ msgid ""
 "This Blu-ray Disc needs a library for BD+ decoding, and your system does not "
 "have it."
 msgstr ""
+"Denne Blu-ray-disk kræver et bibliotek til BD+-afkodning, og dit system har "
+"det ikke."
 
 #: modules/access/bluray.c:390
 msgid "Your system BD+ decoding library does not work. Missing configuration?"
@@ -5911,19 +5909,19 @@ msgstr ""
 #: modules/access/bluray.c:438
 msgid "Failed to start bluray playback. Please try without menu support."
 msgstr ""
+"Kunne ikke starte bluray-afspilning. Forsøg venligs uden menuunderstøttelse."
 
 #: modules/access/bluray.c:466
 msgid "Blu-ray error"
-msgstr ""
+msgstr "Blu-ray-fejl"
 
 #: modules/access/bluray.c:1189
-#, fuzzy
 msgid "Top Menu"
-msgstr "Menu"
+msgstr "Topmenu"
 
 #: modules/access/bluray.c:1191
 msgid "First Play"
-msgstr ""
+msgstr "Første afspilning"
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:160
 #: modules/gui/qt4/ui/open_disk.h:301
@@ -5968,14 +5966,12 @@ msgid "IIDC Digital Camera (FireWire) input"
 msgstr "IIDC-input fra digitalt kamera (FireWire)"
 
 #: modules/access/dcp/dcp.cpp:75
-#, fuzzy
 msgid "DCP"
-msgstr "RDP"
+msgstr "DCP"
 
 #: modules/access/dcp/dcp.cpp:78
-#, fuzzy
 msgid "Digital Cinema Package module"
-msgstr "Ekstra brugerflademoduler"
+msgstr "Modul til Digital Cinema Package"
 
 #: modules/access/decklink.cpp:46
 msgid "Input card to use"
@@ -5990,9 +5986,8 @@ msgstr ""
 "er nummereret fra 0."
 
 #: modules/access/decklink.cpp:51
-#, fuzzy
 msgid "Desired input video mode. Leave empty for autodetection."
-msgstr "Ønskede inputtilstand for video"
+msgstr "Ønskede inputtilstand for video. Undlad at udfylde for autodetektion."
 
 #: modules/access/decklink.cpp:53
 msgid ""
@@ -6017,7 +6012,7 @@ msgstr ""
 #: modules/access/decklink.cpp:63 modules/demux/rawaud.c:43
 #: modules/video_output/decklink.cpp:95
 msgid "Audio samplerate (Hz)"
-msgstr ""
+msgstr "Samplingfrekvens for lyd (Hz)"
 
 #: modules/access/decklink.cpp:65
 msgid ""
@@ -6048,6 +6043,9 @@ msgid ""
 "Video connection to use for DeckLink captures. Valid choices: sdi, hdmi, "
 "opticalsdi, component, composite, svideo. Leave blank for card default."
 msgstr ""
+"Videoforbindelse som skal bruges til DeckLink-optagelser. Gyldige valg: sdi, "
+"hdmi, opticalsdi, component, composite, svideo. Lad stå tom for valg af "
+"standardkort."
 
 #: modules/access/decklink.cpp:84 modules/access/linsys/linsys_sdi.c:93
 #: modules/video_output/decklink.cpp:123
@@ -6097,7 +6095,7 @@ msgstr "DeckLink"
 
 #: modules/access/decklink.cpp:100
 msgid "Blackmagic DeckLink SDI input"
-msgstr ""
+msgstr "Blackmagic DeckLink SDI-input"
 
 #: modules/access/decklink.cpp:120 modules/video_output/decklink.cpp:109
 msgid "10 bits"
@@ -6105,7 +6103,7 @@ msgstr "10 bit"
 
 #: modules/access/decklink.cpp:319 modules/demux/ty.c:776
 msgid "Closed captions 1"
-msgstr ""
+msgstr "Tekster for hørehæmmede 1"
 
 #: modules/access/dshow/dshow.cpp:92
 msgid "Cable"
@@ -6205,6 +6203,8 @@ msgid ""
 "Force the DirectShow video input to use a specific frame rate (eg. 0 means "
 "default, 25, 29.97, 50, 59.94, etc.)"
 msgstr ""
+"Tving DirectShow-videoinputtet til at bruge en specifik billedfrekvens (som "
+"eksempel betyder 0 standardværdi, 25, 29.97, 50, 59.94 osv.)"
 
 #: modules/access/dshow/dshow.cpp:155
 msgid "Device properties"
@@ -6403,7 +6403,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:45
 msgid "Do not demultiplex"
-msgstr ""
+msgstr "Undlad at demultiplekse"
 
 #: modules/access/dtv/access.c:47
 msgid ""
@@ -6425,7 +6425,7 @@ msgstr "Netværksnavn som skal oprettes"
 
 #: modules/access/dtv/access.c:54
 msgid "Create unique name in the System Tuning Spaces"
-msgstr ""
+msgstr "Opret et unikt navn i System Tuning Spaces"
 
 #: modules/access/dtv/access.c:56
 msgid "Frequency (Hz)"
@@ -6436,6 +6436,8 @@ msgid ""
 "TV channels are grouped by transponder (a.k.a. multiplex) on a given "
 "frequency. This is required to tune the receiver."
 msgstr ""
+"TV-kanaler grupperes efter transponder (også kendt som multipleks) på en "
+"given frekvens. Dette er påkrævet for at finjustere modtageren."
 
 #: modules/access/dtv/access.c:61
 #: modules/gui/qt4/components/open_panels.cpp:944
@@ -6514,7 +6516,7 @@ msgstr "Kodefrekvens for lag C"
 
 #: modules/access/dtv/access.c:101
 msgid "The code rate for Forward Error Correction can be specified."
-msgstr ""
+msgstr "Kodefrekvensen for fremadrettet fejlkorrigering kan angives."
 
 #: modules/access/dtv/access.c:111
 msgid "Transmission mode"
@@ -6550,7 +6552,7 @@ msgstr "1.712 MHz"
 
 #: modules/access/dtv/access.c:128
 msgid "Guard interval"
-msgstr ""
+msgstr "Sikkerhedsmargin"
 
 #: modules/access/dtv/access.c:136
 msgid "Hierarchy mode"
@@ -6558,7 +6560,7 @@ msgstr "Hierarkisk tilstand"
 
 #: modules/access/dtv/access.c:144
 msgid "DVB-T2 Physical Layer Pipe"
-msgstr ""
+msgstr "DVB-T2 Physical Layer Pipe"
 
 #: modules/access/dtv/access.c:146
 msgid "Layer A segments count"
@@ -6574,15 +6576,15 @@ msgstr "Segmentoptælling for lag C"
 
 #: modules/access/dtv/access.c:150
 msgid "Layer A time interleaving"
-msgstr ""
+msgstr "Lag A - tidsfletning"
 
 #: modules/access/dtv/access.c:151
 msgid "Layer B time interleaving"
-msgstr ""
+msgstr "Lag B - tidsfletning"
 
 #: modules/access/dtv/access.c:152
 msgid "Layer C time interleaving"
-msgstr ""
+msgstr "Lag C - tidsfletning"
 
 #: modules/access/dtv/access.c:154
 msgid "Pilot"
@@ -6590,7 +6592,7 @@ msgstr "Pilot"
 
 #: modules/access/dtv/access.c:156
 msgid "Roll-off factor"
-msgstr ""
+msgstr "Afrulningsfaktor"
 
 #: modules/access/dtv/access.c:161
 msgid "0.35 (same as DVB-S)"
@@ -6651,6 +6653,9 @@ msgid ""
 "receiver are long, higher voltage may be required.\n"
 "Not all receivers support this."
 msgstr ""
+"Hvis kablerne mellem satelitten til nedkonvertering af lavstøj-blokke og "
+"modtageren er lange, så kan der være brug for større spænding.\n"
+"Det er ikke alle modtagere, der understøtter dette."
 
 #: modules/access/dtv/access.c:181
 msgid "Local oscillator low frequency (kHz)"
@@ -6666,10 +6671,13 @@ msgid ""
 "the satellite transmission frequency. The intermediate frequency (IF) on the "
 "RF cable is the result."
 msgstr ""
+"Nedkonverteringsfunktionen (LNB, low noise block) vil fratrække den lokale "
+"oscillationsfrekvens fra satelittens overførselsfrekvens. Resultatet er den "
+"mellemliggende frekvens (IF) på RF-kablet."
 
 #: modules/access/dtv/access.c:187
 msgid "Universal LNB switch frequency (kHz)"
-msgstr ""
+msgstr "Universel omskiftningsfrekvens for universel lavstøjblok/LNB (kHz)"
 
 #: modules/access/dtv/access.c:189
 msgid ""
@@ -6677,6 +6685,9 @@ msgid ""
 "oscillator high frequency will be used as reference. Furthermore the "
 "automatic continuous 22kHz tone will be sent."
 msgstr ""
+"Hvis satelittens overførselsfrekvens overstiger omskifterens frekvens, så "
+"vil oscillatorens højfrekvens blive benyttet som reference. Endvidere vil "
+"den automatiske, vedvarende tone på 22kHz blive sendt."
 
 #: modules/access/dtv/access.c:192
 msgid "Continuous 22kHz tone"
@@ -6687,6 +6698,8 @@ msgid ""
 "A continuous tone at 22kHz can be sent on the cable. This normally selects "
 "the higher frequency band from a universal LNB."
 msgstr ""
+"En vedvarende tone på 22kHz kan sendes gennem kablet. Denne vælger som regel "
+"det højere frekvensbånd fra en universel lavstøjblok/LNB."
 
 #: modules/access/dtv/access.c:197
 msgid "DiSEqC LNB number"
@@ -6698,6 +6711,10 @@ msgid ""
 "downconverters (LNB) through a DiSEqC 1.0 switch, the correct LNB can be "
 "selected (1 to 4). If there is no switch, this parameter should be 0."
 msgstr ""
+"Hvis satelitmodtageren er tilsluttet til flere lavstøjblokke til "
+"nedkonvertering (LNB) gennem en DiSEqC 1.0-omskifter, så kan den rette LNB "
+"vælges (1 til 4). Hvis der ikke er en omskifter, så bør dette parameter være "
+"0."
 
 #: modules/access/dtv/access.c:205 modules/access/v4l2/v4l2.c:136
 #: modules/access/v4l2/v4l2.c:163 modules/access/v4l2/v4l2.c:201
@@ -6716,6 +6733,11 @@ msgid ""
 "selected (1 to 4). If there is no uncommitted switch, this parameter should "
 "be 0."
 msgstr ""
+"Hvis satelitmodtageren er tilsluttet til flere lavstøjblokke til "
+"nedkonvertering (LNB) gennem en kaskade formet ud fra en uforpligtiget "
+"DiSEqC 1.1-omskifter og en forpligtiget DiSeqC 1.0-omskifter, så kan den "
+"rette, uforpligtigede LNB vælges (1 til 4). Hvis der ikke er en "
+"uforpligtiget omskifter, så bør dette parameter være 0."
 
 #: modules/access/dtv/access.c:218
 msgid "Network identifier"
@@ -6910,14 +6932,14 @@ msgid "File reading failed"
 msgstr "Kunne ikke læse fil"
 
 #: modules/access/file.c:178 modules/access/vdr.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\" (%s)."
-msgstr "VLC kunne ikke åbne filen \"%s\" (%m)."
+msgstr "VLC kunne ikke åbne filen \"%s\" (%s)."
 
 #: modules/access/file.c:305 modules/access/vdr.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file (%s)."
-msgstr "VLC kunne ikke læse filen (%m)."
+msgstr "VLC kunne ikke læse filen (%s)."
 
 #: modules/access/fs.c:33
 msgid "Subdirectory behavior"
@@ -6937,11 +6959,11 @@ msgstr ""
 
 #: modules/access/fs.c:42
 msgid "Collapse"
-msgstr ""
+msgstr "Fold sammen"
 
 #: modules/access/fs.c:42
 msgid "Expand"
-msgstr ""
+msgstr "Udfold"
 
 #: modules/access/fs.c:44
 msgid "Ignored extensions"
@@ -6963,12 +6985,17 @@ msgstr ""
 msgid ""
 "Sort alphabetically according to the current language's collation rules."
 msgstr ""
+"Sortér alfabetisk i henhold til reglerne for sammenligning med nuværende "
+"sprog."
 
 #: modules/access/fs.c:54
 msgid ""
 "Sort items in a natural order (for example: 1.ogg 2.ogg 10.ogg). This method "
 "does not take the current language's collation rules into account."
 msgstr ""
+"Sortér elementer i naturlig rækkefølge (eksempelvis 1.ogg 2.ogg 10.ogg).  "
+"Denne metode tager ikke hensyn til reglerne for sammenligning med nuværende "
+"sprog."
 
 #: modules/access/fs.c:55
 msgid "Do not sort the items."
@@ -7573,14 +7600,14 @@ msgid "MTP"
 msgstr "MTP"
 
 #: modules/access/mtp.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file: %s"
-msgstr "VLC kunne ikke læse filen."
+msgstr "VLC kunne ikke læse filen: %s"
 
 #: modules/access/mtp.c:287
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\": %s"
-msgstr "VLC kunne ikke åbne filen \"%s\" (%m)."
+msgstr "VLC kunne ikke åbne filen \"%s\": %s"
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7696,14 +7723,15 @@ msgstr ""
 "MIME-type returneret af serveren (genkendes automatisk hvis ikke angivet)."
 
 #: modules/access_output/http.c:61
-#, fuzzy
 msgid "Metacube"
-msgstr "Meta+"
+msgstr "Metacube"
 
 #: modules/access_output/http.c:62
 msgid ""
 "Use the Metacube protocol. Needed for streaming to the Cubemap reflector."
 msgstr ""
+"Benyt protokollen Metacube. Kræves for at sende strøm til Cubemap-"
+"reflektoren."
 
 #: modules/access_output/http.c:67
 msgid "HTTP stream output"
@@ -7808,13 +7836,13 @@ msgstr ""
 "Generér initialiseringsvektor i stedet ved at bruge segmentnummer som IV"
 
 #: modules/access_output/livehttp.c:105
-#, fuzzy
 msgid "Number of first segment"
-msgstr "Antal segmenter"
+msgstr "Tallet for første segment"
 
 #: modules/access_output/livehttp.c:106
+#, fuzzy
 msgid "The number of the first segment generated"
-msgstr ""
+msgstr "Antallet af genererede segmenter"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -7950,6 +7978,8 @@ msgid ""
 "Pass pulse:// to open the default PulseAudio source, or pulse://SOURCE to "
 "open a specific source named SOURCE."
 msgstr ""
+"Send pulse:// for at åbne PulseAudio-standardkilden, eller pulse://KILDE for "
+"at åbne en specifik kilde med navnet KILDE."
 
 #: modules/access/pulse.c:42
 msgid "PulseAudio"
@@ -8308,31 +8338,31 @@ msgstr ""
 
 #: modules/access/shm.c:46 modules/access/vnc.c:57
 msgid "Frame buffer depth"
-msgstr ""
+msgstr "Dybde på billedbuffer"
 
 #: modules/access/shm.c:48
 msgid "Pixel depth of the frame buffer, or zero for XWD file"
-msgstr ""
+msgstr "Pixeldybde på billedbufferen, eller nul for XWD-fil"
 
 #: modules/access/shm.c:50
 msgid "Frame buffer width"
-msgstr ""
+msgstr "Bredde på billedbuffer"
 
 #: modules/access/shm.c:52
 msgid "Pixel width of the frame buffer (ignored for XWD file)"
-msgstr ""
+msgstr "Pixelbredde på billedbuffer (ignoreres ved XWD-fil)"
 
 #: modules/access/shm.c:54
 msgid "Frame buffer height"
-msgstr ""
+msgstr "Højde på billedbuffer"
 
 #: modules/access/shm.c:56
 msgid "Pixel height of the frame buffer (ignored for XWD file)"
-msgstr ""
+msgstr "Pixelhøjde på billedbufferen (ignoreres ved XWD-fil)"
 
 #: modules/access/shm.c:58
 msgid "Frame buffer segment ID"
-msgstr ""
+msgstr "Segment-id for billedbuffer"
 
 #: modules/access/shm.c:60
 msgid ""
@@ -8342,7 +8372,7 @@ msgstr ""
 
 #: modules/access/shm.c:63
 msgid "Frame buffer file"
-msgstr ""
+msgstr "Fil for billedbuffer"
 
 #: modules/access/shm.c:65
 msgid "Path of the memory mapped file of the frame buffer"
@@ -8422,12 +8452,11 @@ msgstr ""
 
 #: modules/access/udp.c:54
 msgid "Receive buffer"
-msgstr ""
+msgstr "Modtagerbuffer"
 
 #: modules/access/udp.c:55
-#, fuzzy
 msgid "UDP receive buffer size (bytes)"
-msgstr "Størrelse på RTSP-billedbuffer"
+msgstr "Størrelse på UDP-modtagerbuffer (bytes)"
 
 #: modules/access/udp.c:58
 msgid "UDP"
@@ -8443,19 +8472,19 @@ msgstr "Nulstil standardindstillingerne"
 
 #: modules/access/v4l2/v4l2.c:44
 msgid "Video capture device"
-msgstr ""
+msgstr "Enhed til videooptagelse"
 
 #: modules/access/v4l2/v4l2.c:45
 msgid "Video capture device node."
-msgstr ""
+msgstr "Enhedsnode til videooptagelse."
 
 #: modules/access/v4l2/v4l2.c:46
 msgid "VBI capture device"
-msgstr ""
+msgstr "Enhed til VBI-optagelse"
 
 #: modules/access/v4l2/v4l2.c:48
 msgid "The device node where VBI data can be read  (for closed captions) "
-msgstr ""
+msgstr "Enhedsnoden hvor VBI-data kan blive læst (for tekster til hørehæmmede)"
 
 #: modules/access/v4l2/v4l2.c:50 modules/stream_out/standard.c:90
 msgid "Standard"
@@ -8494,10 +8523,12 @@ msgid ""
 "The specified pixel resolution is forced (if both width and height are "
 "strictly positive)."
 msgstr ""
+"Den angivne opløsning af billedpunkter gennemtvinges (hvis både bredde og "
+"højde er entydigt positive)."
 
 #: modules/access/v4l2/v4l2.c:71
 msgid "Maximum frame rate to use (0 = no limits)."
-msgstr ""
+msgstr "Maksimalt anvendt billedfrekvens (0 = ingen begrænsninger)."
 
 #: modules/access/v4l2/v4l2.c:73
 msgid "Radio device"
@@ -8505,7 +8536,7 @@ msgstr "Radioenhed"
 
 #: modules/access/v4l2/v4l2.c:74
 msgid "Radio tuner device node."
-msgstr ""
+msgstr "Enhedsnode for radiotuner."
 
 #: modules/access/v4l2/v4l2.c:75
 #: modules/gui/qt4/components/open_panels.cpp:1051
@@ -8916,7 +8947,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:424
 msgid "Video4Linux compressed A/V input"
-msgstr ""
+msgstr "Video4Linux-komprimeret A/V-input"
 
 #: modules/access/v4l2/v4l2.c:431
 msgid "Video4Linux radio tuner"
@@ -9119,15 +9150,15 @@ msgstr "Kapitelforskyning i ms"
 
 #: modules/access/vdr.c:76
 msgid "Move all chapters. This value should be set in milliseconds."
-msgstr ""
+msgstr "Flyt alle kapitler. Denne værdi bør angives i millisekunder."
 
 #: modules/access/vdr.c:80
 msgid "Default frame rate for chapter import."
-msgstr ""
+msgstr "Standard billedfrekvens for kapitelimport."
 
 #: modules/access/vdr.c:84
 msgid "VDR"
-msgstr ""
+msgstr "VDR"
 
 #: modules/access/vdr.c:87
 msgid "VDR recordings"
@@ -9135,7 +9166,7 @@ msgstr "VDR-optagelser"
 
 #: modules/access/vdr.c:809
 msgid "VDR Cut Marks"
-msgstr ""
+msgstr "VCR-skæremærker"
 
 #: modules/access/vdr.c:872
 msgid "Start"
@@ -9175,7 +9206,7 @@ msgstr ""
 
 #: modules/access/vnc.c:58
 msgid "RGB chroma (RV32, RV24, RV16, RGB2)"
-msgstr ""
+msgstr "RGB-kroma (RV32, RV24, RV16, RGB2)"
 
 #: modules/access/vnc.c:61
 msgid "Compression level"
@@ -9183,7 +9214,7 @@ msgstr "Niveau for komprimering"
 
 #: modules/access/vnc.c:62
 msgid "Transfer compression level from 0 (none) to 9 (max)"
-msgstr ""
+msgstr "Flyt niveau for komprimering fra 0 (ingen) til 9 (maks.)"
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
@@ -9223,19 +9254,19 @@ msgstr "ARM NEON-videochromakonverteringer"
 
 #: modules/arm_neon/simple_channel_mixer.c:47
 msgid "Audio filter for simple channel mixing using NEON assembly"
-msgstr ""
+msgstr "Lydfilter for simpel kanalmixing med brug af NEON-sammensætning"
 
 #: modules/arm_neon/volume.c:38
 msgid "ARM NEON audio volume"
-msgstr ""
+msgstr "ARM NEON-lydstyrke"
 
 #: modules/arm_neon/yuv_rgb.c:35
 msgid "ARM NEON video chroma YUV->RGBA"
-msgstr ""
+msgstr "ARM NEON-videochroma YUV->RGBA"
 
 #: modules/audio_filter/audiobargraph_a.c:39
 msgid "Defines if BarGraph information should be sent"
-msgstr ""
+msgstr "Angiver om BarGraph-information skal sendes"
 
 #: modules/audio_filter/audiobargraph_a.c:40
 msgid ""
@@ -9247,7 +9278,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:42
 msgid "Sends the barGraph information every n audio packets"
-msgstr ""
+msgstr "Sender barGraph-information for hvert n'te lydpakke"
 
 #: modules/audio_filter/audiobargraph_a.c:43
 msgid ""
@@ -9259,7 +9290,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:45
 msgid "Defines if silence alarm information should be sent"
-msgstr ""
+msgstr "Angiver om den lydløse alarm-information skal sendes"
 
 #: modules/audio_filter/audiobargraph_a.c:46
 msgid ""
@@ -9271,7 +9302,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:48
 msgid "Time window to use in ms"
-msgstr ""
+msgstr "Tidsrammen der skal bruges, i ms"
 
 #: modules/audio_filter/audiobargraph_a.c:49
 msgid ""
@@ -9285,7 +9316,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:52
 msgid "Minimum Audio level to raise the alarm"
-msgstr ""
+msgstr "Det mindste lydniveau der aktiverer alarmen"
 
 #: modules/audio_filter/audiobargraph_a.c:53
 msgid ""
@@ -9297,7 +9328,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:56
 msgid "Time between two alarm messages in ms"
-msgstr ""
+msgstr "Tiden mellem to alarmbeskeder i ms"
 
 #: modules/audio_filter/audiobargraph_a.c:57
 msgid ""
@@ -9432,9 +9463,8 @@ msgid "Rear center"
 msgstr "Bagerst i midten"
 
 #: modules/audio_filter/channel_mixer/mono.c:98
-#, fuzzy
 msgid "Stereo to mono downmixer"
-msgstr "Stereotilstand"
+msgstr ""
 
 #: modules/audio_filter/channel_mixer/remap.c:74
 msgid "Audio channel remapper"
@@ -10339,9 +10369,8 @@ msgid "This linear gain will be applied in software."
 msgstr ""
 
 #: modules/audio_output/wasapi.c:457
-#, fuzzy
 msgid "Windows Audio Session API output"
-msgstr "Windows GDI video-uddata"
+msgstr ""
 
 #: modules/audio_output/waveout.c:133
 msgid "Select Audio Device"
@@ -10524,7 +10553,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:102
 msgid "Skip frame (default=0)"
-msgstr ""
+msgstr "Spring over billede (standard=0)"
 
 #: modules/codec/avcodec/avcodec.h:104
 msgid ""
@@ -10882,39 +10911,33 @@ msgid "unknown"
 msgstr "ukendt"
 
 #: modules/codec/avcodec/encoder.c:853
-#, fuzzy
 msgid "video"
-msgstr "S-Video"
+msgstr "video"
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "audio"
-msgstr "Lyd"
+msgstr "lyd"
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "subpicture"
-msgstr "Underbilleder"
+msgstr "underbillede"
 
 #: modules/codec/avcodec/encoder.c:867
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the %4.4s %s encoder."
-msgstr "VLC kunne ikke åbne modulet %s."
+msgstr ""
 
 #: modules/codec/avcodec/hwdummy.c:42
-#, fuzzy
 msgid "Dummy video decoder"
-msgstr "Attrap-dekoder"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:62
-#, fuzzy
 msgid "VA-API video decoder via X11"
-msgstr "PNG-videodekoder"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:64
-#, fuzzy
 msgid "VA-API video decoder via DRM"
-msgstr "PNG-videodekoder"
+msgstr ""
 
 #: modules/codec/avcodec/vda.c:85
 msgid "420YpCbCr8Planar"
@@ -11071,7 +11094,7 @@ msgstr ""
 
 #: modules/codec/fdkaac.c:73
 msgid "VBR Quality"
-msgstr ""
+msgstr "VBR-kvalitet"
 
 #: modules/codec/fdkaac.c:74
 msgid "Quality of the VBR Encoding (0=cbr, 1-5 constant quality vbr, 5 is best"
@@ -11135,7 +11158,7 @@ msgstr "Flac lyd-indkoder"
 
 #: modules/codec/fluidsynth.c:43
 msgid "Sound fonts"
-msgstr ""
+msgstr "Lydskrifttyper"
 
 #: modules/codec/fluidsynth.c:45
 msgid "A sound fonts file is required for software synthesis."
@@ -11143,7 +11166,7 @@ msgstr ""
 
 #: modules/codec/fluidsynth.c:47 modules/demux/mp4/id3genres.h:129
 msgid "Chorus"
-msgstr ""
+msgstr "Kor"
 
 #: modules/codec/fluidsynth.c:49
 msgid "Synthesis gain"
@@ -11157,13 +11180,15 @@ msgstr ""
 
 #: modules/codec/fluidsynth.c:53
 msgid "Polyphony"
-msgstr ""
+msgstr "Polyfoni"
 
 #: modules/codec/fluidsynth.c:55
 msgid ""
 "The polyphony defines how many voices can be played at a time. Larger values "
 "require more processing power."
 msgstr ""
+"Polyfonien afgør hvor mange stemmer, der kan afspilles på samme tid. Større "
+"værdier kræver mere behandlingskraft."
 
 #: modules/codec/fluidsynth.c:58 modules/demux/mod.c:82
 msgid "Reverb"
@@ -11171,7 +11196,7 @@ msgstr "Rumklang"
 
 #: modules/codec/fluidsynth.c:66
 msgid "FluidSynth MIDI synthesizer"
-msgstr ""
+msgstr "FluidSynth MIDI-synthesizer"
 
 #: modules/codec/fluidsynth.c:68
 msgid "FluidSynth"
@@ -11201,9 +11226,8 @@ msgid "Uses GStreamer framework's plugins to decode the media codecs"
 msgstr ""
 
 #: modules/codec/gstdecode.c:72
-#, fuzzy
 msgid "Use DecodeBin"
-msgstr "Afkodning"
+msgstr "Brug DecodeBin"
 
 #: modules/codec/gstdecode.c:74
 msgid ""
@@ -11214,9 +11238,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/gstdecode.c:86
-#, fuzzy
 msgid "GStreamer Based Decoder"
-msgstr "Afkoder for Speex-lyd"
+msgstr ""
 
 #: modules/codec/jpeg.c:50
 msgid ""
@@ -11224,14 +11247,12 @@ msgid ""
 msgstr ""
 
 #: modules/codec/jpeg.c:109
-#, fuzzy
 msgid "JPEG image decoder"
-msgstr "PNG-videodekoder"
+msgstr "Afkoder til JPEG-billeder"
 
 #: modules/codec/jpeg.c:118
-#, fuzzy
 msgid "JPEG image encoder"
-msgstr "PNG-videodekoder"
+msgstr "Indkoder til JPEG-billeder"
 
 #: modules/codec/kate.c:194 modules/codec/subsdec.c:174
 msgid "Formatted Subtitles"
@@ -11416,13 +11437,15 @@ msgstr ""
 
 #: modules/codec/kate.c:240
 msgid "Default font color"
-msgstr ""
+msgstr "Standard skriftfarve"
 
 #: modules/codec/kate.c:241
 msgid ""
 "Default font color to use if the Kate stream does not specify a particular "
 "font color to use."
 msgstr ""
+"Standarden for skriftfarve som skal bruges, hvis Kate-strømmen ikke angiver "
+"at der skal anvendes en særlig skriftfarve."
 
 #: modules/codec/kate.c:245
 msgid "Default font alpha"
@@ -11517,9 +11540,8 @@ msgid "Linear PCM audio encoder"
 msgstr ""
 
 #: modules/codec/mft.c:56
-#, fuzzy
 msgid "Media Foundation Transform decoder"
-msgstr "Raw/Log lyd decoder"
+msgstr ""
 
 #: modules/codec/mmal.c:50
 msgid "Decode frames directly into RPI VideoCore instead of host memory."
@@ -11532,42 +11554,41 @@ msgid ""
 msgstr ""
 
 #: modules/codec/mmal.c:57
-#, fuzzy
 msgid "MMAL decoder"
-msgstr "dekoder"
+msgstr "MMAL-dekoder"
 
 #: modules/codec/mmal.c:58
 msgid "MMAL-based decoder plugin for Raspberry Pi"
-msgstr ""
+msgstr "Udvidelsesmodul til MMAL-baseret dekoder til Raspberry Pi"
 
 #: modules/codec/mpeg_audio.c:107
 msgid "MPEG audio layer I/II/III decoder"
-msgstr ""
+msgstr "Dekoder til lydlag af typen MPEG I/II/III"
 
 #: modules/codec/mpeg_audio.c:114
 msgid "MPEG audio layer I/II/III packetizer"
-msgstr ""
+msgstr "Pakkere til lydlag af typen MPEG I/II/III"
 
 #: modules/codec/omxil/android_mediacodec.c:263
-#, fuzzy
 msgid "Android direct rendering"
-msgstr "Direkte rendering"
+msgstr "Direkte rendering for Android"
 
 #: modules/codec/omxil/android_mediacodec.c:265
 msgid "Enable Android direct rendering using opaque buffers."
 msgstr ""
+"Slå direkte rendering for Android til, med brug af uigennemsigtige buffere."
 
 #: modules/codec/omxil/android_mediacodec.c:270
 msgid "Video decoder using Android MediaCodec"
-msgstr ""
+msgstr "Videodekoder med brug af Android MediaCodec"
 
 #: modules/codec/omxil/omxil.c:81
 msgid "Audio/Video decoder (using OpenMAX IL)"
-msgstr ""
+msgstr "Lyd/video-dekoder (bruger OpenMAX IL)"
 
 #: modules/codec/omxil/omxil.c:97
 msgid "Video encoder (using OpenMAX IL)"
-msgstr ""
+msgstr "Video-indkodning (med brug af OpenMAX IL)"
 
 #: modules/codec/omxil/vout.c:49
 msgid "OpenMAX IL video output"
@@ -11575,29 +11596,27 @@ msgstr ""
 
 #: modules/codec/opus.c:66
 msgid "Opus audio decoder"
-msgstr ""
+msgstr "Opus-lyddekoder"
 
 #: modules/codec/opus.c:68 modules/codec/opus.c:75
 msgid "Opus"
-msgstr ""
+msgstr "Opus"
 
 #: modules/codec/opus.c:73
-#, fuzzy
 msgid "Opus audio encoder"
-msgstr "Indkoder for Speex-lyd"
+msgstr "Opus-lydindkoder"
 
 #: modules/codec/png.c:91
 msgid "PNG video decoder"
 msgstr "PNG-videodekoder"
 
 #: modules/codec/png.c:100
-#, fuzzy
 msgid "PNG video encoder"
-msgstr "PNG-videodekoder"
+msgstr "PNG-videoindkoder"
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
-msgstr ""
+msgstr "Slå softwaretilstand til"
 
 #: modules/codec/qsv.c:57
 msgid ""
@@ -11607,7 +11626,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:61
 msgid "Codec Profile"
-msgstr ""
+msgstr "Codecprofil"
 
 #: modules/codec/qsv.c:63
 msgid ""
@@ -11615,10 +11634,13 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'high'"
 msgstr ""
+"Foretag eksplicit angivelse af codecprofil. Hvis du ikke gør dette, vil "
+"codec'et bestemme den rette profil fra andre kilder, såsom opløsningen og "
+"bitfrekvensen. Eks. 'high'"
 
 #: modules/codec/qsv.c:67
 msgid "Codec Level"
-msgstr ""
+msgstr "Codecniveau"
 
 #: modules/codec/qsv.c:69
 msgid ""
@@ -11626,6 +11648,9 @@ msgid ""
 "the correct profile from other sources, such as resolution and bitrate. E.g. "
 "'4.2' for mpeg4-part10 or 'low' for mpeg2"
 msgstr ""
+"Foretag eksplicit angivelse af codecniveau. Hvis du ikke gør dette, vil "
+"codec'et bestemme den rette profil fra andre kilder, såsom opløsningen og "
+"bitfrekvensen. Eks. '4.2' for mpeg4-part10 eller 'low' for mpeg2"
 
 #: modules/codec/qsv.c:73
 msgid "Group of Picture size"
@@ -11637,6 +11662,9 @@ msgid ""
 "GopPicSize=0, then the GOP size is unspecified. If GopPicSize=1, only I-"
 "frames are used."
 msgstr ""
+"Antallet af billeder inden for nuværende GOP (Group of Pictures, dvs. gruppe "
+"af billeder); hvis GopPicSize=0, så er GOP-størrelsen uspecificeret. Hvis "
+"GopPicSize=1, så bruges der kun I-billeder."
 
 #: modules/codec/qsv.c:79
 msgid "Group of Picture Reference Distance"
@@ -11695,13 +11723,15 @@ msgstr ""
 
 #: modules/codec/qsv.c:110
 msgid "Quantization parameter for I-frames"
-msgstr ""
+msgstr "Parameter til kvantificering af I-billeder"
 
 #: modules/codec/qsv.c:111
 msgid ""
 "Quantization parameter for I-frames. This parameter overrides any qp set "
 "globally. Used only if rc_method is 'qp'."
 msgstr ""
+"Parameter til kvantificering af I-billeder. Dette parameter tilsidesætter "
+"ethvert qp som er angivet globalt. Benyttes kun når rc_method er 'qp'."
 
 #: modules/codec/qsv.c:114
 msgid "Quantization parameter for P-frames"
@@ -11725,7 +11755,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:122
 msgid "Maximum Bitrate"
-msgstr ""
+msgstr "Maksimal bithastighed"
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11845,23 +11875,23 @@ msgstr "Tabsfri tilstand"
 
 #: modules/codec/schroedinger.c:81
 msgid "Constant lambda mode"
-msgstr ""
+msgstr "Konstant lambda-tilstand"
 
 #: modules/codec/schroedinger.c:82
 msgid "Constant error mode"
-msgstr ""
+msgstr "Konstant fejltilstand"
 
 #: modules/codec/schroedinger.c:83
 msgid "Constant quality mode"
-msgstr ""
+msgstr "Konstant kvalitetstilstand"
 
 #: modules/codec/schroedinger.c:87
 msgid "GOP structure"
-msgstr ""
+msgstr "GOP-struktur"
 
 #: modules/codec/schroedinger.c:88
 msgid "GOP structure used to encode the video sequence"
-msgstr ""
+msgstr "GOP-struktur som bruges til indkodning af videosekvensen"
 
 #: modules/codec/schroedinger.c:100
 msgid ""
@@ -11891,11 +11921,11 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:113
 msgid "Noise Threshold"
-msgstr ""
+msgstr "Støjtærskel"
 
 #: modules/codec/schroedinger.c:114
 msgid "Noise threshold to use in constant noise threshold mode"
-msgstr ""
+msgstr "Støjtærskel som anvendes i tilstanden for konstant støjtærskel"
 
 #: modules/codec/schroedinger.c:117
 msgid "CBR bitrate (kbps)"
@@ -11907,19 +11937,23 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:121
 msgid "Maximum bitrate (kbps)"
-msgstr ""
+msgstr "Maksimal bithastighed (kbps)"
 
 #: modules/codec/schroedinger.c:122
 msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
 msgstr ""
+"Maksimal bithastighed i kbps når der indkodes med tilstanden konstant "
+"bithastighed"
 
 #: modules/codec/schroedinger.c:125
 msgid "Minimum bitrate (kbps)"
-msgstr ""
+msgstr "Mindste bithastighed (kbps)"
 
 #: modules/codec/schroedinger.c:126
 msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
 msgstr ""
+"Den mindste bithastighed i kbps når der indkodes med tilstanden konstant "
+"bithastighed"
 
 #: modules/codec/schroedinger.c:129
 msgid "GOP length"
@@ -11941,7 +11975,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:147
 msgid "No pre-filtering"
-msgstr ""
+msgstr "Ingen forhåndsfiltrering"
 
 #: modules/codec/schroedinger.c:148
 msgid "Centre Weighted Median"
@@ -11949,7 +11983,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:149
 msgid "Gaussian Low Pass Filter"
-msgstr ""
+msgstr "Gaussisk lavpasfilter"
 
 #: modules/codec/schroedinger.c:150
 msgid "Add Noise"
@@ -11957,7 +11991,7 @@ msgstr "Tilføj støj"
 
 #: modules/codec/schroedinger.c:151
 msgid "Gaussian Adaptive Low Pass Filter"
-msgstr ""
+msgstr "Gaussisk, adaptivt lavpasfilter"
 
 #: modules/codec/schroedinger.c:152
 msgid "Low Pass Filter"
@@ -12152,7 +12186,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:327
 msgid "Force Profile"
-msgstr ""
+msgstr "Gennemtving profil"
 
 #: modules/codec/schroedinger.c:339
 msgid "VC2 Low Delay Profile"
@@ -12220,7 +12254,7 @@ msgstr ""
 
 #: modules/codec/speex.c:71
 msgid "Maximal bitrate"
-msgstr ""
+msgstr "Maksimal bithastighed"
 
 #: modules/codec/speex.c:73
 msgid "Enforce the maximal VBR bitrate"
@@ -12536,21 +12570,19 @@ msgstr "CP1252"
 
 #: modules/codec/subsusf.c:46
 msgid "USFSubs"
-msgstr ""
+msgstr "USFSubs"
 
 #: modules/codec/subsusf.c:47
 msgid "USF subtitles decoder"
 msgstr ""
 
 #: modules/codec/substx3g.c:40
-#, fuzzy
 msgid "tx3g subtitles decoder"
-msgstr "DVB undertekst dekoder"
+msgstr ""
 
 #: modules/codec/substx3g.c:41
-#, fuzzy
 msgid "tx3g subtitles"
-msgstr "Tekst-TV-undertekster"
+msgstr ""
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
@@ -12702,9 +12734,8 @@ msgid "Vorbis audio encoder"
 msgstr "Vorbis-lydindkoder"
 
 #: modules/codec/vpx.c:49
-#, fuzzy
 msgid "WebM video decoder"
-msgstr "PNG-videodekoder"
+msgstr ""
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
@@ -13521,18 +13552,16 @@ msgid "H.264/MPEG-4 Part 10/AVC encoder (x264 10-bit)"
 msgstr ""
 
 #: modules/codec/x264.c:455
-#, fuzzy
 msgid "H.262/MPEG-2 encoder (x262)"
-msgstr "H.264/MPEG4 AVC-indkoder (x264)"
+msgstr ""
 
 #: modules/codec/x264.c:459
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264)"
 msgstr ""
 
 #: modules/codec/x265.c:45
-#, fuzzy
 msgid "H.265/HEVC encoder (x265)"
-msgstr "H.264/MPEG4 AVC-indkoder (x264)"
+msgstr ""
 
 #: modules/codec/xwd.c:36
 msgid "XWD image decoder"
@@ -13540,7 +13569,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:61
 msgid "Teletext page"
-msgstr ""
+msgstr "Side for tekst-tv"
 
 #: modules/codec/zvbi.c:62
 msgid "Open the indicated Teletext page.Default page is index 100"
@@ -13548,7 +13577,7 @@ msgstr "Åbn den angivne side på tekst-TV. Standardsiden er side 100"
 
 #: modules/codec/zvbi.c:65 modules/gui/qt4/dialogs/toolbar.cpp:504
 msgid "Teletext transparency"
-msgstr ""
+msgstr "Transparens for tekst-tv"
 
 #: modules/codec/zvbi.c:66
 msgid ""
@@ -13569,23 +13598,23 @@ msgstr ""
 
 #: modules/codec/zvbi.c:75
 msgid "Teletext text subtitles"
-msgstr ""
+msgstr "Undertekster for tekst-tv"
 
 #: modules/codec/zvbi.c:76
 msgid "Output teletext subtitles as text instead of as RGBA"
-msgstr ""
+msgstr "Udskriv undertekster for tekst-tv som tekst i stedet for RGBA"
 
 #: modules/codec/zvbi.c:85
 msgid "VBI and Teletext decoder"
-msgstr ""
+msgstr "VBI- og tekst-tv-dekoder"
 
 #: modules/codec/zvbi.c:86
 msgid "VBI & Teletext"
-msgstr ""
+msgstr "VBI & tekst-tv"
 
 #: modules/control/dbus/dbus.c:148
 msgid "DBus"
-msgstr ""
+msgstr "DBus"
 
 #: modules/control/dbus/dbus.c:150
 msgid "D-Bus control interface"
@@ -13608,7 +13637,7 @@ msgstr "VLC medieafspiller"
 
 #: modules/control/dummy.c:37 modules/control/rc.c:175
 msgid "Do not open a DOS command box interface"
-msgstr ""
+msgstr "Undlad at åbne en grænseflade for DOS-kommandoboks"
 
 #: modules/control/dummy.c:39
 msgid ""
@@ -13621,7 +13650,7 @@ msgstr ""
 
 #: modules/control/dummy.c:49
 msgid "Dummy interface"
-msgstr ""
+msgstr "Attrap-grænseflade"
 
 #: modules/control/gestures.c:71
 msgid "Motion threshold (10-100)"
@@ -13679,12 +13708,12 @@ msgstr ""
 #: modules/control/hotkeys.c:195
 #, c-format
 msgid "Loop: %s"
-msgstr ""
+msgstr "Løkke: %s"
 
 #: modules/control/hotkeys.c:202
 #, c-format
 msgid "Random: %s"
-msgstr ""
+msgstr "Tilfælidg: %s"
 
 #: modules/control/hotkeys.c:331
 #, c-format
@@ -13819,7 +13848,7 @@ msgstr ""
 
 #: modules/control/lirc.c:58
 msgid "Infrared"
-msgstr ""
+msgstr "Infrarød"
 
 #: modules/control/lirc.c:61
 msgid "Infrared remote control interface"
@@ -13925,11 +13954,11 @@ msgstr ""
 
 #: modules/control/rc.c:68
 msgid "Initializing"
-msgstr ""
+msgstr "Initialiserer"
 
 #: modules/control/rc.c:69
 msgid "Opening"
-msgstr ""
+msgstr "Åbner"
 
 #: modules/control/rc.c:73
 msgid "Error"
@@ -13942,7 +13971,7 @@ msgstr "Vis stream-position"
 #: modules/control/rc.c:160
 msgid ""
 "Show the current position in seconds within the stream from time to time."
-msgstr ""
+msgstr "Vis nuværende position i sekunder for strømmen fra tid til anden."
 
 #: modules/control/rc.c:163
 msgid "Fake TTY"
@@ -13950,7 +13979,7 @@ msgstr "Falsk TTY"
 
 #: modules/control/rc.c:164
 msgid "Force the rc module to use stdin as if it was a TTY."
-msgstr ""
+msgstr "Gennemtving at modulet rc skal anvende stdin som var det en TTY."
 
 #: modules/control/rc.c:166
 msgid "UNIX socket command input"
@@ -13992,7 +14021,7 @@ msgstr ""
 #: modules/control/rc.c:764
 #, c-format
 msgid "Unknown command `%s'. Type `help' for help."
-msgstr ""
+msgstr "Ukendt kommando \"%s\". Tast \"help\" for hjælp."
 
 #: modules/control/rc.c:782
 msgid "+----[ Remote control commands ]"
@@ -14203,19 +14232,13 @@ msgid "+----[ end of help ]"
 msgstr ""
 
 #: modules/control/rc.c:965
-#, fuzzy
 msgid "Press pause to continue."
 msgstr ""
-"\n"
-"Tast RETUR for at fortsætte...\n"
 
 #: modules/control/rc.c:1191 modules/control/rc.c:1446
 #: modules/control/rc.c:1490
-#, fuzzy
 msgid "Type 'pause' to continue."
 msgstr ""
-"\n"
-"Tryk RETUR-tasten for at fortsætte...\n"
 
 #: modules/control/rc.c:1283
 msgid "Error: `goto' needs an argument greater than zero."
@@ -14352,9 +14375,8 @@ msgid "Avformat"
 msgstr ""
 
 #: modules/demux/avformat/avformat.c:45
-#, fuzzy
 msgid "Demuxer"
-msgstr "Demuxere"
+msgstr ""
 
 #: modules/demux/avformat/avformat.c:56
 msgid "Avformat muxer"
@@ -14374,7 +14396,7 @@ msgstr ""
 
 #: modules/demux/avformat/avformat.h:37
 msgid "Format name"
-msgstr ""
+msgstr "Formatnavn"
 
 #: modules/demux/avformat/avformat.h:38
 msgid "Internal libavcodec format name"
@@ -14445,9 +14467,8 @@ msgid "Fixing AVI Index..."
 msgstr ""
 
 #: modules/demux/caf.c:53
-#, fuzzy
 msgid "CAF demuxer"
-msgstr "AIFF-demuxer"
+msgstr ""
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
@@ -15413,14 +15434,12 @@ msgid "H264 video demuxer"
 msgstr "H264 video demuxer"
 
 #: modules/demux/mpeg/hevc.c:47
-#, fuzzy
 msgid "Desired frame rate for the stream."
-msgstr "Ønsket billedfrekvens til optagelsen."
+msgstr ""
 
 #: modules/demux/mpeg/hevc.c:54
-#, fuzzy
 msgid "HEVC/H.265 video demuxer"
-msgstr "H264 video demuxer"
+msgstr ""
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
@@ -15824,14 +15843,12 @@ msgid ""
 msgstr ""
 
 #: modules/demux/ts.c:133
-#, fuzzy
 msgid "Trust in-stream PCR"
-msgstr "ID for transportstrøm"
+msgstr ""
 
 #: modules/demux/ts.c:134
-#, fuzzy
 msgid "Use the stream PCR as a reference."
-msgstr "Stream til netværk"
+msgstr ""
 
 #: modules/demux/ts.c:137
 msgid "MPEG Transport Stream demuxer"
@@ -16029,16 +16046,14 @@ msgstr "Index"
 #: modules/gui/macosx/AddonManager.m:96 modules/gui/macosx/AddonManager.m:335
 #: modules/gui/qt4/dialogs/plugins.cpp:378
 #: modules/gui/qt4/managers/addons_manager.cpp:86
-#, fuzzy
 msgid "Playlist parsers"
-msgstr "Podcast-fortolker"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:98 modules/gui/macosx/AddonManager.m:337
 #: modules/gui/qt4/dialogs/plugins.cpp:382
 #: modules/gui/qt4/managers/addons_manager.cpp:88
-#, fuzzy
 msgid "Service Discovery"
-msgstr "Opdagelse af tjenester"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:100 modules/gui/macosx/AddonManager.m:339
 #: modules/gui/macosx/MainMenu.m:318 modules/gui/macosx/MainMenu.m:319
@@ -16048,9 +16063,8 @@ msgid "Extensions"
 msgstr "Udvidelser"
 
 #: modules/gui/macosx/AddonManager.m:103
-#, fuzzy
 msgid "Show Installed Only"
-msgstr "Grænseflade"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:105
 #: modules/gui/qt4/dialogs/plugins.cpp:414
@@ -16059,16 +16073,14 @@ msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:115 modules/gui/macosx/MainMenu.m:320
 #: modules/gui/qt4/dialogs/plugins.cpp:80
-#, fuzzy
 msgid "Addons Manager"
-msgstr "Sesions navn"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:118
 #: modules/gui/qt4/dialogs/plugins.cpp:1137
 #: modules/gui/qt4/dialogs/plugins.cpp:1150
-#, fuzzy
 msgid "Installed"
-msgstr "Installér"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:119 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/playlist.m:167 modules/gui/qt4/dialogs/plugins.cpp:123
@@ -16084,9 +16096,8 @@ msgid "Author"
 msgstr "Kunstner"
 
 #: modules/gui/macosx/AddonManager.m:187
-#, fuzzy
 msgid "Uninstall"
-msgstr "Installér"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:333
 #: modules/gui/qt4/dialogs/plugins.cpp:374
@@ -16317,14 +16328,12 @@ msgid "The stream must be playing or paused for bookmarks to work."
 msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:78
-#, fuzzy
 msgid "Show Details"
-msgstr "Vis indstillinger"
+msgstr "Vis detaljer"
 
 #: modules/gui/macosx/BWQuincyUI.m:79
-#, fuzzy
 msgid "Hide Details"
-msgstr "Skjul andre"
+msgstr "Skjul detaljer"
 
 #: modules/gui/macosx/BWQuincyUI.m:81
 msgid "Send"
@@ -16343,25 +16352,24 @@ msgstr "Kommentarer"
 
 #: modules/gui/macosx/BWQuincyUI.m:84
 msgid "Problem details and system configuration"
-msgstr ""
+msgstr "Detaljer om fejl og systemkonfiguration"
 
 #: modules/gui/macosx/BWQuincyUI.m:175
 msgid "Problem Report for %@"
-msgstr ""
+msgstr "Fejlrapport for %@"
 
 #: modules/gui/macosx/BWQuincyUI.m:177
 msgid "Please describe any steps needed to trigger the problem"
-msgstr ""
+msgstr "Beskriv venligst alle de trin som kræves for at udløse denne fejl"
 
 #: modules/gui/macosx/BWQuincyUI.m:178
 msgid "No personal information will be sent with this report."
-msgstr ""
+msgstr "Der vil ikke blive sendt personlige oplysninger i denne rapport."
 
 #: modules/gui/macosx/controls.m:53 modules/gui/macosx/controls.m:57
 #: modules/gui/macosx/MainMenu.m:1527
-#, fuzzy
 msgid "Jump to Time"
-msgstr "Spring til tidspunkt"
+msgstr ""
 
 #: modules/gui/macosx/controls.m:56
 msgid "sec."
@@ -16949,9 +16957,8 @@ msgid "Shows a sidebar in the main window listing media sources."
 msgstr "Viser en sidebjælke i hovedvinduet med mediekilder."
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control external music players"
-msgstr "Kontrolmenu for afspilleren"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:122
 msgid "VLC will pause and resume supported music players on playback."
@@ -16966,14 +16973,12 @@ msgid "Do nothing"
 msgstr "Gør intet"
 
 #: modules/gui/macosx/macosx.m:129
-#, fuzzy
 msgid "Pause iTunes / Spotify"
-msgstr "Paus iTunes"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:129
-#, fuzzy
 msgid "Pause and resume iTunes / Spotify"
-msgstr "Paus og genoptag iTunes"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:132
 msgid "Continue playback where you left off"
@@ -17037,9 +17042,8 @@ msgid "URI"
 msgstr "URI"
 
 #: modules/gui/macosx/MainMenu.m:81
-#, fuzzy
 msgid "File Size"
-msgstr "Doppelt størrelse"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:316
 msgid "Check for Update..."
@@ -17247,9 +17251,8 @@ msgid "Window"
 msgstr "Vindue"
 
 #: modules/gui/macosx/MainMenu.m:444
-#, fuzzy
 msgid "Minimize"
-msgstr "Minimér vindue"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:446
 msgid "Player..."
@@ -17388,9 +17391,8 @@ msgid "Enable Metadata Retrieval"
 msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
-#, fuzzy
 msgid "No, Thanks"
-msgstr "Tak"
+msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
 msgid ""
@@ -17401,9 +17403,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/macosx/misc.m:980
-#, fuzzy
 msgid "B"
-msgstr "BD"
+msgstr ""
 
 #: modules/gui/macosx/misc.m:987
 msgid "KB"
@@ -17498,9 +17499,8 @@ msgid "Custom playback"
 msgstr ""
 
 #: modules/gui/macosx/open.m:157
-#, fuzzy
 msgid "Open VIDEO_TS / BDMV folder"
-msgstr "Åbn VIDEO_TS-mappe"
+msgstr ""
 
 #: modules/gui/macosx/open.m:158
 msgid "Insert Disc"
@@ -17798,9 +17798,8 @@ msgid "Meta-information"
 msgstr "Meta-oplysninger"
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/qt4/input_manager.cpp:135
-#, fuzzy
 msgid "Continue playback?"
-msgstr "Kontrollér iTunes ved afspilning"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/macosx/simple_prefs.m:837
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
@@ -17808,14 +17807,12 @@ msgid "Continue"
 msgstr "Fortsæt"
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Restart playback"
-msgstr "Stop afspilning"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Always continue"
-msgstr "Altid øverst"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
 msgid "Playback of \"%@\" will continue at %@"
@@ -18085,9 +18082,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:375
-#, fuzzy
 msgid "Continue playback"
-msgstr "Kontrollér iTunes ved afspilning"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:378
 msgid "Default Encoding"
@@ -19179,19 +19175,16 @@ msgid " f                      Toggle Fullscreen"
 msgstr ""
 
 #: modules/gui/ncurses.c:894
-#, fuzzy
 msgid " c                      Cycle through audio tracks"
-msgstr "l Slå gentagelse af spillelisten til/fra"
+msgstr ""
 
 #: modules/gui/ncurses.c:895
-#, fuzzy
 msgid " v                      Cycle through subtitles tracks"
-msgstr "l Slå gentagelse af spillelisten til/fra"
+msgstr ""
 
 #: modules/gui/ncurses.c:896
-#, fuzzy
 msgid " b                      Cycle through video tracks"
-msgstr "l Slå gentagelse af spillelisten til/fra"
+msgstr ""
 
 #: modules/gui/ncurses.c:897
 msgid " n, p                   Next/Previous playlist item"
@@ -19982,9 +19975,8 @@ msgid "Do you really want to unsubscribe from %1?"
 msgstr "Sikker på at du vil afmelde dig fra %1?"
 
 #: modules/gui/qt4/components/playlist/sorting.h:64
-#, fuzzy
 msgid "Cover"
-msgstr "Overlægninger"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Directory"
@@ -20003,24 +19995,20 @@ msgid "Enter name for new folder:"
 msgstr "Angiv navnet for den nye mappe:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Directory"
-msgstr "Opret mappe"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Folder"
-msgstr "Opret mappe"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
-#, fuzzy
 msgid "Enter a new name for the directory:"
-msgstr "Angiv navnet for den nye mappe:"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
-#, fuzzy
 msgid "Enter a new name for the folder:"
-msgstr "Angiv navnet for den nye mappe:"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:242
 msgid "Sort by"
@@ -20392,9 +20380,8 @@ msgid "&Start"
 msgstr "&Start"
 
 #: modules/gui/qt4/dialogs/convert.cpp:135
-#, fuzzy
 msgid "Containers"
-msgstr "Fortsæt"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -20628,9 +20615,8 @@ msgid "Plugins and extensions"
 msgstr "Plugin og udvidelser"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:82
-#, fuzzy
 msgid "Active Extensions"
-msgstr "Udvidelser"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:123
 msgid "Capability"
@@ -20685,32 +20671,28 @@ msgid "Retrieving addons..."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:514
-#, fuzzy
 msgid "No addons found"
-msgstr "Ingen inddata fundet"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:793
 msgid "This addon has been installed manually. VLC can't manage it by itself."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1168
-#, fuzzy
 msgid "Version %1"
-msgstr "Version"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1194
 msgid "%1 downloads"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1263
-#, fuzzy
 msgid "&Uninstall"
-msgstr "Installér"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1266
-#, fuzzy
 msgid "&Install"
-msgstr "Installér"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1361
 #: modules/gui/qt4/dialogs/plugins.cpp:1464
@@ -20863,9 +20845,8 @@ msgid "Flat Button"
 msgstr "Flad knap"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
-#, fuzzy
 msgid "Next widget style"
-msgstr "Næste widget-type:"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:77
 msgid "Big Button"
@@ -20900,9 +20881,8 @@ msgid "Time Toolbar"
 msgstr "Tidslinje"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:128
-#, fuzzy
 msgid "Advanced Widget"
-msgstr "Udvidet widget-værktøjslinie:"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:137
 msgid "Fullscreen Controller"
@@ -20921,9 +20901,8 @@ msgid "Select profile:"
 msgstr "Vælg profil:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:185
-#, fuzzy
 msgid "Preview"
-msgstr "Forrige"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:194
 msgid "Cl&ose"
@@ -21371,9 +21350,8 @@ msgid "&Clear"
 msgstr "&Ryd"
 
 #: modules/gui/qt4/menus.cpp:1636
-#, fuzzy
 msgid "&Save To Playlist"
-msgstr "Gem spilleliste"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -21568,9 +21546,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:186
-#, fuzzy
 msgid "Fullscreen controller mouse sensitivity"
-msgstr "Fuldskærmskontrol"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:192
 msgid "When minimized"
@@ -21581,9 +21558,8 @@ msgid "Qt interface"
 msgstr "Qt grænseflade"
 
 #: modules/gui/qt4/recents.cpp:159
-#, fuzzy
 msgid "Recently Played"
-msgstr "Gem nyligt afspillede"
+msgstr ""
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
@@ -21693,77 +21669,64 @@ msgid "Open skin ..."
 msgstr "Åbn skin..."
 
 #: modules/hw/vdpau/adjust.c:182
-#, fuzzy
 msgid "VDPAU adjust video filter"
-msgstr "Rotationsvideofilter"
+msgstr ""
 
 #: modules/hw/vdpau/avcodec.c:45
-#, fuzzy
 msgid "VDPAU video decoder"
-msgstr "PNG-videodekoder"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:820
-#, fuzzy
 msgid "Temporal-spatial"
-msgstr "Rumklang"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:824 modules/hw/vdpau/display.c:45
 msgid "VDPAU"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:825
-#, fuzzy
 msgid "VDPAU surface conversions"
-msgstr "MMX konverteringer fra "
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:833
-#, fuzzy
 msgid "Deinterlacing algorithm"
-msgstr "Deinterlacing-videofilter"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:836
-#, fuzzy
 msgid "Inverse telecine"
-msgstr "Ugyldigt valg"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:838
-#, fuzzy
 msgid "Deinterlace chroma skip"
-msgstr "Deinterlace til"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:839
 msgid "Whether temporal deinterlacing applies to luma only"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:841
-#, fuzzy
 msgid "Noise reduction level"
-msgstr "Støjreduktion"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "Scaling quality"
-msgstr "Indkodningskvalitet"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "High quality scaling level"
-msgstr "Kvalitetsniveau"
+msgstr ""
 
 #: modules/hw/vdpau/deinterlace.c:131
-#, fuzzy
 msgid "VDPAU deinterlacing filter"
-msgstr "Deinterlacing-videofilter"
+msgstr ""
 
 #: modules/hw/vdpau/display.c:46
-#, fuzzy
 msgid "VDPAU output"
-msgstr "YUV-uddata"
+msgstr ""
 
 #: modules/hw/vdpau/sharpen.c:141
-#, fuzzy
 msgid "VDPAU sharpen video filter"
-msgstr "Bølge-videofilter"
+msgstr ""
 
 #: modules/lua/libs/httpd.c:75
 msgid ""
@@ -22172,18 +22135,16 @@ msgid "RTSP VoD"
 msgstr "RTSP VoD"
 
 #: modules/misc/rtsp.c:76
-#, fuzzy
 msgid "Legacy RTSP VoD server"
-msgstr "RTSP VoD-server"
+msgstr ""
 
 #: modules/misc/securetransport.c:53
 msgid "TLS support for OS X and iOS"
 msgstr ""
 
 #: modules/misc/securetransport.c:66
-#, fuzzy
 msgid "TLS server support for OS X"
-msgstr "Port for RTSP-server"
+msgstr ""
 
 #: modules/misc/securetransport.c:335
 msgid "Accept certificate temporarily"
@@ -22269,14 +22230,12 @@ msgid "Unknown Video"
 msgstr "Ukendt video"
 
 #: modules/mux/avi.c:54
-#, fuzzy
 msgid "Subject"
-msgstr " Objekter "
+msgstr ""
 
 #: modules/mux/avi.c:55
-#, fuzzy
 msgid "Encoder"
-msgstr "dekoder"
+msgstr ""
 
 #: modules/mux/avi.c:56
 msgid "Keywords"
@@ -22526,9 +22485,8 @@ msgid "Multipart JPEG muxer"
 msgstr ""
 
 #: modules/mux/ogg.c:47
-#, fuzzy
 msgid "Index interval"
-msgstr "Index-fil"
+msgstr ""
 
 #: modules/mux/ogg.c:48
 msgid ""
@@ -22536,9 +22494,8 @@ msgid ""
 msgstr ""
 
 #: modules/mux/ogg.c:50
-#, fuzzy
 msgid "Index size ratio"
-msgstr "Index-fil"
+msgstr ""
 
 #: modules/mux/ogg.c:52
 msgid "Set index size ratio. Alters default (60min content) or estimated size."
@@ -22597,9 +22554,8 @@ msgid "H.264 video packetizer"
 msgstr ""
 
 #: modules/packetizer/hevc.c:50
-#, fuzzy
 msgid "HEVC/H.265 video packetizer"
-msgstr "MPEG4 video packetizer"
+msgstr ""
 
 #: modules/packetizer/mlp.c:49
 msgid "MLP/TrueHD parser"
@@ -24140,11 +24096,11 @@ msgstr ""
 
 #: modules/video_filter/alphamask.c:64
 msgid "Alpha mask"
-msgstr ""
+msgstr "Alpha-maskering"
 
 #: modules/video_filter/anaglyph.c:39
 msgid "Color scheme"
-msgstr ""
+msgstr "Farveskema"
 
 #: modules/video_filter/anaglyph.c:40
 msgid "Define the glasses' color scheme"
@@ -24156,11 +24112,11 @@ msgstr ""
 
 #: modules/video_filter/antiflicker.c:50
 msgid "Window size"
-msgstr ""
+msgstr "Vinduesstørrelse"
 
 #: modules/video_filter/antiflicker.c:51
 msgid "Number of frames (0 to 100)"
-msgstr ""
+msgstr "Antallet af billeder (0 til 100)"
 
 #: modules/video_filter/antiflicker.c:53
 msgid "Softening value"
@@ -24168,7 +24124,7 @@ msgstr "Blødgøringsværdi"
 
 #: modules/video_filter/antiflicker.c:54
 msgid "Number of frames consider for smoothening (0 to 30)"
-msgstr ""
+msgstr "Antallet af billeder som skal betragtes til udjævning (0 til 30)"
 
 #: modules/video_filter/antiflicker.c:66
 msgid "antiflicker video filter"
@@ -24196,49 +24152,51 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:127
 msgid "Device type"
-msgstr ""
+msgstr "Enhedstype"
 
 #: modules/video_filter/atmo/atmo.cpp:128
 msgid ""
 "Choose your preferred hardware from the list, or choose AtmoWin Software to "
 "delegate processing to the external process - with more options"
 msgstr ""
+"Vælg dit foretrukne udstyr fra listen, eller vælg AtmoWin Software for at "
+"delegere behandling til den eksterne proces - med flere valgmuligheder"
 
 #: modules/video_filter/atmo/atmo.cpp:145
 msgid "AtmoWin Software"
-msgstr ""
+msgstr "AtmoWin Software"
 
 #: modules/video_filter/atmo/atmo.cpp:147
 msgid "Classic AtmoLight"
-msgstr ""
+msgstr "Klassisk AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:148
 msgid "Quattro AtmoLight"
-msgstr ""
+msgstr "Quattro AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:149
 msgid "DMX"
-msgstr ""
+msgstr "DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:150
 msgid "MoMoLight"
-msgstr ""
+msgstr "MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:151
 msgid "fnordlicht"
-msgstr ""
+msgstr "fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:154
 msgid "Count of AtmoLight channels"
-msgstr ""
+msgstr "Antallet af AtmoLight-kanaler"
 
 #: modules/video_filter/atmo/atmo.cpp:155
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
-msgstr ""
+msgstr "Hvor mange AtmoLight-kanaler, der skal emuleres med denne DMX-enhed"
 
 #: modules/video_filter/atmo/atmo.cpp:157
 msgid "DMX address for each channel"
-msgstr ""
+msgstr "DMX-adresse for hver kanal"
 
 #: modules/video_filter/atmo/atmo.cpp:158
 msgid ""
@@ -24490,7 +24448,7 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:263
 #: modules/video_filter/atmo/atmo.cpp:265
 msgid "Used for statistics."
-msgstr ""
+msgstr "Bruges til statistik."
 
 #: modules/video_filter/atmo/atmo.cpp:264
 msgid "Sat windowing"
@@ -24499,12 +24457,12 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:267
 #: modules/gui/qt4/ui/video_effects.h:1473
 msgid "Filter length (ms)"
-msgstr ""
+msgstr "Filterlængde (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:268
 msgid ""
 "Time it takes until a color is completely changed. This prevents flickering."
-msgstr ""
+msgstr "Tiden indtil en farve er ændret komplet. Dette forhindrer flimmer."
 
 #: modules/video_filter/atmo/atmo.cpp:270
 msgid "Filter threshold"
@@ -24534,49 +24492,53 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:286
 msgid "No Filtering"
-msgstr ""
+msgstr "Ingen filtrering"
 
 #: modules/video_filter/atmo/atmo.cpp:287
 msgid "Combined"
-msgstr ""
+msgstr "Kombineret"
 
 #: modules/video_filter/atmo/atmo.cpp:288
 msgid "Percent"
-msgstr ""
+msgstr "Procent"
 
 #: modules/video_filter/atmo/atmo.cpp:291
 msgid "Frame delay (ms)"
-msgstr ""
+msgstr "Billedforsinkelse (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:292
 msgid ""
 "Helps to get the video output and the light effects in sync. Values around "
 "20ms should do the trick."
 msgstr ""
+"Hjælper med at få videooutput og lyseffekter synkroniseret. Værdier omkring "
+"20ms bør fungere."
 
 #: modules/video_filter/atmo/atmo.cpp:297
 msgid "Channel 0: summary"
-msgstr ""
+msgstr "Kanal 0: oversigt"
 
 #: modules/video_filter/atmo/atmo.cpp:298
 msgid "Channel 1: left"
-msgstr ""
+msgstr "Kanal 1: venstre"
 
 #: modules/video_filter/atmo/atmo.cpp:299
 msgid "Channel 2: right"
-msgstr ""
+msgstr "Kanal 2: højre"
 
 #: modules/video_filter/atmo/atmo.cpp:300
 msgid "Channel 3: top"
-msgstr ""
+msgstr "Kanal 3: top"
 
 #: modules/video_filter/atmo/atmo.cpp:301
 msgid "Channel 4: bottom"
-msgstr ""
+msgstr "Kanal 4: bund"
 
 #: modules/video_filter/atmo/atmo.cpp:303
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
 msgstr ""
+"Kortlægger den fysiske kanal X til den logiske zone Y, for at rette forkert "
+"kabelføring :-)"
 
 #: modules/video_filter/atmo/atmo.cpp:314
 msgid "disabled"
@@ -24584,27 +24546,27 @@ msgstr "slået fra"
 
 #: modules/video_filter/atmo/atmo.cpp:315
 msgid "Zone 4:summary"
-msgstr ""
+msgstr "Zone 4:oversigt"
 
 #: modules/video_filter/atmo/atmo.cpp:316
 msgid "Zone 3:left"
-msgstr ""
+msgstr "Zone 3:venstre"
 
 #: modules/video_filter/atmo/atmo.cpp:317
 msgid "Zone 1:right"
-msgstr ""
+msgstr "Zone 1:højre"
 
 #: modules/video_filter/atmo/atmo.cpp:318
 msgid "Zone 0:top"
-msgstr ""
+msgstr "Zone 0:top"
 
 #: modules/video_filter/atmo/atmo.cpp:319
 msgid "Zone 2:bottom"
-msgstr ""
+msgstr "Zone 2:bund"
 
 #: modules/video_filter/atmo/atmo.cpp:321
 msgid "Channel / Zone Assignment"
-msgstr ""
+msgstr "Kanal/zone-tildeling"
 
 #: modules/video_filter/atmo/atmo.cpp:322
 msgid ""
@@ -24669,31 +24631,31 @@ msgstr ""
 #: modules/gui/qt4/ui/video_effects.h:1467
 #: modules/gui/qt4/ui/video_effects.h:1476
 msgid "AtmoLight"
-msgstr ""
+msgstr "AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:367
 msgid "Choose Devicetype and Connection"
-msgstr ""
+msgstr "Vælg enhedstype og forbindelse"
 
 #: modules/video_filter/atmo/atmo.cpp:392
 msgid "Illuminate the room with this color on pause"
-msgstr ""
+msgstr "Oplys værelset med denne farve under pause"
 
 #: modules/video_filter/atmo/atmo.cpp:408
 msgid "Illuminate the room with this color on shutdown"
-msgstr ""
+msgstr "Oplys værelset med denne farve når der lukkes ned"
 
 #: modules/video_filter/atmo/atmo.cpp:419
 msgid "DMX options"
-msgstr ""
+msgstr "DMX-indstillinger"
 
 #: modules/video_filter/atmo/atmo.cpp:425
 msgid "MoMoLight options"
-msgstr ""
+msgstr "MoMoLight-indstillinger"
 
 #: modules/video_filter/atmo/atmo.cpp:432
 msgid "fnordlicht options"
-msgstr ""
+msgstr "fnordlicht-indstillinger"
 
 #: modules/video_filter/atmo/atmo.cpp:474
 msgid "Zone Layout for the build-in Atmo"
@@ -24718,34 +24680,36 @@ msgstr ""
 #: modules/video_filter/audiobargraph_v.c:44 modules/video_filter/erase.c:58
 #: modules/video_filter/logo.c:58
 msgid "X coordinate"
-msgstr ""
+msgstr "X-koordinat"
 
 #: modules/video_filter/audiobargraph_v.c:45
 msgid "X coordinate of the bargraph."
-msgstr ""
+msgstr "X-koordinat på barGraph."
 
 #: modules/video_filter/audiobargraph_v.c:46 modules/video_filter/erase.c:60
 #: modules/video_filter/logo.c:61
 msgid "Y coordinate"
-msgstr ""
+msgstr "Y-koordinat"
 
 #: modules/video_filter/audiobargraph_v.c:47
 msgid "Y coordinate of the bargraph."
-msgstr ""
+msgstr "Y-koordinat på barGraph."
 
 #: modules/video_filter/audiobargraph_v.c:48
 msgid "Transparency of the bargraph"
-msgstr ""
+msgstr "Gennemsigtighed for barGraph"
 
 #: modules/video_filter/audiobargraph_v.c:49
 msgid ""
 "Bargraph transparency value (from 0 for full transparency to 255 for full "
 "opacity)."
 msgstr ""
+"Værdi for gennemsigtighed af barGraph (fra 0 for fuld gennemsigtighed til "
+"255 for komplet uigennemsigtig)."
 
 #: modules/video_filter/audiobargraph_v.c:51
 msgid "Bargraph position"
-msgstr ""
+msgstr "Placeringen af barGraph"
 
 #: modules/video_filter/audiobargraph_v.c:53
 msgid ""
@@ -24753,15 +24717,20 @@ msgid ""
 "4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-"
 "right)."
 msgstr ""
+"Sikrer placeringen af barGraph på videoen (0=midten, 1=venstre, 2=højre, "
+"4=øverst, 8=bunden - du kan også benytte kombinationer af disse værdier, "
+"eks. 6 = øverst til højre)."
 
 #: modules/video_filter/audiobargraph_v.c:56
 msgid "Bar width in pixel (default : 10)"
-msgstr ""
+msgstr "Bjælkens bredde i billedpunkter (standard : 10)"
 
 #: modules/video_filter/audiobargraph_v.c:57
 msgid ""
 "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
 msgstr ""
+"Bredden i billedpunkter for hver bjælke i BarGraph'en, der skal vises "
+"(standard : 10)"
 
 #: modules/video_filter/audiobargraph_v.c:78
 #: modules/video_filter/audiobargraph_v.c:96
@@ -24774,35 +24743,37 @@ msgstr ""
 
 #: modules/video_filter/ball.c:98
 msgid "Ball color"
-msgstr ""
+msgstr "Farve på bold"
 
 #: modules/video_filter/ball.c:100
 msgid "Edge visible"
-msgstr ""
+msgstr "Synlig kant"
 
 #: modules/video_filter/ball.c:101
 msgid "Set edge visibility."
-msgstr ""
+msgstr "Angiv kantens synlighed."
 
 #: modules/video_filter/ball.c:103
 msgid "Ball speed"
-msgstr ""
+msgstr "Boldens hastighed"
 
 #: modules/video_filter/ball.c:104
 msgid ""
 "Set ball speed, the displacement value                                 in "
 "number of pixels by frame."
 msgstr ""
+"Angiv boldens hastighed, ændringsværdien i antal billedpunkter per billede."
 
 #: modules/video_filter/ball.c:107
 msgid "Ball size"
-msgstr ""
+msgstr "Boldens størrelse"
 
 #: modules/video_filter/ball.c:108
 msgid ""
 "Set ball size giving its radius in number                                 of "
 "pixels"
 msgstr ""
+"Angiv boldens størrelse ved at give den en radius i antal af billedpunkter"
 
 #: modules/video_filter/ball.c:111
 msgid "Gradient threshold"
@@ -24822,7 +24793,7 @@ msgstr ""
 
 #: modules/video_filter/ball.c:124
 msgid "Ball"
-msgstr ""
+msgstr "Bold"
 
 #: modules/video_filter/blendbench.c:52
 msgid "Number of time to blend"
@@ -24882,7 +24853,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:80
 msgid "Benchmarking"
-msgstr ""
+msgstr "Ydelsesmåling"
 
 #: modules/video_filter/blendbench.c:86
 msgid "Base image"
@@ -25089,14 +25060,12 @@ msgid "Number of pixels to padd to the right of the image after cropping."
 msgstr ""
 
 #: modules/video_filter/croppadd.c:78
-#, fuzzy
 msgid "Croppadd"
-msgstr "Beskær"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:79
-#, fuzzy
 msgid "Video cropping filter"
-msgstr "Videobeskæring"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -25116,15 +25085,15 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:56
 msgid "Low"
-msgstr ""
+msgstr "Lav"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:57
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:58
 msgid "High"
-msgstr ""
+msgstr "Høj"
 
 #: modules/video_filter/deinterlace/deinterlace.c:55
 msgid "Streaming deinterlace mode"
@@ -25234,9 +25203,8 @@ msgid "Extract RGB component video filter"
 msgstr ""
 
 #: modules/video_filter/freeze.c:77
-#, fuzzy
 msgid "Freezing interactive video filter"
-msgstr "Deinterlacing-videofilter"
+msgstr ""
 
 #: modules/video_filter/freeze.c:78
 msgid "Freeze"
@@ -25782,9 +25750,8 @@ msgid "Motion detect video filter"
 msgstr "Videofilter til bevægelsesdetektering"
 
 #: modules/video_filter/oldmovie.c:185
-#, fuzzy
 msgid "Old movie effect video filter"
-msgstr "Videofilter til bevægelsesdetektering"
+msgstr ""
 
 #: modules/video_filter/oldmovie.c:186
 msgid "Old movie"
@@ -26025,15 +25992,15 @@ msgstr "0"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0/180"
-msgstr ""
+msgstr "0/180"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0/90/180/270"
-msgstr ""
+msgstr "0/90/180/270"
 
 #: modules/video_filter/puzzle.c:75
 msgid "0/90/180/270/mirror"
-msgstr ""
+msgstr "0/90/180/270/spejlvend"
 
 #: modules/video_filter/puzzle.c:83
 msgid "Puzzle interactive game video filter"
@@ -26089,6 +26056,8 @@ msgstr ""
 msgid ""
 "Send mouse events to VNC host. Not needed for use as VDR ffnetdev client."
 msgstr ""
+"Send musehændelser til VNC-vært. Er ikke krævet ved brug af VDR ffnetdev-"
+"klient."
 
 #: modules/video_filter/remoteosd.c:94
 msgid "Key events"
@@ -26136,7 +26105,7 @@ msgstr "Vinkel i grader (0 til 359)"
 
 #: modules/video_filter/rotate.c:56
 msgid "Use motion sensors"
-msgstr ""
+msgstr "Benyt bevægelsessensorer"
 
 #: modules/video_filter/rotate.c:66
 msgid "Rotate video filter"
@@ -26461,16 +26430,15 @@ msgstr "Transformation"
 
 #: modules/video_filter/transform.c:58
 msgid "Rotate or flip the video"
-msgstr ""
+msgstr "Rotér eller vend videoen"
 
 #: modules/video_filter/vhs.c:108
-#, fuzzy
 msgid "VHS movie effect video filter"
-msgstr "Videofilter til bevægelsesdetektering"
+msgstr ""
 
 #: modules/video_filter/vhs.c:109
 msgid "VHS movie"
-msgstr ""
+msgstr "VHS-film"
 
 #: modules/video_filter/wave.c:53
 msgid "Wave video filter"
@@ -26486,21 +26454,19 @@ msgstr "YUVP-konvertering"
 
 #: modules/video_output/aa.c:56
 msgid "ASCII Art"
-msgstr ""
+msgstr "ASCII-kunst"
 
 #: modules/video_output/aa.c:59
 msgid "ASCII-art video output"
 msgstr "ASCII-kunst video-uddata"
 
 #: modules/video_output/android/nativewindow.c:53
-#, fuzzy
 msgid "ANativeWindow"
-msgstr "Aktive vinduer"
+msgstr ""
 
 #: modules/video_output/android/nativewindow.c:54
-#, fuzzy
 msgid "Android native window"
-msgstr "Aktive vinduer"
+msgstr ""
 
 #: modules/video_output/android/opaque.c:47
 msgid "Android MediaCodec direct rendering video output"
@@ -26710,7 +26676,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:50
 msgid "OpenGL ES2"
-msgstr ""
+msgstr "OpenGL ES2"
 
 #: modules/video_output/gl.c:51
 msgid "OpenGL for Embedded Systems 2 video output"
@@ -26718,7 +26684,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:61
 msgid "OpenGL ES"
-msgstr ""
+msgstr "OpenGL ES"
 
 #: modules/video_output/gl.c:62
 msgid "OpenGL for Embedded Systems video output"
@@ -26726,7 +26692,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:71
 msgid "OpenGL"
-msgstr ""
+msgstr "OpenGL"
 
 #: modules/video_output/gl.c:72
 msgid "OpenGL video output (experimental)"
@@ -26764,7 +26730,7 @@ msgstr ""
 
 #: modules/video_output/kva.c:62
 msgid "SNAP"
-msgstr ""
+msgstr "SNAP"
 
 #: modules/video_output/kva.c:62
 msgid "WarpOverlay!"
@@ -26772,25 +26738,23 @@ msgstr ""
 
 #: modules/video_output/kva.c:62
 msgid "VMAN"
-msgstr ""
+msgstr "VMAN"
 
 #: modules/video_output/kva.c:62
 msgid "DIVE"
-msgstr ""
+msgstr "DIVE"
 
 #: modules/video_output/kva.c:72
 msgid "K Video Acceleration video output"
 msgstr ""
 
 #: modules/video_output/macosx.m:86
-#, fuzzy
 msgid "Mac OS X OpenGL video output"
-msgstr "OpenGL video uddata"
+msgstr ""
 
 #: modules/video_output/mmal.c:52
-#, fuzzy
 msgid "VideoCore layer where the video is displayed."
-msgstr "Den mappe dine video-snapshot skal gemmes i."
+msgstr ""
 
 #: modules/video_output/mmal.c:53
 msgid ""
@@ -26835,23 +26799,20 @@ msgid "Pixel Shader"
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:68
-#, fuzzy
 msgid "Choose a pixel shader to apply."
-msgstr "Ryd spillelisten"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:69
-#, fuzzy
 msgid "Path to HLSL file"
-msgstr "Gem fil"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:70
 msgid "Path to an HLSL file containing a single pixel shader."
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:72
-#, fuzzy
 msgid "HLSL File"
-msgstr "Gem fil"
+msgstr "HLSL-fil"
 
 #: modules/video_output/msw/direct3d.c:74
 msgid "Recommended video output for Windows Vista and later versions"
@@ -26990,7 +26951,7 @@ msgstr "Videohukommelsens bufferpitch i byte."
 
 #: modules/video_output/vmem.c:51
 msgid "Chroma"
-msgstr ""
+msgstr "Chroma"
 
 #: modules/video_output/vmem.c:52
 msgid ""
@@ -27054,7 +27015,7 @@ msgstr "VLC"
 
 #: modules/video_output/xcb/x11.c:48
 msgid "X11"
-msgstr ""
+msgstr "X11"
 
 #: modules/video_output/xcb/x11.c:49
 msgid "X11 video output (XCB)"
@@ -27086,11 +27047,11 @@ msgstr "XVideo"
 
 #: modules/video_output/xcb/xvideo.c:63
 msgid "XVideo output (XCB)"
-msgstr ""
+msgstr "XVideo-output (XCB)"
 
 #: modules/video_output/xcb/xvideo.c:335
 msgid "Video acceleration not available"
-msgstr ""
+msgstr "Videoacceleration er ikke tilgængelig"
 
 #: modules/video_output/xcb/xvideo.c:336
 #, c-format
@@ -27152,7 +27113,7 @@ msgstr ""
 
 #: modules/video_splitter/clone.c:55
 msgid "Clone video filter"
-msgstr ""
+msgstr "Klon videofilter"
 
 #: modules/video_splitter/panoramix.c:61
 msgid ""
@@ -27517,9 +27478,8 @@ msgid "The height of the effects video window, in pixels."
 msgstr "Højden af effektvinduet i pixel."
 
 #: modules/visualization/visual/visual.c:61
-#, fuzzy
 msgid "FFT window"
-msgstr "X-vindue"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:63
 msgid "The type of FFT window to use for spectrum-based visualizations."
@@ -27642,7 +27602,7 @@ msgstr ""
 #: share/lua/http/dialogs/browse_window.html:41
 #: share/lua/http/mobile_browse.html:48
 msgid "Play List"
-msgstr ""
+msgstr "Afspilningsliste"
 
 #: share/lua/http/dialogs/create_stream.html:156
 #: modules/gui/qt4/ui/sprefs_audio.h:431 modules/gui/qt4/ui/sprefs_video.h:329
@@ -27651,7 +27611,7 @@ msgstr "Output"
 
 #: share/lua/http/dialogs/create_stream.html:193
 msgid "Subtitle codec"
-msgstr ""
+msgstr "Undertekstcodec"
 
 #: share/lua/http/dialogs/create_stream.html:200
 msgid "Output\tmethod"
@@ -27733,7 +27693,7 @@ msgstr ""
 
 #: share/lua/http/dialogs/stream_window.html:65
 msgid "Time:"
-msgstr ""
+msgstr "Tid:"
 
 #: share/lua/http/index.html:26 share/lua/http/mobile_browse.html:25
 #: share/lua/http/mobile_equalizer.html:25 share/lua/http/mobile_view.html:25
@@ -27774,11 +27734,11 @@ msgstr ""
 
 #: share/lua/http/index.html:244
 msgid "Play Selected"
-msgstr ""
+msgstr "Afspil valgte"
 
 #: share/lua/http/index.html:245
 msgid "Refresh List"
-msgstr ""
+msgstr "Opdatér liste"
 
 #: share/lua/http/index.html:252
 msgid "Loading flowplayer..."
@@ -27827,7 +27787,7 @@ msgstr ""
 
 #: share/lua/http/index.html:278
 msgid "Are you sure you wish to create the stream?"
-msgstr ""
+msgstr "Sikker på at du vil oprette strømmen?"
 
 #: modules/gui/qt4/ui/about.h:288 modules/gui/qt4/ui/open.h:243
 #: modules/gui/qt4/ui/podcast_configuration.h:101
@@ -27837,7 +27797,7 @@ msgstr "Dialog"
 #: modules/gui/qt4/ui/about.h:289 modules/gui/qt4/ui/about.h:290
 #: modules/gui/qt4/dialogs/epg.cpp:83
 msgid "Update"
-msgstr ""
+msgstr "Opdatér"
 
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/open_disk.h:297
 #: modules/gui/qt4/ui/open_net.h:97 modules/gui/qt4/ui/sprefs_audio.h:426
@@ -27862,7 +27822,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:141
 msgid "&Filter:"
-msgstr ""
+msgstr "&Filter:"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
 msgid "&Save as..."
@@ -27910,11 +27870,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open.h:262
 msgid "Select the file"
-msgstr ""
+msgstr "Vælg filen"
 
 #: modules/gui/qt4/ui/open.h:266
 msgid "Change the start time for the media"
-msgstr ""
+msgstr "Skift starttidspunktet for mediet"
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -28030,7 +27990,7 @@ msgstr "ASF/WMV"
 
 #: modules/gui/qt4/ui/profiles.h:692
 msgid "Webm"
-msgstr ""
+msgstr "Webm"
 
 #: modules/gui/qt4/ui/profiles.h:693
 msgid "MJPEG"
@@ -28066,7 +28026,7 @@ msgstr "AVI"
 
 #: modules/gui/qt4/ui/profiles.h:701
 msgid "Features"
-msgstr ""
+msgstr "Funktioner"
 
 #: modules/gui/qt4/ui/profiles.h:703
 msgid "Streamable"
@@ -28078,7 +28038,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:707
 msgid "Menus"
-msgstr ""
+msgstr "Menuer"
 
 #: modules/gui/qt4/ui/profiles.h:714
 msgid "Frame Rate"
@@ -28086,23 +28046,23 @@ msgstr "Frame rate"
 
 #: modules/gui/qt4/ui/profiles.h:715
 msgid "Same as source"
-msgstr ""
+msgstr "Samme som kilde"
 
 #: modules/gui/qt4/ui/profiles.h:717
 msgid " fps"
-msgstr ""
+msgstr "bps"
 
 #: modules/gui/qt4/ui/profiles.h:718
 msgid "Custom options"
-msgstr ""
+msgstr "Brugerdefinerede indstillinger"
 
 #: modules/gui/qt4/ui/profiles.h:719
 msgid "Quality"
-msgstr ""
+msgstr "Kvalitet"
 
 #: modules/gui/qt4/ui/profiles.h:720 modules/gui/qt4/ui/profiles.h:721
 msgid "Not Used"
-msgstr ""
+msgstr "Ikke anvendt"
 
 #: modules/gui/qt4/ui/profiles.h:722 modules/gui/qt4/ui/profiles.h:741
 msgid " kb/s"
@@ -28110,11 +28070,11 @@ msgstr " kb/s"
 
 #: modules/gui/qt4/ui/profiles.h:723 modules/gui/qt4/ui/profiles.h:743
 msgid "Encoding parameters"
-msgstr ""
+msgstr "Indkodningsparametre"
 
 #: modules/gui/qt4/ui/profiles.h:726
 msgid "Frame size"
-msgstr ""
+msgstr "Billedstørrelse"
 
 #: modules/gui/qt4/ui/profiles.h:729 modules/gui/qt4/ui/profiles.h:732
 msgid "px"
@@ -28227,11 +28187,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:445
 msgid "Password:"
-msgstr ""
+msgstr "Adgangskode:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:446
 msgid "Username:"
-msgstr ""
+msgstr "Brugernavn:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:447
 msgid "Submit played tracks stats to Last.fm"
@@ -28251,7 +28211,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "Hardware-accelerated decoding"
-msgstr ""
+msgstr "Fysisk accelereret afkodning"
 
 #: modules/gui/qt4/ui/sprefs_input.h:351
 msgid "Skip H.264 in-loop deblocking filter"
@@ -28263,15 +28223,15 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:353
 msgid "Optical drive"
-msgstr ""
+msgstr "Optisk drev"
 
 #: modules/gui/qt4/ui/sprefs_input.h:354
 msgid "Default optical device"
-msgstr ""
+msgstr "Optisk standarddrev"
 
 #: modules/gui/qt4/ui/sprefs_input.h:358
 msgid "Damaged or incomplete AVI file"
-msgstr ""
+msgstr "Beskadiget eller ufuldstændig AVI-fil"
 
 #: modules/gui/qt4/ui/sprefs_input.h:361
 msgid "HTTP proxy URL"
@@ -28279,11 +28239,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:362
 msgid "HTTP (default)"
-msgstr ""
+msgstr "HTTP (standard)"
 
 #: modules/gui/qt4/ui/sprefs_input.h:363
 msgid "RTP over RTSP (TCP)"
-msgstr ""
+msgstr "RTP over RTSP (TCP)"
 
 #: modules/gui/qt4/ui/sprefs_input.h:364
 msgid "Live555 stream transport"
@@ -28303,7 +28263,7 @@ msgstr "Udseende og funktionsmåde"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:508
 msgid "Use custom skin"
-msgstr ""
+msgstr "Benyt brugerdefineret udseende"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:510
 msgid "This is VLC's default interface, with a native look and feel."
@@ -28311,7 +28271,7 @@ msgstr "Dette er VLCs standardbrugerflade med det oprindelige udseende."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Use native style"
-msgstr ""
+msgstr "Benyt oprindeligt udseende"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:513
 msgid "Resize interface to video size"
@@ -28319,11 +28279,11 @@ msgstr "Tilpas brugerflade til videoens størrelse"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
 msgid "Show controls in full screen mode"
-msgstr ""
+msgstr "Vis kontroller i fuldskærmstilstand"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Pause playback when minimized"
-msgstr ""
+msgstr "Sæt afspilning på pause i minimeret tilstand"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Show media change popup:"
@@ -28331,11 +28291,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:517
 msgid "Start in minimal view mode"
-msgstr ""
+msgstr "Start i minimal visningstilstand"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "Force window style:"
-msgstr ""
+msgstr "Gennemtving vinduesstil:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Integrate video in interface"
@@ -28399,7 +28359,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:295
 msgid "Enable subtitles"
-msgstr ""
+msgstr "Slå undertekster til"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:296
 msgid "Subtitle Language"
@@ -28411,11 +28371,11 @@ msgstr "Standard-indkodning"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:299
 msgid "Subtitle effects"
-msgstr ""
+msgstr "Effekter for undertekster"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:305
 msgid "Add a shadow"
-msgstr ""
+msgstr "Tilføj en skygge"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:307
 #: modules/gui/qt4/ui/video_effects.h:1407
@@ -28431,7 +28391,7 @@ msgstr " px"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:308
 msgid "Add a background"
-msgstr ""
+msgstr "Tilføj en baggrund"
 
 #: modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Accelerated video output (Overlay)"
@@ -28616,9 +28576,8 @@ msgid "Soften"
 msgstr "Blødgør"
 
 #: modules/gui/qt4/ui/video_effects.h:1489
-#, fuzzy
 msgid "Denoiser"
-msgstr "Støj"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1490
 msgid "Spatial luma strength"
@@ -28685,28 +28644,22 @@ msgid "Media Manager List"
 msgstr "Mediestyringsliste"
 
 #: modules/access/avcapture.m:55
-#, fuzzy
 msgid "AVFoundation Video Capture"
-msgstr "Videooptagelse"
+msgstr ""
 
 #: modules/access/avcapture.m:56
-#, fuzzy
 msgid "AVFoundation video capture module."
-msgstr "Lyduddatamodul"
+msgstr ""
 
 #: modules/access/avcapture.m:288 modules/access/avcapture.m:317
-#, fuzzy
 msgid "No video devices found"
-msgstr "Ingen inputenhed fundet"
+msgstr ""
 
 #: modules/access/avcapture.m:289
-#, fuzzy
 msgid ""
 "Your Mac does not seem to be equipped with a suitable video input device. "
 "Please check your connectors and drivers."
 msgstr ""
-"Din Mac ser ikke ud til at være udstyret med en passende inputenhed. Tjek "
-"dine stik og drivere."
 
 #: modules/access/dvb/access.c:54
 msgid "Probe DVB card for capabilities"
@@ -28721,18 +28674,16 @@ msgstr ""
 "denne egenskab fra hvis du oplever problemer."
 
 #: modules/access/dvb/access.c:58
-#, fuzzy
 msgid "Satellite scanning config"
-msgstr "Satellitintervalkode"
+msgstr ""
 
 #: modules/access/dvb/access.c:59
 msgid "filename of config file in share/dvb/dvb-s"
 msgstr ""
 
 #: modules/access/dvb/access.c:62
-#, fuzzy
 msgid "DVB"
-msgstr "DV"
+msgstr "DVB"
 
 #: modules/access/dvb/access.c:63
 msgid "DVB input with v4l2 support"
@@ -28750,56 +28701,46 @@ msgid "Scanning DVB"
 msgstr ""
 
 #: modules/access/qtsound.m:59
-#, fuzzy
 msgid "QTSound"
-msgstr "Surround"
+msgstr ""
 
 #: modules/access/qtsound.m:60
-#, fuzzy
 msgid "QuickTime Sound Capture"
-msgstr "Quicktime-optagelse"
+msgstr ""
 
 #: modules/access/qtsound.m:267
-#, fuzzy
 msgid "No Audio Input device found"
-msgstr "Ingen inputenhed fundet"
+msgstr ""
 
 #: modules/access/qtsound.m:268 modules/access/qtsound.m:295
-#, fuzzy
 msgid ""
 "Your Mac does not seem to be equipped with a suitable audio input device."
 "Please check your connectors and drivers."
 msgstr ""
-"Din Mac ser ikke ud til at være udstyret med en passende inputenhed. Tjek "
-"dine stik og drivere."
 
 #: modules/access/qtsound.m:294
-#, fuzzy
 msgid "No audio input device found"
-msgstr "Ingen inputenhed fundet"
+msgstr ""
 
 #: modules/access/rar/module.c:33
 msgid "Uncompressed RAR"
 msgstr "Ukomprimeret RAR"
 
 #: modules/audio_output/mmdevice.c:1316
-#, fuzzy
 msgid "Windows Multimedia Device output"
-msgstr "Windows GDI video-uddata"
+msgstr ""
 
 #: modules/audio_output/winstore.c:204
-#, fuzzy
 msgid "Windows Store audio output"
-msgstr "Windows GDI video-uddata"
+msgstr ""
 
 #: modules/codec/scte27.c:42
-#, fuzzy
 msgid "SCTE-27 decoder"
-msgstr "G.711-afkoder"
+msgstr "SCTE-27-dekoder"
 
 #: modules/codec/scte27.c:43
 msgid "SCTE-27"
-msgstr ""
+msgstr "SCTE-27"
 
 #: modules/codec/svg.c:51
 msgid "Specify the width to decode the image too"
@@ -28814,18 +28755,16 @@ msgid "Scale factor to apply to image"
 msgstr ""
 
 #: modules/codec/svg.c:63
-#, fuzzy
 msgid "SVG video decoder"
-msgstr "PNG-videodekoder"
+msgstr "SVG-videodekoder"
 
 #: modules/control/win_msg.c:192
 msgid "WinMsg"
-msgstr ""
+msgstr "WinMsg"
 
 #: modules/control/win_msg.c:193
-#, fuzzy
 msgid "Windows messages interface"
-msgstr "Grænseflade til genvejstastehåndtering"
+msgstr ""
 
 #: modules/gui/macosx/DebugMessageVisualizer.m:93
 msgid "Save this Log..."
@@ -28837,9 +28776,8 @@ msgid "VLC Debug Log (%s).rtf"
 msgstr ""
 
 #: modules/gui/qt4/components/epg/EPGWidget.cpp:63
-#, fuzzy
 msgid "No EPG Data Available"
-msgstr "Bedst tilgængelige"
+msgstr "Ingen tilgængelige EPG-data"
 
 #: modules/gui/qt4/dialogs/epg.cpp:117
 msgid " (%1+ rated)"
@@ -28848,36 +28786,30 @@ msgstr ""
 #: modules/gui/qt4/extensions_manager.cpp:181
 #: modules/gui/qt4/extensions_manager.cpp:191
 #: modules/gui/qt4/util/qmenuview.cpp:70
-#, fuzzy
 msgid "Empty"
-msgstr " - Tom - "
+msgstr ""
 
 #: modules/gui/qt4/extensions_manager.cpp:197
-#, fuzzy
 msgid "Deactivate"
-msgstr "Aktivér"
+msgstr "Deaktivér"
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:151
-#, fuzzy
 msgid "Audio Fingerprinting"
-msgstr "Lydinput-pin"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:152
-#, fuzzy
 msgid "Select a matching identity"
-msgstr "Vælg type for optageenheden"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:153
-#, fuzzy
 msgid "No fingerprint has been found"
-msgstr "Ingen inddata fundet"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:154
 msgid "Fingerprinting track..."
 msgstr ""
 
 #: modules/gui/qt4/util/searchlineedit.cpp:113
-#, fuzzy
 msgctxt "Tooltip|Clear"
 msgid "Clear"
 msgstr "Ryd"
@@ -28888,15 +28820,16 @@ msgid ""
 "Extension '%s' does not respond.\n"
 "Do you want to kill it now? "
 msgstr ""
+"Udvidelsen '%s' svarer ikke.\n"
+"Vil du afbryde den nu?"
 
 #: modules/lua/extension.c:1243
 msgid "Extension not responding!"
-msgstr ""
+msgstr "Udvidelsen svarer ikke!"
 
 #: modules/misc/addons/fsstorage.c:80
-#, fuzzy
 msgid "addons local storage"
-msgstr "Maks lokal bitrate"
+msgstr ""
 
 #: modules/misc/addons/fsstorage.c:82
 msgid "Addons local storage installer"
@@ -28907,9 +28840,8 @@ msgid "Addons local storage lister"
 msgstr ""
 
 #: modules/misc/addons/vorepository.c:60
-#, fuzzy
 msgid "Videolan.org's addons finder"
-msgstr "Video transformations filter"
+msgstr ""
 
 #: modules/misc/addons/vorepository.c:62
 msgid "addons.videolan.org addons finder"
@@ -28932,19 +28864,16 @@ msgid "Track fingerprinter (based on Acoustid)"
 msgstr ""
 
 #: modules/stream_out/chromaprint.c:57
-#, fuzzy
 msgid "Duration of the fingerprinting"
-msgstr "Retning af spejlingen"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:58
-#, fuzzy
 msgid "Default: 90sec"
-msgstr "Standard-stream"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:61
-#, fuzzy
 msgid "Chromaprint stream output"
-msgstr "Bro stream-uddata"
+msgstr ""
 
 #: modules/text_renderer/platform_fonts.c:82
 msgid ""
@@ -28953,33 +28882,28 @@ msgid ""
 msgstr ""
 
 #: modules/visualization/glspectrum.c:53
-#, fuzzy
 msgid "The width of the visualization window, in pixels."
-msgstr "Bredden af effektvinduet i pixel."
+msgstr ""
 
 #: modules/visualization/glspectrum.c:56
-#, fuzzy
 msgid "The height of the visualization window, in pixels."
-msgstr "Højden af effektvinduet i pixel."
+msgstr ""
 
 #: modules/visualization/glspectrum.c:59
-#, fuzzy
 msgid "glSpectrum"
-msgstr "Spektrum"
+msgstr ""
 
 #: modules/visualization/glspectrum.c:60
-#, fuzzy
 msgid "3D OpenGL spectrum visualization"
-msgstr "Aktuel visualisering"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Hann"
 msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
-#, fuzzy
 msgid "Flat Top"
-msgstr "Flyd på toppen"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Blackman-Harris"
@@ -28990,14 +28914,12 @@ msgid "Kaiser"
 msgstr ""
 
 #: share/lua/http/view.html:26
-#, fuzzy
 msgid "VLC media player - Flash Viewer"
-msgstr "Opdateringer til VLC medieafspiller"
+msgstr ""
 
 #: share/lua/http/view.html:65
-#, fuzzy
 msgid "Streaming Output"
-msgstr "Streamuddata"
+msgstr ""
 
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
@@ -29136,23 +29058,11 @@ msgstr "Streamuddata"
 #~ msgid "Override the default data/share search path."
 #~ msgstr "Tilsidesæt standardsti for data/deling."
 
-#~ msgid "One instance when started from file"
-#~ msgstr "Én instans når startet fra fil"
-
-#~ msgid "Enqueue items to playlist when in one instance mode"
-#~ msgstr "Tilføj elementer til afspilningslisten i enkeltinstans-tilstand"
-
 #~ msgid "Raise the interface above all other windows."
 #~ msgstr "Hæv grænsefladen over alle andre vinduer."
 
 #~ msgid "Lower the interface below all other windows."
 #~ msgstr "Sænk grænsefladen under alle andre vinduer."
-
-#~ msgid "Normal/Repeat/Loop"
-#~ msgstr "Normal/gentag/løkke"
-
-#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Skift mellem tilstanden normal/gentag/løkke for afspilningslister"
 
 #~ msgid "Display OSD menu on top of video output"
 #~ msgstr "Viser OSD-menuen på toppen af videooutput"
@@ -29199,15 +29109,6 @@ msgstr "Streamuddata"
 #~ "Brug alsa:// for at åbne standardlydinputtet. Hvis der er flere "
 #~ "tilgængelige lydinput, vil de blive skrevet i fejlsøgningsoutputtet. For "
 #~ "at vælge hw:0,1 , skriv alsa://hw0,1 ."
-
-#~ msgid "Blu-Ray Disc Input"
-#~ msgstr "Blu-Ray-diskinput"
-
-#~ msgid "collapse"
-#~ msgstr "fold sammen"
-
-#~ msgid "expand"
-#~ msgstr "fold ud"
 
 #~ msgid "Advertise with Bonjour"
 #~ msgstr "Udsend med Bonjour"
@@ -29279,9 +29180,6 @@ msgstr "Streamuddata"
 
 #~ msgid "cbr"
 #~ msgstr "cbr"
-
-#~ msgid "PVR"
-#~ msgstr "PVR"
 
 #~ msgid "IVTV MPEG Encoding cards input"
 #~ msgstr "IVTV MPEG-indkodningskortinput"
@@ -29355,12 +29253,6 @@ msgstr "Streamuddata"
 #~ msgstr ""
 #~ "TCP-porten der skal bruges til barGraph-videoen (standardværdi er 12345). "
 #~ "Brug den samme port som den der bliver brugt i rc-grænsefladen."
-
-#~ msgid "Time window to use in ms (default 5000)"
-#~ msgstr "Tidsrammen der skal bruges, i ms (standard er 5000)"
-
-#~ msgid "Minimum Audio level to raise the alarm (default 0.1)"
-#~ msgstr "Det mindste lydniveau der aktiverer alarmen (standard er 0,1)"
 
 #~ msgid "Force connection reset regularly (default 1)"
 #~ msgstr ""
@@ -29564,9 +29456,6 @@ msgstr "Streamuddata"
 #~ msgid "00000; "
 #~ msgstr "00000; "
 
-#~ msgid "Enqueue files when in one instance mode"
-#~ msgstr "Sæt filer i kø i når \"Tillad kun én instans\" er valgt"
-
 #, fuzzy
 #~ msgid ""
 #~ "This is a ',' separated string, each objects should be prefixed by a '+' "
@@ -29600,10 +29489,6 @@ msgstr "Streamuddata"
 
 #~ msgid "Advance of subtitles over video:"
 #~ msgstr "Forskydning af undertekster over for billede:"
-
-#, fuzzy
-#~ msgid "Live Update"
-#~ msgstr "Opdatér"
 
 #~ msgid "Disable DVD Menus (for compatibility)"
 #~ msgstr "Slå DVD-menuer fra (for kompatibilitet)"
@@ -29912,9 +29797,6 @@ msgstr "Streamuddata"
 #~ "<b>NOGEN</b> oplysninger, heller ikke anonyme, om din brug af VLC.</p>\n"
 #~ "<p>Vælg derfor blandt følgende muligheder, hvor standardvalget er næsten "
 #~ "ingen adgang til internettet.</p>\n"
-
-#~ msgid "&Update"
-#~ msgstr "Op&datér"
 
 #~ msgid "Sca&le"
 #~ msgstr "Ska&lér"
@@ -30232,9 +30114,6 @@ msgstr "Streamuddata"
 #~ msgid "(c) 1996-2004 the the VideoLAN team team"
 #~ msgstr "(c) 1996-2004 VideoLAN-holdet"
 
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "Kunne ikke finde pixmap-filen: %s"
-
 #~ msgid "Statistics about the currently playing media or stream."
 #~ msgstr "Statistik om det aktuelt spillede medie eller stream."
 
@@ -30362,10 +30241,6 @@ msgstr "Streamuddata"
 #~ msgstr "Ryd"
 
 #, fuzzy
-#~ msgid "Torus"
-#~ msgstr "House"
-
-#, fuzzy
 #~ msgid "Sphere"
 #~ msgstr "Hastighed"
 
@@ -30376,10 +30251,6 @@ msgstr "Streamuddata"
 #, fuzzy
 #~ msgid "A to B"
 #~ msgstr " til "
-
-#, fuzzy
-#~ msgid "&Update List"
-#~ msgstr "Opdatér"
 
 #~ msgid "%s: unrecognized option `--%s'\n"
 #~ msgstr "%s: ukendt tilvalg `--%s'\n"
@@ -30573,9 +30444,6 @@ msgstr "Streamuddata"
 #~ "I fuldskærms-tilstand, beskær billedet hvis nødvendigt for at fylde "
 #~ "skærmen uden sorte ramme (kun OpenGL)."
 
-#~ msgid "%i items in playlist (%i not shown)"
-#~ msgstr "%i elementer i spilleliste (%i ikke vist)"
-
 #, fuzzy
 #~ msgid "Growl"
 #~ msgstr "Gruppe"
@@ -30743,9 +30611,6 @@ msgstr "Streamuddata"
 #~ "Deaktiver denne indstillinger for at deaktivere overspring af frames i "
 #~ "MPEG-2 streams."
 
-#~ msgid "Choose program (SID)"
-#~ msgstr "Vælg program (SID)"
-
 #~ msgid "live.com (RTSP/RTP/SDP) demuxer"
 #~ msgstr "live.com (RTSP/RTP/SDP) demuxer"
 
@@ -30776,9 +30641,6 @@ msgstr "Streamuddata"
 #~ msgstr ""
 #~ "Du kan indstille maksimum højden som et opsætningsvindue i "
 #~ "indstillingsmenuen vil tage."
-
-#~ msgid "Choose the program"
-#~ msgstr "Vælg programmet"
 
 #~ msgid "Open the module manager"
 #~ msgstr "Åbn modulhåndteringen"
@@ -30811,9 +30673,6 @@ msgstr "Streamuddata"
 
 #~ msgid "Item"
 #~ msgstr "Element"
-
-#~ msgid "Couldn't create pixmap from file: %s"
-#~ msgstr "Kunne ikke oprete pixmap fra fil: %s"
 
 #~ msgid "E_xit"
 #~ msgstr "_Afslut"
@@ -30970,9 +30829,6 @@ msgstr "Streamuddata"
 #~ msgid "Input syntax is deprecated"
 #~ msgstr "Inddata-syntaksen bør ikke anvendes"
 
-#~ msgid "RTP de-jitter buffer length (msec)"
-#~ msgstr "Buffer-længde for stabilisering af RTP (msek.)"
-
 #, fuzzy
 #~ msgid "Tuner to use, if there are several ones."
 #~ msgstr "Indstil kvaliteten af streamen"
@@ -31018,9 +30874,6 @@ msgstr "Streamuddata"
 
 #~ msgid "Crops a defined part of the image"
 #~ msgstr "Beskærer en bestemt del af billedet"
-
-#~ msgid "Rotates or flips the image"
-#~ msgstr "Roterer eller vender billedet"
 
 #~ msgid "     D, <del>    Delete an entry"
 #~ msgstr "     D, <del>    Slet en indgang"
@@ -31082,10 +30935,6 @@ msgstr "Streamuddata"
 #, fuzzy
 #~ msgid "Enable the strict rate control algorithm."
 #~ msgstr "Aktiver interlaced indkodning"
-
-#, fuzzy
-#~ msgid "Timestamp:"
-#~ msgstr "Tid"
 
 #~ msgid "The stream must be playing or paused for bookmarks to work"
 #~ msgstr ""
@@ -31346,31 +31195,6 @@ msgstr "Streamuddata"
 #~ msgid "_Modules..."
 #~ msgstr "_Moduler..."
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Vælg dit foretrukne video-output og konfigurér det her."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr "Disse moduler giver netværksfunktioner til alle andre dele af VLC."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Dette er generelle indstillinger for indkodningsmoduler til video, lyd og "
-#~ "undertekster."
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Indstillinger for vinduesudbydere kan konfigureres her."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "I denne sektion kan du bestemme hvordan undertekst-demuxeren skal "
-#~ "fungere, f.eks. ved at angive underteksternes type eller filnavn."
-
-#~ msgid "No suitable decoder module"
-#~ msgstr "Intet passende dekodningsmodul"
-
 #~ msgid ""
 #~ "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
 #~ "there is no way for you to fix this."
@@ -31386,14 +31210,8 @@ msgstr "Streamuddata"
 #~ "tilføje flere placeringer ved at sammensætte dem med \" PATH_SEP \" som "
 #~ "separator"
 
-#~ msgid "Album art policy"
-#~ msgstr "Politik vedr. albumbilleder"
-
 #~ msgid "Choose how album art will be downloaded."
 #~ msgstr "Vælg, hvordan albumbilleder skal hentes."
-
-#~ msgid "Manual download only"
-#~ msgstr "Kun manuel hentning"
 
 #~ msgid "When track starts playing"
 #~ msgstr "Ved afspilning af et spor"
@@ -31401,30 +31219,14 @@ msgstr "Streamuddata"
 #~ msgid "As soon as track is added"
 #~ msgstr "Så snart et spor tilføjes"
 
-#~ msgid "Load Media Library"
-#~ msgstr "Indlæs mediebibliotek"
-
 #~ msgid ""
 #~ "Enable this option to load the SQL-based Media Library at VLC startup"
 #~ msgstr ""
 #~ "Slå dette tilvalg til for at indlæse det SQL-baserede mediebibliotek ved "
 #~ "opstart af VLC"
 
-#~ msgid "main program"
-#~ msgstr "hovedprogram"
-
 #~ msgid "FFmpeg"
 #~ msgstr "FFmpeg"
-
-#~ msgid "FFmpeg access"
-#~ msgstr "FFmpeg-adgang"
-
-#~ msgid "Your system AACS decoding library does not work. Missing keys?"
-#~ msgstr ""
-#~ "Dit systems AACS-afkodningsbibliotek fungerer ikke. Mangler der nøgler?"
-
-#~ msgid "VLC could not open the file \"%s\". (%m)"
-#~ msgstr "VLC kunne ikke åbne filen \"%s\". (%m)"
 
 #~ msgid ""
 #~ "Defines if the TCP connection should be reset. This is to be used when "
@@ -31433,14 +31235,8 @@ msgstr "Streamuddata"
 #~ "Angiver om TCP-forbindelsen skal genstartes. Denne bør bruges sammen med "
 #~ "audiobargraph_v (standard er 1)."
 
-#~ msgid "Audio filter for stereo to mono conversion"
-#~ msgstr "Lydfilter for konvertering af stereo til mono"
-
 #~ msgid "If bitrate=0, use this value for constant quality"
 #~ msgstr "hvis bitrate=0, bruges denne værdi til konstant kvalitet"
-
-#~ msgid "A value > 0 enables constant bitrate mode"
-#~ msgstr "En positiv værdi aktiverer konstant bitrate-tilstand"
 
 #~ msgid "Enable lossless coding"
 #~ msgstr "Aktivér tabsfri kodning"
@@ -31457,12 +31253,6 @@ msgstr "Streamuddata"
 
 #~ msgid "Diagonal Linear Phase"
 #~ msgstr "Diagonal lineær fase"
-
-#~ msgid "Distance between 'P' frames"
-#~ msgstr "Afstand mellem \"P\"-billeder"
-
-#~ msgid "Number of 'P' frames per GOP"
-#~ msgstr "Antallet af \"P\"-billeder per GOP"
 
 #~ msgid "Width of motion compensation blocks"
 #~ msgstr "Bredde af bevægelseskompensationsblokke"
@@ -31488,12 +31278,6 @@ msgstr "Streamuddata"
 #~ msgid "Total vertical block length including overlaps"
 #~ msgstr "Samlet lodret bloklængde inklusive overlap"
 
-#~ msgid "Motion vector precision"
-#~ msgstr "Bevægelsesvektorpræcision"
-
-#~ msgid "Motion vector precision in pels."
-#~ msgstr "Bevægelsesvektorpræcision i pels."
-
 #~ msgid "Simple ME search area x:y"
 #~ msgstr "Simpelt ME-søgningsområde x:y"
 
@@ -31504,26 +31288,11 @@ msgstr "Streamuddata"
 #~ "(Anbefales ikke) Udfør en simpel (ikkehierarkisk blokmatchende "
 #~ "bevægelsesvektorsøgning med søgeområde på +/-x, +/-y"
 
-#~ msgid "Enable spatial partitioning"
-#~ msgstr "Aktivér rumlig partitionering"
-
 #~ msgid "Dirac video encoder using dirac-research library"
 #~ msgstr "Dirac-videoindkoder, som bruger biblioteket dirac-research"
 
-#~ msgid "Jump to time"
-#~ msgstr "Spring til tidspunkt"
-
-#~ msgid "Open CrashLog..."
-#~ msgstr "Åbn nedbrudslog..."
-
-#~ msgid "Don't Send"
-#~ msgstr "Send ikke"
-
 #~ msgid "No CrashLog found"
 #~ msgstr "Ingen CrashLog fundet"
-
-#~ msgid "Pause iTunes during VLC playback"
-#~ msgstr "Paus iTunes under VLC-afspilning"
 
 #~ msgid ""
 #~ "Pauses iTunes playback when VLC playback starts. If selected, iTunes "
@@ -31531,31 +31300,6 @@ msgstr "Streamuddata"
 #~ msgstr ""
 #~ "Pauser iTunes-afspilning når VLC-afspilning starter. iTunes-afspilning "
 #~ "genoptages når VLC-afspilning afsluttes, hvis dette vælges."
-
-#~ msgid "Open BDMV folder"
-#~ msgstr "Åbn BDMV-mappe"
-
-#~ msgid "Album art download policy"
-#~ msgstr "Hentning af albumbilleder"
-
-#~ msgid "Output module"
-#~ msgstr "Uddatamodul"
-
-#~ msgid "Graphic Equalizer"
-#~ msgstr "Grafisk equalizer"
-
-#, fuzzy
-#~ msgid "Automatically retrieve media infos"
-#~ msgstr "Indstil videoforstærkningen automatisk."
-
-#~ msgid "Under the Video"
-#~ msgstr "Under video"
-
-#~ msgid "&Help..."
-#~ msgstr "&Hjælp..."
-
-#~ msgid "Synchronise on audio track"
-#~ msgstr "Synkroniser via lydspor"
 
 #~ msgid ""
 #~ "This option will drop/duplicate video frames to synchronise the video "
@@ -31565,11 +31309,241 @@ msgstr "Streamuddata"
 #~ "duplikere frames for at synkronisere video sporet til lyd sporet"
 
 #, fuzzy
+#~ msgid "Ffmpeg mux"
+#~ msgstr "FFmpeg"
+
+#, fuzzy
+#~ msgid "One instance when started from file"
+#~ msgstr "Brug kun én instans, når der startes fra filhåndteringen"
+
+#, fuzzy
+#~ msgid "Enqueue items to playlist when in one instance mode"
+#~ msgstr "Sæt elementer i spillelistens kø ved tilstanden én instans."
+
+#, fuzzy
+#~ msgid "Normal/Repeat/Loop"
+#~ msgstr "Normal/løkke/gentag"
+
+#, fuzzy
+#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
+#~ msgstr "Skift mellem tilstanden normal/gentag/løkke for afspilningslister"
+
+#, fuzzy
+#~ msgid "Blu-Ray Disc Input"
+#~ msgstr "Blu-ray-diskinput"
+
+#, fuzzy
+#~ msgid "collapse"
+#~ msgstr "Fold sammen"
+
+#, fuzzy
+#~ msgid "expand"
+#~ msgstr "Udfold"
+
+#, fuzzy
+#~ msgid "PVR"
+#~ msgstr "VDR"
+
+#, fuzzy
+#~ msgid "Time window to use in ms (default 5000)"
+#~ msgstr "Tidsrammen der skal bruges, i ms"
+
+#, fuzzy
+#~ msgid "Minimum Audio level to raise the alarm (default 0.1)"
+#~ msgstr "Det mindste lydniveau der aktiverer alarmen"
+
+#, fuzzy
+#~ msgid "Enqueue files when in one instance mode"
+#~ msgstr "Sæt elementer i spillelistens kø ved tilstanden én instans."
+
+#, fuzzy
+#~ msgid "Live Update"
+#~ msgstr "Opdatér"
+
+#, fuzzy
+#~ msgid "&Update"
+#~ msgstr "Opdatér"
+
+#, fuzzy
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "VLC kunne ikke læse filen: %s"
+
+#, fuzzy
+#~ msgid "Torus"
+#~ msgstr "Kor"
+
+#, fuzzy
+#~ msgid "&Update List"
+#~ msgstr "Opdatér"
+
+#, fuzzy
+#~ msgid "%i items in playlist (%i not shown)"
+#~ msgstr "Sæt elementer i spillelistens kø ved tilstanden én instans."
+
+#, fuzzy
+#~ msgid "Choose program (SID)"
+#~ msgstr "kerneprogram"
+
+#, fuzzy
+#~ msgid "Choose the program"
+#~ msgstr "kerneprogram"
+
+#, fuzzy
+#~ msgid "Couldn't create pixmap from file: %s"
+#~ msgstr "VLC kunne ikke læse filen: %s"
+
+#, fuzzy
+#~ msgid "RTP de-jitter buffer length (msec)"
+#~ msgstr "Filterlængde (ms)"
+
+#, fuzzy
+#~ msgid "Rotates or flips the image"
+#~ msgstr "Rotér eller vend videoen"
+
+#, fuzzy
+#~ msgid "Timestamp:"
+#~ msgstr "Tid:"
+
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Vælg dit foretrukne video-output og konfigurér det her."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr "Disse moduler giver netværksfunktioner til alle andre dele af VLC."
+
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr ""
+#~ "Dette er generelle indstillinger for indkodningsmoduler til video, lyd og "
+#~ "undertekster."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Indstillinger for vinduesudbydere kan konfigureres her."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "I denne sektion kan du bestemme hvordan undertekst-demuxeren skal "
+#~ "fungere, f.eks. ved at angive underteksternes type eller filnavn."
+
+#, fuzzy
+#~ msgid "No suitable decoder module"
+#~ msgstr "DVB undertekst dekoder"
+
+#, fuzzy
+#~ msgid "Album art policy"
+#~ msgstr "Hentning af albumbilleder"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Hentning af albumbilleder"
+
+#, fuzzy
+#~ msgid "Load Media Library"
+#~ msgstr "Mediebibliotek"
+
+#, fuzzy
+#~ msgid "main program"
+#~ msgstr "kerneprogram"
+
+#, fuzzy
+#~ msgid "FFmpeg access"
+#~ msgstr "Zip-tilgang"
+
+#, fuzzy
+#~ msgid "Your system AACS decoding library does not work. Missing keys?"
+#~ msgstr ""
+#~ "Dit systems afkodningsbibliotek for BD+ fungerer ikke. Mangles der "
+#~ "opsætning?"
+
+#, fuzzy
+#~ msgid "VLC could not open the file \"%s\". (%m)"
+#~ msgstr "VLC kunne ikke åbne filen \"%s\" (%s)."
+
+#, fuzzy
+#~ msgid "Audio filter for stereo to mono conversion"
+#~ msgstr "Lydfilter for PCM-formatkonvertering"
+
+#, fuzzy
+#~ msgid "A value > 0 enables constant bitrate mode"
+#~ msgstr ""
+#~ "Maksimal bithastighed i kbps når der indkodes med tilstanden konstant "
+#~ "bithastighed"
+
+#, fuzzy
+#~ msgid "Distance between 'P' frames"
+#~ msgstr "Maks QP-trin mellem billeder."
+
+#, fuzzy
+#~ msgid "Number of 'P' frames per GOP"
+#~ msgstr "Antallet af billeder (0 til 100)"
+
+#, fuzzy
+#~ msgid "Motion vector precision"
+#~ msgstr "Bevægelsesdetektering"
+
+#, fuzzy
+#~ msgid "Motion vector precision in pels."
+#~ msgstr "Andenakse for optagelsesområdet i pixel."
+
+#, fuzzy
+#~ msgid "Enable spatial partitioning"
+#~ msgstr "Aktivér intern upmixing"
+
+#, fuzzy
+#~ msgid "Jump to time"
+#~ msgstr "Gå til tidspunkt"
+
+#, fuzzy
+#~ msgid "Open CrashLog..."
+#~ msgstr "Åbn disk..."
+
+#, fuzzy
+#~ msgid "Don't Send"
+#~ msgstr "Vis ikke"
+
+#, fuzzy
+#~ msgid "Pause iTunes during VLC playback"
+#~ msgstr "Sæt afspilning på pause"
+
+#, fuzzy
+#~ msgid "Open BDMV folder"
+#~ msgstr "Åbn mappe"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Hentning af albumbilleder"
+
+#, fuzzy
+#~ msgid "Output module"
+#~ msgstr "Outputmoduler"
+
+#, fuzzy
+#~ msgid "Graphic Equalizer"
+#~ msgstr "Parametrisk equalizer"
+
+#, fuzzy
+#~ msgid "Automatically retrieve media infos"
+#~ msgstr "Indstil videoforstærkningen automatisk."
+
+#, fuzzy
+#~ msgid "Under the Video"
+#~ msgstr "Over video"
+
+#, fuzzy
+#~ msgid "&Help..."
+#~ msgstr "&Hjælp"
+
+#, fuzzy
+#~ msgid "Synchronise on audio track"
+#~ msgstr "Næste lydspor"
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Tilføj undertekstfil:"
 
+#, fuzzy
 #~ msgid "Album art download policy:"
-#~ msgstr "Hentning af albumbilleder:"
+#~ msgstr "Hentning af albumbilleder"
 
 #, fuzzy
 #~ msgid "Allows you to reduce the speed of the animation (default 6, max 10)."
@@ -31591,7 +31565,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Video4Linux2 Compressed A/V"
-#~ msgstr "Radiotuner for Video4Linux"
+#~ msgstr "Video4Linux-komprimeret A/V-input"
 
 #, fuzzy
 #~ msgid "Low resolution decoding"
@@ -31669,11 +31643,11 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Force IPv6"
-#~ msgstr "Tving fed"
+#~ msgstr "Gennemtving profil"
 
 #, fuzzy
 #~ msgid "Force IPv4"
-#~ msgstr "Tving fed"
+#~ msgstr "Gennemtving profil"
 
 #, fuzzy
 #~ msgid "     a           Volume Up"
@@ -31702,7 +31676,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "CPU features"
-#~ msgstr "Gestusser"
+#~ msgstr "Funktioner"
 
 #, fuzzy
 #~ msgid "Chroma modules settings"
@@ -31765,7 +31739,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "Indlæs mediebibliotek"
+#~ msgstr "Mediebibliotek"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -31870,7 +31844,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Allow only one running instance when started from file."
-#~ msgstr "Tillad kun én instans af VLC ad gangen"
+#~ msgstr "Brug kun én instans, når der startes fra filhåndteringen"
 
 #, fuzzy
 #~ msgid "Leave fullscreen"
@@ -31906,7 +31880,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "CPU"
-#~ msgstr "TCP"
+#~ msgstr "DCP"
 
 #, fuzzy
 #~ msgid "Greek, Modern ()"
@@ -31929,12 +31903,12 @@ msgstr "Streamuddata"
 #~ "Force the DirectShow video input to use a specific frame rate(eg. 0 means "
 #~ "default, 25, 29.97, 50, 59.94, etc.)"
 #~ msgstr ""
-#~ "Tving DirectShow-videoinput til at bruge et specifikt chromaformat (f."
-#~ "eks. I420 (standard), RV24 osv.)"
+#~ "Tving DirectShow-videoinputtet til at bruge en specifik billedfrekvens "
+#~ "(som eksempel betyder 0 standardværdi, 25, 29.97, 50, 59.94 osv.)"
 
 #, fuzzy
 #~ msgid "Refresh list"
-#~ msgstr "Opdateringstid"
+#~ msgstr "Opdatér liste"
 
 #, fuzzy
 #~ msgid "VLC cannot open ANY capture device.Check the error log for details."
@@ -31974,7 +31948,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "B Frames"
-#~ msgstr "Frame efter frame"
+#~ msgstr "Billedstørrelse"
 
 #, fuzzy
 #~ msgid "Bitrate peak"
@@ -32038,27 +32012,19 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Defines if BarGraph information should be sent (default 1)"
-#~ msgstr ""
-#~ "Angiver om der skal sendes barGraph-information. 1 hvis informationen "
-#~ "skal sendes, ellers 0 (standardværdi er 1)."
+#~ msgstr "Angiver om BarGraph-information skal sendes"
 
 #, fuzzy
 #~ msgid "Sends the barGraph information every n audio packets (default 4)"
-#~ msgstr ""
-#~ "Angiver hvor ofte barGraph-informationerne skal sendes. Sender barGraph "
-#~ "informationerne for hver n'te lydpakke (standardværdi er 4)."
+#~ msgstr "Sender barGraph-information for hvert n'te lydpakke"
 
 #, fuzzy
 #~ msgid "Defines if silence alarm information should be sent (default 1)"
-#~ msgstr ""
-#~ "Angiver om den lydløse alarm-information skal sendes. 1 hvis "
-#~ "informationen skal sendes, ellers 0 (standard er 1)."
+#~ msgstr "Angiver om den lydløse alarm-information skal sendes"
 
 #, fuzzy
 #~ msgid "Time between two alarm messages in ms (default 2000)"
-#~ msgstr ""
-#~ "Tiden mellem to alarmbeskeder i ms. Denne værdi bliver brugt til at undgå "
-#~ "at alarmer overlapper (standard er 2000)."
+#~ msgstr "Tiden mellem to alarmbeskeder i ms"
 
 #, fuzzy
 #~ msgid "Fixed point audio format conversions"
@@ -32271,7 +32237,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Enable spatializer"
-#~ msgstr "Rumklang"
+#~ msgstr "Slå undertekster til"
 
 #, fuzzy
 #~ msgid "Radio device name"
@@ -32495,7 +32461,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Loop/Repeat mode"
-#~ msgstr "Interval mellem gentagelser:"
+#~ msgstr "Normal/løkke/gentag"
 
 #, fuzzy
 #~ msgid "1/2"
@@ -32516,10 +32482,6 @@ msgstr "Streamuddata"
 #, fuzzy
 #~ msgid "Treble"
 #~ msgstr "Diskantniveau"
-
-#, fuzzy
-#~ msgid "Ffmpeg mux"
-#~ msgstr "FFmpeg"
 
 #, fuzzy
 #~ msgid "Minimal View..."
@@ -32631,7 +32593,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
-#~ msgstr "Grafisk equalizer"
+#~ msgstr "Parametrisk equalizer"
 
 #, fuzzy
 #~ msgid "Create Stream"
@@ -32801,9 +32763,7 @@ msgstr "Streamuddata"
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for Alsa captures. This value should be set in milliseconds."
-#~ msgstr ""
-#~ "Standardcacheværdi for udgående UDP-strømme. Denne værdi skal være i "
-#~ "millisekunder."
+#~ msgstr "Flyt alle kapitler. Denne værdi bør angives i millisekunder."
 
 #, fuzzy
 #~ msgid ""
@@ -33118,11 +33078,11 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
-#~ msgstr "VLC kunne ikke åbne filen \"%s\" (%m)."
+#~ msgstr "VLC kunne ikke åbne filen \"%s\" (%s)."
 
 #, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "Ukendt video"
+#~ msgstr "Ukendt fejl"
 
 #, fuzzy
 #~ msgid "Roku HD1000 audio output"
@@ -33382,7 +33342,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Dummy interface function"
-#~ msgstr "Lua-grænsefladeopsætning"
+#~ msgstr "Attrap-grænseflade"
 
 #, fuzzy
 #~ msgid "Dummy demux function"
@@ -33694,7 +33654,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Unknown command!"
-#~ msgstr "Ukendt video"
+#~ msgstr "Ukendt fejl"
 
 #, fuzzy
 #~ msgid "Height of the zone triggering the interface."
@@ -33869,7 +33829,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Quality:"
-#~ msgstr "Kvalitetsniveau"
+#~ msgstr "Kvalitet"
 
 #, fuzzy
 #~ msgid "Tuner:"
@@ -34137,7 +34097,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Screen to be used for fullscreen mode."
-#~ msgstr "Start video i fuldskærmstilstand"
+#~ msgstr "Vis kontroller i fuldskærmstilstand"
 
 #, fuzzy
 #~ msgid "XVMC extension video output"
@@ -34635,7 +34595,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Timeout:"
-#~ msgstr "Timeout (ms)"
+#~ msgstr "Tid:"
 
 #, fuzzy
 #~ msgid "Next track"
@@ -34703,7 +34663,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Disc type"
-#~ msgstr "Disk"
+#~ msgstr "Enhedstype"
 
 #, fuzzy
 #~ msgid "RTSP"
@@ -34929,7 +34889,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Play faster"
-#~ msgstr "Afspil og stop"
+#~ msgstr "Afspilningsliste"
 
 #, fuzzy
 #~ msgid "Extended &GUI\tCtrl-G"
@@ -35060,7 +35020,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Security options"
-#~ msgstr "Beskrivelse"
+#~ msgstr "Brugerdefinerede indstillinger"
 
 #, fuzzy
 #~ msgid "Video Device"
@@ -35080,7 +35040,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Find a name"
-#~ msgstr "Filnavne:"
+#~ msgstr "Formatnavn"
 
 #, fuzzy
 #~ msgid "About VLC media player..."
@@ -35348,7 +35308,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Audio filter for s16->float32 with endianness conversion"
-#~ msgstr "Lydfilter for konvertering af stereo til mono"
+#~ msgstr "Lydfilter for PCM-formatkonvertering"
 
 #, fuzzy
 #~ msgid "Audio filter for s8->float32 conversion"
@@ -35368,7 +35328,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Mime type"
-#~ msgstr "Mime"
+#~ msgstr "Enhedstype"
 
 #, fuzzy
 #~ msgid "Enable skinned playlist"
@@ -35879,7 +35839,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Switch program"
-#~ msgstr "hovedprogram"
+#~ msgstr "kerneprogram"
 
 #, fuzzy
 #~ msgid "_Navigation"
@@ -35887,7 +35847,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Toggle _Interface"
-#~ msgstr "Grænseflade"
+#~ msgstr "Slå deinterlacing til/fra"
 
 #, fuzzy
 #~ msgid "stream output"
@@ -35911,7 +35871,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Exit the program"
-#~ msgstr "hovedprogram"
+#~ msgstr "kerneprogram"
 
 #, fuzzy
 #~ msgid "_View"
@@ -36156,7 +36116,7 @@ msgstr "Streamuddata"
 
 #, fuzzy
 #~ msgid "Password: "
-#~ msgstr "Adgangskode"
+#~ msgstr "Adgangskode:"
 
 #, fuzzy
 #~ msgid "Big"
