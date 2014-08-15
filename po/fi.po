@@ -5,6 +5,7 @@
 # Translators:
 # Jouni Kähkönen, 2007
 # Juha Jeronen 2011, 2012
+# joni.maatta <maatta.joni1@gmail.com>, 2014
 # Otto Kekäläinen, 2008-2010
 # mrJalostaja <pauli.nykanen@yahoo.com>, 2014
 # Rikkokiri <pilvi.rajala@gmail.com>, 2014
@@ -15,8 +16,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-06-10 15:44-0400\n"
-"PO-Revision-Date: 2014-01-14 20:48+0000\n"
-"Last-Translator: mrJalostaja <pauli.nykanen@yahoo.com>\n"
+"PO-Revision-Date: 2014-07-16 17:26+0000\n"
+"Last-Translator: joni.maatta <maatta.joni1@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -409,9 +410,8 @@ msgid "Advanced settings"
 msgstr "Lisäasetukset"
 
 #: include/vlc_input.h:568
-#, fuzzy
 msgid "Subtitle track added"
-msgstr "Tekstitysraita"
+msgstr ""
 
 #: include/vlc_interface.h:140
 msgid ""
@@ -506,14 +506,12 @@ msgid "Create Folder..."
 msgstr "Luo kansio..."
 
 #: include/vlc_intf_strings.h:70
-#, fuzzy
 msgid "Rename Directory..."
-msgstr "Luo hakemisto..."
+msgstr "Nimeä hakemisto uudelleen..."
 
 #: include/vlc_intf_strings.h:71
-#, fuzzy
 msgid "Rename Folder..."
-msgstr "Luo kansio..."
+msgstr "Nimeä kansio uudelleen..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
@@ -1127,7 +1125,7 @@ msgstr "Tauko"
 
 #: src/config/keys.c:112
 msgid "Print"
-msgstr ""
+msgstr "Tulosta"
 
 #: src/config/keys.c:114 modules/demux/mp4/id3genres.h:76
 msgid "Space"
@@ -1188,9 +1186,8 @@ msgid "Command+"
 msgstr "Command+"
 
 #: src/darwin/error.c:37
-#, fuzzy
 msgid "Unknown error"
-msgstr "Tuntematon video"
+msgstr "Tunnistamaton virhe"
 
 #: src/input/control.c:226
 #, c-format
@@ -1226,24 +1223,21 @@ msgid "No description for this codec"
 msgstr ""
 
 #: src/input/decoder.c:693
-#, fuzzy
 msgid "Codec not supported"
-msgstr "Asiakasportti"
+msgstr ""
 
 #: src/input/decoder.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr "VLC ei voinut avata tiedostoa \"%s\". (%m)"
+msgstr ""
 
 #: src/input/decoder.c:698
-#, fuzzy
 msgid "Unidentified codec"
-msgstr "Videokoodekki"
+msgstr ""
 
 #: src/input/decoder.c:699
-#, fuzzy
 msgid "VLC could not identify the audio or video codec"
-msgstr "VLC ei voinut avata pakkauksenpurkumoduulia."
+msgstr ""
 
 #: src/input/es_out.c:926 src/input/es_out.c:931 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -1474,9 +1468,8 @@ msgid "Track ID"
 msgstr "Raidan tunniste"
 
 #: src/input/meta.c:72
-#, fuzzy
 msgid "Number of Tracks"
-msgstr "Rivien määrä"
+msgstr ""
 
 #: src/input/meta.c:73
 msgid "Director"
@@ -1491,14 +1484,12 @@ msgid "Episode"
 msgstr ""
 
 #: src/input/meta.c:76
-#, fuzzy
 msgid "Show Name"
-msgstr "Näytä perusasetukset"
+msgstr ""
 
 #: src/input/meta.c:77
-#, fuzzy
 msgid "Actors"
-msgstr "Kerroin"
+msgstr ""
 
 #: src/input/var.c:158
 msgid "Bookmark"
@@ -2818,22 +2809,14 @@ msgstr ""
 "oikein."
 
 #: src/libvlc-module.c:596
-#, fuzzy
 msgid "Menu language"
-msgstr "Äänen kieli"
+msgstr ""
 
 #: src/libvlc-module.c:598
-#, fuzzy
 msgid ""
 "Language of the menus you want to use with DVD/BluRay (comma separated, two "
 "or three letters country code, you may use 'any' as a fallback)."
 msgstr ""
-"Tekstitysraidan kieli, jota haluat käyttää ensisijaisesti. Tähän voi laittaa "
-"pilkuilla erotetun listan kaksi- tai kolmikirjaimisia maatunnisteita "
-"(country code; esim. suomi = fi, ruotsi = se, englanti = en). Voit käyttää "
-"arvoa 'any' valitsemaan minkä hyvänsä, jos yhtäkään halutuista kielistä ei "
-"löytynyt. Huomaa, että kaikki DVD-levyt eivät ilmoita tekstityskieliään "
-"oikein."
 
 #: src/libvlc-module.c:602
 msgid "Audio track ID"
@@ -3320,13 +3303,10 @@ msgid "HTTP/TLS server certificate"
 msgstr "HTTP/TLS-palvelimen varmenne"
 
 #: src/libvlc-module.c:832
-#, fuzzy
 msgid ""
 "This X.509 certicate file (PEM format) is used for server-side TLS. On OS X, "
 "the string is used as a label to search the certificate in the keychain."
 msgstr ""
-"Tätä X.509-varmennetiedostoa (PEM-formaatti) käytetään palvelimen puoleiseen "
-"TLS-salaukseen."
 
 #: src/libvlc-module.c:835
 msgid "HTTP/TLS server private key"
@@ -4038,7 +4018,7 @@ msgstr "Valitse pikanäppäin, jolla siirrytään koko näytön tilaan."
 
 #: src/libvlc-module.c:1191
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Poistu kokonäytöstä"
 
 #: src/libvlc-module.c:1192
 msgid "Select the hotkey to use to exit fullscreen state."
@@ -4555,7 +4535,7 @@ msgstr "Valitse näppäin, joka asettaa tämän kirjanmerkin."
 #: src/libvlc-module.c:1332
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:234
 msgid "Clear the playlist"
-msgstr ""
+msgstr "Tyhjennä soittolista"
 
 #: src/libvlc-module.c:1333
 msgid "Select the key to clear the current playlist."
@@ -4947,9 +4927,8 @@ msgid "print version information"
 msgstr "näytä versiotiedot"
 
 #: src/libvlc-module.c:2690
-#, fuzzy
 msgid "core program"
-msgstr "pääohjelma"
+msgstr ""
 
 #: src/misc/update.c:473
 #, c-format
@@ -5861,14 +5840,12 @@ msgid "AVIO"
 msgstr ""
 
 #: modules/access/avio.h:34
-#, fuzzy
 msgid "libavformat AVIO access"
-msgstr "libavformat-käyttölähtö"
+msgstr ""
 
 #: modules/access/avio.h:44
-#, fuzzy
 msgid "libavformat AVIO access output"
-msgstr "libavformat-käyttölähtö"
+msgstr ""
 
 #: modules/access/bd/bd.c:54
 msgid "BD"
@@ -5887,9 +5864,8 @@ msgid "Use Blu-ray menus. If disabled, the movie will start directly"
 msgstr ""
 
 #: modules/access/bluray.c:70
-#, fuzzy
 msgid "Region code"
-msgstr "Alueen ylärivi"
+msgstr ""
 
 #: modules/access/bluray.c:71
 msgid ""
@@ -5900,7 +5876,7 @@ msgstr ""
 #: modules/access/bluray.c:87 modules/services_discovery/udev.c:597
 #: modules/gui/qt4/ui/open_disk.h:300
 msgid "Blu-ray"
-msgstr ""
+msgstr "Blu-ray"
 
 #: modules/access/bluray.c:88
 msgid "Blu-ray Disc support (libbluray)"
@@ -5961,14 +5937,12 @@ msgid "Blu-ray error"
 msgstr ""
 
 #: modules/access/bluray.c:1189
-#, fuzzy
 msgid "Top Menu"
-msgstr "Valikko"
+msgstr ""
 
 #: modules/access/bluray.c:1191
-#, fuzzy
 msgid "First Play"
-msgstr "Ensimmäinen toisto"
+msgstr ""
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:160
 #: modules/gui/qt4/ui/open_disk.h:301
@@ -6013,14 +5987,12 @@ msgid "IIDC Digital Camera (FireWire) input"
 msgstr ""
 
 #: modules/access/dcp/dcp.cpp:75
-#, fuzzy
 msgid "DCP"
-msgstr "SDP"
+msgstr ""
 
 #: modules/access/dcp/dcp.cpp:78
-#, fuzzy
 msgid "Digital Cinema Package module"
-msgstr "Käyttöliittymän lisämoduulit"
+msgstr ""
 
 #: modules/access/decklink.cpp:46
 msgid "Input card to use"
@@ -6035,9 +6007,8 @@ msgstr ""
 "numerointi alkaa nollasta."
 
 #: modules/access/decklink.cpp:51
-#, fuzzy
 msgid "Desired input video mode. Leave empty for autodetection."
-msgstr "Haluttu videon kaappausmoodi"
+msgstr ""
 
 #: modules/access/decklink.cpp:53
 msgid ""
@@ -6989,14 +6960,14 @@ msgid "File reading failed"
 msgstr "Tiedoston lukeminen epäonnistui"
 
 #: modules/access/file.c:178 modules/access/vdr.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\" (%s)."
-msgstr "VLC ei voinut avata tiedostoa \"%s\". (%m)"
+msgstr ""
 
 #: modules/access/file.c:305 modules/access/vdr.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file (%s)."
-msgstr "VLC ei voinut lukea tiedostoa (%m)."
+msgstr ""
 
 #: modules/access/fs.c:33
 msgid "Subdirectory behavior"
@@ -7654,14 +7625,14 @@ msgid "MTP"
 msgstr "MTP"
 
 #: modules/access/mtp.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file: %s"
-msgstr "VLC ei voinut lukea tiedostoa."
+msgstr ""
 
 #: modules/access/mtp.c:287
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\": %s"
-msgstr "VLC ei voinut avata tiedostoa \"%s\". (%m)"
+msgstr ""
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7694,11 +7665,11 @@ msgstr "Lumekäyttölähtö"
 
 #: modules/access_output/file.c:68
 msgid "Overwrite existing file"
-msgstr ""
+msgstr "Korvaa tiedosto"
 
 #: modules/access_output/file.c:70
 msgid "If the file already exists, it will be overwritten."
-msgstr ""
+msgstr "Jos tiedosto on jo olemassa, se korvataan"
 
 #: modules/access_output/file.c:71
 msgid "Append to file"
@@ -7742,7 +7713,7 @@ msgstr ""
 
 #: modules/access_output/file.c:210
 msgid "Overwrite"
-msgstr ""
+msgstr "Korvaa"
 
 #: modules/access_output/http.c:52 modules/access/vnc.c:46
 #: modules/misc/audioscrobbler.c:114 modules/stream_out/rtp.c:175
@@ -7778,9 +7749,8 @@ msgstr ""
 "määrätty)."
 
 #: modules/access_output/http.c:61
-#, fuzzy
 msgid "Metacube"
-msgstr "Meta+"
+msgstr ""
 
 #: modules/access_output/http.c:62
 msgid ""
@@ -7888,9 +7858,8 @@ msgid "Generate IV instead using segment-number as IV"
 msgstr ""
 
 #: modules/access_output/livehttp.c:105
-#, fuzzy
 msgid "Number of first segment"
-msgstr "Segmenttien lukumäärä"
+msgstr ""
 
 #: modules/access_output/livehttp.c:106
 #, fuzzy
@@ -9293,7 +9262,7 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Kuvan laatu"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
@@ -9508,12 +9477,12 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:89
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear left"
-msgstr ""
+msgstr "Takavasen"
 
 #: modules/audio_filter/channel_mixer/mono.c:89
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear right"
-msgstr ""
+msgstr "Takaoikea"
 
 #: modules/audio_filter/channel_mixer/mono.c:90
 #: modules/audio_filter/channel_mixer/remap.c:63
@@ -9523,22 +9492,21 @@ msgstr ""
 #: modules/audio_filter/channel_mixer/mono.c:91
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Side left"
-msgstr ""
+msgstr "Vasen sivu"
 
 #: modules/audio_filter/channel_mixer/mono.c:91
 #: modules/audio_filter/channel_mixer/remap.c:63
 msgid "Side right"
-msgstr ""
+msgstr "Oikea sivu"
 
 #: modules/audio_filter/channel_mixer/mono.c:91
 #: modules/audio_filter/channel_mixer/remap.c:62
 msgid "Rear center"
-msgstr ""
+msgstr "Keskitaka"
 
 #: modules/audio_filter/channel_mixer/mono.c:98
-#, fuzzy
 msgid "Stereo to mono downmixer"
-msgstr "Stereoäänitila"
+msgstr ""
 
 #: modules/audio_filter/channel_mixer/remap.c:74
 msgid "Audio channel remapper"
@@ -10444,9 +10412,8 @@ msgid "This linear gain will be applied in software."
 msgstr ""
 
 #: modules/audio_output/wasapi.c:457
-#, fuzzy
 msgid "Windows Audio Session API output"
-msgstr "Windows GDI -videolähtö"
+msgstr ""
 
 #: modules/audio_output/waveout.c:133
 msgid "Select Audio Device"
@@ -11015,39 +10982,33 @@ msgid "unknown"
 msgstr "tuntematon"
 
 #: modules/codec/avcodec/encoder.c:853
-#, fuzzy
 msgid "video"
-msgstr "S-video"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "audio"
-msgstr "Ääni"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "subpicture"
-msgstr "Alikuvat"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:867
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the %4.4s %s encoder."
-msgstr "VLC ei voinut avata pakkausohjelmaa."
+msgstr ""
 
 #: modules/codec/avcodec/hwdummy.c:42
-#, fuzzy
 msgid "Dummy video decoder"
-msgstr "CDG-videopurkaja"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:62
-#, fuzzy
 msgid "VA-API video decoder via X11"
-msgstr "PNG-videopurkaja"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:64
-#, fuzzy
 msgid "VA-API video decoder via DRM"
-msgstr "PNG-videopurkaja"
+msgstr ""
 
 #: modules/codec/avcodec/vda.c:85
 msgid "420YpCbCr8Planar"
@@ -11344,9 +11305,8 @@ msgid "Uses GStreamer framework's plugins to decode the media codecs"
 msgstr ""
 
 #: modules/codec/gstdecode.c:72
-#, fuzzy
 msgid "Use DecodeBin"
-msgstr "Purku"
+msgstr ""
 
 #: modules/codec/gstdecode.c:74
 msgid ""
@@ -11357,9 +11317,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/gstdecode.c:86
-#, fuzzy
 msgid "GStreamer Based Decoder"
-msgstr "Speex-äänipurkaja"
+msgstr ""
 
 #: modules/codec/jpeg.c:50
 msgid ""
@@ -11367,14 +11326,12 @@ msgid ""
 msgstr ""
 
 #: modules/codec/jpeg.c:109
-#, fuzzy
 msgid "JPEG image decoder"
-msgstr "SDL-kuvapurkaja"
+msgstr ""
 
 #: modules/codec/jpeg.c:118
-#, fuzzy
 msgid "JPEG image encoder"
-msgstr "SDL-kuvapurkaja"
+msgstr ""
 
 #: modules/codec/kate.c:194 modules/codec/subsdec.c:174
 msgid "Formatted Subtitles"
@@ -11684,9 +11641,8 @@ msgid "Linear PCM audio encoder"
 msgstr "Raa'an PCM-äänen pakkaaja"
 
 #: modules/codec/mft.c:56
-#, fuzzy
 msgid "Media Foundation Transform decoder"
-msgstr "QuickTime -kirjastopurkaja"
+msgstr ""
 
 #: modules/codec/mmal.c:50
 msgid "Decode frames directly into RPI VideoCore instead of host memory."
@@ -11699,9 +11655,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/mmal.c:57
-#, fuzzy
 msgid "MMAL decoder"
-msgstr "pakkauksenpurku"
+msgstr ""
 
 #: modules/codec/mmal.c:58
 msgid "MMAL-based decoder plugin for Raspberry Pi"
@@ -11716,9 +11671,8 @@ msgid "MPEG audio layer I/II/III packetizer"
 msgstr "MPEG-ääni layer I/II/III -paketoija"
 
 #: modules/codec/omxil/android_mediacodec.c:263
-#, fuzzy
 msgid "Android direct rendering"
-msgstr "Suorarenderöinti (direct rendering)"
+msgstr ""
 
 #: modules/codec/omxil/android_mediacodec.c:265
 msgid "Enable Android direct rendering using opaque buffers."
@@ -11749,18 +11703,16 @@ msgid "Opus"
 msgstr ""
 
 #: modules/codec/opus.c:73
-#, fuzzy
 msgid "Opus audio encoder"
-msgstr "Speex-äänipakkaaja"
+msgstr ""
 
 #: modules/codec/png.c:91
 msgid "PNG video decoder"
 msgstr "PNG-videopurkaja"
 
 #: modules/codec/png.c:100
-#, fuzzy
 msgid "PNG video encoder"
-msgstr "PNG-videopurkaja"
+msgstr ""
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
@@ -12732,14 +12684,12 @@ msgid "USF subtitles decoder"
 msgstr "USF-tekstityspurkaja"
 
 #: modules/codec/substx3g.c:40
-#, fuzzy
 msgid "tx3g subtitles decoder"
-msgstr "DVB-tekstityksen purkaja"
+msgstr ""
 
 #: modules/codec/substx3g.c:41
-#, fuzzy
 msgid "tx3g subtitles"
-msgstr "Teksti-TV-tekstitys"
+msgstr ""
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
@@ -12908,9 +12858,8 @@ msgid "Vorbis audio encoder"
 msgstr "Vorbis-äänenpakkaaja"
 
 #: modules/codec/vpx.c:49
-#, fuzzy
 msgid "WebM video decoder"
-msgstr "CDG-videopurkaja"
+msgstr ""
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
@@ -13892,13 +13841,10 @@ msgid "Teletext transparency"
 msgstr "Teksti-TV-tekstin läpinäkyvyys"
 
 #: modules/codec/zvbi.c:66
-#, fuzzy
 msgid ""
 "Setting vbi-opaque to true makes the text to be boxed and maybe easier to "
 "read."
 msgstr ""
-"Tämän asetuksen kytkeminen pois päältä tekee laatikoidusta tekstistä "
-"läpinäkyvää."
 
 #: modules/codec/zvbi.c:69
 msgid "Teletext alignment"
@@ -14577,15 +14523,13 @@ msgid "+----[ end of help ]"
 msgstr "+----[ ohje loppuu tähän ]"
 
 #: modules/control/rc.c:965
-#, fuzzy
 msgid "Press pause to continue."
-msgstr "Paina menuvalintaa tai taukoa jatkaaksesi."
+msgstr ""
 
 #: modules/control/rc.c:1191 modules/control/rc.c:1446
 #: modules/control/rc.c:1490
-#, fuzzy
 msgid "Type 'pause' to continue."
-msgstr "Kirjoita 'menu select' (menuvalinta) tai 'pause' (tauko) jatkaaksesi."
+msgstr ""
 
 #: modules/control/rc.c:1283
 msgid "Error: `goto' needs an argument greater than zero."
@@ -14722,9 +14666,8 @@ msgid "Avformat"
 msgstr "Avformat"
 
 #: modules/demux/avformat/avformat.c:45
-#, fuzzy
 msgid "Demuxer"
-msgstr "Kanavoinnin purku"
+msgstr ""
 
 #: modules/demux/avformat/avformat.c:56
 msgid "Avformat muxer"
@@ -14744,7 +14687,7 @@ msgstr "Pakota käyttämään tiettyä avformat-kanavoijaa."
 
 #: modules/demux/avformat/avformat.h:37
 msgid "Format name"
-msgstr ""
+msgstr "Formaattinimi"
 
 #: modules/demux/avformat/avformat.h:38
 msgid "Internal libavcodec format name"
@@ -14817,9 +14760,8 @@ msgid "Fixing AVI Index..."
 msgstr "Korjataan AVI-indeksiä..."
 
 #: modules/demux/caf.c:53
-#, fuzzy
 msgid "CAF demuxer"
-msgstr "AIFF-kanavoinninpurkaja"
+msgstr ""
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
@@ -15447,7 +15389,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:131
 msgid "Acoustic"
-msgstr ""
+msgstr "Akustinen"
 
 #: modules/demux/mp4/id3genres.h:132
 msgid "Humour"
@@ -15455,7 +15397,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:133
 msgid "Speech"
-msgstr ""
+msgstr "Puhe"
 
 #: modules/demux/mp4/id3genres.h:134
 msgid "Chanson"
@@ -15463,7 +15405,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:135
 msgid "Opera"
-msgstr ""
+msgstr "Ooppera"
 
 #: modules/demux/mp4/id3genres.h:136
 msgid "Chamber Music"
@@ -15499,7 +15441,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:145
 msgid "Tango"
-msgstr ""
+msgstr "Tango"
 
 #: modules/demux/mp4/id3genres.h:146
 msgid "Samba"
@@ -15805,14 +15747,12 @@ msgid "H264 video demuxer"
 msgstr "H264-videon kanavoinninpurkaja"
 
 #: modules/demux/mpeg/hevc.c:47
-#, fuzzy
 msgid "Desired frame rate for the stream."
-msgstr "Haluttu kuvanopeus H264-virralle."
+msgstr ""
 
 #: modules/demux/mpeg/hevc.c:54
-#, fuzzy
 msgid "HEVC/H.265 video demuxer"
-msgstr "H264-videon kanavoinninpurkaja"
+msgstr ""
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
@@ -16144,7 +16084,7 @@ msgstr ""
 
 #: modules/demux/subtitle.c:80
 msgid "Subtitle format"
-msgstr ""
+msgstr "Tekstityksen formaatti"
 
 #: modules/demux/subtitle.c:83
 msgid "Subtitle description"
@@ -16244,14 +16184,12 @@ msgid ""
 msgstr ""
 
 #: modules/demux/ts.c:133
-#, fuzzy
 msgid "Trust in-stream PCR"
-msgstr "Siirtovirran ID"
+msgstr ""
 
 #: modules/demux/ts.c:134
-#, fuzzy
 msgid "Use the stream PCR as a reference."
-msgstr "Käytä joitakin B-ruutuja referensseinä"
+msgstr ""
 
 #: modules/demux/ts.c:137
 msgid "MPEG Transport Stream demuxer"
@@ -16440,16 +16378,14 @@ msgstr "Indeksi"
 #: modules/gui/macosx/AddonManager.m:96 modules/gui/macosx/AddonManager.m:335
 #: modules/gui/qt4/dialogs/plugins.cpp:378
 #: modules/gui/qt4/managers/addons_manager.cpp:86
-#, fuzzy
 msgid "Playlist parsers"
-msgstr "Podcast-jäsennin"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:98 modules/gui/macosx/AddonManager.m:337
 #: modules/gui/qt4/dialogs/plugins.cpp:382
 #: modules/gui/qt4/managers/addons_manager.cpp:88
-#, fuzzy
 msgid "Service Discovery"
-msgstr "Palvelujen haku"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:100 modules/gui/macosx/AddonManager.m:339
 #: modules/gui/macosx/MainMenu.m:318 modules/gui/macosx/MainMenu.m:319
@@ -16459,9 +16395,8 @@ msgid "Extensions"
 msgstr "Laajennukset"
 
 #: modules/gui/macosx/AddonManager.m:103
-#, fuzzy
 msgid "Show Installed Only"
-msgstr "Käyttöliittymä"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:105
 #: modules/gui/qt4/dialogs/plugins.cpp:414
@@ -16470,16 +16405,14 @@ msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:115 modules/gui/macosx/MainMenu.m:320
 #: modules/gui/qt4/dialogs/plugins.cpp:80
-#, fuzzy
 msgid "Addons Manager"
-msgstr "Videonhallinta"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:118
 #: modules/gui/qt4/dialogs/plugins.cpp:1137
 #: modules/gui/qt4/dialogs/plugins.cpp:1150
-#, fuzzy
 msgid "Installed"
-msgstr "Asenna"
+msgstr "Asennettu"
 
 #: modules/gui/macosx/AddonManager.m:119 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/playlist.m:167 modules/gui/qt4/dialogs/plugins.cpp:123
@@ -16495,9 +16428,8 @@ msgid "Author"
 msgstr "Esittäjä"
 
 #: modules/gui/macosx/AddonManager.m:187
-#, fuzzy
 msgid "Uninstall"
-msgstr "Asenna"
+msgstr "Poista"
 
 #: modules/gui/macosx/AddonManager.m:333
 #: modules/gui/qt4/dialogs/plugins.cpp:374
@@ -16734,14 +16666,12 @@ msgstr ""
 "Jotta kirjanmerkit toimisivat, toiston täytyy olla käynnissä tai tauolla."
 
 #: modules/gui/macosx/BWQuincyUI.m:78
-#, fuzzy
 msgid "Show Details"
-msgstr "Koodekin lisätiedot"
+msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:79
-#, fuzzy
 msgid "Hide Details"
-msgstr "Koodekin lisätiedot"
+msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:81
 msgid "Send"
@@ -16776,9 +16706,8 @@ msgstr ""
 
 #: modules/gui/macosx/controls.m:53 modules/gui/macosx/controls.m:57
 #: modules/gui/macosx/MainMenu.m:1527
-#, fuzzy
 msgid "Jump to Time"
-msgstr "Siirry ajankohtaan"
+msgstr ""
 
 #: modules/gui/macosx/controls.m:56
 msgid "sec."
@@ -17367,16 +17296,15 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:118 modules/gui/macosx/MainMenu.m:355
 msgid "Show Sidebar"
-msgstr ""
+msgstr "Näytä sivupalkki"
 
 #: modules/gui/macosx/macosx.m:119
 msgid "Shows a sidebar in the main window listing media sources."
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control external music players"
-msgstr "Soittimen säädinvalikko"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:122
 msgid "VLC will pause and resume supported music players on playback."
@@ -17460,9 +17388,8 @@ msgid "URI"
 msgstr "URI-paikannin"
 
 #: modules/gui/macosx/MainMenu.m:81
-#, fuzzy
 msgid "File Size"
-msgstr "Kaksinkertainen koko"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:316
 msgid "Check for Update..."
@@ -17670,9 +17597,8 @@ msgid "Window"
 msgstr "Ikkuna"
 
 #: modules/gui/macosx/MainMenu.m:444
-#, fuzzy
 msgid "Minimize"
-msgstr "Pienennä ikkuna"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:446
 msgid "Player..."
@@ -17807,14 +17733,12 @@ msgid "Check for album art and metadata?"
 msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
-#, fuzzy
 msgid "Enable Metadata Retrieval"
-msgstr "Kytke päälle/pois adaptiivinen esisuodin"
+msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
-#, fuzzy
 msgid "No, Thanks"
-msgstr "Kiitokset"
+msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
 msgid ""
@@ -17825,9 +17749,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/macosx/misc.m:980
-#, fuzzy
 msgid "B"
-msgstr "BD"
+msgstr ""
 
 #: modules/gui/macosx/misc.m:987
 msgid "KB"
@@ -17922,9 +17845,8 @@ msgid "Custom playback"
 msgstr ""
 
 #: modules/gui/macosx/open.m:157
-#, fuzzy
 msgid "Open VIDEO_TS / BDMV folder"
-msgstr "Avaa VIDEO_TS-kansio"
+msgstr ""
 
 #: modules/gui/macosx/open.m:158
 msgid "Insert Disc"
@@ -18231,9 +18153,8 @@ msgid "Meta-information"
 msgstr "Metatiedot"
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/qt4/input_manager.cpp:135
-#, fuzzy
 msgid "Continue playback?"
-msgstr "Pysäytä toisto"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/macosx/simple_prefs.m:837
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
@@ -18241,14 +18162,12 @@ msgid "Continue"
 msgstr "Jatka"
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Restart playback"
-msgstr "Pysäytä toisto"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Always continue"
-msgstr "Aina päällimmäisenä"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
 msgid "Playback of \"%@\" will continue at %@"
@@ -18520,9 +18439,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:375
-#, fuzzy
 msgid "Continue playback"
-msgstr "Pysäytä toisto"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:378
 msgid "Default Encoding"
@@ -19725,19 +19643,16 @@ msgid " f                      Toggle Fullscreen"
 msgstr " f                      Koko näyttöön/pois"
 
 #: modules/gui/ncurses.c:894
-#, fuzzy
 msgid " c                      Cycle through audio tracks"
-msgstr " l                      Silmukka päälle/pois"
+msgstr ""
 
 #: modules/gui/ncurses.c:895
-#, fuzzy
 msgid " v                      Cycle through subtitles tracks"
-msgstr " [, ]                   Ed./seur. nimi"
+msgstr ""
 
 #: modules/gui/ncurses.c:896
-#, fuzzy
 msgid " b                      Cycle through video tracks"
-msgstr " S                      Näytä/piilota statistiikat"
+msgstr ""
 
 #: modules/gui/ncurses.c:897
 msgid " n, p                   Next/Previous playlist item"
@@ -19952,11 +19867,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Previous / Backward"
-msgstr ""
+msgstr "Edellinen/taaksepäin"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Next / Forward"
-msgstr ""
+msgstr "Seuraava/eteenpäin"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "De-Fullscreen"
@@ -19994,7 +19909,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Open subtitles"
-msgstr ""
+msgstr "Avaa tekstitykset"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Dock fullscreen controller"
@@ -20539,9 +20454,8 @@ msgid "Do you really want to unsubscribe from %1?"
 msgstr "Haluatko varmasti poistaa tilauksen %1?"
 
 #: modules/gui/qt4/components/playlist/sorting.h:64
-#, fuzzy
 msgid "Cover"
-msgstr "Overlay"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Directory"
@@ -20560,24 +20474,20 @@ msgid "Enter name for new folder:"
 msgstr "Uuden kansion nimi"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Directory"
-msgstr "Luo hakemisto"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Folder"
-msgstr "Luo kansio"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
-#, fuzzy
 msgid "Enter a new name for the directory:"
-msgstr "Uuden hakemiston nimi"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
-#, fuzzy
 msgid "Enter a new name for the folder:"
-msgstr "Uuden kansion nimi"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:242
 msgid "Sort by"
@@ -20964,9 +20874,8 @@ msgid "&Start"
 msgstr "Aloita"
 
 #: modules/gui/qt4/dialogs/convert.cpp:135
-#, fuzzy
 msgid "Containers"
-msgstr "Jatka"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -21205,9 +21114,8 @@ msgid "Plugins and extensions"
 msgstr "Liitännäiset ja laajennukset"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:82
-#, fuzzy
 msgid "Active Extensions"
-msgstr "Aktiiviset alueet"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:123
 msgid "Capability"
@@ -21255,40 +21163,35 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:408
 msgid "Only installed"
-msgstr ""
+msgstr "Vain asennetut"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:503
-#, fuzzy
 msgid "Retrieving addons..."
-msgstr "Noudetaan kanavan tietoja..."
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:514
-#, fuzzy
 msgid "No addons found"
-msgstr "Ei kohdetta"
+msgstr "Lisäosia ei löytynyt"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:793
 msgid "This addon has been installed manually. VLC can't manage it by itself."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1168
-#, fuzzy
 msgid "Version %1"
-msgstr "Versio"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1194
 msgid "%1 downloads"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1263
-#, fuzzy
 msgid "&Uninstall"
-msgstr "Asenna"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1266
-#, fuzzy
 msgid "&Install"
-msgstr "Asenna"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1361
 #: modules/gui/qt4/dialogs/plugins.cpp:1464
@@ -21446,9 +21349,8 @@ msgid "Flat Button"
 msgstr "Litteä painike"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
-#, fuzzy
 msgid "Next widget style"
-msgstr "Seuraava ikkunaelementtien tyyli"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:77
 msgid "Big Button"
@@ -21483,9 +21385,8 @@ msgid "Time Toolbar"
 msgstr "Aikapalkki"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:128
-#, fuzzy
 msgid "Advanced Widget"
-msgstr "Lisäikkunaelementtien työkalupalkki"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:137
 msgid "Fullscreen Controller"
@@ -21504,9 +21405,8 @@ msgid "Select profile:"
 msgstr "Valitse profiili"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:185
-#, fuzzy
 msgid "Preview"
-msgstr "Edellinen"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:194
 msgid "Cl&ose"
@@ -21954,9 +21854,8 @@ msgid "&Clear"
 msgstr "&Tyhjennä"
 
 #: modules/gui/qt4/menus.cpp:1636
-#, fuzzy
 msgid "&Save To Playlist"
-msgstr "Tallenna soittolista"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -22174,9 +22073,8 @@ msgstr ""
 "äänenvoimakkuuteen jos ei."
 
 #: modules/gui/qt4/qt4.cpp:186
-#, fuzzy
 msgid "Fullscreen controller mouse sensitivity"
-msgstr "Koko näyttö -tilan säätimet"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:192
 msgid "When minimized"
@@ -22187,9 +22085,8 @@ msgid "Qt interface"
 msgstr "Qt-käyttöliittymä"
 
 #: modules/gui/qt4/recents.cpp:159
-#, fuzzy
 msgid "Recently Played"
-msgstr "Muista viimeisimmät toistokohteet"
+msgstr ""
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
@@ -22299,14 +22196,12 @@ msgid "Open skin ..."
 msgstr "Avaa ulkoasutiedosto..."
 
 #: modules/hw/vdpau/adjust.c:182
-#, fuzzy
 msgid "VDPAU adjust video filter"
-msgstr "Gradfun-videosuodin"
+msgstr ""
 
 #: modules/hw/vdpau/avcodec.c:45
-#, fuzzy
 msgid "VDPAU video decoder"
-msgstr "CDG-videopurkaja"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:820
 msgid "Temporal-spatial"
@@ -22321,53 +22216,44 @@ msgid "VDPAU surface conversions"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:833
-#, fuzzy
 msgid "Deinterlacing algorithm"
-msgstr "Lomituksen poisto"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:836
-#, fuzzy
 msgid "Inverse telecine"
-msgstr "Virheellinen valinta"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:838
-#, fuzzy
 msgid "Deinterlace chroma skip"
-msgstr "Lomituksenpoisto päällä"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:839
 msgid "Whether temporal deinterlacing applies to luma only"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:841
-#, fuzzy
 msgid "Noise reduction level"
-msgstr "Kohinanpoisto"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "Scaling quality"
-msgstr "Uudelleennäytteistyksen laatu"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "High quality scaling level"
-msgstr "Videon jälkikäsittelyn taso (0-6)"
+msgstr ""
 
 #: modules/hw/vdpau/deinterlace.c:131
-#, fuzzy
 msgid "VDPAU deinterlacing filter"
-msgstr "Lomituksen poiston videosuodin"
+msgstr ""
 
 #: modules/hw/vdpau/display.c:46
-#, fuzzy
 msgid "VDPAU output"
-msgstr "YUV-lähtö"
+msgstr ""
 
 #: modules/hw/vdpau/sharpen.c:141
-#, fuzzy
 msgid "VDPAU sharpen video filter"
-msgstr "Terävöitys-videosuodin"
+msgstr ""
 
 #: modules/lua/libs/httpd.c:75
 msgid ""
@@ -22789,18 +22675,16 @@ msgid "RTSP VoD"
 msgstr "RTSP VoD"
 
 #: modules/misc/rtsp.c:76
-#, fuzzy
 msgid "Legacy RTSP VoD server"
-msgstr "RTSP VoD -palvelin"
+msgstr ""
 
 #: modules/misc/securetransport.c:53
 msgid "TLS support for OS X and iOS"
 msgstr ""
 
 #: modules/misc/securetransport.c:66
-#, fuzzy
 msgid "TLS server support for OS X"
-msgstr "RTSP-palvelimen portti"
+msgstr ""
 
 #: modules/misc/securetransport.c:335
 msgid "Accept certificate temporarily"
@@ -22889,19 +22773,16 @@ msgid "Unknown Video"
 msgstr "Tuntematon video"
 
 #: modules/mux/avi.c:54
-#, fuzzy
 msgid "Subject"
-msgstr " Kohteet "
+msgstr ""
 
 #: modules/mux/avi.c:55
-#, fuzzy
 msgid "Encoder"
-msgstr "pakkauksenpurku"
+msgstr ""
 
 #: modules/mux/avi.c:56
-#, fuzzy
 msgid "Keywords"
-msgstr "Podcastin avainsanat"
+msgstr "Avainsanat"
 
 #: modules/mux/avi.c:59
 msgid "AVI muxer"
@@ -23185,9 +23066,8 @@ msgid "Multipart JPEG muxer"
 msgstr "Multipart JPEG -kanavoija"
 
 #: modules/mux/ogg.c:47
-#, fuzzy
 msgid "Index interval"
-msgstr "Vahtiväli (guard interval)"
+msgstr ""
 
 #: modules/mux/ogg.c:48
 msgid ""
@@ -23195,9 +23075,8 @@ msgid ""
 msgstr ""
 
 #: modules/mux/ogg.c:50
-#, fuzzy
 msgid "Index size ratio"
-msgstr "Indeksitiedosto"
+msgstr ""
 
 #: modules/mux/ogg.c:52
 msgid "Set index size ratio. Alters default (60min content) or estimated size."
@@ -23256,9 +23135,8 @@ msgid "H.264 video packetizer"
 msgstr "H.264-videopaketoija"
 
 #: modules/packetizer/hevc.c:50
-#, fuzzy
 msgid "HEVC/H.265 video packetizer"
-msgstr "H.264-videopaketoija"
+msgstr ""
 
 #: modules/packetizer/mlp.c:49
 msgid "MLP/TrueHD parser"
@@ -24273,9 +24151,8 @@ msgid "Stream output to memory buffer"
 msgstr "Suoratoistolähtö muistipuskuriin"
 
 #: modules/stream_out/stats.c:42
-#, fuzzy
 msgid "Writes stats to file instead of stdout"
-msgstr "Käytä erillistä videokuvan kiertosuodinta sisäisen muunnoksen sijaan"
+msgstr ""
 
 #: modules/stream_out/stats.c:43
 msgid "Prefix to show on output line"
@@ -25932,14 +25809,12 @@ msgstr ""
 "Montako tyhjää pikseliä lisätään kuvan oikeaanreunaan rajauksen jälkeen."
 
 #: modules/video_filter/croppadd.c:78
-#, fuzzy
 msgid "Croppadd"
-msgstr "Rajaus ja reunus"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:79
-#, fuzzy
 msgid "Video cropping filter"
-msgstr "Videonskaalauksen suodin"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -26099,9 +25974,8 @@ msgid "Extract RGB component video filter"
 msgstr "RGB-komponentin purkava videosuodin"
 
 #: modules/video_filter/freeze.c:77
-#, fuzzy
 msgid "Freezing interactive video filter"
-msgstr "Palapeli -vuorovaikutteinen videosuodin"
+msgstr ""
 
 #: modules/video_filter/freeze.c:78
 msgid "Freeze"
@@ -26687,13 +26561,12 @@ msgid "Motion detect video filter"
 msgstr "Liikkeentunnistin-videosuodin"
 
 #: modules/video_filter/oldmovie.c:185
-#, fuzzy
 msgid "Old movie effect video filter"
-msgstr "Liikkeentunnistin-videosuodin"
+msgstr ""
 
 #: modules/video_filter/oldmovie.c:186
 msgid "Old movie"
-msgstr ""
+msgstr "Vanha elokuva"
 
 #: modules/video_filter/opencv_example.cpp:69
 msgid "OpenCV face detection example filter"
@@ -27419,9 +27292,8 @@ msgid "Rotate or flip the video"
 msgstr "Kierrä tai peilaa videota"
 
 #: modules/video_filter/vhs.c:108
-#, fuzzy
 msgid "VHS movie effect video filter"
-msgstr "Liikkeentunnistin-videosuodin"
+msgstr ""
 
 #: modules/video_filter/vhs.c:109
 msgid "VHS movie"
@@ -27448,19 +27320,16 @@ msgid "ASCII-art video output"
 msgstr "ASCII-tekstivideolähtö"
 
 #: modules/video_output/android/nativewindow.c:53
-#, fuzzy
 msgid "ANativeWindow"
-msgstr "Aktiiviset ikkunat"
+msgstr ""
 
 #: modules/video_output/android/nativewindow.c:54
-#, fuzzy
 msgid "Android native window"
-msgstr "Aktiiviset ikkunat"
+msgstr ""
 
 #: modules/video_output/android/opaque.c:47
-#, fuzzy
 msgid "Android MediaCodec direct rendering video output"
-msgstr "Android Surface -videolähtö"
+msgstr ""
 
 #: modules/video_output/android/surface.c:52 modules/video_output/yuv.c:44
 msgid "Chroma used"
@@ -27753,14 +27622,12 @@ msgid "K Video Acceleration video output"
 msgstr "K Video Acceleration -videolähtö"
 
 #: modules/video_output/macosx.m:86
-#, fuzzy
 msgid "Mac OS X OpenGL video output"
-msgstr "OpenGL-videolähtö"
+msgstr ""
 
 #: modules/video_output/mmal.c:52
-#, fuzzy
 msgid "VideoCore layer where the video is displayed."
-msgstr "Hakemisto, johon videoruudunkaappaukset tallennetaan."
+msgstr ""
 
 #: modules/video_output/mmal.c:53
 msgid ""
@@ -27805,24 +27672,20 @@ msgid "Pixel Shader"
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:68
-#, fuzzy
 msgid "Choose a pixel shader to apply."
-msgstr "Käytä teemattavaa soittolistaa"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:69
-#, fuzzy
 msgid "Path to HLSL file"
-msgstr "Tallenna tiedosto"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:70
-#, fuzzy
 msgid "Path to an HLSL file containing a single pixel shader."
-msgstr "Polku mediaan zip-paketissa"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:72
-#, fuzzy
 msgid "HLSL File"
-msgstr "Tallenna tiedosto"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:74
 msgid "Recommended video output for Windows Vista and later versions"
@@ -28539,18 +28402,16 @@ msgid "The height of the effects video window, in pixels."
 msgstr "Tehostevideoikkunan korkeus pikseleinä."
 
 #: modules/visualization/visual/visual.c:61
-#, fuzzy
 msgid "FFT window"
-msgstr "X-ikkuna"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:63
 msgid "The type of FFT window to use for spectrum-based visualizations."
 msgstr ""
 
 #: modules/visualization/visual/visual.c:65
-#, fuzzy
 msgid "Kaiser window parameter"
-msgstr "Yliaja sivu"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:67
 msgid ""
@@ -29646,29 +29507,24 @@ msgid "Soften"
 msgstr "Pehmennys"
 
 #: modules/gui/qt4/ui/video_effects.h:1489
-#, fuzzy
 msgid "Denoiser"
-msgstr "HQ Denoiser 3D"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1490
-#, fuzzy
 msgid "Spatial luma strength"
-msgstr "Avaruudellinen luma-vahvuus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1491
-#, fuzzy
 msgid "Temporal luma strength"
-msgstr "Ajallinen luma-vahvuus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1492
-#, fuzzy
 msgid "Spatial chroma strength"
-msgstr "Avaruudellinen chroma-vahvuus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1493
-#, fuzzy
 msgid "Temporal chroma strength"
-msgstr "Ajallinen chroma-vahvuus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
@@ -29719,28 +29575,22 @@ msgid "Media Manager List"
 msgstr "Mediahallinnan lista"
 
 #: modules/access/avcapture.m:55
-#, fuzzy
 msgid "AVFoundation Video Capture"
-msgstr "Videokaappaus"
+msgstr ""
 
 #: modules/access/avcapture.m:56
-#, fuzzy
 msgid "AVFoundation video capture module."
-msgstr "Äänilähtömoduuli"
+msgstr ""
 
 #: modules/access/avcapture.m:288 modules/access/avcapture.m:317
-#, fuzzy
 msgid "No video devices found"
-msgstr "Lähdelaitetta ei löydy"
+msgstr ""
 
 #: modules/access/avcapture.m:289
-#, fuzzy
 msgid ""
 "Your Mac does not seem to be equipped with a suitable video input device. "
 "Please check your connectors and drivers."
 msgstr ""
-"Macissasi ei näytä olevan sopivaa videolähdelaitetta. Tarkista liittimet ja "
-"ajurit."
 
 #: modules/access/dvb/access.c:54
 msgid "Probe DVB card for capabilities"
@@ -29755,18 +29605,16 @@ msgstr ""
 "tämän ominaisuuden pois, jos kohtaat ongelmia."
 
 #: modules/access/dvb/access.c:58
-#, fuzzy
 msgid "Satellite scanning config"
-msgstr "Satelliitin range code"
+msgstr ""
 
 #: modules/access/dvb/access.c:59
 msgid "filename of config file in share/dvb/dvb-s"
 msgstr "asetustiedoston nimi hakemistossa share/dvb/dvb-s"
 
 #: modules/access/dvb/access.c:62
-#, fuzzy
 msgid "DVB"
-msgstr "DV"
+msgstr ""
 
 #: modules/access/dvb/access.c:63
 msgid "DVB input with v4l2 support"
@@ -29784,85 +29632,70 @@ msgid "Scanning DVB"
 msgstr "Etsitään DVB-lähetyksiä"
 
 #: modules/access/qtsound.m:59
-#, fuzzy
 msgid "QTSound"
-msgstr "Surround"
+msgstr ""
 
 #: modules/access/qtsound.m:60
-#, fuzzy
 msgid "QuickTime Sound Capture"
-msgstr "Quicktime-kaappaus"
+msgstr ""
 
 #: modules/access/qtsound.m:267
-#, fuzzy
 msgid "No Audio Input device found"
-msgstr "Lähdelaitetta ei löydy"
+msgstr ""
 
 #: modules/access/qtsound.m:268 modules/access/qtsound.m:295
-#, fuzzy
 msgid ""
 "Your Mac does not seem to be equipped with a suitable audio input device."
 "Please check your connectors and drivers."
 msgstr ""
-"Macissasi ei näytä olevan sopivaa videolähdelaitetta. Tarkista liittimet ja "
-"ajurit."
 
 #: modules/access/qtsound.m:294
-#, fuzzy
 msgid "No audio input device found"
-msgstr "Lähdelaitetta ei löydy"
+msgstr ""
 
 #: modules/access/rar/module.c:33
 msgid "Uncompressed RAR"
 msgstr "Pakkaamaton RAR"
 
 #: modules/audio_output/mmdevice.c:1316
-#, fuzzy
 msgid "Windows Multimedia Device output"
-msgstr "Windows GDI -videolähtö"
+msgstr ""
 
 #: modules/audio_output/winstore.c:204
-#, fuzzy
 msgid "Windows Store audio output"
-msgstr "Windows GDI -videolähtö"
+msgstr ""
 
 #: modules/codec/scte27.c:42
-#, fuzzy
 msgid "SCTE-27 decoder"
-msgstr "Tilastotietojen purkaja"
+msgstr ""
 
 #: modules/codec/scte27.c:43
 msgid "SCTE-27"
 msgstr ""
 
 #: modules/codec/svg.c:51
-#, fuzzy
 msgid "Specify the width to decode the image too"
-msgstr "Määrää rivi, joka sisältää halutun kielen"
+msgstr ""
 
 #: modules/codec/svg.c:53
-#, fuzzy
 msgid "Specify the height to decode the image too"
-msgstr "Määrittele käytettävä lomituksen poisto."
+msgstr ""
 
 #: modules/codec/svg.c:55
-#, fuzzy
 msgid "Scale factor to apply to image"
-msgstr "Kerroin, jolla videota skaalataan transkoodattaessa (esim. 0.25)"
+msgstr ""
 
 #: modules/codec/svg.c:63
-#, fuzzy
 msgid "SVG video decoder"
-msgstr "CDG-videopurkaja"
+msgstr ""
 
 #: modules/control/win_msg.c:192
 msgid "WinMsg"
 msgstr ""
 
 #: modules/control/win_msg.c:193
-#, fuzzy
 msgid "Windows messages interface"
-msgstr "Windows-palvelukäyttöliittymä"
+msgstr ""
 
 #: modules/gui/macosx/DebugMessageVisualizer.m:93
 msgid "Save this Log..."
@@ -29874,9 +29707,8 @@ msgid "VLC Debug Log (%s).rtf"
 msgstr ""
 
 #: modules/gui/qt4/components/epg/EPGWidget.cpp:63
-#, fuzzy
 msgid "No EPG Data Available"
-msgstr "Paras, joka on saatavilla"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/epg.cpp:117
 msgid " (%1+ rated)"
@@ -29885,38 +29717,33 @@ msgstr ""
 #: modules/gui/qt4/extensions_manager.cpp:181
 #: modules/gui/qt4/extensions_manager.cpp:191
 #: modules/gui/qt4/util/qmenuview.cpp:70
-#, fuzzy
 msgid "Empty"
-msgstr " - Tyhjä - "
+msgstr ""
 
 #: modules/gui/qt4/extensions_manager.cpp:197
-#, fuzzy
 msgid "Deactivate"
-msgstr "Aktivoi/Enter (DVD)"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:151
-#, fuzzy
 msgid "Audio Fingerprinting"
-msgstr "Äänitulon laite (pin)"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:152
 msgid "Select a matching identity"
 msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:153
-#, fuzzy
 msgid "No fingerprint has been found"
-msgstr "Ei kohdetta"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:154
 msgid "Fingerprinting track..."
 msgstr ""
 
 #: modules/gui/qt4/util/searchlineedit.cpp:113
-#, fuzzy
 msgctxt "Tooltip|Clear"
 msgid "Clear"
-msgstr "Tyhjennä"
+msgstr ""
 
 #: modules/lua/extension.c:1216
 #, c-format
@@ -29930,9 +29757,8 @@ msgid "Extension not responding!"
 msgstr ""
 
 #: modules/misc/addons/fsstorage.c:80
-#, fuzzy
 msgid "addons local storage"
-msgstr "Maksimi paikallinen bittinopeus"
+msgstr ""
 
 #: modules/misc/addons/fsstorage.c:82
 msgid "Addons local storage installer"
@@ -29943,9 +29769,8 @@ msgid "Addons local storage lister"
 msgstr ""
 
 #: modules/misc/addons/vorepository.c:60
-#, fuzzy
 msgid "Videolan.org's addons finder"
-msgstr "Videon kuvamuunnossuodin"
+msgstr ""
 
 #: modules/misc/addons/vorepository.c:62
 msgid "addons.videolan.org addons finder"
@@ -29968,19 +29793,16 @@ msgid "Track fingerprinter (based on Acoustid)"
 msgstr ""
 
 #: modules/stream_out/chromaprint.c:57
-#, fuzzy
 msgid "Duration of the fingerprinting"
-msgstr "Mihin suuntaan peilataan"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:58
-#, fuzzy
 msgid "Default: 90sec"
-msgstr "Oletustietovirta"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:61
-#, fuzzy
 msgid "Chromaprint stream output"
-msgstr "Keräävä suoratoistolähtö"
+msgstr ""
 
 #: modules/text_renderer/platform_fonts.c:82
 msgid ""
@@ -29991,33 +29813,28 @@ msgstr ""
 "Tämän pitäisi kestää alle pari minuuttia."
 
 #: modules/visualization/glspectrum.c:53
-#, fuzzy
 msgid "The width of the visualization window, in pixels."
-msgstr "Videoikkunan leveys pikseleinä."
+msgstr ""
 
 #: modules/visualization/glspectrum.c:56
-#, fuzzy
 msgid "The height of the visualization window, in pixels."
-msgstr "Videoikkunan korkeus pikseleinä."
+msgstr ""
 
 #: modules/visualization/glspectrum.c:59
-#, fuzzy
 msgid "glSpectrum"
-msgstr "Spektri"
+msgstr ""
 
 #: modules/visualization/glspectrum.c:60
-#, fuzzy
 msgid "3D OpenGL spectrum visualization"
-msgstr "Nykyinen visualisointi"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Hann"
 msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
-#, fuzzy
 msgid "Flat Top"
-msgstr "Pysy päällimmäisenä"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Blackman-Harris"
@@ -30028,14 +29845,12 @@ msgid "Kaiser"
 msgstr ""
 
 #: share/lua/http/view.html:26
-#, fuzzy
 msgid "VLC media player - Flash Viewer"
-msgstr "VLC-mediasoitin - web-käyttöliittymä"
+msgstr ""
 
 #: share/lua/http/view.html:65
-#, fuzzy
 msgid "Streaming Output"
-msgstr "Suoratoistolähtö"
+msgstr "Streamaus ulostulo"
 
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
@@ -31047,9 +30862,6 @@ msgstr "Suoratoistolähtö"
 
 #~ msgid "Side speakers"
 #~ msgstr "Sivukaiuttimet"
-
-#~ msgid "Rear speakers"
-#~ msgstr "Takakaiuttimet"
 
 #~ msgid "Center and subwoofer"
 #~ msgstr "Keskikanava ja basso"
@@ -32531,38 +32343,8 @@ msgstr "Suoratoistolähtö"
 #~ msgid "Okay"
 #~ msgstr "Okei"
 
-#~ msgid "left"
-#~ msgstr "vasen"
-
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "Aikaa jäljellä: %i sekuntia"
-
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Valitse tästä ensisijainen videolähtö ja määritä sen asetukset."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Nämä moduulit tarjoavat verkkotoiminnallisuuden VLC:n kaikille muille "
-#~ "osille."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Nämä ovat kuvan, äänen ja tekstityksen pakkausmoduulien yleisasetukset."
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Täällä voi määritellä valintaikkunatarjoajien asetukset."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "Tässä osiossa voit pakottaa tekstityksen kanavoinnin purkajan "
-#~ "toimintatavan, esimerkiksi asettamalla tekstitysten tyypin tai "
-#~ "tiedostonimen."
-
-#~ msgid "No suitable decoder module"
-#~ msgstr "Sopivaa pakkauksenpurkumoduulia ei ole"
 
 #~ msgid ""
 #~ "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
@@ -32578,23 +32360,14 @@ msgstr "Suoratoistolähtö"
 #~ "Lisäpolku, josta VLC etsii moduuleita. Voit käyttää useita lisäpolkuja "
 #~ "kirjoittamalla listan, erottimena \" PATH_SEP \"."
 
-#~ msgid "Album art policy"
-#~ msgstr "Levyn kansien latauskäytäntö"
-
 #~ msgid "Choose how album art will be downloaded."
 #~ msgstr "Valitse milloin albumien kuvat ladataan verkosta."
-
-#~ msgid "Manual download only"
-#~ msgstr "Vain manuaalinen lataus"
 
 #~ msgid "When track starts playing"
 #~ msgstr "Kun kappaletta aletaan soittaa"
 
 #~ msgid "As soon as track is added"
 #~ msgstr "Välittömästi kappaleen lisäämisen jälkeen"
-
-#~ msgid "Load Media Library"
-#~ msgstr "Lataa Mediakirjasto"
 
 #~ msgid ""
 #~ "Enable this option to load the SQL-based Media Library at VLC startup"
@@ -32605,14 +32378,6 @@ msgstr "Suoratoistolähtö"
 #~ msgid "FFmpeg"
 #~ msgstr "FFmpeg"
 
-#~ msgid "FFmpeg access"
-#~ msgstr "FFmpeg-käyttö"
-
-#~ msgid "Your system AACS decoding library does not work. Missing keys?"
-#~ msgstr ""
-#~ "Järjestelmäsi AACS-purkukirjasto ei jostain syystä toimi. Avaimet "
-#~ "puuttuvat?"
-
 #~ msgid ""
 #~ "Defines if the TCP connection should be reset. This is to be used when "
 #~ "using with audiobargraph_v (default 1)."
@@ -32620,19 +32385,8 @@ msgstr "Suoratoistolähtö"
 #~ "Määrää, nollataanko TCP-yhteys. Tätä käytetään audiobargraph_v:n kanssa "
 #~ "(oletus 1)."
 
-#~ msgid "Audio filter for stereo to mono conversion"
-#~ msgstr "Stereosta monoksi muuntava äänisuodin"
-
 #~ msgid "If bitrate=0, use this value for constant quality"
 #~ msgstr "Jos bittinopeus = 0, käytä tätä arvoa vakiolaadun ylläpitämiseksi"
-
-#~ msgid "A value > 0 enables constant bitrate mode"
-#~ msgstr ""
-#~ "Jos tämä arvo > 0, käytetään CBR-tilaa (vakiobittinopeus; constant bit "
-#~ "rate)."
-
-#~ msgid "Enable lossless coding"
-#~ msgstr "Häviötön pakkaus"
 
 #~ msgid ""
 #~ "Lossless coding ignores bitrate and quality settings, allowing for "
@@ -32646,18 +32400,6 @@ msgstr "Suoratoistolähtö"
 
 #~ msgid "Diagonal Linear Phase"
 #~ msgstr "Diagonaalinen lineaarivaihe"
-
-#~ msgid "Distance between 'P' frames"
-#~ msgstr "Etäisyys P-ruutujen välillä"
-
-#~ msgid "Number of 'P' frames per GOP"
-#~ msgstr "P-ruutujen määrä yhdessä kuvaryhmässä (GOP)"
-
-#~ msgid "Width of motion compensation blocks"
-#~ msgstr "Liikekompensaatioblokkien leveys"
-
-#~ msgid "Height of motion compensation blocks"
-#~ msgstr "Liikekompensaatioblokkien korkeus"
 
 #~ msgid "Block overlap (%)"
 #~ msgstr "Blokkien limittäisyys (%)"
@@ -32679,12 +32421,6 @@ msgstr "Suoratoistolähtö"
 #~ msgid "Total vertical block length including overlaps"
 #~ msgstr "Blokin pystypituus yhteensä, mukaanlukien limittäisyydet"
 
-#~ msgid "Motion vector precision"
-#~ msgstr "Liikevektorien tarkkuus"
-
-#~ msgid "Motion vector precision in pels."
-#~ msgstr "Liikevektorien tarkkuus (precision) pel-yksiköissä."
-
 #~ msgid "Simple ME search area x:y"
 #~ msgstr "Yksinkertainen liiketunnistus x:y"
 
@@ -32695,29 +32431,8 @@ msgstr "Suoratoistolähtö"
 #~ "(Ei suositella) Suorita yksinkertainen (ei-hierarkinen) "
 #~ "blokkivertailuperustainen liikevektorihaku alueessa +/-x, +/-y"
 
-#~ msgid "Enable spatial partitioning"
-#~ msgstr "Tilanlohkominen (spatial partitioning)"
-
-#~ msgid "cycles per degree"
-#~ msgstr "Syklejä astetta kohti"
-
-#~ msgid "Dirac video encoder using dirac-research library"
-#~ msgstr "Dirac-videopakkaaja käyttäen dirac-research -kirjastoa"
-
-#~ msgid "Video decoder using openmash"
-#~ msgstr "Videopurkaja käyttäen openmash-kirjastoa"
-
 #~ msgid "| menu . . [on|off|up|down|left|right|select] use menu"
 #~ msgstr "| menu . . [on|off|up|down|left|right|select] käytä DVD-valikkoa"
-
-#~ msgid "Jump to time"
-#~ msgstr "Siirry ajankohtaan"
-
-#~ msgid "Open CrashLog..."
-#~ msgstr "Avaa kaatumisloki..."
-
-#~ msgid "Don't Send"
-#~ msgstr "Älä lähetä"
 
 #~ msgid "VLC crashed previously"
 #~ msgstr "VLC kaatui aiemmin"
@@ -32744,36 +32459,8 @@ msgstr "Suoratoistolähtö"
 #~ "information."
 #~ msgstr "Vain oletussähköpostiosoitteesi lähetetään. Muuta tietoa ei."
 
-#~ msgid "No CrashLog found"
-#~ msgstr "Kaatumislokia ei löydy"
-
 #~ msgid "Couldn't find any trace of a previous crash."
 #~ msgstr "Edellisestä kaatumisesta ei löydy mitään jälkeä."
-
-#~ msgid "Open BDMV folder"
-#~ msgstr "Avaa BDMV-kansio"
-
-#~ msgid "Album art download policy"
-#~ msgstr "Albumin kansikuvien latauskäytäntö"
-
-#~ msgid "Output module"
-#~ msgstr "Lähtömoduuli"
-
-#~ msgid "Graphic Equalizer"
-#~ msgstr "Graafinen taajuuskorjain"
-
-#, fuzzy
-#~ msgid "Automatically retrieve media infos"
-#~ msgstr "Asettaa video gain-arvon automaattisesti."
-
-#~ msgid "Under the Video"
-#~ msgstr "Videon alla"
-
-#~ msgid "&Help..."
-#~ msgstr "O&hje..."
-
-#~ msgid "Synchronise on audio track"
-#~ msgstr "Synkronoi ääniraitaan"
 
 #~ msgid ""
 #~ "This option will drop/duplicate video frames to synchronise the video "
@@ -32781,16 +32468,6 @@ msgstr "Suoratoistolähtö"
 #~ msgstr ""
 #~ "Tämä pudottaa tai duplikoi videoruutuja synkronoidakseen videoraidan "
 #~ "ääniraitaan."
-
-#~ msgid ""
-#~ "The transcoder will drop frames if your CPU can't keep up with the "
-#~ "encoding rate."
-#~ msgstr ""
-#~ "Transkooderi pudottaa ruutuja, jos suoritin ei pysy mukana pakkauksen "
-#~ "tahdissa."
-
-#~ msgid "Value of the audio channels levels"
-#~ msgstr "Äänikanavien tasot"
 
 #~ msgid ""
 #~ "Value of the audio level of each channels between 0 and 1. Each level "
@@ -32806,18 +32483,6 @@ msgstr "Suoratoistolähtö"
 #~ msgstr ""
 #~ "Signaloi hiljaisuuden ja näyttää hälytyksen (0 = ei hälytystä, 1 = "
 #~ "hälytys)."
-
-#~ msgid "Spatial luma strength (default 4)"
-#~ msgstr "Avaruudellinen vahvuus kirkkauskomponentissa (oletus 4)"
-
-#~ msgid "Spatial chroma strength (default 3)"
-#~ msgstr "Avaruudellinen vahvuus värikomponenteissa (oletus 3)"
-
-#~ msgid "Temporal luma strength (default 6)"
-#~ msgstr "Ajallinen vahvuus kirkkauskomponentissa (oletus 6)"
-
-#~ msgid "Temporal chroma strength (default 4.5)"
-#~ msgstr "Ajallinen vahvuus värikomponenteissa (oletus 4.5)"
 
 #~ msgid ""
 #~ "Marquee text to display. (Available format strings: Time related: %Y = "
@@ -32842,21 +32507,248 @@ msgstr "Suoratoistolähtö"
 #~ "(rate), $S = äänen näytteistystaajuus (kHz), $T = aikaa kulunut, $U = "
 #~ "julkaisija, $V = nide (volume), $_ = rivinvaihto)"
 
-#~ msgid "iOS OpenGL ES video output (requires UIView)"
-#~ msgstr "iOS OpenGL ES -videolähtö (vaatii UIViewin)"
+#, fuzzy
+#~ msgid "TCP port to use (default 12345)"
+#~ msgstr "Ajallinen vahvuus värikomponenteissa (oletus 4.5)"
 
-#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
+#, fuzzy
+#~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
 #~ msgstr "Mac OS X OpenGL -videolähtö (vaatii drawable-nsobjectin)"
+
+#, fuzzy
+#~ msgid "Ffmpeg mux"
+#~ msgstr "FFmpeg"
+
+#, fuzzy
+#~ msgid "Don't repair"
+#~ msgstr "Älä lähetä"
+
+#, fuzzy
+#~ msgid ""
+#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
+#~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
+#~ "Album, $c Copyright, $d Description, $e Encoder, $g Genre, $l Language, "
+#~ "$n number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
+#~ "URL, $A Date, $B Bitrate, $C Chapter, $D Duration, $F URI, $I Video "
+#~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
+#~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"
+#~ msgstr ""
+#~ "Tekstiskrollerissa näytettävä teksti. (Muotoilumerkkijonot: Aikaan "
+#~ "liittyvät: %Y = vuosi, )%m = kuukausi, %d = päivä, %H = tunti, %M = "
+#~ "minuutti, %S = sekunti ... Metatietoihin liittyvät: $a = esittäjä, $b = "
+#~ "albumi, $c = tekijänoikeus, $d = kuvaus, $e = pakkaajan nimi, $g = "
+#~ "tyylilaji, $l = kieli, $n = raidan numero, $p = nyt soimassa, $r = "
+#~ "arvosana, $s = tekstityskieli, $t = otsikko, $u = url, $A = päiväys, $B = "
+#~ "äänen bittinopeus (kb/s), $C = luku (chapter), $D = kesto, $F = täysi "
+#~ "nimi tiedostopolkuineen, $I = nimi (title), $L = aikaa jäljellä, $N = "
+#~ "nimi (name), $O = äänen kieli, $P = sijainti (prosentteina), $R = taajuus "
+#~ "(rate), $S = äänen näytteistystaajuus (kHz), $T = aikaa kulunut, $U = "
+#~ "julkaisija, $V = nide (volume), $_ = rivinvaihto)"
+
+#, fuzzy
+#~ msgid "Rear speakers"
+#~ msgstr "Keskitaka"
+
+#, fuzzy
+#~ msgid "left"
+#~ msgstr "Takavasen"
+
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Valitse tästä ensisijainen videolähtö ja määritä sen asetukset."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Nämä moduulit tarjoavat verkkotoiminnallisuuden VLC:n kaikille muille "
+#~ "osille."
+
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr ""
+#~ "Nämä ovat kuvan, äänen ja tekstityksen pakkausmoduulien yleisasetukset."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Täällä voi määritellä valintaikkunatarjoajien asetukset."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "Tässä osiossa voit pakottaa tekstityksen kanavoinnin purkajan "
+#~ "toimintatavan, esimerkiksi asettamalla tekstitysten tyypin tai "
+#~ "tiedostonimen."
+
+#, fuzzy
+#~ msgid "No suitable decoder module"
+#~ msgstr "CVD-tekstityksen purkaja"
+
+#, fuzzy
+#~ msgid "Album art policy"
+#~ msgstr "Albumin kansikuvien latauskäytäntö"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Albumin kansikuvien latauskäytäntö"
+
+#, fuzzy
+#~ msgid "Load Media Library"
+#~ msgstr "Mediakirjasto"
+
+#, fuzzy
+#~ msgid "FFmpeg access"
+#~ msgstr "Zip-käyttömoduuli"
+
+#, fuzzy
+#~ msgid "Your system AACS decoding library does not work. Missing keys?"
+#~ msgstr ""
+#~ "Järjestelmäsi BD+ -purkukirjasto ei jostain syystä toimi. Asetukset "
+#~ "puuttuvat?"
+
+#, fuzzy
+#~ msgid "Audio filter for stereo to mono conversion"
+#~ msgstr "PCM-muunnoksen äänisuodin"
+
+#, fuzzy
+#~ msgid "A value > 0 enables constant bitrate mode"
+#~ msgstr "Kohdebittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
+
+#, fuzzy
+#~ msgid "Enable lossless coding"
+#~ msgstr "Käytä megabassotilaa"
+
+#, fuzzy
+#~ msgid "Distance between 'P' frames"
+#~ msgstr "Suurin sallittu askel, jonka QP-arvo saa muuttua ruutujen välillä."
+
+#, fuzzy
+#~ msgid "Number of 'P' frames per GOP"
+#~ msgstr "Ruutujen määrä (välillä 0 ja 100)"
+
+#, fuzzy
+#~ msgid "Width of motion compensation blocks"
+#~ msgstr "Liikekompensaatioblokkien koko"
+
+#, fuzzy
+#~ msgid "Height of motion compensation blocks"
+#~ msgstr "Liikekompensaatioblokkien koko"
+
+#, fuzzy
+#~ msgid "Motion vector precision"
+#~ msgstr "Liikevektorien tarkkuus"
+
+#, fuzzy
+#~ msgid "Motion vector precision in pels."
+#~ msgstr "Liikevektorien tarkkuus (precision) pel-yksiköissä."
+
+#, fuzzy
+#~ msgid "Enable spatial partitioning"
+#~ msgstr "Kytke päälle/pois adaptiivinen esisuodin"
+
+#, fuzzy
+#~ msgid "cycles per degree"
+#~ msgstr "Kulma asteina"
+
+#, fuzzy
+#~ msgid "Dirac video encoder using dirac-research library"
+#~ msgstr "Dirac-videopakkaaja käyttäen libschroedinger-kirjastoa"
+
+#, fuzzy
+#~ msgid "Video decoder using openmash"
+#~ msgstr "Videopakkaaja (käyttäen OpenMAX IL:ää)"
+
+#, fuzzy
+#~ msgid "Jump to time"
+#~ msgstr "Siirry ajankohtaan"
+
+#, fuzzy
+#~ msgid "Open CrashLog..."
+#~ msgstr "Avaa levy..."
+
+#, fuzzy
+#~ msgid "Don't Send"
+#~ msgstr "Älä näytä"
+
+#, fuzzy
+#~ msgid "No CrashLog found"
+#~ msgstr "Lisäosia ei löytynyt"
+
+#, fuzzy
+#~ msgid "Open BDMV folder"
+#~ msgstr "Avaa kansio"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Albumin kansikuvien latauskäytäntö"
+
+#, fuzzy
+#~ msgid "Output module"
+#~ msgstr "Lähtömoduulit"
+
+#, fuzzy
+#~ msgid "Graphic Equalizer"
+#~ msgstr "Parametrinen taajuuskorjain"
+
+#, fuzzy
+#~ msgid "Automatically retrieve media infos"
+#~ msgstr "Asettaa video gain-arvon automaattisesti."
+
+#, fuzzy
+#~ msgid "Under the Video"
+#~ msgstr "Videon yllä"
+
+#, fuzzy
+#~ msgid "&Help..."
+#~ msgstr "O&hje"
+
+#, fuzzy
+#~ msgid "Synchronise on audio track"
+#~ msgstr "Seuraava ääniraita"
+
+#, fuzzy
+#~ msgid ""
+#~ "The transcoder will drop frames if your CPU can't keep up with the "
+#~ "encoding rate."
+#~ msgstr ""
+#~ "Kanavoinninpurkaja siirtyy aikaleimoissa eteenpäin, jos lähde ei pysy "
+#~ "tahdissa mukana."
+
+#, fuzzy
+#~ msgid "Value of the audio channels levels"
+#~ msgstr "Äänikanavien määrä"
+
+#, fuzzy
+#~ msgid "Spatial luma strength (default 4)"
+#~ msgstr "Avaruudellinen luma-vahvuus (0-254)"
+
+#, fuzzy
+#~ msgid "Spatial chroma strength (default 3)"
+#~ msgstr "Avaruudellinen chroma-vahvuus (0-254)"
+
+#, fuzzy
+#~ msgid "Temporal luma strength (default 6)"
+#~ msgstr "Ajallinen luma-vahvuus (0-254)"
+
+#, fuzzy
+#~ msgid "Temporal chroma strength (default 4.5)"
+#~ msgstr "Ajallinen chroma-vahvuus (0-254)"
+
+#, fuzzy
+#~ msgid "iOS OpenGL ES video output (requires UIView)"
+#~ msgstr "OpenGL-videolähtö (kokeellinen)"
+
+#, fuzzy
+#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
+#~ msgstr "OpenGL-videolähtö (kokeellinen)"
 
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Lisää tekstitystiedosto:"
 
+#, fuzzy
 #~ msgid "Album art download policy:"
-#~ msgstr "Albumien kansikuvian latauskäytäntö"
+#~ msgstr "Albumin kansikuvien latauskäytäntö"
 
+#, fuzzy
 #~ msgid "Configure Media Library"
-#~ msgstr "Mediakirjaston asetukst"
+#~ msgstr "Mediakirjasto"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -32912,7 +32804,7 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "Lataa Mediakirjasto"
+#~ msgstr "Mediakirjasto"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -33125,10 +33017,6 @@ msgstr "Suoratoistolähtö"
 #, fuzzy
 #~ msgid "ARM NEON audio format conversions"
 #~ msgstr "ARM NEON videon värimuunnos"
-
-#, fuzzy
-#~ msgid "TCP port to use (default 12345)"
-#~ msgstr "Ajallinen vahvuus värikomponenteissa (oletus 4.5)"
 
 #, fuzzy
 #~ msgid "Fixed point audio format conversions"
@@ -33437,10 +33325,6 @@ msgstr "Suoratoistolähtö"
 #~ msgstr "SAP-julkaisu"
 
 #, fuzzy
-#~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
-#~ msgstr "Mac OS X OpenGL -videolähtö (vaatii drawable-nsobjectin)"
-
-#, fuzzy
 #~ msgid "  [Incoming]"
 #~ msgstr "+-[Sisääntuleva data]"
 
@@ -33646,7 +33530,7 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "Title format string"
-#~ msgstr "XVideon formaattitunniste"
+#~ msgstr "Tekstityksen formaatti"
 
 #, fuzzy
 #~ msgid "MSN Now-Playing"
@@ -33922,7 +33806,7 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "Instances"
-#~ msgstr "Asenna"
+#~ msgstr "Asennettu"
 
 #, fuzzy
 #~ msgid "Subtitles Language"
@@ -33946,11 +33830,11 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "Previous/Backward"
-#~ msgstr "Edellinen luku"
+#~ msgstr "Edellinen/taaksepäin"
 
 #, fuzzy
 #~ msgid "Next/Forward"
-#~ msgstr "Eteenpäin"
+#~ msgstr "Seuraava/eteenpäin"
 
 #, fuzzy
 #~ msgid "Loop/Repeat mode"
@@ -34054,7 +33938,7 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
-#~ msgstr "Graafinen taajuuskorjain"
+#~ msgstr "Parametrinen taajuuskorjain"
 
 #, fuzzy
 #~ msgid "Create Stream"
@@ -34720,11 +34604,11 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
-#~ msgstr "VLC ei voinut avata tiedostoa \"%s\". (%m)"
+#~ msgstr "DVDRead ei voinut avata levyä \"%s\"."
 
 #, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "Tuntematon kategoria"
+#~ msgstr "Tunnistamaton virhe"
 
 #, fuzzy
 #~ msgid "Roku HD1000 audio output"
@@ -34849,16 +34733,8 @@ msgstr "Suoratoistolähtö"
 #~ msgstr "AIFF-kanavoinninpurkaja"
 
 #, fuzzy
-#~ msgid "Ffmpeg mux"
-#~ msgstr "FFmpeg"
-
-#, fuzzy
 #~ msgid "AVI Index"
 #~ msgstr "Indeksi"
-
-#, fuzzy
-#~ msgid "Don't repair"
-#~ msgstr "Älä lähetä"
 
 #, fuzzy
 #~ msgid ""
@@ -35179,28 +35055,6 @@ msgstr "Suoratoistolähtö"
 #, fuzzy
 #~ msgid "Growl UDP Notification Plugin"
 #~ msgstr "Growl-ilmoitusalueliitännäinen"
-
-#, fuzzy
-#~ msgid ""
-#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
-#~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
-#~ "Album, $c Copyright, $d Description, $e Encoder, $g Genre, $l Language, "
-#~ "$n number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
-#~ "URL, $A Date, $B Bitrate, $C Chapter, $D Duration, $F URI, $I Video "
-#~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
-#~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"
-#~ msgstr ""
-#~ "Tekstiskrollerissa näytettävä teksti. (Muotoilumerkkijonot: Aikaan "
-#~ "liittyvät: %Y = vuosi, )%m = kuukausi, %d = päivä, %H = tunti, %M = "
-#~ "minuutti, %S = sekunti ... Metatietoihin liittyvät: $a = esittäjä, $b = "
-#~ "albumi, $c = tekijänoikeus, $d = kuvaus, $e = pakkaajan nimi, $g = "
-#~ "tyylilaji, $l = kieli, $n = raidan numero, $p = nyt soimassa, $r = "
-#~ "arvosana, $s = tekstityskieli, $t = otsikko, $u = url, $A = päiväys, $B = "
-#~ "äänen bittinopeus (kb/s), $C = luku (chapter), $D = kesto, $F = täysi "
-#~ "nimi tiedostopolkuineen, $I = nimi (title), $L = aikaa jäljellä, $N = "
-#~ "nimi (name), $O = äänen kieli, $P = sijainti (prosentteina), $R = taajuus "
-#~ "(rate), $S = äänen näytteistystaajuus (kHz), $T = aikaa kulunut, $U = "
-#~ "julkaisija, $V = nide (volume), $_ = rivinvaihto)"
 
 #, fuzzy
 #~ msgid "Use SAP cache"
@@ -36242,7 +36096,7 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "VLC could not find encoder \"%s\"."
-#~ msgstr "VLC ei voinut avata pakkausohjelmaa."
+#~ msgstr "VLC ei saanut yhteyttä sijaintiin \"%s:%d\"."
 
 #, fuzzy
 #~ msgid "Quartz video"
@@ -36590,7 +36444,7 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "VLC could not open file \"%s\" (%s)."
-#~ msgstr "VLC ei voinut avata tiedostoa \"%s\". (%m)"
+#~ msgstr "VLC ei voinut avata moduulia %s."
 
 #, fuzzy
 #~ msgid "RTCP destination port number"
@@ -36749,4 +36603,4 @@ msgstr "Suoratoistolähtö"
 
 #, fuzzy
 #~ msgid "Open Subtitles"
-#~ msgstr "Avaa tekstitykset..."
+#~ msgstr "Avaa tekstitykset"
