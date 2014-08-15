@@ -7,15 +7,16 @@
 # Ildar Kamaev <thetechnorat@gmail.com>, 2014
 # Ivar Smolin <okul@linux.ee>, 2012-2013
 # Mattias Põldaru <mahfiaz gmail com> 2010
+# Joel Limberg <joel@stuudium.com>, 2014
 # robertzon, 2014
-# mihkel <turakas@gmail.com>, 2010-2013
+# mihkel <turakas@gmail.com>, 2010-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-06-10 15:44-0400\n"
-"PO-Revision-Date: 2014-05-09 11:31+0000\n"
-"Last-Translator: robertzon\n"
+"PO-Revision-Date: 2014-07-12 17:35+0000\n"
+"Last-Translator: Joel Limberg <joel@stuudium.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/et/)\n"
 "Language: et\n"
@@ -396,9 +397,8 @@ msgid "Advanced settings"
 msgstr "Laiendatud sätted"
 
 #: include/vlc_input.h:568
-#, fuzzy
 msgid "Subtitle track added"
-msgstr "Subtiitrite rada"
+msgstr "Lisatud subtiitrite rada"
 
 #: include/vlc_interface.h:140
 msgid ""
@@ -493,14 +493,12 @@ msgid "Create Folder..."
 msgstr "Kausta loomine..."
 
 #: include/vlc_intf_strings.h:70
-#, fuzzy
 msgid "Rename Directory..."
-msgstr "Kataloogi loomine..."
+msgstr "Nimeta kataloog ümber..."
 
 #: include/vlc_intf_strings.h:71
-#, fuzzy
 msgid "Rename Folder..."
-msgstr "Kausta loomine..."
+msgstr "Nimeta kaust ümber..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
@@ -1103,7 +1101,7 @@ msgstr "Pausi"
 
 #: src/config/keys.c:112
 msgid "Print"
-msgstr ""
+msgstr "Prindi"
 
 #: src/config/keys.c:114 modules/demux/mp4/id3genres.h:76
 msgid "Space"
@@ -1164,9 +1162,8 @@ msgid "Command+"
 msgstr "Command+"
 
 #: src/darwin/error.c:37
-#, fuzzy
 msgid "Unknown error"
-msgstr "Tundmatu video"
+msgstr "Tundmatu viga"
 
 #: src/input/control.c:226
 #, c-format
@@ -1198,29 +1195,25 @@ msgid "VLC could not open the decoder module."
 msgstr "VLC ei suuda avada dekoodri moodulit."
 
 #: src/input/decoder.c:691
-#, fuzzy
 msgid "No description for this codec"
-msgstr "Sihtvideokoodek"
+msgstr "Selle koodeki kohta puudub kirjeldus"
 
 #: src/input/decoder.c:693
-#, fuzzy
 msgid "Codec not supported"
-msgstr "Kliendi port"
+msgstr "Koodek pole toetatud"
 
 #: src/input/decoder.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr "VLC ei suutnud avada faili \"%s\". (%m)"
+msgstr ""
 
 #: src/input/decoder.c:698
-#, fuzzy
 msgid "Unidentified codec"
-msgstr "Videokoodek"
+msgstr "Tuvastamatu koodek"
 
 #: src/input/decoder.c:699
-#, fuzzy
 msgid "VLC could not identify the audio or video codec"
-msgstr "VLC ei suuda avada dekoodri moodulit."
+msgstr "VLC ei suutnud tuvastada audio või video koodekit"
 
 #: src/input/es_out.c:926 src/input/es_out.c:931 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -1451,9 +1444,8 @@ msgid "Track ID"
 msgstr "Raja ID"
 
 #: src/input/meta.c:72
-#, fuzzy
 msgid "Number of Tracks"
-msgstr "Ridade arv"
+msgstr "Radade arv"
 
 #: src/input/meta.c:73
 msgid "Director"
@@ -1461,21 +1453,19 @@ msgstr "Režissöör"
 
 #: src/input/meta.c:74
 msgid "Season"
-msgstr ""
+msgstr "Hooaeg"
 
 #: src/input/meta.c:75
 msgid "Episode"
-msgstr ""
+msgstr "Episood"
 
 #: src/input/meta.c:76
-#, fuzzy
 msgid "Show Name"
-msgstr "Kuva lihtne"
+msgstr "Saate nimi"
 
 #: src/input/meta.c:77
-#, fuzzy
 msgid "Actors"
-msgstr "Tegur"
+msgstr "Näitlejad"
 
 #: src/input/var.c:158
 msgid "Bookmark"
@@ -2748,18 +2738,14 @@ msgstr ""
 "kolmetäheline maa kood, varuvariandina võib kasutada väärtust 'any')."
 
 #: src/libvlc-module.c:596
-#, fuzzy
 msgid "Menu language"
-msgstr "Menüüde keel:"
+msgstr "Menüü keel"
 
 #: src/libvlc-module.c:598
-#, fuzzy
 msgid ""
 "Language of the menus you want to use with DVD/BluRay (comma separated, two "
 "or three letters country code, you may use 'any' as a fallback)."
 msgstr ""
-"Subtiitrite raja jaoks eelistatav keel (komaga eraldatud kahe- või "
-"kolmetäheline maa kood, varuvariandina võib kasutada väärtust 'any')."
 
 #: src/libvlc-module.c:602
 msgid "Audio track ID"
@@ -3758,7 +3744,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
 #: modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Allow metadata network access"
-msgstr ""
+msgstr "Luba võrgu pääs metaandmetele"
 
 #: src/libvlc-module.c:1118
 msgid "Services discovery modules"
@@ -3906,7 +3892,7 @@ msgstr "Välju täisekraanist"
 
 #: src/libvlc-module.c:1192
 msgid "Select the hotkey to use to exit fullscreen state."
-msgstr ""
+msgstr "Vali kiirklahv väljumaks täisekraani režiimist."
 
 #: src/libvlc-module.c:1193 modules/gui/macosx/ControlsBar.m:55
 #: modules/gui/macosx/fspanel.m:420
@@ -4800,9 +4786,8 @@ msgid "print version information"
 msgstr "programmi versiooni andmete väljastamine"
 
 #: src/libvlc-module.c:2690
-#, fuzzy
 msgid "core program"
-msgstr "põhirakendus"
+msgstr ""
 
 #: src/misc/update.c:473
 #, c-format
@@ -5711,17 +5696,15 @@ msgstr "Manuse sisend"
 
 #: modules/access/avio.h:33
 msgid "AVIO"
-msgstr ""
+msgstr "AVIO"
 
 #: modules/access/avio.h:34
-#, fuzzy
 msgid "libavformat AVIO access"
-msgstr "libavformat juurdepääsu väljund"
+msgstr ""
 
 #: modules/access/avio.h:44
-#, fuzzy
 msgid "libavformat AVIO access output"
-msgstr "libavformat juurdepääsu väljund"
+msgstr ""
 
 #: modules/access/bd/bd.c:54
 msgid "BD"
@@ -5740,15 +5723,16 @@ msgid "Use Blu-ray menus. If disabled, the movie will start directly"
 msgstr ""
 
 #: modules/access/bluray.c:70
-#, fuzzy
 msgid "Region code"
-msgstr "Regiooni ülemine rida"
+msgstr "Regioonikood"
 
 #: modules/access/bluray.c:71
 msgid ""
 "Blu-Ray player region code. Some discs can be played only with a correct "
 "region code."
 msgstr ""
+"Blu-Ray regiooonikood. Mõned kettad on esitatavad ainult õige regiooni "
+"koodiga."
 
 #: modules/access/bluray.c:87 modules/services_discovery/udev.c:597
 #: modules/gui/qt4/ui/open_disk.h:300
@@ -5761,17 +5745,19 @@ msgstr "Blu-Ray ketta tugi (libbluray)"
 
 #: modules/access/bluray.c:349
 msgid "Path doesn't appear to be a Blu-ray"
-msgstr ""
+msgstr "Asukoht ei tundu olevat Blu-ray formaadis"
 
 #: modules/access/bluray.c:361
 msgid ""
 "This Blu-ray Disc needs a library for AACS decoding, and your system does "
 "not have it."
 msgstr ""
+"See Blu-ray plaat vajab teeki AACS dekodeerimiseks, aga sinu süsteemis seda "
+"pole."
 
 #: modules/access/bluray.c:367
 msgid "Blu-ray Disc is corrupted."
-msgstr ""
+msgstr "Bly-ray ketas on vigane."
 
 #: modules/access/bluray.c:369
 msgid "Missing AACS configuration file!"
@@ -5798,6 +5784,8 @@ msgid ""
 "This Blu-ray Disc needs a library for BD+ decoding, and your system does not "
 "have it."
 msgstr ""
+"See Blu-ray plaat vajab BD+ dekodeerimiseks teeki ja sinu süsteemis seda "
+"pole."
 
 #: modules/access/bluray.c:390
 msgid "Your system BD+ decoding library does not work. Missing configuration?"
@@ -5812,14 +5800,12 @@ msgid "Blu-ray error"
 msgstr "Blu-Ray viga"
 
 #: modules/access/bluray.c:1189
-#, fuzzy
 msgid "Top Menu"
-msgstr "Menüü"
+msgstr ""
 
 #: modules/access/bluray.c:1191
-#, fuzzy
 msgid "First Play"
-msgstr "Esimene esitus esitatud"
+msgstr ""
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:160
 #: modules/gui/qt4/ui/open_disk.h:301
@@ -5864,14 +5850,12 @@ msgid "IIDC Digital Camera (FireWire) input"
 msgstr ""
 
 #: modules/access/dcp/dcp.cpp:75
-#, fuzzy
 msgid "DCP"
-msgstr "RDP"
+msgstr "DCP"
 
 #: modules/access/dcp/dcp.cpp:78
-#, fuzzy
 msgid "Digital Cinema Package module"
-msgstr "Liidese lisamoodulid"
+msgstr "Digital Cinema Pakki moodul"
 
 #: modules/access/decklink.cpp:46
 msgid "Input card to use"
@@ -5885,9 +5869,10 @@ msgstr ""
 "Kasutatav DeckLink-i hõivekaart, kui on mitu. Kaarte hakatakse loendama 0-st."
 
 #: modules/access/decklink.cpp:51
-#, fuzzy
 msgid "Desired input video mode. Leave empty for autodetection."
-msgstr "Soovitud sisendi videorežiim"
+msgstr ""
+"Soovitud sisendi videorežiim. Jäta tühjaks, et kasutada automaatset "
+"tuvastamist."
 
 #: modules/access/decklink.cpp:53
 msgid ""
@@ -6258,7 +6243,7 @@ msgstr ""
 #: modules/access/dshow/dshow.cpp:1041
 msgid ""
 "The device you selected cannot be used, because its type is not supported."
-msgstr ""
+msgstr "Sinu valitud seadet ei saa kasutada, sest selle tüüp ei ole toetatud."
 
 #: modules/access/dshow/dshow.cpp:1094
 #, c-format
@@ -6691,7 +6676,7 @@ msgstr ""
 
 #: modules/access/dv.c:55
 msgid "Digital Video (Firewire/ieee1394) input"
-msgstr ""
+msgstr "Digitaalse video (Firewire/ieee1394) sisend"
 
 #: modules/access/dv.c:56
 msgid "DV"
@@ -6783,14 +6768,14 @@ msgid "File reading failed"
 msgstr "Faili lugemine ebaõnnestus"
 
 #: modules/access/file.c:178 modules/access/vdr.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\" (%s)."
-msgstr "VLC ei suutnud avada faili \"%s\". (%m)"
+msgstr "VLC ei suutnud avada faili \"%s\" (%s)."
 
 #: modules/access/file.c:305 modules/access/vdr.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file (%s)."
-msgstr "VLC ei suutnud lugeda faili (%m)."
+msgstr "VLC ei suutnud faili lugeda (%s)."
 
 #: modules/access/fs.c:33
 msgid "Subdirectory behavior"
@@ -6834,7 +6819,7 @@ msgstr ""
 #: modules/access/fs.c:53
 msgid ""
 "Sort alphabetically according to the current language's collation rules."
-msgstr ""
+msgstr "Sorteeri tähestikuliselt kasutades praegu valitud keele reegleid."
 
 #: modules/access/fs.c:54
 msgid ""
@@ -6844,11 +6829,11 @@ msgstr ""
 
 #: modules/access/fs.c:55
 msgid "Do not sort the items."
-msgstr ""
+msgstr "Ära sorteeri kirjeid."
 
 #: modules/access/fs.c:57
 msgid "Directory sort order"
-msgstr ""
+msgstr "Kataloogi sorteerimise kord"
 
 #: modules/access/fs.c:59
 msgid "Define the sort algorithm used when adding items from a directory."
@@ -7312,7 +7297,7 @@ msgstr ""
 
 #: modules/access/live555.cpp:94
 msgid "RTSP frame buffer size"
-msgstr ""
+msgstr "RTSP kaadripuhvri suurus"
 
 #: modules/access/live555.cpp:95
 msgid ""
@@ -7367,7 +7352,7 @@ msgstr "Palun sisesta kehtiv kasutajanimi ja parool."
 
 #: modules/access/live555.cpp:655
 msgid "RTSP connection failed"
-msgstr ""
+msgstr "RTSP ühendus ebaõnnestus"
 
 #: modules/access/live555.cpp:656
 msgid "Access to the stream is denied by the server configuration."
@@ -7428,14 +7413,14 @@ msgid "MTP"
 msgstr "MTP"
 
 #: modules/access/mtp.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file: %s"
-msgstr "VLC ei suutnud faili lugeda."
+msgstr "VLC ei suutnud lugeda faili: %s."
 
 #: modules/access/mtp.c:287
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\": %s"
-msgstr "VLC ei suutnud avada faili \"%s\". (%m)"
+msgstr ""
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7468,11 +7453,11 @@ msgstr "Liba vooväljund"
 
 #: modules/access_output/file.c:68
 msgid "Overwrite existing file"
-msgstr ""
+msgstr "Kirjuta olemasolev fail üle"
 
 #: modules/access_output/file.c:70
 msgid "If the file already exists, it will be overwritten."
-msgstr ""
+msgstr "Kui fail on juba olemas, kirjutatakse ta üle."
 
 #: modules/access_output/file.c:71
 msgid "Append to file"
@@ -7550,9 +7535,8 @@ msgstr ""
 "automaatselt)."
 
 #: modules/access_output/http.c:61
-#, fuzzy
 msgid "Metacube"
-msgstr "Meta+"
+msgstr ""
 
 #: modules/access_output/http.c:62
 msgid ""
@@ -7657,14 +7641,13 @@ msgid "Generate IV instead using segment-number as IV"
 msgstr ""
 
 #: modules/access_output/livehttp.c:105
-#, fuzzy
 msgid "Number of first segment"
-msgstr "Segmentide arv"
+msgstr "Esimese segmendi number"
 
 #: modules/access_output/livehttp.c:106
 #, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Mitu korda sulamist teostatakse"
+msgstr "Genereeritud segmendi number"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -7843,11 +7826,11 @@ msgstr ""
 
 #: modules/access/rdp.c:65
 msgid "RDP auth username"
-msgstr ""
+msgstr "Kasutajanimi RDP autendimiseks"
 
 #: modules/access/rdp.c:66
 msgid "RDP auth password"
-msgstr ""
+msgstr "Parool RDP autentimiseks"
 
 #: modules/access/rdp.c:67
 msgid "RDP Password"
@@ -7855,7 +7838,7 @@ msgstr "RDP parool"
 
 #: modules/access/rdp.c:68
 msgid "Encrypted connexion"
-msgstr ""
+msgstr "Krüpteeritud ühendus"
 
 #: modules/access/rdp.c:70
 msgid "Acquisition rate (in fps)"
@@ -8258,7 +8241,7 @@ msgstr "TCP sisend"
 
 #: modules/access/timecode.c:43
 msgid "Time code"
-msgstr ""
+msgstr "Ajakood"
 
 #: modules/access/timecode.c:44
 msgid "Time code subpicture elementary stream generator"
@@ -9269,9 +9252,8 @@ msgid "Rear center"
 msgstr "Tagumine keskmine"
 
 #: modules/audio_filter/channel_mixer/mono.c:98
-#, fuzzy
 msgid "Stereo to mono downmixer"
-msgstr "Audio stereorežiim"
+msgstr ""
 
 #: modules/audio_filter/channel_mixer/remap.c:74
 msgid "Audio channel remapper"
@@ -9372,7 +9354,7 @@ msgstr "Määra ründeaeg millisekundites (1.5 ... 400)."
 
 #: modules/audio_filter/compressor.c:162
 msgid "Release time"
-msgstr ""
+msgstr "Avaldamise aeg"
 
 #: modules/audio_filter/compressor.c:164
 msgid "Set the release time in milliseconds (2 ... 800)."
@@ -9405,11 +9387,11 @@ msgstr "Määra põlve raadius dB-des (1 ... 10)."
 
 #: modules/audio_filter/compressor.c:175 modules/gui/macosx/AudioEffects.m:125
 msgid "Makeup gain"
-msgstr ""
+msgstr "Järelvõimendus"
 
 #: modules/audio_filter/compressor.c:176
 msgid "Set the makeup gain in dB (0 ... 24)."
-msgstr ""
+msgstr "Määra järelvõimendus dB-s (0 ... 24)."
 
 #: modules/audio_filter/compressor.c:179 modules/gui/macosx/AudioEffects.m:144
 #: modules/gui/qt4/dialogs/extended.cpp:67
@@ -10169,9 +10151,8 @@ msgid "This linear gain will be applied in software."
 msgstr ""
 
 #: modules/audio_output/wasapi.c:457
-#, fuzzy
 msgid "Windows Audio Session API output"
-msgstr "Windowsi GDI videoväljund"
+msgstr ""
 
 #: modules/audio_output/waveout.c:133
 msgid "Select Audio Device"
@@ -10721,39 +10702,33 @@ msgid "unknown"
 msgstr "tundmatu"
 
 #: modules/codec/avcodec/encoder.c:853
-#, fuzzy
 msgid "video"
-msgstr "S-video"
+msgstr "video"
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "audio"
-msgstr "Audio"
+msgstr "audio"
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "subpicture"
-msgstr "Pildipealdised"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:867
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the %4.4s %s encoder."
-msgstr "VLC-l pole võimalik koodrit avada."
+msgstr ""
 
 #: modules/codec/avcodec/hwdummy.c:42
-#, fuzzy
 msgid "Dummy video decoder"
-msgstr "CDG video dekooder"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:62
-#, fuzzy
 msgid "VA-API video decoder via X11"
-msgstr "PNG video dekooder"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:64
-#, fuzzy
 msgid "VA-API video decoder via DRM"
-msgstr "PNG video dekooder"
+msgstr ""
 
 #: modules/codec/avcodec/vda.c:85
 msgid "420YpCbCr8Planar"
@@ -11048,9 +11023,8 @@ msgid "Uses GStreamer framework's plugins to decode the media codecs"
 msgstr ""
 
 #: modules/codec/gstdecode.c:72
-#, fuzzy
 msgid "Use DecodeBin"
-msgstr "Dekodeerimine"
+msgstr "Kasuta DecodeBin-i"
 
 #: modules/codec/gstdecode.c:74
 msgid ""
@@ -11061,9 +11035,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/gstdecode.c:86
-#, fuzzy
 msgid "GStreamer Based Decoder"
-msgstr "Speex audio dekooder"
+msgstr ""
 
 #: modules/codec/jpeg.c:50
 msgid ""
@@ -11071,14 +11044,12 @@ msgid ""
 msgstr ""
 
 #: modules/codec/jpeg.c:109
-#, fuzzy
 msgid "JPEG image decoder"
-msgstr "SDL pildi dekooder"
+msgstr "JPEG pildi dekooder"
 
 #: modules/codec/jpeg.c:118
-#, fuzzy
 msgid "JPEG image encoder"
-msgstr "SDL pildi dekooder"
+msgstr "JPEG pildi enkooder"
 
 #: modules/codec/kate.c:194 modules/codec/subsdec.c:174
 msgid "Formatted Subtitles"
@@ -11394,9 +11365,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/mmal.c:57
-#, fuzzy
 msgid "MMAL decoder"
-msgstr "dekooder"
+msgstr "MMAL dekooder"
 
 #: modules/codec/mmal.c:58
 msgid "MMAL-based decoder plugin for Raspberry Pi"
@@ -11411,9 +11381,8 @@ msgid "MPEG audio layer I/II/III packetizer"
 msgstr "MPEG audio layer I/II/III tükeldaja"
 
 #: modules/codec/omxil/android_mediacodec.c:263
-#, fuzzy
 msgid "Android direct rendering"
-msgstr "Otserenderdamine"
+msgstr ""
 
 #: modules/codec/omxil/android_mediacodec.c:265
 msgid "Enable Android direct rendering using opaque buffers."
@@ -11444,18 +11413,16 @@ msgid "Opus"
 msgstr "Opus"
 
 #: modules/codec/opus.c:73
-#, fuzzy
 msgid "Opus audio encoder"
-msgstr "Opus audio dekooder"
+msgstr "Opus audio enkooder"
 
 #: modules/codec/png.c:91
 msgid "PNG video decoder"
 msgstr "PNG video dekooder"
 
 #: modules/codec/png.c:100
-#, fuzzy
 msgid "PNG video encoder"
-msgstr "PNG video dekooder"
+msgstr "PNG video enkooder"
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
@@ -11980,15 +11947,15 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:298
 msgid "small - use small code blocks"
-msgstr ""
+msgstr "väike - kasuta väikseid koodiblokke"
 
 #: modules/codec/schroedinger.c:299
 msgid "medium - use medium sized code blocks"
-msgstr ""
+msgstr "keskmine - kasuta keskmise suurusega koodiblokke"
 
 #: modules/codec/schroedinger.c:300
 msgid "large - use large code blocks"
-msgstr ""
+msgstr "suur - kasuta suuri koodiblokke"
 
 #: modules/codec/schroedinger.c:301
 msgid "full - One code block per subband"
@@ -12415,14 +12382,12 @@ msgid "USF subtitles decoder"
 msgstr "USF subtiitrite dekooder"
 
 #: modules/codec/substx3g.c:40
-#, fuzzy
 msgid "tx3g subtitles decoder"
-msgstr "DVB subtiitrite dekooder"
+msgstr ""
 
 #: modules/codec/substx3g.c:41
-#, fuzzy
 msgid "tx3g subtitles"
-msgstr "Teleteksti subtiitrid"
+msgstr ""
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
@@ -12589,9 +12554,8 @@ msgid "Vorbis audio encoder"
 msgstr "Vorbis audiokooder"
 
 #: modules/codec/vpx.c:49
-#, fuzzy
 msgid "WebM video decoder"
-msgstr "CDG video dekooder"
+msgstr "WebM video dekooder"
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
@@ -13444,7 +13408,7 @@ msgstr "Ajaline"
 
 #: modules/codec/x264.c:447
 msgid "checkerboard"
-msgstr ""
+msgstr "malelaud"
 
 #: modules/codec/x264.c:447
 msgid "column alternation"
@@ -13471,22 +13435,20 @@ msgid "H.264/MPEG-4 Part 10/AVC encoder (x264 10-bit)"
 msgstr "H.264/MPEG-4 Part 10/AVC enkooder (x264 10-bit)"
 
 #: modules/codec/x264.c:455
-#, fuzzy
 msgid "H.262/MPEG-2 encoder (x262)"
-msgstr "H.264/MPEG-4 Part 10/AVC enkooder (x264)"
+msgstr "H.262/MPEG-2 enkooder (x262)"
 
 #: modules/codec/x264.c:459
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264)"
 msgstr "H.264/MPEG-4 Part 10/AVC enkooder (x264)"
 
 #: modules/codec/x265.c:45
-#, fuzzy
 msgid "H.265/HEVC encoder (x265)"
-msgstr "H.264/MPEG-4 Part 10/AVC enkooder (x264)"
+msgstr "H.265/HEVC enkooder (x265)"
 
 #: modules/codec/xwd.c:36
 msgid "XWD image decoder"
-msgstr ""
+msgstr "XWD pildi dekooder"
 
 #: modules/codec/zvbi.c:61
 msgid "Teletext page"
@@ -13501,12 +13463,10 @@ msgid "Teletext transparency"
 msgstr "Teleteksti läbipaistvus"
 
 #: modules/codec/zvbi.c:66
-#, fuzzy
 msgid ""
 "Setting vbi-opaque to true makes the text to be boxed and maybe easier to "
 "read."
 msgstr ""
-"Seaded vbi-opaque väärtuse vääraks, muutub tekst kasti see läbipaistvaks."
 
 #: modules/codec/zvbi.c:69
 msgid "Teletext alignment"
@@ -14165,15 +14125,13 @@ msgid "+----[ end of help ]"
 msgstr "+----[ abi lõpp ]"
 
 #: modules/control/rc.c:965
-#, fuzzy
 msgid "Press pause to continue."
-msgstr "Vajuta menüü valik või paus jätkamiseks."
+msgstr "Jätkamiseks vajuta pausile."
 
 #: modules/control/rc.c:1191 modules/control/rc.c:1446
 #: modules/control/rc.c:1490
-#, fuzzy
 msgid "Type 'pause' to continue."
-msgstr "Kirjuta 'menu select' või 'pause' jätkamiseks."
+msgstr ""
 
 #: modules/control/rc.c:1283
 msgid "Error: `goto' needs an argument greater than zero."
@@ -14310,9 +14268,8 @@ msgid "Avformat"
 msgstr "Avformat"
 
 #: modules/demux/avformat/avformat.c:45
-#, fuzzy
 msgid "Demuxer"
-msgstr "Demultiplekserid"
+msgstr "Demukser"
 
 #: modules/demux/avformat/avformat.c:56
 msgid "Avformat muxer"
@@ -14405,9 +14362,8 @@ msgid "Fixing AVI Index..."
 msgstr "Parandan AVI indeksit..."
 
 #: modules/demux/caf.c:53
-#, fuzzy
 msgid "CAF demuxer"
-msgstr "AIFF demukser"
+msgstr "CAF demukser"
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
@@ -15382,14 +15338,12 @@ msgid "H264 video demuxer"
 msgstr "H264 video demukser"
 
 #: modules/demux/mpeg/hevc.c:47
-#, fuzzy
 msgid "Desired frame rate for the stream."
-msgstr "H264 voo soovitud kaadrisagedus."
+msgstr ""
 
 #: modules/demux/mpeg/hevc.c:54
-#, fuzzy
 msgid "HEVC/H.265 video demuxer"
-msgstr "H264 video demukser"
+msgstr "HEVC/H.265 video demukser"
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
@@ -15813,14 +15767,12 @@ msgid ""
 msgstr ""
 
 #: modules/demux/ts.c:133
-#, fuzzy
 msgid "Trust in-stream PCR"
-msgstr "Transpordivoo ID"
+msgstr ""
 
 #: modules/demux/ts.c:134
-#, fuzzy
 msgid "Use the stream PCR as a reference."
-msgstr "Hoia mõned B-kaadrid etalonideks"
+msgstr ""
 
 #: modules/demux/ts.c:137
 msgid "MPEG Transport Stream demuxer"
@@ -16009,16 +15961,14 @@ msgstr "Sisukord"
 #: modules/gui/macosx/AddonManager.m:96 modules/gui/macosx/AddonManager.m:335
 #: modules/gui/qt4/dialogs/plugins.cpp:378
 #: modules/gui/qt4/managers/addons_manager.cpp:86
-#, fuzzy
 msgid "Playlist parsers"
-msgstr "Podcasti parser"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:98 modules/gui/macosx/AddonManager.m:337
 #: modules/gui/qt4/dialogs/plugins.cpp:382
 #: modules/gui/qt4/managers/addons_manager.cpp:88
-#, fuzzy
 msgid "Service Discovery"
-msgstr "Teenuste avastamine"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:100 modules/gui/macosx/AddonManager.m:339
 #: modules/gui/macosx/MainMenu.m:318 modules/gui/macosx/MainMenu.m:319
@@ -16038,16 +15988,14 @@ msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:115 modules/gui/macosx/MainMenu.m:320
 #: modules/gui/qt4/dialogs/plugins.cpp:80
-#, fuzzy
 msgid "Addons Manager"
-msgstr "Videohaldur"
+msgstr "Lisade haldur"
 
 #: modules/gui/macosx/AddonManager.m:118
 #: modules/gui/qt4/dialogs/plugins.cpp:1137
 #: modules/gui/qt4/dialogs/plugins.cpp:1150
-#, fuzzy
 msgid "Installed"
-msgstr "Paigalda"
+msgstr "Paigaldatud"
 
 #: modules/gui/macosx/AddonManager.m:119 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/playlist.m:167 modules/gui/qt4/dialogs/plugins.cpp:123
@@ -16063,9 +16011,8 @@ msgid "Author"
 msgstr "Autor"
 
 #: modules/gui/macosx/AddonManager.m:187
-#, fuzzy
 msgid "Uninstall"
-msgstr "Paigalda"
+msgstr "Eemalda"
 
 #: modules/gui/macosx/AddonManager.m:333
 #: modules/gui/qt4/dialogs/plugins.cpp:374
@@ -16098,12 +16045,12 @@ msgstr "Lähtesta"
 #: modules/gui/macosx/AudioEffects.m:120
 #: modules/gui/qt4/components/extended_panels.cpp:1373
 msgid "Attack"
-msgstr "Ründa"
+msgstr "Löök"
 
 #: modules/gui/macosx/AudioEffects.m:121
 #: modules/gui/qt4/components/extended_panels.cpp:1374
 msgid "Release"
-msgstr "Vabasta"
+msgstr "Vabaks"
 
 #: modules/gui/macosx/AudioEffects.m:122
 #: modules/gui/qt4/components/extended_panels.cpp:1375
@@ -16169,7 +16116,7 @@ msgstr "Salvesta"
 #: modules/gui/macosx/AudioEffects.m:384 modules/gui/macosx/AudioEffects.m:709
 #: modules/gui/macosx/VideoEffects.m:940
 msgid "Remove a preset"
-msgstr ""
+msgstr "Eemalda eelseadistus"
 
 #: modules/gui/macosx/AudioEffects.m:385 modules/gui/macosx/AudioEffects.m:710
 #: modules/gui/macosx/VideoEffects.m:941
@@ -16184,7 +16131,7 @@ msgstr "Eemalda"
 
 #: modules/gui/macosx/AudioEffects.m:433
 msgid "Add new Preset..."
-msgstr ""
+msgstr "Lisa uus eelseadistus..."
 
 #: modules/gui/macosx/AudioEffects.m:438
 msgid "Organize Presets..."
@@ -16196,7 +16143,7 @@ msgstr ""
 
 #: modules/gui/macosx/AudioEffects.m:612
 msgid "Enter a name for the new preset:"
-msgstr ""
+msgstr "Sisesta uue eelseadistuse nimi:"
 
 #: modules/gui/macosx/AudioEffects.m:676 modules/gui/macosx/VideoEffects.m:903
 msgid "Please enter a unique name for the new profile."
@@ -16300,14 +16247,12 @@ msgid "The stream must be playing or paused for bookmarks to work."
 msgstr "Voog peab mängima või olema pausitud, et järjehoidjad töötaksid."
 
 #: modules/gui/macosx/BWQuincyUI.m:78
-#, fuzzy
 msgid "Show Details"
-msgstr "Koodeki üksikasjad"
+msgstr "Kuva üksikasjad"
 
 #: modules/gui/macosx/BWQuincyUI.m:79
-#, fuzzy
 msgid "Hide Details"
-msgstr "Koodeki üksikasjad"
+msgstr "Peida üksikasjad"
 
 #: modules/gui/macosx/BWQuincyUI.m:81
 msgid "Send"
@@ -16342,9 +16287,8 @@ msgstr ""
 
 #: modules/gui/macosx/controls.m:53 modules/gui/macosx/controls.m:57
 #: modules/gui/macosx/MainMenu.m:1527
-#, fuzzy
 msgid "Jump to Time"
-msgstr "Hüppa kindale ajale"
+msgstr ""
 
 #: modules/gui/macosx/controls.m:56
 msgid "sec."
@@ -16463,11 +16407,11 @@ msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
-msgstr ""
+msgstr "Konverdi & voogedasta"
 
 #: modules/gui/macosx/ConvertAndSave.m:153
 msgid "Go!"
-msgstr ""
+msgstr "Läks!"
 
 #: modules/gui/macosx/ConvertAndSave.m:154 modules/gui/macosx/MainWindow.m:178
 msgid "Drop media here"
@@ -16936,9 +16880,8 @@ msgid "Shows a sidebar in the main window listing media sources."
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control external music players"
-msgstr "Juhtimise menüü esitaja jaoks"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:122
 msgid "VLC will pause and resume supported music players on playback."
@@ -16953,14 +16896,12 @@ msgid "Do nothing"
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:129
-#, fuzzy
 msgid "Pause iTunes / Spotify"
-msgstr "Pausi iTunes"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:129
-#, fuzzy
 msgid "Pause and resume iTunes / Spotify"
-msgstr "Pausi ja jätka iTunes"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:132
 msgid "Continue playback where you left off"
@@ -17024,9 +16965,8 @@ msgid "URI"
 msgstr "URI"
 
 #: modules/gui/macosx/MainMenu.m:81
-#, fuzzy
 msgid "File Size"
-msgstr "Topelt suurus"
+msgstr "Faili suurus"
 
 #: modules/gui/macosx/MainMenu.m:316
 msgid "Check for Update..."
@@ -17234,9 +17174,8 @@ msgid "Window"
 msgstr "Aken"
 
 #: modules/gui/macosx/MainMenu.m:444
-#, fuzzy
 msgid "Minimize"
-msgstr "Akna minimeerimine"
+msgstr "Minimeeri"
 
 #: modules/gui/macosx/MainMenu.m:446
 msgid "Player..."
@@ -17371,14 +17310,12 @@ msgid "Check for album art and metadata?"
 msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
-#, fuzzy
 msgid "Enable Metadata Retrieval"
-msgstr "Võimalda adaptiivne eelfiltreerimine"
+msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
-#, fuzzy
 msgid "No, Thanks"
-msgstr "Tänuavaldused"
+msgstr "Ei, aitäh"
 
 #: modules/gui/macosx/MainWindow.m:342
 msgid ""
@@ -17389,25 +17326,24 @@ msgid ""
 msgstr ""
 
 #: modules/gui/macosx/misc.m:980
-#, fuzzy
 msgid "B"
-msgstr "BD"
+msgstr "B"
 
 #: modules/gui/macosx/misc.m:987
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: modules/gui/macosx/misc.m:994
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: modules/gui/macosx/misc.m:1002
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: modules/gui/macosx/misc.m:1007
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: modules/gui/macosx/open.m:57
 msgid "No device is selected"
@@ -17486,9 +17422,8 @@ msgid "Custom playback"
 msgstr ""
 
 #: modules/gui/macosx/open.m:157
-#, fuzzy
 msgid "Open VIDEO_TS / BDMV folder"
-msgstr "Ava VIDEO_TS kataloog"
+msgstr "Ava VIDEO_TS / BDMV kaust"
 
 #: modules/gui/macosx/open.m:158
 msgid "Insert Disc"
@@ -17793,9 +17728,8 @@ msgid "Meta-information"
 msgstr "Meta-info"
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/qt4/input_manager.cpp:135
-#, fuzzy
 msgid "Continue playback?"
-msgstr "Taasesituse lõpetamine"
+msgstr "Jätka esitamist?"
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/macosx/simple_prefs.m:837
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
@@ -17803,14 +17737,12 @@ msgid "Continue"
 msgstr "Jätka"
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Restart playback"
-msgstr "Taasesituse lõpetamine"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Always continue"
-msgstr "Alati pealmine"
+msgstr "Alati jätka"
 
 #: modules/gui/macosx/playlist.m:1514
 msgid "Playback of \"%@\" will continue at %@"
@@ -18082,9 +18014,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:375
-#, fuzzy
 msgid "Continue playback"
-msgstr "Taasesituse lõpetamine"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:378
 msgid "Default Encoding"
@@ -19245,19 +19176,16 @@ msgid " f                      Toggle Fullscreen"
 msgstr " f                       Lülita täisekraan"
 
 #: modules/gui/ncurses.c:894
-#, fuzzy
 msgid " c                      Cycle through audio tracks"
-msgstr " l                       Lülita esitusloendi kordus"
+msgstr ""
 
 #: modules/gui/ncurses.c:895
-#, fuzzy
 msgid " v                      Cycle through subtitles tracks"
-msgstr " [, ]                   Järgmine/eelmine pealkiri"
+msgstr ""
 
 #: modules/gui/ncurses.c:896
-#, fuzzy
 msgid " b                      Cycle through video tracks"
-msgstr " S           Kuva/peida statistika kast"
+msgstr ""
 
 #: modules/gui/ncurses.c:897
 msgid " n, p                   Next/Previous playlist item"
@@ -20057,9 +19985,8 @@ msgid "Do you really want to unsubscribe from %1?"
 msgstr "Kas soovid tõesti katkestada %1 tellimuse?"
 
 #: modules/gui/qt4/components/playlist/sorting.h:64
-#, fuzzy
 msgid "Cover"
-msgstr "Ülekate"
+msgstr "Kaanepilt"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Directory"
@@ -20078,24 +20005,20 @@ msgid "Enter name for new folder:"
 msgstr "Sisesta uue kasuta nimi:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Directory"
-msgstr "Kataloogi loomine"
+msgstr "Nimeta kataloog ümber"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Folder"
-msgstr "Kausta loomine"
+msgstr "Nimeta kaust ümber"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
-#, fuzzy
 msgid "Enter a new name for the directory:"
-msgstr "Sisesta uue kataloogi nimi:"
+msgstr "Sisesta kataloogi uus nimi:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
-#, fuzzy
 msgid "Enter a new name for the folder:"
-msgstr "Sisesta uue kasuta nimi:"
+msgstr "Sisesta kausta uus nimi:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:242
 msgid "Sort by"
@@ -20475,9 +20398,8 @@ msgid "&Start"
 msgstr "&Käivita"
 
 #: modules/gui/qt4/dialogs/convert.cpp:135
-#, fuzzy
 msgid "Containers"
-msgstr "Jätka"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -20532,7 +20454,7 @@ msgstr "Võrgule ligipääsu reeglid"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:103
 msgid "Regularly check for VLC updates"
-msgstr ""
+msgstr "Regulaaselt VLC uuenduste kontrollimine"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -20716,9 +20638,8 @@ msgid "Plugins and extensions"
 msgstr "Pluginad ja laiendused"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:82
-#, fuzzy
 msgid "Active Extensions"
-msgstr "Aktiivsed regioonid"
+msgstr "Aktiivsed laiendused"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:123
 msgid "Capability"
@@ -20766,40 +20687,35 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:408
 msgid "Only installed"
-msgstr ""
+msgstr "Ainult paigaldatud"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:503
-#, fuzzy
 msgid "Retrieving addons..."
-msgstr "Kanali info hankimine..."
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:514
-#, fuzzy
 msgid "No addons found"
-msgstr "Sisendit ei leitud"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:793
 msgid "This addon has been installed manually. VLC can't manage it by itself."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1168
-#, fuzzy
 msgid "Version %1"
-msgstr "Versioon"
+msgstr "Versioon %1"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1194
 msgid "%1 downloads"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1263
-#, fuzzy
 msgid "&Uninstall"
-msgstr "Paigalda"
+msgstr "&Eemalda"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1266
-#, fuzzy
 msgid "&Install"
-msgstr "Paigalda"
+msgstr "%Paigalda"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1361
 #: modules/gui/qt4/dialogs/plugins.cpp:1464
@@ -20955,9 +20871,8 @@ msgid "Flat Button"
 msgstr "Lame nupp"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
-#, fuzzy
 msgid "Next widget style"
-msgstr "Järgmise vidina stiil:"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:77
 msgid "Big Button"
@@ -20992,9 +20907,8 @@ msgid "Time Toolbar"
 msgstr "Ajariba"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:128
-#, fuzzy
 msgid "Advanced Widget"
-msgstr "Lisavidinate tööriistariba:"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:137
 msgid "Fullscreen Controller"
@@ -21013,9 +20927,8 @@ msgid "Select profile:"
 msgstr "Profiil valimine:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:185
-#, fuzzy
 msgid "Preview"
-msgstr "Eelm"
+msgstr "Eelvaade"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:194
 msgid "Cl&ose"
@@ -21463,9 +21376,8 @@ msgid "&Clear"
 msgstr "&Puhasta"
 
 #: modules/gui/qt4/menus.cpp:1636
-#, fuzzy
 msgid "&Save To Playlist"
-msgstr "Salvesta esitusloend"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -21679,9 +21591,8 @@ msgstr ""
 "valitud ja süsteemi helitugevust, kui VLC ei ole valitud."
 
 #: modules/gui/qt4/qt4.cpp:186
-#, fuzzy
 msgid "Fullscreen controller mouse sensitivity"
-msgstr "Täisekraani juhtnupud"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:192
 msgid "When minimized"
@@ -21692,9 +21603,8 @@ msgid "Qt interface"
 msgstr "Qt kasutajaliides"
 
 #: modules/gui/qt4/recents.cpp:159
-#, fuzzy
 msgid "Recently Played"
-msgstr "Viimati esitatud kirjete salvestamine"
+msgstr ""
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
@@ -21803,76 +21713,64 @@ msgid "Open skin ..."
 msgstr "Rüü avamine ..."
 
 #: modules/hw/vdpau/adjust.c:182
-#, fuzzy
 msgid "VDPAU adjust video filter"
-msgstr "Gradfun videofilter"
+msgstr ""
 
 #: modules/hw/vdpau/avcodec.c:45
-#, fuzzy
 msgid "VDPAU video decoder"
-msgstr "CDG video dekooder"
+msgstr "VDPAU video dekooder"
 
 #: modules/hw/vdpau/chroma.c:820
-#, fuzzy
 msgid "Temporal-spatial"
-msgstr "Ajaline"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:824 modules/hw/vdpau/display.c:45
 msgid "VDPAU"
-msgstr ""
+msgstr "VDPAU"
 
 #: modules/hw/vdpau/chroma.c:825
 msgid "VDPAU surface conversions"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:833
-#, fuzzy
 msgid "Deinterlacing algorithm"
-msgstr "Ülerealaotuse eemaldamine"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:836
-#, fuzzy
 msgid "Inverse telecine"
-msgstr "Vigane valik"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:838
-#, fuzzy
 msgid "Deinterlace chroma skip"
-msgstr "Ülerealaotuse eemaldamine sisse"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:839
 msgid "Whether temporal deinterlacing applies to luma only"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:841
-#, fuzzy
 msgid "Noise reduction level"
-msgstr "Müra vähendamine"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "Scaling quality"
-msgstr "Ümberdiskreetimise kvaliteet"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "High quality scaling level"
-msgstr "Video kvaliteedi järeltöötluse tase"
+msgstr ""
 
 #: modules/hw/vdpau/deinterlace.c:131
-#, fuzzy
 msgid "VDPAU deinterlacing filter"
-msgstr "Ülerealaotuse eemaldamise videofilter"
+msgstr ""
 
 #: modules/hw/vdpau/display.c:46
-#, fuzzy
 msgid "VDPAU output"
-msgstr "YUV väljund"
+msgstr "VDPAU väljund"
 
 #: modules/hw/vdpau/sharpen.c:141
-#, fuzzy
 msgid "VDPAU sharpen video filter"
-msgstr "Video teravustamise filter"
+msgstr ""
 
 #: modules/lua/libs/httpd.c:75
 msgid ""
@@ -22279,18 +22177,16 @@ msgid "RTSP VoD"
 msgstr "RTSP VoD"
 
 #: modules/misc/rtsp.c:76
-#, fuzzy
 msgid "Legacy RTSP VoD server"
-msgstr "RTSP VoD server"
+msgstr ""
 
 #: modules/misc/securetransport.c:53
 msgid "TLS support for OS X and iOS"
 msgstr ""
 
 #: modules/misc/securetransport.c:66
-#, fuzzy
 msgid "TLS server support for OS X"
-msgstr "RTSP serveri port"
+msgstr ""
 
 #: modules/misc/securetransport.c:335
 msgid "Accept certificate temporarily"
@@ -22379,19 +22275,16 @@ msgid "Unknown Video"
 msgstr "Tundmatu video"
 
 #: modules/mux/avi.c:54
-#, fuzzy
 msgid "Subject"
-msgstr "Objektid"
+msgstr ""
 
 #: modules/mux/avi.c:55
-#, fuzzy
 msgid "Encoder"
-msgstr "dekooder"
+msgstr "Enkooder"
 
 #: modules/mux/avi.c:56
-#, fuzzy
 msgid "Keywords"
-msgstr "Podcasti märksõnad"
+msgstr "Märksõnad"
 
 #: modules/mux/avi.c:59
 msgid "AVI muxer"
@@ -22648,9 +22541,8 @@ msgid "Multipart JPEG muxer"
 msgstr "Mitmeosaline JPEG mukser"
 
 #: modules/mux/ogg.c:47
-#, fuzzy
 msgid "Index interval"
-msgstr "IDR intervall"
+msgstr ""
 
 #: modules/mux/ogg.c:48
 msgid ""
@@ -22658,9 +22550,8 @@ msgid ""
 msgstr ""
 
 #: modules/mux/ogg.c:50
-#, fuzzy
 msgid "Index size ratio"
-msgstr "Indeksi fail"
+msgstr ""
 
 #: modules/mux/ogg.c:52
 msgid "Set index size ratio. Alters default (60min content) or estimated size."
@@ -22719,9 +22610,8 @@ msgid "H.264 video packetizer"
 msgstr "H.264 video tükeldaja"
 
 #: modules/packetizer/hevc.c:50
-#, fuzzy
 msgid "HEVC/H.265 video packetizer"
-msgstr "H.264 video tükeldaja"
+msgstr ""
 
 #: modules/packetizer/mlp.c:49
 msgid "MLP/TrueHD parser"
@@ -23693,9 +23583,8 @@ msgid "Stream output to memory buffer"
 msgstr "Voogedasta väljund mälupuhvrisse"
 
 #: modules/stream_out/stats.c:42
-#, fuzzy
 msgid "Writes stats to file instead of stdout"
-msgstr "Kasuta video pööramise filtrit teisendamise asemel"
+msgstr ""
 
 #: modules/stream_out/stats.c:43
 msgid "Prefix to show on output line"
@@ -25285,14 +25174,12 @@ msgid "Number of pixels to padd to the right of the image after cropping."
 msgstr "Paremale polsterdatavate pikslite arv peale pildi kärpimist."
 
 #: modules/video_filter/croppadd.c:78
-#, fuzzy
 msgid "Croppadd"
-msgstr "Kärpimine"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:79
-#, fuzzy
 msgid "Video cropping filter"
-msgstr "Video skaleerimise filter"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -25430,9 +25317,8 @@ msgid "Extract RGB component video filter"
 msgstr "Eemaldatava RGB komponendi videofilter"
 
 #: modules/video_filter/freeze.c:77
-#, fuzzy
 msgid "Freezing interactive video filter"
-msgstr "Pusle interaktiivse mängu videofilter"
+msgstr ""
 
 #: modules/video_filter/freeze.c:78
 msgid "Freeze"
@@ -25981,9 +25867,8 @@ msgid "Motion detect video filter"
 msgstr "Liikumise tuvastamise videofilter"
 
 #: modules/video_filter/oldmovie.c:185
-#, fuzzy
 msgid "Old movie effect video filter"
-msgstr "Liikumise tuvastamise videofilter"
+msgstr ""
 
 #: modules/video_filter/oldmovie.c:186
 msgid "Old movie"
@@ -26689,9 +26574,8 @@ msgid "Rotate or flip the video"
 msgstr "Video pööramine või peegeldamine"
 
 #: modules/video_filter/vhs.c:108
-#, fuzzy
 msgid "VHS movie effect video filter"
-msgstr "Liikumise tuvastamise videofilter"
+msgstr ""
 
 #: modules/video_filter/vhs.c:109
 msgid "VHS movie"
@@ -26718,19 +26602,16 @@ msgid "ASCII-art video output"
 msgstr "ASCII kunsti videoväljund"
 
 #: modules/video_output/android/nativewindow.c:53
-#, fuzzy
 msgid "ANativeWindow"
-msgstr "Aktiivsed aknad"
+msgstr ""
 
 #: modules/video_output/android/nativewindow.c:54
-#, fuzzy
 msgid "Android native window"
-msgstr "Aktiivsed aknad"
+msgstr ""
 
 #: modules/video_output/android/opaque.c:47
-#, fuzzy
 msgid "Android MediaCodec direct rendering video output"
-msgstr "Android Sufrace videoväljund"
+msgstr ""
 
 #: modules/video_output/android/surface.c:52 modules/video_output/yuv.c:44
 msgid "Chroma used"
@@ -27018,14 +26899,12 @@ msgid "K Video Acceleration video output"
 msgstr "Kiirendiga K Video videoväljund"
 
 #: modules/video_output/macosx.m:86
-#, fuzzy
 msgid "Mac OS X OpenGL video output"
-msgstr "OpenGL videoväljund"
+msgstr ""
 
 #: modules/video_output/mmal.c:52
-#, fuzzy
 msgid "VideoCore layer where the video is displayed."
-msgstr "Kaadripildi salvestamise kataloog."
+msgstr ""
 
 #: modules/video_output/mmal.c:53
 msgid ""
@@ -27074,19 +26953,16 @@ msgid "Choose a pixel shader to apply."
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:69
-#, fuzzy
 msgid "Path to HLSL file"
-msgstr "OSD menüü piltide asukoht"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:70
-#, fuzzy
 msgid "Path to an HLSL file containing a single pixel shader."
-msgstr "Meedia asukoht zip arhiivis"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:72
-#, fuzzy
 msgid "HLSL File"
-msgstr "Faili salvestamine"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:74
 msgid "Recommended video output for Windows Vista and later versions"
@@ -27766,18 +27642,16 @@ msgid "The height of the effects video window, in pixels."
 msgstr "Videoefektide akna kõrgus pikslites."
 
 #: modules/visualization/visual/visual.c:61
-#, fuzzy
 msgid "FFT window"
-msgstr "X-i aken"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:63
 msgid "The type of FFT window to use for spectrum-based visualizations."
 msgstr ""
 
 #: modules/visualization/visual/visual.c:65
-#, fuzzy
 msgid "Kaiser window parameter"
-msgstr "Eira parameetreid"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:67
 msgid ""
@@ -28866,29 +28740,24 @@ msgid "Soften"
 msgstr "Pehmendus"
 
 #: modules/gui/qt4/ui/video_effects.h:1489
-#, fuzzy
 msgid "Denoiser"
-msgstr "HQ 3D müra eemaldamine"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1490
-#, fuzzy
 msgid "Spatial luma strength"
-msgstr "Ruumilise luma tugevus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1491
-#, fuzzy
 msgid "Temporal luma strength"
-msgstr "Ajutise luma tugevus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1492
-#, fuzzy
 msgid "Spatial chroma strength"
-msgstr "Ruumilise värviformaadi tugevus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1493
-#, fuzzy
 msgid "Temporal chroma strength"
-msgstr "Ajutise värviformaadi tugevus (0-254)"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
@@ -28939,28 +28808,22 @@ msgid "Media Manager List"
 msgstr "Meediahalduri loend"
 
 #: modules/access/avcapture.m:55
-#, fuzzy
 msgid "AVFoundation Video Capture"
-msgstr "Videohõive"
+msgstr ""
 
 #: modules/access/avcapture.m:56
-#, fuzzy
 msgid "AVFoundation video capture module."
-msgstr "Audioväljundi moodul"
+msgstr ""
 
 #: modules/access/avcapture.m:288 modules/access/avcapture.m:317
-#, fuzzy
 msgid "No video devices found"
-msgstr "Sisendseadmeid ei leitud"
+msgstr ""
 
 #: modules/access/avcapture.m:289
-#, fuzzy
 msgid ""
 "Your Mac does not seem to be equipped with a suitable video input device. "
 "Please check your connectors and drivers."
 msgstr ""
-"Sinu Mac-il ei paista olevat vajalikku sisendseadet. Palun kontrolli "
-"ühenduspesi ja draivereid."
 
 #: modules/access/dvb/access.c:54
 msgid "Probe DVB card for capabilities"
@@ -28975,18 +28838,16 @@ msgstr ""
 "probleeme, võid selle keelata."
 
 #: modules/access/dvb/access.c:58
-#, fuzzy
 msgid "Satellite scanning config"
-msgstr "Satelliidi piirkonnakood"
+msgstr ""
 
 #: modules/access/dvb/access.c:59
 msgid "filename of config file in share/dvb/dvb-s"
 msgstr ""
 
 #: modules/access/dvb/access.c:62
-#, fuzzy
 msgid "DVB"
-msgstr "DV"
+msgstr "DVB"
 
 #: modules/access/dvb/access.c:63
 msgid "DVB input with v4l2 support"
@@ -29004,52 +28865,42 @@ msgid "Scanning DVB"
 msgstr "DVB läbivaatus"
 
 #: modules/access/qtsound.m:59
-#, fuzzy
 msgid "QTSound"
-msgstr "Ruumiline heli"
+msgstr ""
 
 #: modules/access/qtsound.m:60
-#, fuzzy
 msgid "QuickTime Sound Capture"
-msgstr "Quicktime hõive"
+msgstr ""
 
 #: modules/access/qtsound.m:267
-#, fuzzy
 msgid "No Audio Input device found"
-msgstr "Sisendseadmeid ei leitud"
+msgstr ""
 
 #: modules/access/qtsound.m:268 modules/access/qtsound.m:295
-#, fuzzy
 msgid ""
 "Your Mac does not seem to be equipped with a suitable audio input device."
 "Please check your connectors and drivers."
 msgstr ""
-"Sinu Mac-il ei paista olevat vajalikku sisendseadet. Palun kontrolli "
-"ühenduspesi ja draivereid."
 
 #: modules/access/qtsound.m:294
-#, fuzzy
 msgid "No audio input device found"
-msgstr "Sisendseadmeid ei leitud"
+msgstr ""
 
 #: modules/access/rar/module.c:33
 msgid "Uncompressed RAR"
 msgstr "Pakkimata RAR"
 
 #: modules/audio_output/mmdevice.c:1316
-#, fuzzy
 msgid "Windows Multimedia Device output"
-msgstr "Windowsi GDI videoväljund"
+msgstr ""
 
 #: modules/audio_output/winstore.c:204
-#, fuzzy
 msgid "Windows Store audio output"
-msgstr "Windowsi GDI videoväljund"
+msgstr ""
 
 #: modules/codec/scte27.c:42
-#, fuzzy
 msgid "SCTE-27 decoder"
-msgstr "G.711 dekooder"
+msgstr ""
 
 #: modules/codec/scte27.c:43
 msgid "SCTE-27"
@@ -29060,28 +28911,24 @@ msgid "Specify the width to decode the image too"
 msgstr ""
 
 #: modules/codec/svg.c:53
-#, fuzzy
 msgid "Specify the height to decode the image too"
-msgstr "Määra kasutatav ülerealaotuse eemaldamise moodul."
+msgstr ""
 
 #: modules/codec/svg.c:55
-#, fuzzy
 msgid "Scale factor to apply to image"
-msgstr "Transkodeerimise ajal videole rakendatav skaleerimistegur (nt. 0.25)"
+msgstr ""
 
 #: modules/codec/svg.c:63
-#, fuzzy
 msgid "SVG video decoder"
-msgstr "CDG video dekooder"
+msgstr ""
 
 #: modules/control/win_msg.c:192
 msgid "WinMsg"
 msgstr ""
 
 #: modules/control/win_msg.c:193
-#, fuzzy
 msgid "Windows messages interface"
-msgstr "Windowsi Teenuse liides"
+msgstr ""
 
 #: modules/gui/macosx/DebugMessageVisualizer.m:93
 msgid "Save this Log..."
@@ -29093,9 +28940,8 @@ msgid "VLC Debug Log (%s).rtf"
 msgstr ""
 
 #: modules/gui/qt4/components/epg/EPGWidget.cpp:63
-#, fuzzy
 msgid "No EPG Data Available"
-msgstr "Parim saadaval olev"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/epg.cpp:117
 msgid " (%1+ rated)"
@@ -29104,39 +28950,33 @@ msgstr ""
 #: modules/gui/qt4/extensions_manager.cpp:181
 #: modules/gui/qt4/extensions_manager.cpp:191
 #: modules/gui/qt4/util/qmenuview.cpp:70
-#, fuzzy
 msgid "Empty"
-msgstr "- Tühi - "
+msgstr ""
 
 #: modules/gui/qt4/extensions_manager.cpp:197
-#, fuzzy
 msgid "Deactivate"
-msgstr "Aktiveerimine"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:151
-#, fuzzy
 msgid "Audio Fingerprinting"
-msgstr "&Sõrmejälg"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:152
 msgid "Select a matching identity"
 msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:153
-#, fuzzy
 msgid "No fingerprint has been found"
-msgstr "Sisendit ei leitud"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:154
-#, fuzzy
 msgid "Fingerprinting track..."
-msgstr "&Sõrmejälg"
+msgstr ""
 
 #: modules/gui/qt4/util/searchlineedit.cpp:113
-#, fuzzy
 msgctxt "Tooltip|Clear"
 msgid "Clear"
-msgstr "Puhasta"
+msgstr ""
 
 #: modules/lua/extension.c:1216
 #, c-format
@@ -29150,9 +28990,8 @@ msgid "Extension not responding!"
 msgstr ""
 
 #: modules/misc/addons/fsstorage.c:80
-#, fuzzy
 msgid "addons local storage"
-msgstr "Maksimaalne kohalik bitikiirus"
+msgstr ""
 
 #: modules/misc/addons/fsstorage.c:82
 msgid "Addons local storage installer"
@@ -29163,9 +29002,8 @@ msgid "Addons local storage lister"
 msgstr ""
 
 #: modules/misc/addons/vorepository.c:60
-#, fuzzy
 msgid "Videolan.org's addons finder"
-msgstr "Video teisendamise filter"
+msgstr ""
 
 #: modules/misc/addons/vorepository.c:62
 msgid "addons.videolan.org addons finder"
@@ -29180,28 +29018,24 @@ msgid "single .vlp archive addons finder"
 msgstr ""
 
 #: modules/misc/fingerprinter.c:81
-#, fuzzy
 msgid "acoustid"
-msgstr "Akustiline"
+msgstr ""
 
 #: modules/misc/fingerprinter.c:82
 msgid "Track fingerprinter (based on Acoustid)"
 msgstr ""
 
 #: modules/stream_out/chromaprint.c:57
-#, fuzzy
 msgid "Duration of the fingerprinting"
-msgstr "Peegeldamise suund"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:58
-#, fuzzy
 msgid "Default: 90sec"
-msgstr "Vaikimisi voog"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:61
-#, fuzzy
 msgid "Chromaprint stream output"
-msgstr "Voo väljundi kogumine"
+msgstr ""
 
 #: modules/text_renderer/platform_fonts.c:82
 msgid ""
@@ -29212,33 +29046,28 @@ msgstr ""
 "See ei tohiks võtta rohkem kui paar minutit."
 
 #: modules/visualization/glspectrum.c:53
-#, fuzzy
 msgid "The width of the visualization window, in pixels."
-msgstr "Video akna laius pikslites."
+msgstr ""
 
 #: modules/visualization/glspectrum.c:56
-#, fuzzy
 msgid "The height of the visualization window, in pixels."
-msgstr "Video akna kõrgus pikslites."
+msgstr ""
 
 #: modules/visualization/glspectrum.c:59
-#, fuzzy
 msgid "glSpectrum"
-msgstr "Spektrum"
+msgstr ""
 
 #: modules/visualization/glspectrum.c:60
-#, fuzzy
 msgid "3D OpenGL spectrum visualization"
-msgstr "Kasutatav visualisatsioon"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Hann"
 msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
-#, fuzzy
 msgid "Flat Top"
-msgstr "Kohal hõljumine"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Blackman-Harris"
@@ -29249,12 +29078,10 @@ msgid "Kaiser"
 msgstr ""
 
 #: share/lua/http/view.html:26
-#, fuzzy
 msgid "VLC media player - Flash Viewer"
-msgstr "VLC meediaesitaja - veebiliides"
+msgstr ""
 
 #: share/lua/http/view.html:65
-#, fuzzy
 msgid "Streaming Output"
 msgstr "Voogedastuse väljund"
 
@@ -29506,27 +29333,6 @@ msgstr "Voogedastuse väljund"
 
 #~ msgid "BluRay"
 #~ msgstr "BluRay"
-
-#~ msgid ""
-#~ "This Blu-Ray Disc needs a library for AACS decoding, and your system does "
-#~ "not have it."
-#~ msgstr ""
-#~ "See Blu-Ray plaat vajab teeki AACS dekodeerimiseks, aga sinu süsteemis "
-#~ "seda pole."
-
-#~ msgid ""
-#~ "This Blu-Ray Disc needs a library for BD+ decoding, and your system does "
-#~ "not have it."
-#~ msgstr ""
-#~ "See Blu-Ray plaat vajab BD+ dekodeerimiseks teeki ja sinu süsteemis seda "
-#~ "pole."
-
-#~ msgid "VLC cannot use the device \"%s\", because its type is not supported."
-#~ msgstr ""
-#~ "VLC ei suuda kasutada seadet \"%s\", sest selle tüüp ei ole toetatud."
-
-#~ msgid "Digital Video (Firewire/ieee1394)  input"
-#~ msgstr "Video (Firewire/IEEE1394) digitaalsisend"
 
 #~ msgid "Teapot"
 #~ msgstr "Teekann"
@@ -31389,9 +31195,6 @@ msgstr "Voogedastuse väljund"
 #~ msgid "(c) 1996-2004 the the VideoLAN team team"
 #~ msgstr "(c) 1996-2004 VideoLANi meeskond"
 
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "Ei suutnud leida pildifaili: %s"
-
 #~ msgid "Statistics about the currently playing media or stream."
 #~ msgstr "Hetkel esitatava meedia või voo statistika"
 
@@ -31453,31 +31256,6 @@ msgstr "Voogedastuse väljund"
 #~ msgid "Save volume on exit"
 #~ msgstr "Salvesta väljumisel helitugevus"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Vali oma eelistatud videoväljund ja seadista see siin."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Need moodulid määravad võrgu funktsioonid kõikidele VLC komponentidele."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Need on üldised sätted video/audio/subtiitrite kodeerimismoodulitele."
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Siin saab seadistada dialoogi pakkujaid."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "Selles sektsioonis saad määrata subtiitrite demultipleksimise käitumist, "
-#~ "näiteksmäärates subtiitrite tüübi või faili nime."
-
-#~ msgid "No suitable decoder module"
-#~ msgstr "Pole sobivat dekoodri moodulit"
-
 #~ msgid ""
 #~ "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
 #~ "there is no way for you to fix this."
@@ -31492,23 +31270,14 @@ msgstr "Voogedastuse väljund"
 #~ "Lisa asukohad, kust VLC saab otsida mooduleid. Võid lisada mitu asukohta, "
 #~ "kui kasutad \"PATH_SEP\" eraldajat."
 
-#~ msgid "Album art policy"
-#~ msgstr "Kaanepiltide reeglid"
-
 #~ msgid "Choose how album art will be downloaded."
 #~ msgstr "Vali, mil moel kaanepilte alla laaditakse."
-
-#~ msgid "Manual download only"
-#~ msgstr "Tõmmatakse ainult käsitsi"
 
 #~ msgid "When track starts playing"
 #~ msgstr "Kui rada hakkab mängima"
 
 #~ msgid "As soon as track is added"
 #~ msgstr "Kohe raja lisamisel"
-
-#~ msgid "Load Media Library"
-#~ msgstr "Laadi meediakogu"
 
 #~ msgid ""
 #~ "Enable this option to load the SQL-based Media Library at VLC startup"
@@ -31518,20 +31287,8 @@ msgstr "Voogedastuse väljund"
 #~ msgid "FFmpeg"
 #~ msgstr "FFmpeg"
 
-#~ msgid "FFmpeg access"
-#~ msgstr "FFmpeg ligipääs"
-
-#~ msgid "Your system AACS decoding library does not work. Missing keys?"
-#~ msgstr "Sinu süsteemi AACS dekodeerimise teek ei tööta. Puuduvad võtmed?"
-
 #~ msgid "TCP address to use"
 #~ msgstr "Kasutatav TCP aadress"
-
-#~ msgid "TCP port to use"
-#~ msgstr "Kasutatav TCP port"
-
-#~ msgid "Force connection reset regularly"
-#~ msgstr "Jõuga ja regulaarselt lähtesta ühendus"
 
 #~ msgid ""
 #~ "Defines if the TCP connection should be reset. This is to be used when "
@@ -31540,17 +31297,8 @@ msgstr "Voogedastuse väljund"
 #~ "Määrab, kas TCP ühendused tuleks lähtestada. Seda tuleks kasutada "
 #~ "audiobargraph_v-ga (vaikimisi 1)."
 
-#~ msgid "Audio filter for stereo to mono conversion"
-#~ msgstr "Stereost monosse teisenduse audiofilter"
-
 #~ msgid "If bitrate=0, use this value for constant quality"
 #~ msgstr "Kui bitikiirus=0, kasuta seda väärtust ühtlaseks kvaliteediks"
-
-#~ msgid "A value > 0 enables constant bitrate mode"
-#~ msgstr "Väärtus > 0 võimaldab ühtlase kvaliteedi režiimi"
-
-#~ msgid "Enable lossless coding"
-#~ msgstr "Võimalda kadudeta kodeerimine"
 
 #~ msgid ""
 #~ "Lossless coding ignores bitrate and quality settings, allowing for "
@@ -31564,18 +31312,6 @@ msgstr "Voogedastuse väljund"
 
 #~ msgid "Diagonal Linear Phase"
 #~ msgstr "Diagonaalne lineaarne faas"
-
-#~ msgid "Distance between 'P' frames"
-#~ msgstr "'P' kaadrite vaheline distants"
-
-#~ msgid "Number of 'P' frames per GOP"
-#~ msgstr "'P' kkadrite arv GOP-i kohta"
-
-#~ msgid "Width of motion compensation blocks"
-#~ msgstr "Liikumise kompensatsioonibloki laius"
-
-#~ msgid "Height of motion compensation blocks"
-#~ msgstr "Liikumise kompensatsioonibloki kõrgus"
 
 #~ msgid "Block overlap (%)"
 #~ msgstr "Bloki ülekate (%)"
@@ -31595,38 +31331,11 @@ msgstr "Voogedastuse väljund"
 #~ msgid "Total vertical block length including overlaps"
 #~ msgstr "Vertikaalse bloki kogupikkus koos ülekatetega"
 
-#~ msgid "Motion vector precision"
-#~ msgstr "Liikumisvektori täpsus"
-
-#~ msgid "Motion vector precision in pels."
-#~ msgstr "Liikumisvektori täpsus pel-des."
-
 #~ msgid "Simple ME search area x:y"
 #~ msgstr "Lihtne ME otsingu ala x:y"
 
-#~ msgid "Enable spatial partitioning"
-#~ msgstr "Võimalda ruumiline partitsioneerimine"
-
-#~ msgid "cycles per degree"
-#~ msgstr "Tsükleid kraadi kohta"
-
-#~ msgid "Dirac video encoder using dirac-research library"
-#~ msgstr "Dirac-videokooder, kasutab dirac-research teeki"
-
-#~ msgid "Video decoder using openmash"
-#~ msgstr "Video dekooder kasutades openmash-i"
-
 #~ msgid "| menu . . [on|off|up|down|left|right|select] use menu"
 #~ msgstr "| menu . . [sees|väljas|üles|all|vasak|parem|vali] menüü"
-
-#~ msgid "Jump to time"
-#~ msgstr "Hüppa kindlale ajale"
-
-#~ msgid "Open CrashLog..."
-#~ msgstr "Ava CrashLog..."
-
-#~ msgid "Don't Send"
-#~ msgstr "Ära saada"
 
 #~ msgid "VLC crashed previously"
 #~ msgstr "VLC jooksis viimati kokku"
@@ -31661,34 +31370,6 @@ msgstr "Voogedastuse väljund"
 #~ msgid "Couldn't find any trace of a previous crash."
 #~ msgstr "Ei suudetud leida ühtegi jälge eelnevast kokkujooksmisest."
 
-#~ msgid "Open BDMV folder"
-#~ msgstr "Ava BDMV kataloog"
-
-#~ msgid "Album art download policy"
-#~ msgstr "Kaanepiltide allalaadimise reegel"
-
-#~ msgid "Output module"
-#~ msgstr "Väljundmoodul"
-
-#~ msgid "Graphic Equalizer"
-#~ msgstr "Graafiline ekvalaiser"
-
-#, fuzzy
-#~ msgid "Automatically retrieve media infos"
-#~ msgstr "Video sisendtundlikkuse automaatne määramine."
-
-#~ msgid "Get more extensions from"
-#~ msgstr "Hangi rohkem laiendusi"
-
-#~ msgid "Under the Video"
-#~ msgstr "Video all"
-
-#~ msgid "&Help..."
-#~ msgstr "A&bi..."
-
-#~ msgid "Synchronise on audio track"
-#~ msgstr "Sünkroniseerimine audiorajale"
-
 #~ msgid ""
 #~ "This option will drop/duplicate video frames to synchronise the video "
 #~ "track on the audio track."
@@ -31702,9 +31383,6 @@ msgstr "Voogedastuse väljund"
 #~ msgstr ""
 #~ "Transkooder hülgab kaadreid, kui sinu arvuti CPU ei suuda kodeerimise "
 #~ "kiirusega sammu pidada."
-
-#~ msgid "Value of the audio channels levels"
-#~ msgstr "Audiokanalite nivoo väärtus"
 
 #~ msgid ""
 #~ "Value of the audio level of each channels between 0 and 1. Each level "
@@ -31721,18 +31399,6 @@ msgstr "Voogedastuse väljund"
 #~ "Vaikuse kohta märguande kuvamine (0=märguannet ei kuvata, 1=märguannet "
 #~ "kuvatakse)."
 
-#~ msgid "Temporal luma strength (default 6)"
-#~ msgstr "Ajutise luma tugevus (vaikimisi 6)"
-
-#~ msgid "Temporal chroma strength (default 4.5)"
-#~ msgstr "Ajutise värviformaadi tugevus (vaikimisi 4.5)"
-
-#~ msgid "iOS OpenGL ES video output (requires UIView)"
-#~ msgstr "iOS OpenGL ES videoväljund (vajalik UIView)"
-
-#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-#~ msgstr "Mac OS X OpenGL videoväljund (nõuab drawable-nsobject-i)"
-
 #~ msgid "OpenGL acceleration is not supported on your Mac"
 #~ msgstr "OpenGL kiirendi pole sinu Maci poolt toetatud"
 
@@ -31746,14 +31412,244 @@ msgstr "Voogedastuse väljund"
 #~ "programmi ootamatu käitumine."
 
 #, fuzzy
+#~ msgid "TCP address to use (default localhost)"
+#~ msgstr "Kasutatav TCP aadress"
+
+#, fuzzy
+#~ msgid "Force connection reset regularly (default 1)"
+#~ msgstr "Jõuga ja regulaarselt lähtesta ühendus"
+
+#, fuzzy
+#~ msgid "TCP port to use (default 12345)"
+#~ msgstr "Kasutatav TCP port"
+
+#, fuzzy
+#~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
+#~ msgstr "Mac OS X OpenGL videoväljund (nõuab drawable-nsobject-i)"
+
+#, fuzzy
+#~ msgid "Ffmpeg mux"
+#~ msgstr "FFmpeg"
+
+#, fuzzy
+#~ msgid "Don't repair"
+#~ msgstr "Ära saada"
+
+#, fuzzy
+#~ msgid ""
+#~ "This Blu-Ray Disc needs a library for AACS decoding, and your system does "
+#~ "not have it."
+#~ msgstr ""
+#~ "See Blu-ray plaat vajab teeki AACS dekodeerimiseks, aga sinu süsteemis "
+#~ "seda pole."
+
+#, fuzzy
+#~ msgid ""
+#~ "This Blu-Ray Disc needs a library for BD+ decoding, and your system does "
+#~ "not have it."
+#~ msgstr ""
+#~ "See Blu-ray plaat vajab BD+ dekodeerimiseks teeki ja sinu süsteemis seda "
+#~ "pole."
+
+#, fuzzy
+#~ msgid "VLC cannot use the device \"%s\", because its type is not supported."
+#~ msgstr ""
+#~ "Sinu valitud seadet ei saa kasutada, sest selle tüüp ei ole toetatud."
+
+#, fuzzy
+#~ msgid "Digital Video (Firewire/ieee1394)  input"
+#~ msgstr "Digitaalse video (Firewire/ieee1394) sisend"
+
+#, fuzzy
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "VLC ei suutnud lugeda faili: %s."
+
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Vali oma eelistatud videoväljund ja seadista see siin."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Need moodulid määravad võrgu funktsioonid kõikidele VLC komponentidele."
+
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr ""
+#~ "Need on üldised sätted video/audio/subtiitrite kodeerimismoodulitele."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Siin saab seadistada dialoogi pakkujaid."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "Selles sektsioonis saad määrata subtiitrite demultipleksimise käitumist, "
+#~ "näiteksmäärates subtiitrite tüübi või faili nime."
+
+#, fuzzy
+#~ msgid "No suitable decoder module"
+#~ msgstr "CVD subtiitrite dekooder"
+
+#, fuzzy
+#~ msgid "Album art policy"
+#~ msgstr "Kaanepiltide allalaadimise reegel"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Kaanepiltide allalaadimise reegel"
+
+#, fuzzy
+#~ msgid "Load Media Library"
+#~ msgstr "Meediakogu"
+
+#, fuzzy
+#~ msgid "FFmpeg access"
+#~ msgstr "Zip ligipääs"
+
+#, fuzzy
+#~ msgid "Your system AACS decoding library does not work. Missing keys?"
+#~ msgstr "Sinu süsteemi BD+ dekodeerimise teek ei tööta. Puuduv seadistus?"
+
+#, fuzzy
+#~ msgid "TCP port to use"
+#~ msgstr "CDDB serveri port, mida kasutada."
+
+#, fuzzy
+#~ msgid "Force connection reset regularly"
+#~ msgstr "Sunnitud värviformaat (ole ettevaatlik)"
+
+#, fuzzy
+#~ msgid "Audio filter for stereo to mono conversion"
+#~ msgstr "Audiofilter PCM vormingu teisenduseks"
+
+#, fuzzy
+#~ msgid "A value > 0 enables constant bitrate mode"
+#~ msgstr ""
+#~ "Sihtmaärgi bitikiirus kbps-des, kui kodeeritakse konstantse bitikiiruse "
+#~ "režiimis"
+
+#, fuzzy
+#~ msgid "Enable lossless coding"
+#~ msgstr "Megabassi režiim lubatud"
+
+#, fuzzy
+#~ msgid "Distance between 'P' frames"
+#~ msgstr "Maksimaalne QP aste kaadrite vahel."
+
+#, fuzzy
+#~ msgid "Number of 'P' frames per GOP"
+#~ msgstr "kaadrite arv (0 kuni 100)"
+
+#, fuzzy
+#~ msgid "Width of motion compensation blocks"
+#~ msgstr "Liikumise kompensatsiooniblokkide laius"
+
+#, fuzzy
+#~ msgid "Height of motion compensation blocks"
+#~ msgstr "Liikumise kompensatsiooniblokkide laius"
+
+#, fuzzy
+#~ msgid "Motion vector precision"
+#~ msgstr "Liikumisvektori täpsus"
+
+#, fuzzy
+#~ msgid "Motion vector precision in pels."
+#~ msgstr "Liikumisvektori täpsus pel-des."
+
+#, fuzzy
+#~ msgid "Enable spatial partitioning"
+#~ msgstr "Võimalda adaptiivne eelfiltreerimine"
+
+#, fuzzy
+#~ msgid "cycles per degree"
+#~ msgstr "Nurk kraadides"
+
+#, fuzzy
+#~ msgid "Dirac video encoder using dirac-research library"
+#~ msgstr "Dirac videokooder, kasutab libschroedinger teeki"
+
+#, fuzzy
+#~ msgid "Video decoder using openmash"
+#~ msgstr "Videokooder (kasutab OpenMAX IL)"
+
+#, fuzzy
+#~ msgid "Jump to time"
+#~ msgstr "Liigu ajale"
+
+#, fuzzy
+#~ msgid "Open CrashLog..."
+#~ msgstr "Ava plaat..."
+
+#, fuzzy
+#~ msgid "Don't Send"
+#~ msgstr "Ära näita"
+
+#, fuzzy
+#~ msgid "Open BDMV folder"
+#~ msgstr "Ava VIDEO_TS / BDMV kaust"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Kaanepiltide allalaadimise reegel"
+
+#, fuzzy
+#~ msgid "Output module"
+#~ msgstr "Väljundmoodulid"
+
+#, fuzzy
+#~ msgid "Graphic Equalizer"
+#~ msgstr "Parameetriline ekvalaiser"
+
+#, fuzzy
+#~ msgid "Automatically retrieve media infos"
+#~ msgstr "Video sisendtundlikkuse automaatne määramine."
+
+#, fuzzy
+#~ msgid "Get more extensions from"
+#~ msgstr "Eiratavad laiendused"
+
+#, fuzzy
+#~ msgid "Under the Video"
+#~ msgstr "Video peal"
+
+#, fuzzy
+#~ msgid "&Help..."
+#~ msgstr "A&bi"
+
+#, fuzzy
+#~ msgid "Synchronise on audio track"
+#~ msgstr "Heliraja vahetamine"
+
+#, fuzzy
+#~ msgid "Value of the audio channels levels"
+#~ msgstr "Audiokanalite arv"
+
+#, fuzzy
+#~ msgid "Temporal luma strength (default 6)"
+#~ msgstr "Ajutise luma tugevus (0-254)"
+
+#, fuzzy
+#~ msgid "Temporal chroma strength (default 4.5)"
+#~ msgstr "Ajutise värviformaadi tugevus (0-254)"
+
+#, fuzzy
+#~ msgid "iOS OpenGL ES video output (requires UIView)"
+#~ msgstr "OpenGL videoväljund (eksperimentaalne)"
+
+#, fuzzy
+#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
+#~ msgstr "OpenGL videoväljund (eksperimentaalne)"
+
+#, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Kasutatakse sub&tiitrite faili"
 
+#, fuzzy
 #~ msgid "Album art download policy:"
-#~ msgstr "Kaanepiltide allalaadimise reegel:"
+#~ msgstr "Kaanepiltide allalaadimise reegel"
 
+#, fuzzy
 #~ msgid "Configure Media Library"
-#~ msgstr "Häälesta Meediakogu"
+#~ msgstr "Meediakogu"
 
 #, fuzzy
 #~ msgid ""
@@ -31804,20 +31700,12 @@ msgstr "Voogedastuse väljund"
 #~ msgstr "Laienda"
 
 #, fuzzy
-#~ msgid "TCP address to use (default localhost)"
-#~ msgstr "Kasutatav TCP aadress"
-
-#, fuzzy
 #~ msgid "Time window to use in ms (default 5000)"
 #~ msgstr "Kasutatav ajaaken millisekundites"
 
 #, fuzzy
 #~ msgid "Minimum Audio level to raise the alarm (default 0.1)"
 #~ msgstr "Minimaalne audionivoo häire andmiseks"
-
-#, fuzzy
-#~ msgid "Force connection reset regularly (default 1)"
-#~ msgstr "Jõuga ja regulaarselt lähtesta ühendus"
 
 #, fuzzy
 #~ msgid ""
@@ -31925,7 +31813,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "Laadi meediakogu"
+#~ msgstr "Meediakogu"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -32075,7 +31963,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "CPU"
-#~ msgstr "TCP"
+#~ msgstr "DCP"
 
 #, fuzzy
 #~ msgid "Greek, Modern ()"
@@ -32111,7 +31999,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "BluRay Disc is corrupted."
-#~ msgstr "Hüljatud (vigased)"
+#~ msgstr "Bly-ray ketas on vigane."
 
 #, fuzzy
 #~ msgid "Blu-Ray error"
@@ -32268,10 +32156,6 @@ msgstr "Voogedastuse väljund"
 #, fuzzy
 #~ msgid "ARM NEON audio format conversions"
 #~ msgstr "ARM NEON video värviformaadi teisendused"
-
-#, fuzzy
-#~ msgid "TCP port to use (default 12345)"
-#~ msgstr "Kasutatav TCP port"
 
 #, fuzzy
 #~ msgid "Defines if BarGraph information should be sent (default 1)"
@@ -32549,7 +32433,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "Dump buffer size"
-#~ msgstr "Kaadripuhvri fail"
+#~ msgstr "RTSP kaadripuhvri suurus"
 
 #, fuzzy
 #~ msgid ""
@@ -32768,10 +32652,6 @@ msgstr "Voogedastuse väljund"
 #~ msgstr "SAP-teavitus"
 
 #, fuzzy
-#~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
-#~ msgstr "Mac OS X OpenGL videoväljund (nõuab drawable-nsobject-i)"
-
-#, fuzzy
 #~ msgid "  [Incoming]"
 #~ msgstr "+-[Saabuvad]"
 
@@ -32935,7 +32815,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "Allow checking for VLC updates"
-#~ msgstr "VLc uuenduste kontrollimine"
+#~ msgstr "Regulaaselt VLC uuenduste kontrollimine"
 
 #, fuzzy
 #~ msgid "Save and Continue"
@@ -33399,7 +33279,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "Instances"
-#~ msgstr "Paigalda"
+#~ msgstr "Paigaldatud"
 
 #, fuzzy
 #~ msgid "Systray popup when minimized"
@@ -33646,11 +33526,11 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
-#~ msgstr "Graafiline ekvalaiser"
+#~ msgstr "Parameetriline ekvalaiser"
 
 #, fuzzy
 #~ msgid "Create Stream"
-#~ msgstr "Halda Vooge"
+#~ msgstr "Konverdi & voogedasta"
 
 #, fuzzy
 #~ msgid "Media File"
@@ -33678,7 +33558,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "Create New Stream"
-#~ msgstr "Loo uus profiil"
+#~ msgstr "Konverdi & voogedasta"
 
 #, fuzzy
 #~ msgid "Delete All Streams"
@@ -34281,11 +34161,11 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
-#~ msgstr "VLC ei suutnud avada faili \"%s\". (%m)"
+#~ msgstr "VLC ei suutnud avada faili \"%s\" (%s)."
 
 #, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "Tundmatu kategooria"
+#~ msgstr "Tundmatu viga"
 
 #, fuzzy
 #~ msgid "Roku HD1000 audio output"
@@ -34395,23 +34275,15 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "ASF v1.0 demuxer"
-#~ msgstr "SMF demukser"
+#~ msgstr "CAF demukser"
 
 #, fuzzy
 #~ msgid "FFmpeg demuxer"
 #~ msgstr "AIFF demukser"
 
 #, fuzzy
-#~ msgid "Ffmpeg mux"
-#~ msgstr "FFmpeg"
-
-#, fuzzy
 #~ msgid "AVI Index"
 #~ msgstr "Sisukord"
-
-#, fuzzy
-#~ msgid "Don't repair"
-#~ msgstr "Ära saada"
 
 #, fuzzy
 #~ msgid ""
@@ -34758,7 +34630,7 @@ msgstr "Voogedastuse väljund"
 
 #, fuzzy
 #~ msgid "OMAP framebuffer"
-#~ msgstr "Kaadripuhvri sisend"
+#~ msgstr "RTSP kaadripuhvri suurus"
 
 #, fuzzy
 #~ msgid "OMAP framebuffer video output"
@@ -35252,3 +35124,6 @@ msgstr "Voogedastuse väljund"
 #, fuzzy
 #~ msgid "Open Subtitles"
 #~ msgstr "Ava subtiitrid"
+
+#~ msgid "Addon Manager"
+#~ msgstr "Lisade haldur"
