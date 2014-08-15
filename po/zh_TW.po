@@ -3,21 +3,23 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# brli7848 <rainman59118@gmail.com>, 2013
-# Frank Chao <frank0624@gmail.com>, 2013
+# BrLi <rainman59118@gmail.com>, 2013
+# Ethan <ethan42411@gmail.com>, 2014
+# Hsi Ching Chao <frank0624@gmail.com>, 2013
+# jakech <jake83@gmail.com>, 2014
+# Jeff Huang <s8321414@gmail.com>, 2014
 # Ruei-Yuan Lu <RueiYuan.Lu@gmail.com>, 2012
 # taijuin lee <taijuin@gmail.com>, 2013
-# twentyfour <iwangce@gmail.com>, 2013
-# xatier 同學@提不起勁 <xatierlike@gmail.com>, 2014
-# 柏諺 黃 <s8321414@gmail.com>, 2014
-# Thanks to Hsi-Ching Chao
+# Chen Wang <iwangce@gmail.com>, 2013
+# x4r <xatierlike@gmail.com>, 2014
+# Jeff Huang <s8321414@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-06-10 15:44-0400\n"
-"PO-Revision-Date: 2014-05-16 10:21+0000\n"
-"Last-Translator: x4r <xatierlike@gmail.com>\n"
+"PO-Revision-Date: 2014-06-23 08:22+0000\n"
+"Last-Translator: jakech <jake83@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/vlc-"
 "trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -381,9 +383,8 @@ msgid "Advanced settings"
 msgstr "進階設定"
 
 #: include/vlc_input.h:568
-#, fuzzy
 msgid "Subtitle track added"
-msgstr "字幕軌"
+msgstr "已加入字幕軌"
 
 #: include/vlc_interface.h:140
 msgid ""
@@ -478,14 +479,12 @@ msgid "Create Folder..."
 msgstr "建立資料夾..."
 
 #: include/vlc_intf_strings.h:70
-#, fuzzy
 msgid "Rename Directory..."
-msgstr "建立目錄..."
+msgstr "重新命名目錄..."
 
 #: include/vlc_intf_strings.h:71
-#, fuzzy
 msgid "Rename Folder..."
-msgstr "建立資料夾..."
+msgstr "重新命名資料夾..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
@@ -1077,7 +1076,7 @@ msgstr "暫停"
 
 #: src/config/keys.c:112
 msgid "Print"
-msgstr ""
+msgstr "列印"
 
 #: src/config/keys.c:114 modules/demux/mp4/id3genres.h:76
 msgid "Space"
@@ -1138,9 +1137,8 @@ msgid "Command+"
 msgstr "Command 鍵+"
 
 #: src/darwin/error.c:37
-#, fuzzy
 msgid "Unknown error"
-msgstr "未知的視訊"
+msgstr "未知的錯誤"
 
 #: src/input/control.c:226
 #, c-format
@@ -1172,29 +1170,25 @@ msgid "VLC could not open the decoder module."
 msgstr "VLC 無法開啟解碼器模組。"
 
 #: src/input/decoder.c:691
-#, fuzzy
 msgid "No description for this codec"
-msgstr "目的地字幕編解碼器"
+msgstr "沒有關於此編解碼器的描述"
 
 #: src/input/decoder.c:693
-#, fuzzy
 msgid "Codec not supported"
-msgstr "客戶端連接埠"
+msgstr "不支援的編解碼器"
 
 #: src/input/decoder.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr "VLC 無法開啟檔案「%s」(%m)。"
+msgstr "VLC 無法解碼此格式 \"%4.4s\" (%s)"
 
 #: src/input/decoder.c:698
-#, fuzzy
 msgid "Unidentified codec"
-msgstr "視訊編解碼器"
+msgstr "無法辨識的編碼"
 
 #: src/input/decoder.c:699
-#, fuzzy
 msgid "VLC could not identify the audio or video codec"
-msgstr "VLC 無法開啟解碼器模組。"
+msgstr "VLC無法識別這個音訊或影片的編碼"
 
 #: src/input/es_out.c:926 src/input/es_out.c:931 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -1424,9 +1418,8 @@ msgid "Track ID"
 msgstr "軌道 ID"
 
 #: src/input/meta.c:72
-#, fuzzy
 msgid "Number of Tracks"
-msgstr "列數"
+msgstr "曲目數"
 
 #: src/input/meta.c:73
 msgid "Director"
@@ -1434,21 +1427,19 @@ msgstr "導演"
 
 #: src/input/meta.c:74
 msgid "Season"
-msgstr ""
+msgstr "季節"
 
 #: src/input/meta.c:75
 msgid "Episode"
-msgstr ""
+msgstr "插曲"
 
 #: src/input/meta.c:76
-#, fuzzy
 msgid "Show Name"
-msgstr "顯示基本"
+msgstr "顯示名稱"
 
 #: src/input/meta.c:77
-#, fuzzy
 msgid "Actors"
-msgstr "係數"
+msgstr "演出者"
 
 #: src/input/var.c:158
 msgid "Bookmark"
@@ -2279,8 +2270,6 @@ msgid ""
 "You can enforce the width of the video snapshot. By default it will keep the "
 "original width (-1). Using 0 will scale the width to keep the aspect ratio."
 msgstr ""
-"你可以強制調整影片截圖的寬度。預設是原本的寬度(-1)。使用 0 來調整寬度會讓維持"
-"長寬比。"
 
 #: src/libvlc-module.c:413
 msgid "Video snapshot height"
@@ -2292,8 +2281,6 @@ msgid ""
 "the original height (-1). Using 0 will scale the height to keep the aspect "
 "ratio."
 msgstr ""
-"你可以強制調整影片截圖的高度。預設是原本的高度(-1)。使用 0 來調整高度會讓維持"
-"長寬比。"
 
 #: src/libvlc-module.c:419
 msgid "Video cropping"
@@ -2304,8 +2291,6 @@ msgid ""
 "This forces the cropping of the source video. Accepted formats are x:y (4:3, "
 "16:9, etc.) expressing the global image aspect."
 msgstr ""
-"這個設定會強制裁減來源影片。接受的格式是 x:y (4:3, 16:9, 等等) 表示全域的圖片"
-"寬高比。"
 
 #: src/libvlc-module.c:425
 msgid "Source aspect ratio"
@@ -2341,8 +2326,6 @@ msgid ""
 "Scaling factor used when Auto Scaling is disabled.\n"
 "Default value is 1.0 (original video size)."
 msgstr ""
-"調整因子將被使用當自動調整關閉時。\n"
-"預設值是 1.0 (原本影片大小)"
 
 #: src/libvlc-module.c:443
 msgid "Custom crop ratios list"
@@ -2352,7 +2335,7 @@ msgstr "自訂裁剪比例清單"
 msgid ""
 "Comma separated list of crop ratios which will be added in the interface's "
 "crop ratios list."
-msgstr "裁切比例的逗號分隔列表會被加到介面上的裁切比列表。"
+msgstr ""
 
 #: src/libvlc-module.c:448
 msgid "Custom aspect ratios list"
@@ -2362,7 +2345,7 @@ msgstr "自訂長寬比例清單"
 msgid ""
 "Comma separated list of aspect ratios which will be added in the interface's "
 "aspect ratio list."
-msgstr "寬高比的逗號分隔列表會被加到介面上的寬高比列表。"
+msgstr ""
 
 #: src/libvlc-module.c:453
 msgid "Fix HDTV height"
@@ -2374,8 +2357,6 @@ msgid ""
 "incorrectly sets height to 1088 lines. You should only disable this option "
 "if your video has a non-standard format requiring all 1088 lines."
 msgstr ""
-"這個設定適當地處理 HDTV-1080 影片格式即使損壞的編碼錯誤的被設定高度到 1088 "
-"行。如果您的影片是非標準格式並且需要所有 1088 行，您應該只取消這個選項。"
 
 #: src/libvlc-module.c:460
 msgid "Monitor pixel aspect ratio"
@@ -2633,18 +2614,14 @@ msgstr ""
 "用語言)。"
 
 #: src/libvlc-module.c:596
-#, fuzzy
 msgid "Menu language"
-msgstr "選單語言："
+msgstr "選單語言"
 
 #: src/libvlc-module.c:598
-#, fuzzy
 msgid ""
 "Language of the menus you want to use with DVD/BluRay (comma separated, two "
 "or three letters country code, you may use 'any' as a fallback)."
 msgstr ""
-"您想使用的字幕軌語言(以逗號分隔，二到三個字元的區碼，您可以輸入「any」使用備"
-"用語言)。"
 
 #: src/libvlc-module.c:602
 msgid "Audio track ID"
@@ -4581,9 +4558,8 @@ msgid "print version information"
 msgstr "印出版本資訊"
 
 #: src/libvlc-module.c:2690
-#, fuzzy
 msgid "core program"
-msgstr "主程式"
+msgstr ""
 
 #: src/misc/update.c:473
 #, c-format
@@ -5487,14 +5463,12 @@ msgid "AVIO"
 msgstr ""
 
 #: modules/access/avio.h:34
-#, fuzzy
 msgid "libavformat AVIO access"
-msgstr "libavformat 存取輸出"
+msgstr ""
 
 #: modules/access/avio.h:44
-#, fuzzy
 msgid "libavformat AVIO access output"
-msgstr "libavformat 存取輸出"
+msgstr ""
 
 #: modules/access/bd/bd.c:54
 msgid "BD"
@@ -5513,9 +5487,8 @@ msgid "Use Blu-ray menus. If disabled, the movie will start directly"
 msgstr "使用藍光選單。若停用則影片會直接開始播放"
 
 #: modules/access/bluray.c:70
-#, fuzzy
 msgid "Region code"
-msgstr "區域縱座標"
+msgstr ""
 
 #: modules/access/bluray.c:71
 msgid ""
@@ -5585,14 +5558,12 @@ msgid "Blu-ray error"
 msgstr "藍光錯誤"
 
 #: modules/access/bluray.c:1189
-#, fuzzy
 msgid "Top Menu"
-msgstr "選單"
+msgstr ""
 
 #: modules/access/bluray.c:1191
-#, fuzzy
 msgid "First Play"
-msgstr "首次播放"
+msgstr ""
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:160
 #: modules/gui/qt4/ui/open_disk.h:301
@@ -5637,14 +5608,12 @@ msgid "IIDC Digital Camera (FireWire) input"
 msgstr ""
 
 #: modules/access/dcp/dcp.cpp:75
-#, fuzzy
 msgid "DCP"
-msgstr "RDP"
+msgstr ""
 
 #: modules/access/dcp/dcp.cpp:78
-#, fuzzy
 msgid "Digital Cinema Package module"
-msgstr "額外的介面模組"
+msgstr ""
 
 #: modules/access/decklink.cpp:46
 msgid "Input card to use"
@@ -5997,7 +5966,7 @@ msgstr "擷取失敗"
 
 #: modules/access/dshow/dshow.cpp:528
 msgid "No video or audio device selected."
-msgstr ""
+msgstr "未選擇視訊或音訊設備。"
 
 #: modules/access/dshow/dshow.cpp:602
 msgid "VLC cannot open ANY capture device. Check the error log for details."
@@ -6525,14 +6494,14 @@ msgid "File reading failed"
 msgstr "檔案讀取失敗"
 
 #: modules/access/file.c:178 modules/access/vdr.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\" (%s)."
-msgstr "VLC 無法開啟檔案「%s」(%m)。"
+msgstr ""
 
 #: modules/access/file.c:305 modules/access/vdr.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file (%s)."
-msgstr "VLC 無法讀取檔案(%m)。"
+msgstr ""
 
 #: modules/access/fs.c:33
 msgid "Subdirectory behavior"
@@ -7148,14 +7117,14 @@ msgid "MTP"
 msgstr "MTP"
 
 #: modules/access/mtp.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file: %s"
-msgstr "VLC 無法讀取檔案。"
+msgstr ""
 
 #: modules/access/mtp.c:287
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\": %s"
-msgstr "VLC 無法開啟檔案「%s」(%m)。"
+msgstr ""
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7266,9 +7235,8 @@ msgid "MIME returned by the server (autodetected if not specified)."
 msgstr "伺服器回傳的 MIME(若未指定則自動偵測)。"
 
 #: modules/access_output/http.c:61
-#, fuzzy
 msgid "Metacube"
-msgstr "Meta 鍵+"
+msgstr ""
 
 #: modules/access_output/http.c:62
 msgid ""
@@ -7372,9 +7340,8 @@ msgid "Generate IV instead using segment-number as IV"
 msgstr ""
 
 #: modules/access_output/livehttp.c:105
-#, fuzzy
 msgid "Number of first segment"
-msgstr "列數"
+msgstr ""
 
 #: modules/access_output/livehttp.c:106
 msgid "The number of the first segment generated"
@@ -8932,9 +8899,8 @@ msgid "Rear center"
 msgstr "中後"
 
 #: modules/audio_filter/channel_mixer/mono.c:98
-#, fuzzy
 msgid "Stereo to mono downmixer"
-msgstr "立體聲模式"
+msgstr ""
 
 #: modules/audio_filter/channel_mixer/remap.c:74
 msgid "Audio channel remapper"
@@ -9816,9 +9782,8 @@ msgid "This linear gain will be applied in software."
 msgstr ""
 
 #: modules/audio_output/wasapi.c:457
-#, fuzzy
 msgid "Windows Audio Session API output"
-msgstr "Windows GDI 視訊輸出"
+msgstr ""
 
 #: modules/audio_output/waveout.c:133
 msgid "Select Audio Device"
@@ -10336,39 +10301,33 @@ msgid "unknown"
 msgstr ""
 
 #: modules/codec/avcodec/encoder.c:853
-#, fuzzy
 msgid "video"
-msgstr "S 端子"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "audio"
-msgstr "音訊"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:854
-#, fuzzy
 msgid "subpicture"
-msgstr "圖形字幕"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:867
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the %4.4s %s encoder."
-msgstr "VLC 無法開啟編碼器。"
+msgstr ""
 
 #: modules/codec/avcodec/hwdummy.c:42
-#, fuzzy
 msgid "Dummy video decoder"
-msgstr "CDG 視訊解碼器"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:62
-#, fuzzy
 msgid "VA-API video decoder via X11"
-msgstr "PNG 視訊解碼器"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:64
-#, fuzzy
 msgid "VA-API video decoder via DRM"
-msgstr "PNG 視訊解碼器"
+msgstr ""
 
 #: modules/codec/avcodec/vda.c:85
 msgid "420YpCbCr8Planar"
@@ -10655,9 +10614,8 @@ msgid "Uses GStreamer framework's plugins to decode the media codecs"
 msgstr ""
 
 #: modules/codec/gstdecode.c:72
-#, fuzzy
 msgid "Use DecodeBin"
-msgstr "解碼"
+msgstr ""
 
 #: modules/codec/gstdecode.c:74
 msgid ""
@@ -10668,9 +10626,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/gstdecode.c:86
-#, fuzzy
 msgid "GStreamer Based Decoder"
-msgstr "Speex 音訊解碼器"
+msgstr ""
 
 #: modules/codec/jpeg.c:50
 msgid ""
@@ -10678,14 +10635,12 @@ msgid ""
 msgstr ""
 
 #: modules/codec/jpeg.c:109
-#, fuzzy
 msgid "JPEG image decoder"
-msgstr "SDL 影像解碼器"
+msgstr ""
 
 #: modules/codec/jpeg.c:118
-#, fuzzy
 msgid "JPEG image encoder"
-msgstr "SDL 影像解碼器"
+msgstr ""
 
 #: modules/codec/kate.c:194 modules/codec/subsdec.c:174
 msgid "Formatted Subtitles"
@@ -10966,9 +10921,8 @@ msgid "Linear PCM audio encoder"
 msgstr "Linear PCM 音訊編碼器"
 
 #: modules/codec/mft.c:56
-#, fuzzy
 msgid "Media Foundation Transform decoder"
-msgstr "QuickTime 函式庫解碼器"
+msgstr ""
 
 #: modules/codec/mmal.c:50
 msgid "Decode frames directly into RPI VideoCore instead of host memory."
@@ -10981,9 +10935,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/mmal.c:57
-#, fuzzy
 msgid "MMAL decoder"
-msgstr "解碼器"
+msgstr ""
 
 #: modules/codec/mmal.c:58
 msgid "MMAL-based decoder plugin for Raspberry Pi"
@@ -11030,18 +10983,16 @@ msgid "Opus"
 msgstr "Opus"
 
 #: modules/codec/opus.c:73
-#, fuzzy
 msgid "Opus audio encoder"
-msgstr "Opus 音訊解碼器"
+msgstr ""
 
 #: modules/codec/png.c:91
 msgid "PNG video decoder"
 msgstr "PNG 視訊解碼器"
 
 #: modules/codec/png.c:100
-#, fuzzy
 msgid "PNG video encoder"
-msgstr "PNG 視訊解碼器"
+msgstr ""
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
@@ -11991,14 +11942,12 @@ msgid "USF subtitles decoder"
 msgstr "USF 字幕解碼器"
 
 #: modules/codec/substx3g.c:40
-#, fuzzy
 msgid "tx3g subtitles decoder"
-msgstr "DVB 字幕解碼器"
+msgstr ""
 
 #: modules/codec/substx3g.c:41
-#, fuzzy
 msgid "tx3g subtitles"
-msgstr "文字廣播字幕"
+msgstr ""
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
@@ -12149,9 +12098,8 @@ msgid "Vorbis audio encoder"
 msgstr "Vorbis 音訊編碼器"
 
 #: modules/codec/vpx.c:49
-#, fuzzy
 msgid "WebM video decoder"
-msgstr "CDG 視訊解碼器"
+msgstr ""
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
@@ -12950,18 +12898,16 @@ msgid "H.264/MPEG-4 Part 10/AVC encoder (x264 10-bit)"
 msgstr ""
 
 #: modules/codec/x264.c:455
-#, fuzzy
 msgid "H.262/MPEG-2 encoder (x262)"
-msgstr "H.264/MPEG4 AVC 編碼器 (x264)"
+msgstr ""
 
 #: modules/codec/x264.c:459
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264)"
 msgstr ""
 
 #: modules/codec/x265.c:45
-#, fuzzy
 msgid "H.265/HEVC encoder (x265)"
-msgstr "H.264/MPEG4 AVC 編碼器 (x264)"
+msgstr ""
 
 #: modules/codec/xwd.c:36
 msgid "XWD image decoder"
@@ -13634,11 +13580,8 @@ msgid "+----[ end of help ]"
 msgstr ""
 
 #: modules/control/rc.c:965
-#, fuzzy
 msgid "Press pause to continue."
 msgstr ""
-"\n"
-"按 Enter 鍵繼續...\n"
 
 #: modules/control/rc.c:1191 modules/control/rc.c:1446
 #: modules/control/rc.c:1490
@@ -13779,9 +13722,8 @@ msgid "Avformat"
 msgstr "Avformat"
 
 #: modules/demux/avformat/avformat.c:45
-#, fuzzy
 msgid "Demuxer"
-msgstr "解多工器"
+msgstr ""
 
 #: modules/demux/avformat/avformat.c:56
 msgid "Avformat muxer"
@@ -13878,9 +13820,8 @@ msgid "Fixing AVI Index..."
 msgstr "AVI 索引修復中..."
 
 #: modules/demux/caf.c:53
-#, fuzzy
 msgid "CAF demuxer"
-msgstr "AIFF 解多工器"
+msgstr ""
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
@@ -14846,14 +14787,12 @@ msgid "H264 video demuxer"
 msgstr "H264 視訊解多工器"
 
 #: modules/demux/mpeg/hevc.c:47
-#, fuzzy
 msgid "Desired frame rate for the stream."
-msgstr "希望的 H264 串流畫面速路。"
+msgstr ""
 
 #: modules/demux/mpeg/hevc.c:54
-#, fuzzy
 msgid "HEVC/H.265 video demuxer"
-msgstr "H264 視訊解多工器"
+msgstr ""
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
@@ -15257,14 +15196,12 @@ msgid ""
 msgstr ""
 
 #: modules/demux/ts.c:133
-#, fuzzy
 msgid "Trust in-stream PCR"
-msgstr "傳輸串流 ID"
+msgstr ""
 
 #: modules/demux/ts.c:134
-#, fuzzy
 msgid "Use the stream PCR as a reference."
-msgstr "串流至網路"
+msgstr ""
 
 #: modules/demux/ts.c:137
 msgid "MPEG Transport Stream demuxer"
@@ -15460,16 +15397,14 @@ msgstr "索引"
 #: modules/gui/macosx/AddonManager.m:96 modules/gui/macosx/AddonManager.m:335
 #: modules/gui/qt4/dialogs/plugins.cpp:378
 #: modules/gui/qt4/managers/addons_manager.cpp:86
-#, fuzzy
 msgid "Playlist parsers"
-msgstr "Podcast 分析器"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:98 modules/gui/macosx/AddonManager.m:337
 #: modules/gui/qt4/dialogs/plugins.cpp:382
 #: modules/gui/qt4/managers/addons_manager.cpp:88
-#, fuzzy
 msgid "Service Discovery"
-msgstr "服務探索"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:100 modules/gui/macosx/AddonManager.m:339
 #: modules/gui/macosx/MainMenu.m:318 modules/gui/macosx/MainMenu.m:319
@@ -15479,9 +15414,8 @@ msgid "Extensions"
 msgstr "擴充套件"
 
 #: modules/gui/macosx/AddonManager.m:103
-#, fuzzy
 msgid "Show Installed Only"
-msgstr "介面"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:105
 #: modules/gui/qt4/dialogs/plugins.cpp:414
@@ -15490,16 +15424,14 @@ msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:115 modules/gui/macosx/MainMenu.m:320
 #: modules/gui/qt4/dialogs/plugins.cpp:80
-#, fuzzy
 msgid "Addons Manager"
-msgstr "視訊管理員"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:118
 #: modules/gui/qt4/dialogs/plugins.cpp:1137
 #: modules/gui/qt4/dialogs/plugins.cpp:1150
-#, fuzzy
 msgid "Installed"
-msgstr "安裝"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:119 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/playlist.m:167 modules/gui/qt4/dialogs/plugins.cpp:123
@@ -15515,9 +15447,8 @@ msgid "Author"
 msgstr "作者"
 
 #: modules/gui/macosx/AddonManager.m:187
-#, fuzzy
 msgid "Uninstall"
-msgstr "安裝"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:333
 #: modules/gui/qt4/dialogs/plugins.cpp:374
@@ -15748,14 +15679,12 @@ msgid "The stream must be playing or paused for bookmarks to work."
 msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:78
-#, fuzzy
 msgid "Show Details"
-msgstr "解編碼器詳細資訊"
+msgstr "顯示詳細訊息"
 
 #: modules/gui/macosx/BWQuincyUI.m:79
-#, fuzzy
 msgid "Hide Details"
-msgstr "解編碼器詳細資訊"
+msgstr "隱藏詳細訊息"
 
 #: modules/gui/macosx/BWQuincyUI.m:81
 msgid "Send"
@@ -15774,7 +15703,7 @@ msgstr "備註"
 
 #: modules/gui/macosx/BWQuincyUI.m:84
 msgid "Problem details and system configuration"
-msgstr ""
+msgstr "問題的詳細訊息與系統設定值"
 
 #: modules/gui/macosx/BWQuincyUI.m:175
 msgid "Problem Report for %@"
@@ -15790,9 +15719,8 @@ msgstr ""
 
 #: modules/gui/macosx/controls.m:53 modules/gui/macosx/controls.m:57
 #: modules/gui/macosx/MainMenu.m:1527
-#, fuzzy
 msgid "Jump to Time"
-msgstr "跳至時間"
+msgstr ""
 
 #: modules/gui/macosx/controls.m:56
 msgid "sec."
@@ -16373,9 +16301,8 @@ msgid "Shows a sidebar in the main window listing media sources."
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control external music players"
-msgstr "播放器的控制選單"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:122
 msgid "VLC will pause and resume supported music players on playback."
@@ -16459,9 +16386,8 @@ msgid "URI"
 msgstr "URI"
 
 #: modules/gui/macosx/MainMenu.m:81
-#, fuzzy
 msgid "File Size"
-msgstr "兩倍大小"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:316
 msgid "Check for Update..."
@@ -16669,9 +16595,8 @@ msgid "Window"
 msgstr "視窗"
 
 #: modules/gui/macosx/MainMenu.m:444
-#, fuzzy
 msgid "Minimize"
-msgstr "最小化視窗"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:446
 msgid "Player..."
@@ -16810,9 +16735,8 @@ msgid "Enable Metadata Retrieval"
 msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
-#, fuzzy
 msgid "No, Thanks"
-msgstr "銘謝"
+msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:342
 msgid ""
@@ -16823,9 +16747,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/macosx/misc.m:980
-#, fuzzy
 msgid "B"
-msgstr "BD"
+msgstr ""
 
 #: modules/gui/macosx/misc.m:987
 msgid "KB"
@@ -16920,9 +16843,8 @@ msgid "Custom playback"
 msgstr ""
 
 #: modules/gui/macosx/open.m:157
-#, fuzzy
 msgid "Open VIDEO_TS / BDMV folder"
-msgstr "開啟 VIDEO_TS 資料夾"
+msgstr ""
 
 #: modules/gui/macosx/open.m:158
 msgid "Insert Disc"
@@ -17216,9 +17138,8 @@ msgid "Meta-information"
 msgstr "中介資訊"
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/qt4/input_manager.cpp:135
-#, fuzzy
 msgid "Continue playback?"
-msgstr "停止播放"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514 modules/gui/macosx/simple_prefs.m:837
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
@@ -17226,14 +17147,12 @@ msgid "Continue"
 msgstr "繼續"
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Restart playback"
-msgstr "停止播放"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
-#, fuzzy
 msgid "Always continue"
-msgstr "視窗置頂"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1514
 msgid "Playback of \"%@\" will continue at %@"
@@ -17503,9 +17422,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:375
-#, fuzzy
 msgid "Continue playback"
-msgstr "停止播放"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:378
 msgid "Default Encoding"
@@ -18599,19 +18517,16 @@ msgid " f                      Toggle Fullscreen"
 msgstr " f                      切換全螢幕"
 
 #: modules/gui/ncurses.c:894
-#, fuzzy
 msgid " c                      Cycle through audio tracks"
-msgstr " l                      切換播放清單循環"
+msgstr ""
 
 #: modules/gui/ncurses.c:895
-#, fuzzy
 msgid " v                      Cycle through subtitles tracks"
-msgstr " [, ]                   下一個/上一個標題"
+msgstr ""
 
 #: modules/gui/ncurses.c:896
-#, fuzzy
 msgid " b                      Cycle through video tracks"
-msgstr " S                      顯示/隱藏統計資訊視窗"
+msgstr ""
 
 #: modules/gui/ncurses.c:897
 msgid " n, p                   Next/Previous playlist item"
@@ -19409,9 +19324,8 @@ msgid "Do you really want to unsubscribe from %1?"
 msgstr "您真的要取消訂閱 %1？"
 
 #: modules/gui/qt4/components/playlist/sorting.h:64
-#, fuzzy
 msgid "Cover"
-msgstr "重疊圖層"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Directory"
@@ -19430,24 +19344,20 @@ msgid "Enter name for new folder:"
 msgstr "輸入新資料夾名稱："
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Directory"
-msgstr "建立目錄"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Folder"
-msgstr "建立資料夾"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
-#, fuzzy
 msgid "Enter a new name for the directory:"
-msgstr "輸入新目錄名稱："
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
-#, fuzzy
 msgid "Enter a new name for the folder:"
-msgstr "輸入新資料夾名稱："
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:242
 msgid "Sort by"
@@ -19823,9 +19733,8 @@ msgid "&Start"
 msgstr "開始(&S)"
 
 #: modules/gui/qt4/dialogs/convert.cpp:135
-#, fuzzy
 msgid "Containers"
-msgstr "繼續"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -20061,9 +19970,8 @@ msgid "Plugins and extensions"
 msgstr "外掛與擴充套件"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:82
-#, fuzzy
 msgid "Active Extensions"
-msgstr "擴充套件"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:123
 msgid "Capability"
@@ -20118,32 +20026,28 @@ msgid "Retrieving addons..."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:514
-#, fuzzy
 msgid "No addons found"
-msgstr "沒有發現 %@s"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:793
 msgid "This addon has been installed manually. VLC can't manage it by itself."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1168
-#, fuzzy
 msgid "Version %1"
-msgstr "版本"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1194
 msgid "%1 downloads"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1263
-#, fuzzy
 msgid "&Uninstall"
-msgstr "安裝"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1266
-#, fuzzy
 msgid "&Install"
-msgstr "安裝"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1361
 #: modules/gui/qt4/dialogs/plugins.cpp:1464
@@ -20299,9 +20203,8 @@ msgid "Flat Button"
 msgstr "扁平按鈕"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
-#, fuzzy
 msgid "Next widget style"
-msgstr "下一個視窗元件風格："
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:77
 msgid "Big Button"
@@ -20336,9 +20239,8 @@ msgid "Time Toolbar"
 msgstr "時間軸工具列"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:128
-#, fuzzy
 msgid "Advanced Widget"
-msgstr "進階視窗元件工具列："
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:137
 msgid "Fullscreen Controller"
@@ -20357,9 +20259,8 @@ msgid "Select profile:"
 msgstr "選擇設定檔："
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:185
-#, fuzzy
 msgid "Preview"
-msgstr "上一個"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:194
 msgid "Cl&ose"
@@ -20807,9 +20708,8 @@ msgid "&Clear"
 msgstr "清除(&C)"
 
 #: modules/gui/qt4/menus.cpp:1636
-#, fuzzy
 msgid "&Save To Playlist"
-msgstr "儲存播放清單"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -21002,9 +20902,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:186
-#, fuzzy
 msgid "Fullscreen controller mouse sensitivity"
-msgstr "全螢幕控制介面"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:192
 msgid "When minimized"
@@ -21015,9 +20914,8 @@ msgid "Qt interface"
 msgstr "Qt 介面"
 
 #: modules/gui/qt4/recents.cpp:159
-#, fuzzy
 msgid "Recently Played"
-msgstr "儲存最近播放過的項目"
+msgstr ""
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
@@ -21120,77 +21018,64 @@ msgid "Open skin ..."
 msgstr "開啟面板 ..."
 
 #: modules/hw/vdpau/adjust.c:182
-#, fuzzy
 msgid "VDPAU adjust video filter"
-msgstr "Alpha 遮罩視訊過濾器"
+msgstr ""
 
 #: modules/hw/vdpau/avcodec.c:45
-#, fuzzy
 msgid "VDPAU video decoder"
-msgstr "CDG 視訊解碼器"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:820
-#, fuzzy
 msgid "Temporal-spatial"
-msgstr "空間化"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:824 modules/hw/vdpau/display.c:45
 msgid "VDPAU"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:825
-#, fuzzy
 msgid "VDPAU surface conversions"
-msgstr "MMX 轉換自"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:833
-#, fuzzy
 msgid "Deinterlacing algorithm"
-msgstr "去交錯"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:836
-#, fuzzy
 msgid "Inverse telecine"
-msgstr "無效的選擇"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:838
-#, fuzzy
 msgid "Deinterlace chroma skip"
-msgstr "開啟去交錯"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:839
 msgid "Whether temporal deinterlacing applies to luma only"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:841
-#, fuzzy
 msgid "Noise reduction level"
-msgstr "降低雜訊"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "Scaling quality"
-msgstr "重取樣品質"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:843
-#, fuzzy
 msgid "High quality scaling level"
-msgstr "視訊品質後處理等級"
+msgstr ""
 
 #: modules/hw/vdpau/deinterlace.c:131
-#, fuzzy
 msgid "VDPAU deinterlacing filter"
-msgstr "去交錯視訊過濾器"
+msgstr ""
 
 #: modules/hw/vdpau/display.c:46
-#, fuzzy
 msgid "VDPAU output"
-msgstr "YUV 輸出"
+msgstr ""
 
 #: modules/hw/vdpau/sharpen.c:141
-#, fuzzy
 msgid "VDPAU sharpen video filter"
-msgstr "銳利化視訊過濾器"
+msgstr ""
 
 #: modules/lua/libs/httpd.c:75
 msgid ""
@@ -21586,18 +21471,16 @@ msgid "RTSP VoD"
 msgstr "RTSP VoD"
 
 #: modules/misc/rtsp.c:76
-#, fuzzy
 msgid "Legacy RTSP VoD server"
-msgstr "RTSP VoD 伺服器"
+msgstr ""
 
 #: modules/misc/securetransport.c:53
 msgid "TLS support for OS X and iOS"
 msgstr ""
 
 #: modules/misc/securetransport.c:66
-#, fuzzy
 msgid "TLS server support for OS X"
-msgstr "RTSP 伺服器連接埠"
+msgstr ""
 
 #: modules/misc/securetransport.c:335
 msgid "Accept certificate temporarily"
@@ -21687,14 +21570,12 @@ msgid "Subject"
 msgstr ""
 
 #: modules/mux/avi.c:55
-#, fuzzy
 msgid "Encoder"
-msgstr "解碼器"
+msgstr ""
 
 #: modules/mux/avi.c:56
-#, fuzzy
 msgid "Keywords"
-msgstr "Podcast 關鍵字"
+msgstr ""
 
 #: modules/mux/avi.c:59
 msgid "AVI muxer"
@@ -21942,9 +21823,8 @@ msgid "Multipart JPEG muxer"
 msgstr ""
 
 #: modules/mux/ogg.c:47
-#, fuzzy
 msgid "Index interval"
-msgstr "索引檔"
+msgstr ""
 
 #: modules/mux/ogg.c:48
 msgid ""
@@ -21952,9 +21832,8 @@ msgid ""
 msgstr ""
 
 #: modules/mux/ogg.c:50
-#, fuzzy
 msgid "Index size ratio"
-msgstr "索引檔"
+msgstr ""
 
 #: modules/mux/ogg.c:52
 msgid "Set index size ratio. Alters default (60min content) or estimated size."
@@ -22013,9 +21892,8 @@ msgid "H.264 video packetizer"
 msgstr "H.264 視訊封包器"
 
 #: modules/packetizer/hevc.c:50
-#, fuzzy
 msgid "HEVC/H.265 video packetizer"
-msgstr "H.264 視訊封包器"
+msgstr ""
 
 #: modules/packetizer/mlp.c:49
 msgid "MLP/TrueHD parser"
@@ -22951,9 +22829,8 @@ msgid "Stream output to memory buffer"
 msgstr "串流輸出至記憶體緩衝區"
 
 #: modules/stream_out/stats.c:42
-#, fuzzy
 msgid "Writes stats to file instead of stdout"
-msgstr "使用旋轉視訊過濾器而不是變形"
+msgstr ""
 
 #: modules/stream_out/stats.c:43
 msgid "Prefix to show on output line"
@@ -24496,14 +24373,12 @@ msgid "Number of pixels to padd to the right of the image after cropping."
 msgstr ""
 
 #: modules/video_filter/croppadd.c:78
-#, fuzzy
 msgid "Croppadd"
-msgstr "裁剪"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:79
-#, fuzzy
 msgid "Video cropping filter"
-msgstr "視訊縮放過濾器"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -24641,9 +24516,8 @@ msgid "Extract RGB component video filter"
 msgstr ""
 
 #: modules/video_filter/freeze.c:77
-#, fuzzy
 msgid "Freezing interactive video filter"
-msgstr "互動式益智遊戲視訊過濾器"
+msgstr ""
 
 #: modules/video_filter/freeze.c:78
 msgid "Freeze"
@@ -25179,9 +25053,8 @@ msgid "Motion detect video filter"
 msgstr "動作偵測視訊過濾器"
 
 #: modules/video_filter/oldmovie.c:185
-#, fuzzy
 msgid "Old movie effect video filter"
-msgstr "動作偵測視訊過濾器"
+msgstr ""
 
 #: modules/video_filter/oldmovie.c:186
 msgid "Old movie"
@@ -25860,9 +25733,8 @@ msgid "Rotate or flip the video"
 msgstr "旋轉或翻轉視訊"
 
 #: modules/video_filter/vhs.c:108
-#, fuzzy
 msgid "VHS movie effect video filter"
-msgstr "動作偵測視訊過濾器"
+msgstr ""
 
 #: modules/video_filter/vhs.c:109
 msgid "VHS movie"
@@ -25889,9 +25761,8 @@ msgid "ASCII-art video output"
 msgstr "ASCII-art 視訊輸出"
 
 #: modules/video_output/android/nativewindow.c:53
-#, fuzzy
 msgid "ANativeWindow"
-msgstr "視窗"
+msgstr ""
 
 #: modules/video_output/android/nativewindow.c:54
 msgid "Android native window"
@@ -26178,14 +26049,12 @@ msgid "K Video Acceleration video output"
 msgstr ""
 
 #: modules/video_output/macosx.m:86
-#, fuzzy
 msgid "Mac OS X OpenGL video output"
-msgstr "OpenGL 視訊輸出"
+msgstr ""
 
 #: modules/video_output/mmal.c:52
-#, fuzzy
 msgid "VideoCore layer where the video is displayed."
-msgstr "儲存視訊抓圖的目錄。"
+msgstr ""
 
 #: modules/video_output/mmal.c:53
 msgid ""
@@ -26230,23 +26099,20 @@ msgid "Pixel Shader"
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:68
-#, fuzzy
 msgid "Choose a pixel shader to apply."
-msgstr "清除播放清單"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:69
-#, fuzzy
 msgid "Path to HLSL file"
-msgstr "儲存檔案"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:70
 msgid "Path to an HLSL file containing a single pixel shader."
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:72
-#, fuzzy
 msgid "HLSL File"
-msgstr "儲存檔案"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:74
 msgid "Recommended video output for Windows Vista and later versions"
@@ -26906,18 +26772,16 @@ msgid "The height of the effects video window, in pixels."
 msgstr "特效視訊視窗的高度(像素)。"
 
 #: modules/visualization/visual/visual.c:61
-#, fuzzy
 msgid "FFT window"
-msgstr "視窗"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:63
 msgid "The type of FFT window to use for spectrum-based visualizations."
 msgstr ""
 
 #: modules/visualization/visual/visual.c:65
-#, fuzzy
 msgid "Kaiser window parameter"
-msgstr "覆載參數"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:67
 msgid ""
@@ -28007,9 +27871,8 @@ msgid "Denoiser"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1490
-#, fuzzy
 msgid "Spatial luma strength"
-msgstr "空間模糊"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1491
 msgid "Temporal luma strength"
@@ -28072,19 +27935,16 @@ msgid "Media Manager List"
 msgstr "媒體管理員清單"
 
 #: modules/access/avcapture.m:55
-#, fuzzy
 msgid "AVFoundation Video Capture"
-msgstr "視訊擷取"
+msgstr ""
 
 #: modules/access/avcapture.m:56
-#, fuzzy
 msgid "AVFoundation video capture module."
-msgstr "音訊輸出模組"
+msgstr ""
 
 #: modules/access/avcapture.m:288 modules/access/avcapture.m:317
-#, fuzzy
 msgid "No video devices found"
-msgstr "找不到輸入裝置"
+msgstr ""
 
 #: modules/access/avcapture.m:289
 msgid ""
@@ -28103,18 +27963,16 @@ msgid ""
 msgstr ""
 
 #: modules/access/dvb/access.c:58
-#, fuzzy
 msgid "Satellite scanning config"
-msgstr "Satellite Longitude"
+msgstr ""
 
 #: modules/access/dvb/access.c:59
 msgid "filename of config file in share/dvb/dvb-s"
 msgstr ""
 
 #: modules/access/dvb/access.c:62
-#, fuzzy
 msgid "DVB"
-msgstr "DV"
+msgstr ""
 
 #: modules/access/dvb/access.c:63
 msgid "DVB input with v4l2 support"
@@ -28132,18 +27990,16 @@ msgid "Scanning DVB"
 msgstr ""
 
 #: modules/access/qtsound.m:59
-#, fuzzy
 msgid "QTSound"
-msgstr "環繞"
+msgstr ""
 
 #: modules/access/qtsound.m:60
 msgid "QuickTime Sound Capture"
 msgstr ""
 
 #: modules/access/qtsound.m:267
-#, fuzzy
 msgid "No Audio Input device found"
-msgstr "找不到輸入裝置"
+msgstr "找不到音訊輸入裝置"
 
 #: modules/access/qtsound.m:268 modules/access/qtsound.m:295
 msgid ""
@@ -28152,28 +28008,24 @@ msgid ""
 msgstr ""
 
 #: modules/access/qtsound.m:294
-#, fuzzy
 msgid "No audio input device found"
-msgstr "找不到輸入裝置"
+msgstr "找不到音訊輸入裝置"
 
 #: modules/access/rar/module.c:33
 msgid "Uncompressed RAR"
 msgstr ""
 
 #: modules/audio_output/mmdevice.c:1316
-#, fuzzy
 msgid "Windows Multimedia Device output"
-msgstr "Windows GDI 視訊輸出"
+msgstr ""
 
 #: modules/audio_output/winstore.c:204
-#, fuzzy
 msgid "Windows Store audio output"
-msgstr "Windows GDI 視訊輸出"
+msgstr ""
 
 #: modules/codec/scte27.c:42
-#, fuzzy
 msgid "SCTE-27 decoder"
-msgstr "G.711 解碼器"
+msgstr ""
 
 #: modules/codec/scte27.c:43
 msgid "SCTE-27"
@@ -28184,32 +28036,28 @@ msgid "Specify the width to decode the image too"
 msgstr ""
 
 #: modules/codec/svg.c:53
-#, fuzzy
 msgid "Specify the height to decode the image too"
-msgstr "指定使用的去交錯模組。"
+msgstr ""
 
 #: modules/codec/svg.c:55
-#, fuzzy
 msgid "Scale factor to apply to image"
-msgstr "轉碼時套用至視訊的縮放係數(例如 0.25)"
+msgstr ""
 
 #: modules/codec/svg.c:63
-#, fuzzy
 msgid "SVG video decoder"
-msgstr "CDG 視訊解碼器"
+msgstr ""
 
 #: modules/control/win_msg.c:192
 msgid "WinMsg"
 msgstr ""
 
 #: modules/control/win_msg.c:193
-#, fuzzy
 msgid "Windows messages interface"
-msgstr "Windows 服務介面"
+msgstr ""
 
 #: modules/gui/macosx/DebugMessageVisualizer.m:93
 msgid "Save this Log..."
-msgstr ""
+msgstr "儲存這個記錄檔"
 
 #: modules/gui/macosx/DebugMessageVisualizer.m:143
 #, c-format
@@ -28217,9 +28065,8 @@ msgid "VLC Debug Log (%s).rtf"
 msgstr ""
 
 #: modules/gui/qt4/components/epg/EPGWidget.cpp:63
-#, fuzzy
 msgid "No EPG Data Available"
-msgstr "最佳可用"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/epg.cpp:117
 msgid " (%1+ rated)"
@@ -28228,39 +28075,33 @@ msgstr ""
 #: modules/gui/qt4/extensions_manager.cpp:181
 #: modules/gui/qt4/extensions_manager.cpp:191
 #: modules/gui/qt4/util/qmenuview.cpp:70
-#, fuzzy
 msgid "Empty"
-msgstr " - Empty - "
+msgstr "空白"
 
 #: modules/gui/qt4/extensions_manager.cpp:197
-#, fuzzy
 msgid "Deactivate"
-msgstr "啟動"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:151
-#, fuzzy
 msgid "Audio Fingerprinting"
-msgstr "音訊設定"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:152
-#, fuzzy
 msgid "Select a matching identity"
-msgstr "選擇檔案"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:153
-#, fuzzy
 msgid "No fingerprint has been found"
-msgstr "找不到輸入裝置"
+msgstr ""
 
 #: modules/gui/qt4/ui/fingerprintdialog.h:154
 msgid "Fingerprinting track..."
 msgstr ""
 
 #: modules/gui/qt4/util/searchlineedit.cpp:113
-#, fuzzy
 msgctxt "Tooltip|Clear"
 msgid "Clear"
-msgstr "清除"
+msgstr ""
 
 #: modules/lua/extension.c:1216
 #, c-format
@@ -28286,9 +28127,8 @@ msgid "Addons local storage lister"
 msgstr ""
 
 #: modules/misc/addons/vorepository.c:60
-#, fuzzy
 msgid "Videolan.org's addons finder"
-msgstr "視訊變形過濾器"
+msgstr ""
 
 #: modules/misc/addons/vorepository.c:62
 msgid "addons.videolan.org addons finder"
@@ -28311,19 +28151,16 @@ msgid "Track fingerprinter (based on Acoustid)"
 msgstr ""
 
 #: modules/stream_out/chromaprint.c:57
-#, fuzzy
 msgid "Duration of the fingerprinting"
-msgstr "鏡射方向"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:58
-#, fuzzy
 msgid "Default: 90sec"
-msgstr "預設串流"
+msgstr ""
 
 #: modules/stream_out/chromaprint.c:61
-#, fuzzy
 msgid "Chromaprint stream output"
-msgstr "錄製串流輸出"
+msgstr ""
 
 #: modules/text_renderer/platform_fonts.c:82
 msgid ""
@@ -28332,33 +28169,28 @@ msgid ""
 msgstr ""
 
 #: modules/visualization/glspectrum.c:53
-#, fuzzy
 msgid "The width of the visualization window, in pixels."
-msgstr "視訊視窗的寬度(像素)。"
+msgstr ""
 
 #: modules/visualization/glspectrum.c:56
-#, fuzzy
 msgid "The height of the visualization window, in pixels."
-msgstr "視訊視窗的高度(像素)。"
+msgstr ""
 
 #: modules/visualization/glspectrum.c:59
-#, fuzzy
 msgid "glSpectrum"
-msgstr "頻譜"
+msgstr ""
 
 #: modules/visualization/glspectrum.c:60
-#, fuzzy
 msgid "3D OpenGL spectrum visualization"
-msgstr "目前的視覺效果"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Hann"
 msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
-#, fuzzy
 msgid "Flat Top"
-msgstr "浮在頂端"
+msgstr ""
 
 #: modules/visualization/visual/window_presets.h:34
 msgid "Blackman-Harris"
@@ -28369,12 +28201,10 @@ msgid "Kaiser"
 msgstr ""
 
 #: share/lua/http/view.html:26
-#, fuzzy
 msgid "VLC media player - Flash Viewer"
-msgstr "VLC 媒體播放器 - 網頁介面"
+msgstr ""
 
 #: share/lua/http/view.html:65
-#, fuzzy
 msgid "Streaming Output"
 msgstr "串流輸出"
 
@@ -30267,6 +30097,91 @@ msgstr "串流輸出"
 #~ msgid "Jump"
 #~ msgstr "跳至"
 
+#~ msgid ""
+#~ "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
+#~ "there is no way for you to fix this."
+#~ msgstr "VLC 不支援該音訊或視訊格式「%4.4s」，很遺憾您無法修正此問題。"
+
+#~ msgid ""
+#~ "Additional path for VLC to look for its modules. You can add several "
+#~ "paths by concatenating them using \" PATH_SEP \" as separator"
+#~ msgstr ""
+#~ "VLC 額外的模組搜尋路徑。您可以加入一些路徑並且用「PATH_SEP」當作分隔將它們"
+#~ "串接起來。"
+
+#~ msgid "Choose how album art will be downloaded."
+#~ msgstr "選擇專輯封面的下載時機。"
+
+#~ msgid "Manual download only"
+#~ msgstr "僅手動下載"
+
+#~ msgid "When track starts playing"
+#~ msgstr "當音軌開始播放時"
+
+#~ msgid "As soon as track is added"
+#~ msgstr "音軌加入清單時"
+
+#~ msgid ""
+#~ "Enable this option to load the SQL-based Media Library at VLC startup"
+#~ msgstr "啟用這個選項讓 VLC 在啟動時載入基於 SQL 的媒體櫃"
+
+#~ msgid "FFmpeg"
+#~ msgstr "FFmpeg"
+
+#~ msgid "Enable lossless coding"
+#~ msgstr "啟用無損編碼"
+
+#~ msgid "xblen"
+#~ msgstr "xblen"
+
+#~ msgid "yblen"
+#~ msgstr "yblen"
+
+#~ msgid ""
+#~ "This option will drop/duplicate video frames to synchronise the video "
+#~ "track on the audio track."
+#~ msgstr "丟棄/複製視訊畫面以達成視訊軌與音訊軌同步。"
+
+#~ msgid ""
+#~ "The transcoder will drop frames if your CPU can't keep up with the "
+#~ "encoding rate."
+#~ msgstr "若您的 CPU 無法跟上編碼速率，轉碼器將會丟棄部份畫面。"
+
+#~ msgid "Album art download policy:"
+#~ msgstr "專輯封面下載方針："
+
+#, fuzzy
+#~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
+#~ msgstr "Mac OS X OpenGL 視訊輸出(需要 drawable-nsobject)"
+
+#, fuzzy
+#~ msgid "Ffmpeg mux"
+#~ msgstr "FFmpeg"
+
+#, fuzzy
+#~ msgid "Don't repair"
+#~ msgstr "不要傳送"
+
+#, fuzzy
+#~ msgid "Open a DVD or VCD"
+#~ msgstr "開啟 BDMV 資料夾"
+
+#, fuzzy
+#~ msgid "Exit this program"
+#~ msgstr "主程式"
+
+#, fuzzy
+#~ msgid "About this program"
+#~ msgstr "主程式"
+
+#, fuzzy
+#~ msgid "Switch program"
+#~ msgstr "主程式"
+
+#, fuzzy
+#~ msgid "Exit the program"
+#~ msgstr "主程式"
+
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "請選擇您偏好的視訊輸出並進行設定。"
 
@@ -30286,129 +30201,97 @@ msgstr "串流輸出"
 #~ msgstr ""
 #~ "在這個階段您可以強制設定字幕解多工器的行為，例如設定字幕格式或是檔案名稱。"
 
+#, fuzzy
 #~ msgid "No suitable decoder module"
-#~ msgstr "無適合的解碼器模組"
+#~ msgstr "CVD 字幕解碼器"
 
-#~ msgid ""
-#~ "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
-#~ "there is no way for you to fix this."
-#~ msgstr "VLC 不支援該音訊或視訊格式「%4.4s」，很遺憾您無法修正此問題。"
-
-#~ msgid ""
-#~ "Additional path for VLC to look for its modules. You can add several "
-#~ "paths by concatenating them using \" PATH_SEP \" as separator"
-#~ msgstr ""
-#~ "VLC 額外的模組搜尋路徑。您可以加入一些路徑並且用「PATH_SEP」當作分隔將它們"
-#~ "串接起來。"
-
+#, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "專輯封面方針"
+#~ msgstr "專輯封面檔案名稱"
 
-#~ msgid "Choose how album art will be downloaded."
-#~ msgstr "選擇專輯封面的下載時機。"
-
-#~ msgid "Manual download only"
-#~ msgstr "僅手動下載"
-
-#~ msgid "When track starts playing"
-#~ msgstr "當音軌開始播放時"
-
-#~ msgid "As soon as track is added"
-#~ msgstr "音軌加入清單時"
-
+#, fuzzy
 #~ msgid "Load Media Library"
-#~ msgstr "載入媒體櫃"
+#~ msgstr "媒體櫃"
 
-#~ msgid ""
-#~ "Enable this option to load the SQL-based Media Library at VLC startup"
-#~ msgstr "啟用這個選項讓 VLC 在啟動時載入基於 SQL 的媒體櫃"
-
+#, fuzzy
 #~ msgid "main program"
-#~ msgstr "主程式"
+#~ msgstr "節目"
 
-#~ msgid "FFmpeg"
-#~ msgstr "FFmpeg"
-
+#, fuzzy
 #~ msgid "FFmpeg access"
-#~ msgstr "FFmpeg 存取"
+#~ msgstr "Zip 檔存取"
 
+#, fuzzy
 #~ msgid "VLC could not open the file \"%s\". (%m)"
-#~ msgstr "VLC 無法開啟檔案「%s」。(%m)"
+#~ msgstr "VLC 無法開啟 %s 模組。"
 
+#, fuzzy
 #~ msgid "Audio filter for stereo to mono conversion"
-#~ msgstr "立體聲對單聲道轉換的音訊過濾器"
+#~ msgstr "PCM 格式轉換的音訊過濾器"
 
+#, fuzzy
 #~ msgid "Video Acceleration (VA) API"
-#~ msgstr "視訊加速 (VA) API"
+#~ msgstr "DirectX 視訊加速 (DXVA) 2.0"
 
-#~ msgid "Enable lossless coding"
-#~ msgstr "啟用無損編碼"
-
-#~ msgid "xblen"
-#~ msgstr "xblen"
-
-#~ msgid "yblen"
-#~ msgstr "yblen"
-
+#, fuzzy
 #~ msgid "Video decoder using openmash"
-#~ msgstr "使用 openmash 的視訊解碼器"
+#~ msgstr "視訊編碼器 (使用 OpenMAX IL)"
 
+#, fuzzy
 #~ msgid "Jump to time"
-#~ msgstr "跳至時間"
+#~ msgstr "前往時間"
 
+#, fuzzy
 #~ msgid "Open CrashLog..."
-#~ msgstr "開啟當機記錄..."
+#~ msgstr "開啟光碟..."
 
+#, fuzzy
 #~ msgid "Don't Send"
-#~ msgstr "不要傳送"
+#~ msgstr "不要顯示"
 
+#, fuzzy
 #~ msgid "Open BDMV folder"
-#~ msgstr "開啟 BDMV 資料夾"
+#~ msgstr "開啟資料夾"
 
+#, fuzzy
 #~ msgid "Output module"
 #~ msgstr "輸出模組"
 
+#, fuzzy
 #~ msgid "Graphic Equalizer"
-#~ msgstr "圖形等化器"
+#~ msgstr "參數化等化器"
 
 #, fuzzy
 #~ msgid "Automatically retrieve media infos"
 #~ msgstr "自動設定視訊增益。"
 
+#, fuzzy
 #~ msgid "Get more extensions from"
-#~ msgstr "取得更多擴充套件"
+#~ msgstr "忽略副檔名"
 
+#, fuzzy
 #~ msgid "Under the Video"
-#~ msgstr "視訊下方"
+#~ msgstr "視訊上方"
 
+#, fuzzy
 #~ msgid "&Help..."
-#~ msgstr "說明(&H)..."
+#~ msgstr "說明(&H)"
 
+#, fuzzy
 #~ msgid "Synchronise on audio track"
-#~ msgstr "同步音訊軌"
+#~ msgstr "循環切換音訊軌"
 
-#~ msgid ""
-#~ "This option will drop/duplicate video frames to synchronise the video "
-#~ "track on the audio track."
-#~ msgstr "丟棄/複製視訊畫面以達成視訊軌與音訊軌同步。"
-
-#~ msgid ""
-#~ "The transcoder will drop frames if your CPU can't keep up with the "
-#~ "encoding rate."
-#~ msgstr "若您的 CPU 無法跟上編碼速率，轉碼器將會丟棄部份畫面。"
-
+#, fuzzy
 #~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-#~ msgstr "Mac OS X OpenGL 視訊輸出(需要 drawable-nsobject)"
+#~ msgstr "OpenGL 視訊輸出(實驗階段)"
 
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "使用字幕檔(&T)"
 
-#~ msgid "Album art download policy:"
-#~ msgstr "專輯封面下載方針："
-
+#, fuzzy
 #~ msgid "Configure Media Library"
-#~ msgstr "設定媒體櫃"
+#~ msgstr "媒體櫃"
 
 #, fuzzy
 #~ msgid ""
@@ -30524,7 +30407,7 @@ msgstr "串流輸出"
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "載入媒體櫃"
+#~ msgstr "媒體櫃"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -31121,10 +31004,6 @@ msgstr "串流輸出"
 #~ msgstr "SAP 發佈"
 
 #, fuzzy
-#~ msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
-#~ msgstr "Mac OS X OpenGL 視訊輸出(需要 drawable-nsobject)"
-
-#, fuzzy
 #~ msgid "  [Video Decoding]"
 #~ msgstr "視訊裁剪"
 
@@ -31694,7 +31573,7 @@ msgstr "串流輸出"
 
 #, fuzzy
 #~ msgid "Graphical Equalizer"
-#~ msgstr "圖形等化器"
+#~ msgstr "參數化等化器"
 
 #, fuzzy
 #~ msgid "Create Stream"
@@ -32038,11 +31917,11 @@ msgstr "串流輸出"
 
 #, fuzzy
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
-#~ msgstr "VLC 無法開啟檔案「%s」(%m)。"
+#~ msgstr "VLC 無法開啟解碼器模組。"
 
 #, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "未知的分類"
+#~ msgstr "未知的錯誤"
 
 #, fuzzy
 #~ msgid "Roku HD1000 audio output"
@@ -32121,16 +32000,8 @@ msgstr "串流輸出"
 #~ msgstr "AIFF 解多工器"
 
 #, fuzzy
-#~ msgid "Ffmpeg mux"
-#~ msgstr "FFmpeg"
-
-#, fuzzy
 #~ msgid "AVI Index"
 #~ msgstr "索引"
-
-#, fuzzy
-#~ msgid "Don't repair"
-#~ msgstr "不要傳送"
 
 #, fuzzy
 #~ msgid "Subtitles (asa demuxer)"
@@ -33430,7 +33301,7 @@ msgstr "串流輸出"
 
 #, fuzzy
 #~ msgid "VLC could not find encoder \"%s\"."
-#~ msgstr "VLC 無法開啟編碼器。"
+#~ msgstr "VLC 無法連線至「%s:%d」。"
 
 #, fuzzy
 #~ msgid "Quartz video"
@@ -34227,10 +34098,6 @@ msgstr "串流輸出"
 #~ msgstr "開啟光碟..."
 
 #, fuzzy
-#~ msgid "Open a DVD or VCD"
-#~ msgstr "開啟 BDMV 資料夾"
-
-#, fuzzy
 #~ msgid "_Network Stream..."
 #~ msgstr "開啟網路串流(&N)..."
 
@@ -34285,14 +34152,6 @@ msgstr "串流輸出"
 #, fuzzy
 #~ msgid "Eject the DVD/CD"
 #~ msgstr "退出光碟"
-
-#, fuzzy
-#~ msgid "Exit this program"
-#~ msgstr "主程式"
-
-#, fuzzy
-#~ msgid "About this program"
-#~ msgstr "主程式"
 
 #, fuzzy
 #~ msgid "Simple &Open ..."
@@ -34754,10 +34613,6 @@ msgstr "串流輸出"
 #~ msgstr "選擇上一個 DVD 章節"
 
 #, fuzzy
-#~ msgid "Switch program"
-#~ msgstr "主程式"
-
-#, fuzzy
 #~ msgid "stream output"
 #~ msgstr "串流輸出"
 
@@ -34772,10 +34627,6 @@ msgstr "串流輸出"
 #, fuzzy
 #~ msgid "Gtk+ interface"
 #~ msgstr "Qt 介面"
-
-#, fuzzy
-#~ msgid "Exit the program"
-#~ msgstr "主程式"
 
 #, fuzzy
 #~ msgid "About this application"
