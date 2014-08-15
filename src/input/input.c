@@ -1177,7 +1177,6 @@ static void InitPrograms( input_thread_t * p_input )
 
 static int Init( input_thread_t * p_input )
 {
-    vlc_meta_t *p_meta;
     int i;
 
     for( i = 0; i < p_input->p->p_item->i_options; i++ )
@@ -1258,8 +1257,8 @@ static int Init( input_thread_t * p_input )
                  p_input->p->b_out_pace_control ? "async" : "sync" );
     }
 
-    p_meta = vlc_meta_New();
-    if( p_meta )
+    vlc_meta_t *p_meta = vlc_meta_New();
+    if( p_meta != NULL )
     {
         /* Get meta data from users */
         InputMetaUser( p_input, p_meta );
@@ -1271,8 +1270,8 @@ static int Init( input_thread_t * p_input )
         for( int i = 0; i < p_input->p->i_slave; i++ )
             InputSourceMeta( p_input, p_input->p->slave[i], p_meta );
 
-        /* */
-        InputUpdateMeta( p_input, p_meta );
+        es_out_ControlSetMeta( p_input->p->p_es_out, p_meta );
+        vlc_meta_Delete( p_meta );
     }
 
     msg_Dbg( p_input, "`%s' successfully opened",
