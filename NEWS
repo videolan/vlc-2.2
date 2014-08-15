@@ -2,20 +2,21 @@ Changes between 2.1.x and 2.2.0-pre1:
 --------------------------------
 
 Important changes:
- * The licenses of more modules have changed from GPLv2+ to LGPLv2.1+
+ * The licenses of more modules have changed from GPLv2+ to LGPLv2.1+,
+   notably the streaming output, muxers and access output ones
 
 Core:
- * Partial fix of playback of short audio samples
- * Add extensions download from external repositories
  * Support automatic rotation using streams metadata, GPU-accelerated when possible
+ * Add extensions download from external repositories
  * Rework the metadata fetching algorithm and policies
+ * Partial fix of playback of short audio samples
 
 Access:
- * Added TLS support for ftp access and sout access.
-   New schemes for implicit (ftps) and explicit (ftpes) modes.
+ * Added TLS support for ftp access and sout access
+   New schemes for implicit (ftps) and explicit (ftpes) modes
  * MMS audio selection on split audio streams
  * Blu-Ray: support overlays, preferred menu languages, region selection
-   and navigation
+   and BD-J navigation
  * Digital Cinema Package support, including encrypted DCP with KDM
  * Partial fixes for Arccos protected DVDs
 
@@ -50,13 +51,15 @@ Encoder:
  * New png image encoder using libpng
 
 Demuxer:
- * New CAF format module
+ * Support for Core Audio Format (CAF) files
  * Important rework of the Ogg demuxer, notably improving seeking,
    streaming resilience, speex demuxing and chained Ogg
  * Important rework of the ASF/WMV demuxer, notably for seeking,
    synchronization and tracks exclusion
  * AVI improvements for better seek-indexing in non-fastseekable situations
  * AVI fixes for uncompressed, indexed and paletized bitmaps
+ * MP4 fixes for fragmented files, vobsub, duration, aspect-ratio
+   and support for rotation, covr atom and tracks exclusion
  * Support Opus in MKV
  * Support VP8 in OGG
  * Basic support for WebVTT
@@ -70,18 +73,10 @@ Demuxer:
  * New HEVC raw packetizer and demuxer
  * TS support for WiDi/Miracast LPCM
  * Handle MOV/MP4 tx3g styled subtitles through codec
- * MP4 fixes for fragmented files, vobsub, duration, aspect-ratio
-   and support for rotation, covr atom and tracks exclusion
  * Support SVG images files (on glib platforms)
  * Keep selection of tracks on segment changes in MKV
  * Support detection of SRT languages based on filename
  * Support for seeking Standard MIDI Files
-
-Muxers:
- * Important rework of the Ogg muxer, notably for skeleton
- * Fixes for the AVI muxer for specification respect
- * Support VP8 in OGG
- * Add HEVC muxing in MP4 and TS
 
 Video Output:
  * Direct rendering and filtering for VDPAU hardware acceleration
@@ -108,6 +103,12 @@ Audio Output:
  * Numerous fixes on AUHAL, including device management and stream changes
  * Fixes for SPDIF passthru in most modules
 
+Muxers:
+ * Important rework of the Ogg muxer, notably for skeleton
+ * Fixes for the AVI muxer to respect the specification
+ * Support VP8 in OGG
+ * Add HEVC muxing in MP4 and TS
+
 Streaming:
  * Important rework of the transcoding module to fix numerous bugs
  * WebM streaming, including live sources, compatible with all major browsers
@@ -119,7 +120,7 @@ Streaming:
  * transcode module access fps values as rationals now, eg 30000/1001
  * VLC now streams all elementary streams, you can revert to previous behaviour
     with --no-sout-all
- * --ts-out option has been removed, it has been superceded by --demux demuxdump 
+ * --ts-out option has been removed, it has been superceded by --demux demuxdump
     --demuxdump-access udp --demuxdump-file 127.0.0.1:1234
  * Support Metacube protocol when streaming over HTTP
 
@@ -153,6 +154,9 @@ Removed modules:
  * ios video output: use ios2
  * OpenMash H.261 video decoder
  * dirac encoder: use schroedinger
+
+Translations:
+ * Update of all translations
 
 
 Changes between 2.1.3 and 2.1.4:
