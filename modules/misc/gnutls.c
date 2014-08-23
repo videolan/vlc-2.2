@@ -654,7 +654,10 @@ static int OpenServer (vlc_tls_creds_t *crd, const char *cert, const char *key)
 
     vlc_tls_creds_sys_t *sys = malloc (sizeof (*sys));
     if (unlikely(sys == NULL))
-        goto error;
+    {
+        gnutls_Deinit ();
+        return VLC_ENOMEM;
+    }
 
     crd->sys     = sys;
     crd->add_CA  = gnutls_AddCA;
@@ -670,7 +673,9 @@ static int OpenServer (vlc_tls_creds_t *crd, const char *cert, const char *key)
     {
         msg_Err (crd, "cannot allocate credentials: %s",
                  gnutls_strerror (val));
-        goto error;
+        free (sys);
+        gnutls_Deinit ();
+        return VLC_ENOMEM;
     }
 
     block_t *certblock = block_FilePath (cert);
@@ -678,7 +683,7 @@ static int OpenServer (vlc_tls_creds_t *crd, const char *cert, const char *key)
     {
         msg_Err (crd, "cannot read certificate chain from %s: %s", cert,
                  vlc_strerror_c(errno));
-        return VLC_EGENERIC;
+        goto error;
     }
 
     block_t *keyblock = block_FilePath (key);
@@ -687,7 +692,7 @@ static int OpenServer (vlc_tls_creds_t *crd, const char *cert, const char *key)
         msg_Err (crd, "cannot read private key from %s: %s", key,
                  vlc_strerror_c(errno));
         block_Release (certblock);
-        return VLC_EGENERIC;
+        goto error;
     }
 
     gnutls_datum_t pub = {
@@ -735,6 +740,7 @@ static int OpenServer (vlc_tls_creds_t *crd, const char *cert, const char *key)
     return VLC_SUCCESS;
 
 error:
+    gnutls_certificate_free_credentials (sys->x509_cred);
     free (sys);
     gnutls_Deinit ();
     return VLC_EGENERIC;
