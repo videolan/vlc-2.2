@@ -87,52 +87,64 @@ vlc_module_begin ()
             change_string_list (priorities_values, priorities_text)
 vlc_module_end ()
 
+#if (GNUTLS_VERSION_NUMBER >= 0x030300)
+static int gnutls_Init (vlc_object_t *obj)
+{
+    const char *version = gnutls_check_version ("3.3.0");
+    if (version == NULL)
+    {
+        msg_Err (obj, "unsupported GnuTLS version");
+        return -1;
+    }
+    msg_Dbg (p_this, "using GnuTLS verson %s", version);
+    return 0;
+}
+
+# define gnutls_Deinit() (void)0
+#else
 static vlc_mutex_t gnutls_mutex = VLC_STATIC_MUTEX;
 
 /**
  * Initializes GnuTLS with proper locking.
  * @return VLC_SUCCESS on success, a VLC error code otherwise.
  */
-static int gnutls_Init (vlc_object_t *p_this)
+static int gnutls_Init (vlc_object_t *obj)
 {
-    int ret = VLC_EGENERIC;
-
-    vlc_mutex_lock (&gnutls_mutex);
-    if (gnutls_global_init ())
+    const char *version = gnutls_check_version ("3.0.20");
+    if (version == NULL)
     {
-        msg_Err (p_this, "cannot initialize GnuTLS");
-        goto error;
+        msg_Err (obj, "unsupported GnuTLS version");
+        return -1;
     }
+    msg_Dbg (obj, "using GnuTLS verson %s", version);
 
-    const char *psz_version = gnutls_check_version ("3.0.20");
-    if (psz_version == NULL)
+    if (gnutls_check_version ("3.3.0") == NULL)
     {
-        msg_Err (p_this, "unsupported GnuTLS version");
-        gnutls_global_deinit ();
-        goto error;
+         int val;
+
+         vlc_mutex_lock (&gnutls_mutex);
+         val = gnutls_global_init ();
+         vlc_mutex_unlock (&gnutls_mutex);
+
+         if (val)
+         {
+             msg_Err (obj, "cannot initialize GnuTLS");
+             return -1;
+         }
     }
-
-    msg_Dbg (p_this, "GnuTLS v%s initialized", psz_version);
-    ret = VLC_SUCCESS;
-
-error:
-    vlc_mutex_unlock (&gnutls_mutex);
-    return ret;
+    return 0;
 }
-
 
 /**
  * Deinitializes GnuTLS.
  */
-static void gnutls_Deinit (vlc_object_t *p_this)
+static void gnutls_Deinit (void)
 {
     vlc_mutex_lock (&gnutls_mutex);
-
     gnutls_global_deinit ();
-    msg_Dbg (p_this, "GnuTLS deinitialized");
     vlc_mutex_unlock (&gnutls_mutex);
 }
-
+#endif
 
 static int gnutls_Error (vlc_object_t *obj, int val)
 {
@@ -724,7 +736,7 @@ static int OpenServer (vlc_tls_creds_t *crd, const char *cert, const char *key)
 
 error:
     free (sys);
-    gnutls_Deinit (VLC_OBJECT(crd));
+    gnutls_Deinit ();
     return VLC_EGENERIC;
 }
 
@@ -739,8 +751,7 @@ static void CloseServer (vlc_tls_creds_t *crd)
     gnutls_certificate_free_credentials (sys->x509_cred);
     gnutls_dh_params_deinit (sys->dh_params);
     free (sys);
-
-    gnutls_Deinit (VLC_OBJECT(crd));
+    gnutls_Deinit ();
 }
 
 /**
@@ -783,7 +794,7 @@ static int OpenClient (vlc_tls_creds_t *crd)
     return VLC_SUCCESS;
 error:
     free (sys);
-    gnutls_Deinit (VLC_OBJECT(crd));
+    gnutls_Deinit ();
     return VLC_EGENERIC;
 }
 
@@ -793,6 +804,5 @@ static void CloseClient (vlc_tls_creds_t *crd)
 
     gnutls_certificate_free_credentials (sys->x509_cred);
     free (sys);
-
-    gnutls_Deinit (VLC_OBJECT(crd));
+    gnutls_Deinit ();
 }
