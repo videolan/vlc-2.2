@@ -1181,7 +1181,7 @@ static VLCMainMenu *_o_sharedInstance = nil;
 
 - (IBAction)viewPreferences:(id)sender
 {
-    NSInteger i_level = [[[VLCMain sharedInstance] voutController] currentWindowLevel];
+    NSInteger i_level = [[[VLCMain sharedInstance] voutController] currentStatusWindowLevel];
     [[[VLCMain sharedInstance] simplePreferences] showSimplePrefsWithLevel:i_level];
 }
 
