@@ -806,6 +806,8 @@ static void ThreadChangeFilters(vout_thread_t *vout,
         }
     }
 
+    es_format_Clean(&fmt_target);
+
     if (vout->p->filter.configuration != filters) {
         free(vout->p->filter.configuration);
         vout->p->filter.configuration = filters ? strdup(filters) : NULL;
