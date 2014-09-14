@@ -2017,7 +2017,8 @@ static int aout_update_format( decoder_t *p_dec )
 
         p_owner->p_aout = p_aout;
         DecoderUpdateFormatLocked( p_dec );
-        if( unlikely(p_owner->b_paused) ) /* fake pause if needed */
+        if( unlikely(p_owner->b_paused) && p_aout != NULL )
+            /* fake pause if needed */
             aout_DecChangePause( p_aout, true, mdate() );
 
         vlc_mutex_unlock( &p_owner->lock );
