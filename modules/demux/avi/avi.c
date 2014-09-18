@@ -1027,7 +1027,7 @@ static int Demux_Seekable( demux_t *p_demux )
         {
             toread[i_track].i_toread = AVI_PTSToByte( tk, llabs( i_dpts ) );
         }
-        else
+        else if ( i_dpts > -2 * CLOCK_FREQ ) /* don't send a too early dts (low fps video) */
         {
             toread[i_track].i_toread = AVI_PTSToChunk( tk, llabs( i_dpts ) );
         }
@@ -1036,6 +1036,8 @@ static int Demux_Seekable( demux_t *p_demux )
         {
             toread[i_track].i_toread *= -1;
         }
+        else
+            toread[i_track].i_toread = -1;
     }
 
     for( ;; )
@@ -1057,7 +1059,7 @@ static int Demux_Seekable( demux_t *p_demux )
                 continue;
             }
 
-            if( toread[i].i_toread > 0 )
+            if( toread[i].i_toread >= 0 )
             {
                 b_done = false; /* not yet finished */
             }
