@@ -1282,6 +1282,7 @@ typedef struct MP4_Box_s
 
     uint32_t     i_type;
     uint32_t     i_shortsize;
+    uint32_t     i_handler;  /* stsd handler */
 
     UUID_t       i_uuid;  /* Set if i_type == "uuid" */
 

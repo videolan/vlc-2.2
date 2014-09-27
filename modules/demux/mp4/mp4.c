@@ -2211,7 +2211,7 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
     switch( p_track->fmt.i_cat )
     {
     case VIDEO_ES:
-        if ( !p_sample->data.p_sample_vide )
+        if ( !p_sample->data.p_sample_vide || p_sample->i_handler != ATOM_vide )
             break;
         p_track->fmt.video.i_width = p_sample->data.p_sample_vide->i_width;
         p_track->fmt.video.i_height = p_sample->data.p_sample_vide->i_height;
@@ -2268,7 +2268,7 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
         break;
 
     case AUDIO_ES:
-        if ( !p_sample->data.p_sample_soun )
+        if ( !p_sample->data.p_sample_soun || p_sample->i_handler != ATOM_soun )
             break;
         p_track->fmt.audio.i_channels =
             p_sample->data.p_sample_soun->i_channelcount;
@@ -2409,6 +2409,8 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
         case( VLC_FOURCC( 'r', 'a', 'w', ' ' ) ):
         case( VLC_FOURCC( 'N', 'O', 'N', 'E' ) ):
         {
+            if ( p_sample->i_handler != ATOM_soun )
+                break;
             MP4_Box_data_sample_soun_t *p_soun = p_sample->data.p_sample_soun;
 
             if(p_soun && (p_soun->i_samplesize+7)/8 == 1 )
@@ -2439,6 +2441,8 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
         case( VLC_FOURCC( 't', 'e', 'x', 't' ) ):
         case( VLC_FOURCC( 't', 'x', '3', 'g' ) ):
         {
+            if ( p_sample->i_handler != ATOM_text )
+                break;
             p_track->fmt.i_codec = VLC_CODEC_TX3G;
             MP4_Box_data_sample_text_t *p_text = p_sample->data.p_sample_text;
             if ( p_text )
@@ -2495,6 +2499,8 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
             break;
         case VLC_CODEC_DVD_LPCM:
         {
+            if ( p_sample->i_handler != ATOM_soun )
+                break;
             MP4_Box_data_sample_soun_t *p_soun = p_sample->data.p_sample_soun;
             if( p_soun->i_qt_version == 2 )
             {
@@ -2708,6 +2714,9 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
             case VLC_FOURCC( 'V', 'P', '3', '1' ):
             case VLC_FOURCC( '3', 'I', 'V', '1' ):
             case VLC_FOURCC( 'Z', 'y', 'G', 'o' ):
+            {
+                if ( p_sample->i_handler != ATOM_vide )
+                    break;
                 p_track->fmt.i_extra =
                     p_sample->data.p_sample_vide->i_qt_image_description;
                 if( p_track->fmt.i_extra > 0 )
@@ -2718,6 +2727,7 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
                             p_track->fmt.i_extra);
                 }
                 break;
+            }
 
             case VLC_CODEC_AMR_NB:
                 p_track->fmt.audio.i_rate = 8000;
@@ -2728,6 +2738,9 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
             case VLC_FOURCC( 'Q', 'D', 'M', 'C' ):
             case VLC_CODEC_QDM2:
             case VLC_CODEC_ALAC:
+            {
+                if ( p_sample->i_handler != ATOM_soun )
+                    break;
                 p_track->fmt.i_extra =
                     p_sample->data.p_sample_soun->i_qt_description;
                 if( p_track->fmt.i_extra > 0 )
@@ -2743,7 +2756,7 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
                     p_track->fmt.audio.i_rate = GetDWBE((uint8_t*)p_track->fmt.p_extra + 52);
                 }
                 break;
-
+            }
             case VLC_FOURCC( 'v', 'c', '-', '1' ):
             {
                 MP4_Box_t *p_dvc1 = MP4_BoxGet( p_sample, "dvc1" );
@@ -2812,8 +2825,11 @@ static int TrackCreateES( demux_t *p_demux, mp4_track_t *p_track,
             case VLC_CODEC_ADPCM_MS:
             case VLC_CODEC_ADPCM_IMA_WAV:
             case VLC_CODEC_QCELP:
-                p_track->fmt.audio.i_blockalign = p_sample->data.p_sample_soun->i_bytes_per_frame;
+            {
+                if ( p_sample->i_handler == ATOM_soun )
+                    p_track->fmt.audio.i_blockalign = p_sample->data.p_sample_soun->i_bytes_per_frame;
                 break;
+            }
 
             default:
                 msg_Dbg( p_demux, "Unrecognized FourCC %4.4s", (char *)&p_sample->i_type );
