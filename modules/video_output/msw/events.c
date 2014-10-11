@@ -681,18 +681,19 @@ static int Win32VoutCreateWindow( event_thread_t *p_event )
 
     #ifdef MODULE_NAME_IS_direct3d
     if( !p_event->use_desktop )
-    {
     #endif
+    {
         /* If an external window was specified, we'll draw in it. */
         p_event->parent_window = vout_display_NewWindow(vd, &p_event->wnd_cfg );
         if( p_event->parent_window )
             p_event->hparent = p_event->parent_window->handle.hwnd;
         else
             p_event->hparent = NULL;
-    #ifdef MODULE_NAME_IS_direct3d
     }
+    #ifdef MODULE_NAME_IS_direct3d
     else
     {
+        vout_display_DeleteWindow(vd, NULL);
         p_event->parent_window = NULL;
         p_event->hparent = GetDesktopHandle(vd);
     }
