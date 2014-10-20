@@ -26,6 +26,9 @@ SPEEXDSP_CONF := --enable-resample-full-sinc-table --disable-examples
 ifndef HAVE_NEON
 SPEEXDSP_CONF += --disable-neon
 endif
+ifndef HAVE_NEON
+SPEEXDSP_CONF += --disable-neon
+endif
 ifndef HAVE_FPU
 SPEEXDSP_CONF += --enable-fixed-point
 ifeq ($(ARCH),arm)
