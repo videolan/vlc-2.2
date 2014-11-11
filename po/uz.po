@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# uzadmin <uzbadmin@gmail.com>, 2014
+# Akmal <uzbadmin@gmail.com>, 2014
+# Shuhrat Dehkanov <k+transifex@efir.uz>, 2014
 # Umidjon Almasov <u.almasov@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-03 14:06+0100\n"
-"PO-Revision-Date: 2014-02-26 04:53+0000\n"
-"Last-Translator: uzadmin <uzbadmin@gmail.com>\n"
+"PO-Revision-Date: 2014-11-11 08:24+0000\n"
+"Last-Translator: Shuhrat Dehkanov <k+transifex@efir.uz>\n"
 "Language-Team: Uzbek (http://www.transifex.com/projects/p/vlc-trans/language/"
 "uz/)\n"
 "Language: uz\n"
@@ -75,7 +76,7 @@ msgstr "VLC boshqaruv interfeysining moslamalari"
 #: include/vlc_config_cat.h:49 include/vlc_config_cat.h:50
 #: modules/gui/macosx/simple_prefs.m:279
 msgid "Hotkeys settings"
-msgstr "\"Issiq tugmalar\" moslamalari"
+msgstr "\"Tayyor tugmalar\" moslamalari"
 
 #: include/vlc_config_cat.h:53 src/input/es_out.c:2878 src/input/es_out.c:2919
 #: src/libvlc-module.c:1443 modules/access/imem.c:64
@@ -93,7 +94,7 @@ msgstr "Ovoz"
 
 #: include/vlc_config_cat.h:54
 msgid "Audio settings"
-msgstr "Ovoz moslamalari"
+msgstr "Ovoz sozlamalari"
 
 #: include/vlc_config_cat.h:56
 msgid "General audio settings"
@@ -102,7 +103,7 @@ msgstr "Umumiy ovoz moslamalari"
 #: include/vlc_config_cat.h:58 include/vlc_config_cat.h:79
 #: modules/gui/qt4/ui/profiles.h:733 modules/gui/qt4/ui/profiles.h:743
 msgid "Filters"
-msgstr "Filtrlar"
+msgstr "Filterlar"
 
 #: include/vlc_config_cat.h:59
 msgid "Audio filters are used to process the audio stream."
@@ -177,6 +178,8 @@ msgstr "Subtitrlar / OSD"
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr ""
+"Sozlamalar ekranda ko‘rsatishga, subtitrlar va \"rasm qismlari bilan qoplash"
+"\" tegishli."
 
 #: include/vlc_config_cat.h:91
 msgid "Input / Codecs"
@@ -195,8 +198,8 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"Murojaat modullarining moslamalari. HTTP proksi yoki kesh moslamalarini "
-"o'zgartirishingiz mumkin."
+"Sozlamalar har xil foydalanish uslublariga tegishli. HTTP proksi yoki kesh "
+"sozlamalaridan so‘ng siz xohlashingiz mumkin bo‘lgan umumiy sozlamalar."
 
 #: include/vlc_config_cat.h:101
 msgid "Stream filters"
@@ -207,7 +210,7 @@ msgid ""
 "Stream filters are special modules that allow advanced operations on the "
 "input side of VLC. Use with care..."
 msgstr ""
-"Oqim filtrlari bu VLC uchun qo'shimcha kiritish amallarini bajarish imkonini "
+"Oqim filtrlari bu VLC uchun qo‘shimcha kiritish amallarini bajarish imkonini "
 "beruvchi maxsus modullar. Ehtiyotkorlik bilan foydalaning..."
 
 #: include/vlc_config_cat.h:106
@@ -238,7 +241,7 @@ msgstr "Ovoz dekoderlarining va koderlarining moslamalari."
 
 #: include/vlc_config_cat.h:115
 msgid "Subtitle codecs"
-msgstr "Tagsarlavha kodeklari"
+msgstr "Subtitr kodeklari"
 
 #: include/vlc_config_cat.h:116
 msgid "Settings for subtitle, teletext and CC decoders and encoders."
@@ -381,7 +384,7 @@ msgstr ""
 
 #: include/vlc_intf_strings.h:46
 msgid "&Open File..."
-msgstr ""
+msgstr "Fayl &ochish"
 
 #: include/vlc_intf_strings.h:47
 msgid "&Advanced Open..."
@@ -462,14 +465,12 @@ msgid "Create Folder..."
 msgstr "Jild yaratish..."
 
 #: include/vlc_intf_strings.h:70
-#, fuzzy
 msgid "Rename Directory..."
-msgstr "Direktoriya yaratish..."
+msgstr "Jild nomini o'zgartirish..."
 
 #: include/vlc_intf_strings.h:71
-#, fuzzy
 msgid "Rename Folder..."
-msgstr "Jild yaratish..."
+msgstr "Jild nomini o'zgartirish..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
@@ -1071,9 +1072,8 @@ msgid "Command+"
 msgstr "Buyruq+"
 
 #: src/darwin/error.c:37
-#, fuzzy
 msgid "Unknown error"
-msgstr "Noma'lum turkum"
+msgstr ""
 
 #: src/input/control.c:226
 #, c-format
@@ -1109,24 +1109,21 @@ msgid "No description for this codec"
 msgstr ""
 
 #: src/input/decoder.c:693
-#, fuzzy
 msgid "Codec not supported"
-msgstr "Mijoz porti"
+msgstr ""
 
 #: src/input/decoder.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr "%s modulini ochib bo'lmadi."
+msgstr ""
 
 #: src/input/decoder.c:698
-#, fuzzy
 msgid "Unidentified codec"
-msgstr "Video kodek"
+msgstr ""
 
 #: src/input/decoder.c:699
-#, fuzzy
 msgid "VLC could not identify the audio or video codec"
-msgstr "Dekoder modulini ochib bo'lmadi."
+msgstr ""
 
 #: src/input/es_out.c:924 src/input/es_out.c:929 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -1372,9 +1369,8 @@ msgid "Episode"
 msgstr ""
 
 #: src/input/meta.c:76
-#, fuzzy
 msgid "Show Name"
-msgstr "Oqim nomi"
+msgstr ""
 
 #: src/input/meta.c:77
 msgid "Actors"
@@ -2519,9 +2515,8 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:596
-#, fuzzy
 msgid "Menu language"
-msgstr "Menyu tili:"
+msgstr ""
 
 #: src/libvlc-module.c:598
 msgid ""
@@ -3604,37 +3599,38 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Faster"
-msgstr ""
+msgstr "Tezroq"
 
 #: src/libvlc-module.c:1200 src/libvlc-module.c:1206
 msgid "Select the hotkey to use for fast forward playback."
 msgstr ""
+"Tezroq oldinga o‘tkazishdan foydalanish uchun tayyor tugmadan foydalaning."
 
 #: src/libvlc-module.c:1201 modules/gui/macosx/MainMenu.m:399
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Slower"
-msgstr ""
+msgstr "Sekinroq"
 
 #: src/libvlc-module.c:1202 src/libvlc-module.c:1208
 msgid "Select the hotkey to use for slow motion playback."
-msgstr ""
+msgstr "Sekin o‘tkazishdan foydalanish uchun tayyor tugmani tanlang."
 
 #: src/libvlc-module.c:1203
 msgid "Normal rate"
-msgstr ""
+msgstr "O‘rtacha tezlik"
 
 #: src/libvlc-module.c:1204
 msgid "Select the hotkey to set the playback rate back to normal."
-msgstr ""
+msgstr "Me’yoriy tezlikka qaytish uchun tayyor tugmani tanlang"
 
 #: src/libvlc-module.c:1205 modules/gui/qt4/menus.cpp:875
 msgid "Faster (fine)"
-msgstr ""
+msgstr "Tezroq (yaxshi)"
 
 #: src/libvlc-module.c:1207 modules/gui/qt4/menus.cpp:883
 msgid "Slower (fine)"
-msgstr ""
+msgstr "Sekinroq (yaxshi)"
 
 #: src/libvlc-module.c:1209 modules/control/hotkeys.c:208
 #: modules/gui/macosx/about.m:268 modules/gui/macosx/ControlsBar.m:771
@@ -3646,11 +3642,11 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:339
 #: modules/gui/qt4/ui/streampanel.h:181
 msgid "Next"
-msgstr ""
+msgstr "Keyingi"
 
 #: src/libvlc-module.c:1210
 msgid "Select the hotkey to use to skip to the next item in the playlist."
-msgstr ""
+msgstr "Ijro ro‘yxatidagi keyingi bandga o‘tish uchun tayyor tugmani tanlang."
 
 #: src/libvlc-module.c:1211 modules/control/hotkeys.c:212
 #: modules/gui/macosx/about.m:269 modules/gui/macosx/ControlsBar.m:760
@@ -3659,11 +3655,11 @@ msgstr ""
 #: modules/gui/macosx/MainMenu.m:509 modules/gui/macosx/MainMenu.m:1558
 #: modules/gui/qt4/components/controller.hpp:120 modules/notify/notify.c:337
 msgid "Previous"
-msgstr ""
+msgstr "Oldingi"
 
 #: src/libvlc-module.c:1212
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
-msgstr ""
+msgstr "Ijro ro‘yxatidagi oldingi bandga o‘tish uchun tayyor tugmani tanlang."
 
 #: src/libvlc-module.c:1213 modules/gui/macosx/ControlsBar.m:481
 #: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:501
@@ -3671,11 +3667,11 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/gui/qt4/ui/streampanel.h:180
 msgid "Stop"
-msgstr ""
+msgstr "To‘xtatish"
 
 #: src/libvlc-module.c:1214
 msgid "Select the hotkey to stop playback."
-msgstr ""
+msgstr "Ijroni to‘xtatish uchun tayyor tugmani tanlang"
 
 #: src/libvlc-module.c:1215 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/bookmarks.m:114 modules/gui/macosx/ControlsBar.m:67
@@ -3684,23 +3680,23 @@ msgstr ""
 #: modules/video_filter/rss.c:200 modules/gui/qt4/ui/sprefs_subtitles.h:293
 #: modules/gui/qt4/ui/video_effects.h:1456
 msgid "Position"
-msgstr ""
+msgstr "Joylashuvi"
 
 #: src/libvlc-module.c:1216
 msgid "Select the hotkey to display the position."
-msgstr ""
+msgstr "Joylashuvini ko‘rsatish uchun belgilangan tugmani tanlang."
 
 #: src/libvlc-module.c:1218
 msgid "Very short backwards jump"
-msgstr ""
+msgstr "Jus oz orqaroqqa qaytish"
 
 #: src/libvlc-module.c:1220
 msgid "Select the hotkey to make a very short backwards jump."
-msgstr ""
+msgstr "Ozgina orqaroqqa o‘tish uchun belgilangan tugmani tanlang."
 
 #: src/libvlc-module.c:1221
 msgid "Short backwards jump"
-msgstr ""
+msgstr "Ozgina orqaroqqa qaytish"
 
 #: src/libvlc-module.c:1223
 msgid "Select the hotkey to make a short backwards jump."
@@ -4468,9 +4464,8 @@ msgid "print version information"
 msgstr ""
 
 #: src/libvlc-module.c:2696
-#, fuzzy
 msgid "core program"
-msgstr "Dastur"
+msgstr ""
 
 #: src/misc/update.c:473
 #, c-format
@@ -5377,9 +5372,8 @@ msgid "libavformat AVIO access"
 msgstr ""
 
 #: modules/access/avio.h:44
-#, fuzzy
 msgid "libavformat AVIO access output"
-msgstr "Murojaatni chiqarish"
+msgstr ""
 
 #: modules/access/bd/bd.c:54
 msgid "BD"
@@ -5398,9 +5392,8 @@ msgid "Use Blu-ray menus. If disabled, the movie will start directly"
 msgstr ""
 
 #: modules/access/bluray.c:70
-#, fuzzy
 msgid "Region code"
-msgstr "Video kodek"
+msgstr ""
 
 #: modules/access/bluray.c:71
 msgid ""
@@ -5470,9 +5463,8 @@ msgid "Blu-ray error"
 msgstr ""
 
 #: modules/access/bluray.c:1196
-#, fuzzy
 msgid "Top Menu"
-msgstr "Menyu"
+msgstr ""
 
 #: modules/access/bluray.c:1198
 msgid "First Play"
@@ -5525,9 +5517,8 @@ msgid "DCP"
 msgstr ""
 
 #: modules/access/dcp/dcp.cpp:78
-#, fuzzy
 msgid "Digital Cinema Package module"
-msgstr "Qo'shimcha interfeys modullari"
+msgstr ""
 
 #: modules/access/decklink.cpp:46
 msgid "Input card to use"
@@ -6407,14 +6398,14 @@ msgid "File reading failed"
 msgstr ""
 
 #: modules/access/file.c:178 modules/access/vdr.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\" (%s)."
-msgstr "%s modulini ochib bo'lmadi."
+msgstr ""
 
 #: modules/access/file.c:305 modules/access/vdr.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file (%s)."
-msgstr "%s modulini ochib bo'lmadi."
+msgstr ""
 
 #: modules/access/fs.c:33
 msgid "Subdirectory behavior"
@@ -7027,14 +7018,14 @@ msgid "MTP"
 msgstr "MTP"
 
 #: modules/access/mtp.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not read the file: %s"
-msgstr "%s modulini ochib bo'lmadi."
+msgstr ""
 
 #: modules/access/mtp.c:287
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the file \"%s\": %s"
-msgstr "%s modulini ochib bo'lmadi."
+msgstr ""
 
 #: modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
@@ -7145,9 +7136,8 @@ msgid "MIME returned by the server (autodetected if not specified)."
 msgstr ""
 
 #: modules/access_output/http.c:61
-#, fuzzy
 msgid "Metacube"
-msgstr "Meta+"
+msgstr ""
 
 #: modules/access_output/http.c:62
 msgid ""
@@ -8796,9 +8786,8 @@ msgid "Rear center"
 msgstr ""
 
 #: modules/audio_filter/channel_mixer/mono.c:98
-#, fuzzy
 msgid "Stereo to mono downmixer"
-msgstr "Stereo audio usuli"
+msgstr ""
 
 #: modules/audio_filter/channel_mixer/remap.c:74
 msgid "Audio channel remapper"
@@ -10177,28 +10166,25 @@ msgid "unknown"
 msgstr ""
 
 #: modules/codec/avcodec/encoder.c:857
-#, fuzzy
 msgid "video"
-msgstr "S-video"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:858
-#, fuzzy
 msgid "audio"
-msgstr "Ovoz"
+msgstr ""
 
 #: modules/codec/avcodec/encoder.c:858
 msgid "subpicture"
 msgstr ""
 
 #: modules/codec/avcodec/encoder.c:871
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the %4.4s %s encoder."
-msgstr "%s modulini ochib bo'lmadi."
+msgstr ""
 
 #: modules/codec/avcodec/hwdummy.c:42
-#, fuzzy
 msgid "Dummy video decoder"
-msgstr "Video kodek"
+msgstr ""
 
 #: modules/codec/avcodec/vaapi.c:62
 msgid "VA-API video decoder via X11"
@@ -10812,9 +10798,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/mmal.c:57
-#, fuzzy
 msgid "MMAL decoder"
-msgstr "dekoder"
+msgstr ""
 
 #: modules/codec/mmal.c:58
 msgid "MMAL-based decoder plugin for Raspberry Pi"
@@ -10861,18 +10846,16 @@ msgid "Opus"
 msgstr ""
 
 #: modules/codec/opus.c:73
-#, fuzzy
 msgid "Opus audio encoder"
-msgstr "Audio kodek"
+msgstr ""
 
 #: modules/codec/png.c:91
 msgid "PNG video decoder"
 msgstr ""
 
 #: modules/codec/png.c:100
-#, fuzzy
 msgid "PNG video encoder"
-msgstr "Video kodek"
+msgstr ""
 
 #: modules/codec/qsv.c:56
 msgid "Enable software mode"
@@ -11820,14 +11803,12 @@ msgid "USF subtitles decoder"
 msgstr ""
 
 #: modules/codec/substx3g.c:40
-#, fuzzy
 msgid "tx3g subtitles decoder"
-msgstr "Tagsarlavha kodeklari"
+msgstr ""
 
 #: modules/codec/substx3g.c:41
-#, fuzzy
 msgid "tx3g subtitles"
-msgstr "Subtitrlar"
+msgstr ""
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
@@ -11978,9 +11959,8 @@ msgid "Vorbis audio encoder"
 msgstr ""
 
 #: modules/codec/vpx.c:49
-#, fuzzy
 msgid "WebM video decoder"
-msgstr "Video kodek"
+msgstr ""
 
 #: modules/codec/wmafixed/wma.c:82
 msgid "WMA v1/v2 fixed point audio decoder"
@@ -13454,11 +13434,8 @@ msgid "+----[ end of help ]"
 msgstr ""
 
 #: modules/control/rc.c:965
-#, fuzzy
 msgid "Press pause to continue."
 msgstr ""
-"\n"
-"Davom ettirish uchun RETURN tugmasini bosing...\n"
 
 #: modules/control/rc.c:1191 modules/control/rc.c:1446
 #: modules/control/rc.c:1490
@@ -13599,9 +13576,8 @@ msgid "Avformat"
 msgstr ""
 
 #: modules/demux/avformat/avformat.c:45
-#, fuzzy
 msgid "Demuxer"
-msgstr "Demultipleksorlar"
+msgstr ""
 
 #: modules/demux/avformat/avformat.c:56
 msgid "Avformat muxer"
@@ -13692,9 +13668,8 @@ msgid "Fixing AVI Index..."
 msgstr ""
 
 #: modules/demux/caf.c:53
-#, fuzzy
 msgid "CAF demuxer"
-msgstr "Demultipleksorlar"
+msgstr ""
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
@@ -15248,15 +15223,13 @@ msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:98 modules/gui/macosx/AddonManager.m:347
 #: modules/gui/qt4/dialogs/plugins.cpp:378
-#, fuzzy
 msgid "Playlist parsers"
-msgstr "Pleylist"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:100 modules/gui/macosx/AddonManager.m:349
 #: modules/gui/qt4/dialogs/plugins.cpp:382
-#, fuzzy
 msgid "Service Discovery"
-msgstr "Xizmatlarni topish"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:102 modules/gui/macosx/AddonManager.m:351
 #: modules/gui/macosx/MainMenu.m:350 modules/gui/macosx/MainMenu.m:351
@@ -15530,21 +15503,23 @@ msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:78
 msgid "Show Details"
-msgstr ""
+msgstr "Tafsilotlarni ko‘rsatish"
 
 #: modules/gui/macosx/BWQuincyUI.m:79
 msgid "Hide Details"
-msgstr ""
+msgstr "Tafsilotlarni yashirish"
 
 #: modules/gui/macosx/BWQuincyUI.m:81
 msgid "Send"
-msgstr ""
+msgstr "Jo‘natish"
 
 #: modules/gui/macosx/BWQuincyUI.m:82
 msgid ""
 "%@ unexpectedly quit the last time it was run. Would you like to send a "
 "crash report to %@?"
 msgstr ""
+"%@ so‘nggi marta ishga tushirilganda kutilmaganda chiqib ketdi. Nosozlik "
+"ma’lumotlarini %@ga jo‘natishni xohlaysizmi?"
 
 #: modules/gui/macosx/BWQuincyUI.m:83
 #: modules/gui/qt4/components/info_panels.cpp:171
@@ -15553,25 +15528,25 @@ msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:84
 msgid "Problem details and system configuration"
-msgstr ""
+msgstr "Muammo tafsilotlari va tizim moslamasi"
 
 #: modules/gui/macosx/BWQuincyUI.m:175
 msgid "Problem Report for %@"
-msgstr ""
+msgstr "%@ uchun muammo hisoboti"
 
 #: modules/gui/macosx/BWQuincyUI.m:177
 msgid "Please describe any steps needed to trigger the problem"
 msgstr ""
+"Muammoni ishga tushirish  uchun kerakli har qanday bosqichga ta’rif bering"
 
 #: modules/gui/macosx/BWQuincyUI.m:178
 msgid "No personal information will be sent with this report."
-msgstr ""
+msgstr "Ushbu hisobot bilan shaxsiy ma’lumot jo‘natilmaydi."
 
 #: modules/gui/macosx/controls.m:53 modules/gui/macosx/controls.m:57
 #: modules/gui/macosx/MainMenu.m:1585
-#, fuzzy
 msgid "Jump to Time"
-msgstr "Ko'rsatilgan &vaqtga o'tish"
+msgstr ""
 
 #: modules/gui/macosx/controls.m:56
 msgid "sec."
@@ -16147,9 +16122,8 @@ msgid "Shows a sidebar in the main window listing media sources."
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:121 modules/gui/macosx/simple_prefs.m:374
-#, fuzzy
 msgid "Control external music players"
-msgstr "Boshqaruv interfeysi"
+msgstr ""
 
 #: modules/gui/macosx/macosx.m:122
 msgid "VLC will pause and resume supported music players on playback."
@@ -16235,9 +16209,8 @@ msgid "URI"
 msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:82
-#, fuzzy
 msgid "File Size"
-msgstr "Matn hajmi"
+msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
@@ -16570,9 +16543,8 @@ msgid "Enable Metadata Retrieval"
 msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:243
-#, fuzzy
 msgid "No, Thanks"
-msgstr "Tashakkurlar"
+msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid ""
@@ -16603,9 +16575,8 @@ msgid "INTERNET"
 msgstr ""
 
 #: modules/gui/macosx/misc.m:980
-#, fuzzy
 msgid "B"
-msgstr "BD"
+msgstr ""
 
 #: modules/gui/macosx/misc.m:987
 msgid "KB"
@@ -17006,9 +16977,8 @@ msgid "Restart playback"
 msgstr ""
 
 #: modules/gui/macosx/playlist.m:1535
-#, fuzzy
 msgid "Always continue"
-msgstr "Doim yuqorida"
+msgstr ""
 
 #: modules/gui/macosx/playlist.m:1535
 msgid "Playback of \"%@\" will continue at %@"
@@ -19180,14 +19150,12 @@ msgid "Enter name for new folder:"
 msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Directory"
-msgstr "Direktoriyani tanlang"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
-#, fuzzy
 msgid "Rename Folder"
-msgstr "Jildni tanlang"
+msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
 msgid "Enter a new name for the directory:"
@@ -19567,9 +19535,8 @@ msgid "&Start"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/convert.cpp:135
-#, fuzzy
 msgid "Containers"
-msgstr "Boshqaruv interfeysi"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -19866,9 +19833,8 @@ msgid "This addon has been installed manually. VLC can't manage it by itself."
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1168
-#, fuzzy
 msgid "Version %1"
-msgstr "VLC versiyasi %s (%s)\n"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1194
 msgid "%1 downloads"
@@ -19879,9 +19845,8 @@ msgid "&Uninstall"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1266
-#, fuzzy
 msgid "&Install"
-msgstr "Instrumental"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1361
 #: modules/gui/qt4/dialogs/plugins.cpp:1464
@@ -20034,9 +19999,8 @@ msgid "Flat Button"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
-#, fuzzy
 msgid "Next widget style"
-msgstr "Keyingi"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:77
 msgid "Big Button"
@@ -20071,9 +20035,8 @@ msgid "Time Toolbar"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:128
-#, fuzzy
 msgid "Advanced Widget"
-msgstr "Qo'shimcha"
+msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:137
 msgid "Fullscreen Controller"
@@ -20542,9 +20505,8 @@ msgid "&Clear"
 msgstr ""
 
 #: modules/gui/qt4/menus.cpp:1640
-#, fuzzy
 msgid "&Save To Playlist"
-msgstr "Pleylistga qo'shish"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -20851,9 +20813,8 @@ msgid "VDPAU adjust video filter"
 msgstr ""
 
 #: modules/hw/vdpau/avcodec.c:46
-#, fuzzy
 msgid "VDPAU video decoder"
-msgstr "Video kodek"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:840
 msgid "Temporal-spatial"
@@ -20872,9 +20833,8 @@ msgid "Deinterlacing algorithm"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:856
-#, fuzzy
 msgid "Inverse telecine"
-msgstr "Revers stereo"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:858
 msgid "Deinterlace chroma skip"
@@ -20889,9 +20849,8 @@ msgid "Noise reduction level"
 msgstr ""
 
 #: modules/hw/vdpau/chroma.c:863
-#, fuzzy
 msgid "Scaling quality"
-msgstr "Rasm sifati"
+msgstr ""
 
 #: modules/hw/vdpau/chroma.c:863
 msgid "High quality scaling level"
@@ -20902,9 +20861,8 @@ msgid "VDPAU deinterlacing filter"
 msgstr ""
 
 #: modules/hw/vdpau/display.c:46
-#, fuzzy
 msgid "VDPAU output"
-msgstr "Murojaatni chiqarish"
+msgstr ""
 
 #: modules/hw/vdpau/sharpen.c:141
 msgid "VDPAU sharpen video filter"
@@ -21310,9 +21268,8 @@ msgid "TLS support for OS X and iOS"
 msgstr ""
 
 #: modules/misc/securetransport.c:66
-#, fuzzy
 msgid "TLS server support for OS X"
-msgstr "RTSP server porti"
+msgstr ""
 
 #: modules/misc/securetransport.c:335
 msgid "Accept certificate temporarily"
@@ -21402,9 +21359,8 @@ msgid "Subject"
 msgstr ""
 
 #: modules/mux/avi.c:55
-#, fuzzy
 msgid "Encoder"
-msgstr "dekoder"
+msgstr ""
 
 #: modules/mux/avi.c:56
 msgid "Keywords"
@@ -24202,9 +24158,8 @@ msgid "Croppadd"
 msgstr ""
 
 #: modules/video_filter/croppadd.c:79
-#, fuzzy
 msgid "Video cropping filter"
-msgstr "Video X koordinati"
+msgstr ""
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -24224,15 +24179,15 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:56
 msgid "Low"
-msgstr ""
+msgstr "Past"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:57
 msgid "Medium"
-msgstr ""
+msgstr "O'rta"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:58
 msgid "High"
-msgstr ""
+msgstr "Yuqori"
 
 #: modules/video_filter/deinterlace/deinterlace.c:55
 msgid "Streaming deinterlace mode"
@@ -24327,7 +24282,7 @@ msgstr ""
 
 #: modules/video_filter/erase.c:69
 msgid "Erase"
-msgstr ""
+msgstr "O'chirish"
 
 #: modules/video_filter/extract.c:62
 msgid "RGB component to extract"
@@ -25930,9 +25885,8 @@ msgid "Path to an HLSL file containing a single pixel shader."
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:72
-#, fuzzy
 msgid "HLSL File"
-msgstr "Fayl"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:74
 msgid "Recommended video output for Windows Vista and later versions"
@@ -26585,9 +26539,8 @@ msgid "The height of the effects video window, in pixels."
 msgstr ""
 
 #: modules/visualization/visual/visual.c:61
-#, fuzzy
 msgid "FFT window"
-msgstr "X window"
+msgstr ""
 
 #: modules/visualization/visual/visual.c:63
 msgid "The type of FFT window to use for spectrum-based visualizations."
@@ -26924,14 +26877,12 @@ msgid "0.00 dB"
 msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:139
-#, fuzzy
 msgid "&Verbosity:"
-msgstr "Batafsil (0,1,2)"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:140
-#, fuzzy
 msgid "&Filter:"
-msgstr "Filtrlar"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:141
 msgid "&Save as..."
@@ -26942,14 +26893,12 @@ msgid "Modules Tree"
 msgstr ""
 
 #: modules/gui/qt4/ui/open.h:245
-#, fuzzy
 msgid "Show extended options"
-msgstr "Qo'shimcha parametrlarni ko'rsatish"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:247
-#, fuzzy
 msgid "Show &more options"
-msgstr "Qo'shimcha parametrlarni ko'rsatish"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:250
 msgid "Change the caching for the media"
@@ -26964,9 +26913,8 @@ msgid "MRL"
 msgstr "MRL"
 
 #: modules/gui/qt4/ui/open.h:254
-#, fuzzy
 msgid "Start Time"
-msgstr "Boshlash vaqti"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:255
 msgid "Edit Options"
@@ -26997,9 +26945,8 @@ msgid "Play another media synchronously (extra audio file, ...)"
 msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:97
-#, fuzzy
 msgid "Capture mode"
-msgstr "Tinch usul"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:99
 msgid "Select the capture device type"
@@ -27050,14 +26997,12 @@ msgid "Audio and Subtitles"
 msgstr "Ovoz va subtitrlar"
 
 #: modules/gui/qt4/ui/open_file.h:143
-#, fuzzy
 msgid "Use a sub&title file"
-msgstr "Subtitr faylidan foydalanish"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:145
-#, fuzzy
 msgid "Select the subtitle file"
-msgstr "Faylni tanlash"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:149
 msgid "Choose one or more media file to open"
@@ -27084,9 +27029,8 @@ msgid "Please enter a network URL:"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:686
-#, fuzzy
 msgid "Profile edition"
-msgstr "Fayl tanlash"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:687
 msgid "MPEG-TS"
@@ -27145,19 +27089,16 @@ msgid "Features"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:702
-#, fuzzy
 msgid "Streamable"
-msgstr "Oqim nomi"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:703
-#, fuzzy
 msgid "Chapters"
-msgstr "Bo'lim"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:706
-#, fuzzy
 msgid "Menus"
-msgstr "Menyu"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:713
 msgid "Frame Rate"
@@ -27172,14 +27113,12 @@ msgid " fps"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:717
-#, fuzzy
 msgid "Custom options"
-msgstr "Parametrlarni tahrirlash"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:718
-#, fuzzy
 msgid "Quality"
-msgstr "Rasm sifati"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:719 modules/gui/qt4/ui/profiles.h:720
 msgid "Not Used"
@@ -27190,18 +27129,16 @@ msgid " kb/s"
 msgstr " kb/s"
 
 #: modules/gui/qt4/ui/profiles.h:722 modules/gui/qt4/ui/profiles.h:742
-#, fuzzy
 msgid "Encoding parameters"
-msgstr "DVB-S2 parametrlari"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:725
 msgid "Frame size"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:728 modules/gui/qt4/ui/profiles.h:731
-#, fuzzy
 msgid "px"
-msgstr " px"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:741
 msgid "Sample Rate"
@@ -27212,15 +27149,12 @@ msgid "Set up media sources to stream"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:205
-#, fuzzy
 msgid "Destination Setup"
-msgstr "Ta'rifi"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:206
-#, fuzzy
 msgid "Select destinations to stream to"
 msgstr ""
-"Hamma parametrlarni ko'rish uchun \"Qo'shimcha parametrlar\"ni tanlang."
 
 #: modules/gui/qt4/ui/sout.h:207
 msgid ""
@@ -27229,80 +27163,68 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:208
-#, fuzzy
 msgid "New destination"
-msgstr "Ta'rifi"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:210
-#, fuzzy
 msgid "Display locally"
-msgstr "Ekran o'lchamlari"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:212
-#, fuzzy
 msgid "Transcoding Options"
-msgstr "Parametrlarni tahrirlash"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:213
-#, fuzzy
 msgid "Select and choose transcoding options"
 msgstr ""
-"Hamma parametrlarni ko'rish uchun \"Qo'shimcha parametrlar\"ni tanlang."
 
 #: modules/gui/qt4/ui/sout.h:214
 msgid "Activate Transcoding"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:215
-#, fuzzy
 msgid "Option Setup"
-msgstr "Parametrlar"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:216
 msgid "Set up any additional options for streaming"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:217
-#, fuzzy
 msgid "Miscellaneous Options"
-msgstr "Boshqa"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:218
 msgid "Stream all elementary streams"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:219
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "Umumiy oqimni chiqarish moslamalari"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:428
 msgid " %"
 msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
-#, fuzzy
 msgid "Output module:"
-msgstr "Chiqarish modullari"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:435
 msgid "Effects"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:436
-#, fuzzy
 msgid "Visualization:"
-msgstr "Vizualizatsiyalar"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:437
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "Ovozni yoqish"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:438
-#, fuzzy
 msgid "Dolby Surround:"
-msgstr "Dolby Surround"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:439
 msgid "Replay gain mode:"
@@ -27317,9 +27239,8 @@ msgid "Normalize volume to:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
-#, fuzzy
 msgid "Preferred audio language:"
-msgstr "Subtitrlar tili"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
 msgid "Password:"
@@ -27362,9 +27283,8 @@ msgid "Optical drive"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:353
-#, fuzzy
 msgid "Default optical device"
-msgstr "Andoza uskunalar"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:357
 msgid "Damaged or incomplete AVI file"
@@ -27387,9 +27307,8 @@ msgid "Live555 stream transport"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:364
-#, fuzzy
 msgid "Default caching policy"
-msgstr "Andoza kodlash usuli"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:505
 msgid "Menus language:"
@@ -27408,9 +27327,8 @@ msgid "This is VLC's default interface, with a native look and feel."
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:511
-#, fuzzy
 msgid "Use native style"
-msgstr "Keyingi"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Resize interface to video size"
@@ -27433,14 +27351,12 @@ msgid "Start in minimal view mode"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:517
-#, fuzzy
 msgid "Force window style:"
-msgstr "Keyingi"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
-#, fuzzy
 msgid "Integrate video in interface"
-msgstr "Bosh interfeysning moslamalari"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Show systray icon"
@@ -27451,9 +27367,8 @@ msgid "Skin resource file:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:522
-#, fuzzy
 msgid "Playlist and Instances"
-msgstr "Pleylist"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Allow only one instance"
@@ -27492,32 +27407,28 @@ msgid "Set up associations..."
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:291
-#, fuzzy
 msgid "Enable On Screen Display (OSD)"
-msgstr "Ekranda ko‘rsatish"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:292
 msgid "Show media title on video start"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:294
-#, fuzzy
 msgid "Enable subtitles"
-msgstr "Subtitrlar"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:295
-#, fuzzy
 msgid "Subtitle Language"
-msgstr "Subtitrlar tili"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:297
 msgid "Default encoding"
 msgstr "Andoza kodlash usuli"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:298
-#, fuzzy
 msgid "Subtitle effects"
-msgstr "Tagsarlavha kodeklari"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:304
 msgid "Add a shadow"
@@ -27548,9 +27459,8 @@ msgid "DirectX"
 msgstr "DirectX"
 
 #: modules/gui/qt4/ui/sprefs_video.h:330
-#, fuzzy
 msgid "Display device"
-msgstr "Disk uskunasi"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:331
 msgid "KVA"
@@ -27609,14 +27519,12 @@ msgid "Prev"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:183
-#, fuzzy
 msgid "Add Input"
-msgstr "Interfeysni qo'shish"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:184
-#, fuzzy
 msgid "Edit Input"
-msgstr "Parametrlarni tahrirlash"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:185
 msgid "Clear List"
@@ -27644,23 +27552,20 @@ msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1419
-#, fuzzy
 msgid "Negate colors"
-msgstr "Shrift rangi"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1432
 msgid "Colors"
 msgstr "Ranglar"
 
 #: modules/gui/qt4/ui/video_effects.h:1433
-#, fuzzy
 msgid "Interactive Zoom"
-msgstr "Interfeys"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1439
-#, fuzzy
 msgid "Angle"
-msgstr "Jungle"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1443
 msgid "Black Slot"
@@ -27692,9 +27597,8 @@ msgid "Output Color Filtermode"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1469
-#, fuzzy
 msgid "Brightness (%)"
-msgstr "Ravshanlik yuqoriga"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1471
 msgid "Mark analyzed Pixels"
@@ -27709,9 +27613,8 @@ msgid "Anaglyph 3D"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1477
-#, fuzzy
 msgid "Mirror"
-msgstr "Xato"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1481
 msgid "Motion detect"
@@ -27730,9 +27633,8 @@ msgid "Soften"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1488
-#, fuzzy
 msgid "Denoiser"
-msgstr "Noise"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1489
 msgid "Spatial luma strength"
@@ -27751,53 +27653,44 @@ msgid "Temporal chroma strength"
 msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:286
-#, fuzzy
 msgid "VLM configurator"
-msgstr "&VLM moslamasi"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:287
-#, fuzzy
 msgid "Media Manager Edition"
-msgstr "&Media ma'lumoti"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:288
 msgid "Name:"
 msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:290
-#, fuzzy
 msgid "Input:"
-msgstr "Kirish ro‘yxati"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:291
-#, fuzzy
 msgid "Select Input"
-msgstr "Umumiy kiritish"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:292
-#, fuzzy
 msgid "Output:"
-msgstr "Chiqarish modullari"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:293
-#, fuzzy
 msgid "Select Output"
-msgstr "Oqimni chiqarish"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:294
-#, fuzzy
 msgid "Time Control"
-msgstr "Boshqaruv"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:295
-#, fuzzy
 msgid "Mux Control"
-msgstr "Boshqaruv"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:296
-#, fuzzy
 msgid "Muxer:"
-msgstr "Multipleksorlar"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:297
 msgid "AAAA; "
@@ -27806,59 +27699,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Subtitle track added"
-#~ msgstr "Trek subtitri"
-
-#, fuzzy
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "Ovoz chiqarish moduli"
-
-#, fuzzy
-#~ msgid "No video devices found"
-#~ msgstr "Video uskunasining nomi"
-
-#, fuzzy
-#~ msgid "DVB"
-#~ msgstr "DV"
-
-#, fuzzy
-#~ msgid "No Audio Input device found"
-#~ msgstr "Ovoz uskunasining nomi"
-
-#, fuzzy
-#~ msgid "Windows Store audio output"
-#~ msgstr "Oqimni chiqarish"
-
-#, fuzzy
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "dekoder"
-
-#, fuzzy
-#~ msgid "SVG video decoder"
-#~ msgstr "Video kodek"
-
-#, fuzzy
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Ovoz moslamalari"
-
-#, fuzzy
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Ro'yxatni tozalash"
-
-#, fuzzy
-#~ msgid "Default: 90sec"
-#~ msgstr "Andoza oqim"
-
-#, fuzzy
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Oqimni chiqarish"
-
-#, fuzzy
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media pleyeri - Veb interfeysi"
 
 #~ msgid "PCM U8"
 #~ msgstr "PCM U8"
@@ -27981,13 +27821,6 @@ msgstr ""
 #~ msgid "Group name"
 #~ msgstr "Guruh nomi"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Video ko'rsatish usulini tanlash va moslash."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Ushbu modullar VLC boshqa qismlarining tarmoq imkoniyatlarini ta'minlaydi."
-
 #~ msgid "No suitable decoder module"
 #~ msgstr "Mos dekoder yo'q"
 
@@ -28007,12 +27840,26 @@ msgstr ""
 #~ msgid "FFmpeg"
 #~ msgstr "FFmpeg"
 
+#~ msgid "No Audio Input device found"
+#~ msgstr "Audio kiruvchi qurilma topilmadi"
+
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC media player - Flash ko‘rsatgich"
+
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Video ko'rsatish usulini tanlash va moslash."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Ushbu modullar VLC boshqa qismlarining tarmoq imkoniyatlarini ta'minlaydi."
+
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Subtitr faylini qo‘shish:"
 
+#, fuzzy
 #~ msgid "Configure Media Library"
-#~ msgstr "Media kutu"
+#~ msgstr "Media kutubxonasidan foydalanish"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -28035,7 +27882,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quick &Open File..."
-#~ msgstr "&Jildni ochish..."
+#~ msgstr "Fayl &ochish"
 
 #, fuzzy
 #~ msgid "&Bookmarks"
@@ -28051,7 +27898,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Add to Media Library"
-#~ msgstr "Media kutu"
+#~ msgstr "Media kutubxonasidan foydalanish"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -28119,8 +27966,20 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Subtitle Codec"
-#~ msgstr "Tagsarlavha kodeklari"
+#~ msgstr "Subtitr kodeklari"
 
 #, fuzzy
 #~ msgid "File Name"
 #~ msgstr "Fayl"
+
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "QuickTime ovozni yozib olish"
+
+#~ msgid "No audio input device found"
+#~ msgstr "Audio kirish uchun qurilma topilmadi"
+
+#~ msgid "Save this Log..."
+#~ msgstr "Ushbu jurnalga saqlash"
+
+#~ msgid "VLC Debug Log (%s).rtf"
+#~ msgstr "VLC nosozlik jurnali (%s).rtf"
