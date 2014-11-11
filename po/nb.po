@@ -8,20 +8,22 @@
 # asd, 2014
 # bobbaluba <bobbaluba@gmail.com>, 2013-2014
 # Harald <haarektrans@gmail.com>, 2014
+# Kurt-Håkon Eilertsen <kurt@kheds.com>, 2014
 # Olav Dahlum <odahlum@gmail.com>, 2011
 # Sigmund Augdal <sigmunau@idi.ntnu.no>, 2002
 # Stian Jørgensrud <stianahj@gmail.com>, 2012-2014
 # thomhov, 2014
+# _erty_ <vegard.skui@hotmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-03 14:06+0100\n"
-"PO-Revision-Date: 2014-06-24 20:18+0000\n"
-"Last-Translator: Allan Nordhøy <comradekingu@gmail.com>\n"
+"PO-Revision-Date: 2014-10-06 19:01+0000\n"
+"Last-Translator: Kurt-Håkon Eilertsen <kurt@kheds.com>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/projects/"
 "p/vlc-trans/language/nb_NO/)\n"
-"Language: nb\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1407,7 +1409,7 @@ msgstr "Spor-ID"
 
 #: src/input/meta.c:72
 msgid "Number of Tracks"
-msgstr ""
+msgstr "Antall spor"
 
 #: src/input/meta.c:73
 msgid "Director"
@@ -2456,7 +2458,7 @@ msgstr ""
 
 #: src/libvlc-module.c:499
 msgid "File caching (ms)"
-msgstr ""
+msgstr "Filbuffring (ms)"
 
 #: src/libvlc-module.c:501
 msgid "Caching value for local files, in milliseconds."
@@ -2472,7 +2474,7 @@ msgstr ""
 
 #: src/libvlc-module.c:507
 msgid "Disc caching (ms)"
-msgstr ""
+msgstr "Diskbuffring (ms)"
 
 #: src/libvlc-module.c:509
 msgid "Caching value for optical media, in milliseconds."
@@ -2640,7 +2642,7 @@ msgstr ""
 
 #: src/libvlc-module.c:596
 msgid "Menu language"
-msgstr ""
+msgstr "Menyspråk"
 
 #: src/libvlc-module.c:598
 msgid ""
@@ -8614,7 +8616,7 @@ msgstr "ukjent type"
 
 #: modules/access/vcdx/info.c:235 modules/access/vcdx/info.c:250
 msgid "List ID"
-msgstr ""
+msgstr "Liste ID"
 
 #: modules/access/vcdx/vcd.c:85
 msgid "(Super) Video CD"
@@ -8676,7 +8678,7 @@ msgstr ""
 
 #: modules/access/vdr.c:72
 msgid "Support for VDR recordings (http://www.tvdr.de/)."
-msgstr ""
+msgstr "Støtte for VDR opptak (http://www.tvdr.de/)."
 
 #: modules/access/vdr.c:74
 msgid "Chapter offset in ms"
@@ -8704,7 +8706,7 @@ msgstr ""
 
 #: modules/access/vdr.c:872
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: modules/access/vnc.c:48
 msgid "X.509 Certificate Authority"
@@ -8724,7 +8726,7 @@ msgstr ""
 
 #: modules/access/vnc.c:52
 msgid "X.509 Client certificate"
-msgstr ""
+msgstr "X.509 Klient-sertifikat"
 
 #: modules/access/vnc.c:53
 msgid "Certificate for client authentification"
@@ -8752,11 +8754,11 @@ msgstr ""
 
 #: modules/access/vnc.c:63
 msgid "Image quality"
-msgstr ""
+msgstr "Bildekvalitet"
 
 #: modules/access/vnc.c:64
 msgid "Image quality 1 to 9 (max)"
-msgstr ""
+msgstr "Bildekvalitet 1 til 9 (maks)"
 
 #: modules/access/vnc.c:78
 msgid "VNC"
@@ -9083,7 +9085,7 @@ msgstr ""
 #: modules/audio_filter/compressor.c:169 modules/gui/macosx/AudioEffects.m:123
 #: modules/gui/qt4/components/extended_panels.cpp:1413
 msgid "Ratio"
-msgstr ""
+msgstr "Forhold"
 
 #: modules/audio_filter/compressor.c:170
 msgid "Set the ratio (n:1) (1 ... 20)."
@@ -9108,7 +9110,7 @@ msgstr ""
 #: modules/audio_filter/compressor.c:179 modules/gui/macosx/AudioEffects.m:144
 #: modules/gui/qt4/dialogs/extended.cpp:67
 msgid "Compressor"
-msgstr ""
+msgstr "Kompressor"
 
 #: modules/audio_filter/compressor.c:180
 msgid "Dynamic range compressor"
@@ -9484,7 +9486,7 @@ msgstr ""
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Search Length"
-msgstr ""
+msgstr "Søkelengde"
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Length in milliseconds to search for best overlap position"
@@ -27060,9 +27062,8 @@ msgid "Dialog"
 msgstr "Dialogvindu"
 
 #: modules/gui/qt4/ui/about.h:288 modules/gui/qt4/ui/about.h:289
-#, fuzzy
 msgid "Update"
-msgstr "&Oppdater"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
 #: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:425
@@ -27082,23 +27083,20 @@ msgid "0.00 dB"
 msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:139
-#, fuzzy
 msgid "&Verbosity:"
-msgstr "Detaljnivå (0, 1, 2)"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:140
-#, fuzzy
 msgid "&Filter:"
-msgstr "Filter:"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:141
 msgid "&Save as..."
 msgstr "Lagre &som …"
 
 #: modules/gui/qt4/ui/messages_panel.h:143
-#, fuzzy
 msgid "Modules Tree"
-msgstr "_Moduler..."
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:245
 msgid "Show extended options"
@@ -27109,9 +27107,8 @@ msgid "Show &more options"
 msgstr "&Vis flere valg"
 
 #: modules/gui/qt4/ui/open.h:250
-#, fuzzy
 msgid "Change the caching for the media"
-msgstr "Endre det navnet på tjenesten."
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:252
 msgid " ms"
@@ -27142,9 +27139,8 @@ msgid "Select the file"
 msgstr "Velg fila"
 
 #: modules/gui/qt4/ui/open.h:265
-#, fuzzy
 msgid "Change the start time for the media"
-msgstr "Endre det navnet på tjenesten."
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:267
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -27155,19 +27151,16 @@ msgid "Play another media synchronously (extra audio file, ...)"
 msgstr "Spill av en annen fil samtidig (ekstra lydfil, …)"
 
 #: modules/gui/qt4/ui/open_capture.h:97
-#, fuzzy
 msgid "Capture mode"
-msgstr "Ta opp"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:99
-#, fuzzy
 msgid "Select the capture device type"
-msgstr "Valgte porter:"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:101
-#, fuzzy
 msgid "Device Selection"
-msgstr "Diskvalg"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:102
 msgid "Options"
@@ -27190,14 +27183,12 @@ msgid "SVCD/VCD"
 msgstr "SVCD/VCD"
 
 #: modules/gui/qt4/ui/open_disk.h:303
-#, fuzzy
 msgid "Disable Disc Menus"
-msgstr "Slå av skjermsparer"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_disk.h:305
-#, fuzzy
 msgid "No disc menus"
-msgstr "DVD-menyer"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_disk.h:306
 msgid "Disc device"
@@ -27212,9 +27203,8 @@ msgid "Audio and Subtitles"
 msgstr "Lyd og undertekster"
 
 #: modules/gui/qt4/ui/open_file.h:143
-#, fuzzy
 msgid "Use a sub&title file"
-msgstr "Bruk undertekstfil"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:145
 msgid "Select the subtitle file"
@@ -27241,14 +27231,12 @@ msgid "Network Protocol"
 msgstr "Nettverkprotokoll"
 
 #: modules/gui/qt4/ui/open_net.h:98
-#, fuzzy
 msgid "Please enter a network URL:"
-msgstr "Oppgi det nye profilnavnet."
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:686
-#, fuzzy
 msgid "Profile edition"
-msgstr " Mangler profilnavn"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:687
 msgid "MPEG-TS"
@@ -27307,9 +27295,8 @@ msgid "Features"
 msgstr "Funksjoner"
 
 #: modules/gui/qt4/ui/profiles.h:702
-#, fuzzy
 msgid "Streamable"
-msgstr "Kringkaster/Lagrer:"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:703
 msgid "Chapters"
@@ -27332,9 +27319,8 @@ msgid " fps"
 msgstr " fps"
 
 #: modules/gui/qt4/ui/profiles.h:717
-#, fuzzy
 msgid "Custom options"
-msgstr "Oppsettvalg"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:718
 msgid "Quality"
@@ -27353,9 +27339,8 @@ msgid "Encoding parameters"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:725
-#, fuzzy
 msgid "Frame size"
-msgstr "Bildefrekvens"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:728 modules/gui/qt4/ui/profiles.h:731
 msgid "px"
@@ -27366,19 +27351,16 @@ msgid "Sample Rate"
 msgstr "Samplingsfrekvens"
 
 #: modules/gui/qt4/ui/sout.h:203
-#, fuzzy
 msgid "Set up media sources to stream"
-msgstr "Velg en mappe"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:205
-#, fuzzy
 msgid "Destination Setup"
-msgstr "Mål"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:206
-#, fuzzy
 msgid "Select destinations to stream to"
-msgstr "Velg en mappe"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:207
 msgid ""
@@ -27395,24 +27377,20 @@ msgid "Display locally"
 msgstr "Vis lokalt"
 
 #: modules/gui/qt4/ui/sout.h:212
-#, fuzzy
 msgid "Transcoding Options"
-msgstr "Omkodingsvalg"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:213
-#, fuzzy
 msgid "Select and choose transcoding options"
-msgstr "Omkodingsvalg"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:214
-#, fuzzy
 msgid "Activate Transcoding"
-msgstr "Undertekstkodeker"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:215
-#, fuzzy
 msgid "Option Setup"
-msgstr "Valg"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:216
 msgid "Set up any additional options for streaming"
@@ -27427,18 +27405,16 @@ msgid "Stream all elementary streams"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:219
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "Generelle strømningsinnstillinger ut"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:428
 msgid " %"
 msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
-#, fuzzy
 msgid "Output module:"
-msgstr "Eksportmoduler"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:435
 msgid "Effects"
@@ -27449,18 +27425,16 @@ msgid "Visualization:"
 msgstr "Visualisering:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:437
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "Aktiver strekking av lyd"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:438
 msgid "Dolby Surround:"
 msgstr "Dolby Surround:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:439
-#, fuzzy
 msgid "Replay gain mode:"
-msgstr "Spill av og stopp"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:440
 msgid "Headphone surround effect"
@@ -27483,9 +27457,8 @@ msgid "Username:"
 msgstr "Brukernavn:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:446
-#, fuzzy
 msgid "Submit played tracks stats to Last.fm"
-msgstr "Innsending av spilte sanger til last.fm"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:346
 msgid "Codecs"
@@ -27516,18 +27489,16 @@ msgid "Optical drive"
 msgstr "Optisk drev"
 
 #: modules/gui/qt4/ui/sprefs_input.h:353
-#, fuzzy
 msgid "Default optical device"
-msgstr "Standardenheter"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:357
 msgid "Damaged or incomplete AVI file"
 msgstr "Ødelagt eller ufullstendig AVI-fil"
 
 #: modules/gui/qt4/ui/sprefs_input.h:360
-#, fuzzy
 msgid "HTTP proxy URL"
-msgstr "HTTP-mellomtjener"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:361
 msgid "HTTP (default)"
@@ -27542,9 +27513,8 @@ msgid "Live555 stream transport"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:364
-#, fuzzy
 msgid "Default caching policy"
-msgstr "Standard koding"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:505
 msgid "Menus language:"
@@ -27555,9 +27525,8 @@ msgid "Look and feel"
 msgstr "Utseende og opplevelse"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:507
-#, fuzzy
 msgid "Use custom skin"
-msgstr "Velg tema"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:509
 msgid "This is VLC's default interface, with a native look and feel."
@@ -27565,9 +27534,8 @@ msgstr ""
 "Dette er VLC sitt standard utseende, med et brilliant og normalt oppsett."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:511
-#, fuzzy
 msgid "Use native style"
-msgstr "Bruk undertekstfil"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Resize interface to video size"
@@ -27586,19 +27554,16 @@ msgid "Show media change popup:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
-#, fuzzy
 msgid "Start in minimal view mode"
-msgstr "Start i minimal visning (uten menyer)"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:517
-#, fuzzy
 msgid "Force window style:"
-msgstr "Aktive vinduer"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
-#, fuzzy
 msgid "Integrate video in interface"
-msgstr "Plasser videoeksporten i hovedbrukerflaten."
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Show systray icon"
@@ -27609,14 +27574,12 @@ msgid "Skin resource file:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:522
-#, fuzzy
 msgid "Playlist and Instances"
-msgstr "Spill av og stopp"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
-#, fuzzy
 msgid "Allow only one instance"
-msgstr "Tillat kun en kjørende instans."
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Pause on the last frame of a video"
@@ -27639,18 +27602,16 @@ msgid "Activate updates notifier"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:538
-#, fuzzy
 msgid "Operating System Integration"
-msgstr "Mediainformasjon"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "File extensions association"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:540
-#, fuzzy
 msgid "Set up associations..."
-msgstr "Innstillinger …"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:291
 msgid "Enable On Screen Display (OSD)"
@@ -27709,9 +27670,8 @@ msgid "Display device"
 msgstr "Vis enhet"
 
 #: modules/gui/qt4/ui/sprefs_video.h:331
-#, fuzzy
 msgid "KVA"
-msgstr "MKV"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:335
 msgid "Deinterlacing"
@@ -27799,9 +27759,8 @@ msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1419
-#, fuzzy
 msgid "Negate colors"
-msgstr "Omvendte farger"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1432
 msgid "Colors"
@@ -27816,9 +27775,8 @@ msgid "Angle"
 msgstr "Vinkel"
 
 #: modules/gui/qt4/ui/video_effects.h:1443
-#, fuzzy
 msgid "Black Slot"
-msgstr "Svartmetall"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1447
 #: modules/gui/qt4/ui/video_effects.h:1464
@@ -27842,9 +27800,8 @@ msgid "Mask"
 msgstr "Maske"
 
 #: modules/gui/qt4/ui/video_effects.h:1468
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "Videoeksportmodul"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1469
 msgid "Brightness (%)"
@@ -27883,14 +27840,12 @@ msgid "Soften"
 msgstr "Mykne"
 
 #: modules/gui/qt4/ui/video_effects.h:1488
-#, fuzzy
 msgid "Denoiser"
-msgstr "3D Now! memcpy"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1489
-#, fuzzy
 msgid "Spatial luma strength"
-msgstr "\"Spatial\" uskarphet"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1490
 msgid "Temporal luma strength"
@@ -27905,14 +27860,12 @@ msgid "Temporal chroma strength"
 msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:286
-#, fuzzy
 msgid "VLM configurator"
-msgstr "&VLM-innstillinger"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:287
-#, fuzzy
 msgid "Media Manager Edition"
-msgstr "Mediabehandlerliste"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:288
 msgid "Name:"
@@ -27954,55 +27907,8 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Mediabehandlerliste"
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Undertittlel-spor lagt til"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Media i Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Stien til mediet i Zip-arkivet"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Rask UDP-kringkasting"
-
-#~ msgid "MTU for out mode"
-#~ msgstr "MTU for utmodus"
-
-#~ msgid "MTU for out mode."
-#~ msgstr "MTU for utmodus."
-
-#~ msgid "&Post processing"
-#~ msgstr "&Etterbehandling"
-
 #~ msgid "Scanning DVB"
 #~ msgstr "Skanner DVB"
-
-#~ msgid "No audio input device found"
-#~ msgstr "Ingen inngangsenhet for lyd funnet"
-
-#~ msgid "Uncompressed RAR"
-#~ msgstr "Dekomprimert RAR"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Lagre denne loggen …"
-
-#~ msgid "Empty"
-#~ msgstr "Tom"
-
-#~ msgid "Deactivate"
-#~ msgstr "Deaktiver"
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Tøm"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Vent litt mens skriftmellomlageret bygges.\n"
-#~ "Dette skal ta mindre enn et minutt."
 
 #~ msgid ""
 #~ "You can choose to disable some CPU accelerations here. Use with extreme "
@@ -30718,6 +30624,53 @@ msgstr "Mediabehandlerliste"
 #, fuzzy
 #~ msgid "Jump to: "
 #~ msgstr "Hopp til:"
+
+#~ msgid "Subtitle track added"
+#~ msgstr "Undertittlel-spor lagt til"
+
+#~ msgid "Media in Zip"
+#~ msgstr "Media i Zip"
+
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Stien til mediet i Zip-arkivet"
+
+#~ msgid "Fast udp streaming"
+#~ msgstr "Rask UDP-kringkasting"
+
+#~ msgid "MTU for out mode"
+#~ msgstr "MTU for utmodus"
+
+#~ msgid "MTU for out mode."
+#~ msgstr "MTU for utmodus."
+
+#~ msgid "&Post processing"
+#~ msgstr "&Etterbehandling"
+
+#~ msgid "No audio input device found"
+#~ msgstr "Ingen inngangsenhet for lyd funnet"
+
+#~ msgid "Uncompressed RAR"
+#~ msgstr "Dekomprimert RAR"
+
+#~ msgid "Save this Log..."
+#~ msgstr "Lagre denne loggen …"
+
+#~ msgid "Empty"
+#~ msgstr "Tom"
+
+#~ msgid "Deactivate"
+#~ msgstr "Deaktiver"
+
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Tøm"
+
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Vent litt mens skriftmellomlageret bygges.\n"
+#~ "Dette skal ta mindre enn et minutt."
 
 #, fuzzy
 #~ msgid "Christian rap"
