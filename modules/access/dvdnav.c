@@ -43,6 +43,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <unistd.h>     /* close() */
 
 #include <vlc_common.h>
 #include <vlc_plugin.h>
