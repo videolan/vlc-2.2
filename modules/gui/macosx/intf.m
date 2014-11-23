@@ -1336,6 +1336,9 @@ static bool f_appExit = false;
 - (void)plItemUpdated
 {
     [o_mainwindow updateName];
+
+    if (o_info != NULL)
+        [o_info updateMetadata];
 }
 
 - (void)updateMainMenu
