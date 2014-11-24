@@ -260,6 +260,7 @@ private slots:
     void setRaise();
 
     void showContinueDialog( int64_t);
+    void hideContinueDialog();
     void continuePlayback();
 
 signals:
