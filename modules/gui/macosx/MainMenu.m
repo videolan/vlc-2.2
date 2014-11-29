@@ -571,8 +571,6 @@ static VLCMainMenu *_o_sharedInstance = nil;
     playlist_t * p_playlist = pl_Get(p_intf);
     input_thread_t * p_input = playlist_CurrentInput(p_playlist);
     if (p_input != NULL) {
-        [o_mi_record setEnabled: var_GetBool(p_input, "can-record")];
-
         [self setupVarMenuItem: o_mi_program target: (vlc_object_t *)p_input
                                  var: "program" selector: @selector(toggleVar:)];
 
@@ -623,7 +621,6 @@ static VLCMainMenu *_o_sharedInstance = nil;
         [o_mi_ffmpeg_pp setEnabled:YES];
         vlc_object_release(p_input);
     } else {
-        [o_mi_record setEnabled: NO];
         [o_mi_ffmpeg_pp setEnabled:NO];
     }
 }
@@ -1558,6 +1555,10 @@ static VLCMainMenu *_o_sharedInstance = nil;
         if (!p_input)
             bEnabled = FALSE;
         [self setupMenus]; /* Make sure input menu is up to date */
+    } else if ([o_title isEqualToString: _NS("Record")]) {
+        bEnabled = FALSE;
+        if (p_input)
+            bEnabled = var_GetBool(p_input, "can-record");
     } else if ([o_title isEqualToString: _NS("Previous")] ||
             [o_title isEqualToString: _NS("Next")]) {
         PL_LOCK;
