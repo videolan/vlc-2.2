@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-10-15 15:46+0000\n"
+"PO-Revision-Date: 2014-11-24 14:53+0000\n"
 "Last-Translator: Dean Lee <xslidian@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/vlc-"
 "trans/language/zh_CN/)\n"
@@ -160,9 +160,8 @@ msgid "General video settings"
 msgstr "常规视频设置"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "音频输出模块的常规设置。"
+msgstr "视频输出模块的常规设置。"
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4317,14 +4316,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "在可用的字幕轨道之间切换。"
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Teletext 字幕"
+msgstr "切换字幕"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "切换字幕轨道"
+msgstr "切换字幕轨道的显示。"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7482,9 +7479,8 @@ msgid "Number of first segment"
 msgstr "首段编号"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "生成的段落编号"
+msgstr "生成的首个片段编号"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -16764,7 +16760,7 @@ msgstr "文件尺寸"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "级别 %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -20850,9 +20846,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "您是否希望从上次播放到的位置继续播放?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "继续"
+msgstr "继续(&C)"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -31428,18 +31423,6 @@ msgstr "媒体管理器列表"
 #~ "= 分级, $S = 音频采样率 (以 kHz), $T = 时间, $U = 发布商, $V = 音量, $_ = "
 #~ "新行) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "字幕轨已添加"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Zip 中的媒体"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Zip 压缩包中的媒体路径"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "快速 udp 流"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr "通过 udp 发送 TS 到指定的 ip:端口 (您必须知道您在做什么)。"
@@ -31449,23 +31432,6 @@ msgstr "媒体管理器列表"
 
 #~ msgid "MTU for out mode."
 #~ msgstr "用于输出模式的 MTU。"
-
-#~ msgid "&Post processing"
-#~ msgstr "后期处理(&P)"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundation 视频捕获"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundation 视频捕获模块。"
-
-#~ msgid "No video devices found"
-#~ msgstr "未找到视频设备"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr "您的 Mac 似乎没有安装合适的视频输入设备。请检查您的接线及驱动程序。"
 
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "探测 DVB 卡的功能特性"
@@ -31477,70 +31443,20 @@ msgstr "媒体管理器列表"
 #~ "部分 DVB 卡不乐意被外部程序探测其功能特性，若您遇到此类麻烦，可以尝试禁用"
 #~ "本功能。"
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "卫星扫描配置"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "share/dvb/dvb-s 中配置文件的文件名"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB 输入，支持 v4l2"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "QuickTime 声音捕获"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "未找到音频输入设备"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr "您的 Mac 似乎没有安装合适的音频输入设备。请检查您的接线及驱动程序。"
-
-#~ msgid "No audio input device found"
-#~ msgstr "未找到音频输入设备"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "未压缩的 RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows 多媒体设备输出"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windows Store 音频输出"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27 解码器"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "指定解码图像的目标宽度"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "指定解码图像的目标高度"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "图像的缩放参数"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVG 视频解码器"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Windows 消息接口"
-
-#~ msgid "Save this Log..."
-#~ msgstr "保存此日志..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "VLC 调试日志 (%s).rtf"
@@ -31554,24 +31470,8 @@ msgstr "媒体管理器列表"
 #~ msgid "Empty"
 #~ msgstr "清空"
 
-#~ msgid "Deactivate"
-#~ msgstr "禁用"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "音频指纹识别"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "选择匹配的资料"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "未找到匹配指纹"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "正在对该轨道进行指纹识别..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "清除"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -31583,17 +31483,11 @@ msgstr "媒体管理器列表"
 #~ msgid "Extension not responding!"
 #~ msgstr "扩展无响应!"
 
-#~ msgid "addons local storage"
-#~ msgstr "插件本地存储"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "插件本地存储安装程序"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "插件本地存储查看程序"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Videolan.org 插件查找器"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "addons.videolan.org 插件查找器"
@@ -31604,45 +31498,11 @@ msgstr "媒体管理器列表"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr ".vlp 独立包插件查找器"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "轨道指纹识别服务 (基于 Acoustid)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "指纹识别时长"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "默认: 90 秒"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Chromaprint 串流输出"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "正在重建字体缓存，请稍候。\n"
-#~ "这应该能在一分钟内完成。"
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "可视化窗口的宽度，单位为像素。"
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "可视化窗口的高度，单位为像素。"
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3D OpenGL spectrum 可视化"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "平顶"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
@@ -31650,29 +31510,11 @@ msgstr "媒体管理器列表"
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media player - Flash 查看器"
-
-#~ msgid "Streaming Output"
-#~ msgstr "串流输出"
-
-#, fuzzy
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "VLC 无法读取文件: %s"
-
-#, fuzzy
-#~ msgid "You can choose the crop style to apply."
-#~ msgstr "选择要应用的像素着色器。"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "选择您偏好的视频输出，并在这里配置其选项。"
 
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr "这些模块为 VLC 的其他全部组件提供网络功能。"
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "这些是视频/音频/字幕编码模块的常规设置。"
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "对话框提供者可以在这里配置。"
@@ -31682,6 +31524,226 @@ msgstr "媒体管理器列表"
 #~ "example by setting the subtitle type or file name."
 #~ msgstr ""
 #~ "在此区域您可以强制指定字幕去复用器的行为，例如设置字幕的类型和文件名。"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "专辑封面下载策略"
+
+#~ msgid "Album art download policy"
+#~ msgstr "专辑封面下载策略"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "专辑封面下载策略"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "在此区域您可以强制指定字幕去复用器的行为，例如设置字幕的类型和文件名。"
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "VLC 调试日志 (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "字幕轨道"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "媒体倒退"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "要使用皮肤路径。"
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "配置串流传输..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "预处理"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "视频捕获"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "音频输出模块"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "找不到输入设备"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr "您的 Mac 看上去没有安装合适的输入设备。请检查您的链接器和驱动。"
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "卫星范围代码"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "环绕声"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Quicktime 捕获"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "找不到输入设备"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr "您的 Mac 看上去没有安装合适的输入设备。请检查您的链接器和驱动。"
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "找不到输入设备"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Windows GDI 视频输出"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Windows GDI 视频输出"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "G.711 解码器"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "指定含此语言的行"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "指定要使用的反交错模式。"
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr "在转码时应用到视频的比例因素 (eg: 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "CDG 视频解码器"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Windows 服务界面"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "另存为(&S)..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "激活"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "指纹(&F)"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "找不到输入"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "指纹(&F)"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "最大本地位率"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "视频转换滤镜"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "原音乐"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "镜像方向"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "默认流"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "正在收集流输出"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "正在重建字体缓存，请稍候。\n"
+#~ "这应该能在一分钟内完成。"
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "视频窗口的宽度，以像素为单位。"
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "视频窗口的高度，以像素为单位。"
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "频谱"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "当前的可视化"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "悬浮在顶部"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC media player - Web 界面"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "流输出"
+
+#, fuzzy
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "VLC 无法读取文件: %s"
+
+#, fuzzy
+#~ msgid "You can choose the crop style to apply."
+#~ msgstr "选择要应用的像素着色器。"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "视频输出模块的常规设置。"
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -31696,11 +31758,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "专辑封面下载策略"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "专辑封面下载策略"
+#~ msgstr "专辑封面文件名"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -31814,9 +31872,6 @@ msgstr "媒体管理器列表"
 #~ msgid "Open BDMV folder"
 #~ msgstr "打开 VIDEO_TS / BDMV 文件夹"
 
-#~ msgid "Album art download policy"
-#~ msgstr "专辑封面下载策略"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "输出模块"
@@ -31884,10 +31939,6 @@ msgstr "媒体管理器列表"
 #~ msgstr "使用字幕文件(&T)"
 
 #, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "专辑封面下载策略"
-
-#, fuzzy
 #~ msgid "Configure Media Library"
 #~ msgstr "媒体库"
 
@@ -31927,7 +31978,7 @@ msgstr "媒体管理器列表"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "这些是视频/音频/字幕编码模块的常规设置。"
+#~ msgstr "视频输出模块的常规设置。"
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -31936,13 +31987,6 @@ msgstr "媒体管理器列表"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "字幕文本编码"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "在此区域您可以强制指定字幕去复用器的行为，例如设置字幕的类型和文件名。"
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -32011,7 +32055,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Windows Store 音频输出"
+#~ msgstr "文件音频输出"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -32851,10 +32895,6 @@ msgstr "媒体管理器列表"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "编译者 %s，编译器 %@"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "VLC 调试日志 (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -36557,5 +36597,6 @@ msgstr "媒体管理器列表"
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "总计/剩余时间"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "插件管理器"
