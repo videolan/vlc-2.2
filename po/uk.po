@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-09-27 18:03+0000\n"
+"PO-Revision-Date: 2014-11-22 11:26+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/uk/)\n"
@@ -162,9 +162,8 @@ msgid "General video settings"
 msgstr "Загальні установки відео"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Загальні установки модулів виведення звуку."
+msgstr "Загальні налаштування для модулів виведення відео."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4553,14 +4552,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Циклічно перемикати доступні доріжки субтитрів."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Субтитри телетексту"
+msgstr "Перемкнути субтитри"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Циклічно перемикати доріжку субтитрів"
+msgstr "Перемикає видимість доріжки субтитрів."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7837,9 +7834,8 @@ msgid "Number of first segment"
 msgstr "Номер першого сегмента"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Число згенерованих сегментів"
+msgstr "Число згенерованих перших сегментів"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17514,7 +17510,7 @@ msgstr "Розмір файлу"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Рівень %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21704,9 +21700,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Ви хочете відновити відтворення, де зупинилися?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Продовжити"
+msgstr "&Продовжити"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -29746,18 +29741,11 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Список медіаменеджеру"
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Додано доріжку субтитрів"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "Виберіть бажаний модуль виведення відео та налаштуйте його тут."
 
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr "Ці модулі надають мережеві функції іншим частинам VLC."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "Загальні наслаштування модулів кодування відео/звуку/субтитрів."
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "Можна налаштувати постачальників діалогів."
@@ -29768,15 +29756,6 @@ msgstr "Список медіаменеджеру"
 #~ msgstr ""
 #~ "Можна примусово встановити демультиплексор субтитрів, наприклад, "
 #~ "установленням типу субтитрів або назви файлу."
-
-#~ msgid "Media in Zip"
-#~ msgstr "Медіа у Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Шлях до медіа у Zip-архіві"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Швидке мовлення UDP"
 
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
@@ -29789,14 +29768,8 @@ msgstr "Список медіаменеджеру"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU режиму виходу."
 
-#~ msgid "Addon Manager"
-#~ msgstr "Менеджер доповнення"
-
 #~ msgid "Album art download policy"
 #~ msgstr "Політика завантаження обкладинок альбому"
-
-#~ msgid "&Post processing"
-#~ msgstr "Пост-обробка"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -29808,17 +29781,11 @@ msgstr "Список медіаменеджеру"
 #~ msgid "Extension not responding!"
 #~ msgstr "Розширення не відповідає!"
 
-#~ msgid "addons local storage"
-#~ msgstr "локальний носій доповнень"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Інсталятор локального носія доповнень"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Список локальних носіїв доповнень"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Шукач доповнень Videolan.org"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "шукач доповнень на addons.videolan.org"
@@ -29829,39 +29796,8 @@ msgstr "Список медіаменеджеру"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "шукач доповнень одним архівом .vlp"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Відстежувати відбитки пальця (на основі Acoustid)"
-
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Тривалість натискання"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Типово: 90 сек"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr " Насиченість кольору вихідного потоку"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Будь ласка, зачекайте, доки перебудується кеш шрифтів.\n"
-#~ "Це повинно тривати менше кількох хвилин."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Ширина вікна візуалізації у пікселях."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Висота вікна візуалізації у пікселях."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "Візуалізація спектру 3D OpenGL"
 
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Опитувати доступні функції картки DVB"
@@ -29873,14 +29809,8 @@ msgstr "Список медіаменеджеру"
 #~ "Функції деяких карток DVB не можна опитати. Якщо виникають проблеми, "
 #~ "можна вимкнути цю функцію."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Параметри сканування супутника"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "назва файлу конфігурації у «share/dvb/dvb-s»"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Введення DVB з підтримкою v4l2"
@@ -29888,41 +29818,14 @@ msgstr "Список медіаменеджеру"
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Нестиснений RAR"
 
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Вивід пристрою Windows Multimedia Device"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Вивід аудіо Windows Store"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "Декодер SCTE-27"
-
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
-
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Також вкажіть ширину для декодування зображення"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Також вкажіть висоту для декодування зображення"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Множник масштабу, застосовний до зображення"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "Відеодекодер SVG"
 
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
 
-#~ msgid "Windows messages interface"
-#~ msgstr "Інтерфейс повідомлень Windows"
-
 #~ msgid "Hann"
 #~ msgstr "Ган"
-
-#~ msgid "Flat Top"
-#~ msgstr "Flat Top"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Блекмен-Гаріс"
@@ -29930,17 +29833,8 @@ msgstr "Список медіаменеджеру"
 #~ msgid "Kaiser"
 #~ msgstr "Кайзер"
 
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Відбиток звуку"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Вибрати відповідну особу"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Відбитку не знайдено"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Відстежуємо відбиток…"
 
 #~ msgid "No EPG Data Available"
 #~ msgstr "Дані EPG недоступні"
@@ -29951,56 +29845,205 @@ msgstr "Список медіаменеджеру"
 #~ msgid "Empty"
 #~ msgstr "Порожньо"
 
-#~ msgid "Deactivate"
-#~ msgstr "Деактивувати"
+#~ msgid "VLC Debug Log (%s).rtf"
+#~ msgstr "Журнал налагодження VLC (%s).rtf"
 
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Доріжка субтитрів"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "Загальні налаштування для модулів виведення відео."
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Медіа Перемотування"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Шлях до використовуваної обкладинки."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Налаштування передачі…"
+
+#, fuzzy
+#~ msgid "Addon Manager"
+#~ msgstr "Менеджер доповнень"
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Пост-обробка"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Максимальний локальний бітрейт"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Відеофільтр трансформації"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Акустика"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Напрям віддзеркалення"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Типовиий потік"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Збирання вихідного потоку"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Будь ласка, зачекайте, доки перебудується кеш шрифтів.\n"
+#~ "Це повинно тривати менше хвилини."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Ширина вікна відео, у пікселях."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Висота вікна відео, у пікселях."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Спектр"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Поточна візуалізація"
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Діапазонний код супутника"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Вивід відео через Windows GDI"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Вивід відео через Windows GDI"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Декодер G.711"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Укажіть рядок із мовою"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Вкажіть використовуваний модуль деінтерлейса."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr ""
+#~ "Масштабувати відео із заданим коефіцієнтом при перекодуванні (наприклад, "
+#~ "0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "Відеодекодер CDG"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Інтерфейс служби Windows"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Зверху всіх вікон"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Ідентифікація"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Немає вхідного потоку"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Ідентифікація"
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Активувати"
+
+#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
 #~ msgstr "Очистити"
 
+#, fuzzy
 #~ msgid "AVFoundation Video Capture"
-#~ msgstr "Захоплення відео AVFoundation"
+#~ msgstr "Захоплення відео"
 
+#, fuzzy
 #~ msgid "AVFoundation video capture module."
-#~ msgstr "Модуль захоплення відео AVFoundation"
+#~ msgstr "Модуль виведення звуку"
 
+#, fuzzy
 #~ msgid "No video devices found"
-#~ msgstr "Відеопристрої не знайдено"
+#~ msgstr "Вхідний пристрій не знайдено"
 
+#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable video input device. "
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "Вірогідно, ваш Mac не оснащений відповідним пристроєм для введення відео. "
-#~ "Будь ласка, перевірте роз'єми і драйвери."
+#~ "Імовірно, Mac не обладнано відповідним пристроєм введення. Перевірте "
+#~ "з’єднання та драйвери."
 
+#, fuzzy
 #~ msgid "QTSound"
-#~ msgstr "QTSound"
+#~ msgstr "Оточення"
 
+#, fuzzy
 #~ msgid "QuickTime Sound Capture"
-#~ msgstr "Запис звуку QuickTime"
+#~ msgstr "Захоплення Quicktime"
 
+#, fuzzy
 #~ msgid "No Audio Input device found"
-#~ msgstr "Вхідного звукового пристрою не знайдено"
+#~ msgstr "Вхідний пристрій не знайдено"
 
+#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable audio input device."
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "Вірогідно, ваш Mac не оснащений відповідним пристроєм для введення відео. "
-#~ "Будь ласка, перевірте роз'єми і драйвери."
+#~ "Імовірно, Mac не обладнано відповідним пристроєм введення. Перевірте "
+#~ "з’єднання та драйвери."
 
+#, fuzzy
 #~ msgid "No audio input device found"
-#~ msgstr "Вхідного звукового пристрою не знайдено"
+#~ msgstr "Вхідний пристрій не знайдено"
 
+#, fuzzy
 #~ msgid "Save this Log..."
-#~ msgstr "Зберегти цей журнал…"
+#~ msgstr "Зберегти як…"
 
-#~ msgid "VLC Debug Log (%s).rtf"
-#~ msgstr "Журнал налагодження VLC (%s).rtf"
-
+#, fuzzy
 #~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "Медіапрогравач VLC - переглядач флеш"
+#~ msgstr "Медіапрогравач VLC — веб-інтерфейс"
 
+#, fuzzy
 #~ msgid "Streaming Output"
-#~ msgstr "Потоковий вивід"
+#~ msgstr "Вивід потоку"
