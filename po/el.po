@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-10-05 16:31+0000\n"
+"PO-Revision-Date: 2014-11-23 17:52+0000\n"
 "Last-Translator: Savvas Nesseris <modernphilosopher82-2011@yahoo.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/vlc-trans/language/"
 "el/)\n"
@@ -168,9 +168,8 @@ msgid "General video settings"
 msgstr "Γενικές ρυθμίσεις βίντεο"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Γενικές ρυθμίσεις για τις ενότητες εξόδου ήχου."
+msgstr "Γενικές ρυθμίσεις για τις ενότητες εξόδου βίντεο."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4719,14 +4718,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Περικύκλωση μέσα από τα διαθέσιμα κομμάτια υπότιτλων."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Υπότιτλοι teletext"
+msgstr "Εναλλαγή υποτίτλων"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Περικύκλωση κομματιού υπότιτλου"
+msgstr "Εναλλαγή ορατότητας κομματιού υπότιτλου"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -8037,9 +8034,8 @@ msgid "Number of first segment"
 msgstr "Αριθμός του πρώτου τμήματος"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Ο αριθμός των παραγόμενων τμημάτων"
+msgstr "Ο αριθμός του πρώτου παραγόμενου τμήματος"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17878,7 +17874,7 @@ msgstr "Μέγεθος αρχείου"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Επίπεδο %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -22151,9 +22147,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Θέλετε να συνεχίσετε την αναπαραγωγή από το τελευταίο σημείο;"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Συνέχεια"
+msgstr "&Συνέχεια"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -33378,18 +33373,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "Exit this program"
 #~ msgstr "κύριο πρόγραμμα"
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Κομμάτι υπότιτλου προστέθηκε"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Πολυμέσα σε αρχείο zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Διαδρομή προς το πολυμέσο σε αρχείο Zip"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Γρήγορη συνεχής ροή δεδομένων udp"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -33402,25 +33385,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU για τη λειτουργία εξόδου."
 
-#~ msgid "&Post processing"
-#~ msgstr "&Μετεπεξεργασία"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "Καταγραφή βίντεο AVFoundation"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "Επιπρόσθετο καταγραφής βίντεο AVFoundation."
-
-#~ msgid "No video devices found"
-#~ msgstr "Δεν βρέθηκαν συσκευές βίντεο"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Ο Mac σας δεν φαίνεται να είναι εξοπλισμένος με κατάλληλη συσκευή "
-#~ "εισόδου. Παρακαλώ ελέγξτε τους συνδέσμους και τους οδηγούς υλικού σας."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Ανίχνευση κάρτας DVB για δυνατότητες"
 
@@ -33432,48 +33396,17 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ "μπορείτε να απενεργοποιήσετε αυτό το χαρακτηριστικό αν αντιμετωπίσετε "
 #~ "προβλήματα."
 
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Είσοδος DVB με υποστήριξη v4l2"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Σύλληψη ήχου Quicktime"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Δεν βρέθηκε συσκευή εισόδου ήχου"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Ο Mac σας δεν φαίνεται να είναι εξοπλισμένος με κατάλληλη συσκευή "
-#~ "εισόδου. Παρακαλώ ελέγξτε τους συνδέσμους και τους οδηγούς υλικού σας."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Δεν βρέθηκε συσκευή εισόδου ήχου"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Ασυμπίεστο RAR"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Έξοδος ήχου Windows Store"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27 αποκωδικοποιητής"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Αποθήκευση αυτού του καταγραφολογίου..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Καταγραφολόγιο αποσφαλμάτωσης VLC (%s).rtf"
@@ -33487,16 +33420,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "Empty"
 #~ msgstr "Άδειο"
 
-#~ msgid "Deactivate"
-#~ msgstr "Απενεργοποίηση"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Δεν βρέθηκε κανένα δακτυλικό αποτύπωμα"
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Εκκαθάριση"
-
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
 #~ "Do you want to kill it now? "
@@ -33507,37 +33430,14 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "Extension not responding!"
 #~ msgstr "Το πρόσθετο δεν ανταποκρίνεται!"
 
-#~ msgid "addons local storage"
-#~ msgstr "πρόσθετα τοπικής αποθήκευσης"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Πρόσθετα τοπικής αποθήκευσης εγκαταστάτης"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Πρόσθετα τοπικής αποθήκευσης αρχειοθέτης"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Προεπιλογή: 90 δευτερόλεπτα"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Παρακαλώ περιμένετε όσο η προσωρινή αποθήκευση της γραμματοσειράς σας "
-#~ "αναδομείται.\n"
-#~ "Αυτό πρέπει να πάρει λιγότερο από μερικά λεπτά."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Επίπεδη κορυφή"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
@@ -33545,9 +33445,193 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "Αναπαραγωγός πολυμέσων VLC - Flash Viewer"
+#, fuzzy
+#~ msgid "Reactivity"
+#~ msgstr "Απενεργοποίηση"
 
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Επιλέξτε το είδος εξόδου βίντεο που προτιμάτε και ρυθμίστε το εδώ."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Οι ενότητες αυτές παρέχουν λειτουργίες δικτύου σε όλα τα άλλα τμήματα του "
+#~ "VLC."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Οι πάροχοι διαλόγων μπορούν να ρυθμιστούν εδώ."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "Σε αυτή την ενότητα μπορείτε να επιβάλετε την συμπεριφορά του demuxer "
+#~ "υποτίτλων, για παράδειγμα ορίζοντας τον τύπο των υποτίτλων ή το όνομα του "
+#~ "αρχείου"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Sends TS to specific ip:port by udp (you must know what you are doing)"
+#~ msgstr ""
+#~ "Αποστέλλει το TS στη συγκεκριμένη θύρα ip μέσω udp (πρέπει να ξέρετε τι "
+#~ "κάνετε)."
+
+#~ msgid "addons.videolan.org addons finder"
+#~ msgstr "Ανιχνευτής πρόσθετων του addons.videolan.org"
+
+#~ msgid "Videolan.org's single archive addons finder"
+#~ msgstr "Ανιχνευτής μοναδικού αρχείου πρόσθετων του Videolan.org"
+
+#~ msgid "single .vlp archive addons finder"
+#~ msgstr "Ανιχνευτής μοναδικού .vlp αρχείου πρόσθετων"
+
+#~ msgid "Track fingerprinter (based on Acoustid)"
+#~ msgstr ""
+#~ "Εντοπισμός ανιχνευτή δακτυλικών αποτυπωμάτων (βασισμένο στο Acoustid)"
+
+#~ msgid "filename of config file in share/dvb/dvb-s"
+#~ msgstr "Όνομα αρχείου ρύθμισης στο share/dvb/dvb-s"
+
+#~ msgid "Select a matching identity"
+#~ msgstr "Επιλογή μιας ταιριαστής ταυτότητας"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Κομμάτι υπότιτλου"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Επαναφορά Μέσων "
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Διαδρομή προς την πρόσοψη που θα χρησιμοποιηθεί."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Ρύθμιση ροής δεδομένων..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Μετεπεξεργασία"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Σύλληψη βίντεο"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Ενότητα εξόδου ήχου"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Δεν βρέθηκε συσκευή εισόδου"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Ο Mac σας δεν φαίνεται να είναι εξοπλισμένος με κατάλληλη συσκευή "
+#~ "εισόδου. Παρακαλώ ελέγξτε τους συνδέσμους και τους οδηγούς υλικού σας."
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Ηχητικό περιβάλλον"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Σύλληψη Quicktime"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Δεν βρέθηκε συσκευή εισόδου"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Ο Mac σας δεν φαίνεται να είναι εξοπλισμένος με κατάλληλη συσκευή "
+#~ "εισόδου. Παρακαλώ ελέγξτε τους συνδέσμους και τους οδηγούς υλικού σας."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Δεν βρέθηκε συσκευή εισόδου"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Έξοδος βίντεο Windows GDI"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Αποκωδικοποιητής G.711"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Αποθήκευση ως..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Ενεργοποίηση"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Δεν βρέθηκε είσοδος"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Εκκαθάριση"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Μέγιστος τοπικός ρυθμός μετάδοσης δεδομένων"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Ακουστική"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Προεπιλεγμένη ροή δεδομένων"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Παρακαλώ περιμένετε όσο η προσωρινή αποθήκευση της γραμματοσειράς σας "
+#~ "αναδομείται.\n"
+#~ "Αυτό πρέπει να πάρει λιγότερο από ένα λεπτό."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Φάσμα"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Επίπλευση στην κορυφή"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "Αναπαραγωγός πολυμέσων VLC - Διεπαφή ιστού"
+
+#, fuzzy
 #~ msgid "Streaming Output"
 #~ msgstr "Έξοδος ροής δεδομένων"
 
@@ -33568,10 +33652,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgstr "DCP"
 
 #, fuzzy
-#~ msgid "Reactivity"
-#~ msgstr "Απενεργοποίηση"
-
-#, fuzzy
 #~ msgid "Choose program (SID)"
 #~ msgstr "κύριο πρόγραμμα"
 
@@ -33583,30 +33663,10 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "FFmpeg crop padd filter"
 #~ msgstr "Φίλτρο αποκοπής βίντεο"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Επιλέξτε το είδος εξόδου βίντεο που προτιμάτε και ρυθμίστε το εδώ."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Οι ενότητες αυτές παρέχουν λειτουργίες δικτύου σε όλα τα άλλα τμήματα του "
-#~ "VLC."
-
+#, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Αυτές είναι οι γενικές ρυθμίσεις για τις ενότητες βίντεο/ήχου/υπότιτλων "
-#~ "κωδικοποίησης"
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Οι πάροχοι διαλόγων μπορούν να ρυθμιστούν εδώ."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "Σε αυτή την ενότητα μπορείτε να επιβάλετε την συμπεριφορά του demuxer "
-#~ "υποτίτλων, για παράδειγμα ορίζοντας τον τύπο των υποτίτλων ή το όνομα του "
-#~ "αρχείου"
+#~ msgstr "Γενικές ρυθμίσεις για τις ενότητες εξόδου βίντεο."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -33623,11 +33683,7 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
+#~ msgstr "Όνομα αρχείου τέχνης άλμπουμ"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -33749,9 +33805,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "Open BDMV folder"
 #~ msgstr "Άνοιγμα φακέλου VIDEO_TS / BDMV"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Ενότητες εξόδου"
@@ -33819,10 +33872,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Χρήση αρχείου υπο&τίτλων"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Πολιτική κατεβάσματος τέχνης των άλμπουμ"
 
 #, fuzzy
 #~ msgid "Configure Media Library"
@@ -34006,7 +34055,7 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Έξοδος ήχου Windows Store"
+#~ msgstr "Έξοδος αρχείου"
 
 #, fuzzy
 #~ msgid "Audio output frequency (Hz)"
@@ -38949,13 +38998,6 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgstr "Στυλ διεπαφής"
 
 #, fuzzy
-#~ msgid ""
-#~ "Sends TS to specific ip:port by udp (you must know what you are doing)"
-#~ msgstr ""
-#~ "Αποστέλλει το TS στη συγκεκριμένη θύρα ip μέσω udp (πρέπει να ξέρετε τι "
-#~ "κάνετε)."
-
-#, fuzzy
 #~ msgid "Volume: %d"
 #~ msgstr " Ένταση ήχου %ld%%"
 
@@ -39117,69 +39159,68 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "Audio output modules settings"
 #~ msgstr "Ενότητα εξόδου ήχου"
 
+#, fuzzy
 #~ msgid "Addon Manager"
-#~ msgstr "Διαχειριστής προσθέτου"
+#~ msgstr "Διαχειριστής προσθέτων"
 
+#, fuzzy
 #~ msgid "Videolan.org's addons finder"
-#~ msgstr "Ανιχνευτής πρόσθετων του Videolan.org"
+#~ msgstr "Φίλτρο μετασχηματισμού βίντεο"
 
-#~ msgid "addons.videolan.org addons finder"
-#~ msgstr "Ανιχνευτής πρόσθετων του addons.videolan.org"
-
-#~ msgid "Videolan.org's single archive addons finder"
-#~ msgstr "Ανιχνευτής μοναδικού αρχείου πρόσθετων του Videolan.org"
-
-#~ msgid "single .vlp archive addons finder"
-#~ msgstr "Ανιχνευτής μοναδικού .vlp αρχείου πρόσθετων"
-
-#~ msgid "Track fingerprinter (based on Acoustid)"
-#~ msgstr ""
-#~ "Εντοπισμός ανιχνευτή δακτυλικών αποτυπωμάτων (βασισμένο στο Acoustid)"
-
+#, fuzzy
 #~ msgid "Duration of the fingerprinting"
-#~ msgstr "Διάρκεια αποτύπωσης"
+#~ msgstr "Κατεύθυνση του αντικατοπτρισμού"
 
+#, fuzzy
 #~ msgid "Chromaprint stream output"
-#~ msgstr "Έξοδος ροής Chromaprint "
+#~ msgstr "Συλλογή εξόδου ροής δεδομένων"
 
+#, fuzzy
 #~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Το πλάτος του παραθύρου απεικόνισης, σε pixels."
+#~ msgstr "Το πλάτος του παραθύρου βίντεο, σε εικονοστοιχεία."
 
+#, fuzzy
 #~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Το ύψος του παραθύρου απεικόνισης, σε pixels."
+#~ msgstr "Το πλάτος του παραθύρου βίντεο, σε εικονοστοιχεία."
 
+#, fuzzy
 #~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3D OpenGL απεικόνιση φάσματος"
+#~ msgstr "Τρέχουσα απεικόνιση"
 
+#, fuzzy
 #~ msgid "Satellite scanning config"
-#~ msgstr "Ρύθμιση σάρωσης δορυφόρου"
+#~ msgstr "Κωδικός εμβέλειας δορυφόρου"
 
-#~ msgid "filename of config file in share/dvb/dvb-s"
-#~ msgstr "Όνομα αρχείου ρύθμισης στο share/dvb/dvb-s"
-
+#, fuzzy
 #~ msgid "Windows Multimedia Device output"
-#~ msgstr "Έξοδος Συσκευής Windows Multimedia"
+#~ msgstr "Έξοδος βίντεο Windows GDI"
 
+#, fuzzy
 #~ msgid "Specify the width to decode the image too"
-#~ msgstr "Ορίστε το πλάτος για να αποκωδικοποιηθεί και η εικόνα"
+#~ msgstr "Ορίστε τη γραμμή που περιέχει τη γλώσσα"
 
+#, fuzzy
 #~ msgid "Specify the height to decode the image too"
-#~ msgstr "Ορίστε το ύψος για να αποκωδικοποιηθεί και η εικόνα"
+#~ msgstr "Ορίστε τη λειτουργία αποδιαπλοκής που θα χρησιμοποιηθεί."
 
+#, fuzzy
 #~ msgid "Scale factor to apply to image"
-#~ msgstr "Συντελεστής κλιμάκωσης που θα εφαρμοστεί στην εικόνα"
+#~ msgstr ""
+#~ "Συντελεστής κλιμάκωσης που θα εφαρμοστεί στο βίντεο κατά τη διάρκεια της "
+#~ "επανακωδικοποίησης (π.χ.: 0,25)"
 
+#, fuzzy
 #~ msgid "SVG video decoder"
-#~ msgstr "SVG αποκωδικοποιητής βίντεο"
+#~ msgstr "Αποκωδικοποιητής βίντεο CDG"
 
+#, fuzzy
 #~ msgid "Windows messages interface"
-#~ msgstr "Διεπαφή Μηνύματων Windows"
+#~ msgstr "Διεπαφή Windows Service"
 
+#, fuzzy
 #~ msgid "Audio Fingerprinting"
-#~ msgstr "Αποτύπωση Ήχου"
+#~ msgstr "&Αποτύπωμα"
 
-#~ msgid "Select a matching identity"
-#~ msgstr "Επιλογή μιας ταιριαστής ταυτότητας"
-
+#, fuzzy
 #~ msgid "Fingerprinting track..."
-#~ msgstr "Αποτύπωση κομματιού..."
+#~ msgstr "&Αποτύπωμα"
