@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-11-11 15:49+0000\n"
+"PO-Revision-Date: 2014-11-29 13:29+0000\n"
 "Last-Translator: Ingmārs Dīriņš <melhiors14@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/lv/)\n"
@@ -31,10 +31,12 @@ msgid ""
 "see the file named COPYING for details.\n"
 "Written by the VideoLAN team; see the AUTHORS file.\n"
 msgstr ""
-"Šī programma nāk BEZ GARANTIJAS, ciktāl to atļauj likums.\n"
-"Jūs varat to izplatīt saskaņā ar GNU General Public License;\n"
-"skatīt failu ar nosaukumu KOPĒŠANA sīkākai informācijai.\n"
-"Ko izveidojusi VideoLAN komanda, skatīt AUTORU failu.\n"
+"Šī programma tiek piedāvāta pilnīgi BEZ JEBKĀDAS GARANTIJAS, ciktāl to "
+"pieļauj likums.\n"
+"Jūs varat to izplatīt tālāk saskaņā ar GNU (General Public License) "
+"licenci;\n"
+"skatiet datni ar nosakumu COPYING, lai iegūtu sīkāku informāciju.\n"
+"Uzrakstījusi VideoLAN izstrādātāju komanda; skatiet AUTHORS datni.\n"
 
 #: include/vlc_config_cat.h:33
 msgid "VLC preferences"
@@ -108,7 +110,7 @@ msgstr "Filtri"
 
 #: include/vlc_config_cat.h:59
 msgid "Audio filters are used to process the audio stream."
-msgstr "Audio filtri tiek lietoti audio straumes apstrādāšanai."
+msgstr "Audio filtri tiek lietoti, lai apstrādātu audio straumi."
 
 #: include/vlc_config_cat.h:61 src/audio_output/output.c:226
 #: modules/gui/macosx/MainMenu.m:430 modules/gui/macosx/MainMenu.m:431
@@ -163,13 +165,12 @@ msgid "General video settings"
 msgstr "Pamata video iestatījumi"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Pamata iestatījumi audio izvades moduļiem."
+msgstr "Pamata iestatījumi video izvades moduļiem."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
-msgstr "Video filtri tiek izmantoti video straumes apstrādei."
+msgstr "Video filtri tiek lietoti, lai apstrādātu video straumi."
 
 #: include/vlc_config_cat.h:82
 msgid "Subtitles / OSD"
@@ -179,8 +180,8 @@ msgstr "Subtitri / ekrāna norādījumi (OSD)"
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr ""
-"Iestatījumus, kas saistīti ar uz ekrāna displeju, subtitriem un \"pārklājuma "
-"subbildem\""
+"Iestatījumi, kas saistīti ar ekrāna norādījumiem, subtitriem un \"pārklājuma "
+"apakšbildēm\"."
 
 #: include/vlc_config_cat.h:91
 msgid "Input / Codecs"
@@ -199,9 +200,9 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"Iestatījumus, kas saistīti ar dažādiem piekļuves metodēm. Kopējos "
-"iestatījumus jūs varētu vēlēties mainīt, ir HTTP proxy vai kešošanas "
-"iestatījumi."
+"Iestatījumi, kuri saistīti ar dažādām piekļuves metodēm. Kopīgie "
+"iestatījumi, kurus Jūs varētu vēlēties izmainīt, ir HTTP starpniekservera "
+"vai kešošanas iestatījumi."
 
 #: include/vlc_config_cat.h:101
 msgid "Stream filters"
@@ -212,8 +213,8 @@ msgid ""
 "Stream filters are special modules that allow advanced operations on the "
 "input side of VLC. Use with care..."
 msgstr ""
-"Plūsmas filtri ir īpaši moduļi, kas ļauj uzlabot operācijas ieejas pusē VLC. "
-"Izmantojiet uzmanīgi ..."
+"Straumes filtri ir speciāli moduļi, kas atļauj paplašinātas operācijas VLC "
+"ievades pusē. Lietot uzmanīgi..."
 
 #: include/vlc_config_cat.h:106
 msgid "Demuxers"
@@ -221,7 +222,7 @@ msgstr "Atmuksētāji"
 
 #: include/vlc_config_cat.h:107
 msgid "Demuxers are used to separate audio and video streams."
-msgstr "Demultipleksors tiek izmantots, lai atdalītu audio un video plūsmu."
+msgstr "Atmuksētāji tiek lietoti, lai atdalītu audio un video straumes."
 
 #: include/vlc_config_cat.h:109
 msgid "Video codecs"
@@ -252,12 +253,12 @@ msgstr ""
 
 #: include/vlc_config_cat.h:118
 msgid "General input settings. Use with care..."
-msgstr "Vispārīgie ievades iestatījumi. Izmantojiet uzmanīgi ..."
+msgstr "Pamata ievades iestatījumi. Lietot uzmanīgi..."
 
 #: include/vlc_config_cat.h:121 src/libvlc-module.c:1889
 #: modules/access/avio.h:50
 msgid "Stream output"
-msgstr "Izejas plūsma "
+msgstr "Straumes izvade"
 
 #: include/vlc_config_cat.h:123
 msgid ""
@@ -269,17 +270,17 @@ msgid ""
 "Sout streams modules allow advanced stream processing (transcoding, "
 "duplicating...)."
 msgstr ""
-"Plūsma izejas iestatījumi tiek izmantoti, kad darbojas kā straumēšanas "
-"serveri vai saglabājot ienākošās plūsmas.\n"
-"Plūsmas ir pirmās multipleksētas un pēc tam tās nosūta, izmantojot "
-"\"piekļuves izejas\" moduli, kas var vai nu ietaupīt plūsmu uz failu, vai "
-"straumēt to (UDP, HTTP, RTP / RTSP). \n"
-"Sout plūsmas moduļi ļauj uzlabotās plūsmas apstrādes (pārkodēšanai, "
-"dublējot ...)."
+"Straumes izvades iestatījumi tiek lietoti, kad darbojas kā straumēšanas "
+"serveris vai kad saglabā ienākošās straumes.\n"
+"Straumes tiek vispirms muksētas un tad nosūtītas caur \"piekļuves izvades\" "
+"moduli, kurš spēj vai nu saglabāt straumi datnē, vai straumēt to (UDP, HTTP, "
+"RTP/RTSP).\n"
+"Sout straumju moduļi atļauj papildu straumes apstrādi (pārkodēšanu, "
+"dublēšanu...)."
 
 #: include/vlc_config_cat.h:131
 msgid "General stream output settings"
-msgstr "Vispārīgie plūsmas izejas iestatījumi"
+msgstr "Pamata straumes izvades iestatījumi"
 
 #: include/vlc_config_cat.h:133
 msgid "Muxers"
@@ -292,14 +293,15 @@ msgid ""
 "always force a specific muxer. You should probably not do that.\n"
 "You can also set default parameters for each muxer."
 msgstr ""
-"Muxeri rada iekapsulēšanu formātus, kas tiek izmantoti īstenot visas "
-"elementāras plūsmas (video, audio, ...) kopā. Šis iestatījums ļauj jums "
-"vienmēr piespiest īpašu muxeri. Jums ieteicams to nedarīt. \n"
-"Jūs varat arī iestatīt noklusējuma parametrus katram muxeram."
+"Muksētāji rada iekapsulēšanas formātus, kurus izmanto, lai savienotu visas "
+"elementārās straumes (video, audio, ...) kopā. Šis iestatījums atļauj Jums "
+"vienmēr piespiest specifisku muksētāju. Jums, iespējams, nevajadzētu to "
+"darīt.\n"
+"Jūs varat arī iestatīt noklusētos parametrus katram muksētājam."
 
 #: include/vlc_config_cat.h:141
 msgid "Access output"
-msgstr "Piekļuves izejas"
+msgstr "Piekļuves izvade"
 
 #: include/vlc_config_cat.h:143
 msgid ""
@@ -308,10 +310,10 @@ msgid ""
 "should probably not do that.\n"
 "You can also set default parameters for each access output."
 msgstr ""
-"Piekļuves izejas moduļi kontrolē veidus multipleksētas plūsmas tiek sūtītas. "
-"Šis iestatījums ļauj jums vienmēr piespiest īpašu piekļuvi izvades metodēm. "
-"Jums ieteicams to nedarīt.\n"
-"Jūs varat arī iestatīt noklusējuma parametrus katram piekļuves izejai."
+"Piekļuves izvades moduļi kontrolē veidus, kādos muksētās straumes tiek "
+"nosūtītas. Šis iestatījums atļauj Jums vienmēr piespiest specifisku "
+"piekļuves izvades metodi. Jums, iespējams, nevajadzētu to darīt.\n"
+"Jūs varat arī uzstādīt noklusētos parametrus katrai piekļuves izvadei."
 
 #: include/vlc_config_cat.h:148
 msgid "Packetizers"
@@ -324,10 +326,10 @@ msgid ""
 "not do that.\n"
 "You can also set default parameters for each packetizer."
 msgstr ""
-"Packetizers tiek izmantoti, lai \"preprocess\" elementāras plūsmas pirms "
-"muxing. Šis iestatījums ļauj jums vienmēr piespiest packetizer. Jums "
-"ieteicams to nedarīt. \n"
-"Jūs varat arī iestatīt noklusējuma parametrus katram packetizer."
+"Paketizētāji tiek lietoti, lai \"pirmsapstrādātu\" elementāras straumes "
+"pirms muksēšanas. Šis iestatījums atļauj Jums vienmēr piespiest "
+"paketizētāju. Jums, iespējams, nevajadzētu to darīt.\n"
+"Jūs varat arī iestatīt noklusētos parametrus katram paketizētājam."
 
 #: include/vlc_config_cat.h:156
 msgid "Sout stream"
@@ -339,17 +341,17 @@ msgid ""
 "the Streaming Howto for more information. You can configure default options "
 "for each sout stream module here."
 msgstr ""
-"Sout plūsma moduļi ļauj veidot Sout apstrādes ķēdi. Lūdzu atsaukties uz "
-"Streaming Howto iegūtu vairāk informācijas. Jūs varat konfigurēt noklusējuma "
-"iespējas katram Sout plūsmas modulim šeit."
+"Sout straumes moduļi atļauj būvēt sout apstrādes ķēdi. Lūdzu, atsaucieties "
+"uz Straumēšanas Pamācību, lai iegūtu vairāk informācijas. Jūs varat šeit "
+"konfigurēt noklusētās opcijas katram sout straumes modulim."
 
 #: include/vlc_config_cat.h:162
 msgid "VOD"
-msgstr "Pieprasījumvideo "
+msgstr "Pieprasījumvideo (VOD)"
 
 #: include/vlc_config_cat.h:163
 msgid "VLC's implementation of Video On Demand"
-msgstr "VLC ir īstenošana Video On Demand"
+msgstr "VLC pieprasījumvideo (VOD) īstenojums"
 
 #: include/vlc_config_cat.h:167 src/libvlc-module.c:1994
 #: src/playlist/engine.c:243 modules/demux/playlist/playlist.c:64
@@ -367,34 +369,34 @@ msgid ""
 "Settings related to playlist behaviour (e.g. playback mode) and to modules "
 "that automatically add items to the playlist (\"service discovery\" modules)."
 msgstr ""
-"Iestatījumus, kas saistīti ar atskaņošanas saraksta uzvedību (piemēram, "
-"atskaņošanas režīmā), un moduļiem, kas automātiski pievieno objektus "
-"atskaņošanas sarakstam (\"pakalpojums atklājums\" moduļiem)."
+"Iestatījumi, kuri saistīti ar atskaņošanas saraksta rīcību (piem., "
+"atskaņošanas saraksta režīms) un moduļiem, kuri automātiski pievieno "
+"vienumus atskaņošanas sarakstam (\"servisu atklāšanas\" moduļi)."
 
 #: include/vlc_config_cat.h:172
 msgid "General playlist behaviour"
-msgstr "Kopumā atskaņošanas saraksta uzvedība"
+msgstr "Vispārēja atskaņošanas saraksta rīcība"
 
 #: include/vlc_config_cat.h:173
 msgid "Services discovery"
-msgstr "Pakalpojumu atklāšana"
+msgstr "Servisu atklāšana"
 
 #: include/vlc_config_cat.h:174
 msgid ""
 "Services discovery modules are facilities that automatically add items to "
 "playlist."
 msgstr ""
-"Pakalpojumu atklāšanas moduļi ir iekārtas, kas automātiski pievieno objektus "
+"Servisu atklāšanas moduļi ir iekārtas, kuras automātiski pievieno vienumus "
 "atskaņošanas sarakstam."
 
 #: include/vlc_config_cat.h:178 src/libvlc-module.c:1790
 #: modules/gui/qt4/ui/video_effects.h:1495
 msgid "Advanced"
-msgstr "Uzlabots"
+msgstr "Papildu"
 
 #: include/vlc_config_cat.h:179
 msgid "Advanced settings. Use with care..."
-msgstr "Papildu uzstādījumi. Izmantojiet uzmanīgi ..."
+msgstr "Papildu iestatījumi. Lietot uzmanīgi..."
 
 #: include/vlc_config_cat.h:181
 msgid "Advanced settings"
@@ -407,9 +409,9 @@ msgid ""
 "go to the directory where you installed VLC and run \"vlc -I qt\"\n"
 msgstr ""
 "\n"
-"Brīdinājums: ja jūs nevarat piekļūt GUI vairs, atveriet komandrindas logu, "
-"dodieties uz direktoriju, kur jūsu uzstādījāt VLC un palaidiet \"VLC-I qt"
-"\" \n"
+"Brīdinājums: ja Jūs vairs nevarat piekļūt grafiskajai saskarnei, atveriet "
+"komandrindas logu, dodieties uz katalogu, kurā Jūs instalējāt VLC un "
+"palaidiet \"vlc -I qt\"\n"
 
 #: include/vlc_intf_strings.h:46
 msgid "&Open File..."
@@ -421,31 +423,31 @@ msgstr "Papildinātā atvēršana..."
 
 #: include/vlc_intf_strings.h:48
 msgid "Open D&irectory..."
-msgstr "Atvērt D&irektoriju..."
+msgstr "Atvērt katalogu..."
 
 #: include/vlc_intf_strings.h:49
 msgid "Open &Folder..."
-msgstr "Atvērt &Mapi..."
+msgstr "Atvērt mapi..."
 
 #: include/vlc_intf_strings.h:50
 msgid "Select one or more files to open"
-msgstr "Izvelties vienu vai vairākas datnes ko atvert "
+msgstr "Atlasiet vienu vai vairākas datnes, kuras atvērt"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
-msgstr "Izvēlaties Direktoriju"
+msgstr "Izvēlēties katalogu"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Folder"
-msgstr "Izvēlaties Mapi"
+msgstr "Izvēlieties mapi"
 
 #: include/vlc_intf_strings.h:55
 msgid "Media &Information"
-msgstr "Mediji &Informācija"
+msgstr "Medija informācija"
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
-msgstr "Kodeka Informācija"
+msgstr "Kodeka informācija"
 
 #: include/vlc_intf_strings.h:57
 msgid "&Messages"
@@ -453,7 +455,7 @@ msgstr "Ziņojumi"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "Pāriet uz Īpašu &Laiku"
+msgstr "Pārlekt uz specifisku laiku"
 
 #: include/vlc_intf_strings.h:59
 msgid "Custom &Bookmarks"
@@ -461,7 +463,7 @@ msgstr "Pielāgotas grāmatzīmes"
 
 #: include/vlc_intf_strings.h:60
 msgid "&VLM Configuration"
-msgstr "VLM Konfigurācija"
+msgstr "VLM konfigurācija"
 
 #: include/vlc_intf_strings.h:62
 msgid "&About"
@@ -536,7 +538,7 @@ msgstr "Nejaušs"
 
 #: include/vlc_intf_strings.h:82 modules/gui/macosx/CoreInteraction.m:372
 msgid "Random Off"
-msgstr "Nejaušs izslegts"
+msgstr "Nejaušs izslēgts"
 
 #: include/vlc_intf_strings.h:83
 msgid "Add to Playlist"
@@ -598,31 +600,31 @@ msgid ""
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>Laipni lūgti VLC mediju atskaņotāja "
-"palīdzībā</h2><h3>Dokumentācija</h3><p>Jūs varat atrast dokumentāciju "
-"VideoLAN <a href=\"http://wiki.videolan.org\">viki</a> mājaslapā.</p><p>Ja "
-"Jūs esat jaunpienācējs pie VLC mediju atskaņotāja, lūdzu, izlasiet<br><a "
-"href=\"http://wiki.videolan.org/Documentation:VLC_for_dummies\"><em>Ievads "
-"VLC mediju atskaņotājā</em></a>.</p><p>Jūs atradīsiet mazliet informācijas "
-"par to, kā lietot atskaņotāju iekš<br>\"<a href=\"http://wiki.videolan.org/"
-"Documentation:Play_HowTo\"><em>Kā atskaņot datnes ar VLC mediju atskaņotāju</"
-"em></a>\" dokumenta.</p><p>Priekš visiem saglabāšanas, pārveidošanas, "
-"pārkodēšanas, iekodēšanas, muksēšanas un straumēšanas uzdevumiem, Jums "
-"vajadzētu atrast noderīgu informāciju iekš <a href=\"http://wiki.videolan."
-"org/Documentation:Streaming_HowTo\">Straumēšanas dokumentācijas</a>.</"
-"p><p>Ja Jūs neesat pārliecināts par terminoloģiju, lūdzu, konsultējieties <a "
-"href=\"http://wiki.videolan.org/Knowledge_Base\">zināšanu bāzē</a>.</"
-"p><p>Lai saprastu galvenās klaviatūras saīsnes, lasiet <a href=\"http://wiki."
-"videolan.org/Hotkeys\">saīšņu</a> lapu.</p><h3>Palīdzība</h3><p>Pirms uzdot "
-"jebkādus jautājumus, lūdzu pievērsiet sevi pie <a href=\"http://www.videolan."
-"org/support/faq.html\">BUJ</a>.</p><p>Jūs tad varētu iegūt (un dot) "
-"palīdzību <a href=\"http://forum.videolan.org\">Forumos</a>, <a href="
-"\"http://www.videolan.org/vlc/lists.html\">adresātu sarakstos</a> vai mūsu "
-"IRC kanālā (<em>#videolan</em> uz irc.freenode.net).</p><h3>Dodiet "
-"ieguldījumu projektā</h3><p>Jūs varat palīdzēt VideoLAN projektam, dodot "
-"mazliet Jūsu laika, lai palīdzētu kopienai, lai konstruētu ādiņas, lai "
-"tulkotu dokumentāciju, lai testētu un lai kodētu. Jūs varat arī dot "
-"līdzekļus un materiālu, lai palīdzētu mums. Un, protams, Jūs varat "
-"<b>veicināt</b> VLC mediju atskaņotāju.</p></body></html>"
+"Palīdzībā</h2><h3>Dokumentācija</h3><p>Jūs varat atrast dokumentāciju "
+"VideoLAN <a href=\"http://wiki.videolan.org\">viki</a>  tīmekļa vietnē.</"
+"p><p>Ja Jūs esat jaunpienācējs pie VLC mediju atskaņotāja, lūdzu, "
+"izlasiet<br><a href=\"http://wiki.videolan.org/Documentation:VLC_for_dummies"
+"\"><em>Ievads VLC mediju atskaņotājā</em></a>.</p><p>Jūs atradīsiet mazliet "
+"informācijas par to, kā lietot atskaņotāju iekš<br>\"<a href=\"http://wiki."
+"videolan.org/Documentation:Play_HowTo\"><em>Kā atskaņot datnes ar VLC mediju "
+"atskaņotāju</em></a>\" dokumenta.</p><p>Priekš visiem saglabāšanas, "
+"pārveidošanas, pārkodēšanas, iekodēšanas, muksēšanas un straumēšanas "
+"uzdevumiem, Jums vajadzētu atrast noderīgu informāciju iekš <a href=\"http://"
+"wiki.videolan.org/Documentation:Streaming_HowTo\">Straumēšanas "
+"dokumentācijas</a>.</p><p>Ja Jūs neesat pārliecināts par terminoloģiju, "
+"lūdzu, konsultējieties <a href=\"http://wiki.videolan.org/Knowledge_Base"
+"\">zināšanu bāzē</a>.</p><p>Lai saprastu galvenās klaviatūras saīsnes, "
+"lasiet <a href=\"http://wiki.videolan.org/Hotkeys\">saīšņu</a> lapu.</"
+"p><h3>Palīdzība</h3><p>Pirms uzdot jebkādus jautājumus, lūdzu pievērsiet "
+"sevi pie <a href=\"http://www.videolan.org/support/faq.html\">BUJ</a>.</"
+"p><p>Jūs tad varētu iegūt (un dot) palīdzību <a href=\"http://forum.videolan."
+"org\">Forumos</a>, <a href=\"http://www.videolan.org/vlc/lists.html"
+"\">adresātu sarakstos</a> vai mūsu IRC kanālā (<em>#videolan</em> uz irc."
+"freenode.net).</p><h3>Dodiet ieguldījumu projektā</h3><p>Jūs varat palīdzēt "
+"VideoLAN projektam, dodot mazliet Jūsu laika, lai palīdzētu kopienai, lai "
+"konstruētu ādiņas, lai tulkotu dokumentāciju, lai testētu un lai kodētu. Jūs "
+"varat arī dot līdzekļus un materiālu, lai palīdzētu mums. Un, protams, Jūs "
+"varat <b>veicināt</b> VLC mediju atskaņotāju.</p></body></html>"
 
 #: src/audio_output/filters.c:247
 msgid "Audio filtering failed"
@@ -631,7 +633,7 @@ msgstr "Audio filtrēšana neizdevās"
 #: src/audio_output/filters.c:248
 #, c-format
 msgid "The maximum number of filters (%u) was reached."
-msgstr "Maksimālais numurs filtru (%u) tika sasniegts."
+msgstr "Filtru skaita maksimums (%u) tika sasniegts."
 
 #: src/audio_output/output.c:229 src/config/core.c:407 src/input/es_out.c:904
 #: src/libvlc-module.c:538 modules/gui/macosx/MainMenu.m:277
@@ -645,7 +647,7 @@ msgstr "Spektrometrs"
 
 #: src/audio_output/output.c:235
 msgid "Scope"
-msgstr "Redzesloks"
+msgstr "Darbības sfēra"
 
 #: src/audio_output/output.c:238
 msgid "Spectrum"
@@ -653,7 +655,7 @@ msgstr "Spektrs"
 
 #: src/audio_output/output.c:241
 msgid "Vu meter"
-msgstr "Vu mērītājs"
+msgstr "Skaņas līmeņa mērītājs"
 
 #: src/audio_output/output.c:280 src/libvlc-module.c:190
 msgid "Audio filters"
@@ -666,7 +668,7 @@ msgstr "Skaļuma izlīdzināšana"
 #: src/audio_output/output.c:385 modules/gui/macosx/MainMenu.m:426
 #: modules/gui/macosx/MainMenu.m:427
 msgid "Stereo audio mode"
-msgstr "Stereo audio veids"
+msgstr "Stereo audio režīms"
 
 #: src/audio_output/output.c:420 src/libvlc-module.c:187
 msgid "Dolby Surround"
@@ -718,7 +720,7 @@ msgstr "Apvērstais stereo"
 #: modules/access/v4l2/v4l2.c:137
 #: modules/gui/qt4/components/open_panels.cpp:948
 msgid "Automatic"
-msgstr "Automātisks"
+msgstr "Automātiski"
 
 #: src/config/file.c:460
 msgid "boolean"
@@ -777,24 +779,24 @@ msgid ""
 "\n"
 msgstr ""
 "Lietošana: %s [opcijas] [straume] ...\n"
-"Jūs varat norādīt vairākas straumes uz komandrindas.\n"
+"Jūs komandrindā varat norādīt vairākas straumes.\n"
 "Tās tiks ierindotas atskaņošanas sarakstā.\n"
 "Pirmais norādītais vienums tiks atskaņots pirmais.\n"
 "\n"
 "Opciju stili:\n"
 "  --opcija  Globāla opcija, kura ir uzstādīta priekš programmas ilguma.\n"
-"   -iespēja  Viena burta versija globālajai --iespējai.\n"
-"   :iespēja  Iespēja, kura tikai pielietojas uz straumi tieši pirms tās\n"
+"   -opcija  Viena burta versija globālajai --opcijai.\n"
+"   :opcija  opcija, kura tikai pielietojas uz straumi tieši pirms tās\n"
 "             un kura pārraksta iepriekšējos iestatījumus.\n"
 "\n"
 "Straumes MRL sintakse:\n"
 "  [[piekļuve][/atmuksēšana]://]URL[#[virsraksts][:nodaļa][-[virsraksts][:"
 "nodaļa]]]\n"
-"  [:iespēja=vērtība ...]\n"
+"  [:opcija=vērtība ...]\n"
 "\n"
-"  Daudzas no globālajām --iespējām var arī tikt lietotas kā MRL specifiskas :"
-"iespējas.\n"
-"  Vairāki :iespēja=vērtība pāri var tikt norādīti.\n"
+"  Daudzas no globālajām --opcijām var arī tikt lietotas kā MRL specifiskas :"
+"opcijas.\n"
+"  Vairāki :opcija=vērtība pāri var tikt norādīti.\n"
 "\n"
 "URL sintakse:\n"
 "  file:///ceļš/datne                       Vienkārša mediju datne\n"
@@ -837,11 +839,11 @@ msgid "%u module was not displayed because it only has advanced options.\n"
 msgid_plural ""
 "%u modules were not displayed because they only have advanced options.\n"
 msgstr[0] ""
-"%u modulis netika parādīts tāpēc, ka tam ir tikai paplašinātas opcijas.\n"
+"%u modulis netika attēlots tāpēc, ka tam ir tikai paplašinātas opcijas.\n"
 msgstr[1] ""
-"%u moduļi netika parādīti tāpēc, ka tiem ir tikai paplašinātas opcijas.\n"
+"%u moduļi netika attēloti tāpēc, ka tiem ir tikai paplašinātas opcijas.\n"
 msgstr[2] ""
-"%u moduļi netika parādīti tāpēc, ka tiem ir tikai paplašinātas opcijas.\n"
+"%u moduļi netika attēloti tāpēc, ka tiem ir tikai paplašinātas opcijas.\n"
 
 #: src/config/help.c:605
 msgid ""
@@ -885,43 +887,43 @@ msgstr ""
 
 #: src/config/keys.c:56
 msgid "Backspace"
-msgstr "Backspace"
+msgstr "Atpakaļatkāpe"
 
 #: src/config/keys.c:57
 msgid "Brightness Down"
-msgstr "Spilgtums Lejup"
+msgstr "Spilgtums lejup"
 
 #: src/config/keys.c:58
 msgid "Brightness Up"
-msgstr "Spilgtums Augšup"
+msgstr "Spilgtums augšup"
 
 #: src/config/keys.c:59
 msgid "Browser Back"
-msgstr "Pārlūks Atpakaļ"
+msgstr "Pārlūks atpakaļ"
 
 #: src/config/keys.c:60
 msgid "Browser Favorites"
-msgstr "Pārlūks Favorīti"
+msgstr "Pārlūka favorīti"
 
 #: src/config/keys.c:61
 msgid "Browser Forward"
-msgstr "Pārlūks Uz priekšu"
+msgstr "Pārlūks uz priekšu"
 
 #: src/config/keys.c:62
 msgid "Browser Home"
-msgstr "Pārlūks Mājas"
+msgstr "Pārlūka mājas"
 
 #: src/config/keys.c:63
 msgid "Browser Refresh"
-msgstr "Pārlūks Atsvaidzināt"
+msgstr "Pārlūka atsvaidzināšana"
 
 #: src/config/keys.c:64
 msgid "Browser Search"
-msgstr "Pārlūks Meklēt"
+msgstr "Pārlūka meklēšana"
 
 #: src/config/keys.c:65
 msgid "Browser Stop"
-msgstr "Pārlūks Apturēt"
+msgstr "Pārlūka apturēšana"
 
 #: src/config/keys.c:66 modules/gui/macosx/playlist.m:583
 #: modules/gui/qt4/dialogs/bookmarks.cpp:50
@@ -932,7 +934,7 @@ msgstr "Delete"
 
 #: src/config/keys.c:67
 msgid "Down"
-msgstr "Down"
+msgstr "Lejup"
 
 #: src/config/keys.c:68 modules/control/rc.c:72
 msgid "End"
@@ -996,11 +998,11 @@ msgstr "F9"
 
 #: src/config/keys.c:83
 msgid "Home"
-msgstr "Mājas"
+msgstr "Home"
 
 #: src/config/keys.c:84
 msgid "Insert"
-msgstr "Ievietot"
+msgstr "Insert"
 
 #: src/config/keys.c:86
 msgid "Media Angle"
@@ -1012,7 +1014,7 @@ msgstr "Medija audio celiņš"
 
 #: src/config/keys.c:88
 msgid "Media Forward"
-msgstr "Medijs Uz priekšu"
+msgstr "Medijs uz priekšu"
 
 #: src/config/keys.c:89
 msgid "Media Menu"
@@ -1024,7 +1026,7 @@ msgstr "Medija nākošais kadrs"
 
 #: src/config/keys.c:91
 msgid "Media Next Track"
-msgstr "Medija nākamais celiņš"
+msgstr "Medija nākošais celiņš"
 
 #: src/config/keys.c:92
 msgid "Media Play Pause"
@@ -1064,7 +1066,7 @@ msgstr "Medija apturēšana"
 
 #: src/config/keys.c:101
 msgid "Media Subtitle"
-msgstr "Medija subtitri"
+msgstr "Medija subtitrs"
 
 #: src/config/keys.c:102
 msgid "Media Time"
@@ -1072,7 +1074,7 @@ msgstr "Medija laiks"
 
 #: src/config/keys.c:103
 msgid "Media View"
-msgstr "Medija attēlojums"
+msgstr "Medija skats"
 
 #: src/config/keys.c:104 modules/gui/qt4/components/controller.cpp:542
 msgid "Menu"
@@ -1096,11 +1098,11 @@ msgstr "Peles ritenītis uz augšu"
 
 #: src/config/keys.c:109
 msgid "Page Down"
-msgstr "Lapa uz leju"
+msgstr "Page Down"
 
 #: src/config/keys.c:110
 msgid "Page Up"
-msgstr "Lapa uz augšu"
+msgstr "Page Up"
 
 #: src/config/keys.c:111 modules/control/rc.c:71
 #: modules/gui/macosx/ControlsBar.m:434 modules/gui/macosx/MainMenu.m:1303
@@ -1115,7 +1117,7 @@ msgstr "Drukāt"
 
 #: src/config/keys.c:114 modules/demux/mp4/id3genres.h:76
 msgid "Space"
-msgstr "Atstarpe"
+msgstr "Space"
 
 #: src/config/keys.c:115
 msgid "Tab"
@@ -1137,7 +1139,7 @@ msgstr "Skaļums uz leju"
 
 #: src/config/keys.c:119
 msgid "Volume Mute"
-msgstr "Skaļums mēms"
+msgstr "Skaļuma klusināšana"
 
 #: src/config/keys.c:120 modules/gui/macosx/MainMenu.m:511
 msgid "Volume Up"
@@ -1193,7 +1195,7 @@ msgstr "atkodētājs"
 #: modules/codec/avcodec/encoder.c:332 modules/codec/avcodec/encoder.c:870
 #: modules/stream_out/es.c:362 modules/stream_out/es.c:377
 msgid "Streaming / Transcoding failed"
-msgstr "Straumēšanas / Transkodēšana neizdevās"
+msgstr "Straumēšana / Pārkodēšana neizdevās"
 
 #: src/input/decoder.c:262
 #, c-format
@@ -1244,7 +1246,7 @@ msgstr "Programma"
 
 #: src/input/es_out.c:1338 src/input/es_out.c:1340
 msgid "Scrambled"
-msgstr "Kultenis"
+msgstr "Sakults"
 
 #: src/input/es_out.c:1338
 msgid "Yes"
@@ -1253,12 +1255,12 @@ msgstr "Jā"
 #: src/input/es_out.c:2010
 #, c-format
 msgid "Closed captions %u"
-msgstr "Slēgtie paraksti %u"
+msgstr "Slēgtie subtitri %u"
 
 #: src/input/es_out.c:2868
 #, c-format
 msgid "Stream %d"
-msgstr "Plūsma %d"
+msgstr "Straume %d"
 
 #: src/input/es_out.c:2884 src/input/es_out.c:2999 modules/access/imem.c:64
 msgid "Subtitle"
@@ -1273,7 +1275,7 @@ msgstr "Tips"
 
 #: src/input/es_out.c:2895
 msgid "Original ID"
-msgstr "Oriģinālā ID"
+msgstr "Oriģinālais ID"
 
 #: src/input/es_out.c:2903 src/input/es_out.c:2906 modules/access/imem.c:67
 #: modules/gui/macosx/ConvertAndSave.m:177
@@ -1303,7 +1305,7 @@ msgstr "Kanāli"
 #: src/input/es_out.c:2927 modules/access/alsa.c:39 modules/access/imem.c:75
 #: modules/audio_output/amem.c:45 modules/codec/fluidsynth.c:60
 msgid "Sample rate"
-msgstr "Parauga likme"
+msgstr "Diskretizācijas frekvence"
 
 #: src/input/es_out.c:2927
 #, c-format
@@ -1312,7 +1314,7 @@ msgstr "%u Hz"
 
 #: src/input/es_out.c:2937
 msgid "Bits per sample"
-msgstr "Biti uz paraugu"
+msgstr "Biti uz nolasi"
 
 #: src/input/es_out.c:2942 modules/access_output/shout.c:92
 #: modules/demux/playlist/shoutcast.c:335
@@ -1320,7 +1322,7 @@ msgstr "Biti uz paraugu"
 #: modules/gui/macosx/ConvertAndSave.m:188 modules/gui/qt4/ui/profiles.h:712
 #: modules/gui/qt4/ui/profiles.h:738
 msgid "Bitrate"
-msgstr "Bitu ātrums"
+msgstr "Bitu pārraides ātrums"
 
 #: src/input/es_out.c:2942
 #, c-format
@@ -1329,11 +1331,11 @@ msgstr "%u kb/s"
 
 #: src/input/es_out.c:2954
 msgid "Track replay gain"
-msgstr "Ieraksta atskaņošanas ieguvums"
+msgstr "Celiņa skaļuma izlīdzināšana"
 
 #: src/input/es_out.c:2956
 msgid "Album replay gain"
-msgstr "Albuma atskaņošanas ieguvums"
+msgstr "Albuma skaļuma izlīdzināšana"
 
 #: src/input/es_out.c:2957
 #, c-format
@@ -1356,7 +1358,7 @@ msgstr "Displeja izšķirtspēja"
 #: modules/access/vdr.c:78 modules/access/vnc.c:59 modules/demux/image.c:66
 #: modules/gui/macosx/ConvertAndSave.m:179
 msgid "Frame rate"
-msgstr "Kadru likme"
+msgstr "Kadru nomaiņas ātrums"
 
 #: src/input/es_out.c:2992
 msgid "Decoded format"
@@ -1364,12 +1366,13 @@ msgstr "Atkodētais formāts"
 
 #: src/input/input.c:2302
 msgid "Your input can't be opened"
-msgstr "Jūsu ievadi nevar atvērt"
+msgstr "Jūsu ievade nevar tikt atvērta"
 
 #: src/input/input.c:2303
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
-msgstr "VLC nevar atvērt MRL '%s'. Pārbaudiet žurnālu, lai uzzinātu vairāk."
+msgstr ""
+"VLC nevar atvērt MRL '%s'. Pārbaudiet žurnālu, lai iegūtu sīkāku informāciju."
 
 #: src/input/input.c:2415
 msgid "VLC can't recognize the input's format"
@@ -1380,7 +1383,8 @@ msgstr "VLC nevar atpazīt ievades formātu"
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
 msgstr ""
-"\"%s\" formāts nevar būt konstatēts. Ieskatieties žurnālā ar informāciju."
+"Formāts '%s' nevar tikt noteikts. Apskatiet žurnālu, lai iegūtu sīkāku "
+"informāciju."
 
 #: src/input/meta.c:55 src/input/var.c:177 modules/gui/macosx/MainMenu.m:73
 #: modules/gui/macosx/MainMenu.m:415 modules/gui/macosx/MainMenu.m:416
@@ -1395,7 +1399,7 @@ msgstr "Virsraksts"
 #: src/input/meta.c:56 modules/gui/macosx/playlist.m:1205
 #: modules/gui/macosx/playlistinfo.m:74 modules/mux/avi.c:48
 msgid "Artist"
-msgstr "Mākslinieks"
+msgstr "Izpildītājs"
 
 #: src/input/meta.c:57 modules/demux/mp4/mp4.c:1469
 #: modules/gui/macosx/MainMenu.m:76 modules/mux/avi.c:50
@@ -1404,7 +1408,7 @@ msgstr "Žanrs"
 
 #: src/input/meta.c:58 modules/mux/asf.c:60 modules/mux/avi.c:51
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Autortiesības"
 
 #: src/input/meta.c:59 src/libvlc-module.c:228 modules/access/vcdx/info.c:63
 #: modules/gui/macosx/MainMenu.m:77
@@ -1413,7 +1417,7 @@ msgstr "Albums"
 
 #: src/input/meta.c:60
 msgid "Track number"
-msgstr "Ierakstu skaits"
+msgstr "Celiņa numurs"
 
 #: src/input/meta.c:62 modules/mux/asf.c:64
 msgid "Rating"
@@ -1434,24 +1438,24 @@ msgstr "URL"
 
 #: src/input/meta.c:67 modules/notify/notify.c:318
 msgid "Now Playing"
-msgstr "Tagad Spēlē"
+msgstr "Patlaban atskaņo"
 
 #: src/input/meta.c:68 modules/access/vcdx/info.c:70
 #: modules/demux/mp4/mp4.c:1478
 msgid "Publisher"
-msgstr "Izdevējs"
+msgstr "Izdevniecība"
 
 #: src/input/meta.c:69
 msgid "Encoded by"
-msgstr "Kodēts ar"
+msgstr "Iekodējis"
 
 #: src/input/meta.c:70
 msgid "Artwork URL"
-msgstr "Mākslas Darba URL"
+msgstr "Mākslas darba URL"
 
 #: src/input/meta.c:71
 msgid "Track ID"
-msgstr "Ieraksta ID"
+msgstr "Celiņa ID"
 
 #: src/input/meta.c:72
 msgid "Number of Tracks"
@@ -1498,16 +1502,16 @@ msgstr "Navigācija"
 #: src/input/var.c:200 modules/gui/macosx/MainMenu.m:441
 #: modules/gui/macosx/MainMenu.m:442
 msgid "Video Track"
-msgstr "Video Ieraksts"
+msgstr "Video celiņš"
 
 #: src/input/var.c:205 modules/gui/macosx/MainMenu.m:424
 #: modules/gui/macosx/MainMenu.m:425
 msgid "Audio Track"
-msgstr "Audio ieraksts"
+msgstr "Audio celiņš"
 
 #: src/input/var.c:210
 msgid "Subtitle Track"
-msgstr "Subtitra celiņš"
+msgstr "Subtitru celiņš"
 
 #: src/input/var.c:277
 msgid "Next title"
@@ -1543,7 +1547,7 @@ msgstr "Medijs: %s"
 #: src/interface/interface.c:84 modules/gui/macosx/MainMenu.m:353
 #: modules/gui/macosx/MainMenu.m:354
 msgid "Add Interface"
-msgstr "Pievienot interfeisu"
+msgstr "Pievienot saskarni"
 
 #: src/interface/interface.c:91
 msgid "Console"
@@ -1555,11 +1559,11 @@ msgstr "Telnet"
 
 #: src/interface/interface.c:98
 msgid "Web"
-msgstr "Tīkls"
+msgstr "Tīmeklis"
 
 #: src/interface/interface.c:101
 msgid "Debug logging"
-msgstr "Atkļūdošanas reģistrēšana"
+msgstr "Atkļūdošanas žurnalēšana"
 
 #: src/interface/interface.c:104
 msgid "Mouse Gestures"
@@ -1570,8 +1574,8 @@ msgid ""
 "Running vlc with the default interface. Use 'cvlc' to use vlc without "
 "interface."
 msgstr ""
-"Darbojošais VLC ar noklusējuma interfeisu. Lietojiet 'cvlc \", lai izmantot "
-"VLC bez interfeisu."
+"Palaists vlc ar noklusēto saskarni. Lietot 'cvlc', lai lietotu vlc bez "
+"saskarnes."
 
 #. xgettext: Translate "C" to the language code: "fr", "en_GB", "nl", "ru"...
 #: src/libvlc.c:183
@@ -1606,9 +1610,9 @@ msgid ""
 "select the main interface, additional interface modules, and define various "
 "related options."
 msgstr ""
-"Šīs opcijas ļauj konfigurēt saskarnes ko VLC izmanto. Jūs varat izvēlēties "
-"galveno interfeisu, papildus interfeisa moduļi, un noteikt dažādas saistītās "
-"iespējas."
+"Šīs opcijas atļauj Jums konfigurēt VLC lietotās saskarnes. Jūs varat atlasīt "
+"galveno saskarni, papildu saskarnes moduļus, kā arī norādīt dažādas ar "
+"saskarnēm saistītas opcijas."
 
 #: src/libvlc-module.c:66
 msgid "Interface module"
@@ -1624,7 +1628,7 @@ msgstr ""
 
 #: src/libvlc-module.c:72 modules/control/ntservice.c:58
 msgid "Extra interface modules"
-msgstr "Papildus interfeisa moduļi"
+msgstr "Papildu saskarnes moduļi"
 
 #: src/libvlc-module.c:74
 msgid ""
@@ -1633,18 +1637,18 @@ msgid ""
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
-"Jūs varat izvēlēties \"papildu saskarnes\" par VLC. Tie tiks uzsākti fonā "
-"papildus noklusējuma interfeisam. Izmantojiet kolonnu atdalīt saraksts no "
-"interfeisa moduļiem. (kopīgās vērtības ir \"rc\" (tālvadība), \"http\", "
-"\"žesti\" ...)"
+"Jūs varat atlasīt \"papildu saskarnes\" priekš VLC. Tās tiks palaistas fonā "
+"papildus noklusētajai saskarnei. Lietojiet kolu atdalītu sarakstu ar "
+"saskarņu moduļiem. (parastās vērtības ir  \"rc\" (tālvadības kontrole), "
+"\"http\", \"gestures\" ...)"
 
 #: src/libvlc-module.c:81
 msgid "You can select control interfaces for VLC."
-msgstr "Jūs varat izvēlēties kontroles saskarnes priekš VLC."
+msgstr "Jūs varat atlasīt kontroles saskarnes priekš VLC."
 
 #: src/libvlc-module.c:83
 msgid "Verbosity (0,1,2)"
-msgstr "Liekvārdība (0,1,2)"
+msgstr "Runīgums (0,1,2)"
 
 #: src/libvlc-module.c:85
 msgid ""
@@ -1668,7 +1672,7 @@ msgstr "Noklusētā straume"
 
 #: src/libvlc-module.c:94
 msgid "This stream will always be opened at VLC startup."
-msgstr "Šī straume vienmēr tiks atvērta pie VLC palaišanas."
+msgstr "Šī straume vienmēr tiks atvērta pie VLC sāknēšanas."
 
 #: src/libvlc-module.c:96
 msgid "Color messages"
@@ -1684,7 +1688,7 @@ msgstr ""
 
 #: src/libvlc-module.c:101
 msgid "Show advanced options"
-msgstr "Rādīt papildu iespējas"
+msgstr "Parādīt paplašinātas opcijas"
 
 #: src/libvlc-module.c:103
 msgid ""
@@ -1697,15 +1701,15 @@ msgstr ""
 
 #: src/libvlc-module.c:107
 msgid "Interface interaction"
-msgstr "Interfeisa mijiedarbība"
+msgstr "Saskarnes mijiedarbība"
 
 #: src/libvlc-module.c:109
 msgid ""
 "When this is enabled, the interface will show a dialog box each time some "
 "user input is required."
 msgstr ""
-"Kad tas ir aktivizēts, interfeiss parādīs dialoglodziņu ikreiz dažu "
-"lietotāju ievade ir nepieciešama."
+"Kad šis ir iespējots, saskarne parādīs dialoglodziņa kasti katru reizi, kad "
+"ir vajadzīga kaut kāda lietotāja ievade."
 
 #: src/libvlc-module.c:119
 msgid ""
@@ -1714,10 +1718,10 @@ msgid ""
 "(spectrum analyzer, etc.). Enable these filters here, and configure them in "
 "the \"audio filters\" modules section."
 msgstr ""
-"Šīs opcijas ļauj jums mainīt uzvedību audio apakšsistēmu, un pievienot audio "
-"filtrus kuri var izmantoti priekš pēcapstrādes vai vizuālajiem efektiem "
-"(spektra analizators, uc). Aktivizējiet šos filtrus šeit, un konfigurējiet "
-"tos \"audio filtrus\" moduļiem sadaļā."
+"Šīs opcijas atļauj Jums izmainīt audio apakšsistēmas izturēšanos, un "
+"pievienot audio filtrus, kuri var tikt lietoti pēc apstrādei vai vizuālajiem "
+"efektiem (spektra analizētājam, utt.). Iespējot šos filtrus šeit un "
+"konfigurēt tos \"audio filtru\" moduļu sadaļā."
 
 #: src/libvlc-module.c:125
 msgid "Audio output module"
@@ -1734,7 +1738,7 @@ msgstr ""
 #: src/libvlc-module.c:131 modules/gui/macosx/simple_prefs.m:310
 #: modules/stream_out/display.c:40 modules/gui/qt4/ui/sprefs_audio.h:426
 msgid "Enable audio"
-msgstr "Ieslēgt Audio"
+msgstr "Iespējot audio"
 
 #: src/libvlc-module.c:133
 msgid ""
@@ -1750,38 +1754,38 @@ msgstr "Audio ieguvums"
 
 #: src/libvlc-module.c:138
 msgid "This linear gain will be applied to outputted audio."
-msgstr "Šī lineārais ieguvums tiks piemērots audio izvadei."
+msgstr "Šis lineārais ieguvums tiks pielietots uz izvadīto audio."
 
 #: src/libvlc-module.c:140
 msgid "Audio output volume step"
-msgstr "Audio izvades apjoma solis"
+msgstr "Audio izvades skaļuma solis"
 
 #: src/libvlc-module.c:142
 msgid "The step size of the volume is adjustable using this option."
-msgstr "Soļa lieluma apjoms ir regulējams, izmantojot šo iespēju."
+msgstr "Skaļuma soļa izmērs ir pielāgojams, lietojot šo opciju."
 
 #: src/libvlc-module.c:145
 msgid "Remember the audio volume"
-msgstr "Atceries audio skaļumu"
+msgstr "Atcerēties audio skaļumu"
 
 #: src/libvlc-module.c:147
 msgid ""
 "The volume can be recorded and automatically restored next time VLC is used."
 msgstr ""
-"Apjoms var būt ierakstīts un automātiski atjaunots nākamreiz VLC tiek "
-"izmantots."
+"Skaļums var tikt ierakstīts un automātiski atjaunots, nākošreiz, kad VLC "
+"tiek lietots."
 
 #: src/libvlc-module.c:150
 msgid "Audio desynchronization compensation"
-msgstr "Audio desinhronizācijas kompensācija"
+msgstr "Audio atsinhronizēšanas kompensācija"
 
 #: src/libvlc-module.c:152
 msgid ""
 "This delays the audio output. The delay must be given in milliseconds. This "
 "can be handy if you notice a lag between the video and the audio."
 msgstr ""
-"Šis aizkavē audio izeju. Kavēšanai jābūt iesniegtai milisekundēs. Tas var "
-"būt ērts, ja jūs pamanāt nobīdi starp video un audio."
+"Šis aizkavē audio izvadi. Aizturei vajag būt dotai milisekundēs. Šis var būt "
+"parocīgi, ja pamaniet vilcināšanos starp video un audio."
 
 #: src/libvlc-module.c:155
 msgid "Audio resampler"
@@ -1797,26 +1801,26 @@ msgid ""
 "possible (ie. if your hardware supports it as well as the audio stream being "
 "played)."
 msgstr ""
-"Tas nosaka audio izejas kanālu režīmu, kas tiks izmantots pēc noklusējuma "
-"kad tas ir iespējams (t.i., ja jūsu aparatūra atbalsta to, kā arī audio "
-"plūsma tiek spēlēta)."
+"Šis uzstāda audio izvades kanālu režīmu, kurš tiks lietots pēc noklusējuma, "
+"kad iespējams (t.i., ja Jūsu aparatūra atbalsta to, kā arī audio straume, "
+"kura tiek atskaņota)."
 
 #: src/libvlc-module.c:164 modules/gui/macosx/simple_prefs.m:316
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid "Use S/PDIF when available"
-msgstr "Izmanto S/PDIF, kad ir pieejams"
+msgstr "Lieto S/PDIF, kad pieejams"
 
 #: src/libvlc-module.c:166
 msgid ""
 "S/PDIF can be used by default when your hardware supports it as well as the "
 "audio stream being played."
 msgstr ""
-"S/PDIF var tikt izmantots pēc noklusējuma, ja jūsu aparatūra nodrošina to, "
-"kā arī tad, kad audio plūsma tiek spēlēta."
+"S/PDIF var tikt lietots pēc noklusējuma, kad Jūsu aparatūra atbalsta to, kā "
+"arī audio straume, kura tiek atskaņota."
 
 #: src/libvlc-module.c:169 modules/gui/macosx/simple_prefs.m:308
 msgid "Force detection of Dolby Surround"
-msgstr "Spēka noteikšana no Dolby Surround"
+msgstr "Piespiest Dolby Surround noteikšanu"
 
 #: src/libvlc-module.c:171
 msgid ""
@@ -1825,10 +1829,10 @@ msgid ""
 "actually encoded with Dolby Surround, turning on this option might enhance "
 "your experience, especially when combined with the Headphone Channel Mixer."
 msgstr ""
-"Izmanto šo, kad jūs zināt jūsu plūsma ir (vai nav) kodēta ar Dolby Surround, "
-"bet nespēj identificēt kā tādu. Pat tad, ja plūsma ir faktiski nav kodēta ar "
-"Dolby Surround, ieslēdzot šo opciju var uzlabot jūsu pieredzi, īpaši kad "
-"apvienojumā ar Austiņu Kanālu mikseris."
+"Lietojiet šo, kad Jūs zinat, ka Jūsu straume ir (vai nav) iekodēta ar Dolby "
+"Surround, bet neizdodas tikt noteiktai kā tādai. Pat ja straume nav "
+"patiesībā iekodēta ar Dolby Surround, šīs opcijas ieslēgšana varētu uzlabot "
+"Jūsu pieredzi, īpaši kad kombinēts ar austiņu kanālu sajaucēju."
 
 #: src/libvlc-module.c:178 src/win32/thread.c:888
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:442
@@ -1858,15 +1862,16 @@ msgstr "Stereo audio izvades režīms"
 
 #: src/libvlc-module.c:192
 msgid "This adds audio post processing filters, to modify the sound rendering."
-msgstr "Tas papildina audio pēcapstrādes filtrus, lai mainītu skaņas atveidi."
+msgstr ""
+"Šis pievieno audio pēc apstrādes filtrus, lai izmainītu skaņas renderēšanu."
 
 #: src/libvlc-module.c:197
 msgid "This adds visualization modules (spectrum analyzer, etc.)."
-msgstr "Tas papildina vizualizācijas moduli (spektra analizators, uc)."
+msgstr "Šis pievieno vizualizācijas moduļus (spektra analizētāju, utt.)"
 
 #: src/libvlc-module.c:201
 msgid "Replay gain mode"
-msgstr "Atskaņošanas ieguvuma režīms"
+msgstr "Skaļuma izlīdzināšanas režīms"
 
 #: src/libvlc-module.c:203
 msgid "Select the replay gain mode"
@@ -1881,18 +1886,17 @@ msgid ""
 "This allows you to change the default target level (89 dB) for stream with "
 "replay gain information"
 msgstr ""
-"Šis ļauj jums mainīt noklusēto mērķa līmeni (89 dB) priekš plūsmas ar "
-"atskaņošanas ieguvuma informāciju"
+"Šis atļauj Jums izmainīt noklusēto mērķa līmeni (89 dB) straumei ar skaļuma "
+"izlīdzināšanas informāciju"
 
 #: src/libvlc-module.c:210
 msgid "Default replay gain"
-msgstr "Noklusējuma atskaņošanas ieguvums"
+msgstr "Noklusējuma skaļuma izlīdzināšana"
 
 #: src/libvlc-module.c:212
 msgid "This is the gain used for stream without replay gain information"
 msgstr ""
-"Šis ir ieguvums, ko izmanto straumēšanai bez atskaņošanas ieguvuma "
-"informācijas"
+"Šis ir straumēm bez skaļuma izlīdzināšanas informācijas lietotais ieguvums "
 
 #: src/libvlc-module.c:214
 msgid "Peak protection"
@@ -1900,18 +1904,19 @@ msgstr "Pīķa aizsardzība"
 
 #: src/libvlc-module.c:216
 msgid "Protect against sound clipping"
-msgstr "Aizsargāt pret skaņas nocirpšanas"
+msgstr "Aizsargāt pret skaņas nogriešanu"
 
 #: src/libvlc-module.c:219
 msgid "Enable time stretching audio"
-msgstr "Aktivizēt laika stiepšanas audio"
+msgstr "Iespējot laika stiepto audio"
 
 #: src/libvlc-module.c:221
 msgid ""
 "This allows playing audio at lower or higher speed without affecting the "
 "audio pitch"
 msgstr ""
-"Tas ļauj spēlēt audio pie mazāka vai lielāka ātruma neietekmējot audio piķi"
+"Šis atļauj atskaņot audio ar mazāku vai lielāku ātrumu bez audio skaņas "
+"augstuma ietekmēšanas"
 
 #: src/libvlc-module.c:228 modules/access/dshow/dshow.cpp:2016
 #: modules/access/dtv/access.c:107 modules/access/dtv/access.c:141
@@ -1924,7 +1929,7 @@ msgstr ""
 #: modules/text_renderer/freetype.c:155
 #: share/lua/http/dialogs/create_stream.html:196
 msgid "None"
-msgstr "Neviens"
+msgstr "Nekāds"
 
 #: src/libvlc-module.c:236
 msgid ""
@@ -1976,8 +1981,8 @@ msgid ""
 "You can enforce the video width. By default (-1) VLC will adapt to the video "
 "characteristics."
 msgstr ""
-"Jūs varat ieviest video platumu. Pēc noklusējuma (-1) VLC būs jāpielāgojies "
-"video īpašībām."
+"Jūs varat uzspiest video platumu. Pēc noklusējuma (-1) VLC piemērosies video "
+"raksturīgajām pazīmēm."
 
 #: src/libvlc-module.c:257 modules/stream_out/mosaic_bridge.c:112
 #: modules/stream_out/transcode/transcode.c:70
@@ -1991,8 +1996,8 @@ msgid ""
 "You can enforce the video height. By default (-1) VLC will adapt to the "
 "video characteristics."
 msgstr ""
-"Jūs varat ieviest video augstumu. Pēc noklusējuma (-1) VLC tiks pielāgots "
-"video īpašībām."
+"Jūs varat uzspiest video augstumu. Pēc noklusējuma (-1) VLC piemērosies "
+"video raksturīgajām pazīmēm."
 
 #: src/libvlc-module.c:262
 msgid "Video X coordinate"
@@ -2003,7 +2008,7 @@ msgid ""
 "You can enforce the position of the top left corner of the video window (X "
 "coordinate)."
 msgstr ""
-"Jūs varat izpildīt pozīciju augšējā kreisajā stūra video logā (X koordināte)."
+"Jūs varat uzspiest video loga augšējā kreisā stūra pozīciju (X koordināta)."
 
 #: src/libvlc-module.c:267
 msgid "Video Y coordinate"
@@ -2014,7 +2019,7 @@ msgid ""
 "You can enforce the position of the top left corner of the video window (Y "
 "coordinate)."
 msgstr ""
-"Jūs varat izpildīt pozīciju augšējā kreisā stūra video logā (Y koordināte)."
+"Jūs varat uzspiest video loga augšējā kreisā stūra pozīciju (Y koordināta)."
 
 #: src/libvlc-module.c:272
 msgid "Video title"
@@ -2061,7 +2066,7 @@ msgstr "Centrā"
 #: modules/gui/qt4/ui/video_effects.h:1448
 #: modules/gui/qt4/ui/video_effects.h:1459
 msgid "Top"
-msgstr "Augšā"
+msgstr "Virspusē"
 
 #: src/libvlc-module.c:284 src/libvlc-module.c:362 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:81 modules/gui/macosx/VideoEffects.m:104
@@ -2070,7 +2075,7 @@ msgstr "Augšā"
 #: modules/video_filter/marq.c:128 modules/video_filter/mosaic.c:170
 #: modules/video_filter/rss.c:173 modules/gui/qt4/ui/video_effects.h:1409
 msgid "Bottom"
-msgstr "Apakšā"
+msgstr "Apakšpusē"
 
 #: src/libvlc-module.c:285 src/libvlc-module.c:363 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:82 modules/gui/macosx/VideoEffects.m:175
@@ -2079,7 +2084,7 @@ msgstr "Apakšā"
 #: modules/video_filter/marq.c:129 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Top-Left"
-msgstr "Augšā pa kreisi"
+msgstr "Augšpusē pa kreisi"
 
 #: src/libvlc-module.c:285 src/libvlc-module.c:363 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:82 modules/gui/macosx/VideoEffects.m:177
@@ -2088,7 +2093,7 @@ msgstr "Augšā pa kreisi"
 #: modules/video_filter/marq.c:129 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Top-Right"
-msgstr "Augšā pa labi"
+msgstr "Augšpusē pa labi"
 
 #: src/libvlc-module.c:285 src/libvlc-module.c:363 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:82 modules/gui/macosx/VideoEffects.m:179
@@ -2097,7 +2102,7 @@ msgstr "Augšā pa labi"
 #: modules/video_filter/marq.c:129 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Bottom-Left"
-msgstr "Apakšā pa kreisi"
+msgstr "Apakšpusē pa kreisi"
 
 #: src/libvlc-module.c:285 src/libvlc-module.c:363 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:82 modules/gui/macosx/VideoEffects.m:181
@@ -2106,7 +2111,7 @@ msgstr "Apakšā pa kreisi"
 #: modules/video_filter/marq.c:129 modules/video_filter/mosaic.c:171
 #: modules/video_filter/rss.c:174
 msgid "Bottom-Right"
-msgstr "Apakšā pa labi"
+msgstr "Apakšpusē pa labi"
 
 #: src/libvlc-module.c:287
 msgid "Zoom video"
@@ -2172,19 +2177,19 @@ msgstr "Iespējot ekrāntapetes režīmu"
 #: src/libvlc-module.c:315
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
-msgstr "Ekrāntapetes režīms atļauj Jums parādīt video kā darbvirsmas fonu."
+msgstr "Ekrāntapetes režīms atļauj Jums attēlot video kā darbvirsmas fonu."
 
 #: src/libvlc-module.c:318
 msgid "Show media title on video"
-msgstr "Rādīt medija virsrakstu uz video"
+msgstr "Parādīt medija virsrakstu uz video"
 
 #: src/libvlc-module.c:320
 msgid "Display the title of the video on top of the movie."
-msgstr "Parādīt video virsrakstu virs filmas."
+msgstr "Attēlot video virsrakstu filmas augšpusē."
 
 #: src/libvlc-module.c:322
 msgid "Show video title for x milliseconds"
-msgstr "Rādīt video virsrakstu uz x milisekundēm"
+msgstr "Parādīt video virsrakstu uz x milisekundēm"
 
 #: src/libvlc-module.c:324
 msgid "Show the video title for n milliseconds, default is 5000 ms (5 sec.)"
@@ -2198,7 +2203,7 @@ msgstr "Video virsraksta novietojums"
 #: src/libvlc-module.c:328
 msgid "Place on video where to display the title (default bottom center)."
 msgstr ""
-"Vieta uz video, kurā parādīt virsrakstu (noklusējumā apakšpusē centrā)."
+"Vieta uz video, kurā attēlot virsrakstu (noklusējumā apakšpusē centrā)."
 
 #: src/libvlc-module.c:330
 msgid "Hide cursor and fullscreen controller after x milliseconds"
@@ -2215,7 +2220,7 @@ msgstr "Paslēpt peles kursoru un pilnekrāna kontrolieri pēc n milisekundēm"
 #: modules/video_filter/deinterlace/deinterlace.c:97
 #: share/lua/http/dialogs/create_stream.html:346
 msgid "Deinterlace"
-msgstr "Rindpārleces novēršana"
+msgstr "Novērst rindpārleci"
 
 #: src/libvlc-module.c:346 src/video_output/interlacing.c:196
 #: modules/gui/macosx/MainMenu.m:451 modules/gui/macosx/MainMenu.m:452
@@ -2235,7 +2240,7 @@ msgstr "Atmest"
 #: src/libvlc-module.c:355 modules/video_filter/deinterlace/algo_phosphor.h:47
 #: modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Blend"
-msgstr "Maisījums"
+msgstr "Samaisīt"
 
 #: src/libvlc-module.c:355 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Mean"
@@ -2256,7 +2261,7 @@ msgstr "Fosfora"
 
 #: src/libvlc-module.c:357 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Film NTSC (IVTC)"
-msgstr "Filma NTSC (IVTC)"
+msgstr "Filmas NTSC (IVTC)"
 
 #: src/libvlc-module.c:365
 msgid "Disable screensaver"
@@ -2268,14 +2273,14 @@ msgstr "Atspējot ekrānsaudzētāju, notiekot video atskaņošanai."
 
 #: src/libvlc-module.c:368
 msgid "Inhibit the power management daemon during playback"
-msgstr "Apvaldīt elektroenerģijas menedžmenta dēmonu, notiekot atskaņošanai"
+msgstr "Apvaldīt elektroenerģijas pārvaldības dēmonu, notiekot atskaņošanai"
 
 #: src/libvlc-module.c:369
 msgid ""
 "Inhibits the power management daemon during any playback, to avoid the "
 "computer being suspended because of inactivity."
 msgstr ""
-"Apvalda elektroenerģijas menedžmenta dēmonu, notiekot jebkādai atskaņošanai, "
+"Apvalda elektroenerģijas pārvaldības dēmonu, notiekot jebkādai atskaņošanai, "
 "lai izvairītos no datora iemigšanas dēļ neaktivitātes."
 
 #: src/libvlc-module.c:372 modules/gui/macosx/simple_prefs.m:399
@@ -2288,8 +2293,8 @@ msgid ""
 "VLC can avoid creating window caption, frames, etc... around the video, "
 "giving a \"minimal\" window."
 msgstr ""
-"VLC var izvairīties izveidot loga virsrakstjoslas, rāmjus, utt. apkārt "
-"video, dodot  \"minimālu\" logu."
+"VLC var izvairīties izveidot loga virsrakstjoslas, rāmjus, utt... apkārt "
+"video, sniedzot \"minimālu\" logu."
 
 #: src/libvlc-module.c:377
 msgid "Video splitter module"
@@ -2297,7 +2302,7 @@ msgstr "Video sadalītāja modulis"
 
 #: src/libvlc-module.c:379
 msgid "This adds video splitters like clone or wall"
-msgstr "Šis pievieno ekrāna sadalītājus kā klonēšana vai siena"
+msgstr "Šis pievieno ekrāna sadalītājus kā klonēšanu vai sienu"
 
 #: src/libvlc-module.c:381
 msgid "Video filter module"
@@ -2333,20 +2338,20 @@ msgstr "Attēla formāts, kurš tiks lietots, lai uzglabātu video momentuzņēm
 
 #: src/libvlc-module.c:399
 msgid "Display video snapshot preview"
-msgstr "Parādīt video momentuzņēmuma priekšskatījumu"
+msgstr "Attēlot video momentuzņēmuma priekšskatījumu"
 
 #: src/libvlc-module.c:401
 msgid "Display the snapshot preview in the screen's top-left corner."
-msgstr "Parādīt momentuzņēmuma priekšskatījumu ekrāna augšējā kreisajā stūrī."
+msgstr "Attēlot momentuzņēmuma priekšskatījumu ekrāna augšējā kreisajā stūrī."
 
 #: src/libvlc-module.c:403
 msgid "Use sequential numbers instead of timestamps"
-msgstr "Lietot secīgus numurus laikspiedogu vietā"
+msgstr "Lietot secīgus skaitļus laikspiedogu vietā"
 
 #: src/libvlc-module.c:405
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
 msgstr ""
-"Lietot secīgus numurus laikspiedogu vietā priekš momentuzņēmumu numurēšanas"
+"Lietot secīgus skaitļus laikspiedogu vietā priekš momentuzņēmumu numurēšanas"
 
 #: src/libvlc-module.c:407
 msgid "Video snapshot width"
@@ -2422,7 +2427,7 @@ msgid ""
 "Scaling factor used when Auto Scaling is disabled.\n"
 "Default value is 1.0 (original video size)."
 msgstr ""
-"Mērogošanas faktors lietots, kad automātiskā mērogošana ir atspējota.\n"
+"Mērogošanas faktors, kurš lietots, kad automātiskā mērogošana ir atspējota.\n"
 "Noklusētā vērtība ir 1.0 (oriģinālais video izmērs)."
 
 #: src/libvlc-module.c:443
@@ -2500,7 +2505,7 @@ msgid ""
 "intended display date)."
 msgstr ""
 "Šis nomet kadrus, kuri ir nokavēti (nonāk uz video izvadi pēc to paredzētā "
-"parādīšanas datuma)."
+"attēlošanas datuma)."
 
 #: src/libvlc-module.c:476
 msgid "Quiet synchro"
@@ -2693,9 +2698,9 @@ msgid ""
 "Choose the program to select by giving its Service ID. Only use this option "
 "if you want to read a multi-program stream (like DVB streams for example)."
 msgstr ""
-"Izvēlieties programmu, kuru atlasīt, uzdodot tās servisa ID. Tikai lietojiet "
-"šo opciju, ja Jūs gribat nolasīt multi-programmu straumi (piemēram, kā DVB "
-"straumes)."
+"Izvēlieties programmu, kuru atlasīt, uzdodot tās servisa ID. Lietojiet šo "
+"opciju tikai, ja Jūs gribat nolasīt multi-programmu straumi (piemēram, kā "
+"DVB straumes)."
 
 #: src/libvlc-module.c:570
 msgid ""
@@ -2713,7 +2718,7 @@ msgstr "Audio celiņš"
 
 #: src/libvlc-module.c:578
 msgid "Stream number of the audio track to use (from 0 to n)."
-msgstr "Straumes numurs lietojamajam audio celiņam (no 0 līdz n)."
+msgstr "Straumes numurs audio celiņam, kuru lietot (no 0 līdz n)."
 
 #: src/libvlc-module.c:581 modules/gui/qt4/ui/open_disk.h:313
 msgid "Subtitle track"
@@ -2721,7 +2726,7 @@ msgstr "Subtitra celiņš"
 
 #: src/libvlc-module.c:583
 msgid "Stream number of the subtitle track to use (from 0 to n)."
-msgstr "Straumes numurs lietojamajam subtitru celiņam (no 0 līdz n)."
+msgstr "Straumes numurs subtitru celiņam, kuru lietot (no 0 līdz n)."
 
 #: src/libvlc-module.c:586 modules/stream_out/transcode/transcode.c:97
 msgid "Audio language"
@@ -2999,14 +3004,14 @@ msgstr "Jūs varat pilnībā atspējot apakšbilžu apstrādāšanu."
 #: modules/stream_out/transcode/transcode.c:212
 #: modules/gui/qt4/ui/sprefs_subtitles.h:290
 msgid "On Screen Display"
-msgstr "Ekrāndatu attēlošana"
+msgstr "Ekrāna norādījumi (OSD)"
 
 #: src/libvlc-module.c:708
 msgid ""
 "VLC can display messages on the video. This is called OSD (On Screen "
 "Display)."
 msgstr ""
-"VLC var parādīt ziņojumus uz video. Šis tiek saukts par ekrāna norādījumiem "
+"VLC var attēlot ziņojumus uz video. Šis tiek saukts par ekrāna norādījumiem "
 "(On Screen Display)."
 
 #: src/libvlc-module.c:711
@@ -3170,7 +3175,7 @@ msgid ""
 "them to a specific network interface."
 msgstr ""
 "Pēc noklusējuma serveris klausīsies uz jebkuru lokālo IP adresi. Norādiet IP "
-"adresi (piem. ::1 vai 127.0.0.1) vai resursdatora nosaukumu (piem. "
+"adresi (piem., ::1 vai 127.0.0.1) vai resursdatora nosaukumu (piem. "
 "localhost), lai ierobežotu tās uz specifisku tīkla saskarni."
 
 #: src/libvlc-module.c:801
@@ -3188,7 +3193,7 @@ msgstr ""
 "Šis definē adresi, uz kuras RTSP serveris klausīties, kopā ar RTSP "
 "pieprasījumvideo medija bāzes ceļu. Sintakse ir adrese/ceļš. Pēc noklusējuma "
 "serveris klausīsies uz jebkuru lokālo IP adresi. Norādiet IP adresi "
-"(piem. ::1 vai 127.0.0.1) vai resursdatora nosaukumu (piem. localhost), lai "
+"(piem., ::1 vai 127.0.0.1) vai resursdatora nosaukumu (piem. localhost), lai "
 "ierobežotu tās uz specifisku tīkla saskarni."
 
 #: src/libvlc-module.c:809
@@ -3202,7 +3207,7 @@ msgid ""
 "by the operating system."
 msgstr ""
 "HTTP serveris klausīsies uz šo TCP portu. Standarta HTTP porta numurs ir 80. "
-"Taču porta numuru zemāku par 1025 piešķiršana parasti ir ierobežota no "
+"Taču porta numuru zemāku par 1025 piešķiršana parasti tiek ierobežota no "
 "operētājsistēmas."
 
 #: src/libvlc-module.c:816
@@ -3216,8 +3221,8 @@ msgid ""
 "restricted by the operating system."
 msgstr ""
 "HTTPS serveris klausīsies uz šo TCP portu. Standarta HTTPS porta numurs ir "
-"443. Taču porta numuru zemāku par 1025 piešķiršana parasti ir ierobežota no "
-"operētājsistēmas."
+"443. Taču porta numuru zemāku par 1025 piešķiršana parasti tiek ierobežota "
+"no operētājsistēmas."
 
 #: src/libvlc-module.c:823
 msgid "RTSP server port"
@@ -3230,8 +3235,8 @@ msgid ""
 "by the operating system."
 msgstr ""
 "RTSP serveris klausīsies uz šo TCP portu. Standarta RTSP porta numurs ir "
-"554. Taču porta numuru zemāku par 1025 piešķiršana parasti ir ierobežota no "
-"operētājsistēmas."
+"554. Taču porta numuru zemāku par 1025 piešķiršana parasti tiek ierobežota "
+"no operētājsistēmas."
 
 #: src/libvlc-module.c:830
 msgid "HTTP/TLS server certificate"
@@ -3242,6 +3247,9 @@ msgid ""
 "This X.509 certicate file (PEM format) is used for server-side TLS. On OS X, "
 "the string is used as a label to search the certificate in the keychain."
 msgstr ""
+"Šī X.509 sertifikāta datne (PEM formātā) tiek lietota priekš servera puses "
+"TLS. Uz OS X šī virkne tiek lietota kā iezīme, lai meklētu sertifikātu iekš "
+"keychain."
 
 #: src/libvlc-module.c:835
 msgid "HTTP/TLS server private key"
@@ -3250,7 +3258,8 @@ msgstr "HTTP/TLS servera privātā atslēga"
 #: src/libvlc-module.c:837
 msgid "This private key file (PEM format) is used for server-side TLS."
 msgstr ""
-"Šī privātās atslēgas datne (PEM formātā) ir lietota priekš servera puses TLS."
+"Šī privātās atslēgas datne (PEM formātā) tiek lietota priekš servera puses "
+"TLS."
 
 #: src/libvlc-module.c:839
 msgid "HTTP/TLS Certificate Authority"
@@ -3295,7 +3304,8 @@ msgstr "SOCKS lietotāja vārds"
 #: src/libvlc-module.c:856
 msgid "User name to be used for connection to the SOCKS proxy."
 msgstr ""
-"Lietotāja vārds lietošanai priekš savienojuma pie SOCKS starpniekservera."
+"Lietotāja vārds, kurš tiks lietots priekš savienojuma pie SOCKS "
+"starpniekservera."
 
 #: src/libvlc-module.c:858
 msgid "SOCKS password"
@@ -3303,7 +3313,8 @@ msgstr "SOCKS parole"
 
 #: src/libvlc-module.c:860
 msgid "Password to be used for connection to the SOCKS proxy."
-msgstr "Parole lietošanai priekš savienojuma pie SOCKS starpniekservera."
+msgstr ""
+"Parole, kura tiks lietota priekš savienojuma pie SOCKS starpniekservera."
 
 #: src/libvlc-module.c:862
 msgid "Title metadata"
@@ -3327,7 +3338,7 @@ msgstr "Izpildītāja metadati"
 
 #: src/libvlc-module.c:872
 msgid "Allows you to specify an \"artist\" metadata for an input."
-msgstr "Atļauj Jums norādīt  \"mākslinieka\" metadatus ievadei."
+msgstr "Atļauj Jums norādīt  \"izpildītāja\" metadatus ievadei."
 
 #: src/libvlc-module.c:874
 msgid "Genre metadata"
@@ -3494,7 +3505,7 @@ msgstr ""
 
 #: src/libvlc-module.c:956
 msgid "Stream output muxer caching (ms)"
-msgstr "Straumes izvades muksera kešošana (ms)"
+msgstr "Straumes izvades muksētāja kešošana (ms)"
 
 #: src/libvlc-module.c:958
 msgid ""
@@ -3506,7 +3517,7 @@ msgstr ""
 
 #: src/libvlc-module.c:961
 msgid "Preferred packetizer list"
-msgstr "Vēlamāko paketizētāju saraksts"
+msgstr "Vēlamo paketizētāju saraksts"
 
 #: src/libvlc-module.c:963
 msgid ""
@@ -3787,7 +3798,7 @@ msgid ""
 "overridden in the playlist dialog box."
 msgstr ""
 "Šīs opcijas definē atskaņošanas saraksta rīcību. Dažas no tām var tikt "
-"pārrakstītas atskaņošanas saraksta dialoga kastē."
+"pārrakstītas atskaņošanas saraksta dialoglodziņa kastē."
 
 #: src/libvlc-module.c:1111
 msgid "Automatically preparse files"
@@ -3904,7 +3915,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Display playlist tree"
-msgstr "Parādīt atskaņošanas saraksta koku"
+msgstr "Attēlot atskaņošanas saraksta koku"
 
 #: src/libvlc-module.c:1163
 msgid ""
@@ -4557,14 +4568,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Ciklēt caur pieejamajiem subtitru celiņiem."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Teleteksta subtitri"
+msgstr "Pārslēgt subtitrus"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Ciklēt subtitru celiņu"
+msgstr "Pārslēgt subtitra celiņa redzamību."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -4632,7 +4641,7 @@ msgstr "Ciklēt caur pieejamajiem rindpārleces novēršanas režīmiem."
 
 #: src/libvlc-module.c:1372
 msgid "Show controller in fullscreen"
-msgstr "Rādīt kontrolieri pilnekrānā"
+msgstr "Parādīt kontrolieri pilnekrānā"
 
 #: src/libvlc-module.c:1373
 msgid "Boss key"
@@ -4648,7 +4657,7 @@ msgstr "Konteksta izvēlne"
 
 #: src/libvlc-module.c:1376
 msgid "Show the contextual popup menu."
-msgstr "Rādīt kontekstuālo uzlecošo izvēlni."
+msgstr "Parādīt kontekstuālo uzlecošo izvēlni."
 
 #: src/libvlc-module.c:1377
 msgid "Take video snapshot"
@@ -4843,7 +4852,7 @@ msgstr ""
 
 #: src/libvlc-module.c:2640
 msgid "ask for extra verbosity when displaying help"
-msgstr "vaicāt pēc papildu runīguma, kad parāda palīdzību"
+msgstr "vaicāt pēc papildu runīguma, kad attēlo palīdzību"
 
 #: src/libvlc-module.c:2642
 msgid "print a list of available modules"
@@ -5830,6 +5839,8 @@ msgid ""
 "Blu-Ray player region code. Some discs can be played only with a correct "
 "region code."
 msgstr ""
+"Blu-Ray atskaņotāja reģiona kods. Daži diski var tikt atskaņoti tikai ar "
+"pareizu reģiona kodu."
 
 #: modules/access/bluray.c:87 modules/services_discovery/udev.c:597
 #: modules/gui/qt4/ui/open_disk.h:299
@@ -6150,7 +6161,7 @@ msgid ""
 "don't specify anything the default size for your device will be used. You "
 "can specify a standard size (cif, d1, ...) or <width>x<height>."
 msgstr ""
-"Izmērs video, kurš tiks parādīts ar DirectShow spraudni. Ja Jūs nenorādīsiet "
+"Izmērs video, kurš tiks attēlots ar DirectShow spraudni. Ja Jūs nenorādīsiet "
 "neko, tiks lietots noklusētais izmērs priekš Jūsu ierīces. Jūs varat norādīt "
 "standarta izmēru (cif, d1, ...) vai <platums>x<augstums>."
 
@@ -6194,7 +6205,7 @@ msgstr "Ierīces īpašības"
 #: modules/access/dshow/dshow.cpp:157
 msgid ""
 "Show the properties dialog of the selected device before starting the stream."
-msgstr "Parādīt atlasītās ierīces īpašību dialogu pirms sāk straumi."
+msgstr "Parādīt atlasītās ierīces īpašību dialoglodziņu pirms sāk straumi."
 
 #: modules/access/dshow/dshow.cpp:159
 msgid "Tuner properties"
@@ -6347,7 +6358,7 @@ msgstr "Nav atlasīta video vai audio ierīce."
 #: modules/access/dshow/dshow.cpp:602
 msgid "VLC cannot open ANY capture device. Check the error log for details."
 msgstr ""
-"VLC nevar atvērt JEBKURU tveršanas ierīci. Pārbaudiet kļūdu žurnālu, lai "
+"VLC nevar atvērt NEVIENU tveršanas ierīci. Pārbaudiet kļūdu žurnālu, lai "
 "iegūtu sīkāku informāciju."
 
 #: modules/access/dshow/dshow.cpp:1041
@@ -7126,7 +7137,7 @@ msgstr ""
 
 #: modules/access/http.c:85
 msgid "Forward Cookies"
-msgstr "Uz priekšu Sīkfaili"
+msgstr "Uz priekšu Sīkdatnes"
 
 #: modules/access/http.c:86
 msgid "Forward Cookies across http redirections."
@@ -7263,7 +7274,7 @@ msgstr "Video vai subtitru elementārās straumes augstums"
 
 #: modules/access/imem.c:89
 msgid "Display aspect ratio"
-msgstr "Attēlojuma malu proporcijas"
+msgstr "Displeja malu proporcijas"
 
 #: modules/access/imem.c:91
 msgid "Display aspect ratio of a video elementary stream"
@@ -7717,6 +7728,8 @@ msgstr "Metakubs"
 msgid ""
 "Use the Metacube protocol. Needed for streaming to the Cubemap reflector."
 msgstr ""
+"Lietot Metacube protokolu. Vajadzīgs priekš straumēšanas uz Cubemap "
+"atspoguļotāju."
 
 #: modules/access_output/http.c:67
 msgid "HTTP stream output"
@@ -7787,7 +7800,7 @@ msgstr "Dzēst segmentus, kad tie vairāk nav vajadzīgi"
 
 #: modules/access_output/livehttp.c:90
 msgid "Use muxers rate control mechanism"
-msgstr "Lietot mukseru ātruma kontroles mehānismu"
+msgstr "Lietot muksētāju ātruma kontroles mehānismu"
 
 #: modules/access_output/livehttp.c:92
 msgid "AES key URI to place in playlist"
@@ -7828,9 +7841,8 @@ msgid "Number of first segment"
 msgstr "Pirmā segmenta numurs"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Ģenerēto segmentu skaits"
+msgstr "Pirmā ģenerētā segmenta numurs"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -7923,7 +7935,7 @@ msgid ""
 "information specified for shoutcast. Requires Ogg streaming for icecast."
 msgstr ""
 "Padarīt serveri publiski pieejamu 'Dzeltenajās Lapās' (straumju uzskaites "
-"katalogā) icecast/shoutcast tīmekļa lapā. Pieprasa norādītu bitu pārraides "
+"katalogā) icecast/shoutcast tīmekļa vietnē. Pieprasa norādītu bitu pārraides "
 "ātruma informāciju priekš shoutcast. Pieprasa Ogg straumēšanu priekš icecast."
 
 #: modules/access_output/shout.c:111
@@ -9125,7 +9137,7 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:117
 msgid "Show extended VCD info?"
-msgstr "Rādīt paplašinātu VCD informāciju?"
+msgstr "Parādīt paplašinātu VCD informāciju?"
 
 #: modules/access/vcdx/vcd.c:118
 msgid ""
@@ -9622,6 +9634,11 @@ msgid ""
 "without disturbing anyone. If you disable the dynamic range compression the "
 "playback will be more adapted to a movie theater or a listening room."
 msgstr ""
+"Dinamiskā diapazona saspiešana padara skaļas skaņas maigākas un maigas "
+"skaņas skaļākas, tāpēc Jūs varat vieglāk klausīties uz straumi trokšņainā "
+"vidē, neradot traucējumus nevienam. Ja Jūs atspējosiet dinamiskā diapazona "
+"saspiešanu, atskaņošana tiks vairāk adaptēta filmu teātrim vai klausīšanās "
+"istabai."
 
 #: modules/audio_filter/converter/a52tofloat32.c:94
 msgid "Enable internal upmixing"
@@ -9827,6 +9844,9 @@ msgid ""
 "A higher number of buffers will increase the response time of the filter to "
 "a spike but will make it less sensitive to short variations."
 msgstr ""
+"Šis ir audio buferu skaits, uz kuriem jaudas mērīšana tiek veikta. Augstāks "
+"buferu skaits palielinās filtra atbildes laiku līdz smailei, bet padarīs to "
+"mazāk jūtīgu pret īsām variācijām."
 
 #: modules/audio_filter/normvol.c:71
 msgid "Maximal volume level"
@@ -10075,6 +10095,8 @@ msgid ""
 "the mono. If the value is 1 it will cancel all the signal common to both "
 "channels."
 msgstr ""
+"Šķērsot kreisās padevi iekšā labajā ar apgriezto fāzi. Šis palīdz nomākt "
+"mono. Ja vērtība ir 1, tas atcels visus signālus, kopīgus abiem kanāliem."
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
@@ -10915,10 +10937,10 @@ msgid ""
 "(default: low). hev1 and hev2 are currently supported only with libfdk-aac "
 "enabled libavcodec"
 msgstr ""
-"Norādiet AAC audio profilu, kuru lietot priekš audio bitu plūsmas "
-"iekodēšanas. Tas pieņem sekojošas opcijas: main, low, ssr (nav atbalstīts),"
-"ltp, hev1, hev2 (noklusētais: low). hev1 un hev2 ir šobrīd atbalstīti tikai "
-"ar libfdk-aac iespējotu libavcodec"
+"Norādiet AAC audio profilu, kuru lietot priekš audio bitplūsmas iekodēšanas. "
+"Tas pieņem sekojošas opcijas: main, low, ssr (nav atbalstīts),ltp, hev1, "
+"hev2 (noklusētais: low). hev1 un hev2 ir šobrīd atbalstīti tikai ar libfdk-"
+"aac iespējotu libavcodec"
 
 #: modules/codec/avcodec/dxva2.c:58
 msgid "DirectX Video Acceleration (DXVA) 2.0"
@@ -11288,7 +11310,7 @@ msgstr "G.711 iekodētājs"
 
 #: modules/codec/gstdecode.c:69
 msgid "Uses GStreamer framework's plugins to decode the media codecs"
-msgstr ""
+msgstr "Lieto GStreamer satvara spraudņus, lai atkodētu mediju kodekus"
 
 #: modules/codec/gstdecode.c:72
 msgid "Use DecodeBin"
@@ -11301,6 +11323,11 @@ msgid ""
 "parsers which can provide more info such as codec profile, level and other "
 "attributes, in the form of GstCaps (Stream Capabilities) to decoder."
 msgstr ""
+"DecodeBin ir konteinera elements, kurš var pievienot un pārvaldīt vairākus "
+"elementus. Neatkarīgi no atkodētāju pievienošanas, decodebin arī pievieno "
+"elementāro straumju sintaktiskos analizētājus, kuri var sniegt vairāk "
+"informācijas, tādas kā kodeka profils, līmenis un citi atribūti, formā no "
+"GstCaps (Straumes spējas) atkodētājam."
 
 #: modules/codec/gstdecode.c:86
 msgid "GStreamer Based Decoder"
@@ -11453,7 +11480,7 @@ msgstr "Ciāna"
 
 #: modules/codec/kate.c:214
 msgid "Use Tiger for rendering"
-msgstr "Lietot Tiger atveidošanai"
+msgstr "Lietot Tiger priekš atveidošanas"
 
 #: modules/codec/kate.c:215
 msgid ""
@@ -11628,13 +11655,15 @@ msgstr "Media Foundation Transform atkodētājs"
 
 #: modules/codec/mmal.c:50
 msgid "Decode frames directly into RPI VideoCore instead of host memory."
-msgstr ""
+msgstr "Atkodēt kadrus tieši iekš RPI VideoCore, nevis resursdatora atmiņā. "
 
 #: modules/codec/mmal.c:51
 msgid ""
 "Decode frames directly into RPI VideoCore instead of host memory. This "
 "option must only be used with the MMAL video output plugin."
 msgstr ""
+"Atkodēt kadrus tieši iekš RPI VideoCore, nevis resursdatora atmiņā. Šai "
+"opcijai vajag būt lietotai tikai ar MMAL video izvades spraudni."
 
 #: modules/codec/mmal.c:57
 msgid "MMAL decoder"
@@ -12040,7 +12069,7 @@ msgstr "Konstantas kvalitātes faktors"
 
 #: modules/codec/schroedinger.c:110
 msgid "Quality factor to use in constant quality mode"
-msgstr "Kvalitātes faktors lietošanai konstantas kvalitātes režīmā"
+msgstr "Kvalitātes faktors, kuru lietot konstantas kvalitātes režīmā"
 
 #: modules/codec/schroedinger.c:113
 msgid "Noise Threshold"
@@ -12701,7 +12730,7 @@ msgstr "Teksta subtitru atkodētājs"
 #: modules/codec/subsdec.c:296 modules/demux/avi/avi.c:99
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "CP1257"
+msgstr "CP1252"
 
 #: modules/codec/subsusf.c:46
 msgid "USFSubs"
@@ -13860,6 +13889,8 @@ msgid ""
 "Setting vbi-opaque to true makes the text to be boxed and maybe easier to "
 "read."
 msgstr ""
+"vbi-opaque uzstādīšana uz true padara tekstu kastētu un, varbūt, vieglāk "
+"lasāmu."
 
 #: modules/codec/zvbi.c:69
 msgid "Teletext alignment"
@@ -14260,7 +14291,7 @@ msgstr "Kļūda"
 
 #: modules/control/rc.c:159
 msgid "Show stream position"
-msgstr "Rādīt straumes pozīciju"
+msgstr "Parādīt straumes pozīciju"
 
 #: modules/control/rc.c:160
 msgid ""
@@ -14341,7 +14372,7 @@ msgstr ""
 #: modules/control/rc.c:786
 msgid "| playlist . . . . .  show items currently in playlist"
 msgstr ""
-"| playlist . . . . .  rādīt patlaban atskaņošanas sarakstā esošos vienumus"
+"| playlist . . . . .  parādīt patlaban atskaņošanas sarakstā esošos vienumus"
 
 #: modules/control/rc.c:787
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
@@ -14453,7 +14484,7 @@ msgstr "| info . . . . .  informācija par tekošo straumi"
 
 #: modules/control/rc.c:814
 msgid "| stats  . . . . . . . .  show statistical information"
-msgstr "| stats  . . . . . . . .  rādīt statistisko informāciju"
+msgstr "| stats  . . . . . . . .  parādīt statistisko informāciju"
 
 #: modules/control/rc.c:815
 msgid "| get_time . . seconds elapsed since stream's beginning"
@@ -14609,7 +14640,7 @@ msgstr "| video atkodēts    :    %5<PRIi64>"
 #: modules/control/rc.c:1764 modules/gui/ncurses.c:831
 #, c-format
 msgid "| frames displayed :    %5<PRIi64>"
-msgstr "| kadri parādīti :    %5<PRIi64>"
+msgstr "| kadri attēloti :    %5<PRIi64>"
 
 #: modules/control/rc.c:1766 modules/gui/ncurses.c:833
 #, c-format
@@ -14879,7 +14910,7 @@ msgid ""
 "Use real-time mode suitable for being used as a master input and real-time "
 "input slaves."
 msgstr ""
-"Lietot reāl-laika režīmu, piemērotu priekš izmantošanas kā vedēja ievades un "
+"Lietot reāl-laika režīmu, piemērotu priekš lietošanas kā vedēja ievades un "
 "reāl-laika ievades sekotājiem."
 
 #: modules/demux/image.c:76
@@ -15644,7 +15675,7 @@ msgstr "Oriģinālais formāts"
 
 #: modules/demux/mp4/mp4.c:1457
 msgid "Display Source As"
-msgstr "Parādīt avotu kā"
+msgstr "Attēlot avotu kā"
 
 #: modules/demux/mp4/mp4.c:1458
 msgid "Host Computer"
@@ -15805,7 +15836,7 @@ msgstr "Google Video"
 
 #: modules/demux/playlist/playlist.c:46
 msgid "Show shoutcast adult content"
-msgstr "Rādīt shoutcast pieaugušo saturu"
+msgstr "Parādīt shoutcast pieaugušo saturu"
 
 #: modules/demux/playlist/playlist.c:47
 msgid "Show NC17 rated video streams when using shoutcast video playlists."
@@ -15913,7 +15944,7 @@ msgstr "Podraides atslēgvārdi"
 
 #: modules/demux/playlist/podcast.c:201 modules/demux/playlist/podcast.c:277
 msgid "Podcast Subtitle"
-msgstr "Podraides subtitri"
+msgstr "Podraides subtitrs"
 
 #: modules/demux/playlist/podcast.c:207 modules/demux/playlist/podcast.c:278
 msgid "Podcast Summary"
@@ -16198,7 +16229,7 @@ msgstr ""
 
 #: modules/demux/ts.c:126
 msgid "Trust in-stream PCR"
-msgstr ""
+msgstr "Uzticēties iekš-straumes PCR"
 
 #: modules/demux/ts.c:127
 msgid "Use the stream PCR as a reference."
@@ -16685,7 +16716,7 @@ msgstr "Straumei vajag būt atskaņotai vai pauzētai, lai grāmatzīmes strād�
 
 #: modules/gui/macosx/BWQuincyUI.m:78
 msgid "Show Details"
-msgstr "Rādīt detaļas"
+msgstr "Parādīt detaļas"
 
 #: modules/gui/macosx/BWQuincyUI.m:79
 msgid "Hide Details"
@@ -16700,6 +16731,8 @@ msgid ""
 "%@ unexpectedly quit the last time it was run. Would you like to send a "
 "crash report to %@?"
 msgstr ""
+"%@ negaidīti izgāja pēdējā reizē, kad tas tika palaists. Vai Jūs vēlaties "
+"nosūtīt avārijas atskaiti uz %@?"
 
 #: modules/gui/macosx/BWQuincyUI.m:83
 #: modules/gui/qt4/components/info_panels.cpp:171
@@ -16716,7 +16749,7 @@ msgstr "Problēmas atskaite priekš %@"
 
 #: modules/gui/macosx/BWQuincyUI.m:177
 msgid "Please describe any steps needed to trigger the problem"
-msgstr ""
+msgstr "Lūdzu, aprakstiet jebkurus soļus, vajadzīgus, lai izraisītu problēmu"
 
 #: modules/gui/macosx/BWQuincyUI.m:178
 msgid "No personal information will be sent with this report."
@@ -16789,7 +16822,7 @@ msgstr "Noklikšķiniet, lai pārtrauktu atskaņošanu."
 
 #: modules/gui/macosx/ControlsBar.m:485
 msgid "Show/Hide Playlist"
-msgstr "Rādīt/Paslēpt atskaņošanas sarakstu"
+msgstr "Parādīt/Paslēpt atskaņošanas sarakstu"
 
 #: modules/gui/macosx/ControlsBar.m:486
 msgid ""
@@ -17105,15 +17138,15 @@ msgstr "Atkārtošana izslēgta"
 
 #: modules/gui/macosx_dialog_provider/dialogProvider.m:86
 msgid "Hide no user action dialogs"
-msgstr "Neslēpt lietotāja darbību dialogus"
+msgstr "Neslēpt lietotāja darbību dialoglodziņus"
 
 #: modules/gui/macosx_dialog_provider/dialogProvider.m:87
 msgid ""
 "Don't display dialogs that don't require user action (Critical and error "
 "panel)."
 msgstr ""
-"Neparādīt dialogus, kuri nepieprasa lietotāja darbību (Kritiskais un kļūdu "
-"panelis)."
+"Neattēlot dialoglodziņus, kuri nepieprasa lietotāja darbību (Kritiskais un "
+"kļūdu panelis)."
 
 #: modules/gui/macosx/fspanel.m:409
 msgid "(no item is being played)"
@@ -17149,7 +17182,7 @@ msgid ""
 "The screen number correspondance can be found in the video device selection "
 "menu."
 msgstr ""
-"Numurs ekrānam, kuru lietot pēc noklusējuma, lai parādītu video iekš "
+"Numurs ekrānam, kuru lietot pēc noklusējuma, lai attēlotu video iekš "
 "'pilnekrāna'. Ekrāna numuru saskaņotība var tikt atrasta iekš video ierīces "
 "atlases izvēlnes."
 
@@ -17171,11 +17204,11 @@ msgstr "Melni ekrāni pilnekrānā"
 
 #: modules/gui/macosx/macosx.m:60
 msgid "In fullscreen mode, keep screen where there is no video displayed black"
-msgstr "Esot pilnekrāna režīmā, paturēt ekrānu, kurā nav parādīts video, melnu"
+msgstr "Esot pilnekrāna režīmā, paturēt ekrānu, kurā nav attēlots video, melnu"
 
 #: modules/gui/macosx/macosx.m:63
 msgid "Show Fullscreen controller"
-msgstr "Rādīt pilnekrāna kontrolieri"
+msgstr "Parādīt pilnekrāna kontrolieri"
 
 #: modules/gui/macosx/macosx.m:64
 msgid "Shows a lucent controller when moving the mouse in fullscreen mode."
@@ -17332,7 +17365,7 @@ msgstr "Parāda jaukšanas un atkārtošanas pogas galvenajā logā."
 
 #: modules/gui/macosx/macosx.m:115 modules/gui/macosx/MainMenu.m:385
 msgid "Show Audio Effects Button"
-msgstr "Rādīt audio efektu pogu"
+msgstr "Parādīt audio efektu pogu"
 
 #: modules/gui/macosx/macosx.m:116
 msgid "Shows the audio effects button in the main window."
@@ -17340,7 +17373,7 @@ msgstr "Parāda audio efektu pogu galvenajā logā."
 
 #: modules/gui/macosx/macosx.m:118 modules/gui/macosx/MainMenu.m:387
 msgid "Show Sidebar"
-msgstr "Rādīt sānjoslu"
+msgstr "Parādīt sānjoslu"
 
 #: modules/gui/macosx/macosx.m:119
 msgid "Shows a sidebar in the main window listing media sources."
@@ -17353,6 +17386,7 @@ msgstr "Kontrolēt ārējos mūzikas atskaņotājus"
 #: modules/gui/macosx/macosx.m:122
 msgid "VLC will pause and resume supported music players on playback."
 msgstr ""
+"VLC pauzēs un atsāks atbalstītos mūzikas atskaņotājus pie atskaņošanas."
 
 #: modules/gui/macosx/macosx.m:124
 msgid "Use large text for list views"
@@ -17379,6 +17413,8 @@ msgid ""
 "VLC will store playback positions of the last 30 items you played. If you re-"
 "open one of those, playback will continue."
 msgstr ""
+"VLC uzglabās pēdējo 30 Jūsu atskaņoto vienumu atskaņošanas pozīcijas. Ja Jūs "
+"atkal-atvērsiet vienu no tiem, atskaņošana turpināsies."
 
 #: modules/gui/macosx/macosx.m:138 modules/gui/qt4/qt4.cpp:200
 msgid "Ask"
@@ -17396,7 +17432,7 @@ msgstr "Nekad"
 
 #: modules/gui/macosx/macosx.m:141 modules/gui/qt4/qt4.cpp:184
 msgid "Maximum Volume displayed"
-msgstr "Parādīts maksimuma skaļums"
+msgstr "Attēlots maksimuma skaļums"
 
 #: modules/gui/macosx/macosx.m:145
 msgid "Mac OS X interface"
@@ -17440,7 +17476,7 @@ msgstr "Datnes izmērs"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Līmenis %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -17464,7 +17500,7 @@ msgstr "Paslēpt citus"
 
 #: modules/gui/macosx/MainMenu.m:358 modules/gui/macosx/simple_prefs.m:413
 msgid "Show All"
-msgstr "Rādīt Visus"
+msgstr "Parādīt visus"
 
 #: modules/gui/macosx/MainMenu.m:359
 msgid "Quit VLC"
@@ -17710,7 +17746,7 @@ msgstr "Tiešsaistes dokumentācija..."
 
 #: modules/gui/macosx/MainMenu.m:495
 msgid "VideoLAN Website..."
-msgstr "VideoLAN tīmekļa lapa..."
+msgstr "VideoLAN tīmekļa vietne..."
 
 #: modules/gui/macosx/MainMenu.m:496
 msgid "Make a donation..."
@@ -17732,8 +17768,8 @@ msgid ""
 "Click to open an advanced dialog to select the media to play. You can also "
 "drop files here to play."
 msgstr ""
-"Klikšķiniet, lai atvērtu paplašinātu dialogu, lai atlasītu medijus, kurus "
-"atskaņot. Jūs varat arī nomest datnes šeit, lai atskaņotu."
+"Klikšķiniet, lai atvērtu paplašinātu dialoglodziņu, lai atlasītu medijus, "
+"kurus atskaņot. Jūs varat arī nomest datnes šeit, lai atskaņotu."
 
 #: modules/gui/macosx/MainWindow.m:182 modules/gui/macosx/MainWindow.m:187
 #: modules/gui/qt4/components/playlist/selector.cpp:577
@@ -17782,6 +17818,10 @@ msgid ""
 "provide this functionality, VLC will send information about your contents to "
 "trusted services in an anonymized form."
 msgstr ""
+"VLC var pārbaudīt tiešsaistē pēc albuma mākslas un metadatiem, lai "
+"bagātinātu Jūsu atskaņošanas pieredzi, piem., sniedzot celiņa informāciju, "
+"kad atskaņojas Audio CD. Lai sniegtu šo funkcionalitāti, VLC nosūtīs "
+"informāciju par Jūsu saturiem uz uzticamiem servisiem anonimizētā formā."
 
 #: modules/gui/macosx/MainWindow.m:328
 msgid "LIBRARY"
@@ -17993,7 +18033,7 @@ msgid ""
 "This input allows you to save, stream or display your current screen "
 "contents."
 msgstr ""
-"Šī ievade atļauj Jums saglabāt, straumēt vai parādīt Jūsu tekošā ekrāna "
+"Šī ievade atļauj Jums saglabāt, straumēt vai attēlot Jūsu tekošā ekrāna "
 "saturu."
 
 #: modules/gui/macosx/open.m:205
@@ -18087,7 +18127,7 @@ msgstr "Subtitru izlīdzinājums"
 
 #: modules/gui/macosx/open.m:375
 msgid "Click to dismiss the subtitle setup dialog."
-msgstr "Klikšķiniet, lai noraidītu subtitru uzstādīšanas dialogu."
+msgstr "Klikšķiniet, lai noraidītu subtitru uzstādīšanas dialoglodziņu."
 
 #: modules/gui/macosx/open.m:376
 msgid "Font Properties"
@@ -18237,6 +18277,8 @@ msgstr "Vienmēr turpināt"
 #: modules/gui/macosx/playlist.m:1541
 msgid "Playback of \"%@\" will continue at %@"
 msgstr ""
+"VLC uzglabās pēdējo 30 Jūsu atskaņoto vienumu atskaņošanas pozīcijas. Ja Jūs "
+"atkal-atvērsiet vienu no tiem, atskaņošana turpināsies."
 
 #: modules/gui/macosx/playlistinfo.m:71
 #: modules/gui/qt4/dialogs/mediainfo.cpp:54
@@ -18333,7 +18375,7 @@ msgstr "Atstatīt visus"
 
 #: modules/gui/macosx/prefs.m:210
 msgid "Show Basic"
-msgstr "Rādīt pamata"
+msgstr "Parādīt pamata"
 
 #: modules/gui/macosx/prefs_widgets.m:1156
 msgid "Select a directory"
@@ -18443,7 +18485,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:339
 msgid "Codecs / Muxers"
-msgstr "Kodeki / mukseri"
+msgstr "Kodeki / muksētāji"
 
 #: modules/gui/macosx/simple_prefs.m:341
 msgid "Hardware Acceleration"
@@ -18479,11 +18521,11 @@ msgstr "Spilgts"
 
 #: modules/gui/macosx/simple_prefs.m:359
 msgid "Show video within the main window"
-msgstr "Rādīt video iekšpusē galvenajam logam"
+msgstr "Parādīt video iekšpusē galvenajam logam"
 
 #: modules/gui/macosx/simple_prefs.m:361
 msgid "Show Fullscreen Controller"
-msgstr "Rādīt pilnekrāna kontrolieri"
+msgstr "Parādīt pilnekrāna kontrolieri"
 
 #: modules/gui/macosx/simple_prefs.m:362
 #: modules/gui/qt4/ui/sprefs_interface.h:528
@@ -18647,6 +18689,8 @@ msgstr ""
 msgid ""
 "This setting cannot be changed because the native fullscreen mode is enabled."
 msgstr ""
+"Šis iestatījums nevar tikt mainīts tāpēc, ka dabīgais pilnekrāna režīms ir "
+"iespējots."
 
 #: modules/gui/macosx/simple_prefs.m:1197
 msgid "Choose the folder to save your video snapshots to."
@@ -18713,7 +18757,7 @@ msgstr "Subtitri/Video"
 #: modules/gui/macosx/TrackSynchronization.m:66
 #: modules/gui/qt4/components/extended_panels.cpp:1510
 msgid "Subtitle track synchronization:"
-msgstr "Subtitru celiņa sinhronizācija"
+msgstr "Subtitru celiņa sinhronizācija:"
 
 #: modules/gui/macosx/TrackSynchronization.m:68
 msgid "A positive value means that the subtitles are ahead of the video"
@@ -19102,7 +19146,8 @@ msgstr "FLAC ir bezzudumu audio kodeks (lietojams ar OGG un RAW)"
 
 #: modules/gui/macosx/wizard.m:204
 msgid "A free audio codec dedicated to compression of voice (useable with OGG)"
-msgstr "Brīvais audio kodeks veltīts balss saspiešanai (lietojams ar OGG)"
+msgstr ""
+"Brīvais audio kodeks, kurš veltīts balss saspiešanai (lietojams ar OGG)"
 
 #: modules/gui/macosx/wizard.m:208 modules/gui/macosx/wizard.m:211
 msgid "Uncompressed audio samples (useable with WAV)"
@@ -19127,6 +19172,10 @@ msgid ""
 "generally the best thing to do. Other computers can then access the stream "
 "at http://yourip:8080 by default."
 msgstr ""
+"Ievadiet lokālo adresi, uz kuru Jūs vēlaties klausīties pieprasījumus. "
+"Neievadiet neko, ja Jūs vēlaties klausīties uz visām tīkla saskarnēm. Šī "
+"vispārēji ir labākā lieta, kuru darīt. Citi datori tad var piekļūt straumei "
+"no http://jūsuip:8080 pēc noklusējuma."
 
 #: modules/gui/macosx/wizard.m:258
 msgid ""
@@ -19147,7 +19196,7 @@ msgid ""
 msgstr ""
 "Ievadiet lokālo adresi, uz kuru Jūs vēlaties klausīties pieprasījumus. "
 "Neievadiet neko, ja Jūs vēlaties klausīties uz visām tīkla saskarnēm. Šī "
-"vispārēji ir labākā lieta, kuru darīt. Citi datori tad var piekļūt plūsmai "
+"vispārēji ir labākā lieta, kuru darīt. Citi datori tad var piekļūt straumei "
 "no mms://jūsuip:8080 pēc noklusējuma."
 
 #: modules/gui/macosx/wizard.m:265
@@ -19236,8 +19285,8 @@ msgid ""
 "access to more features."
 msgstr ""
 "Šis vednis tikai dod piekļuvi mazai VLC straumēšanas un pārkodēšanas spēju "
-"apakškopai. Atvērt un 'Saglabāšana/Straumēšana' dialogi dos piekļuvi vairāk "
-"līdzekļiem."
+"apakškopai. Atvērt un 'Saglabāšana/Straumēšana' dialoglodziņi dos piekļuvi "
+"vairāk līdzekļiem."
 
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
 #: modules/gui/macosx/wizard.m:1607
@@ -19467,10 +19516,14 @@ msgid ""
 "\n"
 "Correct your selection and try again."
 msgstr ""
+"Izvēlētie kodeki nav saderīgi viens ar otru. Piemēram: Nav iespējams sajaukt "
+"nesaspiestu audio ar jebkādu video kodeku.\n"
+"\n"
+"Izlabojiet Jūsu atlasi un mēģiniet atkal."
 
 #: modules/gui/macosx/wizard.m:1020
 msgid "Select the directory to save to"
-msgstr "Atlasiet katalogu, uz kuru saglabāt"
+msgstr "Atlasiet katalogu, kurā saglabāt"
 
 #: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
@@ -19544,9 +19597,9 @@ msgid ""
 msgstr ""
 "Šis atļauj saglabāt straumi datnē. Straume var tikt atkārtoti iekodēta, "
 "notiekot darbībai. Viss, ko VLC var nolasīt, var tikt saglabāts.\n"
-"Lūdzu, ņemiet vērā, ka VLC nav ļoti piemērots datnes uz datni pārkodēšanai. "
-"Tā pārkodēšanas līdzekļi tomēr ir noderīgi, lai saglabātu, piemēram, tīkla "
-"straumes."
+"Lūdzu, ņemiet vērā, ka VLC nav ļoti piemērots priekš datnes uz datni "
+"pārkodēšanas. Tā pārkodēšanas līdzekļi tomēr ir noderīgi, lai saglabātu, "
+"piemēram, tīkla straumes."
 
 #: modules/gui/macosx/wizard.m:1737
 msgid "Select your audio codec. Click one to get more information."
@@ -19596,6 +19649,11 @@ msgid ""
 "Note that this requires much more CPU power than simple transcoding or "
 "streaming."
 msgstr ""
+"Kad šī opcija ir iespējota, straume tiks gan atskaņota, gan pārkodēta/"
+"straumēta.\n"
+"\n"
+"Ņemiet vērā, ka šis pieprasa daudz vairāk centrālā procesora jaudas kā "
+"vienkārša pārkodēšana vai straumēšana."
 
 #: modules/gui/minimal_macosx/macosx.c:57
 msgid "Minimal Mac OS X interface"
@@ -19629,7 +19687,7 @@ msgstr "      %s: %s"
 
 #: modules/gui/ncurses.c:873
 msgid "[Display]"
-msgstr "[Parādīt]"
+msgstr "[Attēlot]"
 
 #: modules/gui/ncurses.c:875
 msgid " h,H                    Show/Hide help box"
@@ -19653,7 +19711,7 @@ msgstr " P                      Parādīt/Paslēpt atskaņošanas saraksta kasti
 
 #: modules/gui/ncurses.c:880
 msgid " B                      Show/Hide filebrowser"
-msgstr " B                      Rādīt/Paslēpt datņu pārlūku"
+msgstr " B                      Parādīt/Paslēpt datņu pārlūku"
 
 #: modules/gui/ncurses.c:881
 msgid " x                      Show/Hide objects box"
@@ -19996,7 +20054,7 @@ msgstr "Pārslēgt video ārā no pilnekrāna"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Show extended settings"
-msgstr "Rādīt paplašinātus iestatījumus"
+msgstr "Parādīt paplašinātus iestatījumus"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Toggle playlist"
@@ -20223,7 +20281,7 @@ msgstr "(Aizturēts)"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1559
 msgid "Force update of this dialog's values"
-msgstr "Piespiest šī dialoga vērtību atjaunināšanu"
+msgstr "Piespiest šī dialoglodziņa vērtību atjaunināšanu"
 
 #: modules/gui/qt4/components/info_panels.cpp:150
 msgid "&Fingerprint"
@@ -20243,7 +20301,7 @@ msgid ""
 "Muxer, Audio and Video Codecs, Subtitles are shown."
 msgstr ""
 "Informācija par to, no kā ir veidots Jūsu medijs vai straume.\n"
-"Ir parādīti mukseri, audio un video kodeki, subtitri."
+"Tiek parādīti muksētāji, audio un video kodeki, subtitri."
 
 #: modules/gui/qt4/components/info_panels.cpp:540
 msgid "Current media / stream statistics"
@@ -20560,7 +20618,7 @@ msgstr "Dilstoši"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:261
 msgid "Display size"
-msgstr "Ekrāna izmērs"
+msgstr "Displeja izmērs"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:262
 msgid "Increase"
@@ -20654,7 +20712,7 @@ msgstr "Karsto taustiņu maiņa"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1416
 msgid "Press the new key or combination for "
-msgstr "Nospiediet jaunu taustiņu vai kombināciju priekš"
+msgstr "Nospiediet jaunu taustiņu vai kombināciju priekš "
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1425
 msgid "Assign"
@@ -20918,11 +20976,11 @@ msgstr "Iestatījumi"
 
 #: modules/gui/qt4/dialogs/convert.cpp:90
 msgid "Display the output"
-msgstr "Parādīt izvadi"
+msgstr "Attēlot izvadi"
 
 #: modules/gui/qt4/dialogs/convert.cpp:91
 msgid "This display the resulting media, but can slow things down."
-msgstr "Šis parāda rezultējošo mediju, bet var palēnināt lietas."
+msgstr "Šis attēlo rezultējošo mediju, bet var palēnināt lietas."
 
 #: modules/gui/qt4/dialogs/convert.cpp:108
 msgid "&Start"
@@ -20978,6 +21036,16 @@ msgid ""
 "express consent for the media player to access the Internet automatically.</"
 "p>\n"
 msgstr ""
+"<p>Priekš tā, lai pasargātu Jūsu privātumu, <i>VLC mediju atskaņotājs</i>  "
+"<b>neveiks</b> personisko datu vākšanu vai to pārraidi, pat ne anonimizētā "
+"formā, nevienam.</p>\n"
+"<p>Neskatoties uz to, <i>VLC</i> ir spējīgs automātiski iegūt informāciju "
+"par mediju Jūsu atskaņošanas sarakstā no trešās puses Interneta-bāzētiem "
+"servisiem. Šis iekļauj vāciņa mākslu, celiņu nosaukumus, izpildītāju "
+"nosaukumus un citus meta-datus.</p>\n"
+"<p>Līdz ar to šis var piesaistīt dažu Jūsu mediju datņu identificēšanu "
+"trešās puses būtībām. Tādējādi <i>VLC</i> izstrādātāji pieprasa Jūsu "
+"izteiktu piekrišanu mediju atskaņotājam piekļūt Internetam automātiski.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
 msgid "Network Access Policy"
@@ -21069,7 +21137,7 @@ msgstr "Ziņojumi"
 
 #: modules/gui/qt4/dialogs/messages.cpp:88
 msgid "Saves all the displayed logs to a file"
-msgstr "Saglabā visus parādītos žurnālus datnē"
+msgstr "Saglabā visus attēlotos žurnālus datnē"
 
 #: modules/gui/qt4/dialogs/messages.cpp:256
 msgid "Save log file as..."
@@ -21197,23 +21265,30 @@ msgid ""
 "Skins customize player's appearance. You can activate them through "
 "preferences."
 msgstr ""
+"Ādiņas pielāgo atskaņotāja izskatu. Jūs varat aktivizēt tās caur preferencēm."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:379
 msgid ""
 "Playlist parsers add new capabilities to read internet streams or extract "
 "meta data."
 msgstr ""
+"Atskaņošanas sarakstu sintaktiskie analizatori pievieno jaunas spējas, lai "
+"lasītu interneta straumes vai izvilktu meta datus."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:383
 msgid ""
 "Service discoveries adds new sources to your playlist such as web radios, "
 "video websites, ..."
 msgstr ""
+"Servisu atklāšanas pievieno jaunus avotus Jūsu atskaņošanas sarakstam, tādus "
+"kā tīmekļa radio, video tīmekļa vietnes, ..."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:387
 msgid ""
 "Extensions brings various enhancements. Check descriptions for more details"
 msgstr ""
+"Paplašinājumi ienes dažādus uzlabojumus. Pārbaudiet aprakstus priekš vairāk "
+"detaļām"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:408
 msgid "Only installed"
@@ -21229,7 +21304,7 @@ msgstr "Papildinājumi nav atrasti."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:793
 msgid "This addon has been installed manually. VLC can't manage it by itself."
-msgstr ""
+msgstr "Šis papildinājums tika instalēts manuāli. VLC pats to nevar pārvaldīt."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1168
 msgid "Version %1"
@@ -21268,7 +21343,7 @@ msgstr "Izdzēš atlasīto vienumu"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:70
 msgid "Show settings"
-msgstr "Rādīt iestatījumus"
+msgstr "Parādīt iestatījumus"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:74
 msgid "Simple"
@@ -21288,7 +21363,7 @@ msgstr "Saglabāt"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:93
 msgid "Save and close the dialog"
-msgstr "Saglabāt un aizvērt dialogu"
+msgstr "Saglabāt un aizvērt dialoglodziņu"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:95
 msgid "&Reset Preferences"
@@ -21296,11 +21371,11 @@ msgstr "Atstatīt preferences"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:159
 msgid "Only show current"
-msgstr "Tikai rādīt tekošo"
+msgstr "Parādīt tikai tekošo"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:161
 msgid "Only show modules related to current playback"
-msgstr "Tikai rādīt moduļus, saistītus ar tekošo atskaņošanu"
+msgstr "Parādīt tikai moduļus, kuri saistīti ar tekošo atskaņošanu"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:197
 msgid "Advanced Preferences"
@@ -21588,7 +21663,6 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Vai Jūs vēlaties atsākt atskaņošanu, kur pārtraucāt?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
 msgstr "Turpināt"
 
@@ -21902,7 +21976,7 @@ msgstr "Paslēpt VLC multimediju atskaņotāju rīkjoslā"
 
 #: modules/gui/qt4/menus.cpp:1152
 msgid "Sho&w VLC media player"
-msgstr "Rādīt VLC mediju atskaņotāju"
+msgstr "Parādīt VLC mediju atskaņotāju"
 
 #: modules/gui/qt4/menus.cpp:1163
 msgid "&Open Media"
@@ -21926,7 +22000,7 @@ msgid ""
 "preferences dialog."
 msgstr ""
 "Parādīt papildinātās preferences un ne vienkāršās preferences, kad atver "
-"preferenču dialogu."
+"preferenču dialoglodziņu."
 
 #: modules/gui/qt4/qt4.cpp:83 modules/gui/skins2/src/skin_main.cpp:471
 msgid "Systray icon"
@@ -21937,8 +22011,8 @@ msgid ""
 "Show an icon in the systray allowing you to control VLC media player for "
 "basic actions."
 msgstr ""
-"Parādīt ikonu sistēmjoslā, atļaujošu Jums kontrolēt VLC mediju atskaņotāju "
-"pamata darbībām."
+"Parādīt ikonu sistēmjoslā, kura atļauj Jums kontrolēt VLC mediju atskaņotāju "
+"priekš pamata darbībām."
 
 #: modules/gui/qt4/qt4.cpp:88
 msgid "Start VLC with only a systray icon"
@@ -21950,15 +22024,15 @@ msgstr "VLC sāksies tikai ar ikonu Jūsu uzdevumu joslā"
 
 #: modules/gui/qt4/qt4.cpp:98
 msgid "Show playing item name in window title"
-msgstr "Rādīt atskaņotā vienuma nosaukumu loga virsrakstā"
+msgstr "Parādīt atskaņotā vienuma nosaukumu loga virsrakstā"
 
 #: modules/gui/qt4/qt4.cpp:99
 msgid "Show the name of the song or video in the controller window title."
-msgstr "Rādīt dziesmas vai video nosaukumu kontroliera loga virsrakstā."
+msgstr "Parādīt dziesmas vai video nosaukumu kontroliera loga virsrakstā."
 
 #: modules/gui/qt4/qt4.cpp:102
 msgid "Show notification popup on track change"
-msgstr "Rādīt paziņojuma uzlecošo logu par celiņa maiņu"
+msgstr "Parādīt paziņojuma uzlecošo logu par celiņa maiņu"
 
 #: modules/gui/qt4/qt4.cpp:104
 msgid ""
@@ -21999,7 +22073,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:120
 msgid "Show unimportant error and warnings dialogs"
-msgstr "Rādīt nesvarīgus kļūdu un brīdinājumu dialogus"
+msgstr "Parādīt nesvarīgus kļūdu un brīdinājumu dialoglodziņus"
 
 #: modules/gui/qt4/qt4.cpp:122
 msgid "Activate the updates availability notification"
@@ -22070,11 +22144,11 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:149
 msgid "Show a controller in fullscreen mode"
-msgstr "Rādīt kontrolieri pilnekrāna režīmā"
+msgstr "Parādīt kontrolieri pilnekrāna režīmā"
 
 #: modules/gui/qt4/qt4.cpp:150
 msgid "Embed the file browser in open dialog"
-msgstr "Iegult datņu pārlūku atvēršanas dialogā"
+msgstr "Iegult datņu pārlūku atvēršanas dialoglodziņā"
 
 #: modules/gui/qt4/qt4.cpp:152
 msgid "Define which screen fullscreen goes"
@@ -22098,14 +22172,14 @@ msgstr "Sākt minimizētā skatā (bez izvēlnēm)"
 
 #: modules/gui/qt4/qt4.cpp:162
 msgid "Display background cone or art"
-msgstr "Parādīt fona konusu vai mākslu"
+msgstr "Attēlot fona konusu vai mākslu"
 
 #: modules/gui/qt4/qt4.cpp:163
 msgid ""
 "Display background cone or current album art when not playing. Can be "
 "disabled to prevent burning screen."
 msgstr ""
-"Parādīt fona konusu vai tekošā albuma mākslu, kad neatskaņo. Var tikt "
+"Attēlot fona konusu vai tekošā albuma mākslu, kad neatskaņo. Var tikt "
 "atspējots, lai novērstu ekrāna iedegšanu."
 
 #: modules/gui/qt4/qt4.cpp:166
@@ -22208,12 +22282,12 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:472
 msgid "Show a systray icon for VLC"
-msgstr "Rādīt sistēmjoslas ikonu priekš VLC"
+msgstr "Parādīt sistēmjoslas ikonu priekš VLC"
 
 #: modules/gui/skins2/src/skin_main.cpp:473
 #: modules/gui/skins2/src/skin_main.cpp:474
 msgid "Show VLC on the taskbar"
-msgstr "Rādīt VLC uzdevumu joslā"
+msgstr "Parādīt VLC uzdevumu joslā"
 
 #: modules/gui/skins2/src/skin_main.cpp:475
 msgid "Enable transparency effects"
@@ -22224,6 +22298,8 @@ msgid ""
 "You can disable all transparency effects if you want. This is mainly useful "
 "when moving windows does not behave correctly."
 msgstr ""
+"Jūs varat atspējot visus caurspīdīguma efektus, ja Jūs vēlaties. "
+"Galvenokārt, šis ir noderīgi, kad logu pārvietošana neizturas korekti."
 
 #: modules/gui/skins2/src/skin_main.cpp:479
 #: modules/gui/skins2/src/skin_main.cpp:480
@@ -22232,13 +22308,15 @@ msgstr "Lietot atskaņošanas sarakstu ar ādiņu"
 
 #: modules/gui/skins2/src/skin_main.cpp:481
 msgid "Display video in a skinned window if any"
-msgstr "Parādīt video ar ādiņu apdarinātā logā, ja tāds ir"
+msgstr "Attēlot video ar ādiņu apdarinātā logā, ja tāds ir"
 
 #: modules/gui/skins2/src/skin_main.cpp:483
 msgid ""
 "When set to 'no', this parameter is intended to give old skins a chance to "
 "play back video even though no video tag is implemented"
 msgstr ""
+"Kad uzstādīts uz 'no', šis parametrs ir izredzēts dot vecām ādiņām iespēju "
+"atskaņot video, pat ja nav īstenota video birka"
 
 #: modules/gui/skins2/src/skin_main.cpp:508
 msgid "Skinnable Interface"
@@ -22528,6 +22606,8 @@ msgid ""
 "Ciphers, key exchange methods, hash functions and compression methods can be "
 "selected. Refer to GNU TLS documentation for detailed syntax."
 msgstr ""
+"Šifri, atslēgu apmaiņas metodes, jaucējfunkcijas, saspiešanas metodes var "
+"tikt atlasītas. Atsaucieties uz GNU TLS dokumentāciju detalizētai sintaksei."
 
 #: modules/misc/gnutls.c:63
 msgid "Performance (prioritize faster ciphers)"
@@ -22740,6 +22820,10 @@ msgid ""
 "some IPTV STBs (such as those made by HansunTech) which get confused by it. "
 "The default is 5."
 msgstr ""
+"Definē, kuru noilguma opciju pievienot RTSP sesijas ID virknei. Tās "
+"uzstādīšana uz negatīvu skaitli noņem noilguma opciju pavisam. Šis ir "
+"vajadzīgs ar dažiem IPTV STB (tādiem kā tie, kurus izgatavojis HansunTech), "
+"kuri apmulst ar to. Noklusētais ir 5."
 
 #: modules/misc/rtsp.c:75 modules/stream_out/rtp.c:247
 msgid "RTSP VoD"
@@ -22831,6 +22915,9 @@ msgid ""
 "Windows Media Player will cache streamed content. Set to audio+video bitrate "
 "in bytes"
 msgstr ""
+"Nemēģināt uzminēt ASF bitu pārraides ātrumu. Šī uzstādīšana atļauj Jums "
+"kontrolēt, kā Windows Media Player kešos straumēto saturu. Uzstādīt uz audio"
+"+video bitu pārraides ātrumu baitos"
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
@@ -22858,7 +22945,7 @@ msgstr "AVI muksētājs"
 
 #: modules/mux/dummy.c:45
 msgid "Dummy/Raw muxer"
-msgstr "Fiktīva/neapstrādāta mukseris"
+msgstr "Fiktīva/neapstrādāta muksētājs"
 
 #: modules/mux/mp4.c:48
 msgid "Create \"Fast Start\" files"
@@ -23011,6 +23098,8 @@ msgid ""
 "Enforces alignment of all access units on PES boundaries. Disabling this "
 "might save some bandwidth but introduce incompatibilities."
 msgstr ""
+"Uzspiež visu piekļuves vienību izlīdzinājumu uz PES robežām. Atspējojot šo, "
+"varētu ietaupīt kaut kādu joslas platumu, bet ieviest nesaderības."
 
 #: modules/mux/mpeg/ts.c:123
 msgid "Shaping delay (ms)"
@@ -23022,6 +23111,9 @@ msgid ""
 "bitrate between the two boundaries. This avoids having huge bitrate peaks, "
 "especially for reference frames."
 msgstr ""
+"Izgriezt straumi dotā ilgumā šķēlēs un nodrošināt konstantu bitu pārraides "
+"ātrumu starp divām robežām. Šis izvairās no milzīgu bitu pārraides ātrumu "
+"pīķu būšanas, īpaši priekš atsauces kadriem."
 
 #: modules/mux/mpeg/ts.c:129
 msgid "Use keyframes"
@@ -23035,6 +23127,10 @@ msgid ""
 "enhances the efficiency of the shaping algorithm, since I frames are usually "
 "the biggest frames in the stream."
 msgstr ""
+"Ja iespējots un formēšana ir norādīta, TS muksētājs novietos robežas I bilžu "
+"beigās. Tādā gadījumā formēšanas ilgums, dots no lietotāja, ir sliktākais "
+"gadījums, lietots, kad nav pieejamu atsauces kadru. Šis uzlabo formēšanas "
+"algoritma efektivitāti, tā kā I kadri parasti ir lielākie kadri straumē."
 
 #: modules/mux/mpeg/ts.c:137
 msgid "PCR interval (ms)"
@@ -23045,6 +23141,8 @@ msgid ""
 "Set at which interval PCRs (Program Clock Reference) will be sent (in "
 "milliseconds). This value should be below 100ms. (default is 70ms)."
 msgstr ""
+"Uzstādiet, kādā intervālā tiks nosūtīti PCR (Program Clock Reference) "
+"(milisekundēs). Šai vērtībai vajadzētu būt zem 100ms. (noklusētais ir 70ms)."
 
 #: modules/mux/mpeg/ts.c:142
 msgid "Minimum B (deprecated)"
@@ -23110,7 +23208,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:181
 msgid "TS muxer (libdvbpsi)"
-msgstr "TS mukseris (libdvbpsi)"
+msgstr "TS muksētājs (libdvbpsi)"
 
 #: modules/mux/mpjpeg.c:47
 msgid "Multipart JPEG muxer"
@@ -23124,6 +23222,8 @@ msgstr "Indeksa intervāls"
 msgid ""
 "Minimal index interval, in microseconds. Set to 0 to disable index creation."
 msgstr ""
+"Minimālais indeksa intervāls, milisekundēs. Uzstādīt uz 0, lai atspējotu "
+"indeksa izveidi."
 
 #: modules/mux/ogg.c:50
 msgid "Index size ratio"
@@ -23132,6 +23232,8 @@ msgstr "Indeksa izmēra attiecība"
 #: modules/mux/ogg.c:52
 msgid "Set index size ratio. Alters default (60min content) or estimated size."
 msgstr ""
+"Uzstādīt indeksa izmēra attiecību. Izmaina noklusēto (60 min. satura) vai "
+"novērtēto izmēru."
 
 #: modules/mux/ogg.c:60
 msgid "Ogg/OGM muxer"
@@ -23159,7 +23261,7 @@ msgstr "Noilgums (ms)"
 
 #: modules/notify/notify.c:54
 msgid "How long the notification will be displayed "
-msgstr "Cik ilgi paziņojums tiks parādīts"
+msgstr "Cik ilgi paziņojums tiks attēlots"
 
 #: modules/notify/notify.c:59
 msgid "Notify"
@@ -23307,6 +23409,8 @@ msgid ""
 "The SAP module normally chooses itself the right addresses to listen to. "
 "However, you can specify a specific address."
 msgstr ""
+"SAP modulis normāli izvēlas pats pareizās adreses, uz kurām klausīties. "
+"Tomēr, Jūs varat norādīt specifisku adresi."
 
 #: modules/services_discovery/sap.c:85
 msgid "SAP timeout (seconds)"
@@ -23503,6 +23607,9 @@ msgid ""
 "this value (in milliseconds, should be >= 100 ms). For high values, you will "
 "need to raise caching values."
 msgstr ""
+"Bildes, nākošas no bilžu video izvadēm, tiks aizturētas saskaņā ar šo "
+"vērtību (milisekundēs, vajadzētu būt >= 100 ms). Priekš augstām vērtībām "
+"Jums vajadzēs paaugstināt kešošanas vērtības."
 
 #: modules/stream_out/bridge.c:56
 msgid "ID Offset"
@@ -23539,6 +23646,10 @@ msgid ""
 "configure a place holder stream when the real source breaks. Source and "
 "placeholder streams should have the same format. "
 msgstr ""
+"Ja uzstādīts uz true, tilts atmetīs visas ievades elementārās straumes, "
+"izņemot, ja ta tas nesaņem datus datus no cita ieejošā tilta. Šis var tikt "
+"lietots, lai konfigurētu viettura straumi, kad reālais avots salūzt. Avota "
+"un viettura straumēm vajadzētu būt tādā pašā formātā."
 
 #: modules/stream_out/bridge.c:72
 msgid "Placeholder delay"
@@ -23559,6 +23670,9 @@ msgid ""
 "the expense of a slightly longer delay, depending on the frequence of I "
 "frames in the streams."
 msgstr ""
+"Ja iespējots, pārslēgšana starp vietturi un normālo straumi notiks tikai uz "
+"I-kadriem. Šis noņems artefaktus pie straumes pārslēgšanas uz nedaudz "
+"garākas aiztures izmaksām, atkarībā no I kadru frekvences straumēs."
 
 #: modules/stream_out/bridge.c:92
 msgid "Bridge"
@@ -23619,7 +23733,7 @@ msgstr "Aizture (ms)"
 
 #: modules/stream_out/display.c:45
 msgid "Introduces a delay in the display of the stream."
-msgstr "Ievieš aizturi straumes parādīšanā."
+msgstr "Ievieš aizturi straumes attēlojumā."
 
 #: modules/stream_out/display.c:54
 msgid "Display stream output"
@@ -23902,7 +24016,7 @@ msgid ""
 "is to use no muxer (standard RTP stream)."
 msgstr ""
 "Šis atļauj Jums norādīt muksētāju, lietotu priekš straumēšanas izvades. "
-"Noklusētais ir neizmantot muksētāju (standarta RTP straume)."
+"Noklusētais ir nelietot muksētāju (standarta RTP straume)."
 
 #: modules/stream_out/rtp.c:90 modules/stream_out/standard.c:58
 msgid "Session name"
@@ -23950,7 +24064,7 @@ msgid ""
 "(Session Descriptor)."
 msgstr ""
 "Šis atļauj Jums dot URL ar vairāk detaļām par straumi (bieži straumēšanas "
-"organizācijas tīmekļa lapu), kurš tiks paziņots iekš SDP (sesijas "
+"organizācijas tīmekļa vietni), kurš tiks paziņots iekš SDP (sesijas "
 "aprakstītāja)."
 
 #: modules/stream_out/rtp.c:107 modules/stream_out/standard.c:71
@@ -24482,6 +24596,9 @@ msgid ""
 "set to something different than 0 this option will override the relative "
 "font size."
 msgstr ""
+"Šis ir noklusētais izmērs šriftiem, kuri tiks atveidoti uz video. Ja "
+"uzstādīts uz kaut ko atšķirīgu nekā 0, šī opcija pārlabos relatīvo šrifta "
+"izmēru."
 
 #: modules/text_renderer/freetype.c:106
 msgid "Text opacity"
@@ -24623,7 +24740,7 @@ msgstr "SVG sagataves datne"
 msgid ""
 "Location of a file holding a SVG template for automatic string conversion"
 msgstr ""
-"Atrašanās vieta datnei, saturošai SVG veidni automātiskai virkņu "
+"Atrašanās vieta datnei, kura satur SVG veidni automātiskai virkņu "
 "pārveidošanai"
 
 #: modules/text_renderer/tdummy.c:36
@@ -24871,6 +24988,18 @@ msgid ""
 "You can also have a look at pictures and some movies showing such a device "
 "in live action."
 msgstr ""
+"Šis modulis atļauj kontrolēt tā saukto AtmoLight ierīci, pieslēgtu pie Jūsu "
+"datora.\n"
+"AtmoLight ir pašmāju versija tam, ko Philips sauc AmbiLight.\n"
+"Ja Jums vajadzīga papildu informācija, jūtieties brīvi apmeklēt mūs no\n"
+"\n"
+"http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
+"http://www.vdr-wiki.de/wiki/index.php/AtmoWin\n"
+"\n"
+"Jūs varat atrast šeit detalizētus aprakstus par to, kā uzbūvēt to sev un kur "
+"iegūt vajadzīgās daļas.\n"
+"Jūs varat arī apskatīt bildes un dažas filmas, parādošas šādu ierīci dzīvā "
+"darbībā."
 
 #: modules/video_filter/atmo/atmo.cpp:127
 msgid "Device type"
@@ -24881,7 +25010,7 @@ msgid ""
 "Choose your preferred hardware from the list, or choose AtmoWin Software to "
 "delegate processing to the external process - with more options"
 msgstr ""
-"Izvēlieties sev piemērotāko aparatūru no saraksta, vai izvēlieties AtmoWin "
+"Izvēlieties sev vēlamo aparatūru no saraksta, vai izvēlieties AtmoWin "
 "Programmatūra, lai deleģētu apstrādi uz ārējo procesu - ar vairāk opcijām"
 
 #: modules/video_filter/atmo/atmo.cpp:145
@@ -25486,7 +25615,7 @@ msgstr "Joslas platums pikseļos (noklusētais : 10)"
 msgid ""
 "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
 msgstr ""
-"Platums pikseļos katrai joslai iekš joslgrafa, kura tiks parādīta "
+"Platums pikseļos katrai joslai iekš joslgrafa, kura tiks attēlota "
 "(noklusētais : 10)."
 
 #: modules/video_filter/audiobargraph_v.c:78
@@ -25508,7 +25637,7 @@ msgstr "Mala redzama"
 
 #: modules/video_filter/ball.c:101
 msgid "Set edge visibility."
-msgstr "Uzstādīt malas redzamību"
+msgstr "Uzstādīt malas redzamību."
 
 #: modules/video_filter/ball.c:103
 msgid "Ball speed"
@@ -25792,7 +25921,7 @@ msgstr "Pikseļu skaits, kurus apcirpt no attēla lejas."
 
 #: modules/video_filter/croppadd.c:52
 msgid "Pixels to crop from left"
-msgstr "Pikseļi apcirpšanai no kreisās"
+msgstr "Pikseļi, kurus apcirpt no kreisās"
 
 #: modules/video_filter/croppadd.c:54
 msgid "Number of pixels to crop from the left of the image."
@@ -25800,7 +25929,7 @@ msgstr "Pikseļu skaits, kurus apcirpt no attēla kreisās."
 
 #: modules/video_filter/croppadd.c:55
 msgid "Pixels to crop from right"
-msgstr "Pikseļi apcirpšanai no labās"
+msgstr "Pikseļi, kurus apcirpt no labās"
 
 #: modules/video_filter/croppadd.c:57
 msgid "Number of pixels to crop from the right of the image."
@@ -25941,7 +26070,7 @@ msgstr "Rindpārleces novēršanas video filtrs"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:60
 msgid "Input FIFO"
-msgstr "Ieejas FIFO"
+msgstr "Ievades FIFO"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:61
 msgid "FIFO which will be read for commands"
@@ -25949,7 +26078,7 @@ msgstr "FIFO, kurš tiks lasīts priekš komandām"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:63
 msgid "Output FIFO"
-msgstr "Izejas FIFO"
+msgstr "Izvades FIFO"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:64
 msgid "FIFO which will be written to for responses"
@@ -26183,7 +26312,7 @@ msgstr "Logo individuālā attēla laiks milisekundēs"
 
 #: modules/video_filter/logo.c:56
 msgid "Individual image display time of 0 - 60000 ms."
-msgstr "Individuālais attēla parādīšanas laiks no 0 - 60000 ms."
+msgstr "Individuālais attēla attēlošanas laiks no 0 - 60000 ms."
 
 #: modules/video_filter/logo.c:59
 msgid "X coordinate of the logo. You can move the logo by left-clicking it."
@@ -26246,6 +26375,8 @@ msgid ""
 "Marquee text to display. (Available format strings: %Y = year, %m = month, "
 "%d = day, %H = hour, %M = minute, %S = second, ...)"
 msgstr ""
+"Afišas teksts, kuru attēlot. (Pieejamās formāta virknes: %Y = gads, %m = "
+"mēnesis, %d = diena, %H = stunda, %M = minūte, %S = sekunde, ...)"
 
 #: modules/video_filter/marq.c:93
 msgid "Text file"
@@ -26272,7 +26403,7 @@ msgid ""
 "Number of milliseconds the marquee must remain displayed. Default value is 0 "
 "(remains forever)."
 msgstr ""
-"Milisekunžu skaits, kuru afišai jāpaliek parādītai. Noklusētā vērtība ir 0 "
+"Milisekunžu skaits, kurās afišai jāpaliek attēlotai. Noklusētā vērtība ir 0 "
 "(jāpaliek vienmēr)."
 
 #: modules/video_filter/marq.c:103
@@ -26636,15 +26767,15 @@ msgstr "Attēlot apstrādāto video"
 
 #: modules/video_filter/opencv_wrapper.c:69
 msgid "Show only errors"
-msgstr "Rādīt tikai kļūdas"
+msgstr "Parādīt tikai kļūdas"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Show errors and warnings"
-msgstr "Rādīt kļūdas un brīdinājumus"
+msgstr "Parādīt kļūdas un brīdinājumus"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Show everything including debug messages"
-msgstr "Rādīt visu, ieskaitot atkļūdošanas paziņojumus"
+msgstr "Parādīt visu, ieskaitot atkļūdošanas paziņojumus"
 
 #: modules/video_filter/opencv_wrapper.c:73
 msgid "OpenCV video filter wrapper"
@@ -26681,7 +26812,7 @@ msgstr "Ietinuma filtra izvade"
 
 #: modules/video_filter/opencv_wrapper.c:90
 msgid "Determines what (if any) video is displayed by the wrapper filter"
-msgstr "Nosaka, kurš (ja tāds ir) video tiek parādīts ar ietinuma filtru"
+msgstr "Nosaka, kurš (ja tāds ir) video tiek attēlots ar ietinuma filtru"
 
 #: modules/video_filter/opencv_wrapper.c:93
 msgid "OpenCV internal filter name"
@@ -26773,7 +26904,7 @@ msgstr "Mazs priekšskatījums"
 
 #: modules/video_filter/puzzle.c:60
 msgid "Show small preview."
-msgstr "Rādīt mazu priekšskatījumu"
+msgstr "Parādīt mazu priekšskatījumu"
 
 #: modules/video_filter/puzzle.c:61
 msgid "Small preview size"
@@ -26781,7 +26912,7 @@ msgstr "Mazs priekšskatījuma izmērs"
 
 #: modules/video_filter/puzzle.c:62
 msgid "Show small preview size (percent of source)."
-msgstr "Rādīt mazu priekšskatījuma izmēru (procentos no avota)."
+msgstr "Parādīt mazu priekšskatījuma izmēru (procentos no avota)."
 
 #: modules/video_filter/puzzle.c:63
 msgid "Piece edge shape size"
@@ -26988,7 +27119,7 @@ msgstr "Maksimālais garums"
 
 #: modules/video_filter/rss.c:134
 msgid "Maximum number of characters displayed on the screen."
-msgstr "Maksimuma simbolu skaits, parādīts uz ekrāna."
+msgstr "Maksimuma simbolu skaits, kuri attēloti uz ekrāna."
 
 #: modules/video_filter/rss.c:136
 msgid "Refresh time"
@@ -27041,7 +27172,7 @@ msgid ""
 "Title display mode. Default is 0 (hidden) if the feed has an image and feed "
 "images are enabled, 1 otherwise."
 msgstr ""
-"Virsraksta parādīšanas režīms. Noklusētais ir 0 (slēpts), ja barotnei ir "
+"Virsraksta attēlošanas režīms. Noklusētais ir 0 (slēpts), ja barotnei ir "
 "attēls un barotnes attēli ir iespējoti, 1 citādi."
 
 #: modules/video_filter/rss.c:169
@@ -27380,17 +27511,19 @@ msgstr "Core Animation OpenGL Layer (Mac OS X)"
 
 #: modules/video_output/decklink.cpp:70
 msgid "Timelength after which we assume there is no signal."
-msgstr ""
+msgstr "Laika garums, pēc kura mēs pieņemam, ka šeit nav signāla."
 
 #: modules/video_output/decklink.cpp:72
 msgid ""
 "Timelength after which we assume there is no signal.\n"
 "After this delay we black out the video."
 msgstr ""
+"Laika garums, pēc kura mēs pieņemam, ka šeit nav signāla.\n"
+"Pēc šīs aiztures mēs aptumšosim video."
 
 #: modules/video_output/decklink.cpp:76
 msgid "Picture to display on input signal loss."
-msgstr "Bilde, kuru parādīt pie ievades signāla zuduma."
+msgstr "Bilde, kuru attēlot pie ievades signāla zuduma."
 
 #: modules/video_output/decklink.cpp:79
 msgid "Output card"
@@ -27534,7 +27667,7 @@ msgstr ""
 
 #: modules/video_output/fb.c:70
 msgid "Framebuffer uses hw acceleration"
-msgstr "Kadru buferis lieto aparatūras akselerāciju"
+msgstr "Kadru buferis lieto aparatūras paātrinājumu "
 
 #: modules/video_output/fb.c:72
 msgid ""
@@ -27623,7 +27756,7 @@ msgid ""
 "Enable this option if the diagonal stripes are displayed when the window "
 "size is equal to or smaller than the movie size."
 msgstr ""
-"Iespējot šo opciju, ja diagonālās strīpas tiek parādītas, kad loga izmērs ir "
+"Iespējot šo opciju, ja tiek attēlotas diagonālās strīpas, kad loga izmērs ir "
 "vienāds ar vai mazāks par filmas izmēru."
 
 #: modules/video_output/kva.c:55 modules/gui/qt4/ui/sprefs_video.h:333
@@ -27660,13 +27793,15 @@ msgstr "Mac OS X OpenGL video izvade"
 
 #: modules/video_output/mmal.c:52
 msgid "VideoCore layer where the video is displayed."
-msgstr "VideoCore slānis, kurā video tiek parādīts."
+msgstr "VideoCore slānis, kurā video tiek attēlots."
 
 #: modules/video_output/mmal.c:53
 msgid ""
 "VideoCore layer where the video is displayed. Subpictures are displayed "
 "directly above and a black background directly below."
 msgstr ""
+"VideoCore slānis, kurā video tiek attēlots. Apakšbildes tiek attēlotas tieši "
+"virs un melns fons tieši zem."
 
 #: modules/video_output/mmal.c:56 modules/video_output/mmal.c:57
 msgid "Adjust HDMI refresh rate to the video."
@@ -27781,7 +27916,7 @@ msgid ""
 "of the display that you want the video window to open on. For example, \"\\"
 "\\.\\DISPLAY1\" or \"\\\\.\\DISPLAY2\"."
 msgstr ""
-"Vairāku monitoru konfigurācijā, Jūs varat norādīt attēlotāja, uz kura Jūs "
+"Vairāku monitoru konfigurācijā, Jūs varat norādīt displeja, uz kura Jūs "
 "vēlaties, lai atveras video logs, Windows ierīces nosaukumu. Piemēram, \"\\"
 "\\.\\DISPLAY1\" vai \"\\\\.\\DISPLAY2\"."
 
@@ -27889,15 +28024,15 @@ msgstr "OpenGL GLX video izvade (XCB)"
 
 #: modules/video_output/xcb/window.c:43
 msgid "X11 display"
-msgstr "X11 attēlotājs"
+msgstr "X11 displejs"
 
 #: modules/video_output/xcb/window.c:45
 msgid ""
 "Video will be rendered with this X11 display. If empty, the default display "
 "will be used."
 msgstr ""
-"Video tiks atveidots ar šo X11 attēlotāju. Ja tukšs, tiks lietots "
-"noklusētais attēlotājs."
+"Video tiks atveidots ar šo X11 displeju. Ja tukšs, tiks lietots noklusētais "
+"displejs."
 
 #: modules/video_output/xcb/window.c:48
 msgid "X11 window ID"
@@ -28299,18 +28434,18 @@ msgstr "Attēla siena"
 
 #: modules/visualization/goom.c:45
 msgid "Goom display width"
-msgstr "Goom attēlotāja platums"
+msgstr "Goom displeja platums"
 
 #: modules/visualization/goom.c:46
 msgid "Goom display height"
-msgstr "Goom attēlotāja augstums"
+msgstr "Goom displeja augstums"
 
 #: modules/visualization/goom.c:47
 msgid ""
 "This allows you to set the resolution of the Goom display (bigger resolution "
 "will be prettier but more CPU intensive)."
 msgstr ""
-"Šis atļauj Jums uzstādīt Goom attēlotāja izšķirtspēju (lielāka izšķirtspēja "
+"Šis atļauj Jums uzstādīt Goom displeja izšķirtspēju (lielāka izšķirtspēja "
 "būs glītāka, bet vairāk centrālā procesora intensīva)."
 
 #: modules/visualization/goom.c:50
@@ -28429,7 +28564,7 @@ msgstr "FFT logs"
 
 #: modules/visualization/visual/visual.c:63
 msgid "The type of FFT window to use for spectrum-based visualizations."
-msgstr ""
+msgstr "FFT loga tips, kuru lietot priekš spektra-bāzētām vizualizācijām."
 
 #: modules/visualization/visual/visual.c:65
 msgid "Kaiser window parameter"
@@ -28440,6 +28575,8 @@ msgid ""
 "The parameter alpha for the Kaiser window. Increasing alpha increases the "
 "main-lobe width and decreases the side-lobe amplitude. "
 msgstr ""
+"Parametrs alfa priekš Kaizera loga. Alfas palielināšana, palielinās galvenās "
+"daivas platumu un samazinās malējo daivu amplitūdu."
 
 #: modules/visualization/visual/visual.c:70
 msgid "Show 80 bands instead of 20"
@@ -28590,7 +28727,7 @@ msgstr "Izvades\tdatne"
 
 #: share/lua/http/dialogs/create_stream.html:355
 msgid "Input media"
-msgstr "Ieejas medijs"
+msgstr "Ievades medijs"
 
 #: share/lua/http/dialogs/create_stream.html:367
 msgid "Error:"
@@ -28717,7 +28854,7 @@ msgid ""
 "Once the stream is created, the <i>Media Viewer</i> window will display the "
 "stream."
 msgstr ""
-"Tiklīdz straume ir izveidota, <i>Mediju skatītāja</i> logs attēlos straumi."
+"Tiklīdz straume tiks izveidota, <i>Mediju skatītāja</i> logs attēlos straumi."
 
 #: share/lua/http/index.html:269
 msgid ""
@@ -28731,6 +28868,9 @@ msgid ""
 "item, the first selected item from the <i>Library</i> will be the subject of "
 "the stream."
 msgstr ""
+"Tekošais atskaņotais vienums tiks straumēts. Ja nav tekošā atskaņotā "
+"vienuma, pirmais atlasītais vienums no <i>Bibliotēkas</i> tiks padots "
+"straumei."
 
 #: share/lua/http/index.html:275
 msgid ""
@@ -28747,7 +28887,7 @@ msgstr "Vai Jūs esat pārliecināts, ka vēlaties izveidot straumi?"
 #: modules/gui/qt4/ui/about.h:287 modules/gui/qt4/ui/open.h:242
 #: modules/gui/qt4/ui/podcast_configuration.h:100
 msgid "Dialog"
-msgstr "Dialogs"
+msgstr "Dialoglodziņš"
 
 #: modules/gui/qt4/ui/about.h:288 modules/gui/qt4/ui/about.h:289
 msgid "Update"
@@ -28788,11 +28928,11 @@ msgstr "Moduļu koks"
 
 #: modules/gui/qt4/ui/open.h:245
 msgid "Show extended options"
-msgstr "Rādīt paplašinātas opcijas"
+msgstr "Parādīt paplašinātas opcijas"
 
 #: modules/gui/qt4/ui/open.h:247
 msgid "Show &more options"
-msgstr "Rādīt vairāk opciju"
+msgstr "Parādīt vairāk opciju"
 
 #: modules/gui/qt4/ui/open.h:250
 msgid "Change the caching for the media"
@@ -29164,7 +29304,7 @@ msgstr "x264 priekšstatījumu un skaņojumu atlase"
 
 #: modules/gui/qt4/ui/sprefs_input.h:349
 msgid "Hardware-accelerated decoding"
-msgstr "Aparatūras asistētā atkodēšana"
+msgstr "Aparatūras paātrinātā atkodēšana"
 
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "Skip H.264 in-loop deblocking filter"
@@ -29232,7 +29372,7 @@ msgstr "Mainīt saskarnes izmēru uz video izmēru"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:513
 msgid "Show controls in full screen mode"
-msgstr "Rādīt kontroles pilnekrāna režīmā"
+msgstr "Parādīt kontroles pilnekrāna režīmā"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
 msgid "Pause playback when minimized"
@@ -29240,7 +29380,7 @@ msgstr "Pauzēt atskaņošanu, kad minimizēts"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Show media change popup:"
-msgstr "Rādīt medija maiņas uzlecošo logu:"
+msgstr "Parādīt medija maiņas uzlecošo logu:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Start in minimal view mode"
@@ -29256,7 +29396,7 @@ msgstr "Integrēt video saskarnē"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Show systray icon"
-msgstr "Rādīt sistēmjoslas ikonu"
+msgstr "Parādīt sistēmjoslas ikonu"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Skin resource file:"
@@ -29348,7 +29488,7 @@ msgstr "Pievienot fonu"
 
 #: modules/gui/qt4/ui/sprefs_video.h:324
 msgid "Accelerated video output (Overlay)"
-msgstr "Akselerēta video izeja (Pārklājums)"
+msgstr "Paātrinātā video izvade (Pārklājums)"
 
 #: modules/gui/qt4/ui/sprefs_video.h:329
 msgid "DirectX"
@@ -29356,7 +29496,7 @@ msgstr "DirectX"
 
 #: modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Display device"
-msgstr "Attēlošanas ierīce"
+msgstr "Displeja ierīce"
 
 #: modules/gui/qt4/ui/sprefs_video.h:331
 msgid "KVA"
@@ -29706,66 +29846,169 @@ msgstr "Mediju pārvaldnieka saraksts"
 #~ "VLC neatbalsta audio vai video formātu \"%4.4s\". Diemžēl nav veida, lai "
 #~ "jūs varētu salabot šo."
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Subtitru celiņš pievienots"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundation video tveršana"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundation video tveršanas modulis."
-
-#~ msgid "No video devices found"
-#~ msgstr "Nav atrastas video ierīces"
-
-#~ msgid "Satellite scanning config"
-#~ msgstr "Satelīta skenēšanas konfigurācija"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Nav atrasta audio ievades ierīce"
-
-#~ msgid "No audio input device found"
-#~ msgstr "Nav atrasta ievades ierīce"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windows Store audio izvade"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27 atkodētājs"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVG video atkodētājs"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Windows ziņojumu saskarne"
-
 #~ msgid "No EPG Data Available"
 #~ msgstr "Nav pieejami EPG dati"
 
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Audio pirkstu nospiedumu noņemšana"
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Izvēlieties sev vēlamo video izvades metodi un pielāgojiet to šeit."
 
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr "Šie moduļi nodrošina tīkla funkcijas visām citām daļam uz VLC."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Dialoga sniedzēji var konfigurēt šeit."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "Šajā sadaļā Jūs varat piespiest subtitru atmuksētāja rīcību, piemēram, "
+#~ "uzstādot subtitru tipu vai datnes nosaukumu."
+
+#~ msgid ""
+#~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
+#~ msgstr ""
+#~ "Nosūta TS uz specifisku ip:portu ar udp (Jums ir jāzin, ko Jūs darāt)."
+
+#~ msgid "MTU for out mode"
+#~ msgstr "MTU izejas režīmam"
+
+#~ msgid "MTU for out mode."
+#~ msgstr "MTU izejas režīmam."
+
+#~ msgid "Album art download policy"
+#~ msgstr "Albuma mākslas lejupielādes politika"
+
+#~ msgid "Extension not responding!"
+#~ msgstr "Paplašinājums neatbild!"
+
+#~ msgid "Addons local storage installer"
+#~ msgstr "Papildinājumu lokālās glabātuves instalētājs"
+
+#~ msgid "Addons local storage lister"
+#~ msgstr "Papildinājumu lokālās glabātuves saraksta sastādītājs"
+
+#~ msgid "addons.videolan.org addons finder"
+#~ msgstr "addons.videolan.org papildinājumu atradējs"
+
+#~ msgid "Videolan.org's single archive addons finder"
+#~ msgstr "Videolan.org viena arhīva papildinājumu atradējs"
+
+#~ msgid "single .vlp archive addons finder"
+#~ msgstr "viena .vlp arhīva papildinājumu atradējs"
+
+#~ msgid "Track fingerprinter (based on Acoustid)"
+#~ msgstr "Celiņa pirkstu nospiedumu noņēmējs (bāzēts uz Acoustid)"
+
+#~ msgid "DVB input with v4l2 support"
+#~ msgstr "DVB ievade ar v4l2 atbalstu"
+
+#~ msgid "Uncompressed RAR"
+#~ msgstr "Nesaspiests RAR"
+
+#~ msgid "SCTE-27"
+#~ msgstr "SCTE-27"
+
+#~ msgid "WinMsg"
+#~ msgstr "WinMsg"
+
+#~ msgid "Hann"
+#~ msgstr "Hann"
+
+#~ msgid "Blackman-Harris"
+#~ msgstr "Blekmena-Harisa"
+
+#~ msgid "Kaiser"
+#~ msgstr "Kaizera"
+
+#~ msgid "Select a matching identity"
+#~ msgstr "Atlasiet atbilstošu identitāti"
+
+#~ msgid " (%1+ rated)"
+#~ msgstr " (%1+ novērtēts)"
+
+#~ msgid "Empty"
+#~ msgstr "Tukšs"
+
+#~ msgid "VLC Debug Log (%s).rtf"
+#~ msgstr "VLC atkļūdošanas žurnāls (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Subtitra celiņš"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Video tveršana"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Audio izvades modulis"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Nav atrasta ievades ierīce"
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Satelīta apgabala kods"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Nav atrasta ievades ierīce"
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Nav atrasta ievades ierīce"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Windows GDI video izvade"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "G.711 atkodētājs"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "CDG video atkodētājs"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Windows servisu saskarne"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "Pirkstu nospiedums"
+
+#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
 #~ msgstr "Notīrīt"
 
+#, fuzzy
 #~ msgid "Videolan.org's addons finder"
-#~ msgstr "Videolan.org papildinājumu atradējs"
+#~ msgstr "Video transformācijas filtrs"
 
+#, fuzzy
 #~ msgid "Chromaprint stream output"
-#~ msgstr "Chromaprint straumes izvade."
+#~ msgstr "Gatavo straumes izvadi"
 
+#, fuzzy
 #~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
+#~ msgstr "Spektrs"
 
+#, fuzzy
 #~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3D OpenGL spektra vizualizācija"
+#~ msgstr "Tekošā vizualizācija"
 
+#, fuzzy
 #~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC mediju atskaņotājs - Flash skatītājs"
+#~ msgstr "VLC multimediju atskaņotājs - Tīmekļa saskarne"
 
 #, fuzzy
 #~ msgid "Automatically retrieve media infos"
@@ -30185,7 +30428,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "&Extended Settings..."
-#~ msgstr "Rādīt paplašinātus iestatījumus"
+#~ msgstr "Parādīt paplašinātus iestatījumus"
 
 #, fuzzy
 #~ msgid "Additional &Sources"
@@ -30303,17 +30546,10 @@ msgstr "Mediju pārvaldnieka saraksts"
 #~ msgid "left"
 #~ msgstr "Aizmugurējais kreisais"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Izvēlieties sev vēlamo video izvades metodi un pielāgojiet to šeit."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr "Šie moduļi nodrošina tīkla funkcijas visām citām daļam uz VLC."
-
+#, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Šie ir vispārējie iestatījumi priekš video/audio/subtitru kodēšanas "
-#~ "moduļiem."
+#~ msgstr "Pamata iestatījumi video izvades moduļiem."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -30337,7 +30573,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Fetch Information"
-#~ msgstr "Kodeka Informācija"
+#~ msgstr "Kodeka informācija"
 
 #, fuzzy
 #~ msgid "Advanced Open..."
@@ -30365,11 +30601,11 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Framerate"
-#~ msgstr "Kadru likme"
+#~ msgstr "Kadru nomaiņas ātrums"
 
 #, fuzzy
 #~ msgid "Bitrate peak"
-#~ msgstr "Bitu ātrums"
+#~ msgstr "Bitu pārraides ātrums"
 
 #, fuzzy
 #~ msgid "Audio bitmask"
@@ -30409,7 +30645,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Enable Audio"
-#~ msgstr "Ieslēgt Audio"
+#~ msgstr "Iespējot audio"
 
 #, fuzzy
 #~ msgid "Enable Video"
@@ -30425,7 +30661,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Show playlist"
-#~ msgstr "Rādīt/Paslēpt atskaņošanas sarakstu"
+#~ msgstr "Parādīt/Paslēpt atskaņošanas sarakstu"
 
 #, fuzzy
 #~ msgid "Enable spatializer"
@@ -30437,7 +30673,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "List View"
-#~ msgstr "Medija attēlojums"
+#~ msgstr "Medija skats"
 
 #, fuzzy
 #~ msgid "Subtitles && OSD"
@@ -30453,7 +30689,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Copyright (C) "
-#~ msgstr "Copyright"
+#~ msgstr "Autortiesības"
 
 #, fuzzy
 #~ msgid "&Codec"
@@ -30473,11 +30709,11 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Show all the advanced options in the dialogs."
-#~ msgstr "Rādīt papildu iespējas"
+#~ msgstr "Parādīt paplašinātas opcijas"
 
 #, fuzzy
 #~ msgid "MSN Now-Playing"
-#~ msgstr "Tagad Spēlē"
+#~ msgstr "Patlaban atskaņo"
 
 #, fuzzy
 #~ msgid "XOSD interface"
@@ -30713,11 +30949,11 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Enable peaks"
-#~ msgstr "Ieslēgt Audio"
+#~ msgstr "Iespējot audio"
 
 #, fuzzy
 #~ msgid "Enable bands"
-#~ msgstr "Ieslēgt Audio"
+#~ msgstr "Iespējot audio"
 
 #, fuzzy
 #~ msgid "Enable base"
@@ -30817,7 +31053,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Access:"
-#~ msgstr "Piekļuves izejas"
+#~ msgstr "Piekļuves izvade"
 
 #, fuzzy
 #~ msgid " Save "
@@ -30952,7 +31188,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Show P&laylist"
-#~ msgstr "Rādīt/Paslēpt atskaņošanas sarakstu"
+#~ msgstr "Parādīt/Paslēpt atskaņošanas sarakstu"
 
 #, fuzzy
 #~ msgid "Play&list..."
@@ -30964,7 +31200,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "WinCE interface module"
-#~ msgstr "Papildus interfeisa moduļi"
+#~ msgstr "Papildu saskarnes moduļi"
 
 #, fuzzy
 #~ msgid "&Title"
@@ -30972,7 +31208,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Undock from Interface"
-#~ msgstr "Pievienot interfeisu"
+#~ msgstr "Pievienot saskarni"
 
 #, fuzzy
 #~ msgid "Ctrl+U"
@@ -30980,7 +31216,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Add Interfaces"
-#~ msgstr "Pievienot interfeisu"
+#~ msgstr "Pievienot saskarni"
 
 #, fuzzy
 #~ msgid "Check for updates..."
@@ -31008,7 +31244,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Track number."
-#~ msgstr "Ierakstu skaits"
+#~ msgstr "Celiņa numurs"
 
 #, fuzzy
 #~ msgid "&Simple Add File..."
@@ -31024,7 +31260,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Stream output MRL"
-#~ msgstr "Izejas plūsma "
+#~ msgstr "Straumes izvade"
 
 #, fuzzy
 #~ msgid "Channel name"
@@ -31044,7 +31280,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Playing"
-#~ msgstr "Tagad Spēlē"
+#~ msgstr "Patlaban atskaņo"
 
 #, fuzzy
 #~ msgid "Open &File...\tCtrl-F"
@@ -31052,11 +31288,11 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Open Dir&ectory...\tCtrl-E"
-#~ msgstr "Atvērt D&irektoriju..."
+#~ msgstr "Atvērt katalogu..."
 
 #, fuzzy
 #~ msgid "Show/Hide Interface"
-#~ msgstr "Pievienot interfeisu"
+#~ msgstr "Pievienot saskarni"
 
 #, fuzzy
 #~ msgid "Media &Info..."
@@ -31092,11 +31328,11 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Track number/position in set"
-#~ msgstr "Ierakstu skaits"
+#~ msgstr "Celiņa numurs"
 
 #, fuzzy
 #~ msgid "no artist"
-#~ msgstr "Mākslinieks"
+#~ msgstr "Izpildītājs"
 
 #, fuzzy
 #~ msgid "General interface setttings"
@@ -31110,167 +31346,116 @@ msgstr "Mediju pārvaldnieka saraksts"
 #~ msgid "Open Subtitles"
 #~ msgstr "Atvērt subtitrus"
 
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Dialoga sniedzēji var konfigurēt šeit."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "Šajā sadaļā Jūs varat piespiest subtitru atmuksētāja rīcību, piemēram, "
-#~ "uzstādot subtitru tipu vai datnes nosaukumu."
-
+#, fuzzy
 #~ msgid "Media in Zip"
-#~ msgstr "Medijs iekš Zip"
+#~ msgstr "Medija attīšana"
 
+#, fuzzy
 #~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Ceļš uz mediju Zip arhīvā"
+#~ msgstr "Ceļš uz ādiņu, kuru lietot"
 
+#, fuzzy
 #~ msgid "Fast udp streaming"
-#~ msgstr "Ātrā udp straumēšana"
+#~ msgstr "Uzstādīt straumēšanu..."
 
-#~ msgid ""
-#~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
-#~ msgstr ""
-#~ "Nosūta TS uz specifisku ip:portu ar udp (Jums ir jāzin, ko Jūs darāt)."
-
-#~ msgid "MTU for out mode"
-#~ msgstr "MTU izejas režīmam"
-
-#~ msgid "MTU for out mode."
-#~ msgstr "MTU izejas režīmam."
-
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Papildinājumu pārvaldnieks"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Albuma mākslas lejupielādes politika"
-
+#, fuzzy
 #~ msgid "&Post processing"
 #~ msgstr "Pēc apstrāde"
 
-#~ msgid "Extension not responding!"
-#~ msgstr "Paplašinājums neatbild!"
-
+#, fuzzy
 #~ msgid "addons local storage"
-#~ msgstr "papildinājumu lokālā glabātuve"
+#~ msgstr "Maksimālais lokālais bitu pārraides ātrums"
 
-#~ msgid "Addons local storage installer"
-#~ msgstr "Papildinājumu lokālās glabātuves instalētājs"
-
-#~ msgid "Addons local storage lister"
-#~ msgstr "Papildinājumu lokālās glabātuves saraksta sastādītājs"
-
-#~ msgid "addons.videolan.org addons finder"
-#~ msgstr "addons.videolan.org papildinājumu atradējs"
-
-#~ msgid "Videolan.org's single archive addons finder"
-#~ msgstr "Videolan.org viena arhīva papildinājumu atradējs"
-
-#~ msgid "single .vlp archive addons finder"
-#~ msgstr "viena .vlp arhīva papildinājumu atradējs"
-
+#, fuzzy
 #~ msgid "acoustid"
-#~ msgstr "acoustid"
+#~ msgstr "Akustiskā"
 
-#~ msgid "Track fingerprinter (based on Acoustid)"
-#~ msgstr "Celiņa pirkstu nospiedumu noņēmējs (bāzēts uz Acoustid)"
-
+#, fuzzy
 #~ msgid "Duration of the fingerprinting"
-#~ msgstr "Pirkstu nospiedumu noņemšanas ilgums"
+#~ msgstr "Spoguļošanas virziens"
 
+#, fuzzy
 #~ msgid "Default: 90sec"
-#~ msgstr "Noklusējuma: 90 sek."
+#~ msgstr "Noklusētā straume"
 
+#, fuzzy
 #~ msgid ""
 #~ "Please wait while your font cache is rebuilt.\n"
 #~ "This should take less than a few minutes."
 #~ msgstr ""
-#~ "Lūdzu, gaidiet, kamēr Jūsu šriftu kešs tiek pārbūvēts.\n"
-#~ "Šim vajadzētu aizņemt mazāk kā dažas minūtes."
+#~ "Lūdzu, gaidiet kamēr Jūsu šriftu kešs tiek pārbūvēts.\n"
+#~ "Šim vajadzētu aizņemt mazāk kā minūti."
 
+#, fuzzy
 #~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Vizualizācijas loga platums, pikseļos."
+#~ msgstr "Video loga platums, pikseļos."
 
+#, fuzzy
 #~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Vizualizācijas loga augstums, pikseļos."
+#~ msgstr "Video loga augstums, pikseļos."
 
-#~ msgid "DVB input with v4l2 support"
-#~ msgstr "DVB ievade ar v4l2 atbalstu"
-
-#~ msgid "Uncompressed RAR"
-#~ msgstr "Nesaspiests RAR"
-
+#, fuzzy
 #~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows Multimedia Device izvade"
+#~ msgstr "Windows GDI video izvade"
 
-#~ msgid "SCTE-27"
-#~ msgstr "SCTE-27"
-
+#, fuzzy
 #~ msgid "Specify the width to decode the image too"
-#~ msgstr "Norādiet platumu, lai atkodētu arī attēlu"
+#~ msgstr "Norādiet valodu saturošo rindu"
 
+#, fuzzy
 #~ msgid "Specify the height to decode the image too"
-#~ msgstr "Norādiet augstumu, lai atkodētu arī attēlu"
+#~ msgstr "Norādiet rindpārleces novēršanas moduli, kuru lietot."
 
+#, fuzzy
 #~ msgid "Scale factor to apply to image"
-#~ msgstr "Mērogošanas faktors, kuru pielietot uz attēla"
+#~ msgstr ""
+#~ "Mērogošanas faktors, kuru pielietot uz video, kamēr pārkodējas (piemēram: "
+#~ "0.25)"
 
-#~ msgid "WinMsg"
-#~ msgstr "WinMsg"
-
-#~ msgid "Hann"
-#~ msgstr "Hann"
-
-#~ msgid "Blackman-Harris"
-#~ msgstr "Blekmena-Harisa"
-
-#~ msgid "Kaiser"
-#~ msgstr "Kaizera"
-
-#~ msgid "Select a matching identity"
-#~ msgstr "Atlasiet atbilstošu identitāti"
-
+#, fuzzy
 #~ msgid "No fingerprint has been found"
-#~ msgstr "Nav atrasti pirkstu nospiedumi"
+#~ msgstr "Nav atrasta ievade"
 
+#, fuzzy
 #~ msgid "Fingerprinting track..."
-#~ msgstr "Pirkstu nospiedumu noņemšana celiņam..."
+#~ msgstr "Pirkstu nospiedums"
 
-#~ msgid " (%1+ rated)"
-#~ msgstr " (%1+ novērtēts)"
-
-#~ msgid "Empty"
-#~ msgstr "Tukšs"
-
+#, fuzzy
 #~ msgid "Deactivate"
-#~ msgstr "Deaktivizēt"
+#~ msgstr "Aktivizēt"
 
+#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable video input device. "
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "Nešķiet, ka Jūsu Mac būtu aprīkots ar piemērotu video ievades ierīci. "
-#~ "Lūdzu, pārbaudiet Jūsu savienotājus un dziņus."
+#~ "Nešķiet, ka Jūsu Mac būtu aprīkots ar piemērotu ievades ierīci. Lūdzu, "
+#~ "pārbaudiet Jūsu savienotājus un dziņus."
 
+#, fuzzy
 #~ msgid "QTSound"
-#~ msgstr "QTSound"
+#~ msgstr "Ieskaujošā"
 
+#, fuzzy
 #~ msgid "QuickTime Sound Capture"
-#~ msgstr "QuickTime skaņas tveršana"
+#~ msgstr "Quicktime tveršana"
 
+#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable audio input device."
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "Nešķiet, ka Jūsu Mac būtu aprīkots ar piemērotu audio ievades ierīci. "
-#~ "Lūdzu, pārbaudiet Jūsu savienotājus un dziņus."
+#~ "Nešķiet, ka Jūsu Mac būtu aprīkots ar piemērotu ievades ierīci. Lūdzu, "
+#~ "pārbaudiet Jūsu savienotājus un dziņus."
 
+#, fuzzy
 #~ msgid "Save this Log..."
-#~ msgstr "Saglabāt šo žurnālu..."
+#~ msgstr "Saglabāt kā..."
 
-#~ msgid "VLC Debug Log (%s).rtf"
-#~ msgstr "VLC atkļūdošanas žurnāls (%s).rtf"
-
+#, fuzzy
 #~ msgid "Streaming Output"
-#~ msgstr "Straumēšanas izvade"
+#~ msgstr "Straumes izvade"
