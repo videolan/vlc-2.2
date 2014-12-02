@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-09-01 08:31+0000\n"
-"Last-Translator: Mahrazi Mohd Kamal <mahrazi@gmail.com>\n"
+"PO-Revision-Date: 2014-11-29 03:16+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/vlc-trans/language/"
 "ms/)\n"
 "Language: ms\n"
@@ -160,9 +160,8 @@ msgid "General video settings"
 msgstr "Tetapan video am"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Tetapan am untuk modul output audio."
+msgstr "Tetapan am untuk modul output video."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4535,14 +4534,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Kitar trek sarikata yang tersedia."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Sarikata teleteks"
+msgstr "Togol sarikata"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Kitar trek sarikata"
+msgstr "Togol ketampakan trek sarikata."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7804,9 +7801,8 @@ msgid "Number of first segment"
 msgstr "Bilangan segmen pertama"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Bilangan segmen yang terjana"
+msgstr "Bilangan segmen pertama dijana"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17412,7 +17408,7 @@ msgstr "Saiz Fail"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Aras %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21598,9 +21594,8 @@ msgstr ""
 "Anda mahu mulakan semula main balik pada kedudukan terakhir ditinggalkan?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Teruskan"
+msgstr "T&eruskan"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -32753,18 +32748,6 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Exit this program"
 #~ msgstr "program utama"
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Trek sarikata ditambah"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Media dalam Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Laluan ke media dalam arkib ZIP"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Penstrim udp pantas"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -32777,25 +32760,6 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU untuk mod keluar."
 
-#~ msgid "&Post processing"
-#~ msgstr "Pasca memproses"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "Tangkapan Video AVFoundation"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "Modul tangkapan video AVFoundation."
-
-#~ msgid "No video devices found"
-#~ msgstr "Tiada peranti video ditemui"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Mac anda tidak kelihatan dilengkapi dengan peranti input video yang "
-#~ "sesuai. Sila semak penyambung dan pemacu anda."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Periksa kad DVB untuk keupayaan"
 
@@ -32806,72 +32770,20 @@ msgstr "Senarai Pengurus Media"
 #~ "Terdapat kad DVB tidak suka diuji keupayannya, anda boleh lumpuhkan ciri "
 #~ "ini jika menghadapi kesulitan."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Konfig pengimbasan satelit"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "nama fail bagi fail konfig di dalam share/dvb/dvb-s"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Input DVB dengan sokongan v4l2"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Tangkapan Bunyi QuickTime"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Tiada peranti Input Audio ditemui"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Mac anda tidak kelihatan dilengkapi dengan peranti input yang sesuai. "
-#~ "Sila periksa penyambung dan pemacu anda."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Tiada peranti input audio ditemui"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "RAR Tak termampat"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Output Peranti Multimedia Windows"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Output audio Stor Windows"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "Penyahkod SCTE-27"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Nyatakan lebar untuk menyahkod imej jua"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Nyatakan tinggi untuk menyahkod imej jua"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Faktor skala untuk dilaksana pada imej"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "Penyahkod video SVG"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Antaramuka mesej Windows"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Simpan log ini"
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Log Nyahpepijat VLC (%s).rtf"
@@ -32885,24 +32797,8 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Empty"
 #~ msgstr "Kosong"
 
-#~ msgid "Deactivate"
-#~ msgstr "Nyahaktif"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Pengecapan Jari Audio"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Pilih satu identiti pemadanan"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Tiada cap jari ditemui"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Jejak pengecapan jari..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Kosongkan"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -32914,17 +32810,11 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Extension not responding!"
 #~ msgstr "Sambungan tidak bertindakbalas!"
 
-#~ msgid "addons local storage"
-#~ msgstr "storan setempat tambahan"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Pemasang storan setempat tambahan"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Penyenarai storan setempat tambahan"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Pencari tambahan Videolan.org"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "Pencari tambahan addons.videolan.org"
@@ -32935,46 +32825,11 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "Pencari tambahan arkib .vlp tunggal"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Jejak pengecap jari (berasaskan pada Acoustid)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Jangkamasa pengecapan jari"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Lalai: 90s"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Output strim Chromaprint"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Tunggu sebentar ketika cache fon anda dibina\n"
-#~ "semula. Ia hanya mengambil masa beberapa\n"
-#~ "minit."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Lebar tetingkap pengvisualan, dalam piksel."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Tinggi tetingkap pengvisualan, dalam piksel."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "Pengvisualan spektrum OpenGL 3D"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Atas Rata"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
@@ -32982,11 +32837,239 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "Pemain media VLC - Pelihat Flash"
+#, fuzzy
+#~ msgid "Reactivity"
+#~ msgstr "Nyahaktif"
 
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Pilih output video yang anda kehendaki dan konfigurnya di sini."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Modul ini menyediakan fungsi rangkaian kepada semua bahagian lain VLC."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Penyedia dialog boleh dikonfigur di sini."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "Dalam seksyen ini anda boleh paksa kelakuan demuxer sarikata, sebagai "
+#~ "contoh dengan menetapkan jenis atau nama fail sarikata."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Polisi muat turun seni album"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Polisi muat turun seni album"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Polisi muat turun seni album"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "Dalam seksyen ini anda boleh paksa kelakuan demuxer sarikata, sebagai "
+#~ "contoh dengan menetapkan jenis atau nama fail sarikata."
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "Log Nyahpepijat VLC (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Trek sarikata"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Media Menggulung"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Laluan kulit untuk digunakan."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Persediaan Penstriman..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Pasca memproses"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Tangkapan video"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Modul output audio"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Tiada peranti Input ditemui"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Mac anda kelihatannya tidak dilengkapi dengan peranti input sesuai. Sila "
+#~ "periksa sambungan dan pemacu."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Kod julat satelit"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Surround"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Tangkapan Quicktime"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Tiada peranti Input ditemui"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Mac anda kelihatannya tidak dilengkapi dengan peranti input sesuai. Sila "
+#~ "periksa sambungan dan pemacu."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Tiada peranti Input ditemui"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Output video GDI Windows"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Output video GDI Windows"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Pengekod G.711"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Nyatakan baris yang mengandungi bahasa"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Tentukan modul bukan selang-seli untuk diguna."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr ""
+#~ "Faktor skala untuk diterapkan pada video semasa transkod (cth: 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "Dekoder video CDG"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Antaramuka Servis Windows"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Simpan sebagai ..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Aktifkan"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Capjari"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Tiada input ditemui"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Capjari"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Kosongkan"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Kadar bit local mak"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Penapis pengubahan video"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Acoustic"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Arah pencerminan"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Strim lalai"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Output strim perjumpaan"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Tunggu sebentar ketika cache fon anda dibina\n"
+#~ "semula. Ia mengambil masa kurang dari seminit."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Lebar tetingkap video, dalam piksel."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Tinggi tetingkap video, dalam piksel."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Spektrum"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Pengvisualan semasa"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Apung di Atas"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "Pemain media VLC - Antaramuka Web"
+
+#, fuzzy
 #~ msgid "Streaming Output"
-#~ msgstr "Menstrim Output"
+#~ msgstr "Output Strim"
 
 #, fuzzy
 #~ msgid "Path to OSD menu images"
@@ -33009,10 +33092,6 @@ msgstr "Senarai Pengurus Media"
 #~ msgstr "Penapis pengeratan video"
 
 #, fuzzy
-#~ msgid "Reactivity"
-#~ msgstr "Nyahaktif"
-
-#, fuzzy
 #~ msgid "A file containing a simple playlist"
 #~ msgstr "Laluan ke fail HLSL yang mengandungi satu pelorek piksel."
 
@@ -33028,26 +33107,10 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Show the program logs"
 #~ msgstr "program teras"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Pilih output video yang anda kehendaki dan konfigurnya di sini."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Modul ini menyediakan fungsi rangkaian kepada semua bahagian lain VLC."
-
+#, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "Ini adalah tetapan am untuk modul pengekodan video/audio/sarikata."
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Penyedia dialog boleh dikonfigur di sini."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "Dalam seksyen ini anda boleh paksa kelakuan demuxer sarikata, sebagai "
-#~ "contoh dengan menetapkan jenis atau nama fail sarikata."
+#~ msgstr "Tetapan am untuk modul output video."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -33055,11 +33118,7 @@ msgstr "Senarai Pengurus Media"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Polisi muat turun seni album"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Polisi muat turun seni album"
+#~ msgstr "Nama fail seni album"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -33187,9 +33246,6 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Open BDMV folder"
 #~ msgstr "Buka folder VIDEO_TS / BDMV"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Polisi muat turun seni album"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Modul output"
@@ -33258,10 +33314,6 @@ msgstr "Senarai Pengurus Media"
 #~ msgstr "Guna fail sarika&ta"
 
 #, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Polisi muat turun seni album"
-
-#, fuzzy
 #~ msgid "Configure Media Library"
 #~ msgstr "Pustaka Media"
 
@@ -33300,7 +33352,7 @@ msgstr "Senarai Pengurus Media"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "Ini adalah tetapan am untuk modul pengekodan video/audio/sarikata."
+#~ msgstr "Tetapan am untuk modul output video."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -33309,14 +33361,6 @@ msgstr "Senarai Pengurus Media"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Pengekodan teks sarikata"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "Dalam seksyen ini anda boleh paksa kelakuan demuxer sarikata, sebagai "
-#~ "contoh dengan menetapkan jenis atau nama fail sarikata."
 
 #, fuzzy
 #~ msgid "No help available"
@@ -33384,7 +33428,7 @@ msgstr "Senarai Pengurus Media"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Output audio Stor Windows"
+#~ msgstr "Output audio fail"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -34104,10 +34148,6 @@ msgstr "Senarai Pengurus Media"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "Dikompil oleh %s dengan %@"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "Log Nyahpepijat VLC (%s).rtf"
 
 #, fuzzy
 #~ msgid "Use the native fullscreen mode on OS X Lion"
@@ -39781,5 +39821,6 @@ msgstr "Senarai Pengurus Media"
 #~ msgid "Audio output modules settings"
 #~ msgstr "Modul output audio"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Pengurus Tambahan"
