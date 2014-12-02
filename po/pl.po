@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-07-30 10:26+0000\n"
+"PO-Revision-Date: 2014-11-22 13:06+0000\n"
 "Last-Translator: M T <michtrz@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/pl/)\n"
@@ -166,9 +166,8 @@ msgid "General video settings"
 msgstr "Ogólne ustawienia obrazu"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Ogólne ustawienia modułów wyjścia dźwięku."
+msgstr "Ogólne ustawienia modułów wyjścia obrazu."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4552,14 +4551,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Przeszukiwanie dostępnych ścieżek napisów."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Napisy Telegazety"
+msgstr "Przełączanie napisów"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Wybieranie kolejnych ścieżek napisów"
+msgstr "Przełączanie widoczności napisów ścieżki."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7825,9 +7822,8 @@ msgid "Number of first segment"
 msgstr "Numer pierwszego segmentu"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Numer wygenerowanego segmentu"
+msgstr "Numer pierwszego wygenerowanego segmentu"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17459,7 +17455,7 @@ msgstr "Rozmiar pliku"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Poziom %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21663,9 +21659,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Czy chcesz ponownie uruchomić odtwarzanie, gdzie zostało przerwane?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Kontynuuj"
+msgstr "&Kontynuuj"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -32658,18 +32653,6 @@ msgstr "Lista menedżera mediów"
 #~ "%), $R = częstotliwość, $S = częstotliwość próbkowania dźwięku (w kHz), "
 #~ "$T = czas, $U = wydawca, $V = głośność, $_ = nowa linia)"
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Dodano ścieżkę napisów"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Plik w archiwum ZIP"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Ścieżka do mediów w archiwum ZIP"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Szybkie strumieniowanie udp"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr "Wysyła TS do konkretnego IP:portu udp (musisz wiedzieć co robisz)."
@@ -32679,25 +32662,6 @@ msgstr "Lista menedżera mediów"
 
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU dla trybu wyjścia."
-
-#~ msgid "&Post processing"
-#~ msgstr "&Przetwarzanie końcowe"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundation - przechwytywanie wideo"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundation - moduł przechwytywania wideo"
-
-#~ msgid "No video devices found"
-#~ msgstr "Nie znaleziono urządzeń wideo"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Wygląda że twój Mac nie jest wyposażony w odpowiednie urządzenie z "
-#~ "wejściem wideo. Proszę sprawdzić połączenia przewodów oraz sterowniki."
 
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Zbadanie możliwości karty DVB"
@@ -32709,72 +32673,20 @@ msgstr "Lista menedżera mediów"
 #~ "Niektóre karty DVB nie obsługują zbadania ich możliwości, możesz wyłączyć "
 #~ "tę funkcję, jeśli wystąpią jakieś problemy."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Konfiguracja skanowania satelit"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "nazwa pliku konfiguracyjnego w folderze share/dvb/dvb-s"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Wejście DVB z obsługą v4l2"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "QuickTime - przechwytywanie dzwięków"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Nie znaleziono wejściowych urządzeń Audio"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Wygląda że twój Mac nie jest wyposażony w odpowiednie urządzenie z "
-#~ "wejściem audio. Proszę sprawdzić połączenia przewodów oraz sterowniki."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Nie znaleziono wejściowych urządzeń audio"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Nieskompresowane archiwum w formacie RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows Multimedia - wyjście urządzenia"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windows Store - wyjście audio"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27 dekoder"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Określ szerokość także do dekodowanego obrazu"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Określ wysokość także do dekodowanego obrazu"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Współczynnik skalowania zastosowany do obrazu"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVG - wideo dekoder"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Interfejs oknien wiadomości"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Zapisz ten dziennik..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Dziennik debuggingu VLC (%s).rtf"
@@ -32788,24 +32700,8 @@ msgstr "Lista menedżera mediów"
 #~ msgid "Empty"
 #~ msgstr "Pusty"
 
-#~ msgid "Deactivate"
-#~ msgstr "Deaktywuj"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Odcisk palca dźwięku"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Wybierz odpowiednią zgodność"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Nie znaleziono odcisku palca"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Pobranie odcisku palca utworu..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Czyść"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -32817,17 +32713,11 @@ msgstr "Lista menedżera mediów"
 #~ msgid "Extension not responding!"
 #~ msgstr "Rozszerzenie przestało działać!"
 
-#~ msgid "addons local storage"
-#~ msgstr "lokalny zapis dodatków"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Program instalacyjny lokalnego zapisu dodatków"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Wykaz lokalnego zapisu dodatków"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Wyszukiwacz rozszerzeń na videolan.org"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "Wyszukiwacz rozszerzeń na addons.videolan.org"
@@ -32838,45 +32728,11 @@ msgstr "Lista menedżera mediów"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "Wyszukiwacz rozszerzeń w poszczególnych archiwach .vlp"
 
-#~ msgid "acoustid"
-#~ msgstr "Acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Tworzenie odcisku palca utworu (na podstawie Acoustid)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Czas tworzenia odcisku palca"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Domyślnie: 90sec"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Nasycenie kolorów strumienia wyjściowego"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Proszę czekać, aktualizacja pamięci podręcznej czcionek.\n"
-#~ "Proces ten powinien zająć mniej niż kilka minut."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Szerokość okna wizualizacji, w pikselach."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Wysokość okna wizualizacji, w pikselach."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "Wizualizacja widma 3D OpenGL"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Flat Top"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
@@ -32884,26 +32740,12 @@ msgstr "Lista menedżera mediów"
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media player - Przeglądarka Flash"
-
-#~ msgid "Streaming Output"
-#~ msgstr "Wyjście strumieniowe"
-
-#, fuzzy
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "VLC nie może odczytać pliku: %s"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "Wybierz swój preferowany obraz wyjściowy i skonfiguruj go tutaj."
 
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr ""
 #~ "Te moduły udostępniają funkcje sieciowe dla wszystkich innych części VLC."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "To są ogólne ustawienia modułów kodowania obrazu/dźwięku/napisów."
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "Można skonfigurować tutaj dialog providera."
@@ -32914,6 +32756,227 @@ msgstr "Lista menedżera mediów"
 #~ msgstr ""
 #~ "W tej sekcji można ustawić zachowanie demultipleksera napisów, np. przez "
 #~ "ustawienie typu napisów lub nazwy pliku."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Metoda pobierania okładki albumu"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Metoda pobierania okładki albumu"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Metoda pobierania okładki albumu"
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "Dziennik debuggingu VLC (%s).rtf"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "W tej sekcji można ustawić zachowanie demultipleksera napisów, np. przez "
+#~ "ustawienie typu napisów lub nazwy pliku."
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Ścieżka napisów"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Przewijanie do tyłu pliku multimedialnego"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Ścieżka do używanej skóry."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Ustaw Strumieniowanie..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Przetwarzanie końcowe"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Nagrywanie obrazu"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Moduł wyjścia dźwięku"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Nie znaleziono urządzenia wejściowego"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Twój Mac nie wydaje się być wyposażony w odpowiednie urządzenie "
+#~ "wejściowe. Proszę sprawdzić swoje połączenia i sterowniki."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Kod zakresu satelity"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Surround"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Przechwytywanie Quicktime"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Nie znaleziono urządzenia wejściowego"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Twój Mac nie wydaje się być wyposażony w odpowiednie urządzenie "
+#~ "wejściowe. Proszę sprawdzić swoje połączenia i sterowniki."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Nie znaleziono urządzenia wejściowego"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Obraz wyjściowy Windows GDI"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Obraz wyjściowy Windows GDI"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Dekoder G.711"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Określ wiersz zawierający język"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Określ moduł anty-przeplotowy, który będzie używany."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr "Czynnik skalowania obrazu podczas transkodowania (np.: 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "Dekoder obrazu CDG"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Interfejs Windows Service"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "Zapi&sz jako..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Aktywacja"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "Odcisk palca (&f)"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Nie znaleziono wejścia"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "Odcisk palca (&f)"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Wyczyść"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Maksymalny lokalny bitrate"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Filtr transformacji obrazu"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Akustyczna"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Kierunek podziału lustrzanego"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Domyślny strumień"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Uzyskiwanie wyjścia strumienia"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Zaczekaj chwilę, trwa aktualizacja podręcznej pamięci czcionek.\n"
+#~ "Powinno to zająć mniej niż minutę."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Szerokość okna obrazu w pikselach."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Wysokość okna obrazu w pikselach."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Widmo"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Aktualna wizualizacja"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Zawsze na wierzchu"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC media player - Interfejs internetowy"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "Wyjście strumienia"
+
+#, fuzzy
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "VLC nie może odczytać pliku: %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "Ogólne ustawienia modułów wyjścia obrazu."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -32929,11 +32992,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Metoda pobierania okładki albumu"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Metoda pobierania okładki albumu"
+#~ msgstr "Nazwa pliku okładki albumu"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -33048,9 +33107,6 @@ msgstr "Lista menedżera mediów"
 #~ msgid "Open BDMV folder"
 #~ msgstr "Otwórz folder VIDEO_TS / BDMV"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Metoda pobierania okładki albumu"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Moduły wyjścia"
@@ -33118,10 +33174,6 @@ msgstr "Lista menedżera mediów"
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Użyj pliku z napisami (&t)"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Metoda pobierania okładki albumu"
 
 #, fuzzy
 #~ msgid "Configure Media Library"
@@ -33264,10 +33316,6 @@ msgstr "Lista menedżera mediów"
 #~ msgstr ""
 #~ "To jest pożądana liczba klatek podczas odtwarzania surowych strumieni "
 #~ "obrazu. W formacie 30000/1001 lub 29.97"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "Dziennik debuggingu VLC (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -33503,7 +33551,7 @@ msgstr "Lista menedżera mediów"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "To są ogólne ustawienia modułów kodowania obrazu/dźwięku/napisów."
+#~ msgstr "Ogólne ustawienia modułów wyjścia obrazu."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -33512,14 +33560,6 @@ msgstr "Lista menedżera mediów"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Kodowanie tekstu napisów"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "W tej sekcji można ustawić zachowanie demultipleksera napisów, np. przez "
-#~ "ustawienie typu napisów lub nazwy pliku."
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -33590,7 +33630,7 @@ msgstr "Lista menedżera mediów"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Windows Store - wyjście audio"
+#~ msgstr "Plik wyjściowy dźwięku"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -37646,5 +37686,6 @@ msgstr "Lista menedżera mediów"
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "Całkowity/Pozostały czas"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Menadżer Dodatków"
