@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-11-03 14:14+0000\n"
-"Last-Translator: David González <pico.dev@gmail.com>\n"
+"PO-Revision-Date: 2014-11-22 17:39+0000\n"
+"Last-Translator: picodotdev <pico.dev@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/es/)\n"
 "Language: es\n"
@@ -170,9 +170,8 @@ msgid "General video settings"
 msgstr "Preferencias generales de vídeo"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Preferencias generales para los módulos de salida de audio"
+msgstr "Preferencias generales para los módulos de salida de vídeo."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4603,14 +4602,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Rotar por las pistas de subtítulos disponibles."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Subtítulos de teletexto"
+msgstr "Alternar subtítulos"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Rotar por pista de subtítulos"
+msgstr "Alternar visivilidad de pista de subtítulos."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7916,9 +7913,8 @@ msgid "Number of first segment"
 msgstr "Número del primer segmento"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Número del segmento generado"
+msgstr "El número del primer segmento generado"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -14816,7 +14812,7 @@ msgstr "VLC no pudo cargar el encabezado ASF."
 
 #: modules/demux/asf/asf.c:1196
 msgid "DRM protected streams are not supported."
-msgstr "Los flujos protegidos con DRM no está soportados."
+msgstr "Las emisiones protegidas con DRM no están soportadas."
 
 #: modules/demux/au.c:50
 msgid "AU demuxer"
@@ -17614,7 +17610,7 @@ msgstr "Tamaño de archivo"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Nivel %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -17957,10 +17953,10 @@ msgid ""
 "trusted services in an anonymized form."
 msgstr ""
 "VLC puede comprobar en linea el álbum y metadatos para enriquecer su "
-"experiencia de reproducción, pe. proporcionando la información de la pista "
-"cuando reproduce CDs de audio. Para proporcionar esta funcionalidad, VLC "
-"enviará información acerca de los contenidos a servicios de confianza de una "
-"forma anónima."
+"experiencia de reproducción, por ejemplo proporcionando la información de la "
+"pista cuando reproduce CDs de audio. Para proporcionar esta funcionalidad, "
+"VLC enviará información acerca de los contenidos a servicios de confianza de "
+"una forma anónima."
 
 #: modules/gui/macosx/MainWindow.m:328
 msgid "LIBRARY"
@@ -21193,12 +21189,12 @@ msgstr ""
 "b> recopila información personal ni la transmite incluso de forma anónima, a "
 "nadie.</p>\n"
 "<p>Aún así, <i>VLC</i> es capaz de obtener de forma automática información "
-"acerca de los medios de tu lista de reproducción de servicios de terceras "
+"acerca de los medios de su lista de reproducción de servicios de terceras "
 "partes en internet. Esto incluye la portada, nombres de pistas, nombres de "
 "artistas y otros metadatos.</p>\n"
-"<p>Consecuentemente, esto puede implicar identificar algunos de tus archivos "
+"<p>Consecuentemente, esto puede implicar identificar algunos de sus archivos "
 "multimedia a terceras entidades. Por lo tanto los desarrolladores de <i>VLC</"
-"i> requiren tu consentimiento expreso para que el reprudctor acceda a "
+"i> requiren su consentimiento expreso para que el reproductor acceda a "
 "internet automáticamente.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:91
@@ -21817,9 +21813,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "¿Desea reiniciar la reproducción donde la dejó?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Continuar"
+msgstr "&Continuar"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -34326,18 +34321,6 @@ msgstr "Lista del administrador multimedia"
 #~ "lenguaje audio, $P = posición (en %), $R = frecuencia, $S = frecuencia de "
 #~ "audio (en kHz), $T = tiempo, $U = editor, $V = volumen, $_ = nueva línea) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Pista de subtítulos añadida"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Medio en Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Ruta al medio en archivo Zip."
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Emisión rápida udp"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -34350,25 +34333,6 @@ msgstr "Lista del administrador multimedia"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU para modo salida."
 
-#~ msgid "&Post processing"
-#~ msgstr "&Postproceso"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "Captura de vídeo AVFoundation"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "Módulo de captura de vídeo AVFoundation."
-
-#~ msgid "No video devices found"
-#~ msgstr "No se han encontrado dispositivos de vídeo"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Su Mac no parece estar equipado con un dispositivo de entrada de vídeo "
-#~ "adecuado. Compruebe sus conectores y controladores."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Sondear las capacidades de tarjeta DVB"
 
@@ -34379,54 +34343,17 @@ msgstr "Lista del administrador multimedia"
 #~ "Algunas tarjetas DVB no les gusta que sondeen sus capacidades, puedes "
 #~ "deshabilitar esta opción si experimenta algún problema."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Configuración de búsqueda satélite"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Entrada DVB con soporte v4l2"
-
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Captura de audio de Quicktime"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "No se ha encontrado ningún dispositivo de entrada de sonido"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Su Mac no parece estar equipado con un dispositivo de entrada de audio "
-#~ "adecuado. Compruebe sus conectores y controladores."
-
-#~ msgid "No audio input device found"
-#~ msgstr "No se ha encontrado ningún dispositivo de entrada de audio"
 
 #~ msgid "Uncompressed RAR"
 #~ msgstr "RAR sin comprimir"
 
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "Decodificador SCTE-27"
-
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "SVG video decoder"
-#~ msgstr "Decodificador de vídeo SVG"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Interfaz de mensajes Windows"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Guardar estas trazas..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Registro de depuración VLC (%s).rtf"
@@ -34440,16 +34367,206 @@ msgstr "Lista del administrador multimedia"
 #~ msgid "Empty"
 #~ msgstr "Vacío"
 
-#~ msgid "Deactivate"
+#~ msgid "Hann"
+#~ msgstr "Hann"
+
+#, fuzzy
+#~ msgid "Select effects to apply to rendered text"
+#~ msgstr "Factor de escalado a aplicar a la imagen"
+
+#, fuzzy
+#~ msgid "Reactivity"
 #~ msgstr "Desactivar"
 
+#, fuzzy
+#~ msgid "Maximum height for the configuration windows"
+#~ msgstr "La altura de la ventana de visualización, en píxeles."
+
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Seleccione la salida de vídeo preferida y configúrela aquí."
+
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Estos módulos proporcionan funciones de red a todas las demás partes de "
+#~ "VLC."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "Los proveedores de diálogo pueden configurarse aquí."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "En esta sección puede forzar el comportamiento del demultiplexor de "
+#~ "subtítulos, por ejemplo configurando el tipo de subtítulos o nombre del "
+#~ "archivo."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Política de descarga de arte de álbum"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Política de descarga de arte de álbum"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Política de descarga de arte de álbum"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "En esta sección puede forzar el comportamiento del demultiplexor de "
+#~ "subtítulos, por ejemplo configurando el tipo de subtítulos o nombre del "
+#~ "archivo."
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "Registro de depuración VLC (%s).rtf"
+
+#~ msgid ""
+#~ "Extension '%s' does not respond.\n"
+#~ "Do you want to kill it now? "
+#~ msgstr ""
+#~ "La extensión «%s» no responde.\n"
+#~ "¿Desea terminarla ahora?"
+
+#~ msgid "Extension not responding!"
+#~ msgstr "¡Una extensión no responde!"
+
+#~ msgid "Addons local storage installer"
+#~ msgstr "Instalador de complementos de almacenamiento lolca"
+
+#~ msgid "Addons local storage lister"
+#~ msgstr "Listador de complementos almacenados localmente"
+
+#~ msgid "addons.videolan.org addons finder"
+#~ msgstr "Buscador de complementos addons.videolan.org"
+
+#~ msgid "Videolan.org's single archive addons finder"
+#~ msgstr "Buscador de complementos del archivo único de Videolan.org"
+
+#~ msgid "single .vlp archive addons finder"
+#~ msgstr "Buscador de complmentos de archivo único .vlp"
+
+#~ msgid "Track fingerprinter (based on Acoustid)"
+#~ msgstr "Seguir huella (basado en «Acoustid»)"
+
+#~ msgid "filename of config file in share/dvb/dvb-s"
+#~ msgstr "nombre de archivo de configuración en share/dvb/dvb-s"
+
+#~ msgid "Blackman-Harris"
+#~ msgstr "Blackman-Harris"
+
+#~ msgid "Kaiser"
+#~ msgstr "Kaiser"
+
+#~ msgid "Select a matching identity"
+#~ msgstr "Seleccionar una identidad coincidente"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Pista de subtítulos"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Rebobinar medio"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Ruta de la piel a usar."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Configurar transmisión..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Post-Proceso"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Captura de vídeo"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Módulo de salida de audio"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "No hay dispositivo de entrada"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Su Mac no parece estar equipado con un dispositivo de entrada adecuado. "
+#~ "Compruebe sus conectores y controladores."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Código de alcance de satélite"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Sonido envolvente"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Captura Quicktime"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "No hay dispositivo de entrada"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Su Mac no parece estar equipado con un dispositivo de entrada adecuado. "
+#~ "Compruebe sus conectores y controladores."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "No hay dispositivo de entrada"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Decodificador G.711"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "Decodificador de vídeo CDG"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Interfaz de servicio de Windows"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Guardar como..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Activar"
+
+#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
 #~ msgstr "Limpiar"
 
+#, fuzzy
 #~ msgid "Default: 90sec"
-#~ msgstr "Por defecto: 90 seg"
+#~ msgstr "Emisión predeterminada"
 
+#, fuzzy
 #~ msgid ""
 #~ "Please wait while your font cache is rebuilt.\n"
 #~ "This should take less than a few minutes."
@@ -34457,26 +34574,29 @@ msgstr "Lista del administrador multimedia"
 #~ "Espere mientras se reconstruye la caché de fuentes.\n"
 #~ "Debería realizarse en menos de un minuto."
 
+#, fuzzy
 #~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "La anchura de la ventana de visualización, en píxeles."
+#~ msgstr "La anchura de la ventana del vídeo, en píxels."
 
+#, fuzzy
 #~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "La altura de la ventana de visualización, en píxeles."
+#~ msgstr "La altura de la ventana del vídeo, en píxels."
 
+#, fuzzy
 #~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
+#~ msgstr "Espectro"
 
+#, fuzzy
 #~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "Visualización de espectro 3D OpenGL"
+#~ msgstr "Visualización actual"
 
-#~ msgid "Hann"
-#~ msgstr "Hann"
-
+#, fuzzy
 #~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "Reproductor multimedia VLC - Visor de Flash"
+#~ msgstr "Reproductor multimedia VLC - Interfaz Web"
 
+#, fuzzy
 #~ msgid "Streaming Output"
-#~ msgstr "Emitiendo salida"
+#~ msgstr "Salida de emisión"
 
 #, fuzzy
 #~ msgid "Path to OSD menu images"
@@ -34493,10 +34613,6 @@ msgstr "Lista del administrador multimedia"
 #~ "shader)."
 
 #, fuzzy
-#~ msgid "Select effects to apply to rendered text"
-#~ msgstr "Factor de escalado a aplicar a la imagen"
-
-#, fuzzy
 #~ msgid "Couldn't find pixmap file: %s"
 #~ msgstr "VLC no puede leer el archivo: %s"
 
@@ -34505,16 +34621,8 @@ msgstr "Lista del administrador multimedia"
 #~ msgstr "Continuar siempre"
 
 #, fuzzy
-#~ msgid "Reactivity"
-#~ msgstr "Desactivar"
-
-#, fuzzy
 #~ msgid "Choose program (SID)"
 #~ msgstr "programa principal"
-
-#, fuzzy
-#~ msgid "Maximum height for the configuration windows"
-#~ msgstr "La altura de la ventana de visualización, en píxeles."
 
 #, fuzzy
 #~ msgid "Choose the program"
@@ -34528,30 +34636,10 @@ msgstr "Lista del administrador multimedia"
 #~ msgid "FFmpeg crop padd filter"
 #~ msgstr "Filtro de recorte de vídeo"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Seleccione la salida de vídeo preferida y configúrela aquí."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Estos módulos proporcionan funciones de red a todas las demás partes de "
-#~ "VLC."
-
+#, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Estas son preferencias generales para módulos de codificación de vídeo/"
-#~ "audio/subtítulos."
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "Los proveedores de diálogo pueden configurarse aquí."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "En esta sección puede forzar el comportamiento del demultiplexor de "
-#~ "subtítulos, por ejemplo configurando el tipo de subtítulos o nombre del "
-#~ "archivo."
+#~ msgstr "Preferencias generales para los módulos de salida de vídeo."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -34567,11 +34655,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Política de descarga de arte de álbum"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Política de descarga de arte de álbum"
+#~ msgstr "Nombre de archivo de arte de álbum"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -34699,9 +34783,6 @@ msgstr "Lista del administrador multimedia"
 #~ msgid "Open BDMV folder"
 #~ msgstr "Abrir carpeta VIDEO_TS / BDMV"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Política de descarga de arte de álbum"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Módulos de salida"
@@ -34769,10 +34850,6 @@ msgstr "Lista del administrador multimedia"
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Usar un archivo de subtítulo"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Política de descarga de arte de álbum"
 
 #, fuzzy
 #~ msgid "Configure Media Library"
@@ -34933,9 +35010,7 @@ msgstr "Lista del administrador multimedia"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Estas son preferencias generales para módulos de codificación de vídeo/"
-#~ "audio/subtítulos."
+#~ msgstr "Preferencias generales para los módulos de salida de vídeo."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -34944,15 +35019,6 @@ msgstr "Lista del administrador multimedia"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Codificación de texto de subtítulo"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "En esta sección puede forzar el comportamiento del demultiplexor de "
-#~ "subtítulos, por ejemplo configurando el tipo de subtítulos o nombre del "
-#~ "archivo."
 
 #, fuzzy
 #~ msgid "No help available"
@@ -35020,7 +35086,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Salida de audio Windows Store"
+#~ msgstr "Archivo de salida de audio"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -35826,10 +35892,6 @@ msgstr "Lista del administrador multimedia"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "Compilado por %s con %@"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "Registro de depuración VLC (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -42028,7 +42090,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "These settings affect demuxer modules."
-#~ msgstr "Preferencias generales para los módulos de salida de audio"
+#~ msgstr "Preferencias generales para los módulos de salida de vídeo."
 
 #, fuzzy
 #~ msgid "Stream output access modules settings"
@@ -42145,81 +42207,54 @@ msgstr "Lista del administrador multimedia"
 #~ msgid "Audio output modules settings"
 #~ msgstr "Módulo de salida de audio"
 
+#, fuzzy
 #~ msgid "Addon Manager"
-#~ msgstr "Gestor de complementos"
+#~ msgstr "Administrador de complementos"
 
-#~ msgid ""
-#~ "Extension '%s' does not respond.\n"
-#~ "Do you want to kill it now? "
-#~ msgstr ""
-#~ "La extensión «%s» no responde.\n"
-#~ "¿Desea terminarla ahora?"
-
-#~ msgid "Extension not responding!"
-#~ msgstr "¡Una extensión no responde!"
-
+#, fuzzy
 #~ msgid "addons local storage"
-#~ msgstr "Almacen de complementos local"
+#~ msgstr "Máxima tasa de bits local"
 
-#~ msgid "Addons local storage installer"
-#~ msgstr "Instalador de complementos de almacenamiento lolca"
-
-#~ msgid "Addons local storage lister"
-#~ msgstr "Listador de complementos almacenados localmente"
-
+#, fuzzy
 #~ msgid "Videolan.org's addons finder"
-#~ msgstr "Buscador de complementos de Videolan.org"
+#~ msgstr "Filtro de transformación de vídeo"
 
-#~ msgid "addons.videolan.org addons finder"
-#~ msgstr "Buscador de complementos addons.videolan.org"
-
-#~ msgid "Videolan.org's single archive addons finder"
-#~ msgstr "Buscador de complementos del archivo único de Videolan.org"
-
-#~ msgid "single .vlp archive addons finder"
-#~ msgstr "Buscador de complmentos de archivo único .vlp"
-
+#, fuzzy
 #~ msgid "acoustid"
-#~ msgstr "acoustid"
+#~ msgstr "Acústico"
 
-#~ msgid "Track fingerprinter (based on Acoustid)"
-#~ msgstr "Seguir huella (basado en «Acoustid»)"
-
+#, fuzzy
 #~ msgid "Duration of the fingerprinting"
-#~ msgstr "Duración de la huella"
+#~ msgstr "Dirección del espejo"
 
+#, fuzzy
 #~ msgid "Chromaprint stream output"
-#~ msgstr "Salida de emisión Chromaprint"
+#~ msgstr "Obtener salida de emisión"
 
-#~ msgid "filename of config file in share/dvb/dvb-s"
-#~ msgstr "nombre de archivo de configuración en share/dvb/dvb-s"
-
+#, fuzzy
 #~ msgid "Windows Multimedia Device output"
-#~ msgstr "Salida de dispositivo multimedia Windows"
+#~ msgstr "Salida de vídeo Windows GDI"
 
+#, fuzzy
 #~ msgid "Specify the width to decode the image too"
-#~ msgstr "Especificar la anchura de la imagen a decodificar también"
+#~ msgstr "Especificar la fila que contiene el lenguaje"
 
+#, fuzzy
 #~ msgid "Specify the height to decode the image too"
-#~ msgstr "Especificar la altura de la imagen a decodificar también"
+#~ msgstr "Especifica el módulo de desentrelazado a usar."
 
+#, fuzzy
 #~ msgid "Flat Top"
-#~ msgstr "Flat Top"
+#~ msgstr "Flotar sobre todo"
 
-#~ msgid "Blackman-Harris"
-#~ msgstr "Blackman-Harris"
-
-#~ msgid "Kaiser"
-#~ msgstr "Kaiser"
-
+#, fuzzy
 #~ msgid "Audio Fingerprinting"
-#~ msgstr "Huella digital de audio"
+#~ msgstr "&Huella digital"
 
-#~ msgid "Select a matching identity"
-#~ msgstr "Seleccionar una identidad coincidente"
-
+#, fuzzy
 #~ msgid "No fingerprint has been found"
-#~ msgstr "No se ha encontrado huella digital"
+#~ msgstr "Entrada no encontrada"
 
+#, fuzzy
 #~ msgid "Fingerprinting track..."
-#~ msgstr "Rastreo de huella digital..."
+#~ msgstr "&Huella digital"
