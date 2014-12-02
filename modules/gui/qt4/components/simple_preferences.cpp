@@ -58,6 +58,7 @@ static const char *const ppsz_language[] =
 {
     "auto",
     "en",
+    "an",
     "ar",
     "bn",
     "pt_BR",
@@ -123,6 +124,7 @@ static const char *const ppsz_language_text[] =
 {
     N_("Auto"),
     "American English",
+    "aragonés",
     "ﻉﺮﺒﻳ",
     "বাংলা",
     "Português Brasileiro",
