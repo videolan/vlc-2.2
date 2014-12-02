@@ -18,14 +18,14 @@
 # thillux, 2013
 # Thomas Graf <tgr at reeler.org>, 2002
 # to_ba, 2014
-# Tobias Bannert, 2014
+# Tobias Bannert <tobannert@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-11-06 02:06+0000\n"
-"Last-Translator: Tobias Bannert\n"
+"PO-Revision-Date: 2014-11-25 13:34+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/"
 "language/de/)\n"
 "Language: de\n"
@@ -80,11 +80,11 @@ msgstr "Einstellungen für das VLC-Hauptinterface"
 
 #: include/vlc_config_cat.h:46 src/libvlc-module.c:79
 msgid "Control interfaces"
-msgstr "Kontroll-Interfaces"
+msgstr "Steuerschnittstellen"
 
 #: include/vlc_config_cat.h:47
 msgid "Settings for VLC's control interfaces"
-msgstr "Einstellungen für die VLC-Bedieninterfaces"
+msgstr "Einstellungen für die VLC-Steuerschnittstellen"
 
 #: include/vlc_config_cat.h:49 include/vlc_config_cat.h:50
 #: modules/gui/macosx/simple_prefs.m:279
@@ -175,9 +175,8 @@ msgid "General video settings"
 msgstr "Allgemeine Videoeinstellungen"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Allgemeine Einstellungen für Audioausgabemodule."
+msgstr "Allgemeine Einstellungen für Videoausgabemodule."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -1644,14 +1643,14 @@ msgid ""
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
-"Sie können \"zusätzliche Interfaces\" für VLC auswählen. Sie werden im "
-"Hintergrund zusätzlich zum Standardinterface gestartet. Benutzen Sie eine "
-"durch Kommata getrennte Liste von Interface-Modulen. (übliche Werte sind: "
-"\"rc\" (Remote Control), \"http\", \"gestures\"...)"
+"Sie können »zusätzliche Schnittstellen« für VLC auswählen. Sie werden im "
+"Hintergrund zusätzlich zur Standardschnittstelle gestartet. Bitte benutzen "
+"Sie eine durch Kommata getrennte Liste von Schnittstellenmodulen. (übliche "
+"Werte sind: »rc« (Fernsteuerung), »http«, »gestures« …)"
 
 #: src/libvlc-module.c:81
 msgid "You can select control interfaces for VLC."
-msgstr "Sie können Kontrollinterfaces für VLC auswählen."
+msgstr "Sie können Steuerschnittstellen für VLC auswählen."
 
 #: src/libvlc-module.c:83
 msgid "Verbosity (0,1,2)"
@@ -4633,14 +4632,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Durch die verfügbaren Untertitelspuren wechseln."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Teletextuntertitel"
+msgstr "Untertitel umschalten"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Untertitelspur tauschen"
+msgstr "Anzeige der Untertitelspur umschalten"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7945,9 +7942,8 @@ msgid "Number of first segment"
 msgstr "Nummer des Segmentes"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Die Nummer des generierten Segmentes"
+msgstr "Die Nummer des ersten erstellten Segmentes"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -14073,7 +14069,7 @@ msgstr "DBus"
 
 #: modules/control/dbus/dbus.c:150
 msgid "D-Bus control interface"
-msgstr "D-Bus-Kontrollinterface"
+msgstr "D-Bus-Steuerschnittstelle"
 
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:209
 #: modules/gui/macosx/MainWindow.m:740 modules/gui/macosx/MainWindow.m:746
@@ -14135,7 +14131,7 @@ msgstr "Gesten"
 
 #: modules/control/gestures.c:94
 msgid "Mouse gestures control interface"
-msgstr "Mausgesten-Kontrollinterface"
+msgstr "Mausgestensteuerschnittstelle"
 
 #: modules/control/globalhotkeys/win32.c:46
 #: modules/control/globalhotkeys/xcb.c:49
@@ -14313,7 +14309,7 @@ msgstr "Infrarot"
 
 #: modules/control/lirc.c:61
 msgid "Infrared remote control interface"
-msgstr "Infrarot-Fernbedienungsinterface"
+msgstr "Infrarot-Steuerschnittstelle"
 
 #: modules/control/motion.c:65
 msgid "motion"
@@ -14321,7 +14317,7 @@ msgstr "Bewegung"
 
 #: modules/control/motion.c:68
 msgid "motion control interface"
-msgstr "Bewegungs-Kontroll-Interface"
+msgstr "Bewegungssteuerschnittstelle"
 
 #: modules/control/motion.c:69 modules/video_filter/rotate.c:57
 msgid ""
@@ -14494,12 +14490,12 @@ msgstr "RC"
 
 #: modules/control/rc.c:187
 msgid "Remote control interface"
-msgstr "Remote-Control-Interface"
+msgstr "Entfernte Steuerschnittstelle"
 
 #: modules/control/rc.c:352
 msgid "Remote control interface initialized. Type `help' for help."
 msgstr ""
-"Remote-Control-Interface initialisiert. Geben Sie `help' für Hilfe ein."
+"Entfernte Steuerschnittstelle initialisiert. Bitte »help« für Hilfe eingeben."
 
 #: modules/control/rc.c:764
 #, c-format
@@ -17641,7 +17637,7 @@ msgstr "Dateigröße"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Stufe %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21876,9 +21872,8 @@ msgstr ""
 "Wollen Sie neustarten und die Wiedergabe mit dem restlichen Teil fortsetzen?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Fortfahren"
+msgstr "&Fortfahren"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -32246,18 +32241,6 @@ msgstr "Media Manager-Liste"
 #~ "Abtastrate (in kHz), $T = Zeit, $U = Herausgeber, $V = Lautstärke, $_ = "
 #~ "Zeilenumbruch) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Untertitelspur hinzugefügt"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Medium im Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Pfad zum Medium im Zip Archiv"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Schnelles UDP-Streaming"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -32270,26 +32253,6 @@ msgstr "Media Manager-Liste"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU für Out-Modus."
 
-#~ msgid "&Post processing"
-#~ msgstr "&Nachbearbeitung"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundation-Videoaufzeichnung"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundation-Videoaufnahmemodul"
-
-#~ msgid "No video devices found"
-#~ msgstr "Kein Video-Aufnahmegerät gefunden"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Ihr Mac scheint nicht mit einem passenden Video-Aufnahmegerät "
-#~ "ausgestattet zu sein. Bitte überprüfen Sie die Verbindungen und die "
-#~ "Treiber."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Funktionen der DVB-Karte testen"
 
@@ -32300,73 +32263,20 @@ msgstr "Media Manager-Liste"
 #~ "Einige DVB-Karten vertragen das Testen ihrer Fähigkeiten nicht. Diese "
 #~ "Funktionen deaktivieren, falls Probleme auftreten."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Konfiguration zur Satelliten-Suche"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "Dateiname der Konfigurationsdatei unter share/dvb/dvb-s"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB-Eingang mit v4l2 Unterstützung"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Quicktime-Tonaufnahme"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Kein Audio-Aufnahmegerät gefunden"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Ihr Mac scheint nicht mit einem passenden Audio-Aufnahmegerät "
-#~ "ausgestattet zu sein. Bitte überprüfen Sie die Verbindungen und die "
-#~ "Treiber."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Kein Aufnahmegerät gefunden"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Unkomprimiertes RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows-Multimedia-Gerät Ausgabe"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windows-Store Audioausgabe"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27 Decoder"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Ziel-Breite des Bildes zur Dekodierung spezifizieren"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Ziel-Höhe des Bildes zur Dekodierung spezifizieren"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Anzuwendender Skalierungsfaktor für das Bild"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVG-Videodecoder"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Windows-Meldungen-Interface"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Protokoll speichern …"
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "VLC-Fehlerdiagnoseprotokoll (%s).rtf"
@@ -32380,24 +32290,8 @@ msgstr "Media Manager-Liste"
 #~ msgid "Empty"
 #~ msgstr "Leer"
 
-#~ msgid "Deactivate"
-#~ msgstr "Deaktivieren"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Audio-Fingerabdruck"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Eine passende Übereinstimmung auswählen"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Kein Fingerabdruck gefunden"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Von Titel wird Fingerabdruck erstellt …"
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Löschen"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -32409,17 +32303,11 @@ msgstr "Media Manager-Liste"
 #~ msgid "Extension not responding!"
 #~ msgstr "Erweiterung reagiert nicht!"
 
-#~ msgid "addons local storage"
-#~ msgstr "Lokaler Speicher der Erweiterungen"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Installationsprogramm für lokal gespeicherte Erweiterungen"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Auflistung lokal gespeicherter Erweiterungen"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Videolan.org-Erweiterungsfinder"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "addons.videolan.org - Erweiterungsfinder"
@@ -32430,57 +32318,17 @@ msgstr "Media Manager-Liste"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "Erweiterungsfinder für Einzelarchive .vlp"
 
-#~ msgid "acoustid"
-#~ msgstr "Acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Erstellung von Titel-Fingerabdrücken  (auf Acoustid basierend)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Dauer zur Erstellung des Fingerabdrucks"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Vorgabe: 90 s"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Farbsättigung der Streamausgabe"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Bitte warten Sie, während der Fontcache erneuert wird.\n"
-#~ "Dies sollte weniger als ein paar Minuten dauern."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Die Breite des Visualisierungsfensters in Pixeln."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Die Höhe des Visualisierungsfensters in Pixeln."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpektrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3D-OpenGL Spektrum-Visualisierung"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Flat Top"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
 
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
-
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media player - Flash-Anzeige"
-
-#~ msgid "Streaming Output"
-#~ msgstr "Streaming-Ausgabe"
 
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr ""
@@ -32491,12 +32339,6 @@ msgstr "Media Manager-Liste"
 #~ "Diese Module stellen Netzwerkfunktionen für alle anderen Teile von VLC "
 #~ "zur Verfügung."
 
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Dies sind allgemeine Einstellungen für Video/Audio/Untertitel-Encoding-"
-#~ "Module."
-
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "Dialog-Provider können hier konfiguriert werden."
 
@@ -32506,6 +32348,225 @@ msgstr "Media Manager-Liste"
 #~ msgstr ""
 #~ "In dieser Sektion können Sie das Verhalten der Untertitel-Demuxer "
 #~ "festlegen, z.B. durch Einstellen des Untertiteltyps oder Dateinamen."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Albumbildübertragungsrichtlinie"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Albumbildübertragungsrichtlinie"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Albumbildübertragungsrichtlinie"
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "VLC-Fehlerdiagnoseprotokoll (%s).rtf"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "In dieser Sektion können Sie das Verhalten der Untertitel-Demuxer "
+#~ "festlegen, z.B. durch Einstellen des Untertiteltyps oder Dateinamen."
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Untertitelspur"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Medium zurückspulen"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Pfad zum zu benutzenden Skin."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Streaming-Einstellungen …"
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Nachbearbeitung"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Videoaufzeichnung"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Audioausgabe-Modul"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Kein Aufnahmegerät gefunden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Ihr Mac scheint nicht mit einem passenden Aufnahmegerät ausgestattet zu "
+#~ "sein. Bitte überprüfen Sie die Verbindungen und die Treiber."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Satelliten-Bereich Kennzeichen"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Surround"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Quicktime-Aufnahme"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Kein Aufnahmegerät gefunden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Ihr Mac scheint nicht mit einem passenden Aufnahmegerät ausgestattet zu "
+#~ "sein. Bitte überprüfen Sie die Verbindungen und die Treiber."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Kein Aufnahmegerät gefunden"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Windows GDI-Videoausgabe"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Windows GDI-Videoausgabe"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "G.711 Decoder"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Geben Sie die Zeile mit der Sprache an"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Bitte das zu benutzende Deinterlace-Modul angeben."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr ""
+#~ "Auf das Video beim Transkodieren anzuwendender Skalierungsfaktor (z.B. "
+#~ "0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "CDG-Videodecoder"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Windows-Dienst-Interface"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Speichern als …"
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Aktivieren"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Fingerabdruck"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Kein Input gefunden"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Fingerabdruck"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Löschen"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Maximale lokale Bitrate"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Videotransformationsfilter"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Akustik"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Ausrichtung der Spiegelung"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Standardstream"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Erfasse Streamausgabe"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Bitte warten Sie, während der Fontcache erneuert wird.\n"
+#~ "Dies sollte weniger als eine Minute dauern."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Die Breite des Videofensters in Pixeln."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Die Höhe des Videofensters in Pixeln."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Spektrum"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Aktuelle Visualisierung"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Immer im Vordergrund"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC media player - Webinterface"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "Streamausgabe"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "Allgemeine Einstellungen für Videoausgabemodule."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -32521,11 +32582,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Albumbildübertragungsrichtlinie"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Albumbildübertragungsrichtlinie"
+#~ msgstr "Albumbilddateiname"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -32642,9 +32699,6 @@ msgstr "Media Manager-Liste"
 #~ msgid "Open BDMV folder"
 #~ msgstr "VIDEO_TS / BDMV -Ordner öffnen"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Albumbildübertragungsrichtlinie"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Ausgabemodule"
@@ -32712,10 +32766,6 @@ msgstr "Media Manager-Liste"
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Eine Unter&titeldatei benutzen"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Albumbildübertragungsrichtlinie"
 
 #, fuzzy
 #~ msgid "Configure Media Library"
@@ -32899,10 +32949,6 @@ msgstr "Media Manager-Liste"
 #~ "Videostreams. In dem Format 30000/1001 oder 29.97"
 
 #, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "VLC-Fehlerdiagnoseprotokoll (%s).rtf"
-
-#, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
 #~ msgstr "VLC im dunklen Interfacedesign ausführen"
 
@@ -33043,9 +33089,7 @@ msgstr "Media Manager-Liste"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Dies sind allgemeine Einstellungen für Video/Audio/Untertitel-Encoding-"
-#~ "Module."
+#~ msgstr "Allgemeine Einstellungen für Videoausgabemodule."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -33054,14 +33098,6 @@ msgstr "Media Manager-Liste"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Untertitel-Textcodierung"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "In dieser Sektion können Sie das Verhalten der Untertitel-Demuxer "
-#~ "festlegen, z.B. durch Einstellen des Untertiteltyps oder Dateinamen."
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -33131,7 +33167,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Windows-Store Audioausgabe"
+#~ msgstr "Datei-Audioausgabe"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -35682,7 +35718,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "HTTP remote control interface"
-#~ msgstr "Remote-Control-Interface"
+#~ msgstr "Entfernte Steuerschnittstelle"
 
 #, fuzzy
 #~ msgid "HTTP SSL"
@@ -35694,7 +35730,7 @@ msgstr "Media Manager-Liste"
 
 #, fuzzy
 #~ msgid "VLM remote control interface"
-#~ msgstr "Remote-Control-Interface"
+#~ msgstr "Entfernte Steuerschnittstelle"
 
 #, fuzzy
 #~ msgid "ASF v1.0 demuxer"
@@ -36159,5 +36195,6 @@ msgstr "Media Manager-Liste"
 #~ msgid "Automate picture coding mode"
 #~ msgstr "Bildkodierungsmodus"
 
+#, fuzzy
 #~ msgid "Addon Manager"
-#~ msgstr "Addon-Manager"
+#~ msgstr "Erweiterungsverwaltung"
