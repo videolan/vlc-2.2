@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-08-14 20:20+0000\n"
+"PO-Revision-Date: 2014-11-22 11:41+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
@@ -161,9 +161,8 @@ msgid "General video settings"
 msgstr "Všeobecné nastavenia videa"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Všeobecné nastavenia výstupných modulov zvuku."
+msgstr "Všeobecné nastavenia pre moduly výstupu videa"
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -199,7 +198,7 @@ msgid ""
 msgstr ""
 "Toto sú nastavenia, ktoré sa vzťahujú k rôznym metódam prístupu. K "
 "nastaveniam, ktoré treba častokrát zmeniť patria nastavenia HTTP proxy alebo "
-"nastavenia ukladania do vyrovnávacej pamäti."
+"nastavenia ukladania do vyrovnávacej pamäte."
 
 #: include/vlc_config_cat.h:101
 msgid "Stream filters"
@@ -644,7 +643,7 @@ msgstr "Spektrometer"
 
 #: src/audio_output/output.c:235
 msgid "Scope"
-msgstr "Rozsah (oblasť)"
+msgstr "Rozsah"
 
 #: src/audio_output/output.c:238
 msgid "Spectrum"
@@ -708,7 +707,7 @@ msgstr "Vpravo"
 
 #: src/audio_output/output.c:441 src/libvlc-module.c:186
 msgid "Reverse stereo"
-msgstr "Reverzné stereo"
+msgstr "Obrátené stereo"
 
 #: src/config/core.c:397 modules/access/dtv/access.c:91
 #: modules/access/dtv/access.c:106 modules/access/dtv/access.c:115
@@ -3551,14 +3550,14 @@ msgstr "Tu si môžete zvoliť, že sa zachová unikátny výstup streamu. "
 msgid "Stream output muxer caching (ms)"
 msgstr ""
 "Ukladanie dátového toku, vystupujúceho z multiplexora, do vyrovnávacej "
-"pamäti (ms)"
+"pamäte (ms)"
 
 #: src/libvlc-module.c:958
 msgid ""
 "This allow you to configure the initial caching amount for stream output "
 "muxer. This value should be set in milliseconds."
 msgstr ""
-"Tu môžete nastaviť počiatočnú hodnotu ukladania dát do vyrovnávacej pamäti, "
+"Tu môžete nastaviť počiatočnú hodnotu ukladania dát do vyrovnávacej pamäte, "
 "pre výstupný multiplexor streamu.  Táto hodnota sa nastavuje v milisekundách."
 
 #: src/libvlc-module.c:961
@@ -3975,7 +3974,7 @@ msgstr ""
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr ""
 "V tejto časti si môžete nastaviť svoje vlastné \"klávesové skratky\" "
-"programu VLC."
+"programu VLC, platné globálne pre celý program."
 
 #: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1785
 msgid "Ignore"
@@ -4012,9 +4011,7 @@ msgstr "Celoobrazovkový režim"
 
 #: src/libvlc-module.c:1190
 msgid "Select the hotkey to use to swap fullscreen state."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre prepínanie medzi klasickým "
-"zobrazením a zobrazením na celú obrazovku."
+msgstr "Vyberte si kláves na prepínanie zobrazenia na celú obrazovku."
 
 #: src/libvlc-module.c:1191
 msgid "Exit fullscreen"
@@ -4022,9 +4019,7 @@ msgstr "Ukončiť celoobrazovkový režim"
 
 #: src/libvlc-module.c:1192
 msgid "Select the hotkey to use to exit fullscreen state."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre ukončenie celoobrazovkového "
-"režimu."
+msgstr "Vyberte si kláves na ukončenie prehrávania na celej obrazovke."
 
 #: src/libvlc-module.c:1193 modules/gui/macosx/ControlsBar.m:55
 #: modules/gui/macosx/fspanel.m:422
@@ -4033,9 +4028,7 @@ msgstr "Prehrať/Pozastaviť"
 
 #: src/libvlc-module.c:1194
 msgid "Select the hotkey to use to swap paused state."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre pozastavenie/opätovné "
-"spustenie prehrávania"
+msgstr "Vyberte si kláves na prepínanie stavu pozastavenia prehrávania"
 
 #: src/libvlc-module.c:1195
 msgid "Pause only"
@@ -4043,7 +4036,7 @@ msgstr "Len pozastaviť"
 
 #: src/libvlc-module.c:1196
 msgid "Select the hotkey to use to pause."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre pozastavenie prehrávania"
+msgstr "Vyberte si kláves na pozastavenie prehrávania"
 
 #: src/libvlc-module.c:1197
 msgid "Play only"
@@ -4051,7 +4044,7 @@ msgstr "Len prehrať"
 
 #: src/libvlc-module.c:1198
 msgid "Select the hotkey to use to play."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre spustenie prehrávania"
+msgstr "Vyberte si kláves na spustenie prehrávania"
 
 #: src/libvlc-module.c:1199 modules/gui/macosx/MainMenu.m:401
 #: modules/gui/qt4/components/controller.hpp:116
@@ -4061,7 +4054,7 @@ msgstr "Rýchlejšie"
 
 #: src/libvlc-module.c:1200 src/libvlc-module.c:1206
 msgid "Select the hotkey to use for fast forward playback."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre zrýchlenie prehrávania"
+msgstr "Vyberte si kláves na zrýchlenie prehrávania smerom dopredu"
 
 #: src/libvlc-module.c:1201 modules/gui/macosx/MainMenu.m:399
 #: modules/gui/qt4/components/controller.hpp:116
@@ -4071,7 +4064,7 @@ msgstr "Pomalšie"
 
 #: src/libvlc-module.c:1202 src/libvlc-module.c:1208
 msgid "Select the hotkey to use for slow motion playback."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre spomalenie prehrávania"
+msgstr "Vyberte si kláves, na spomalenie prehrávania"
 
 #: src/libvlc-module.c:1203
 msgid "Normal rate"
@@ -4080,7 +4073,7 @@ msgstr "Normálna rýchlosť"
 #: src/libvlc-module.c:1204
 msgid "Select the hotkey to set the playback rate back to normal."
 msgstr ""
-"Vyberte si klávesu pre nastavenie rýchlosti prehrávania na normálnu hodnotu."
+"Vyberte si kláves na nastavenie rýchlosti prehrávania na normálnu hodnotu."
 
 #: src/libvlc-module.c:1205 modules/gui/qt4/menus.cpp:875
 msgid "Faster (fine)"
@@ -4104,9 +4097,7 @@ msgstr "Ďalej"
 
 #: src/libvlc-module.c:1210
 msgid "Select the hotkey to use to skip to the next item in the playlist."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie na ďalší súbor "
-"zaradený v playliste"
+msgstr "Vyberte si kláves na preskočenie na ďalšiu položku v playliste."
 
 #: src/libvlc-module.c:1211 modules/control/hotkeys.c:212
 #: modules/gui/macosx/about.m:269 modules/gui/macosx/ControlsBar.m:760
@@ -4119,9 +4110,7 @@ msgstr "Dozadu"
 
 #: src/libvlc-module.c:1212
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre návrat k predchádzajúcemu "
-"súboru v playliste"
+msgstr "Vyberte si kláves na návrat k predchádzajúcej položke v playliste."
 
 #: src/libvlc-module.c:1213 modules/gui/macosx/ControlsBar.m:481
 #: modules/gui/macosx/MainMenu.m:394 modules/gui/macosx/MainMenu.m:501
@@ -4133,7 +4122,7 @@ msgstr "Stop"
 
 #: src/libvlc-module.c:1214
 msgid "Select the hotkey to stop playback."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre zastavenie prehrávania"
+msgstr "Vyberte si kláves na zastavenie prehrávania."
 
 #: src/libvlc-module.c:1215 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/bookmarks.m:114 modules/gui/macosx/ControlsBar.m:67
@@ -4146,7 +4135,7 @@ msgstr "Pozícia"
 
 #: src/libvlc-module.c:1216
 msgid "Select the hotkey to display the position."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre zobrazenie pozície."
+msgstr "Vyberte si kláves na zobrazenie pozície."
 
 #: src/libvlc-module.c:1218
 msgid "Very short backwards jump"
@@ -4154,9 +4143,7 @@ msgstr "Veľmi krátky skok späť"
 
 #: src/libvlc-module.c:1220
 msgid "Select the hotkey to make a very short backwards jump."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie o veľmi malý kúsok "
-"späť."
+msgstr "Vyberte si kláves na preskočenie o veľmi malý kúsok dozadu."
 
 #: src/libvlc-module.c:1221
 msgid "Short backwards jump"
@@ -4164,8 +4151,7 @@ msgstr "Krátky skok späť"
 
 #: src/libvlc-module.c:1223
 msgid "Select the hotkey to make a short backwards jump."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie o kúsok späť."
+msgstr "Vyberte si kláves na preskočenie o kúsok dozadu."
 
 #: src/libvlc-module.c:1224
 msgid "Medium backwards jump"
@@ -4173,7 +4159,7 @@ msgstr "Väčší skok späť"
 
 #: src/libvlc-module.c:1226
 msgid "Select the hotkey to make a medium backwards jump."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre preskočenie späť."
+msgstr "Vyberte si kláves na preskočenie dozadu (stredný skok)."
 
 #: src/libvlc-module.c:1227
 msgid "Long backwards jump"
@@ -4181,8 +4167,7 @@ msgstr "Dlhý skok späť"
 
 #: src/libvlc-module.c:1229
 msgid "Select the hotkey to make a long backwards jump."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie späť o veľký kus."
+msgstr "Vyberte si kláves na preskočenie o veľký kus dozadu."
 
 #: src/libvlc-module.c:1231
 msgid "Very short forward jump"
@@ -4190,8 +4175,7 @@ msgstr "Veľmi krátky skok dopredu"
 
 #: src/libvlc-module.c:1233
 msgid "Select the hotkey to make a very short forward jump."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie o malý kúsok vpred."
+msgstr "Vyberte si kláves na preskočenie o veľmi malý kúsok dopredu."
 
 #: src/libvlc-module.c:1234
 msgid "Short forward jump"
@@ -4199,8 +4183,7 @@ msgstr "Krátky skok dopredu"
 
 #: src/libvlc-module.c:1236
 msgid "Select the hotkey to make a short forward jump."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie o kúsok vpred."
+msgstr "Vyberte si kláves na preskočenie o kúsok dopredu."
 
 #: src/libvlc-module.c:1237
 msgid "Medium forward jump"
@@ -4208,7 +4191,7 @@ msgstr "Väčší skok dopredu"
 
 #: src/libvlc-module.c:1239
 msgid "Select the hotkey to make a medium forward jump."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre preskočenie vpred."
+msgstr "Vyberte si kláves na preskočenie dopredu (stredný skok)."
 
 #: src/libvlc-module.c:1240
 msgid "Long forward jump"
@@ -4216,9 +4199,7 @@ msgstr "Dlhý skok dopredu"
 
 #: src/libvlc-module.c:1242
 msgid "Select the hotkey to make a long forward jump."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre preskočenie dopredu o veľký "
-"kus."
+msgstr "Vyberte si kláves na preskočenie o veľký kus dopredu."
 
 #: src/libvlc-module.c:1243 modules/control/hotkeys.c:402
 msgid "Next frame"
@@ -4226,8 +4207,7 @@ msgstr "Ďalšia snímka"
 
 #: src/libvlc-module.c:1245
 msgid "Select the hotkey to got to the next video frame."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre prechod na ďalšiu snímku videa"
+msgstr "Vyberte si kláves na prechod na ďalšiu snímku videa."
 
 #: src/libvlc-module.c:1247
 msgid "Very short jump length"
@@ -4270,7 +4250,7 @@ msgstr "Koniec"
 
 #: src/libvlc-module.c:1257
 msgid "Select the hotkey to quit the application."
-msgstr "Vyberte si klávesu, ktorú chcete používať pre ukončenie programu."
+msgstr "Vyberte si kláves na ukončenie programu."
 
 #: src/libvlc-module.c:1258
 msgid "Navigate up"
@@ -4278,8 +4258,7 @@ msgstr "Navigovať smerom nahor"
 
 #: src/libvlc-module.c:1259
 msgid "Select the key to move the selector up in DVD menus."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre pohyb v menu DVD smerom nahor"
+msgstr "Vyberte si kláves na pohyb v menu DVD smerom nahor."
 
 #: src/libvlc-module.c:1260
 msgid "Navigate down"
@@ -4287,8 +4266,7 @@ msgstr "Navigovať smerom nadol"
 
 #: src/libvlc-module.c:1261
 msgid "Select the key to move the selector down in DVD menus."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre pohyb v menu DVD smerom nadol"
+msgstr "Vyberte si kláves na pohyb v menu DVD smerom nadol."
 
 #: src/libvlc-module.c:1262
 msgid "Navigate left"
@@ -4296,8 +4274,7 @@ msgstr "Navigovať smerom doľava"
 
 #: src/libvlc-module.c:1263
 msgid "Select the key to move the selector left in DVD menus."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre pohyb v menu DVD smerom doľava."
+msgstr "Vyberte si kláves na pohyb v menu DVD smerom doľava."
 
 #: src/libvlc-module.c:1264
 msgid "Navigate right"
@@ -4305,9 +4282,7 @@ msgstr "Navigovať smerom doprava"
 
 #: src/libvlc-module.c:1265
 msgid "Select the key to move the selector right in DVD menus."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre pohyb v menu DVD smerom "
-"doprava."
+msgstr "Vyberte si kláves na pohyb v menu DVD smerom doprava."
 
 #: src/libvlc-module.c:1266
 msgid "Activate"
@@ -4315,9 +4290,7 @@ msgstr "Aktivovať"
 
 #: src/libvlc-module.c:1267
 msgid "Select the key to activate selected item in DVD menus."
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre aktivovanie zvolenej položky v "
-"menu DVD."
+msgstr "Vyberte si kláves na aktivovanie vybranej položky v menu DVD."
 
 #: src/libvlc-module.c:1268 modules/gui/qt4/dialogs/toolbar.cpp:480
 msgid "Go to the DVD menu"
@@ -4325,7 +4298,7 @@ msgstr "Prejsť na menu DVD"
 
 #: src/libvlc-module.c:1269
 msgid "Select the key to take you to the DVD menu"
-msgstr "Vyberte si klávesu, ktorú chcete používať pre zobrazenie menu DVD."
+msgstr "Vyberte si kláves na zobrazenie menu DVD."
 
 #: src/libvlc-module.c:1270
 msgid "Select previous DVD title"
@@ -4333,8 +4306,7 @@ msgstr "Vybrať predchádzajúci DVD titul"
 
 #: src/libvlc-module.c:1271
 msgid "Select the key to choose the previous title from the DVD"
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre vybranie predchádzajúceho DVD"
+msgstr "Vyberte si kláves na výber predchádzajúceho titulu na DVD"
 
 #: src/libvlc-module.c:1272
 msgid "Select next DVD title"
@@ -4342,8 +4314,7 @@ msgstr "Vybrať ďalší DVD titul"
 
 #: src/libvlc-module.c:1273
 msgid "Select the key to choose the next title from the DVD"
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre vybranie ďalšieho DVD v poradí"
+msgstr "Vyberte si kláves na výber ďalšieho titulu na DVD"
 
 #: src/libvlc-module.c:1274
 msgid "Select prev DVD chapter"
@@ -4351,9 +4322,7 @@ msgstr "Vybrať predchádzajúcu kapitolu DVD"
 
 #: src/libvlc-module.c:1275
 msgid "Select the key to choose the previous chapter from the DVD"
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre vybranie predchádzajúcej "
-"kapitoly v DVD"
+msgstr "Vyberte si kláves na výber predchádzajúcej kapitoly na DVD"
 
 #: src/libvlc-module.c:1276
 msgid "Select next DVD chapter"
@@ -4361,8 +4330,7 @@ msgstr "Vybrať ďalšiu kapitolu DVD"
 
 #: src/libvlc-module.c:1277
 msgid "Select the key to choose the next chapter from the DVD"
-msgstr ""
-"Vyberte si klávesu, ktorú chcete používať pre vybranie ďalšej kapitoly DVD"
+msgstr "Vyberte si kláves na výber ďalšej kapitoly na DVD"
 
 #: src/libvlc-module.c:1278
 msgid "Volume up"
@@ -4370,7 +4338,7 @@ msgstr "Zvýšiť hlasitosť"
 
 #: src/libvlc-module.c:1279
 msgid "Select the key to increase audio volume."
-msgstr "Vyberte si klávesu pre zvýšenie hlasitosti zvuku."
+msgstr "Vyberte si kláves na zvýšenie hlasitosti zvuku."
 
 #: src/libvlc-module.c:1280
 msgid "Volume down"
@@ -4378,7 +4346,7 @@ msgstr "Znížiť hlasitosť"
 
 #: src/libvlc-module.c:1281
 msgid "Select the key to decrease audio volume."
-msgstr "Vyberte si klávesu pre zníženie hlasitosti zvuku."
+msgstr "Vyberte si kláves na zníženie hlasitosti zvuku."
 
 #: src/libvlc-module.c:1282 modules/access/v4l2/v4l2.c:181
 #: modules/gui/macosx/ControlsBar.m:500 modules/gui/macosx/MainMenu.m:423
@@ -4389,7 +4357,7 @@ msgstr "Stlmiť"
 
 #: src/libvlc-module.c:1283
 msgid "Select the key to mute audio."
-msgstr "Vyberte si klávesu pre stlmenie zvuku."
+msgstr "Vyberte si kláves na stlmenie zvuku."
 
 #: src/libvlc-module.c:1284
 msgid "Subtitle delay up"
@@ -4397,7 +4365,7 @@ msgstr "Zvýšiť oneskorenie titulkov"
 
 #: src/libvlc-module.c:1285
 msgid "Select the key to increase the subtitle delay."
-msgstr "Vyberte si klávesu pre zvýšenie oneskorenia titulkov."
+msgstr "Vyberte si kláves na zvýšenie oneskorenia titulkov."
 
 #: src/libvlc-module.c:1286
 msgid "Subtitle delay down"
@@ -4405,7 +4373,7 @@ msgstr "Znížiť oneskorenie titulkov"
 
 #: src/libvlc-module.c:1287
 msgid "Select the key to decrease the subtitle delay."
-msgstr "Vyberte si klávesu pre zníženie oneskorenia titulkov."
+msgstr "Vyberte si kláves na zníženie oneskorenia titulkov."
 
 #: src/libvlc-module.c:1288
 msgid "Subtitle sync / bookmark audio timestamp"
@@ -4414,7 +4382,7 @@ msgstr "Synchronizácia titulkov / časová pečiatka pre audio-záložku"
 #: src/libvlc-module.c:1289
 msgid "Select the key to bookmark audio timestamp when syncing subtitles."
 msgstr ""
-"Vyberte si klávesu na označenie časovou pečiatkou audia, pri synchronizovaní "
+"Vyberte si kláves na označenie zvuku časovou pečiatkou, pri synchronizovaní "
 "titulkov."
 
 #: src/libvlc-module.c:1290
@@ -4424,7 +4392,7 @@ msgstr "Synchronizácia titulkov / záložka pre časovú pečiatku titulkov"
 #: src/libvlc-module.c:1291
 msgid "Select the key to bookmark subtitle timestamp when syncing subtitles."
 msgstr ""
-"Vyberte si klávesu pre vytvorenie záložky s časovou pečiatkou titulkov, pri "
+"Vyberte si kláves na vytvorenie záložky s časovou pečiatkou, pri "
 "synchronizovaní titulkov."
 
 #: src/libvlc-module.c:1292
@@ -4435,8 +4403,8 @@ msgstr ""
 #: src/libvlc-module.c:1293
 msgid "Select the key to synchronize bookmarked audio & subtitle timestamps."
 msgstr ""
-"Vyberte si klávesu pre synchronizovanie označených časových pečiatok vo "
-"zvuku & titulkoch."
+"Vyberte si kláves na synchronizovanie záložkou označených časových pečiatok "
+"vo zvuku a titulkoch."
 
 #: src/libvlc-module.c:1294
 msgid "Subtitle sync / reset audio & subtitle synchronization"
@@ -4445,8 +4413,8 @@ msgstr "Synchronizovať titulky / resetovať synchronizáciu zvuku & titulkov"
 #: src/libvlc-module.c:1295
 msgid "Select the key to reset synchronization of audio & subtitle timestamps."
 msgstr ""
-"Vyberte si klávesu pre presetovanie synchronizácie časových pečiatok vo "
-"zvuku & titulkoch."
+"Vyberte si kláves na resetovanie synchronizácie časových pečiatok vo zvuku a "
+"titulkoch."
 
 #: src/libvlc-module.c:1296
 msgid "Subtitle position up"
@@ -4454,7 +4422,7 @@ msgstr "Pozícia titulkov hore"
 
 #: src/libvlc-module.c:1297
 msgid "Select the key to move subtitles higher."
-msgstr "Vyberte si klávesu pre posunutie titulkov nahor."
+msgstr "Vyberte si kláves na posunutie titulkov vyššie."
 
 #: src/libvlc-module.c:1298
 msgid "Subtitle position down"
@@ -4462,7 +4430,7 @@ msgstr "Pozícia titulkov dole"
 
 #: src/libvlc-module.c:1299
 msgid "Select the key to move subtitles lower."
-msgstr "Vyberte si klávesu pre posunutie titulkov nadol."
+msgstr "Vyberte si kláves na posunutie titulkov nižšie."
 
 #: src/libvlc-module.c:1300
 msgid "Audio delay up"
@@ -4470,7 +4438,7 @@ msgstr "Zvýšiť oneskorenie zvuku"
 
 #: src/libvlc-module.c:1301
 msgid "Select the key to increase the audio delay."
-msgstr "Vyberte si klávesu pre zvýšenie oneskorenia hlasitosti."
+msgstr "Vyberte si kláves na zvýšenie oneskorenia hlasitosti."
 
 #: src/libvlc-module.c:1302
 msgid "Audio delay down"
@@ -4478,7 +4446,7 @@ msgstr "Znížiť oneskorenie zvuku"
 
 #: src/libvlc-module.c:1303
 msgid "Select the key to decrease the audio delay."
-msgstr "Vyberte si klávesu pre zníženie oneskorenie zvuku."
+msgstr "Vyberte si kláves na zníženie oneskorenia zvuku."
 
 #: src/libvlc-module.c:1310
 msgid "Play playlist bookmark 1"
@@ -4522,7 +4490,7 @@ msgstr "Prehrať záložku č. 10 v playliste"
 
 #: src/libvlc-module.c:1320
 msgid "Select the key to play this bookmark."
-msgstr "Vyberte si klávesu pre prehratie tejto záložky."
+msgstr "Vyberte si kláves na prehratie tejto záložky."
 
 #: src/libvlc-module.c:1321
 msgid "Set playlist bookmark 1"
@@ -4566,7 +4534,7 @@ msgstr "Nastaviť záložku č. 10 v playliste"
 
 #: src/libvlc-module.c:1331
 msgid "Select the key to set this playlist bookmark."
-msgstr "Vyberte si klávesu pre nastavenie tejto záložky v playliste."
+msgstr "Vyberte si kláves na nastavenie tejto záložky v playliste."
 
 #: src/libvlc-module.c:1332
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:234
@@ -4575,7 +4543,7 @@ msgstr "Vyčistiť playlist"
 
 #: src/libvlc-module.c:1333
 msgid "Select the key to clear the current playlist."
-msgstr "Vyberte si klávesu pre vyčistenie aktuálneho playlistu."
+msgstr "Vyberte si kláves na vyčistenie aktuálneho playlistu."
 
 #: src/libvlc-module.c:1335
 msgid "Playlist bookmark 1"
@@ -4641,14 +4609,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Opakovať všetky stopy s titulkami"
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Titulky v teletexte"
+msgstr "Prepnúť titulky"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Opakovať stopu s titulkami"
+msgstr "Prepnúť viditeľnosť stopy s titulkami."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7436,7 +7402,7 @@ msgstr "Veľkosť streamu v bytoch"
 
 #: modules/access/imem.c:118 modules/access/imem.c:119
 msgid "Memory input"
-msgstr "Vstup do pamäti"
+msgstr "Vstup do pamäte"
 
 #: modules/access/jack.c:59
 msgid "Pace"
@@ -7693,9 +7659,9 @@ msgid ""
 "Amount of time (in ms) to wait before aborting network reception of data. "
 "Note that there will be 10 retries before completely giving up."
 msgstr ""
-"Množstvo času (v ms), počas ktorého sa bude čakať na prerušenie prijímania "
-"dát zo siete. Pamätajte prosím nato, že pokus o pripojenie sa pred "
-"definitívnym zrušením zopakuje 10x."
+"Čas (v ms), počas ktorého sa bude čakať pred prerušením prijímania dát zo "
+"siete. Pamätajte prosím na to, že pokus sa pred definitívnym zrušením "
+"zopakuje 10x."
 
 #: modules/access/mms/mms.c:69
 msgid "Microsoft Media Server (MMS) input"
@@ -7954,9 +7920,8 @@ msgid "Number of first segment"
 msgstr "Číslo prvého segmentu"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Počet vygenerovaných segmentov"
+msgstr "Číslo vygenerovaného prvého segmentu"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -8060,14 +8025,14 @@ msgstr "Výstup IceCAST"
 
 #: modules/access_output/udp.c:62 modules/stream_out/rtp.c:137
 msgid "Caching value (ms)"
-msgstr "Hodnota ukladania do vyrovnávacej pamäti (ms)"
+msgstr "Hodnota ukladania do vyrovnávacej pamäte (ms)"
 
 #: modules/access_output/udp.c:64
 msgid ""
 "Default caching value for outbound UDP streams. This value should be set in "
 "milliseconds."
 msgstr ""
-"Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+"Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 "milisekundách."
 
 #: modules/access_output/udp.c:67
@@ -8472,11 +8437,11 @@ msgstr "Hĺbka vo vyrovnávacej pamäti snímok"
 
 #: modules/access/shm.c:48
 msgid "Pixel depth of the frame buffer, or zero for XWD file"
-msgstr "Hĺbka pixelu vo vyrovnávacej pamäti snímok, alebo nula pre súbor XWD"
+msgstr "Hĺbka pixelu vo vyrovnávacej pamäte snímok, alebo nula pre súbor XWD"
 
 #: modules/access/shm.c:50
 msgid "Frame buffer width"
-msgstr "Šírka vo vyrovnávacej pamäti snímok"
+msgstr "Šírka vyrovnávacej pamäte snímok"
 
 #: modules/access/shm.c:52
 msgid "Pixel width of the frame buffer (ignored for XWD file)"
@@ -8484,7 +8449,7 @@ msgstr "Šírka pixelu vo vyrovnávacej pamäti snímok (ignorované pre súbor 
 
 #: modules/access/shm.c:54
 msgid "Frame buffer height"
-msgstr "Výška vo vyrovnávacej pamäti snímok"
+msgstr "Výška vyrovnávacej pamäte snímok"
 
 #: modules/access/shm.c:56
 msgid "Pixel height of the frame buffer (ignored for XWD file)"
@@ -8536,7 +8501,7 @@ msgstr "32 bitov"
 
 #: modules/access/shm.c:83
 msgid "Framebuffer input"
-msgstr "Vstup vyrov. pamäti snímok"
+msgstr "Vstup vyrov. pamäte snímok"
 
 #: modules/access/shm.c:84
 msgid "Shared memory framebuffer"
@@ -10866,24 +10831,24 @@ msgstr "Tu môžete zapnúť algoritmus pre odhadovanie pohybu."
 
 #: modules/codec/avcodec/avcodec.h:170
 msgid "Rate control buffer size"
-msgstr "Rýchlosť kontroly vyrovnávacej pamäti"
+msgstr "Rýchlosť kontroly vyrovnávacej pamäte"
 
 #: modules/codec/avcodec/avcodec.h:171
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
 msgstr ""
-"Rýchlosť kontroly vyrovnávacej pamäti (v kilobytoch). Väčšiu vyrovnávaciu "
-"pamäť je možné kontrolovať vyššou rýchlosťou. Takáto kontrola pamäti však "
+"Rýchlosť kontroly vyrovnávacej pamäte (v kilobytoch). Väčšiu vyrovnávaciu "
+"pamäť je možné kontrolovať vyššou rýchlosťou. Takáto kontrola pamäte však "
 "môže spôsobovať časový posun v streamoch."
 
 #: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness"
-msgstr "Agresivita pri kontrole vyrovnávacej pamäti"
+msgstr "Agresivita pri kontrole vyrovnávacej pamäte"
 
 #: modules/codec/avcodec/avcodec.h:176
 msgid "Rate control buffer aggressiveness."
-msgstr "Agresivita pri kontrole vyrovnávacej pamäti."
+msgstr "Agresivita pri kontrole vyrovnávacej pamäte."
 
 #: modules/codec/avcodec/avcodec.h:179
 msgid "I quantization factor"
@@ -11769,7 +11734,7 @@ msgstr "Vykresľovače titulkov s použitím libass"
 
 #: modules/codec/libass.c:225
 msgid "Building font cache"
-msgstr "Vytváranie vyrovnávacej pamäti pre písmo"
+msgstr "Vytváranie vyrovnávacej pamäte pre písmo"
 
 #: modules/codec/libass.c:226
 msgid ""
@@ -13450,14 +13415,14 @@ msgstr ""
 
 #: modules/codec/x264.c:226
 msgid "Initial VBV buffer occupancy"
-msgstr "Počiatočné obsadenie vyrovnávacej pamäti pre VBV"
+msgstr "Počiatočné obsadenie vyrovnávacej pamäte pre VBV"
 
 #: modules/codec/x264.c:227
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr ""
-"Nastaví počiatočné obsadenie vyrovnávacej pamäti. Môžete zadávať hodnoty v "
+"Nastaví počiatočné obsadenie vyrovnávacej pamäte. Môžete zadávať hodnoty v "
 "rozsahu od 0.0 do 1.0."
 
 #: modules/codec/x264.c:230
@@ -14139,7 +14104,7 @@ msgstr "Veľkosť pohybu, ktorý sa už považuje za gesto (10-100)"
 #: modules/control/gestures.c:73
 msgid "Amount of movement required for a mouse gesture to be recorded."
 msgstr ""
-"Veľkosť pohybu potrebná nato, aby bol pohyb vyhodnotený ako gesto pomocou "
+"Veľkosť pohybu potrebná na to, aby bol pohyb vyhodnotený ako gesto pomocou "
 "myši."
 
 #: modules/control/gestures.c:75
@@ -14181,7 +14146,7 @@ msgstr "Klávesové skratky"
 
 #: modules/control/hotkeys.c:89
 msgid "Hotkeys management interface"
-msgstr "Rozhranie pre manažovanie klávesových skratiek"
+msgstr "Rozhranie pre správu klávesových skratiek"
 
 #: modules/control/hotkeys.c:188
 msgid "One"
@@ -16171,10 +16136,10 @@ msgid ""
 "duration. However sometimes this might not be usable. Disable this option to "
 "calculate from the bitrate instead."
 msgstr ""
-"Za normálnych okolností sa časové značky v MPEG súboroch používajú nato, aby "
-"bolo možné vyčísliť aktuálnu pozíciu pri prehrávaní a trvanie filmu. Niekedy "
-"sa však tieto údaje nedajú zistiť pomocou časových značiek. Vtedy odporúčame "
-"vypnúť túto funkciu a údaje sa následne budú vypočítavať z dátového toku."
+"Za normálnych okolností sa časové značky v MPEG súboroch používajú na to, "
+"aby bolo možné vyčísliť aktuálnu pozíciu a trvanie. Niekedy sa však tieto "
+"údaje nedajú použiť. Po vypnutí tejto voľby sa budú údaje následne "
+"vypočítavať z dátového toku."
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
@@ -17460,7 +17425,7 @@ msgid ""
 "By default, VLC can be controlled using the media keys on modern Apple "
 "keyboards."
 msgstr ""
-"Pri predvolenom nastavení, program VLC sa dá ovládať pomocou mediálnych "
+"Pri predvolenom nastavení sa program VLC dá ovládať pomocou mediálnych "
 "klávesov na moderných klávesniciach Apple."
 
 #: modules/gui/macosx/macosx.m:88
@@ -17663,7 +17628,7 @@ msgstr "Veľkosť súboru"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Úroveň %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -18654,11 +18619,11 @@ msgstr "Opraviť AVI súbory"
 
 #: modules/gui/macosx/simple_prefs.m:336
 msgid "Default Caching Level"
-msgstr "Predvolená úroveň ukladania do vyrovnávacej pamäti "
+msgstr "Predvolená úroveň ukladania do vyrovnávacej pamäte "
 
 #: modules/gui/macosx/simple_prefs.m:337 modules/gui/qt4/ui/open.h:248
 msgid "Caching"
-msgstr "Ukladať do vyrovnávacej pamäti"
+msgstr "Ukladať do vyrov. pamäte"
 
 #: modules/gui/macosx/simple_prefs.m:338
 msgid ""
@@ -19873,8 +19838,8 @@ msgstr ""
 "Ak je táto funkcia zapnutá, stream sa bude prehrávať aj prekódovávať/ďalej "
 "streamovať súčasne. \n"
 "\n"
-"Pamätajte ale prosím nato, že súčasné vykonávanie všetkých operácií je oveľa "
-"náročnejšie na výpočtový výkon počítača, ako keď sa tieto operácie "
+"Pamätajte ale prosím na to, že súčasné vykonávanie všetkých operácií je "
+"oveľa náročnejšie na výpočtový výkon počítača, ako keď sa tieto operácie "
 "vykonávajú postupne. "
 
 #: modules/gui/minimal_macosx/macosx.c:57
@@ -21828,7 +21793,7 @@ msgstr "Výber rýchlosti"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:73
 msgid "Broadcast"
-msgstr "Broadcast"
+msgstr "Vysielanie"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:74
 msgid "Schedule"
@@ -21881,7 +21846,7 @@ msgstr "Otvoriť konfiguráciu VLM..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:544
 msgid "Broadcast: "
-msgstr "Broadcast: "
+msgstr "Vysielanie: "
 
 #: modules/gui/qt4/dialogs/vlm.cpp:617
 msgid "Schedule: "
@@ -21896,9 +21861,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Chcete opäť spustiť prehrávanie tam, kde ste skončili?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Pokračovať"
+msgstr "Po&kračovať"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -22834,7 +22798,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:51
 msgid "TLS cipher priorities"
-msgstr "Priority čísla TLS"
+msgstr "Priority šifrovania TLS"
 
 #: modules/misc/gnutls.c:52
 msgid ""
@@ -23155,7 +23119,7 @@ msgid ""
 msgstr ""
 "Nepokúšať sa odhadovať bitovú rýchlosť ASF. Nastavenie tohto parametra vám "
 "umožní ovládať to, ako bude Windows Media Player ukladať stream do "
-"vyrovnávacej pamäti. Nastavenie pre bitrate videa a zvuku sa uvádza v bytoch."
+"vyrovnávacej pamäte. Nastavenie pre bitrate videa a zvuku sa uvádza v bytoch."
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
@@ -23215,7 +23179,7 @@ msgid ""
 msgstr ""
 "Oneskoriť DTS (časové značky pre dekódovanie) a PTS (časové značky "
 "prezentácie) v dátach v streame, vzhľadom k SCR. Touto voľbou povolíte "
-"klientskému dekodéru ukladanie streamu do vyrovnávacej pamäti."
+"klientskému dekodéru ukladanie streamu do vyrovnávacej pamäte."
 
 #: modules/mux/mpeg/ps.c:54
 msgid "PES maximum size"
@@ -23413,7 +23377,7 @@ msgid ""
 msgstr ""
 "Oneskoriť DTS (časové značky pre dekódovanie) a PTS (časové značky "
 "prezentácie) v dátach v streame, vzhľadom k PCR. Touto voľbou povolíte "
-"klientskému dekodéru ukladanie streamu do vyrovnávacej pamäti."
+"klientskému dekodéru ukladanie streamu do vyrovnávacej pamäte."
 
 #: modules/mux/mpeg/ts.c:154
 msgid "Crypt audio"
@@ -23860,7 +23824,7 @@ msgstr ""
 "Obrázky prichádzajúce z výstupov pre výstup videa sa oneskoria podľa toho, "
 "aký čas ste zadali (čas sa udáva v milisekundách a mal by byť >= 100 ms). "
 "Pri vyšších hodnotách by ste mali zvýšiť aj čas ukladania do vyrovnávacej "
-"pamäti."
+"pamäte."
 
 #: modules/stream_out/bridge.c:56
 msgid "ID Offset"
@@ -24387,7 +24351,7 @@ msgid ""
 "milliseconds."
 msgstr ""
 "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-"pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+"pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #: modules/stream_out/rtp.c:142
 msgid "Transport protocol"
@@ -24511,7 +24475,7 @@ msgid ""
 msgstr ""
 "Adresa funkcie spätného volania pre dodatočné vykreslenie videa. Táto "
 "funkcia bude vyvolaná vtedy, keď bude vykresľovan prebiehať do vyrovnávacej "
-"pamäti."
+"pamäte."
 
 #: modules/stream_out/smem.c:73
 msgid "Audio postrender callback"
@@ -24524,7 +24488,7 @@ msgid ""
 msgstr ""
 "Adresa funkcie spätného volania pre dodatočné vykreslenie zvuku. Táto "
 "funkcia bude vyvolaná vtedy, keď bude vykresľovan prebiehať do vyrovnávacej "
-"pamäti."
+"pamäte."
 
 #: modules/stream_out/smem.c:77
 msgid "Video Callback data"
@@ -24560,7 +24524,7 @@ msgstr "Smem"
 
 #: modules/stream_out/smem.c:97
 msgid "Stream output to memory buffer"
-msgstr "Výstup streamu do vyrovnávacej pamäti"
+msgstr "Výstup streamu do vyrovnávacej pamäte"
 
 #: modules/stream_out/stats.c:42
 msgid "Writes stats to file instead of stdout"
@@ -26969,7 +26933,7 @@ msgid ""
 msgstr ""
 "Obrázky prichádzajúce z prvkov mozaiky budú oneskorené o čas, ktorý zadáte "
 "(v milisekundách). Pri zadaní vysokých hodnôt oneskorenia by ste mali zvýšiť "
-"aj hodnotu ukladania do vyrovnávacej pamäti na vstupe."
+"aj hodnotu ukladania do vyrovnávacej pamäte na vstupe."
 
 #: modules/video_filter/mosaic.c:166
 msgid "auto"
@@ -27932,12 +27896,12 @@ msgstr "Rozšírenie EGL pre OpenGL"
 
 #: modules/video_output/fb.c:56
 msgid "Framebuffer device"
-msgstr "Zariadenie vyrov. pamäti snímok"
+msgstr "Zariadenie vyrov. pamäte snímok"
 
 #: modules/video_output/fb.c:58
 msgid "Framebuffer device to use for rendering (usually /dev/fb0)."
 msgstr ""
-"Zariadenie vyrovnávacej pamäti pre snímky, ktoré sa bude používať pri "
+"Zariadenie vyrovnávacej pamäte pre snímky, ktoré sa bude používať pri "
 "vykresľovaní (obyčajne je to /dev/fb0)."
 
 #: modules/video_output/fb.c:60
@@ -27976,7 +27940,7 @@ msgid ""
 "in software."
 msgstr ""
 "Ak vaša vyrovnávacia pamäť snímok podporuje hardvérovú akceleráciu alebo "
-"vykonáva dvojité ukladanie do vyrovnávacej pamäti priamo v hardvéri, tak "
+"vykonáva dvojité ukladanie do vyrovnávacej pamäte priamo v hardvéri, tak "
 "musíte túto voľbu zablokovať. Aktivuje sa ňou totiž dvojité ukladanie do "
 "vyrovnávacej pamäti aj v softvéri."
 
@@ -27995,7 +27959,7 @@ msgstr ""
 
 #: modules/video_output/fb.c:95
 msgid "GNU/Linux framebuffer video output"
-msgstr "Výstup videa z vyrovnávacej pamäti pre snímky na systémoch GNU/Linux."
+msgstr "Výstup videa z vyrovnávacej pamäte pre snímky na systémoch GNU/Linux."
 
 #: modules/video_output/gl.c:40
 msgid "OpenGL extension"
@@ -28197,7 +28161,7 @@ msgstr ""
 
 #: modules/video_output/msw/directx.c:77
 msgid "Use triple buffering for overlays"
-msgstr "Pri prekrývaní ukladať do vyrovnávacej pamäti trikrát"
+msgstr "Pri prekrývaní ukladať do vyrovnávacej pamäte trikrát"
 
 #: modules/video_output/msw/directx.c:79
 msgid ""
@@ -28290,11 +28254,11 @@ msgstr "Štatistiky výstupu videa"
 
 #: modules/video_output/vmem.c:43
 msgid "Video memory buffer width."
-msgstr "Šírka vyrovnávacej pamäti videa."
+msgstr "Šírka vyrovnávacej pamäte videa."
 
 #: modules/video_output/vmem.c:46
 msgid "Video memory buffer height."
-msgstr "Výška vyrovnávacej pamäti videa."
+msgstr "Výška vyrovnávacej pamäte videa."
 
 #: modules/video_output/vmem.c:48
 msgid "Pitch"
@@ -28317,7 +28281,7 @@ msgstr ""
 
 #: modules/video_output/vmem.c:59
 msgid "Video memory output"
-msgstr "Výstup pamäti videa"
+msgstr "Výstup pamäte videa"
 
 #: modules/video_output/vmem.c:60
 msgid "Video memory"
@@ -29276,7 +29240,7 @@ msgstr "Zobraziť &viac možností"
 
 #: modules/gui/qt4/ui/open.h:250
 msgid "Change the caching for the media"
-msgstr "Tu môžete zmeniť čas ukladania média do vyrovnávacej pamäti"
+msgstr "Tu môžete zmeniť čas ukladania média do vyrovnávacej pamäte"
 
 #: modules/gui/qt4/ui/open.h:252
 msgid " ms"
@@ -29316,7 +29280,7 @@ msgstr "HH'H':mm'm':ss's'.zzz"
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "Play another media synchronously (extra audio file, ...)"
-msgstr "Synchrónne prehrávať iné médium (napr. zvláštny zvukový súbor...)"
+msgstr "Synchrónne prehrávať iné médium (napr. osobitný zvukový súbor...)"
 
 #: modules/gui/qt4/ui/open_capture.h:97
 msgid "Capture mode"
@@ -29364,7 +29328,7 @@ msgstr "Disková jednotka"
 
 #: modules/gui/qt4/ui/open_disk.h:308
 msgid "Starting Position"
-msgstr "Štartovacia pozícia"
+msgstr "Pozícia spustenia"
 
 #: modules/gui/qt4/ui/open_disk.h:311
 msgid "Audio and Subtitles"
@@ -29685,7 +29649,7 @@ msgstr "Transport streamu Live555"
 
 #: modules/gui/qt4/ui/sprefs_input.h:364
 msgid "Default caching policy"
-msgstr "Predvolená politika ukladania do vyrovnávacej pamäti "
+msgstr "Predvolená politika ukladania do vyrovnávacej pamäte"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:505
 msgid "Menus language:"
@@ -32295,18 +32259,6 @@ msgstr "Zoznam správcov médií"
 #~ "= vzorkovacia frekvencia zvuku (v kHz), $T = čas, $U = vydavateľ, $V = "
 #~ "hlasitosť, $_ = nový riadok) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Stopa s titulkami bola pridaná"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Médium v ZIP archíve"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Cesta k médiu v ZIP archíve"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Rýchle UDP streamovanie"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -32319,25 +32271,6 @@ msgstr "Zoznam správcov médií"
 #~ msgid "MTU for out mode."
 #~ msgstr "Max. veľkosť paketu na výstupe."
 
-#~ msgid "&Post processing"
-#~ msgstr "Do&datočné spracovávanie"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "Zaznamenávanie videa AVFoundation"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "Modul na zaznamenávanie videa AVFoundation"
-
-#~ msgid "No video devices found"
-#~ msgstr "Nenašli sa žiadne zariadenia pre video"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Zdá sa, že váš Mac nie je vybavený vhodným zariadením pre vstup videa. "
-#~ "Prosím skontrolujte konektory a ovládače."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Preveriť schopnosti karty DVB"
 
@@ -32348,72 +32281,20 @@ msgstr "Zoznam správcov médií"
 #~ "Niektoré karty DVB nepodporujú kontrolu svojich schopností. Ak máte s "
 #~ "touto funkciou nejaký problém, môžete ju zablokovať."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Konfigurácia skenovania družíc"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "názov konfiguračného súboru v zložke share/dvb/dvb-s"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Vstup DVB s podporou v4l2"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Zaznamenávanie zvuku QuickTime"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Nenašlo sa žiadne zariadenie pre vstup zvuku"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Zdá sa, že váš Mac nie je vybavený vhodným zariadením pre vstup zvuku. "
-#~ "Prosím skontrolujte konektory a ovládače."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Nenašlo sa žiadne vstupné zvukové zariadenie"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Nekomprimovaný archív vo formáte RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Výstup Windows Multimedia Device"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Výstup zvuku Windows Store"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "Dekodér SCTE-27"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Zadajte aj šírku pre dekódovanie obrázka"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Zadajte aj výšku pre dekódovanie obrázka"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Faktor mierky, ktorý sa použije pre obrázok"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "Dekodér videa SVG"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Rozhranie Windows messages interface"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Uložiť tento záznam..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Záznam pre ladenie VLC (%s).rtf"
@@ -32427,24 +32308,8 @@ msgstr "Zoznam správcov médií"
 #~ msgid "Empty"
 #~ msgstr "Prázdne"
 
-#~ msgid "Deactivate"
-#~ msgstr "Deaktivovať"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Odtlačok zvuku"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Vybrať vhodnú zhodu"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Nenašiel sa žiadny odtlačok"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Vytvára sa odtlačok stopy..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Vyčistiť"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -32456,17 +32321,11 @@ msgstr "Zoznam správcov médií"
 #~ msgid "Extension not responding!"
 #~ msgstr "Rozšírenie neodpovedá!"
 
-#~ msgid "addons local storage"
-#~ msgstr "Lokálne uloženie doplnkov"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Inštalátor lokálneho uloženia doplnkov"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Zoznam lokálne uložených rozšírení"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Vyhľadávač rozšírení na videolan.org"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "addons.videolan.org - Vyhľadávač rozšírení"
@@ -32477,45 +32336,11 @@ msgstr "Zoznam správcov médií"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "Vyhľadávač rozšírení pre jednotlivé archívy .vlp"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Vytváranie odtlačkov stopy (založené na Acoustid)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Trvanie vytvárania odtlačku"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Predvolené: 90 sekúnd"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Farebná sýtosť výstupu streamu"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Čakajte prosím pokiaľ sa opäť nevytvorí vyrovnávacia pamäť pre písmo.\n"
-#~ "Tento proces by mal trvať menej ako niekoľko minút."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Šírka okna vizualizácie, v pixeloch."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Výška okna vizualizácie, v pixeloch."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "Vizualizácia spektra 3D OpenGL"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Flat Top"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
@@ -32523,22 +32348,11 @@ msgstr "Zoznam správcov médií"
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media player - prehliadač Flash"
-
-#~ msgid "Streaming Output"
-#~ msgstr "Výstup streamovania"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "Tu si môžete vybrať preferovaný výstup videa a nakonfigurovať ho. "
 
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr "Tieto moduly zabezpečujú fungovanie siete pre ostatné časti VLC."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Tu sú všeobecné nastavenia kódovacích modulov videa/zvuku/titulkov. "
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "Tu môžete nastaviť parametre pre poskytovanie dialógov."
@@ -32549,6 +32363,224 @@ msgstr "Zoznam správcov médií"
 #~ msgstr ""
 #~ "V tejto časti si môžete určiť, ako sa bude správať demultiplexor "
 #~ "titulkov, môžete napríklad nastaviť typ titulkov alebo názov súboru."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Metóda sťahovania druhu albumu"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Metóda sťahovania druhu albumu"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Metóda sťahovania druhu albumu"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "V tejto časti si môžete určiť, ako sa bude správať demultiplexor "
+#~ "titulkov, môžete napríklad nastaviť typ titulkov alebo názov súboru."
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "Záznam pre ladenie VLC (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Stopa s titulkami"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Previnúť médium"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Cesta k súboru s týmto vzhľadom."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Nastavenie streamovania..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Dodatočné spracovávanie"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Zaznamenávanie videa"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Výstupný zvukový modul"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Nenašlo sa žiadne vstupné zariadenie"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Váš počítač MAC pravdepodobne nie je vybavený vhodným vstupným "
+#~ "zariadením. Skontrolujte prosím všetky jeho konektory a ovládače."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Kód dosahu satelitu"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Surround"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Záznam Quicktime"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Nenašlo sa žiadne vstupné zariadenie"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Váš počítač MAC pravdepodobne nie je vybavený vhodným vstupným "
+#~ "zariadením. Skontrolujte prosím všetky jeho konektory a ovládače."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Nenašlo sa žiadne vstupné zariadenie"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Výstup videa Windows GDI"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Výstup videa Windows GDI"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Dekodér G.711"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Špecifikujte riadok obsahujúci jazyk"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr ""
+#~ "Určite, ktorý modul na odstránenie prekladania (deinterlacing) sa použije."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr "Mierka, v ktorej bude video prekódovávané (napr.: 0.25)."
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "Video dekodér CDG"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Rozhranie Windows Service"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "Uložiť &ako..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Aktivovať"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Odtlačok"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Nenašiel sa žiaden vstup"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Odtlačok"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Vyčistiť"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Max. lokálny dátový tok"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Transformačný filter videa"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Akustické"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Smer zrkadlenia"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Predvolený stream"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Zachytávanie výstupu streamu"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Čakajte prosím pokiaľ sa opäť nevytvorí vyrovnávacia pamäť pre písmo.\n"
+#~ "Tento proces by mal trvať menej ako jednu minútu."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Šírka okna s videom, v pixeloch."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Výška okna s videom, v pixeloch."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Spektrum"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Aktuálna vizualizácia"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Plávať navrchu"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC media player - Webové rozhranie"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "Výstup streamu"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "Všeobecné nastavenia pre moduly výstupu videa"
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -32564,11 +32596,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Metóda sťahovania druhu albumu"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Metóda sťahovania druhu albumu"
+#~ msgstr "Názov súboru pre tento druh albumu"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -32684,9 +32712,6 @@ msgstr "Zoznam správcov médií"
 #~ msgid "Open BDMV folder"
 #~ msgstr "Otvoriť priečinok VIDEO_TS / BDMV"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Metóda sťahovania druhu albumu"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Výstupné moduly"
@@ -32756,10 +32781,6 @@ msgstr "Zoznam správcov médií"
 #~ msgstr "Použiť súbor s ti&tulkami"
 
 #, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Metóda sťahovania druhu albumu"
-
-#, fuzzy
 #~ msgid "Configure Media Library"
 #~ msgstr "Knižnica s médiami"
 
@@ -32798,8 +32819,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Tu sú všeobecné nastavenia kódovacích modulov videa/zvuku/titulkov. "
+#~ msgstr "Všeobecné nastavenia pre moduly výstupu videa"
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -32808,14 +32828,6 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Kódovanie textu titulkov"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "V tejto časti si môžete určiť, ako sa bude správať demultiplexor "
-#~ "titulkov, môžete napríklad nastaviť typ titulkov alebo názov súboru."
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -32885,7 +32897,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Výstup zvuku Windows Store"
+#~ msgstr "Súbor so zvukovým výstupom"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -32937,7 +32949,7 @@ msgstr "Zoznam správcov médií"
 #~ "muxer. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Tu môžete nastaviť počiatočnú hodnotu ukladania dát do vyrovnávacej "
-#~ "pamäti, pre výstupný multiplexor streamu.  Táto hodnota sa nastavuje v "
+#~ "pamäte, pre výstupný multiplexor streamu.  Táto hodnota sa nastavuje v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -32989,9 +33001,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Select the hotkey to use to leave fullscreen state."
-#~ msgstr ""
-#~ "Vyberte si klávesu, ktorú chcete používať pre prepínanie medzi klasickým "
-#~ "zobrazením a zobrazením na celú obrazovku."
+#~ msgstr "Vyberte si kláves na prepínanie zobrazenia na celú obrazovku."
 
 #, fuzzy
 #~ msgid "Increase scale factor."
@@ -33255,7 +33265,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "Pixel depth of the frame buffer"
 #~ msgstr ""
-#~ "Hĺbka pixelu vo vyrovnávacej pamäti snímok, alebo nula pre súbor XWD"
+#~ "Hĺbka pixelu vo vyrovnávacej pamäte snímok, alebo nula pre súbor XWD"
 
 #, fuzzy
 #~ msgid "Backlight compensation."
@@ -33766,7 +33776,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "GNU/Linux osd/overlay framebuffer interface"
 #~ msgstr ""
-#~ "Výstup videa z vyrovnávacej pamäti pre snímky na systémoch GNU/Linux."
+#~ "Výstup videa z vyrovnávacej pamäte pre snímky na systémoch GNU/Linux."
 
 #, fuzzy
 #~ msgid "Maemo hildon interface"
@@ -33775,10 +33785,6 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "Skompiloval: %s s %@"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "Záznam pre ladenie VLC (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -35180,17 +35186,13 @@ msgstr "Zoznam správcov médií"
 #~ msgid ""
 #~ "Select the key to go back (to the previous media item) in the browsing "
 #~ "history."
-#~ msgstr ""
-#~ "Vyberte si klávesu, ktorú chcete používať pre návrat k predchádzajúcemu "
-#~ "súboru v playliste"
+#~ msgstr "Vyberte si kláves na návrat k predchádzajúcej položke v playliste."
 
 #, fuzzy
 #~ msgid ""
 #~ "Select the key to go forward (to the next media item) in the browsing "
 #~ "history."
-#~ msgstr ""
-#~ "Vyberte si klávesu, ktorú chcete používať pre preskočenie na ďalší súbor "
-#~ "zaradený v playliste"
+#~ msgstr "Vyberte si kláves na preskočenie na ďalšiu položku v playliste."
 
 #, fuzzy
 #~ msgid "Media dump access filter trigger."
@@ -35198,7 +35200,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Caching value in ms"
-#~ msgstr "Hodnota ukladania do vyrovnávacej pamäti (ms)"
+#~ msgstr "Hodnota ukladania do vyrovnávacej pamäte (ms)"
 
 #, fuzzy
 #~ msgid ""
@@ -35210,7 +35212,7 @@ msgstr "Zoznam správcov médií"
 #~ msgid ""
 #~ "Caching value for DVB streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35270,7 +35272,7 @@ msgstr "Zoznam správcov médií"
 #~ "Default caching value for Audio CDs. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35278,14 +35280,14 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for DirectShow streams. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for DV streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35319,7 +35321,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "Caching value for DVDs. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35328,13 +35330,13 @@ msgstr "Zoznam správcov médií"
 #~ "milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for fake streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35360,14 +35362,14 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for FTP streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for GnomeVFS streams.This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35375,7 +35377,7 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for HTTP streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid "User agent that will be used for the connection."
@@ -35389,31 +35391,31 @@ msgstr "Zoznam správcov médií"
 #~ msgid ""
 #~ "Caching value for imem streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
 #~ msgid "Memory-mapped file input"
-#~ msgstr "Vstup do pamäti"
+#~ msgstr "Vstup do pamäte"
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for MMS streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
 #~ msgid "Caching value for files. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for OSS captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35421,7 +35423,7 @@ msgstr "Zoznam správcov médií"
 #~ "Default caching value for PVR streams. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35429,7 +35431,7 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for RTMP streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid "RTP de-jitter buffer length (msec)"
@@ -35445,14 +35447,14 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for RTSP streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for screen capture. This value should be set in "
 #~ "milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35460,13 +35462,13 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for SFTP streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for SMB streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35474,20 +35476,20 @@ msgstr "Zoznam správcov médií"
 #~ "Caching value for TCP streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for UDP streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
 #~ msgid ""
 #~ "Caching value for V4L captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35654,7 +35656,7 @@ msgstr "Zoznam správcov médií"
 #~ msgid ""
 #~ "Caching value for V4L2 captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35665,7 +35667,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "Caching value for VCDs. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Hodnota ukladania do vyrovnávacej pamäti. Táto hodnota sa udáva v "
+#~ "Hodnota ukladania do vyrovnávacej pamäte. Táto hodnota sa udáva v "
 #~ "milisekundách."
 
 #, fuzzy
@@ -35834,7 +35836,7 @@ msgstr "Zoznam správcov médií"
 #~ "value should be set in millisecond units."
 #~ msgstr ""
 #~ "Predvolená hodnota ukladania odchádzajúcim RTP streamov do vyrovnávacej "
-#~ "pamäti. Táto hodnota by sa mala nastavovať v milisekundách."
+#~ "pamäte. Táto hodnota by sa mala nastavovať v milisekundách."
 
 #, fuzzy
 #~ msgid ""
@@ -36158,12 +36160,12 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "OMAP Framebuffer device"
-#~ msgstr "Zariadenie vyrov. pamäti snímok"
+#~ msgstr "Zariadenie vyrov. pamäte snímok"
 
 #, fuzzy
 #~ msgid "OMAP Framebuffer device to use for rendering (usually /dev/fb0)."
 #~ msgstr ""
-#~ "Zariadenie vyrovnávacej pamäti pre snímky, ktoré sa bude používať pri "
+#~ "Zariadenie vyrovnávacej pamäte pre snímky, ktoré sa bude používať pri "
 #~ "vykresľovaní (obyčajne je to /dev/fb0)."
 
 #, fuzzy
@@ -36181,7 +36183,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "OMAP framebuffer video output"
 #~ msgstr ""
-#~ "Výstup videa z vyrovnávacej pamäti pre snímky na systémoch GNU/Linux."
+#~ "Výstup videa z vyrovnávacej pamäte pre snímky na systémoch GNU/Linux."
 
 #, fuzzy
 #~ msgid "OpenGL Provider"
@@ -36290,7 +36292,8 @@ msgstr "Zoznam správcov médií"
 #~ msgstr ""
 #~ "Adresa funkcie spätného volania pre dodatočné vykreslenie videa. Táto "
 #~ "funkcia bude vyvolaná vtedy, keď bude vykresľovan prebiehať do "
-#~ "vyrovnávacej pamäti."
+#~ "vyrovnávacej pamäte."
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Manažér doplnkov"
