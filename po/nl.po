@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-06-07 15:52+0000\n"
+"PO-Revision-Date: 2014-11-22 18:32+0000\n"
 "Last-Translator: Thomas De Rocker\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/"
 "nl/)\n"
@@ -163,9 +163,8 @@ msgid "General video settings"
 msgstr "Algemene video-instellingen"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Algemene instellingen voor audio-uitvoermodules."
+msgstr "Algemene instellingen voor video-uitvoermodules."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4583,14 +4582,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Tussen beschikbare ondertitelsporen schakelen."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Teletekst-ondertitels"
+msgstr "Ondertitels in-/uitschakelen."
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Ondertitelspoor veranderen"
+msgstr "Zichtbaarheid ondertitelspoor in-/uitschakelen."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7878,9 +7875,8 @@ msgid "Number of first segment"
 msgstr "Nummer van eerste segment"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Het aantal gegenereerde segmenten"
+msgstr "Het nummer van het eerst gegenereerde segment"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17565,7 +17561,7 @@ msgstr "Bestandsgrootte"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Niveau %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21773,9 +21769,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Wilt u het afspelen opnieuw starten vanaf het laatste punt?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Doorgaan"
+msgstr "&Doorgaan"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -33002,18 +32997,6 @@ msgstr "Mediabeheerlijst"
 #~ "= snelheid, $S = audio-samplerate (in kHz), $T = tijd, $U = uitgever, $V "
 #~ "= volume, $_ = nieuwe regel) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Ondertitelspoor toegevoegd"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Media in Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Pad naar de media in het Zip archief"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Snel udp-streamen"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -33025,25 +33008,6 @@ msgstr "Mediabeheerlijst"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU voor uit modus."
 
-#~ msgid "&Post processing"
-#~ msgstr "&Nabewerking"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundation video-opname"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundation video-opname module"
-
-#~ msgid "No video devices found"
-#~ msgstr "Geen videoapparaten gevonden"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Uw Mac lijkt niet met een geschikt video-invoerapparaat uitgerust te "
-#~ "zijn. Controleer uw aansluitingen en stuurprogramma's."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "DVB-kaart onderzoeken op mogelijkheden"
 
@@ -33054,72 +33018,20 @@ msgstr "Mediabeheerlijst"
 #~ "Sommige DVB-kaarten worden niet graag onderzocht op hun mogelijkheden. U "
 #~ "kunt deze functie uitschakelen als u problemen ervaart."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Instellingen voor scannen van satellieten"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "bestandsnaam van instellingenbestand in share/dvb/dvb-s"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB-invoer met v4l2-ondersteuning"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "QuickTime Sound-opname"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Geen audio-invoerapparaat gevonden"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Uw Mac lijkt niet met een geschikt audio-invoerapparaat uitgerust te "
-#~ "zijn. Controleer uw aansluitingen en stuurprogramma's."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Geen audio-invoerapparaat gevonden"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Niet-gecomprimeerde RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows multimedia-apparaat-uitvoer"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windows Store audio-uitvoer"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27-decoder"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Geef de breedte op om het beeld naar te decoderen"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Geef de hoogte op om het beeld naar te decoderen"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Schalingsfactor om toe te passen op het beeld"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVG videodecoder"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Windows-berichten interface"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Dit logboek opslaan..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "VLC Debug Log (%s).rtf"
@@ -33133,24 +33045,8 @@ msgstr "Mediabeheerlijst"
 #~ msgid "Empty"
 #~ msgstr "Leeg"
 
-#~ msgid "Deactivate"
-#~ msgstr "Uitschakelen"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Audio-fingerprinting"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Selecteer een overeenkomende identiteit"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Er werd geen fingerprint teruggevonden"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Track fingerprinten..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Wissen"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -33162,17 +33058,11 @@ msgstr "Mediabeheerlijst"
 #~ msgid "Extension not responding!"
 #~ msgstr "Extensie reageert niet!"
 
-#~ msgid "addons local storage"
-#~ msgstr "Lokale addons-opslag"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Lokale addons-opslag installer"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Lokale addons-opslag oplijster"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Videolan.org's addon-zoeker"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "addons.videolan.org addon-zoeker"
@@ -33183,65 +33073,17 @@ msgstr "Mediabeheerlijst"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "enkel .vlp-archief-addon-zoeker"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Track-fingerprinter (gebaseerd op Acoustid)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Duur van het fingerprinting"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Standaard: 90 sec"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Chromaprint-streamuitvoer"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Wacht even terwijl uw lettertypebuffer herbouwd wordt.\n"
-#~ "Dit duurt meestal enkele minuten."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Breedte van het visualisatievenster in pixels."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Hoogte van het visualisatievenster in pixels."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3D-OpenGL-spectrumvisualisatie"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Flat top"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
 
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
-
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media player - Flash-viewer"
-
-#~ msgid "Streaming Output"
-#~ msgstr "Streaming-uitvoer"
-
-#, fuzzy
-#~ msgid "You can choose the crop style to apply."
-#~ msgstr "Kies een toe te passen pixel-shader."
-
-#, fuzzy
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "VLC kon het bestand niet lezen: %s"
 
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "Kies en configureer hier de gewenste video-uitvoermethode."
@@ -33250,11 +33092,6 @@ msgstr "Mediabeheerlijst"
 #~ msgstr ""
 #~ "Deze modules voorzien netwerkfunctionaliteit aan alle andere onderdelen "
 #~ "van VLC."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Dit zijn algemene instellingen voor video/audio/ondertitel-codeermodules."
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "Dialoogproviders kunnen hier geconfigureerd worden."
@@ -33265,6 +33102,231 @@ msgstr "Mediabeheerlijst"
 #~ msgstr ""
 #~ "In deze sectie kunt u het gedrag van de ondertiteldemuxer aanpassen, "
 #~ "bijvoorbeeld het type ondertitel of de bestandsnaam."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Downloadbeleid albumhoezen"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Downloadbeleid albumhoezen"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Downloadbeleid albumhoezen"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "In deze sectie kunt u het gedrag van de ondertiteldemuxer aanpassen, "
+#~ "bijvoorbeeld het type ondertitel of de bestandsnaam."
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "VLC Debug Log (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Ondertitelspoor"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Media terugspoelen"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Pad naar te gebruiken thema."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Streamen instellen..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Nabewerking"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Video opnemen"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Audio-uitvoermodule"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Geen invoerapparaat gevonden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Uw Mac lijkt niet met een geschikt invoerapparaat uitgerust te zijn. "
+#~ "Controleer uw aansluitingen en stuurprogramma's."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Satelliet-bereikcode"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Surround"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Quicktime-opname"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Geen invoerapparaat gevonden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Uw Mac lijkt niet met een geschikt invoerapparaat uitgerust te zijn. "
+#~ "Controleer uw aansluitingen en stuurprogramma's."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Geen invoerapparaat gevonden"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Windows GDI video-uitvoer"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Windows GDI video-uitvoer"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "G.711-decoder"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Geef de regel op die de taal bevat"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Stel de deïnterlacemodule in."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr "Schalingsfactor om toe te passen tijdens transcoderen (bijv.: 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "CDG videodecoder"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Windows-dienst interface"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Opslaan als..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Inschakelen"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Vingerafdruk"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Geen invoer gevonden"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Vingerafdruk"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Wissen"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Maximale lokale bitrate"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Transformatie"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Akoestisch"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Spiegelingsrichting"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Standaardstream"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Verzamel stream uitvoer"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Wacht even terwijl uw lettertypebuffer herbouwd wordt.\n"
+#~ "Dit duurt meestal minder dan een minuut."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "De breedte van het videovenster, in pixels."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "De hoogte van het videovenster, in pixels."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Spectrum"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Huidige visualisatie:"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Altijd boven"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC Media Player - web-interface"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "Streamuitvoer"
+
+#, fuzzy
+#~ msgid "You can choose the crop style to apply."
+#~ msgstr "Kies een toe te passen pixel-shader."
+
+#, fuzzy
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "VLC kon het bestand niet lezen: %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "Algemene instellingen voor video-uitvoermodules."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -33280,11 +33342,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Downloadbeleid albumhoezen"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Downloadbeleid albumhoezen"
+#~ msgstr "Bestandsnaam albumhoes"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -33398,9 +33456,6 @@ msgstr "Mediabeheerlijst"
 #~ msgid "Open BDMV folder"
 #~ msgstr "VIDEO_TS/BDMV-map openen"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Downloadbeleid albumhoezen"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Uitvoermodules"
@@ -33470,10 +33525,6 @@ msgstr "Mediabeheerlijst"
 #~ msgstr "Onder&titelbestand gebruiken"
 
 #, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Downloadbeleid albumhoezen"
-
-#, fuzzy
 #~ msgid "Configure Media Library"
 #~ msgstr "Mediabibliotheek"
 
@@ -33513,8 +33564,7 @@ msgstr "Mediabeheerlijst"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Dit zijn algemene instellingen voor video/audio/ondertitel-codeermodules."
+#~ msgstr "Algemene instellingen voor video-uitvoermodules."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -33523,14 +33573,6 @@ msgstr "Mediabeheerlijst"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Ondertitel-tekstcodering"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "In deze sectie kunt u het gedrag van de ondertiteldemuxer aanpassen, "
-#~ "bijvoorbeeld het type ondertitel of de bestandsnaam."
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -33601,7 +33643,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Windows Store audio-uitvoer"
+#~ msgstr "Audio bestandsuitvoer"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -34485,10 +34527,6 @@ msgstr "Mediabeheerlijst"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "Gecompileerd door %s met %@"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "VLC Debug Log (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -38275,5 +38313,6 @@ msgstr "Mediabeheerlijst"
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "Totale/resterende tijd"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Addon-beheerder"
