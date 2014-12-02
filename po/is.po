@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-09-21 14:16+0000\n"
+"PO-Revision-Date: 2014-12-01 15:12+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/projects/p/vlc-trans/"
 "language/is/)\n"
@@ -40,7 +40,7 @@ msgstr "Kjörstillingar VLC"
 
 #: include/vlc_config_cat.h:35
 msgid "Select \"Advanced Options\" to see all options."
-msgstr "Veljið \"Ítarlegir valmöguleikar\" til að sjá alla valmöguleika."
+msgstr "Veldu \"Ítarlegir valmöguleikar\" til að sjá alla valmöguleika."
 
 #: include/vlc_config_cat.h:38 modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:270
@@ -161,9 +161,8 @@ msgid "General video settings"
 msgstr "Almennar myndstillingar"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Almennar stillingar fyrir hljóðúttakseiningu"
+msgstr "Almennar stillingar fyrir kóðunareiningar myndmerkis."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -212,12 +211,12 @@ msgstr ""
 
 #: include/vlc_config_cat.h:106
 msgid "Demuxers"
-msgstr "Fjölrásargreining"
+msgstr "Affléttarar (demuxers)"
 
 #: include/vlc_config_cat.h:107
 msgid "Demuxers are used to separate audio and video streams."
 msgstr ""
-"Fjölrásargreining (demux) er notuð til að aðskilja hljóð- og myndstrauma."
+"Fjölrásaaffléttun (demux) er notuð til að aðskilja hljóð- og myndstrauma."
 
 #: include/vlc_config_cat.h:109
 msgid "Video codecs"
@@ -266,10 +265,10 @@ msgstr ""
 "Stillingar fyrir straumúttak við vistun strauma og eins þegar verið er að "
 "streyma út efni.\n"
 "Straumarnir eru fyrst fléttaðir (mux) og síðan sendir með \"aðgangsúttaks-"
-"einingu\" sem getur annaðhvort vistað strauminn í skrá, eða strymt hann um "
+"einingu\" sem getur annaðhvort vistað strauminn í skrá, eða streymt hann um "
 "net (UDP, HTTP, RTP/RTSP).\n"
 "Sout streymieiningar gera kleift að meðhöndla strauma frekar processing "
-"(transkóðun, tvöföldun...)."
+"(umkóðun, tvöföldun...)."
 
 #: include/vlc_config_cat.h:131
 msgid "General stream output settings"
@@ -277,7 +276,7 @@ msgstr "Almennar stillingar fyrir straumúttak"
 
 #: include/vlc_config_cat.h:133
 msgid "Muxers"
-msgstr "Muxar"
+msgstr "Fléttarar (muxers)"
 
 #: include/vlc_config_cat.h:135
 msgid ""
@@ -286,6 +285,10 @@ msgid ""
 "always force a specific muxer. You should probably not do that.\n"
 "You can also set default parameters for each muxer."
 msgstr ""
+"Fjölrásafléttun (mux) er notuð til að sameina alla gagnastrauma (hljóð- og "
+"myndstrauma). Þessi stilling gerir kleift að þvinga fram notkun á ákveðnum "
+"fléttara. Líklega ættirðu helst ekki að þurfa þess.\n"
+"Þú getur einnig stillt sjálfgefnar færibreytur fyrir hvern fléttara."
 
 #: include/vlc_config_cat.h:141
 msgid "Access output"
@@ -310,6 +313,10 @@ msgid ""
 "not do that.\n"
 "You can also set default parameters for each packetizer."
 msgstr ""
+"Bitarar (packetizers) eru notaðir til að \"forvinna\" gagnastrauma fyrir "
+"fjölrásafléttun (mux). Þessi stilling gerir kleift að þvinga fram notkun á "
+"bitara. Líklega ættirðu helst ekki að þurfa þess.\n"
+"Þú getur einnig stillt sjálfgefnar færibreytur fyrir hvern bitara."
 
 #: include/vlc_config_cat.h:156
 msgid "Sout stream"
@@ -408,7 +415,7 @@ msgstr "Opna &möppu..."
 
 #: include/vlc_intf_strings.h:50
 msgid "Select one or more files to open"
-msgstr "Veljið eina eða fleiri skrár til að opna"
+msgstr "Veldu eina eða fleiri skrár til að opna"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
@@ -474,11 +481,11 @@ msgstr "Búa til möppu..."
 
 #: include/vlc_intf_strings.h:70
 msgid "Rename Directory..."
-msgstr ""
+msgstr "Endurnefna möppu..."
 
 #: include/vlc_intf_strings.h:71
 msgid "Rename Folder..."
-msgstr ""
+msgstr "Endurnefna möppu..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
@@ -585,17 +592,17 @@ msgstr ""
 "upplýsingar um hvernig hægt er að nota spilarann í <br>\"<a href=\"http://"
 "wiki.videolan.org/Documentation:Play_HowTo\"><em>How to play files with VLC "
 "media player</em></a>\" skjalinu.</p><p>Hvað varðar allt sem tengist vistun, "
-"umbreytingu, transkóðun, kóðun, fléttun (muxing) og streymingu, þá ættirðu "
-"að finna ýmsar gagnlegar upplýsingar í <a href=\"http://wiki.videolan.org/"
-"Documentation:Streaming_HowTo\">Streaming Documentation</a>.</p><p>Ef þú ert "
-"óviss um hugtök og skilgreiningar, flettu þá upp í <a href=\"http://wiki."
-"videolan.org/Knowledge_Base\">þekkingargrunninum</a>.</p><p>Til að skilja "
-"helstu flýtilykla á lyklaborðinu, lestu það sem stendur á síðunni um <a href="
-"\"http://wiki.videolan.org/Hotkeys\">flýtivísanir</a>.</p><h3>Hjálp</"
-"h3><p>Áður en þá spyrð spurninga, skoðaðu fyrst <a href=\"http://www."
-"videolan.org/support/faq.html\">FAQ - Algengar spurningar</a>.</p><p>Síðan "
-"geturðu fengið (og gefið) hjálp á <a href=\"http://forum.videolan.org"
-"\">Forums</a> spjallsvæðum, á <a href=\"http://www.videolan.org/vlc/lists."
+"umbreytingu, umkóðun (transcode), kóðun, fléttun (muxing) og streymingu, þá "
+"ættirðu að finna ýmsar gagnlegar upplýsingar í <a href=\"http://wiki."
+"videolan.org/Documentation:Streaming_HowTo\">Streaming Documentation</a>.</"
+"p><p>Ef þú ert óviss um hugtök og skilgreiningar, flettu þá upp í <a href="
+"\"http://wiki.videolan.org/Knowledge_Base\">þekkingargrunninum</a>.</"
+"p><p>Til að skilja helstu flýtilykla á lyklaborðinu, lestu það sem stendur á "
+"síðunni um <a href=\"http://wiki.videolan.org/Hotkeys\">flýtivísanir</a>.</"
+"p><h3>Hjálp</h3><p>Áður en þá spyrð spurninga, skoðaðu fyrst <a href="
+"\"http://www.videolan.org/support/faq.html\">FAQ - Algengar spurningar</a>.</"
+"p><p>Síðan geturðu fengið (og gefið) hjálp á <a href=\"http://forum.videolan."
+"org\">Forums</a> spjallsvæðum, á <a href=\"http://www.videolan.org/vlc/lists."
 "html\">póstlistum</a> eða á IRC rásinni (<em>#videolan</em> á irc.freenode."
 "net).</p><h3>Styðja verkefnið</h3><p>Þú getur hjálpað VideoLAN verkefninu "
 "með því að gefa þér tíma til að hjálpa öðrum notendum, við að hanna skinn, "
@@ -766,7 +773,7 @@ msgstr " (sjálfgefið óvirkt)"
 
 #: src/config/help.c:593 src/config/help.c:597
 msgid "Note:"
-msgstr "Athugið:"
+msgstr "Athugaðu:"
 
 #: src/config/help.c:593
 msgid "add --advanced to your command line to see advanced options."
@@ -1141,24 +1148,24 @@ msgstr "VLC gat ekki opnað afkóðunareininguna."
 
 #: src/input/decoder.c:691
 msgid "No description for this codec"
-msgstr ""
+msgstr "Engin lýsing á þessum kóðunarlykli"
 
 #: src/input/decoder.c:693
 msgid "Codec not supported"
-msgstr ""
+msgstr "Óstuddur kóðunarlykill"
 
 #: src/input/decoder.c:694
 #, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr ""
+msgstr "VLC gat ekki afkóðað sniðið \"%4.4s\" (%s)"
 
 #: src/input/decoder.c:698
 msgid "Unidentified codec"
-msgstr ""
+msgstr "Óþekktur kóðunarlykill"
 
 #: src/input/decoder.c:699
 msgid "VLC could not identify the audio or video codec"
-msgstr ""
+msgstr "VLC gat ekki skilgreint kóðunarlykil fyrir mynd eða hljóð"
 
 #: src/input/es_out.c:924 src/input/es_out.c:929 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -1392,7 +1399,7 @@ msgstr "Auðkenni lags (ID)"
 
 #: src/input/meta.c:72
 msgid "Number of Tracks"
-msgstr ""
+msgstr "Fjöldi spora"
 
 #: src/input/meta.c:73
 msgid "Director"
@@ -1400,19 +1407,19 @@ msgstr "Leikstjóri"
 
 #: src/input/meta.c:74
 msgid "Season"
-msgstr ""
+msgstr "Árgangur"
 
 #: src/input/meta.c:75
 msgid "Episode"
-msgstr ""
+msgstr "Þáttur"
 
 #: src/input/meta.c:76
 msgid "Show Name"
-msgstr ""
+msgstr "Birta nafn"
 
 #: src/input/meta.c:77
 msgid "Actors"
-msgstr ""
+msgstr "Leikarar"
 
 #: src/input/var.c:158
 msgid "Bookmark"
@@ -1542,6 +1549,9 @@ msgid ""
 "select the main interface, additional interface modules, and define various "
 "related options."
 msgstr ""
+"Þessir valmöguleikar gera þér kleift að stilla hin ýmsu viðmót VLC. Þú getur "
+"valið aðalviðmótið, ýmsar viðbótareiningar og skilgreint aðra tengda "
+"valkosti."
 
 #: src/libvlc-module.c:66
 msgid "Interface module"
@@ -1552,6 +1562,8 @@ msgid ""
 "This is the main interface used by VLC. The default behavior is to "
 "automatically select the best module available."
 msgstr ""
+"Þetta er aðalviðmótið sem notað er af VLC. Sjálfgefin hegðun er að velja "
+"sjálfkrafa bestu tiltækar einingar."
 
 #: src/libvlc-module.c:72 modules/control/ntservice.c:58
 msgid "Extra interface modules"
@@ -1564,6 +1576,10 @@ msgid ""
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
+"Þú getur valið \"viðbótar\" viðmót fyrir VLC. Þau eru ræst í bakgrunni um "
+"leið og sjálfgefna aðalviðmótið. Notaðu tvípunkt til að gera lista með "
+"viðmótseiningum (algengt er að nota \"rc\" (fjarstýring), \"http\", "
+"\"gestures\" (hreyfingar) ...)"
 
 #: src/libvlc-module.c:81
 msgid "You can select control interfaces for VLC."
@@ -1691,7 +1707,7 @@ msgstr ""
 
 #: src/libvlc-module.c:155
 msgid "Audio resampler"
-msgstr ""
+msgstr "Endursafnari hljóðs"
 
 #: src/libvlc-module.c:157
 msgid "This selects which plugin to use for audio resampling."
@@ -1829,7 +1845,7 @@ msgstr ""
 
 #: src/libvlc-module.c:242
 msgid "Video output module"
-msgstr "Úttakseining myndbands"
+msgstr "Úttakseining myndmerkis"
 
 #: src/libvlc-module.c:244
 msgid ""
@@ -1840,7 +1856,7 @@ msgstr ""
 #: src/libvlc-module.c:247 modules/gui/macosx/simple_prefs.m:397
 #: modules/stream_out/display.c:42 modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Enable video"
-msgstr "Virkja myndband"
+msgstr "Virkja myndmerki"
 
 #: src/libvlc-module.c:249
 msgid ""
@@ -1853,7 +1869,7 @@ msgstr ""
 #: modules/visualization/projectm.cpp:64
 #: modules/visualization/visual/visual.c:53 modules/visualization/vsxu.cpp:55
 msgid "Video width"
-msgstr "Breidd myndbands"
+msgstr "Breidd myndmerkis"
 
 #: src/libvlc-module.c:254
 msgid ""
@@ -1866,7 +1882,7 @@ msgstr ""
 #: modules/visualization/projectm.cpp:67
 #: modules/visualization/visual/visual.c:57 modules/visualization/vsxu.cpp:58
 msgid "Video height"
-msgstr "Hæð myndbands"
+msgstr "Hæð myndmerkis"
 
 #: src/libvlc-module.c:259
 msgid ""
@@ -1876,7 +1892,7 @@ msgstr ""
 
 #: src/libvlc-module.c:262
 msgid "Video X coordinate"
-msgstr "X hnit myndbands"
+msgstr "X hnit myndmerkis"
 
 #: src/libvlc-module.c:264
 msgid ""
@@ -1886,7 +1902,7 @@ msgstr ""
 
 #: src/libvlc-module.c:267
 msgid "Video Y coordinate"
-msgstr "Y hnit myndbands"
+msgstr "Y hnit myndmerkis"
 
 #: src/libvlc-module.c:269
 msgid ""
@@ -1896,7 +1912,7 @@ msgstr ""
 
 #: src/libvlc-module.c:272
 msgid "Video title"
-msgstr "Titill myndbands"
+msgstr "Titill myndmerkis"
 
 #: src/libvlc-module.c:274
 msgid ""
@@ -2165,7 +2181,7 @@ msgstr ""
 
 #: src/libvlc-module.c:381
 msgid "Video filter module"
-msgstr ""
+msgstr "Myndmerkissíueining"
 
 #: src/libvlc-module.c:383
 msgid ""
@@ -2368,7 +2384,7 @@ msgstr ""
 
 #: src/libvlc-module.c:499
 msgid "File caching (ms)"
-msgstr "Skyndiminni fyrir skrár (ms)"
+msgstr "Skyndiminni fyrir skrár (msek)"
 
 #: src/libvlc-module.c:501
 msgid "Caching value for local files, in milliseconds."
@@ -2376,7 +2392,7 @@ msgstr "Gildi skyndiminnis fyrir staðværar skrár, í millisekúndum."
 
 #: src/libvlc-module.c:503
 msgid "Live capture caching (ms)"
-msgstr "Skyndiminni fyrir upptöku (ms)"
+msgstr "Skyndiminni fyrir upptöku (msek)"
 
 #: src/libvlc-module.c:505
 msgid "Caching value for cameras and microphones, in milliseconds."
@@ -2384,7 +2400,7 @@ msgstr "Gildi skyndiminnis fyrir myndavélar og hljóðnema, í millisekúndum."
 
 #: src/libvlc-module.c:507
 msgid "Disc caching (ms)"
-msgstr "Skyndiminni diska (ms)"
+msgstr "Skyndiminni diska (msek)"
 
 #: src/libvlc-module.c:509
 msgid "Caching value for optical media, in milliseconds."
@@ -2392,7 +2408,7 @@ msgstr "Gildi skyndiminnis fyrir geisladiska, í millisekúndum."
 
 #: src/libvlc-module.c:511
 msgid "Network caching (ms)"
-msgstr "Skyndiminni fyrir net (ms)"
+msgstr "Skyndiminni fyrir net (msek)"
 
 #: src/libvlc-module.c:513
 msgid "Caching value for network resources, in milliseconds."
@@ -2604,11 +2620,11 @@ msgstr "Staðalgæði (576 eða 480 línur)"
 
 #: src/libvlc-module.c:620
 msgid "Low Definition (360 lines)"
-msgstr ""
+msgstr "Lággæði (320 línur)"
 
 #: src/libvlc-module.c:621
 msgid "Very Low Definition (240 lines)"
-msgstr ""
+msgstr "Mjög lág gæði (240 línur)"
 
 #: src/libvlc-module.c:624
 msgid "Input repetitions"
@@ -3150,7 +3166,7 @@ msgstr ""
 
 #: src/libvlc-module.c:935
 msgid "Enable video stream output"
-msgstr "Virkja myndbandastraumsúttak"
+msgstr "Virkja straumsúttak myndmerkis"
 
 #: src/libvlc-module.c:937
 msgid ""
@@ -3191,13 +3207,15 @@ msgstr ""
 
 #: src/libvlc-module.c:956
 msgid "Stream output muxer caching (ms)"
-msgstr ""
+msgstr "Biðminni fléttara straumúttaks (msek)"
 
 #: src/libvlc-module.c:958
 msgid ""
 "This allow you to configure the initial caching amount for stream output "
 "muxer. This value should be set in milliseconds."
 msgstr ""
+"Þetta gerir þér kleift að stilla stærð biðminnis fyrir fléttun straumúttaks. "
+"Þetta gildi á að vera í millisekúndum."
 
 #: src/libvlc-module.c:961
 msgid "Preferred packetizer list"
@@ -3276,6 +3294,10 @@ msgid ""
 "automatically detected. You should not set this as a global option unless "
 "you really know what you are doing."
 msgstr ""
+"Fjölrásafléttarar (demultiplexers - demuxers) er notuð til að aðskilja "
+"gagnastrauma (hljóð- og myndstrauma). Þú getur notað þetta ef réttur "
+"affléttari er ekki greindur sjálfvirkt. Þú ættir alls ekki að setja þetta "
+"sem víðværa stillingu nema að þú vitir algjörlega hvað þú ætlar þér."
 
 #: src/libvlc-module.c:1010
 msgid "VoD server module"
@@ -3357,19 +3379,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1053
 msgid "Log to file"
-msgstr "Kladda í skrá"
+msgstr "Annál í skrá"
 
 #: src/libvlc-module.c:1055
 msgid "Log all VLC messages to a text file."
-msgstr "Kladda öll VLC skilaboð í texta skrá."
+msgstr "Skrifa annál allra VLC skilaboða í textaskrá."
 
 #: src/libvlc-module.c:1057
 msgid "Log to syslog"
-msgstr ""
+msgstr "Annál í syslog kerfisskrá"
 
 #: src/libvlc-module.c:1059
 msgid "Log all VLC messages to syslog (UNIX systems)."
-msgstr ""
+msgstr "Skrifa annál allra VLC skilaboða í syslog (UNIX-kerfi)."
 
 #: src/libvlc-module.c:1061
 msgid "Allow only one running instance"
@@ -4151,7 +4173,7 @@ msgstr "Spilunarlistabókamerki 10"
 
 #: src/libvlc-module.c:1346
 msgid "This allows you to define playlist bookmarks."
-msgstr ""
+msgstr "Þetta gerir þér kleift að skilgreina bókamerki á spilunarlistum"
 
 #: src/libvlc-module.c:1348
 msgid "Cycle audio track"
@@ -4170,9 +4192,8 @@ msgid "Cycle through the available subtitle tracks."
 msgstr ""
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Textavarpstextar"
+msgstr ""
 
 #: src/libvlc-module.c:1353
 msgid "Toggle subtitle track visibility."
@@ -4268,7 +4289,7 @@ msgstr "Taka skjámynd"
 
 #: src/libvlc-module.c:1378
 msgid "Takes a video snapshot and writes it to disk."
-msgstr "Tekur skjámynd af myndbandi og vistar á disk."
+msgstr "Tekur skjámynd af myndmerki og vistar á disk."
 
 #: src/libvlc-module.c:1380 modules/gui/macosx/MainMenu.m:395
 #: modules/gui/qt4/components/controller.hpp:118
@@ -4283,11 +4304,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1383
 msgid "Normal/Loop/Repeat"
-msgstr ""
+msgstr "Venjulegt/Lykkja/Endurtaka"
 
 #: src/libvlc-module.c:1384
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr ""
+msgstr "Víxla spilunarlista milli Venjulegt/Lykkja/Endurtaka"
 
 #: src/libvlc-module.c:1387
 msgid "Toggle random playlist playback"
@@ -5492,7 +5513,7 @@ msgstr ""
 
 #: modules/access/bluray.c:1198
 msgid "First Play"
-msgstr ""
+msgstr "Fyrsta spilun"
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:160
 #: modules/gui/qt4/ui/open_disk.h:300
@@ -5903,7 +5924,7 @@ msgstr "Upptaka mistókst"
 
 #: modules/access/dshow/dshow.cpp:528
 msgid "No video or audio device selected."
-msgstr ""
+msgstr "Ekkert mynd- eða hljóðtæki valið."
 
 #: modules/access/dshow/dshow.cpp:602
 msgid "VLC cannot open ANY capture device. Check the error log for details."
@@ -5931,7 +5952,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:41
 msgid "DVB device"
-msgstr ""
+msgstr "DVB tæki"
 
 #: modules/access/dtv/access.c:43
 msgid ""
@@ -6952,7 +6973,7 @@ msgstr ""
 
 #: modules/access/live555.cpp:101
 msgid "RTP/RTSP/SDP demuxer (using Live555)"
-msgstr ""
+msgstr "RTP/RTSP/SDP affléttari (nota Live555)"
 
 #: modules/access/live555.cpp:110
 msgid "RTSP/RTP access and demux"
@@ -7240,7 +7261,7 @@ msgstr "Eyða bútum (segments) þegar þeirra er ekki lengur þörf"
 
 #: modules/access_output/livehttp.c:90
 msgid "Use muxers rate control mechanism"
-msgstr ""
+msgstr "Nota hraðastýringaraðferð fléttara"
 
 #: modules/access_output/livehttp.c:92
 msgid "AES key URI to place in playlist"
@@ -7375,7 +7396,7 @@ msgstr "IceCAST úttak"
 
 #: modules/access_output/udp.c:62 modules/stream_out/rtp.c:137
 msgid "Caching value (ms)"
-msgstr "Skyndiminni (ms)"
+msgstr "Skyndiminni (msek)"
 
 #: modules/access_output/udp.c:64
 msgid ""
@@ -8044,7 +8065,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:107
 msgid "Red chroma balance."
-msgstr ""
+msgstr "Vægi rauðs litgildis."
 
 #: modules/access/v4l2/v4l2.c:108
 msgid "Blue balance"
@@ -8052,7 +8073,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:110
 msgid "Blue chroma balance."
-msgstr ""
+msgstr "Vægi blás litgildis."
 
 #: modules/access/v4l2/v4l2.c:111 modules/gui/macosx/VideoEffects.m:93
 #: modules/gui/qt4/ui/video_effects.h:1397
@@ -9564,7 +9585,7 @@ msgstr "Úttakstæki"
 
 #: modules/audio_output/directsound.c:61
 msgid "Select your audio output device"
-msgstr "Veljið hljóðúttakstæki"
+msgstr "Veldu hljóðúttakstæki"
 
 #: modules/audio_output/directsound.c:63
 msgid "Speaker configuration"
@@ -10030,7 +10051,7 @@ msgstr ""
 #: modules/codec/avcodec/avcodec.h:184 modules/codec/x264.c:368
 #: modules/demux/mod.c:79
 msgid "Noise reduction"
-msgstr "Truflanasía"
+msgstr "Suðsía"
 
 #: modules/codec/avcodec/avcodec.h:185
 msgid ""
@@ -10206,19 +10227,19 @@ msgstr ""
 
 #: modules/codec/avcodec/encoder.c:857
 msgid "unknown"
-msgstr ""
+msgstr "óþekkt"
 
 #: modules/codec/avcodec/encoder.c:857
 msgid "video"
-msgstr ""
+msgstr "myndmerki"
 
 #: modules/codec/avcodec/encoder.c:858
 msgid "audio"
-msgstr ""
+msgstr "hljóð"
 
 #: modules/codec/avcodec/encoder.c:858
 msgid "subpicture"
-msgstr ""
+msgstr "undirmynd"
 
 #: modules/codec/avcodec/encoder.c:871
 #, c-format
@@ -10227,23 +10248,23 @@ msgstr ""
 
 #: modules/codec/avcodec/hwdummy.c:42
 msgid "Dummy video decoder"
-msgstr ""
+msgstr "Prófunar-myndmerkisafkóðari"
 
 #: modules/codec/avcodec/vaapi.c:62
 msgid "VA-API video decoder via X11"
-msgstr ""
+msgstr "VA-API myndmerkisafkóðun í gegnum X11"
 
 #: modules/codec/avcodec/vaapi.c:64
 msgid "VA-API video decoder via DRM"
-msgstr ""
+msgstr "VA-API myndmerkisafkóðun í gegnum DRM"
 
 #: modules/codec/avcodec/vda.c:85
 msgid "420YpCbCr8Planar"
-msgstr ""
+msgstr "420YpCbCr8Planar"
 
 #: modules/codec/avcodec/vda.c:85
 msgid "422YpCbCr8"
-msgstr ""
+msgstr "422YpCbCr8"
 
 #: modules/codec/avcodec/vda.c:88 modules/codec/avcodec/vda.c:322
 msgid "Video Decode Acceleration Framework (VDA)"
@@ -10255,7 +10276,7 @@ msgstr "CC 608/708"
 
 #: modules/codec/cc.c:56
 msgid "Closed Captions decoder"
-msgstr ""
+msgstr "Closed Captions skjátextaafkóðari"
 
 #: modules/codec/cdg.c:87
 msgid "CDG video decoder"
@@ -10271,7 +10292,7 @@ msgstr ""
 
 #: modules/codec/cvdsub.c:55
 msgid "Chaoji VCD subtitle packetizer"
-msgstr ""
+msgstr "Chaoji VCD skjátextabitari"
 
 #: modules/codec/ddummy.c:36
 msgid "Save raw codec data"
@@ -10352,15 +10373,15 @@ msgstr ""
 
 #: modules/codec/dvbsub.c:120
 msgid "DVB subtitles decoder"
-msgstr "DVB textaafkóðari"
+msgstr "DVB skjátextaafkóðari"
 
 #: modules/codec/dvbsub.c:121 modules/demux/ts.c:3562 modules/demux/ts.c:3619
 msgid "DVB subtitles"
-msgstr "DVB textar"
+msgstr "DVB skjátextar"
 
 #: modules/codec/dvbsub.c:135
 msgid "DVB subtitles encoder"
-msgstr "DVB textakóðari"
+msgstr "DVB skjátextakóðari"
 
 #: modules/codec/edummy.c:40
 msgid "Dummy encoder"
@@ -10464,7 +10485,7 @@ msgstr ""
 
 #: modules/codec/fluidsynth.c:47 modules/demux/mp4/id3genres.h:129
 msgid "Chorus"
-msgstr ""
+msgstr "Kórus"
 
 #: modules/codec/fluidsynth.c:49
 msgid "Synthesis gain"
@@ -10798,7 +10819,7 @@ msgstr "Skjátextar (ítarlegt)"
 
 #: modules/codec/libass.c:57
 msgid "Subtitle renderers using libass"
-msgstr ""
+msgstr "Myndgerð skjátexta með libass"
 
 #: modules/codec/libass.c:225
 msgid "Building font cache"
@@ -10854,7 +10875,7 @@ msgstr ""
 
 #: modules/codec/mpeg_audio.c:114
 msgid "MPEG audio layer I/II/III packetizer"
-msgstr ""
+msgstr "MPEG audio layer I/II/III hljóðbitari"
 
 #: modules/codec/omxil/android_mediacodec.c:266
 msgid "Android direct rendering"
@@ -10874,7 +10895,7 @@ msgstr "Hljóð/Mynd afkóðari (notar OpenMAX IL)"
 
 #: modules/codec/omxil/omxil.c:97
 msgid "Video encoder (using OpenMAX IL)"
-msgstr "Myndbandakóðari (notar OpenMAX IL)"
+msgstr "Myndmerkiskóðari (notar OpenMAX IL)"
 
 #: modules/codec/omxil/vout.c:49
 msgid "OpenMAX IL video output"
@@ -11142,7 +11163,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:79
 msgid "Low Delay mode"
-msgstr "Látafarhamur (low delay mode)"
+msgstr "Lágtafarhamur (low delay mode)"
 
 #: modules/codec/schroedinger.c:80
 msgid "Lossless mode"
@@ -11196,7 +11217,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:113
 msgid "Noise Threshold"
-msgstr "Truflanamörk"
+msgstr "Suðmörk"
 
 #: modules/codec/schroedinger.c:114
 msgid "Noise threshold to use in constant noise threshold mode"
@@ -11561,15 +11582,15 @@ msgstr ""
 
 #: modules/codec/speex.c:91
 msgid "Narrow-band (8kHz)"
-msgstr ""
+msgstr "Þröngtíðni (8kHz)"
 
 #: modules/codec/speex.c:91
 msgid "Wide-band (16kHz)"
-msgstr ""
+msgstr "Breiðtíðni (16kHz)"
 
 #: modules/codec/speex.c:91
 msgid "Ultra-wideband (32kHz)"
-msgstr ""
+msgstr "Ofur-breiðtíðni (32kHz)"
 
 #: modules/codec/speex.c:98
 msgid "Speex audio decoder"
@@ -11685,111 +11706,111 @@ msgstr "Úkraínskt (KOI8-U)"
 
 #: modules/codec/subsdec.c:123
 msgid "Arabic (ISO 8859-6)"
-msgstr ""
+msgstr "Arabískt (ISO- 8859-6)"
 
 #: modules/codec/subsdec.c:124
 msgid "Arabic (Windows-1256)"
-msgstr "Arabíska (Windows-1256)"
+msgstr "Arabískt (Windows-1256)"
 
 #: modules/codec/subsdec.c:126
 msgid "Greek (ISO 8859-7)"
-msgstr ""
+msgstr "Grískt (ISO- 8859-7)"
 
 #: modules/codec/subsdec.c:127
 msgid "Greek (Windows-1253)"
-msgstr "Gríska (Windows-1253)"
+msgstr "Grískt (Windows-1253)"
 
 #: modules/codec/subsdec.c:129
 msgid "Hebrew (ISO 8859-8)"
-msgstr ""
+msgstr "Hebreskt (ISO- 8859-8)"
 
 #: modules/codec/subsdec.c:130
 msgid "Hebrew (Windows-1255)"
-msgstr "Hebreska (Windows-1255)"
+msgstr "Hebreskt (Windows-1255)"
 
 #: modules/codec/subsdec.c:132
 msgid "Turkish (ISO 8859-9)"
-msgstr ""
+msgstr "Tyrkneskt (ISO- 8859-9)"
 
 #: modules/codec/subsdec.c:133
 msgid "Turkish (Windows-1254)"
-msgstr "Tyrkneska (Windows-1254)"
+msgstr "Tyrkneskt (Windows-1254)"
 
 #: modules/codec/subsdec.c:136
 msgid "Thai (TIS 620-2533/ISO 8859-11)"
-msgstr ""
+msgstr "Tælenskt (TIS 620-2533/ISO 8859-11)"
 
 #: modules/codec/subsdec.c:137
 msgid "Thai (Windows-874)"
-msgstr "Thaílenska (Windows-874)"
+msgstr "Thaílenskt (Windows-874)"
 
 #: modules/codec/subsdec.c:139
 msgid "Baltic (Latin-7)"
-msgstr ""
+msgstr "Baltneskt (Latin-7)"
 
 #: modules/codec/subsdec.c:140
 msgid "Baltic (Windows-1257)"
-msgstr "Baltneska (Windows-1257)"
+msgstr "Baltneskt (Windows-1257)"
 
 #: modules/codec/subsdec.c:143
 msgid "Celtic (Latin-8)"
-msgstr ""
+msgstr "Keltneskt (Latin-8)"
 
 #: modules/codec/subsdec.c:146
 msgid "South-Eastern European (Latin-10)"
-msgstr ""
+msgstr "Austurevrópskt (Latin-10)"
 
 #: modules/codec/subsdec.c:148
 msgid "Simplified Chinese (ISO-2022-CN-EXT)"
-msgstr ""
+msgstr "Einfaldað kínverskt (ISO-2022-CN-EXT)"
 
 #: modules/codec/subsdec.c:149
 msgid "Simplified Chinese Unix (EUC-CN)"
-msgstr ""
+msgstr "Einfaldað kínverskt Unix (EUC-CN)"
 
 #: modules/codec/subsdec.c:150
 msgid "Japanese (7-bits JIS/ISO-2022-JP-2)"
-msgstr ""
+msgstr "Japanskt (7-bits JIS/ISO-2022-JP-2)"
 
 #: modules/codec/subsdec.c:151
 msgid "Japanese Unix (EUC-JP)"
-msgstr ""
+msgstr "Japanskt Unix (EUC-JP)"
 
 #: modules/codec/subsdec.c:152
 msgid "Japanese (Shift JIS)"
-msgstr ""
+msgstr "Japanskt (Shift-JIS)"
 
 #: modules/codec/subsdec.c:153
 msgid "Korean (EUC-KR/CP949)"
-msgstr "Kóreska (EUC-KR/CP949)"
+msgstr "Kóreskt (EUC-KR/CP949)"
 
 #: modules/codec/subsdec.c:154
 msgid "Korean (ISO-2022-KR)"
-msgstr "Kóreska (ISO-2022-KR)"
+msgstr "Kóreskt (ISO-2022-KR)"
 
 #: modules/codec/subsdec.c:155
 msgid "Traditional Chinese (Big5)"
-msgstr ""
+msgstr "Hefðbundið kínverskt (Big5)"
 
 #: modules/codec/subsdec.c:156
 msgid "Traditional Chinese Unix (EUC-TW)"
-msgstr ""
+msgstr "Hefðbundið kínverskt Unix (EUC-TW)"
 
 #: modules/codec/subsdec.c:157
 msgid "Hong-Kong Supplementary (HKSCS)"
-msgstr ""
+msgstr "Hong-Kong viðbótar (HKSCS)"
 
 #: modules/codec/subsdec.c:159
 msgid "Vietnamese (VISCII)"
-msgstr ""
+msgstr "Víetnamskt (VISCII)"
 
 #: modules/codec/subsdec.c:160
 msgid "Vietnamese (Windows-1258)"
-msgstr ""
+msgstr "Víetnamskt (Windows-1258)"
 
 #: modules/codec/subsdec.c:167
 msgid "Subtitle text encoding"
-msgstr ""
+msgstr "Stafatafla skjátexta"
 
 #: modules/codec/subsdec.c:168
 msgid "Set the encoding used in text subtitles"
@@ -11797,15 +11818,15 @@ msgstr ""
 
 #: modules/codec/subsdec.c:169
 msgid "Subtitle justification"
-msgstr ""
+msgstr "Jöfnun skjátexta"
 
 #: modules/codec/subsdec.c:170
 msgid "Set the justification of subtitles"
-msgstr ""
+msgstr "Stilla jöfnun skjátexta"
 
 #: modules/codec/subsdec.c:171
 msgid "UTF-8 subtitle autodetection"
-msgstr ""
+msgstr "Finna sjálfkrafa UTF-8 skjátexta"
 
 #: modules/codec/subsdec.c:172
 msgid ""
@@ -11847,15 +11868,15 @@ msgstr "USF skjátextaafkóðari"
 
 #: modules/codec/substx3g.c:40
 msgid "tx3g subtitles decoder"
-msgstr ""
+msgstr "tx3g skjátextaafkóðari"
 
 #: modules/codec/substx3g.c:41
 msgid "tx3g subtitles"
-msgstr ""
+msgstr "tx3g skjátextar"
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
-msgstr ""
+msgstr "Afkóðari fyrir Philips OGT (SVCD skjátextar)"
 
 #: modules/codec/svcdsub.c:48
 msgid "SVCD subtitles"
@@ -11863,7 +11884,7 @@ msgstr "SVCD skjátextar"
 
 #: modules/codec/svcdsub.c:57
 msgid "Philips OGT (SVCD subtitle) packetizer"
-msgstr ""
+msgstr "Bitari fyrir Philips OGT (SVCD skjátextar)"
 
 #: modules/codec/t140.c:35
 msgid "T.140 text encoder"
@@ -12366,11 +12387,11 @@ msgstr ""
 
 #: modules/codec/x264.c:250
 msgid "QP difference between chroma and luma"
-msgstr ""
+msgstr "QP munur milli litgildis (chroma) og ljómastiguls (luma)"
 
 #: modules/codec/x264.c:251
 msgid "QP difference between chroma and luma."
-msgstr ""
+msgstr "QP munur milli litgildis (chroma) og ljómastiguls (luma)"
 
 #: modules/codec/x264.c:253
 msgid "Multipass ratecontrol"
@@ -12946,12 +12967,12 @@ msgstr ""
 
 #: modules/control/hotkeys.c:188
 msgid "One"
-msgstr ""
+msgstr "Einn"
 
 #: modules/control/hotkeys.c:195
 #, c-format
 msgid "Loop: %s"
-msgstr "Endurtaka: %s"
+msgstr "Lykkja: %s"
 
 #: modules/control/hotkeys.c:202
 #, c-format
@@ -12999,7 +13020,7 @@ msgstr ""
 #: modules/control/hotkeys.c:501
 #, c-format
 msgid "Subtitle delay %i ms"
-msgstr "Textatöf %i ms"
+msgstr "Skjátextatöf %i msek"
 
 #: modules/control/hotkeys.c:517
 #, c-format
@@ -13015,7 +13036,7 @@ msgstr "Lag: %s"
 #: modules/control/hotkeys.c:614 modules/control/hotkeys.c:646
 #, c-format
 msgid "Subtitle track: %s"
-msgstr "Texti: %s"
+msgstr "Textaspor: %s"
 
 #: modules/control/hotkeys.c:572 modules/control/hotkeys.c:615
 #: modules/control/hotkeys.c:665
@@ -13310,7 +13331,7 @@ msgstr ""
 
 #: modules/control/rc.c:793
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr ""
+msgstr "| lykkja [á|af] . . . . . . . . . Víxla lykkju í spilunarlista"
 
 #: modules/control/rc.c:794
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
@@ -13493,8 +13514,8 @@ msgstr ""
 #, c-format
 msgid "Playlist has only %u element"
 msgid_plural "Playlist has only %u elements"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Spilunarlistinn er aðeins með %u atriði"
+msgstr[1] "Spilunarlistinn er aðeins með %u atriðum"
 
 #: modules/control/rc.c:1746 modules/gui/ncurses.c:813
 msgid "+-[Incoming]"
@@ -13589,11 +13610,11 @@ msgstr ""
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
-msgstr ""
+msgstr "AIFF affléttari"
 
 #: modules/demux/asf/asf.c:61
 msgid "ASF/WMV demuxer"
-msgstr ""
+msgstr "ASF/WMV affléttari"
 
 #: modules/demux/asf/asf.c:215 modules/demux/asf/asf.c:1195
 msgid "Could not demux ASF stream"
@@ -13609,11 +13630,11 @@ msgstr ""
 
 #: modules/demux/au.c:50
 msgid "AU demuxer"
-msgstr ""
+msgstr "AU affléttari"
 
 #: modules/demux/avformat/avformat.c:41
 msgid "Avformat demuxer"
-msgstr ""
+msgstr "Avformat affléttari"
 
 #: modules/demux/avformat/avformat.c:42
 msgid "Avformat"
@@ -13621,15 +13642,15 @@ msgstr "Avformat"
 
 #: modules/demux/avformat/avformat.c:45
 msgid "Demuxer"
-msgstr ""
+msgstr "Affléttari"
 
 #: modules/demux/avformat/avformat.c:56
 msgid "Avformat muxer"
-msgstr ""
+msgstr "Avformat fléttari"
 
 #: modules/demux/avformat/avformat.c:58 modules/stream_out/rtp.c:85
 msgid "Muxer"
-msgstr "Muxari"
+msgstr "Fléttari"
 
 #: modules/demux/avformat/avformat.h:35
 msgid "Avformat mux"
@@ -13637,7 +13658,7 @@ msgstr ""
 
 #: modules/demux/avformat/avformat.h:36
 msgid "Force use of a specific avformat muxer."
-msgstr ""
+msgstr "Þvinga til að nota ákveðinn avformat fléttara."
 
 #: modules/demux/avformat/avformat.h:37
 msgid "Format name"
@@ -13679,7 +13700,7 @@ msgstr ""
 
 #: modules/demux/avi/avi.c:75
 msgid "AVI demuxer"
-msgstr ""
+msgstr "AVI affléttari"
 
 #: modules/demux/avi/avi.c:733
 msgid "Broken or missing AVI Index"
@@ -13713,11 +13734,11 @@ msgstr ""
 
 #: modules/demux/caf.c:53
 msgid "CAF demuxer"
-msgstr ""
+msgstr "CAF affléttari"
 
 #: modules/demux/cdg.c:43
 msgid "CDG demuxer"
-msgstr ""
+msgstr "CDG affléttari"
 
 #: modules/demux/demuxdump.c:32
 msgid "Dump module"
@@ -13749,11 +13770,11 @@ msgstr ""
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
-msgstr ""
+msgstr "Dirac myndmerkisaffléttari"
 
 #: modules/demux/flac.c:50
 msgid "FLAC demuxer"
-msgstr ""
+msgstr "FLAC affléttari"
 
 #: modules/demux/image.c:44
 msgid "ES ID"
@@ -13765,7 +13786,7 @@ msgstr "Afkóða"
 
 #: modules/demux/image.c:54
 msgid "Decode at the demuxer stage"
-msgstr ""
+msgstr "Afkóða á affléttunarstigi"
 
 #: modules/demux/image.c:56
 msgid "Forced chroma"
@@ -13803,7 +13824,7 @@ msgstr ""
 
 #: modules/demux/image.c:76
 msgid "Image demuxer"
-msgstr ""
+msgstr "Affléttari mynda"
 
 #: modules/demux/image.c:77
 msgid "Image"
@@ -13824,7 +13845,7 @@ msgstr ""
 
 #: modules/demux/mjpeg.c:53
 msgid "M-JPEG camera demuxer"
-msgstr ""
+msgstr "M-JPEG myndavélaaffléttari"
 
 #: modules/demux/mkv/chapter_command.cpp:143
 msgid "---  DVD Menu"
@@ -13844,7 +13865,7 @@ msgstr "----- Titill"
 
 #: modules/demux/mkv/mkv.cpp:47
 msgid "Matroska stream demuxer"
-msgstr ""
+msgstr "Matroska straumaffléttari"
 
 #: modules/demux/mkv/mkv.cpp:54
 msgid "Respect ordered chapters"
@@ -13929,7 +13950,7 @@ msgstr ""
 
 #: modules/demux/mod.c:74
 msgid "MOD demuxer (libmodplug)"
-msgstr ""
+msgstr "MOD affléttari (libmodplug)"
 
 #: modules/demux/mod.c:85
 msgid "Reverberation level"
@@ -14267,11 +14288,11 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:115
 msgid "Swing"
-msgstr ""
+msgstr "Sving"
 
 #: modules/demux/mp4/id3genres.h:116
 msgid "Fast Fusion"
-msgstr ""
+msgstr "Hraðbræðingur"
 
 #: modules/demux/mp4/id3genres.h:117
 msgid "Bebob"
@@ -14279,7 +14300,7 @@ msgstr "Bíbopp"
 
 #: modules/demux/mp4/id3genres.h:119
 msgid "Revival"
-msgstr ""
+msgstr "Endurfundir"
 
 #: modules/demux/mp4/id3genres.h:120
 msgid "Celtic"
@@ -14299,23 +14320,23 @@ msgstr "Gotneskt rokk"
 
 #: modules/demux/mp4/id3genres.h:124
 msgid "Progressive Rock"
-msgstr ""
+msgstr "Progg-rokk"
 
 #: modules/demux/mp4/id3genres.h:125
 msgid "Psychedelic Rock"
-msgstr ""
+msgstr "Sýrurokk"
 
 #: modules/demux/mp4/id3genres.h:126
 msgid "Symphonic Rock"
-msgstr ""
+msgstr "Symfóníurokk"
 
 #: modules/demux/mp4/id3genres.h:127
 msgid "Slow Rock"
-msgstr ""
+msgstr "Rólegt rokk"
 
 #: modules/demux/mp4/id3genres.h:128
 msgid "Big Band"
-msgstr ""
+msgstr "Stórsveitar"
 
 #: modules/demux/mp4/id3genres.h:130
 msgid "Easy Listening"
@@ -14367,7 +14388,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:142
 msgid "Satire"
-msgstr ""
+msgstr "Satíra"
 
 #: modules/demux/mp4/id3genres.h:143
 msgid "Slow Jam"
@@ -14415,7 +14436,7 @@ msgstr "Trommusóló"
 
 #: modules/demux/mp4/id3genres.h:155
 msgid "Acapella"
-msgstr ""
+msgstr "Acapella"
 
 #: modules/demux/mp4/id3genres.h:156
 msgid "Euro-House"
@@ -14447,11 +14468,11 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:163
 msgid "Indie"
-msgstr ""
+msgstr "Indí"
 
 #: modules/demux/mp4/id3genres.h:164
 msgid "BritPop"
-msgstr ""
+msgstr "BritPopp"
 
 #: modules/demux/mp4/id3genres.h:165
 msgid "Negerpunk"
@@ -14463,7 +14484,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:167
 msgid "Beat"
-msgstr ""
+msgstr "Bít"
 
 #: modules/demux/mp4/id3genres.h:168
 msgid "Christian Gangsta Rap"
@@ -14507,7 +14528,7 @@ msgstr "Anime"
 
 #: modules/demux/mp4/id3genres.h:178
 msgid "JPop"
-msgstr ""
+msgstr "JPopp"
 
 #: modules/demux/mp4/id3genres.h:179
 msgid "Synthpop"
@@ -14515,7 +14536,7 @@ msgstr "Synthapopp"
 
 #: modules/demux/mp4/mp4.c:52
 msgid "MP4 stream demuxer"
-msgstr ""
+msgstr "MP4 straumaffléttari"
 
 #: modules/demux/mp4/mp4.c:53
 msgid "MP4"
@@ -14586,7 +14607,7 @@ msgstr "Lagatextar"
 
 #: modules/demux/mp4/mp4.c:1465
 msgid "Record Company"
-msgstr ""
+msgstr "Útgáfufyrirtæki"
 
 #: modules/demux/mp4/mp4.c:1466
 msgid "Model"
@@ -14602,27 +14623,27 @@ msgstr "Hópun"
 
 #: modules/demux/mp4/mp4.c:1470
 msgid "Sub-Title"
-msgstr ""
+msgstr "Undirtitill"
 
 #: modules/demux/mp4/mp4.c:1471
 msgid "Arranger"
-msgstr ""
+msgstr "Útsetjari"
 
 #: modules/demux/mp4/mp4.c:1472
 msgid "Art Director"
-msgstr ""
+msgstr "Listrænn stjórnandi"
 
 #: modules/demux/mp4/mp4.c:1473
 msgid "Copyright Acknowledgement"
-msgstr ""
+msgstr "Höfundaréttaryfirlýsing"
 
 #: modules/demux/mp4/mp4.c:1474
 msgid "Conductor"
-msgstr ""
+msgstr "Stjórnandi"
 
 #: modules/demux/mp4/mp4.c:1475
 msgid "Song Description"
-msgstr ""
+msgstr "Lýsing á verki"
 
 #: modules/demux/mp4/mp4.c:1476
 msgid "Liner Notes"
@@ -14630,15 +14651,15 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:1477
 msgid "Phonogram Rights"
-msgstr ""
+msgstr "Réttindi hljómpötuframleiðanda"
 
 #: modules/demux/mp4/mp4.c:1479
 msgid "Sound Engineer"
-msgstr ""
+msgstr "Hljóðmaður"
 
 #: modules/demux/mp4/mp4.c:1480
 msgid "Soloist"
-msgstr ""
+msgstr "Einleikari"
 
 #: modules/demux/mp4/mp4.c:1481
 msgid "Thanks"
@@ -14646,11 +14667,11 @@ msgstr "Þakkir"
 
 #: modules/demux/mp4/mp4.c:1482
 msgid "Executive Producer"
-msgstr ""
+msgstr "Framkvæmdastjórn"
 
 #: modules/demux/mpc.c:62
 msgid "MusePack demuxer"
-msgstr ""
+msgstr "MusePack affléttari"
 
 #: modules/demux/mpeg/es.c:51
 msgid ""
@@ -14668,7 +14689,7 @@ msgstr "Audio ES"
 
 #: modules/demux/mpeg/es.c:70
 msgid "MPEG-4 video"
-msgstr "MPEG-4 myndband"
+msgstr "MPEG-4 myndskeið"
 
 #: modules/demux/mpeg/h264.c:44
 msgid "Desired frame rate for the H264 stream."
@@ -14676,7 +14697,7 @@ msgstr ""
 
 #: modules/demux/mpeg/h264.c:51
 msgid "H264 video demuxer"
-msgstr ""
+msgstr "H264 myndmerkisaffléttari"
 
 #: modules/demux/mpeg/hevc.c:47
 msgid "Desired frame rate for the stream."
@@ -14684,11 +14705,11 @@ msgstr ""
 
 #: modules/demux/mpeg/hevc.c:54
 msgid "HEVC/H.265 video demuxer"
-msgstr ""
+msgstr "HEVC/H.265 myndmerkisaffléttari"
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
-msgstr ""
+msgstr "MPEG-I/II myndmerkisaffléttari"
 
 #: modules/demux/nsc.c:47
 msgid "Windows Media NSC metademux"
@@ -14696,15 +14717,15 @@ msgstr ""
 
 #: modules/demux/nsv.c:49
 msgid "NullSoft demuxer"
-msgstr ""
+msgstr "NullSoft affléttari"
 
 #: modules/demux/nuv.c:49
 msgid "Nuv demuxer"
-msgstr ""
+msgstr "Nuv affléttari"
 
 #: modules/demux/ogg.c:56
 msgid "OGG demuxer"
-msgstr ""
+msgstr "OGG affléttari"
 
 #: modules/demux/playlist/gvp.c:208
 msgid "Google Video"
@@ -14758,7 +14779,7 @@ msgstr "Flytja inn XSPF spilunarlista"
 
 #: modules/demux/playlist/playlist.c:102
 msgid "New winamp 5.2 shoutcast import"
-msgstr ""
+msgstr "Nýr winamp 5.2 shoutcast innflutningur"
 
 #: modules/demux/playlist/playlist.c:109
 msgid "ASX playlist import"
@@ -14770,11 +14791,11 @@ msgstr "Kasenna MediaBase þáttari"
 
 #: modules/demux/playlist/playlist.c:119
 msgid "QuickTime Media Link importer"
-msgstr ""
+msgstr "QuickTime Media Link innflutningur"
 
 #: modules/demux/playlist/playlist.c:124
 msgid "Google Video Playlist importer"
-msgstr ""
+msgstr "Google Video Playlist innflutningur"
 
 #: modules/demux/playlist/playlist.c:129
 msgid "Dummy IFO demux"
@@ -14782,7 +14803,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:134
 msgid "iTunes Music Library importer"
-msgstr ""
+msgstr "iTunes Music Library innflutningur"
 
 #: modules/demux/playlist/playlist.c:139
 msgid "WPL playlist import"
@@ -14875,7 +14896,7 @@ msgstr ""
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
-msgstr ""
+msgstr "MPEG-PS affléttari"
 
 #: modules/demux/ps.c:57
 msgid "PS"
@@ -14883,7 +14904,7 @@ msgstr "PS"
 
 #: modules/demux/pva.c:43
 msgid "PVA demuxer"
-msgstr ""
+msgstr "PVA affléttari"
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
@@ -14918,7 +14939,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:64
 msgid "Raw audio demuxer"
-msgstr ""
+msgstr "Raw hljóðaffléttari"
 
 #: modules/demux/rawdv.c:43
 msgid ""
@@ -14927,7 +14948,7 @@ msgstr ""
 
 #: modules/demux/rawdv.c:51
 msgid "DV (Digital Video) demuxer"
-msgstr ""
+msgstr "DV (Digital Video) affléttari"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -14953,19 +14974,19 @@ msgstr ""
 
 #: modules/demux/rawvid.c:65
 msgid "Raw video demuxer"
-msgstr ""
+msgstr "Raw myndmerkisaffléttari"
 
 #: modules/demux/real.c:70
 msgid "Real demuxer"
-msgstr ""
+msgstr "Real affléttari"
 
 #: modules/demux/sid.cpp:56
 msgid "C64 sid demuxer"
-msgstr ""
+msgstr "C64 sid affléttari"
 
 #: modules/demux/smf.c:709
 msgid "SMF demuxer"
-msgstr ""
+msgstr "SMF affléttari"
 
 #: modules/demux/stl.c:43
 msgid "EBU STL subtitles parser"
@@ -14997,15 +15018,15 @@ msgstr ""
 
 #: modules/demux/subtitle.c:78 modules/video_filter/subsdelay.c:275
 msgid "Subtitle delay"
-msgstr ""
+msgstr "Töf skjátexta"
 
 #: modules/demux/subtitle.c:80
 msgid "Subtitle format"
-msgstr ""
+msgstr "Snið skjátexta"
 
 #: modules/demux/subtitle.c:83
 msgid "Subtitle description"
-msgstr ""
+msgstr "Lýsing skjátexta"
 
 #: modules/demux/ts.c:92
 msgid "Extra PMT"
@@ -15081,7 +15102,7 @@ msgstr ""
 
 #: modules/demux/ts.c:130
 msgid "MPEG Transport Stream demuxer"
-msgstr ""
+msgstr "MPEG Transport Stream affléttari"
 
 #: modules/demux/ts.c:164 modules/gui/macosx/MainMenu.m:467
 #: modules/gui/macosx/MainMenu.m:1636 modules/gui/qt4/dialogs/toolbar.cpp:512
@@ -15102,11 +15123,11 @@ msgstr ""
 
 #: modules/demux/ts.c:168
 msgid "Teletext subtitles: hearing impaired"
-msgstr ""
+msgstr "Textavarpstextar: fyrir heyrnarskerta"
 
 #: modules/demux/ts.c:3626
 msgid "DVB subtitles: hearing impaired"
-msgstr ""
+msgstr "DVB skjátextar: fyrir heyrnarskerta"
 
 #: modules/demux/ts.c:3911
 msgid "clean effects"
@@ -15122,7 +15143,7 @@ msgstr ""
 
 #: modules/demux/tta.c:45
 msgid "TTA demuxer"
-msgstr ""
+msgstr "TTA affléttari"
 
 #: modules/demux/ty.c:59
 msgid "TY"
@@ -15150,23 +15171,23 @@ msgstr ""
 
 #: modules/demux/vc1.c:50
 msgid "VC1 video demuxer"
-msgstr ""
+msgstr "VC1 myndmerkisaffléttari"
 
 #: modules/demux/vobsub.c:49
 msgid "Vobsub subtitles parser"
-msgstr ""
+msgstr "Vobsub skjátextaþáttari"
 
 #: modules/demux/voc.c:43
 msgid "VOC demuxer"
-msgstr ""
+msgstr "VOC affléttari"
 
 #: modules/demux/wav.c:47
 msgid "WAV demuxer"
-msgstr ""
+msgstr "WAV affléttari"
 
 #: modules/demux/xa.c:43
 msgid "XA demuxer"
-msgstr ""
+msgstr "XA affléttari"
 
 #: modules/demux/xiph_metadata.h:48
 msgid "Closed captions"
@@ -15266,7 +15287,7 @@ msgstr "Vísir"
 #: modules/gui/macosx/AddonManager.m:98 modules/gui/macosx/AddonManager.m:347
 #: modules/gui/qt4/dialogs/plugins.cpp:378
 msgid "Playlist parsers"
-msgstr ""
+msgstr "Þáttarar fyrir spilunarlista"
 
 #: modules/gui/macosx/AddonManager.m:100 modules/gui/macosx/AddonManager.m:349
 #: modules/gui/qt4/dialogs/plugins.cpp:382
@@ -15547,11 +15568,11 @@ msgstr "Straumurinn verður að vera í spilun eða í bið svo að bókamerkin 
 
 #: modules/gui/macosx/BWQuincyUI.m:78
 msgid "Show Details"
-msgstr ""
+msgstr "Sýna nánar"
 
 #: modules/gui/macosx/BWQuincyUI.m:79
 msgid "Hide Details"
-msgstr ""
+msgstr "Fela nánari upplýsingar"
 
 #: modules/gui/macosx/BWQuincyUI.m:81
 msgid "Send"
@@ -15574,7 +15595,7 @@ msgstr ""
 
 #: modules/gui/macosx/BWQuincyUI.m:175
 msgid "Problem Report for %@"
-msgstr ""
+msgstr "Vandamálalýsing fyrir %@"
 
 #: modules/gui/macosx/BWQuincyUI.m:177
 msgid "Please describe any steps needed to trigger the problem"
@@ -15698,11 +15719,11 @@ msgstr ""
 
 #: modules/gui/macosx/ControlsBar.m:762 modules/gui/macosx/fspanel.m:420
 msgid "Click to go to the previous playlist item."
-msgstr ""
+msgstr "Fara að fyrra atriði á spilunarlista."
 
 #: modules/gui/macosx/ControlsBar.m:773 modules/gui/macosx/fspanel.m:424
 msgid "Click to go to the next playlist item."
-msgstr ""
+msgstr "Fara að næsta atriði á spilunarlista."
 
 #: modules/gui/macosx/ConvertAndSave.m:152
 msgid "Convert & Stream"
@@ -15983,7 +16004,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:50
 msgid "Video device"
-msgstr "Myndbandatæki"
+msgstr "Myndmerkistæki"
 
 #: modules/gui/macosx/macosx.m:51
 msgid ""
@@ -16056,7 +16077,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:81
 msgid "Control playlist items with the Apple Remote"
-msgstr ""
+msgstr "Stjórnaðu atriðum á spilunarlista með Apple fjarstýringu"
 
 #: modules/gui/macosx/macosx.m:82
 msgid ""
@@ -16158,7 +16179,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:118 modules/gui/macosx/MainMenu.m:387
 msgid "Show Sidebar"
-msgstr ""
+msgstr "Sýna hliðarspjald"
 
 #: modules/gui/macosx/macosx.m:119
 msgid "Shows a sidebar in the main window listing media sources."
@@ -16178,19 +16199,19 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:129
 msgid "Do nothing"
-msgstr ""
+msgstr "Gera ekkert"
 
 #: modules/gui/macosx/macosx.m:129
 msgid "Pause iTunes / Spotify"
-msgstr ""
+msgstr "Gera hlé á iTunes / Spotify"
 
 #: modules/gui/macosx/macosx.m:129
 msgid "Pause and resume iTunes / Spotify"
-msgstr ""
+msgstr "Gera hlé á og halda áfram í iTunes / Spotify"
 
 #: modules/gui/macosx/macosx.m:132
 msgid "Continue playback where you left off"
-msgstr ""
+msgstr "Halda afspilun áfram þar sem þú hættir"
 
 #: modules/gui/macosx/macosx.m:133
 msgid ""
@@ -16200,7 +16221,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:138 modules/gui/qt4/qt4.cpp:200
 msgid "Ask"
-msgstr ""
+msgstr "Spyrja"
 
 #: modules/gui/macosx/macosx.m:138 modules/gui/qt4/qt4.cpp:194
 #: modules/gui/qt4/qt4.cpp:200
@@ -16214,7 +16235,7 @@ msgstr "Aldrei"
 
 #: modules/gui/macosx/macosx.m:141 modules/gui/qt4/qt4.cpp:184
 msgid "Maximum Volume displayed"
-msgstr ""
+msgstr "Hámarksstyrkur birtur"
 
 #: modules/gui/macosx/macosx.m:145
 msgid "Mac OS X interface"
@@ -16222,23 +16243,23 @@ msgstr "Mac OS X viðmót"
 
 #: modules/gui/macosx/macosx.m:152
 msgid "Appearance"
-msgstr ""
+msgstr "Útlit"
 
 #: modules/gui/macosx/macosx.m:163
 msgid "Behavior"
-msgstr ""
+msgstr "Hegðun"
 
 #: modules/gui/macosx/macosx.m:175
 msgid "Apple Remote and media keys"
-msgstr ""
+msgstr "Apple fjarstýring og margmiðlunarlyklar"
 
 #: modules/gui/macosx/macosx.m:190
 msgid "Video output"
-msgstr ""
+msgstr "Myndmerkisúttak"
 
 #: modules/gui/macosx/MainMenu.m:72
 msgid "Track Number"
-msgstr ""
+msgstr "Spor númer"
 
 #: modules/gui/macosx/MainMenu.m:75 modules/gui/macosx/playlist.m:169
 #: modules/gui/macosx/wizard.m:349
@@ -16253,12 +16274,12 @@ msgstr "URI"
 
 #: modules/gui/macosx/MainMenu.m:82
 msgid "File Size"
-msgstr ""
+msgstr "Skráarstærð"
 
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Stig %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -16322,11 +16343,11 @@ msgstr "Loka glugga"
 
 #: modules/gui/macosx/MainMenu.m:369
 msgid "Streaming/Exporting Wizard..."
-msgstr ""
+msgstr "Streyming/Útflutningsleiðarvísir..."
 
 #: modules/gui/macosx/MainMenu.m:370
 msgid "Convert / Stream..."
-msgstr ""
+msgstr "Umbreyta / Streyma..."
 
 #: modules/gui/macosx/MainMenu.m:371
 msgid "Save Playlist..."
@@ -16350,11 +16371,11 @@ msgstr "Velja allt"
 
 #: modules/gui/macosx/MainMenu.m:380
 msgid "View"
-msgstr ""
+msgstr "Skoða"
 
 #: modules/gui/macosx/MainMenu.m:389 modules/gui/macosx/MainMenu.m:390
 msgid "Playlist Table Columns"
-msgstr ""
+msgstr "Dálkar spilunarlistans"
 
 #: modules/gui/macosx/MainMenu.m:392
 msgid "Playback"
@@ -16371,7 +16392,7 @@ msgstr "Samstilling spora"
 
 #: modules/gui/macosx/MainMenu.m:408
 msgid "A→B Loop"
-msgstr ""
+msgstr "A→B lykkja"
 
 #: modules/gui/macosx/MainMenu.m:409 modules/gui/macosx/MainMenu.m:1578
 msgid "Quit after Playback"
@@ -16431,7 +16452,7 @@ msgstr "Eftirvinnsla"
 
 #: modules/gui/macosx/MainMenu.m:457 modules/gui/macosx/MainMenu.m:1620
 msgid "Add Subtitle File..."
-msgstr ""
+msgstr "Bæta við skjátextaskrá..."
 
 #: modules/gui/macosx/MainMenu.m:458 modules/gui/macosx/MainMenu.m:459
 msgid "Subtitles Track"
@@ -16439,11 +16460,11 @@ msgstr "Textarás"
 
 #: modules/gui/macosx/MainMenu.m:460
 msgid "Text Size"
-msgstr ""
+msgstr "Textastærð"
 
 #: modules/gui/macosx/MainMenu.m:461
 msgid "Text Color"
-msgstr ""
+msgstr "Textalitur"
 
 #: modules/gui/macosx/MainMenu.m:462
 msgid "Outline Thickness"
@@ -16451,11 +16472,11 @@ msgstr "Breidd útlína"
 
 #: modules/gui/macosx/MainMenu.m:464 modules/gui/macosx/MainMenu.m:465
 msgid "Background Opacity"
-msgstr ""
+msgstr "Ógegnsæi bakgrunns"
 
 #: modules/gui/macosx/MainMenu.m:466
 msgid "Background Color"
-msgstr ""
+msgstr "Bakgrunnslitur"
 
 #: modules/gui/macosx/MainMenu.m:468
 msgid "Transparent"
@@ -16467,7 +16488,7 @@ msgstr "Gluggi"
 
 #: modules/gui/macosx/MainMenu.m:476
 msgid "Minimize"
-msgstr ""
+msgstr "Lágmarka"
 
 #: modules/gui/macosx/MainMenu.m:478
 msgid "Player..."
@@ -16483,7 +16504,7 @@ msgstr "Hljóðbrellur..."
 
 #: modules/gui/macosx/MainMenu.m:481
 msgid "Video Effects..."
-msgstr ""
+msgstr "Myndáhrif..."
 
 #: modules/gui/macosx/MainMenu.m:482
 msgid "Bookmarks..."
@@ -16542,6 +16563,8 @@ msgstr "Spjallsvæði á netinu..."
 msgid ""
 "Enter a term to search the playlist. Results will be selected in the table."
 msgstr ""
+"Settu inn orð til að leita í spilunarlistanum. Niðurstöður verða valdar í "
+"töflunni."
 
 #: modules/gui/macosx/MainWindow.m:178
 msgid ""
@@ -16571,7 +16594,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:188
 msgid "Unsubscribe from a podcast"
-msgstr ""
+msgstr "Afpanta áskrift að hlaðvarpi"
 
 #: modules/gui/macosx/MainWindow.m:189
 msgid "Select the podcast you would like to unsubscribe from:"
@@ -16579,15 +16602,15 @@ msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid "Check for album art and metadata?"
-msgstr ""
+msgstr "Athuga með umslagsmyndir og lýsigögn?"
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid "Enable Metadata Retrieval"
-msgstr ""
+msgstr "Leyfa sjálfvirkt niðurhal lýsigagna"
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid "No, Thanks"
-msgstr ""
+msgstr "Nei, takk samt"
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid ""
@@ -16619,23 +16642,23 @@ msgstr "INTERNET"
 
 #: modules/gui/macosx/misc.m:980
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: modules/gui/macosx/misc.m:987
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: modules/gui/macosx/misc.m:994
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: modules/gui/macosx/misc.m:1002
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: modules/gui/macosx/misc.m:1007
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: modules/gui/macosx/open.m:57
 msgid "No device is selected"
@@ -16647,6 +16670,9 @@ msgid ""
 "\n"
 "Choose available device in above pull-down menu.\n"
 msgstr ""
+"Ekkert tæki er valið.\n"
+"\n"
+"Veldu tiltækt tæki í fellilistanum hér fyrir ofan.\n"
 
 #: modules/gui/macosx/open.m:124
 msgid "Open Source"
@@ -16654,7 +16680,7 @@ msgstr "Opna uppruna"
 
 #: modules/gui/macosx/open.m:125
 msgid "Media Resource Locator (MRL)"
-msgstr ""
+msgstr "Media Resource Locator (MRL)"
 
 #: modules/gui/macosx/open.m:127 modules/gui/macosx/open.m:184
 #: modules/gui/macosx/open.m:665 modules/gui/macosx/open.m:740
@@ -16687,15 +16713,15 @@ msgstr "Veldu skrá"
 
 #: modules/gui/macosx/open.m:139
 msgid "Click to select a file for playback"
-msgstr ""
+msgstr "Smelltu á skrána sem á að nota til afspilunar"
 
 #: modules/gui/macosx/open.m:140
 msgid "Treat as a pipe rather than as a file"
-msgstr ""
+msgstr "Meðhöndla sem pípu fremur en sem skrá"
 
 #: modules/gui/macosx/open.m:142
 msgid "Play another media synchronously"
-msgstr ""
+msgstr "Samspila annan miðil"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:359
 #: modules/gui/macosx/simple_prefs.m:380 modules/gui/macosx/wizard.m:343
@@ -16711,11 +16737,11 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:149
 msgid "Custom playback"
-msgstr ""
+msgstr "Sérsniðin afspilun"
 
 #: modules/gui/macosx/open.m:157
 msgid "Open VIDEO_TS / BDMV folder"
-msgstr ""
+msgstr "Opna VIDEO_TS / BDMV möppu"
 
 #: modules/gui/macosx/open.m:158
 msgid "Insert Disc"
@@ -16779,7 +16805,7 @@ msgstr "Fjölvörpun"
 #: modules/gui/macosx/open.m:199 modules/gui/macosx/open.m:507
 #: modules/gui/macosx/open.m:1401
 msgid "Input Devices"
-msgstr ""
+msgstr "Inntakstæki"
 
 #: modules/gui/macosx/open.m:202
 msgid ""
@@ -16797,7 +16823,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:210
 msgid "Capture Audio"
-msgstr ""
+msgstr "Taka upp hljóð"
 
 #: modules/gui/macosx/open.m:211
 msgid "Current channel:"
@@ -16813,7 +16839,7 @@ msgstr "Næsta rás"
 
 #: modules/gui/macosx/open.m:214 modules/gui/macosx/open.m:1482
 msgid "Retrieving Channel Info..."
-msgstr ""
+msgstr "Næ í upplýsingar frá rás..."
 
 #: modules/gui/macosx/open.m:215
 msgid "EyeTV is not launched"
@@ -16827,7 +16853,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:217
 msgid "Launch EyeTV now"
-msgstr ""
+msgstr "Ræsa EyeTV núna"
 
 #: modules/gui/macosx/open.m:218
 msgid "Download Plugin"
@@ -16843,7 +16869,7 @@ msgstr "Hæð myndar"
 
 #: modules/gui/macosx/open.m:355
 msgid "Add Subtitle File:"
-msgstr ""
+msgstr "Bæta við skjátextaskrá:"
 
 #: modules/gui/macosx/open.m:360
 msgid "Click to setup subtitle playback in full detail."
@@ -16851,7 +16877,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:362
 msgid "Click to select a subtitle file."
-msgstr ""
+msgstr "Smelltu til að velja skjátextaskrá."
 
 #: modules/gui/macosx/open.m:363
 msgid "Override parameters"
@@ -16859,11 +16885,11 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:366
 msgid "FPS"
-msgstr "Rammar á sek"
+msgstr "r/sek"
 
 #: modules/gui/macosx/open.m:368
 msgid "Subtitle encoding"
-msgstr ""
+msgstr "Stafatafla skjátexta"
 
 #: modules/gui/macosx/open.m:370 modules/gui/macosx/simple_prefs.m:382
 #: modules/gui/qt4/ui/sprefs_subtitles.h:300
@@ -16872,7 +16898,7 @@ msgstr "Leturstærð"
 
 #: modules/gui/macosx/open.m:372
 msgid "Subtitle alignment"
-msgstr ""
+msgstr "Jöfnun skjátexta"
 
 #: modules/gui/macosx/open.m:375
 msgid "Click to dismiss the subtitle setup dialog."
@@ -16914,7 +16940,7 @@ msgstr "Stillingar..."
 
 #: modules/gui/macosx/output.m:131
 msgid "Streaming and Transcoding Options"
-msgstr ""
+msgstr "Valkostir streymis og umkóðunar"
 
 #: modules/gui/macosx/output.m:132
 msgid "Display the stream locally"
@@ -16930,7 +16956,7 @@ msgstr ""
 
 #: modules/gui/macosx/output.m:150
 msgid "Transcoding options"
-msgstr ""
+msgstr "Valkostir umkóðunar"
 
 #: modules/gui/macosx/output.m:154 modules/gui/macosx/output.m:164
 #: modules/gui/macosx/wizard.m:381
@@ -17008,7 +17034,7 @@ msgstr "Upplýsingar í lýsigögnum"
 
 #: modules/gui/macosx/playlist.m:1541 modules/gui/qt4/qt4.cpp:188
 msgid "Continue playback?"
-msgstr ""
+msgstr "Halda afspilun áfram?"
 
 #: modules/gui/macosx/playlist.m:1541 modules/gui/macosx/simple_prefs.m:837
 #: modules/gui/qt4/dialogs/firstrun.cpp:109
@@ -17017,15 +17043,15 @@ msgstr "Halda Áfram"
 
 #: modules/gui/macosx/playlist.m:1541
 msgid "Restart playback"
-msgstr ""
+msgstr "Endurræsa afspilun"
 
 #: modules/gui/macosx/playlist.m:1541
 msgid "Always continue"
-msgstr ""
+msgstr "Halda alltaf áfram"
 
 #: modules/gui/macosx/playlist.m:1541
 msgid "Playback of \"%@\" will continue at %@"
-msgstr ""
+msgstr "Afspilun á \"%@\" mun halda áfram við %@"
 
 #: modules/gui/macosx/playlistinfo.m:71
 #: modules/gui/qt4/dialogs/mediainfo.cpp:54
@@ -17060,7 +17086,7 @@ msgstr "Bitahraði inntaks"
 
 #: modules/gui/macosx/playlistinfo.m:98
 msgid "Demuxed"
-msgstr ""
+msgstr "Affléttað"
 
 #: modules/gui/macosx/playlistinfo.m:99
 msgid "Stream bitrate"
@@ -17126,15 +17152,15 @@ msgstr "Birta einfalt"
 
 #: modules/gui/macosx/prefs_widgets.m:1156
 msgid "Select a directory"
-msgstr "Veljið slóð"
+msgstr "Veldu möppu"
 
 #: modules/gui/macosx/prefs_widgets.m:1156
 msgid "Select a file"
-msgstr "Veljið skrá"
+msgstr "Veldu skrá"
 
 #: modules/gui/macosx/prefs_widgets.m:1157
 msgid "Select"
-msgstr "Veljið"
+msgstr "Veldu"
 
 #: modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/components/simple_preferences.cpp:270
@@ -17159,11 +17185,11 @@ msgstr "Myndstillingar"
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/simple_preferences.cpp:855
 msgid "Subtitle & On Screen Display Settings"
-msgstr ""
+msgstr "Stillingar skjátexta og stjórntexta"
 
 #: modules/gui/macosx/simple_prefs.m:277
 msgid "Input & Codec Settings"
-msgstr ""
+msgstr "Stillingar fyrir inntak og kóðunarlykla"
 
 #: modules/gui/macosx/simple_prefs.m:311
 msgid "General Audio"
@@ -17175,7 +17201,7 @@ msgstr "Kjörstilling tals:"
 
 #: modules/gui/macosx/simple_prefs.m:313
 msgid "Enable Last.fm submissions"
-msgstr ""
+msgstr "Virkja Last.fm framlög"
 
 #: modules/gui/macosx/simple_prefs.m:317
 msgid "Visualization"
@@ -17195,7 +17221,7 @@ msgstr "Breyta"
 
 #: modules/gui/macosx/simple_prefs.m:323
 msgid "Change Hotkey"
-msgstr ""
+msgstr "Breyta flýtilykli"
 
 #: modules/gui/macosx/simple_prefs.m:327
 msgid "Select an action to change the associated hotkey:"
@@ -17216,7 +17242,7 @@ msgstr "Laga AVI Skrár"
 
 #: modules/gui/macosx/simple_prefs.m:336
 msgid "Default Caching Level"
-msgstr ""
+msgstr "Sjálfgefið stig biðminnis"
 
 #: modules/gui/macosx/simple_prefs.m:337 modules/gui/qt4/ui/open.h:248
 msgid "Caching"
@@ -17230,15 +17256,15 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:339
 msgid "Codecs / Muxers"
-msgstr ""
+msgstr "Kóðunarlyklar / Fléttarar (codecs/muxers)"
 
 #: modules/gui/macosx/simple_prefs.m:341
 msgid "Hardware Acceleration"
-msgstr ""
+msgstr "Vélbúnaðarhröðun"
 
 #: modules/gui/macosx/simple_prefs.m:342
 msgid "Post-Processing Quality"
-msgstr ""
+msgstr "Gæði eftirmeðhöndlunar (post-processing)"
 
 #: modules/gui/macosx/simple_prefs.m:346
 msgid "Edit default application settings for network protocols"
@@ -17266,11 +17292,11 @@ msgstr "Bjart"
 
 #: modules/gui/macosx/simple_prefs.m:359
 msgid "Show video within the main window"
-msgstr ""
+msgstr "Sýna myndmerki innan aðalglugga"
 
 #: modules/gui/macosx/simple_prefs.m:361
 msgid "Show Fullscreen Controller"
-msgstr ""
+msgstr "Birta heilskjástýringu"
 
 #: modules/gui/macosx/simple_prefs.m:362
 #: modules/gui/qt4/ui/sprefs_interface.h:528
@@ -17292,7 +17318,7 @@ msgstr "Lua HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:375
 msgid "Continue playback"
-msgstr ""
+msgstr "Halda afspilun áfram"
 
 #: modules/gui/macosx/simple_prefs.m:378
 msgid "Default Encoding"
@@ -17316,12 +17342,12 @@ msgstr "Letur"
 
 #: modules/gui/macosx/simple_prefs.m:384
 msgid "Subtitle languages"
-msgstr ""
+msgstr "Tungumál skjáexta"
 
 #: modules/gui/macosx/simple_prefs.m:385
 #: modules/gui/qt4/ui/sprefs_subtitles.h:296
 msgid "Preferred subtitle language"
-msgstr ""
+msgstr "Umbeðið tungumál skjátexta"
 
 #: modules/gui/macosx/simple_prefs.m:387
 msgid "Enable OSD"
@@ -17978,7 +18004,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
-msgstr ""
+msgstr "Umkóða/Vista í skrá"
 
 #: modules/gui/macosx/wizard.m:337
 msgid "Choose input"
@@ -17991,7 +18017,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:340 modules/gui/macosx/wizard.m:529
 #: modules/gui/macosx/wizard.m:1640
 msgid "Select a stream"
-msgstr "Veljið straum"
+msgstr "Veldu straum"
 
 #: modules/gui/macosx/wizard.m:342
 msgid "Existing playlist item"
@@ -18027,7 +18053,7 @@ msgstr "Áfangastaður"
 
 #: modules/gui/macosx/wizard.m:364 modules/gui/macosx/wizard.m:436
 msgid "Streaming method"
-msgstr ""
+msgstr "Streymiaðferð"
 
 #: modules/gui/macosx/wizard.m:365
 msgid "Address of the computer to stream to."
@@ -18044,7 +18070,7 @@ msgstr "UDP Fjölkast"
 #: modules/gui/macosx/wizard.m:373
 #: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
-msgstr ""
+msgstr "Umkóða"
 
 #: modules/gui/macosx/wizard.m:374
 msgid ""
@@ -18054,11 +18080,11 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:379 modules/gui/macosx/wizard.m:438
 msgid "Transcode audio"
-msgstr ""
+msgstr "Umkóða hljóð"
 
 #: modules/gui/macosx/wizard.m:380 modules/gui/macosx/wizard.m:440
 msgid "Transcode video"
-msgstr ""
+msgstr "Umkóða myndmerki"
 
 #: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:1742
 msgid ""
@@ -18097,7 +18123,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:412
 #: modules/gui/macosx/wizard.m:444 modules/gui/macosx/wizard.m:1811
 msgid "Local playback"
-msgstr ""
+msgstr "Staðvær afspilun"
 
 #: modules/gui/macosx/wizard.m:404 modules/gui/macosx/wizard.m:413
 msgid "Add Subtitles to transcoded video"
@@ -18105,7 +18131,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:407
 msgid "Additional transcode options"
-msgstr ""
+msgstr "Viðbótarvalkostir umkóðunar"
 
 #: modules/gui/macosx/wizard.m:408
 msgid "In this page, a few additional transcoding parameters can be set."
@@ -18149,7 +18175,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:591
 msgid "No input selected"
-msgstr ""
+msgstr "Ekkert inntak valið"
 
 #: modules/gui/macosx/wizard.m:593
 msgid ""
@@ -18181,7 +18207,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1020
 msgid "Select the directory to save to"
-msgstr "Veljið slóð til að vista í"
+msgstr "Veldu möppu til að vista í"
 
 #: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
@@ -18232,7 +18258,7 @@ msgstr "nei"
 
 #: modules/gui/macosx/wizard.m:1315
 msgid "yes: from %@ to %@"
-msgstr ""
+msgstr "já: frá %@ tIL %@"
 
 #: modules/gui/macosx/wizard.m:1325 modules/gui/macosx/wizard.m:1343
 msgid "yes: %@ @ %@ kb/s"
@@ -18240,7 +18266,7 @@ msgstr "já: %@ @ %@ kb/s"
 
 #: modules/gui/macosx/wizard.m:1609
 msgid "This allows streaming on a network."
-msgstr ""
+msgstr "Þetta gerir kleift að streyma á neti"
 
 #: modules/gui/macosx/wizard.m:1617
 msgid ""
@@ -18306,16 +18332,16 @@ msgstr ""
 #: modules/gui/ncurses.c:775
 #, c-format
 msgid "  [%s]"
-msgstr ""
+msgstr "  [%s]"
 
 #: modules/gui/ncurses.c:779
 #, c-format
 msgid "      %s: %s"
-msgstr ""
+msgstr "      %s: %s"
 
 #: modules/gui/ncurses.c:873
 msgid "[Display]"
-msgstr ""
+msgstr "[Skjár]"
 
 #: modules/gui/ncurses.c:875
 msgid " h,H                    Show/Hide help box"
@@ -18335,7 +18361,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:879
 msgid " P                      Show/Hide playlist box"
-msgstr ""
+msgstr " P                      Sýna/fela spilunarlistaglugga"
 
 #: modules/gui/ncurses.c:880
 msgid " B                      Show/Hide filebrowser"
@@ -18355,27 +18381,27 @@ msgstr ""
 
 #: modules/gui/ncurses.c:884
 msgid " Ctrl-l                 Refresh the screen"
-msgstr ""
+msgstr " Ctrl-l                 Endurteikna skjá"
 
 #: modules/gui/ncurses.c:888
 msgid "[Global]"
-msgstr ""
+msgstr "[Víðvært]"
 
 #: modules/gui/ncurses.c:890
 msgid " q, Q, Esc              Quit"
-msgstr ""
+msgstr " q, Q, Esc              Hætta"
 
 #: modules/gui/ncurses.c:891
 msgid " s                      Stop"
-msgstr ""
+msgstr " s                      Stoppa"
 
 #: modules/gui/ncurses.c:892
 msgid " <space>                Pause/Play"
-msgstr ""
+msgstr " <space>                Bíða/Spila"
 
 #: modules/gui/ncurses.c:893
 msgid " f                      Toggle Fullscreen"
-msgstr ""
+msgstr " Víxla skjáfylli"
 
 #: modules/gui/ncurses.c:894
 msgid " c                      Cycle through audio tracks"
@@ -18383,7 +18409,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:895
 msgid " v                      Cycle through subtitles tracks"
-msgstr ""
+msgstr " v                      Fletta í gegnum skjátextarásir"
 
 #: modules/gui/ncurses.c:896
 msgid " b                      Cycle through video tracks"
@@ -18391,29 +18417,29 @@ msgstr ""
 
 #: modules/gui/ncurses.c:897
 msgid " n, p                   Next/Previous playlist item"
-msgstr ""
+msgstr " n, p                   Næsta/Fyrra atriði á spilunarlistanum"
 
 #: modules/gui/ncurses.c:898
 msgid " [, ]                   Next/Previous title"
-msgstr ""
+msgstr " [, ]                   Næsti/Fyrri titill"
 
 #: modules/gui/ncurses.c:899
 msgid " <, >                   Next/Previous chapter"
-msgstr ""
+msgstr " <, >                   Næsti/Fyrri kafli"
 
 #. xgettext: You can use ← and → characters
 #: modules/gui/ncurses.c:901
 #, c-format
 msgid " <left>,<right>         Seek -/+ 1%%"
-msgstr ""
+msgstr " <upp>,<niður>            Leita -/+ 1%%"
 
 #: modules/gui/ncurses.c:902
 msgid " a, z                   Volume Up/Down"
-msgstr ""
+msgstr " a, z                   Auka/Minnka hljóðstyrk"
 
 #: modules/gui/ncurses.c:903
 msgid " m                      Mute"
-msgstr ""
+msgstr " m                      Þagga"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:905
@@ -18432,141 +18458,141 @@ msgstr ""
 
 #: modules/gui/ncurses.c:913
 msgid "[Playlist]"
-msgstr ""
+msgstr "[Spilunarlisti]"
 
 #: modules/gui/ncurses.c:915
 msgid " r                      Toggle Random playing"
-msgstr ""
+msgstr " r                      Víxla slembispilun"
 
 #: modules/gui/ncurses.c:916
 msgid " l                      Toggle Loop Playlist"
-msgstr ""
+msgstr " l                      Víxla lykkju í spilunarlista af/á"
 
 #: modules/gui/ncurses.c:917
 msgid " R                      Toggle Repeat item"
-msgstr ""
+msgstr " R                      Víxla til að endurtaka atriði"
 
 #: modules/gui/ncurses.c:918
 msgid " o                      Order Playlist by title"
-msgstr ""
+msgstr " o                      Raða spilunarlista eftir titli"
 
 #: modules/gui/ncurses.c:919
 msgid " O                      Reverse order Playlist by title"
-msgstr ""
+msgstr " O                      Raða spilunarlista öfugt eftir titli"
 
 #: modules/gui/ncurses.c:920
 msgid " g                      Go to the current playing item"
-msgstr ""
+msgstr " g                      Fara að atriði núna í spilun"
 
 #: modules/gui/ncurses.c:921
 msgid " /                      Look for an item"
-msgstr ""
+msgstr " /                      Leita að atriði"
 
 #: modules/gui/ncurses.c:922
 msgid " ;                      Look for the next item"
-msgstr ""
+msgstr " ;                      Fara að næsta atriði"
 
 #: modules/gui/ncurses.c:923
 msgid " A                      Add an entry"
-msgstr ""
+msgstr " A                      Bæta við færslu"
 
 #. xgettext: You can use ⌫ character to translate <backspace>
 #: modules/gui/ncurses.c:925
 msgid " D, <backspace>, <del>  Delete an entry"
-msgstr ""
+msgstr " D, <bakfærsla>, <del>  Eyða færslu"
 
 #: modules/gui/ncurses.c:926
 msgid " e                      Eject (if stopped)"
-msgstr ""
+msgstr " e                      Spýta út (ef stöðvað)"
 
 #: modules/gui/ncurses.c:930
 msgid "[Filebrowser]"
-msgstr ""
+msgstr "[Skráastjóri]"
 
 #: modules/gui/ncurses.c:932
 msgid " <enter>                Add the selected file to the playlist"
-msgstr ""
+msgstr " <enter>                Bæta völdum skrám á spilunarlistann"
 
 #: modules/gui/ncurses.c:933
 msgid " <space>                Add the selected directory to the playlist"
-msgstr ""
+msgstr " <space>                Bæta valinni möppu á spilunarlistann"
 
 #: modules/gui/ncurses.c:934
 msgid " .                      Show/Hide hidden files"
-msgstr ""
+msgstr " .                      Sýna faldar skrár"
 
 #: modules/gui/ncurses.c:938
 msgid "[Player]"
-msgstr ""
+msgstr "[Spilari]"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:941
 #, c-format
 msgid " <up>,<down>            Seek +/-5%%"
-msgstr ""
+msgstr " <upp>,<niður>            Leita +/-5%%"
 
 #: modules/gui/ncurses.c:1061
 msgid "[Repeat] "
-msgstr ""
+msgstr "[Endurtaka] "
 
 #: modules/gui/ncurses.c:1062
 msgid "[Random] "
-msgstr ""
+msgstr "[Slembispilun] "
 
 #: modules/gui/ncurses.c:1063
 msgid "[Loop]"
-msgstr ""
+msgstr "[Lykkja]"
 
 #: modules/gui/ncurses.c:1072
 #, c-format
 msgid " Source   : %s"
-msgstr ""
+msgstr " Uppruni   : %s"
 
 #: modules/gui/ncurses.c:1105
 #, c-format
 msgid " Position : %s/%s"
-msgstr ""
+msgstr " Staðsetning : %s/%s"
 
 #: modules/gui/ncurses.c:1110
 msgid " Volume   : Mute"
-msgstr ""
+msgstr " Hljóðstyrkur   : Þaggað"
 
 #: modules/gui/ncurses.c:1111
 #, c-format
 msgid " Volume   : %3ld%%"
-msgstr ""
+msgstr " Hljóðstyrkur   : %3ld%%"
 
 #: modules/gui/ncurses.c:1111
 msgid " Volume   : ----"
-msgstr ""
+msgstr " Hljóðstyrkur   : ----"
 
 #: modules/gui/ncurses.c:1117
 #, c-format
 msgid " Title    : %<PRId64>/%d"
-msgstr ""
+msgstr " Titill    : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1123
 #, c-format
 msgid " Chapter  : %<PRId64>/%d"
-msgstr ""
+msgstr " Kafli  : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1128
 msgid " Source: <no current item> "
-msgstr ""
+msgstr " Uppruni: <ekkert í gangi> "
 
 #: modules/gui/ncurses.c:1130
 msgid " [ h for help ]"
-msgstr ""
+msgstr " [ h fyrir hjálp ]"
 
 #: modules/gui/ncurses.c:1151
 #, c-format
 msgid "Open: %s"
-msgstr ""
+msgstr "Opna: %s"
 
 #: modules/gui/ncurses.c:1153
 #, c-format
 msgid "Find: %s"
-msgstr ""
+msgstr "Finna: %s"
 
 #: modules/gui/qt4/components/controller.cpp:340
 msgid "Shift+L"
@@ -18574,7 +18600,7 @@ msgstr "Shift+L"
 
 #: modules/gui/qt4/components/controller.cpp:445
 msgid "Click to toggle between loop all, loop one and no loop"
-msgstr ""
+msgstr "Smelltu til að víxla á milli lykkja allt, lykkja eitt og engrar lykkju"
 
 #: modules/gui/qt4/components/controller.cpp:536
 msgid "Previous Chapter/Title"
@@ -18590,33 +18616,35 @@ msgstr "Virkja Textavarp"
 
 #: modules/gui/qt4/components/controller.cpp:597
 msgid "Toggle Transparency "
-msgstr ""
+msgstr "Víxla gegnsæi "
 
 #: modules/gui/qt4/components/controller.hpp:43
 msgid ""
 "Play\n"
 "If the playlist is empty, open a medium"
 msgstr ""
+"Spila\n"
+"Ef spilunarlisti er tómur, opna miðil"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Previous / Backward"
-msgstr ""
+msgstr "Fyrra / Afturábak"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Next / Forward"
-msgstr ""
+msgstr "Næsta / Áfram"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "De-Fullscreen"
-msgstr ""
+msgstr "Hætta skjáfylli"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Extended panel"
-msgstr ""
+msgstr "Útvíkkað spjald"
 
 #: modules/gui/qt4/components/controller.hpp:118
 msgid "A->B Loop"
-msgstr "Endurtaka A->B"
+msgstr "A→B lykkja"
 
 #: modules/gui/qt4/components/controller.hpp:118
 msgid "Frame By Frame"
@@ -18638,11 +18666,11 @@ msgstr "Skref áfram"
 
 #: modules/gui/qt4/components/controller.hpp:120
 msgid "Loop / Repeat"
-msgstr ""
+msgstr "Lykkja / Endurtaka"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Open subtitles"
-msgstr ""
+msgstr "Opna skjátexta"
 
 #: modules/gui/qt4/components/controller.hpp:121
 msgid "Dock fullscreen controller"
@@ -18658,11 +18686,11 @@ msgstr "Opna miðil"
 
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Previous media in the playlist, skip backward when held"
-msgstr ""
+msgstr "Fyrri miðill í spilunarlistanum, sleppa afturábak ef haldið niðri"
 
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Next media in the playlist, skip forward when held"
-msgstr ""
+msgstr "Næsti miðill í spilunarlistanum, sleppa áfram ef haldið niðri"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Toggle the video in fullscreen"
@@ -18678,7 +18706,7 @@ msgstr "Sýna auka stillingar"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Toggle playlist"
-msgstr ""
+msgstr "Víxla spilunarlista af/á"
 
 #: modules/gui/qt4/components/controller.hpp:129
 msgid "Take a snapshot"
@@ -18686,7 +18714,7 @@ msgstr "Taka skjámynd"
 
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Loop from point A to point B continuously."
-msgstr ""
+msgstr "Spila í sífelldri lykkju frá punkti A í punkt B."
 
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Frame by frame"
@@ -18698,7 +18726,7 @@ msgstr "Aftur á bak"
 
 #: modules/gui/qt4/components/controller.hpp:132
 msgid "Change the loop and repeat modes"
-msgstr ""
+msgstr "Breyta lykkju- og endurtekningarham"
 
 #: modules/gui/qt4/components/controller.hpp:133
 msgid "Previous media in the playlist"
@@ -18711,7 +18739,7 @@ msgstr "Næsti miðill í spilunarlistanum"
 #: modules/gui/qt4/components/controller.hpp:134
 #: modules/gui/qt4/components/open_panels.cpp:253
 msgid "Open subtitle file"
-msgstr ""
+msgstr "Opna skjátextaskrá"
 
 #: modules/gui/qt4/components/controller.hpp:135
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
@@ -18736,6 +18764,8 @@ msgid ""
 "Loop from point A to point B continuously\n"
 "Click to set point A"
 msgstr ""
+"Spila í sífelldri lykkju frá punkti A í punkt B\n"
+"Smelltu til að setja punkt A"
 
 #: modules/gui/qt4/components/controller_widget.cpp:242
 msgid "Click to set point B"
@@ -18743,7 +18773,7 @@ msgstr "Smellið til að skilgreina punkt B"
 
 #: modules/gui/qt4/components/controller_widget.cpp:247
 msgid "Stop the A to B loop"
-msgstr "Stoppa A til B endurtekningu"
+msgstr "Stoppa A til B lykkju"
 
 #: modules/gui/qt4/components/controller_widget.cpp:268
 msgid "Aspect Ratio"
@@ -18796,78 +18826,78 @@ msgstr "dB"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1222
 msgid "170 Hz"
-msgstr ""
+msgstr "170 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1223
 msgid "310 Hz"
-msgstr ""
+msgstr "310 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1224
 msgid "600 Hz"
-msgstr ""
+msgstr "600 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1225
 #: modules/gui/qt4/components/extended_panels.cpp:1239
 msgid "1 KHz"
-msgstr ""
+msgstr "1 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1226
 msgid "3 KHz"
-msgstr ""
+msgstr "3 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1227
 msgid "6 KHz"
-msgstr ""
+msgstr "6 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1228
 msgid "12 KHz"
-msgstr ""
+msgstr "12 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1229
 msgid "14 KHz"
-msgstr ""
+msgstr "14 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1230
 #: modules/gui/qt4/components/extended_panels.cpp:1243
 msgid "16 KHz"
-msgstr ""
+msgstr "16 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1234
 msgid "31 Hz"
-msgstr ""
+msgstr "31 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1235
 msgid "63 Hz"
-msgstr ""
+msgstr "63 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1236
 msgid "125 Hz"
-msgstr ""
+msgstr "125 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1237
 msgid "250 Hz"
-msgstr ""
+msgstr "250 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1238
 msgid "500 Hz"
-msgstr ""
+msgstr "500 Hz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1240
 msgid "2 KHz"
-msgstr ""
+msgstr " 2 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1241
 msgid "4 KHz"
-msgstr ""
+msgstr "4 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1242
 msgid "8 KHz"
-msgstr ""
+msgstr "8 KHz"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1410
 #: modules/gui/qt4/components/extended_panels.cpp:1411
 msgid "ms"
-msgstr ""
+msgstr "msek"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1414
 msgid ""
@@ -18883,7 +18913,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/extended_panels.cpp:1470
 msgid "(Hastened)"
-msgstr ""
+msgstr "(Hraðað)"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1472
 msgid "(Delayed)"
@@ -18895,7 +18925,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:150
 msgid "&Fingerprint"
-msgstr ""
+msgstr "&Fingrafar"
 
 #: modules/gui/qt4/components/info_panels.cpp:151
 msgid "Find meta data using audio fingerprinting"
@@ -18929,7 +18959,7 @@ msgstr "Stærð lýsigagna"
 
 #: modules/gui/qt4/components/info_panels.cpp:575
 msgid "Demuxed data size"
-msgstr ""
+msgstr "Affléttuð gagnastærð"
 
 #: modules/gui/qt4/components/info_panels.cpp:576
 msgid "Content bitrate"
@@ -18941,7 +18971,7 @@ msgstr "Hent (skemmt)"
 
 #: modules/gui/qt4/components/info_panels.cpp:580
 msgid "Dropped (discontinued)"
-msgstr ""
+msgstr "Hætt (ekki haldið áfram)"
 
 #: modules/gui/qt4/components/info_panels.cpp:583
 #: modules/gui/qt4/components/info_panels.cpp:596
@@ -18991,15 +19021,15 @@ msgstr "biðminni"
 
 #: modules/gui/qt4/components/info_panels.cpp:622
 msgid "Last 60 seconds"
-msgstr ""
+msgstr "Síðustu 60 sekúndur"
 
 #: modules/gui/qt4/components/info_panels.cpp:623
 msgid "Overall"
-msgstr ""
+msgstr "Heildar"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:431
 msgid "Current visualization"
-msgstr ""
+msgstr "Sjónbrellur í gangi"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:470
 msgid ""
@@ -19019,15 +19049,15 @@ msgstr ""
 
 #: modules/gui/qt4/components/interface_widgets.cpp:654
 msgid "Add cover art from file"
-msgstr ""
+msgstr "Bæta við umslagsmynd úr skrá"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:720
 msgid "Choose Cover Art"
-msgstr ""
+msgstr "Veldu umslagsmynd"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:721
 msgid "Image Files (*.gif *.jpg *.jpeg *.png)"
-msgstr ""
+msgstr "Myndskrár (*.gif *.jpg *.jpeg *.png)"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:745
 #: modules/gui/qt4/dialogs/toolbar.cpp:544
@@ -19062,7 +19092,7 @@ msgstr ""
 #: modules/gui/qt4/components/open_panels.cpp:145
 #: modules/gui/qt4/components/open_panels.cpp:223
 msgid "Select one or multiple files"
-msgstr "Veljið eina eða fleiri skrár"
+msgstr "Veldu eina eða fleiri skrár"
 
 #: modules/gui/qt4/components/open_panels.cpp:160
 msgid "File names:"
@@ -19176,7 +19206,7 @@ msgstr "Viltu örugglega afpanta áskrift að %1?"
 
 #: modules/gui/qt4/components/playlist/sorting.h:64
 msgid "Cover"
-msgstr ""
+msgstr "Kápa"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Directory"
@@ -19236,13 +19266,15 @@ msgstr "Lækkandi"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:391
 msgid "Playlist View Mode"
-msgstr ""
+msgstr "Skoðunarhamur spilunarlista"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:560
 msgid ""
 "Playlist is currently empty.\n"
 "Drop a file here or select a media source from the left."
 msgstr ""
+"Spilunarlisti er auður.\n"
+"Slepptu skrám hingað eða veldu gagnamiðil hér til vinstri."
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:146
 msgid "Icons"
@@ -19262,7 +19294,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:305
 msgid "Select File"
-msgstr "Veljið Skrá"
+msgstr "Veldu skrá"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1132
 msgid ""
@@ -20037,11 +20069,11 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:63
 msgid "Toolbars Editor"
-msgstr "Áhaldastikuritill"
+msgstr "Verkfærastikuritill"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:70
 msgid "Toolbar Elements"
-msgstr "Einingar áhaldastiku"
+msgstr "Einingar verkfærastiku"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:75
 msgid "Flat Button"
@@ -20105,7 +20137,7 @@ msgstr "Veldu snið:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:185
 msgid "Preview"
-msgstr ""
+msgstr "Forskoða"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:194
 msgid "Cl&ose"
@@ -20121,7 +20153,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:394
 msgid "Spacer"
-msgstr ""
+msgstr "Aðgreinir"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:401
 msgid "Expanding Spacer"
@@ -20129,7 +20161,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:433
 msgid "Splitter"
-msgstr ""
+msgstr "Skiptari"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:440
 msgid "Time Slider"
@@ -20145,7 +20177,7 @@ msgstr "DVD valmyndir"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:519
 msgid "Advanced Buttons"
-msgstr ""
+msgstr "Ítarlegt um hnappa"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:532
 msgid "Playback Buttons"
@@ -20153,11 +20185,11 @@ msgstr "Afspilunarhnappar"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:536
 msgid "Aspect ratio selector"
-msgstr ""
+msgstr "Val stærðarhlutfalla"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:540
 msgid "Speed selector"
-msgstr ""
+msgstr "Hraðaval"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:73
 msgid "Broadcast"
@@ -20226,12 +20258,11 @@ msgstr "VOD: "
 
 #: modules/gui/qt4/main_interface.cpp:379
 msgid "Do you want to restart the playback where left off?"
-msgstr ""
+msgstr "Viltu halda afspilun áfram þar sem þú hættir?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Halda Áfram"
+msgstr "Á&fram"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -20379,11 +20410,11 @@ msgstr "&Ítarlegar stillingar"
 
 #: modules/gui/qt4/menus.cpp:529
 msgid "Status Bar"
-msgstr "Stöðuslá"
+msgstr "Stöðustika"
 
 #: modules/gui/qt4/menus.cpp:534
 msgid "Visualizations selector"
-msgstr ""
+msgstr "Val á sjónbrellum"
 
 #: modules/gui/qt4/menus.cpp:592
 msgid "&Increase Volume"
@@ -20407,7 +20438,7 @@ msgstr "Hljóð&tæki"
 
 #: modules/gui/qt4/menus.cpp:618
 msgid "&Stereo Mode"
-msgstr ""
+msgstr "&Víðóma hamur"
 
 #: modules/gui/qt4/menus.cpp:621
 msgid "&Visualizations"
@@ -20415,11 +20446,11 @@ msgstr "Sjón&gerving"
 
 #: modules/gui/qt4/menus.cpp:647
 msgid "Add &Subtitle File..."
-msgstr ""
+msgstr "Bæta við &skjátextaskrá..."
 
 #: modules/gui/qt4/menus.cpp:649
 msgid "Sub &Track"
-msgstr ""
+msgstr "Undirspor"
 
 #: modules/gui/qt4/menus.cpp:671
 msgid "Video &Track"
@@ -20555,7 +20586,7 @@ msgstr "&Hreinsa"
 
 #: modules/gui/qt4/menus.cpp:1640
 msgid "&Save To Playlist"
-msgstr ""
+msgstr "&Vista í spilunarlista"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -20755,7 +20786,7 @@ msgstr "Qt viðmót"
 
 #: modules/gui/qt4/recents.cpp:159
 msgid "Recently Played"
-msgstr ""
+msgstr "Nýlega spilað"
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
@@ -20873,7 +20904,7 @@ msgstr ""
 
 #: modules/hw/vdpau/chroma.c:844 modules/hw/vdpau/display.c:45
 msgid "VDPAU"
-msgstr ""
+msgstr "VDPAU"
 
 #: modules/hw/vdpau/chroma.c:845
 msgid "VDPAU surface conversions"
@@ -20897,7 +20928,7 @@ msgstr ""
 
 #: modules/hw/vdpau/chroma.c:861
 msgid "Noise reduction level"
-msgstr ""
+msgstr "Styrkur síunar á suði"
 
 #: modules/hw/vdpau/chroma.c:863
 msgid "Scaling quality"
@@ -21135,7 +21166,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:72
 msgid "GNU TLS transport layer security"
-msgstr ""
+msgstr "GNU TLS transport layer security"
 
 #: modules/misc/gnutls.c:79
 msgid "GNU TLS server"
@@ -21403,7 +21434,7 @@ msgstr ""
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
-msgstr ""
+msgstr "ASF fléttari"
 
 #: modules/mux/asf.c:563
 msgid "Unknown Video"
@@ -21411,23 +21442,23 @@ msgstr "Óþekkt myndskeið"
 
 #: modules/mux/avi.c:54
 msgid "Subject"
-msgstr ""
+msgstr "Efni"
 
 #: modules/mux/avi.c:55
 msgid "Encoder"
-msgstr ""
+msgstr "Kóðari"
 
 #: modules/mux/avi.c:56
 msgid "Keywords"
-msgstr ""
+msgstr "Stikkorð"
 
 #: modules/mux/avi.c:59
 msgid "AVI muxer"
-msgstr ""
+msgstr "AVI fléttari"
 
 #: modules/mux/dummy.c:45
 msgid "Dummy/Raw muxer"
-msgstr ""
+msgstr "Prófunar/Raw fléttari"
 
 #: modules/mux/mp4.c:48
 msgid "Create \"Fast Start\" files"
@@ -21442,11 +21473,11 @@ msgstr ""
 
 #: modules/mux/mp4.c:60
 msgid "MP4/MOV muxer"
-msgstr ""
+msgstr "MP4/MOV fléttari"
 
 #: modules/mux/mpeg/ps.c:48 modules/mux/mpeg/ts.c:148
 msgid "DTS delay (ms)"
-msgstr ""
+msgstr "DTS töf (msek)"
 
 #: modules/mux/mpeg/ps.c:49
 msgid ""
@@ -21465,7 +21496,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ps.c:64
 msgid "PS muxer"
-msgstr ""
+msgstr "PS fléttari"
 
 #: modules/mux/mpeg/ts.c:88
 msgid "Video PID"
@@ -21658,11 +21689,11 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:181
 msgid "TS muxer (libdvbpsi)"
-msgstr ""
+msgstr "TS fléttari (libdvbpsi)"
 
 #: modules/mux/mpjpeg.c:47
 msgid "Multipart JPEG muxer"
-msgstr ""
+msgstr "Marghlutat JPEG fléttari"
 
 #: modules/mux/ogg.c:47
 msgid "Index interval"
@@ -21683,11 +21714,11 @@ msgstr ""
 
 #: modules/mux/ogg.c:60
 msgid "Ogg/OGM muxer"
-msgstr ""
+msgstr "Ogg/OGM fléttari"
 
 #: modules/mux/wav.c:46
 msgid "WAV muxer"
-msgstr ""
+msgstr "WAV fléttari"
 
 #: modules/notify/growl.m:104
 msgid "Growl Notification Plugin"
@@ -21699,11 +21730,11 @@ msgstr ""
 
 #: modules/notify/growl.m:305
 msgid "Now playing"
-msgstr "Í Spilun"
+msgstr "Í afspilun"
 
 #: modules/notify/notify.c:53
 msgid "Timeout (ms)"
-msgstr ""
+msgstr "Tímamörk (msek):"
 
 #: modules/notify/notify.c:54
 msgid "How long the notification will be displayed "
@@ -21735,7 +21766,7 @@ msgstr "H.264 myndmerkisbitari"
 
 #: modules/packetizer/hevc.c:50
 msgid "HEVC/H.265 video packetizer"
-msgstr ""
+msgstr "HEVC/H.265 myndmerkisbitari"
 
 #: modules/packetizer/mlp.c:49
 msgid "MLP/TrueHD parser"
@@ -22143,7 +22174,7 @@ msgstr ""
 
 #: modules/stream_out/display.c:44
 msgid "Delay (ms)"
-msgstr "Töf (tími)"
+msgstr "Töf (msek)"
 
 #: modules/stream_out/display.c:45
 msgid "Introduces a delay in the display of the stream."
@@ -22183,7 +22214,7 @@ msgstr ""
 
 #: modules/stream_out/es.c:52 modules/stream_out/standard.c:44
 msgid "Output muxer"
-msgstr ""
+msgstr "Úttaksfléttari"
 
 #: modules/stream_out/es.c:54
 msgid "This is the default muxer method that will be used."
@@ -22191,7 +22222,7 @@ msgstr ""
 
 #: modules/stream_out/es.c:55
 msgid "Audio output muxer"
-msgstr ""
+msgstr "Hljóðúttaksfléttari"
 
 #: modules/stream_out/es.c:57
 msgid "This is the muxer that will be used for audio."
@@ -22199,7 +22230,7 @@ msgstr ""
 
 #: modules/stream_out/es.c:58
 msgid "Video output muxer"
-msgstr ""
+msgstr "Myndmerkisúttaksfléttari"
 
 #: modules/stream_out/es.c:60
 msgid "This is the muxer that will be used for video."
@@ -22311,7 +22342,7 @@ msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:123
 msgid "Image chroma"
-msgstr ""
+msgstr "Litgildi myndar (chroma)"
 
 #: modules/stream_out/mosaic_bridge.c:125
 msgid ""
@@ -22495,7 +22526,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:122
 msgid "Video port"
-msgstr "Myndbandatengi"
+msgstr "Myndmerkisgátt"
 
 #: modules/stream_out/rtp.c:124
 msgid ""
@@ -22688,7 +22719,7 @@ msgstr ""
 
 #: modules/stream_out/standard.c:46
 msgid "Muxer to use for the stream."
-msgstr ""
+msgstr "Fléttari til notkunar fyrir gagnastraum"
 
 #: modules/stream_out/standard.c:47
 #: share/lua/http/dialogs/create_stream.html:334
@@ -22858,7 +22889,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:108
 msgid "Subtitle encoder"
-msgstr ""
+msgstr "Skjátextaafkóðari"
 
 #: modules/stream_out/transcode/transcode.c:110
 msgid ""
@@ -22910,7 +22941,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:148
 msgid "Transcode stream output"
-msgstr ""
+msgstr "Umkóða straumúttak"
 
 #: modules/stream_out/transcode/transcode.c:202
 msgid "Overlays/Subtitles"
@@ -23158,7 +23189,7 @@ msgstr "Svæði"
 
 #: modules/video_chroma/swscale.c:63
 msgid "Luma bicubic / chroma bilinear"
-msgstr ""
+msgstr "Tvíkassa ljómastigull (luma) / tvílínulegt litgildi (chroma)"
 
 #: modules/video_chroma/swscale.c:63
 msgid "Gauss"
@@ -23666,7 +23697,7 @@ msgstr "Hundraðshluti"
 
 #: modules/video_filter/atmo/atmo.cpp:291
 msgid "Frame delay (ms)"
-msgstr "Rammatöf (ms)"
+msgstr "Rammatöf (msek)"
 
 #: modules/video_filter/atmo/atmo.cpp:292
 msgid ""
@@ -24006,7 +24037,7 @@ msgstr "Afkastamælingar"
 
 #: modules/video_filter/blendbench.c:86
 msgid "Base image"
-msgstr ""
+msgstr "Grunnmynd"
 
 #: modules/video_filter/blendbench.c:92
 msgid "Blend image"
@@ -24114,7 +24145,7 @@ msgstr ""
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
-msgstr "Dúkur"
+msgstr "Myndflötur"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
@@ -24461,11 +24492,11 @@ msgstr ""
 
 #: modules/video_filter/grain.c:64
 msgid "Grain video filter"
-msgstr ""
+msgstr "Myndmerkissía með kornum"
 
 #: modules/video_filter/grain.c:65
 msgid "Grain"
-msgstr ""
+msgstr "Filmukorn"
 
 #: modules/video_filter/grain.c:66
 msgid "Adds filtered gaussian noise"
@@ -24473,7 +24504,7 @@ msgstr ""
 
 #: modules/video_filter/hqdn3d.c:56
 msgid "Spatial luma strength (0-254)"
-msgstr ""
+msgstr "Rýmisstyrkur ljómastiguls (0-254)"
 
 #: modules/video_filter/hqdn3d.c:57
 msgid "Spatial chroma strength (0-254)"
@@ -24481,7 +24512,7 @@ msgstr ""
 
 #: modules/video_filter/hqdn3d.c:58
 msgid "Temporal luma strength (0-254)"
-msgstr ""
+msgstr "Tímabundinn styrkur ljómastiguls (0-254)"
 
 #: modules/video_filter/hqdn3d.c:59
 msgid "Temporal chroma strength (0-254)"
@@ -24489,11 +24520,11 @@ msgstr ""
 
 #: modules/video_filter/hqdn3d.c:62
 msgid "HQ Denoiser 3D"
-msgstr ""
+msgstr "HQ 3D afsuðari"
 
 #: modules/video_filter/hqdn3d.c:63
 msgid "High Quality 3D Denoiser filter"
-msgstr ""
+msgstr "Hágæða þrívíddarafsuðun"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
@@ -24891,7 +24922,7 @@ msgstr ""
 
 #: modules/video_filter/oldmovie.c:186
 msgid "Old movie"
-msgstr ""
+msgstr "Gömul kvikmynd"
 
 #: modules/video_filter/opencv_example.cpp:69
 msgid "OpenCV face detection example filter"
@@ -25030,7 +25061,7 @@ msgstr "Hæsta"
 
 #: modules/video_filter/psychedelic.c:54
 msgid "Psychedelic video filter"
-msgstr "Hugvíkkandi myndbandasía"
+msgstr "Hugvíkkandi myndmerkissía"
 
 #: modules/video_filter/puzzle.c:51 modules/video_filter/puzzle.c:52
 msgid "Number of puzzle rows"
@@ -25058,7 +25089,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:59
 msgid "Small preview"
-msgstr ""
+msgstr "Lítil forskoðun"
 
 #: modules/video_filter/puzzle.c:60
 msgid "Show small preview."
@@ -25098,11 +25129,11 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:69
 msgid "Rotation"
-msgstr ""
+msgstr "Snúningur"
 
 #: modules/video_filter/puzzle.c:70
 msgid "Rotation parameter: none;180;90-270;mirror"
-msgstr ""
+msgstr "Snúningsbreytur: ekkert;180;90-270;spegla"
 
 #: modules/video_filter/puzzle.c:73
 msgid "jigsaw puzzle"
@@ -25559,7 +25590,7 @@ msgstr "Umbreyting"
 
 #: modules/video_filter/transform.c:58
 msgid "Rotate or flip the video"
-msgstr ""
+msgstr "Snúa eða fletta myndskeiði"
 
 #: modules/video_filter/vhs.c:108
 msgid "VHS movie effect video filter"
@@ -25567,11 +25598,11 @@ msgstr ""
 
 #: modules/video_filter/vhs.c:109
 msgid "VHS movie"
-msgstr ""
+msgstr "VHS kvikmynd"
 
 #: modules/video_filter/wave.c:53
 msgid "Wave video filter"
-msgstr ""
+msgstr "Wave myndmerkissía"
 
 #: modules/video_filter/wave.c:54
 msgid "Wave"
@@ -25579,7 +25610,7 @@ msgstr "Bylgja"
 
 #: modules/video_filter/yuvp.c:47
 msgid "YUVP converter"
-msgstr ""
+msgstr "YUVP umbreytir"
 
 #: modules/video_output/aa.c:56
 msgid "ASCII Art"
@@ -25615,11 +25646,11 @@ msgstr "Android Surface myndmerkisúttak"
 
 #: modules/video_output/caca.c:56
 msgid "Color ASCII art video output"
-msgstr ""
+msgstr "Litað ASCII-art myndmerkisúttak"
 
 #: modules/video_output/caopengllayer.m:53
 msgid "Core Animation OpenGL Layer (Mac OS X)"
-msgstr ""
+msgstr "Core Animation OpenGL Layer (Mac OS X)"
 
 #: modules/video_output/decklink.cpp:70
 msgid "Timelength after which we assume there is no signal."
@@ -25637,7 +25668,7 @@ msgstr ""
 
 #: modules/video_output/decklink.cpp:79
 msgid "Output card"
-msgstr ""
+msgstr "Úttakskort"
 
 #: modules/video_output/decklink.cpp:81
 msgid "DeckLink output card, if multiple exist. The cards are numbered from 0."
@@ -25736,7 +25767,7 @@ msgstr "EGL viðbót fyrir OpenGL"
 
 #: modules/video_output/fb.c:56
 msgid "Framebuffer device"
-msgstr ""
+msgstr "Tæki fyrir rammabiðminni"
 
 #: modules/video_output/fb.c:58
 msgid "Framebuffer device to use for rendering (usually /dev/fb0)."
@@ -25775,7 +25806,7 @@ msgstr ""
 
 #: modules/video_output/fb.c:76
 msgid "Image format (default RGB)"
-msgstr ""
+msgstr "Myndsnið (sjálfgefið RGB)"
 
 #: modules/video_output/fb.c:77
 msgid ""
@@ -25789,15 +25820,15 @@ msgstr ""
 
 #: modules/video_output/gl.c:40
 msgid "OpenGL extension"
-msgstr ""
+msgstr "OpenGL viðbót"
 
 #: modules/video_output/gl.c:41
 msgid "OpenGL ES 2 extension"
-msgstr ""
+msgstr "OpenGL ES 2 viðbót"
 
 #: modules/video_output/gl.c:42
 msgid "OpenGL ES extension"
-msgstr ""
+msgstr "OpenGL ES viðbót"
 
 #: modules/video_output/gl.c:44
 msgid "Extension through which to use the Open Graphics Library (OpenGL)."
@@ -25933,7 +25964,7 @@ msgstr ""
 
 #: modules/video_output/msw/direct3d.c:69
 msgid "Path to HLSL file"
-msgstr ""
+msgstr "Slóð að HLSL skrá"
 
 #: modules/video_output/msw/direct3d.c:70
 msgid "Path to an HLSL file containing a single pixel shader."
@@ -25941,7 +25972,7 @@ msgstr ""
 
 #: modules/video_output/msw/direct3d.c:72
 msgid "HLSL File"
-msgstr ""
+msgstr "HLSL skrá"
 
 #: modules/video_output/msw/direct3d.c:74
 msgid "Recommended video output for Windows Vista and later versions"
@@ -26072,7 +26103,7 @@ msgstr ""
 
 #: modules/video_output/vmem.c:51
 msgid "Chroma"
-msgstr ""
+msgstr "Litgildi"
 
 #: modules/video_output/vmem.c:52
 msgid ""
@@ -26081,7 +26112,7 @@ msgstr ""
 
 #: modules/video_output/vmem.c:59
 msgid "Video memory output"
-msgstr "Myndbandsúttaksminni"
+msgstr "Úttaksminni myndmerkis"
 
 #: modules/video_output/vmem.c:60
 msgid "Video memory"
@@ -26121,7 +26152,7 @@ msgstr "X11 myndgluggi (XCB)"
 #: modules/video_output/xcb/window.c:282
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr "VLC spilarinn"
+msgstr "VLC margmiðlunarspilarinn"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
@@ -26212,7 +26243,7 @@ msgstr "YUV úttak"
 
 #: modules/video_output/yuv.c:60
 msgid "YUV video output"
-msgstr "Myndbandsúttak í YUV"
+msgstr "Myndmerkisúttak í YUV"
 
 #: modules/video_splitter/clone.c:40
 msgid "Number of video windows in which to clone the video."
@@ -26220,7 +26251,7 @@ msgstr ""
 
 #: modules/video_splitter/clone.c:43
 msgid "Video output modules"
-msgstr ""
+msgstr "Úttakseiningar myndmerkis"
 
 #: modules/video_splitter/clone.c:44
 msgid ""
@@ -26571,11 +26602,11 @@ msgstr ""
 
 #: modules/visualization/projectm.cpp:100
 msgid "projectM"
-msgstr ""
+msgstr "projectM"
 
 #: modules/visualization/projectm.cpp:101
 msgid "libprojectM effect"
-msgstr ""
+msgstr "libprojectM áhrif"
 
 #: modules/visualization/visual/visual.c:47
 msgid "Effects list"
@@ -26905,7 +26936,7 @@ msgstr ""
 
 #: share/lua/http/index.html:278
 msgid "Are you sure you wish to create the stream?"
-msgstr ""
+msgstr "Ertu viss um að þú viljir búa til stauminn?"
 
 #: modules/gui/qt4/ui/about.h:287 modules/gui/qt4/ui/open.h:242
 #: modules/gui/qt4/ui/podcast_configuration.h:100
@@ -27063,7 +27094,7 @@ msgstr "Veldu skjátextaskrána"
 
 #: modules/gui/qt4/ui/open_file.h:149
 msgid "Choose one or more media file to open"
-msgstr "Veljið eina eða fleiri margmiðlunarskrár til að opna"
+msgstr "Veldu eina eða fleiri margmiðlunarskrár til að opna"
 
 #: modules/gui/qt4/ui/open_file.h:151
 msgid "File Selection"
@@ -27086,9 +27117,8 @@ msgid "Please enter a network URL:"
 msgstr "Vinsamlegast skráðu inn gilda slóð (URL):"
 
 #: modules/gui/qt4/ui/profiles.h:686
-#, fuzzy
 msgid "Profile edition"
-msgstr "Heiti sniðs"
+msgstr "Breyting á sniði"
 
 #: modules/gui/qt4/ui/profiles.h:687
 msgid "MPEG-TS"
@@ -27211,9 +27241,8 @@ msgid "Destination Setup"
 msgstr "Uppsetning áfangastaðar"
 
 #: modules/gui/qt4/ui/sout.h:206
-#, fuzzy
 msgid "Select destinations to stream to"
-msgstr "Veljið straum"
+msgstr "Veldu áfangastaði til að streyma til"
 
 #: modules/gui/qt4/ui/sout.h:207
 msgid ""
@@ -27230,14 +27259,12 @@ msgid "Display locally"
 msgstr "Birta staðvært"
 
 #: modules/gui/qt4/ui/sout.h:212
-#, fuzzy
 msgid "Transcoding Options"
-msgstr "Nánari stillingar"
+msgstr "Valkostir umkóðunar"
 
 #: modules/gui/qt4/ui/sout.h:213
-#, fuzzy
 msgid "Select and choose transcoding options"
-msgstr "Veljið \"Ítarlegir valmöguleikar\" til að sjá alla valmöguleika."
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:214
 msgid "Activate Transcoding"
@@ -27249,7 +27276,7 @@ msgstr "Uppsetning valmöguleika"
 
 #: modules/gui/qt4/ui/sout.h:216
 msgid "Set up any additional options for streaming"
-msgstr ""
+msgstr "Stilla allar aukastillingar fyrir streymi"
 
 #: modules/gui/qt4/ui/sout.h:217
 msgid "Miscellaneous Options"
@@ -27328,9 +27355,8 @@ msgid "x264 preset and tuning selection"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:349
-#, fuzzy
 msgid "Hardware-accelerated decoding"
-msgstr "Vélbúnaðarafkóðun"
+msgstr "Vélbúnaðarhröðun afkóðunar"
 
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "Skip H.264 in-loop deblocking filter"
@@ -27406,7 +27432,7 @@ msgstr "Setja afspilun í bið þegar smækkað"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Show media change popup:"
-msgstr ""
+msgstr "Birta sprettglugga við breytingar á miðlum:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Start in minimal view mode"
@@ -27429,9 +27455,8 @@ msgid "Skin resource file:"
 msgstr "Skinnskrá:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:522
-#, fuzzy
 msgid "Playlist and Instances"
-msgstr "Spila og stoppa"
+msgstr "Spilunarlistar og aukaeintök forrits"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Allow only one instance"
@@ -27459,7 +27484,7 @@ msgstr "Virkja uppfærslutilkynningu"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Operating System Integration"
-msgstr ""
+msgstr "Aðlögun að stýrikerfi"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "File extensions association"
@@ -27478,12 +27503,10 @@ msgid "Show media title on video start"
 msgstr "Birta titil miðils við upphaf afspilunar"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:294
-#, fuzzy
 msgid "Enable subtitles"
-msgstr "Textavarpstextar"
+msgstr "Virkja skjátexta"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:295
-#, fuzzy
 msgid "Subtitle Language"
 msgstr "Tungumál skjátexta"
 
@@ -27492,9 +27515,8 @@ msgid "Default encoding"
 msgstr "Sjálfgefin kóðun"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:298
-#, fuzzy
 msgid "Subtitle effects"
-msgstr "Kóðalyklar fyrir skjátexta"
+msgstr "Sjónhverfing skjátexta"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:304
 msgid "Add a shadow"
@@ -27606,7 +27628,7 @@ msgstr "Sendi uppfærslubeiðni..."
 
 #: modules/gui/qt4/ui/update.h:150
 msgid "Do you want to download it?"
-msgstr ""
+msgstr "Viltu ná í þetta ?"
 
 #: modules/gui/qt4/ui/video_effects.h:1404
 msgid "Essential"
@@ -27676,7 +27698,7 @@ msgstr "Mörk síu (%)"
 
 #: modules/gui/qt4/ui/video_effects.h:1476
 msgid "Anaglyph 3D"
-msgstr ""
+msgstr "Anaglyph 3D"
 
 #: modules/gui/qt4/ui/video_effects.h:1477
 msgid "Mirror"
@@ -27699,26 +27721,24 @@ msgid "Soften"
 msgstr "Mýkja"
 
 #: modules/gui/qt4/ui/video_effects.h:1488
-#, fuzzy
 msgid "Denoiser"
-msgstr "Suð"
+msgstr "Afsuðari"
 
 #: modules/gui/qt4/ui/video_effects.h:1489
-#, fuzzy
 msgid "Spatial luma strength"
-msgstr "Rýmisafskerping"
+msgstr "Rýmisstyrkur ljómastiguls (luma)"
 
 #: modules/gui/qt4/ui/video_effects.h:1490
 msgid "Temporal luma strength"
-msgstr ""
+msgstr "Tímabundinn styrkur ljómastiguls (luma)"
 
 #: modules/gui/qt4/ui/video_effects.h:1491
 msgid "Spatial chroma strength"
-msgstr ""
+msgstr "Rýmisstyrkur litgildis (chroma)"
 
 #: modules/gui/qt4/ui/video_effects.h:1492
 msgid "Temporal chroma strength"
-msgstr ""
+msgstr "Tímabundinn styrkur litgildis"
 
 #: modules/gui/qt4/ui/vlm.h:286
 msgid "VLM configurator"
@@ -27758,7 +27778,7 @@ msgstr "Mux-stýring"
 
 #: modules/gui/qt4/ui/vlm.h:296
 msgid "Muxer:"
-msgstr "Muxari:"
+msgstr "Fléttari:"
 
 #: modules/gui/qt4/ui/vlm.h:297
 msgid "AAAA; "
@@ -27819,12 +27839,6 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #~ msgid "Lower the interface below all other windows."
 #~ msgstr "Lækka viðmótið undir alla aðra glugga"
-
-#~ msgid "Normal/Repeat/Loop"
-#~ msgstr "Venjulegt/Endurtaka/Lykkja"
-
-#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Víxla spilunarlista milli Venjulegt/Endurtaka/Lykkja"
 
 #~ msgid "Kalaallisut (Greenlandic)"
 #~ msgstr "Kalaallisut (grænlenska)"
@@ -27959,14 +27973,8 @@ msgstr "Listi fyrir miðlastjórnun"
 #~ msgid "slow"
 #~ msgstr "hægt"
 
-#~ msgid "Playlist has only %d elements"
-#~ msgstr "Spilunarlisti inniheldur einungis %d atriði"
-
 #~ msgid "Make"
 #~ msgstr "Gerð"
-
-#~ msgid "Icon View"
-#~ msgstr "Táknmyndasýn"
 
 #~ msgid "Press the new keys for "
 #~ msgstr "Ýttu nýju lyklana fyrir "
@@ -28045,9 +28053,6 @@ msgstr "Listi fyrir miðlastjórnun"
 #~ msgid "One of '90', '180', '270', 'hflip' and 'vflip'"
 #~ msgstr "Einn af \"90\", \"180\", \"270\", \"hflip\" og \"vflip\""
 
-#~ msgid "Are you sure you wish to create the stream ?"
-#~ msgstr "Ertu viss um að þú viljir búa til strauminn ?"
-
 #~ msgid ""
 #~ "We would like to thank the whole VLC community, the testers, our users "
 #~ "and the following people (and the missing ones...) for their "
@@ -28090,9 +28095,6 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #~ msgid "00000; "
 #~ msgstr "00000; "
-
-#~ msgid "Use GPU accelerated decoding"
-#~ msgstr "Nota  GPU hröðun við afkóðun"
 
 #~ msgid "Enqueue files when in one instance mode"
 #~ msgstr "Setja skrár í biðröð þegar í eins eintaksham"
@@ -28217,9 +28219,6 @@ msgstr "Listi fyrir miðlastjórnun"
 #~ msgid "MMap"
 #~ msgstr "MMap"
 
-#~ msgid "Quality of the stream."
-#~ msgstr "Gæði straums."
-
 #~ msgid "IO Method (READ, MMAP, USERPTR)."
 #~ msgstr "IO Aðferð (READ, MMAP, USERPTR)."
 
@@ -28255,9 +28254,6 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #~ msgid "Blur"
 #~ msgstr "Móða"
-
-#~ msgid "Input Settings not saved"
-#~ msgstr "Inntaksstillingar ekki vistaðar"
 
 #~ msgid "No item currently playing"
 #~ msgstr "Ekkert í spilun"
@@ -28353,17 +28349,8 @@ msgstr "Listi fyrir miðlastjórnun"
 #~ msgid "Don't repair"
 #~ msgstr "Ekki Senda"
 
-#~ msgid "Media in Zip"
-#~ msgstr "Miðill í Zip"
-
-#~ msgid "&Post processing"
-#~ msgstr "Eftir&vinnsla"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Óþjappað RAR"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Vista kladdann..."
 
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "Veldu hvaða myndúttak þú óskar þér og stillingar fyrir það hér."
@@ -28371,15 +28358,58 @@ msgstr "Listi fyrir miðlastjórnun"
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr "Þessar einingar sjá um netvirkni allra annarra hluta VLC."
 
+#, fuzzy
+#~ msgid "Normal/Repeat/Loop"
+#~ msgstr "Venjulegt/Lykkja/Endurtaka"
+
+#, fuzzy
+#~ msgid "Toggle Normal/Repeat/Loop playlist modes"
+#~ msgstr "Víxla spilunarlista milli Venjulegt/Lykkja/Endurtaka"
+
+#, fuzzy
+#~ msgid "Playlist has only %d elements"
+#~ msgstr "Spilunarlistinn er aðeins með %u atriði"
+
+#, fuzzy
+#~ msgid "Icon View"
+#~ msgstr "Skoða"
+
+#, fuzzy
+#~ msgid "Are you sure you wish to create the stream ?"
+#~ msgstr "Ertu viss um að þú viljir búa til stauminn?"
+
+#, fuzzy
+#~ msgid "Use GPU accelerated decoding"
+#~ msgstr "Vélbúnaðarhröðun afkóðunar"
+
+#, fuzzy
+#~ msgid "Quality of the stream."
+#~ msgstr "Fléttari til notkunar fyrir gagnastraum"
+
+#, fuzzy
+#~ msgid "Input Settings not saved"
+#~ msgstr "Stillingar fyrir inntak og kóðunarlykla"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Miðill spóla til baka"
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Eftirvinnsla"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Vista sem..."
+
+#, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "Þetta eru almennar stillingar fyrir kóðunareiningar myndmerkis/hljóðs/"
-#~ "skjátexta."
+#~ msgstr "Almennar stillingar fyrir kóðunareiningar myndmerkis."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
-#~ msgstr "DVB textaafkóðari"
+#~ msgstr "DVB skjátextaafkóðari"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -28403,7 +28433,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Open BDMV folder"
-#~ msgstr "Opna möppu..."
+#~ msgstr "Opna VIDEO_TS / BDMV möppu"
 
 #, fuzzy
 #~ msgid "Output module"
@@ -28500,9 +28530,7 @@ msgstr "Listi fyrir miðlastjórnun"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "Þetta eru almennar stillingar fyrir kóðunareiningar myndmerkis/hljóðs/"
-#~ "skjátexta."
+#~ msgstr "Almennar stillingar fyrir kóðunareiningar myndmerkis."
 
 #, fuzzy
 #~ msgid "Quick &Open File..."
@@ -28542,7 +28570,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Image clone"
-#~ msgstr "Mynd"
+#~ msgstr "Litgildi myndar (chroma)"
 
 #, fuzzy
 #~ msgid "Clone the image"
@@ -28566,7 +28594,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Audio output frequency (Hz)"
-#~ msgstr "Hljóðúttaksvilla"
+#~ msgstr "Hljóðúttaksfléttari"
 
 #, fuzzy
 #~ msgid "Audio visualizations "
@@ -28578,7 +28606,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Low definition (320 lines)"
-#~ msgstr "Staðalgæði (576 eða 480 línur)"
+#~ msgstr "Lággæði (320 línur)"
 
 #, fuzzy
 #~ msgid "Leave fullscreen"
@@ -28662,7 +28690,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "PVR video device"
-#~ msgstr "Myndbandatæki"
+#~ msgstr "Myndmerkistæki"
 
 #, fuzzy
 #~ msgid "PVR radio device"
@@ -28718,7 +28746,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Float32 audio mixer"
-#~ msgstr "Flac hljóðbitari"
+#~ msgstr "Raw hljóðaffléttari"
 
 #, fuzzy
 #~ msgid "Open Sound System"
@@ -28750,7 +28778,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Volume %d%%"
-#~ msgstr "Lækka"
+#~ msgstr " Hljóðstyrkur   : %3ld%%"
 
 #, fuzzy
 #~ msgid "Classic rock"
@@ -28818,7 +28846,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Subtitles format"
-#~ msgstr "Textarás"
+#~ msgstr "Snið skjátexta"
 
 #, fuzzy
 #~ msgid "Silent mode"
@@ -28826,7 +28854,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Append"
-#~ msgstr "Bæta við í skrá"
+#~ msgstr "Útlit"
 
 #, fuzzy
 #~ msgid "Image file"
@@ -28858,11 +28886,11 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Subtitles encoding"
-#~ msgstr "Kóðunarlykilll skjátexta"
+#~ msgstr "Stafatafla skjátexta"
 
 #, fuzzy
 #~ msgid "Subtitles alignment"
-#~ msgstr "Jöfnun myndmerkis"
+#~ msgstr "Jöfnun skjátexta"
 
 #, fuzzy
 #~ msgid "SAP announce"
@@ -28894,7 +28922,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Subtitles & On Screen Display Settings"
-#~ msgstr "Virkja stjórntexta á skjá (OSD)"
+#~ msgstr "Stillingar skjátexta og stjórntexta"
 
 #, fuzzy
 #~ msgid "Input & Codecs"
@@ -28918,7 +28946,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Preferred Subtitle Language"
-#~ msgstr "Kjörstilling tals:"
+#~ msgstr "Umbeðið tungumál skjátexta"
 
 #, fuzzy
 #~ msgid "Force Bold"
@@ -28930,7 +28958,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Enable Video"
-#~ msgstr "Virkja myndband"
+#~ msgstr "Virkja myndmerki"
 
 #, fuzzy
 #~ msgid "Subtitle track syncronization:"
@@ -28942,7 +28970,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Subtitles duration factor:"
-#~ msgstr "Textarás"
+#~ msgstr "Jöfnun skjátexta"
 
 #, fuzzy
 #~ msgid "SAP Announce"
@@ -28958,7 +28986,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Open subtitles file"
-#~ msgstr "Nota texta skrá"
+#~ msgstr "Opna skjátextaskrá"
 
 #, fuzzy
 #~ msgid " dB"
@@ -29230,7 +29258,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Preferred subtitles language"
-#~ msgstr "Kjörstilling tals:"
+#~ msgstr "Umbeðið tungumál skjátexta"
 
 #, fuzzy
 #~ msgid "Black slot"
@@ -29262,15 +29290,15 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "yes: from %@ to %@ secs"
-#~ msgstr "já: %@ @ %@ kb/s"
+#~ msgstr "já: frá %@ tIL %@"
 
 #, fuzzy
 #~ msgid "Previous/Backward"
-#~ msgstr "Fyrri kafli"
+#~ msgstr "Fyrra / Afturábak"
 
 #, fuzzy
 #~ msgid "Next/Forward"
-#~ msgstr "Áfram"
+#~ msgstr "Næsta / Áfram"
 
 #, fuzzy
 #~ msgid "1/2"
@@ -29322,7 +29350,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Viewer"
-#~ msgstr "Sý&n"
+#~ msgstr "Skoða"
 
 #, fuzzy
 #~ msgid "Library"
@@ -29446,7 +29474,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Caching value in ms"
-#~ msgstr "Skyndiminni (ms)"
+#~ msgstr "Skyndiminni (msek)"
 
 #, fuzzy
 #~ msgid "DirectShow DVB input"
@@ -29466,7 +29494,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Reload image file"
-#~ msgstr "Veljið skrá"
+#~ msgstr "Veldu skrá"
 
 #, fuzzy
 #~ msgid "Host address"
@@ -29498,7 +29526,7 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #, fuzzy
 #~ msgid "Extended Controls..."
-#~ msgstr "&Ítarlegar stillingar"
+#~ msgstr "Útvíkkað spjald"
 
 #, fuzzy
 #~ msgid "No device connected"
