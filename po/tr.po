@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-07-08 21:39+0000\n"
+"PO-Revision-Date: 2014-11-22 21:19+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/tr/)\n"
@@ -169,9 +169,8 @@ msgid "General video settings"
 msgstr "Genel görüntü ayarları"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Ses çıkış modüllerinin genel ayarları."
+msgstr "Görüntü çıkış modülleri için genel ayarlar."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4631,14 +4630,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Varolan altyazı izleri arasında dolaşır."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Teletext altyazıları"
+msgstr "Altyazıları açın ya da kapatın"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Altyazı izleri arasında dolaş"
+msgstr "Altyazıların görüntülenmesini açın ya da kapatın."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7903,9 +7900,8 @@ msgid "Number of first segment"
 msgstr "İlk parça sayısı"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Oluşturulan parçaların sayısı"
+msgstr "Oluşturulacak ilk parça sayısı"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17595,7 +17591,7 @@ msgstr "Dosya Boyutu"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Düzey %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21781,9 +21777,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Kalınan yerden oynatmaya devam edin"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Devam"
+msgstr "&Devam"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -32580,18 +32575,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ "ses dili, $P = konum (yüzde olarak), $R = hız, $S = ses örnekleme hızı "
 #~ "(kHz), $T = zaman, $U = yayıncı, $V = ses düzeyi, $_ = yeni satır)"
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Altyazı izi eklendi"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Zip Dosyasındaki Ortam"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Zip arşivi içindeki ortamın yolu"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Hızlı UDP akışı"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -32604,25 +32587,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "MTU for out mode."
 #~ msgstr "Çıkış kipi için MTU."
 
-#~ msgid "&Post processing"
-#~ msgstr "A&rt İşleme"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundation Görüntü Yakalama"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundation görüntü yakalama modülü."
-
-#~ msgid "No video devices found"
-#~ msgstr "Görüntü aygıtı bulunamadı"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Kullandığınız MAC uygun bir görüntü giriş aygıtına sahip değil gibi "
-#~ "görünüyor. Bağlantılarınızı ve sürücüleri denetleyin."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "DVB kartının yetenekleri sorgulansın"
 
@@ -32633,72 +32597,20 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ "Bazı DVB kartları, yeteneklerinin sorgulanmasından hoşlanmaz. Sorun "
 #~ "yaşıyorsanız bu özelliği devre dışı bırakabilirsiniz."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Uydu tarama ayarları"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "share/dvb/dvb-s içindeki ayar dosyasının adı"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "v4l2 destekli DVB girişi"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Quick Time Ses Yakalama"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Ses giriş aygıtı bulunamadı"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Kullandığınız MAC uygun bir ses giriş aygıtına sahip değil gibi "
-#~ "görünüyor. Bağlantılarınızı ve sürücüleri denetleyin."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Ses giriş aygıtı bulunamadı"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Sıkıştırılmamış RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows Çokluortam Aygıtı çıkışı"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windows Kaydetme ses çıkışı"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27 Kod Çözücüsü"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Görselin kodunun çözüleceği genişliği yazın"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Görselin kodunun çözüleceği yüksekliği yazın"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Görsele uygulanacak ölçekleme çarpanı"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVG Görüntü Kod Çözücüsü"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Windows ileti arayüzü"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Bu günlüğü kaydedin..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "VLC Hata Ayıklama Günlüğü (%s).rtf"
@@ -32712,24 +32624,8 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "Empty"
 #~ msgstr "Boş"
 
-#~ msgid "Deactivate"
-#~ msgstr "Devre dışı bırakın"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Ses Parmakizi"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Uyan kimliği seçin"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Henüz bir parmakizi yok"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "İzin parmakizi oluşturuluyor..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Temizleyin"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -32741,17 +32637,11 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "Extension not responding!"
 #~ msgstr "Eklenti yanıt vermiyor!"
 
-#~ msgid "addons local storage"
-#~ msgstr "yerel eklenti deposu"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Yerel eklenti deposu yükleyici"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Yerel eklenti deposu listeleyici"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Videolan.org eklenti bulucusu"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "addons.videolan.org eklenti bulucusu"
@@ -32762,45 +32652,11 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "single .vlp arşiv eklenti bulucusu"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Parmakizi izleyici (Acoustid temelli)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Parmakizinin süresi"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "Varsayılan: 90 saniye"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Chromaprint akış çıkışı"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Yazı tipi önbelleğiniz yeniden yapılandırılırken bekleyin.\n"
-#~ "Bu işlem en çok bir kaç dakika sürer."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Piksel cinsinden, görselleştirme penceresinin genişliği."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Piksel cinsinden, görselleştirme penceresinin yüksekliği."
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3B OpenGL spektrum görselleştirme"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "Flat Top"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
@@ -32808,9 +32664,233 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "Kaiser"
 #~ msgstr "Kaiser"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC ortam oynatıcısı - Flash Görüntüleyici"
+#~ msgid "Choose your preferred video output and configure it here."
+#~ msgstr "Buradan yeğlediğiniz görüntü çıkışını seçerek ayarlayın."
 
+#~ msgid "These modules provide network functions to all other parts of VLC."
+#~ msgstr ""
+#~ "Bu modüller, VLC yazılımının diğer parçalarına ağ işlevlerini sağlar."
+
+#~ msgid "Dialog providers can be configured here."
+#~ msgstr "İletişim sağlayıcılarının ayarları buradan yapılır."
+
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitle type or file name."
+#~ msgstr ""
+#~ "Bu bölümde altyazı tekleyicinin davranışını belirleyebilirsiniz. Örneğin "
+#~ "altyazı türü ya da dosya adını ayarlayabilirsiniz."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Albüm kapağı indirme politikası"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Albüm kapağı indirme politikası"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Albüm kapağı indirme politikası"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "Bu bölümde altyazı tekleyicinin davranışını belirleyebilirsiniz. Örneğin "
+#~ "altyazı türü ya da dosya adını ayarlayabilirsiniz."
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "VLC Hata Ayıklama Günlüğü (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Altyazı izi"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Ortam Geri Sarma"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Kullanılacak temanın yolu."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Akış Ayarlayın..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Art İşleme"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Görüntü yakalama"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Ses çıkış modülü"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Giriş aygıtı bulunamadı"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Kullandığınız MAC uygun bir giriş aygıtına sahip değil gibi görünüyor. "
+#~ "Bağlantılarınızı ve sürücüleri denetleyin."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Uydu alan kodu"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Çevresel Ses"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Quicktime Yakalama"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Giriş aygıtı bulunamadı"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Kullandığınız MAC uygun bir giriş aygıtına sahip değil gibi görünüyor. "
+#~ "Bağlantılarınızı ve sürücüleri denetleyin."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Giriş aygıtı bulunamadı"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Windows GDI görüntü çıkışı"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Windows GDI görüntü çıkışı"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "G.711 Kod Çözücüsü"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Dili içeren satırı belirtin "
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Kulanılacak taramasızlık modülünü seçin."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr ""
+#~ "Dönüştürme sırasında görüntüye uygulanacak ölçek çarpanı (örneğin: 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "CDG Görüntü Kod Çözücüsü"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Windows Hizmeti Arayüzü"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Farklı Kaydedin..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Etkinleştirme"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Parmak izi"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Giriş bulunamadı"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Parmak izi"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Tümünü Silin"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "En yüksek yerel bit hızı"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Görüntü Dönüşümü Süzgeci"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Akustik"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Yansıtma doğrultusu"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Varsayılan akış"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Toplanma Akışı Çıkışı"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Lütfen yazı tipi önbelleğiniz oluşturulurken bekleyin.\n"
+#~ "Bu işlem bir dakikadan az sürmelidir."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Piksel cinsinden, görüntü penceresinin eni."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Piksel cinsinden, görüntü penceresinin boyu."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Spektrum"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Geçerli görselleştirme"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Üstte Yüzsün"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLC ortam oynatıcısı - Web Arayüzü"
+
+#, fuzzy
 #~ msgid "Streaming Output"
 #~ msgstr "Akış Çıkışı"
 
@@ -32830,26 +32910,10 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "FFmpeg crop padd filter"
 #~ msgstr "Görüntü kırpma süzgeci"
 
-#~ msgid "Choose your preferred video output and configure it here."
-#~ msgstr "Buradan yeğlediğiniz görüntü çıkışını seçerek ayarlayın."
-
-#~ msgid "These modules provide network functions to all other parts of VLC."
-#~ msgstr ""
-#~ "Bu modüller, VLC yazılımının diğer parçalarına ağ işlevlerini sağlar."
-
+#, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "Görüntü/ses/altyazı kodlama modüllerinin genel ayarları."
-
-#~ msgid "Dialog providers can be configured here."
-#~ msgstr "İletişim sağlayıcılarının ayarları buradan yapılır."
-
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitle type or file name."
-#~ msgstr ""
-#~ "Bu bölümde altyazı tekleyicinin davranışını belirleyebilirsiniz. Örneğin "
-#~ "altyazı türü ya da dosya adını ayarlayabilirsiniz."
+#~ msgstr "Görüntü çıkış modülleri için genel ayarlar."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -32865,11 +32929,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Albüm kapağı indirme politikası"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Albüm kapağı indirme politikası"
+#~ msgstr "Albüm kapağı dosya adı"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -32998,9 +33058,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "Open BDMV folder"
 #~ msgstr "VIDEO_TS / BDMV klasörünü açın"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Albüm kapağı indirme politikası"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Çıkış modülleri"
@@ -33066,10 +33123,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "Şu al&tyazı dosyası kullanılsın"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Albüm kapağı indirme politikası"
 
 #, fuzzy
 #~ msgid "Configure Media Library"
@@ -33308,7 +33361,7 @@ msgstr "Ortam Yöneticisi Listesi"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "Görüntü/ses/altyazı kodlama modüllerinin genel ayarları."
+#~ msgstr "Görüntü çıkış modülleri için genel ayarlar."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -33317,14 +33370,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Altyazı Metin Kodlayıcısı"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "Bu bölümde altyazı tekleyicinin davranışını belirleyebilirsiniz. Örneğin "
-#~ "altyazı türü ya da dosya adını ayarlayabilirsiniz."
 
 #, fuzzy
 #~ msgid "No help available"
@@ -33398,7 +33443,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Windows Kaydetme ses çıkışı"
+#~ msgstr "Dosya Ses Çıkışı"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -34169,10 +34214,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "%s tarafından %@ ile derlenmiştir"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "VLC Hata Ayıklama Günlüğü (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -38685,5 +38726,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "Toplam/Kalan süre"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Eklenti Yöneticisi"
