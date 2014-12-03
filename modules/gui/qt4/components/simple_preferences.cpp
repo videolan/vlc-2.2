@@ -168,7 +168,7 @@ static const char *const ppsz_language_text[] =
     "ಕನ್ನಡ",
     "한국어",
     "lietuvių",
-    "latviešu valoda'
+    "latviešu valoda",
     "Монгол хэл",
     "मराठी",
     "Melayu",
