@@ -514,10 +514,8 @@ static int vlc_clone_attr (vlc_thread_t *p_handle, bool detached,
     if (p_handle != NULL)
         *p_handle = th;
 
-#if !VLC_WINSTORE_APP
     if (priority)
         SetThreadPriority (th->id, priority);
-#endif
 
     return 0;
 }
@@ -552,10 +550,8 @@ int vlc_clone_detach (vlc_thread_t *p_handle, void *(*entry) (void *),
 
 int vlc_set_priority (vlc_thread_t th, int priority)
 {
-#if !VLC_WINSTORE_APP
     if (!SetThreadPriority (th->id, priority))
         return VLC_EGENERIC;
-#endif
     return VLC_SUCCESS;
 }
 
