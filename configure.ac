@@ -293,6 +293,7 @@ case "${host_os}" in
   *os2*)
     SYS=os2
     LDFLAGS="${LDFLAGS} -Zomf -Zbin-files -Zargs-wild -Zhigh-mem"
+    AC_LIBOBJ([freeaddrinfo])
     ;;
   *)
     SYS="${host_os}"
