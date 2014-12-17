@@ -65,6 +65,7 @@ const char * vlc_meta_TypeToLocalizedString( vlc_meta_type_t meta_type )
         [vlc_meta_URL]         = N_("URL"),
         [vlc_meta_Language]    = N_("Language"),
         [vlc_meta_NowPlaying]  = N_("Now Playing"),
+        [vlc_meta_ESNowPlaying]= N_("Now Playing"),
         [vlc_meta_Publisher]   = N_("Publisher"),
         [vlc_meta_EncodedBy]   = N_("Encoded by"),
         [vlc_meta_ArtworkURL]  = N_("Artwork URL"),

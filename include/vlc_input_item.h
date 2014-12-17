@@ -200,6 +200,17 @@ VLC_API void input_item_SetDuration( input_item_t * p_i, mtime_t i_duration );
 VLC_API bool input_item_IsPreparsed( input_item_t *p_i );
 VLC_API bool input_item_IsArtFetched( input_item_t *p_i );
 
+static inline char *input_item_GetNowPlayingFb( input_item_t *p_item )
+{
+    char *psz_meta = input_item_GetMeta( p_item, vlc_meta_NowPlaying );
+    if( !psz_meta || strlen( psz_meta ) == 0 )
+    {
+        free( psz_meta );
+        return input_item_GetMeta( p_item, vlc_meta_ESNowPlaying );
+    }
+    return psz_meta;
+}
+
 #define INPUT_META( name ) \
 static inline \
 void input_item_Set ## name (input_item_t *p_input, const char *val) \
@@ -225,6 +236,7 @@ INPUT_META(Setting)
 INPUT_META(URL)
 INPUT_META(Language)
 INPUT_META(NowPlaying)
+INPUT_META(ESNowPlaying)
 INPUT_META(Publisher)
 INPUT_META(EncodedBy)
 INPUT_META(ArtworkURL)
