@@ -58,7 +58,7 @@ typedef enum vlc_meta_type_t
     vlc_meta_Actors,
 } vlc_meta_type_t;
 
-#define VLC_META_TYPE_COUNT 23
+#define VLC_META_TYPE_COUNT 24
 
 #define ITEM_PREPARSED       1
 #define ITEM_ARTURL_FETCHED  2
