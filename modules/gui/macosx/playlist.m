@@ -587,8 +587,6 @@
     [o_mi_dl_cover_art setTitle: _NS("Download Cover Art")];
     [o_mi_preparse setTitle: _NS("Fetch Meta Data")];
     [o_mi_revealInFinder setTitle: _NS("Reveal in Finder")];
-    [o_mm_mi_revealInFinder setTitle: _NS("Reveal in Finder")];
-    [[o_mm_mi_revealInFinder menu] setAutoenablesItems: NO];
     [o_mi_sort_name setTitle: _NS("Sort Node by Name")];
     [o_mi_sort_author setTitle: _NS("Sort Node by Author")];
 
@@ -626,7 +624,7 @@
         char *psz_uri = input_item_GetURI(p_item->p_input);
 
         [o_mi_revealInFinder setEnabled: NO];
-        [o_mm_mi_revealInFinder setEnabled: NO];
+        [[[VLCMain sharedInstance] mainMenu] setCanRevealInFinder: NO];
         if (psz_uri) {
             o_mrl = [NSMutableString stringWithUTF8String: psz_uri];
 
@@ -637,7 +635,7 @@
 
             if ([o_mrl characterAtIndex:0] == '/') {
                 [o_mi_revealInFinder setEnabled: YES];
-                [o_mm_mi_revealInFinder setEnabled: YES];
+                [[[VLCMain sharedInstance] mainMenu] setCanRevealInFinder: YES];
             }
             free(psz_uri);
         }
