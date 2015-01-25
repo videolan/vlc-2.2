@@ -1,9 +1,9 @@
 # Russian translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Alexander Lakhin <exclusion@gmail.com>, 2014
+# Alexander Lakhin <exclusion@gmail.com>, 2014-2015
 # Andrey Brilevskiy <andrey-brilevskiy@yandex.ru>, 2005
 # Andrey Wolk (Lorni) <andywolk@gmail.com>, 2009
 # Konstantin Pavlov <thresh@videolan.org>, 2011
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-07-24 02:55+0000\n"
+"PO-Revision-Date: 2015-01-09 15:54+0000\n"
 "Last-Translator: Alexander Lakhin <exclusion@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ru/)\n"
@@ -165,9 +165,8 @@ msgid "General video settings"
 msgstr "Основные настройки видео"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "Общие настройки модулей для вывода звука."
+msgstr "Общие настройки модулей вывода видео."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4546,14 +4545,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Переключает доступные дорожки субтитров по кругу."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Субтитры телетекста"
+msgstr "Вкл/выкл. субтитры"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Переключение дорожек субтитров"
+msgstr "Управление отображением дорожки субтитров."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7818,9 +7815,8 @@ msgid "Number of first segment"
 msgstr "Номер первого сегмента"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "Номер первого выданного сегмента"
+msgstr "Номер первого сгенерированного сегмента"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17464,7 +17460,7 @@ msgstr "Размер файла"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "Уровень %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21641,9 +21637,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Вы хотите начать воспроизведение с последней позиции?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "Продолжить"
+msgstr "&Продолжить"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -31844,18 +31839,6 @@ msgstr "Список настроек медиаменеджера"
 #~ "= скорость, $S = частота дискретизации звука (в кГц), $T = время, $U = "
 #~ "издатель, $V = громкость, $_ = новая строка) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "Дорожка субтитров добавлена"
-
-#~ msgid "Media in Zip"
-#~ msgstr "Медиафайлы в Zip"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "Путь к Zip-архиву с медиафайлами"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "Быстрое вещание UDP"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -31867,25 +31850,6 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "MTU for out mode."
 #~ msgstr "MTU выхода."
 
-#~ msgid "&Post processing"
-#~ msgstr "Пост-обработка"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "Видеозахват AVFoundation"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "Модуль видеозахвата AVFoundation"
-
-#~ msgid "No video devices found"
-#~ msgstr "Видеоустройства не найдены"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Похоже, ваш Mac не оснащён подходящим устройством ввода видео. Проверьте "
-#~ "соединения и драйверы."
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "Опросить DVB карту"
 
@@ -31896,72 +31860,20 @@ msgstr "Список настроек медиаменеджера"
 #~ "Некоторые DVB-карты не могут быть опрошены — вы можете отключить эту "
 #~ "возможность в случае проблем."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Конфигурация сканирования спутников"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "Имя файла конфигурации в share/dvb/dvb-s"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "Ввод с DVB с поддержкой v4l2"
 
-#~ msgid "QTSound"
-#~ msgstr "QTSound"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "Захват звука через QuickTime"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "Устройство ввода звука не найдено"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "Похоже, ваш Mac не оснащён подходящим устройством ввода звука. Проверьте "
-#~ "соединения и драйверы."
-
-#~ msgid "No audio input device found"
-#~ msgstr "Устройство ввода звука не найдено"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "Несжатый RAR"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Вывод через Windows Multimedia Device"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Вывод аудио в Windows Store"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "Декодер SCTE-27"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "Укажите ширину области для декодирования изображения"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "Укажите высоту области для декодирования изображения"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "Применяемый к изображению коэффициент масштабирования"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "Декодер видео в формате SVG"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Интерфейс сообщений Windows"
-
-#~ msgid "Save this Log..."
-#~ msgstr "Сохранить этот журнал..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Отладочные сообщения VLC (%s).rtf"
@@ -31975,24 +31887,8 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "Empty"
 #~ msgstr "Нет"
 
-#~ msgid "Deactivate"
-#~ msgstr "Отключить"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "Отпечаток аудиозаписи"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "Выберите подходящее соответствие"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "Отпечаток не был найден"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "Создание отпечатка звукозаписи..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "Очистить"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -32004,17 +31900,11 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "Extension not responding!"
 #~ msgstr "Расширение не отвечает!"
 
-#~ msgid "addons local storage"
-#~ msgstr "Локальное хранилище дополнений"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "Установка локального хранилища дополнений"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "Просмотр локального хранилища дополнений"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Поиск дополнений на videolan.org"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "Поиск дополнений в каталоге addons.videolan.org"
@@ -32025,45 +31915,11 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "Поиск дополнений в едином архиве .vlp"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Отпечаток дорожки (на базе Acoustid)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "Длительность отпечатка"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "По умолчанию: 90 сек."
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "Вывод потока для отпечатка Chromaprint"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "Пожалуйста, подождите. Создаётся кэш шрифтов...\n"
-#~ "Это займёт не больше нескольких минут."
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "Ширина окна визуализации, в пикселах."
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "Высота окна визуализации, в пикселах."
-
-#~ msgid "glSpectrum"
-#~ msgstr "3D-спектр"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "Визуализация спектра в 3D (через OpenGL)"
-
 #~ msgid "Hann"
 #~ msgstr "Ханн"
-
-#~ msgid "Flat Top"
-#~ msgstr "Плоская вершина"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Блэкмен-Харрис"
@@ -32071,21 +31927,11 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "Kaiser"
 #~ msgstr "Кайзер"
 
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "Медиаплеер VLC — Flash Player"
-
-#~ msgid "Streaming Output"
-#~ msgstr "Трансляция потока видео"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "Выберите предпочтительный модуль вывода видео и настройте его."
 
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr "Эти модули предоставляют сетевые функции остальным частям VLC."
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "Общие параметры модулей кодирования видео/аудио/субтитров."
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "Настройки модулей диалогов."
@@ -32096,6 +31942,224 @@ msgstr "Список настроек медиаменеджера"
 #~ msgstr ""
 #~ "Здесь вы можете настроить демультиплексор субтитров, например имя файла "
 #~ "или тип субтитров."
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "Режим скачивания обложки альбома"
+
+#~ msgid "Album art download policy"
+#~ msgstr "Режим скачивания обложки альбома"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "Режим скачивания обложки альбома"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "Здесь вы можете настроить демультиплексор субтитров, например имя файла "
+#~ "или тип субтитров."
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "Отладочные сообщения VLC (%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "Дорожка субтитров"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "Медиа: Перемотка"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "Путь к используемой оболочке."
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "Настройка передачи..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "Пост-обработка"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "Запись видео"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "Модуль вывода аудио"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "Устройства ввода не обнаружено"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Скорее всего, этот Mac не имеет подходящего устройства ввода. Необходимо "
+#~ "проверить соединения и драйверы."
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Код спутникового устройства"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "Surround"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "Захват Quicktime"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "Устройства ввода не обнаружено"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "Скорее всего, этот Mac не имеет подходящего устройства ввода. Необходимо "
+#~ "проверить соединения и драйверы."
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "Устройства ввода не обнаружено"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Вывод видео через Windows GDI"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Вывод видео через Windows GDI"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Декодер G.711"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Строка, содержащая указание языка"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Указать модуль, используемый для устранения чересстрочности."
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr ""
+#~ "Масштабировать видео, применяя заданный коэффициент (например, 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "Видеодекодер CDG"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Интерфейс службы Windows"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&Сохранить как..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "Активировать"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Идентификация"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "Нет входного потока"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Идентификация"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "Максимальный локальный битрейт"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Фильтр трансформации видео"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "Акустическая гитара"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Направление зеркального отражения"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "Поток по умолчанию"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Сбор выходного потока"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "Подождите, пока кэш шрифтов перестроится.\n"
+#~ "Это займёт всего пару минут."
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "Ширина окна видео, в пикселах."
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "Высота окна видео, в пикселах."
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "Спектр"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Текущая визуализация"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "Поверх всех окон"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "Веб-интерфейс VLC"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "Вывод потока"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "Общие настройки модулей вывода видео."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -32112,11 +32176,7 @@ msgstr "Список настроек медиаменеджера"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "Режим скачивания обложки альбома"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "Режим скачивания обложки альбома"
+#~ msgstr "Имя файла обложки"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -32235,9 +32295,6 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "Open BDMV folder"
 #~ msgstr "Открыть папку VIDEO_TS/BDMV"
 
-#~ msgid "Album art download policy"
-#~ msgstr "Режим скачивания обложки альбома"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "Модули вывода"
@@ -32306,10 +32363,6 @@ msgstr "Список настроек медиаменеджера"
 #~ msgstr "Использовать файл суб&титров"
 
 #, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Режим скачивания обложки альбома"
-
-#, fuzzy
 #~ msgid "Configure Media Library"
 #~ msgstr "Медиатека"
 
@@ -32348,7 +32401,7 @@ msgstr "Список настроек медиаменеджера"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr "Общие параметры модулей кодирования видео/аудио/субтитров."
+#~ msgstr "Общие настройки модулей вывода видео."
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -32357,14 +32410,6 @@ msgstr "Список настроек медиаменеджера"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "Кодировка текста субтитров"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "Здесь вы можете настроить демультиплексор субтитров, например имя файла "
-#~ "или тип субтитров."
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -32433,7 +32478,7 @@ msgstr "Список настроек медиаменеджера"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Вывод аудио в Windows Store"
+#~ msgstr "Вывод звука в файл"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -33306,10 +33351,6 @@ msgstr "Список настроек медиаменеджера"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "Скомпилировано %s компилятором %@"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "Отладочные сообщения VLC (%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -35736,5 +35777,6 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "Automate picture coding mode"
 #~ msgstr "Режим кодирования изображения"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Менеджер дополнений"
