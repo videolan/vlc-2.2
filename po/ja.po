@@ -1,5 +1,5 @@
 # Japanese translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-06-01 10:32+0000\n"
+"PO-Revision-Date: 2014-12-07 11:18+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ja/)\n"
@@ -160,9 +160,8 @@ msgid "General video settings"
 msgstr "ビデオの一般的な設定"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "オーディオ出力モジュールの総合設定"
+msgstr "ビデオ出力モジュールの総合設定"
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -4504,14 +4503,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "使用可能な字幕トラックを切り替えます。"
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "テレテキスト字幕"
+msgstr "字幕の切替"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "字幕トラックの切り替え"
+msgstr "字幕表示の切替"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -7776,9 +7773,8 @@ msgid "Number of first segment"
 msgstr "最初のセグメント数"
 
 #: modules/access_output/livehttp.c:106
-#, fuzzy
 msgid "The number of the first segment generated"
-msgstr "生成されるセグメント数"
+msgstr "最初に生成されたセグメント数"
 
 #: modules/access_output/livehttp.c:109
 msgid "HTTP Live streaming output"
@@ -17369,7 +17365,7 @@ msgstr "ファイルサイズ"
 #: modules/gui/macosx/MainMenu.m:283
 #, c-format
 msgid "Level %i"
-msgstr ""
+msgstr "レベル %i"
 
 #: modules/gui/macosx/MainMenu.m:348
 msgid "Check for Update..."
@@ -21568,9 +21564,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "再生を停止した位置からの再生再開を行いますか?"
 
 #: modules/gui/qt4/main_interface.cpp:383
-#, fuzzy
 msgid "&Continue"
-msgstr "続ける"
+msgstr "続ける(&C)"
 
 #: modules/gui/qt4/main_interface.cpp:1232
 msgid "Control menu for the player"
@@ -31722,18 +31717,6 @@ msgstr "メディアマネージャーリスト"
 #~ "語, $P = 位置(%), $R = レート, $S = オーディオのサンプリングレート(kHz), "
 #~ "$T = 経過時間, $U = 発行者, $V = 音量, $_ = 改行) "
 
-#~ msgid "Subtitle track added"
-#~ msgstr "字幕トラックが追加されました"
-
-#~ msgid "Media in Zip"
-#~ msgstr "ZIP中のメディア"
-
-#~ msgid "Path to the media in the Zip archive"
-#~ msgstr "ZIPアーカイブ中のメディアのパスを指定します。"
-
-#~ msgid "Fast udp streaming"
-#~ msgstr "高速UDPストリーミング"
-
 #~ msgid ""
 #~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
 #~ msgstr ""
@@ -31746,25 +31729,6 @@ msgstr "メディアマネージャーリスト"
 #~ msgid "MTU for out mode."
 #~ msgstr "出力モードのMTUです。"
 
-#~ msgid "&Post processing"
-#~ msgstr "後処理 (&P)"
-
-#~ msgid "AVFoundation Video Capture"
-#~ msgstr "AVFoundationビデオキャプチャー"
-
-#~ msgid "AVFoundation video capture module."
-#~ msgstr "AVFoundationビデオキャプチャーモジュール"
-
-#~ msgid "No video devices found"
-#~ msgstr "ビデオデバイスが見つかりません"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable video input device. "
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "あなたのMacは適切なビデオ入力デバイスを持っていないようです。ドライバーと"
-#~ "接続を確認してください。"
-
 #~ msgid "Probe DVB card for capabilities"
 #~ msgstr "DVBカードの検出"
 
@@ -31775,72 +31739,20 @@ msgstr "メディアマネージャーリスト"
 #~ "いくつかのDVBカードは自動検出に不向きです。自動検出で問題が発生する場合、"
 #~ "検出を無効化できます。"
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "衛星のスキャン設定"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "share/dvb/dvb-s中の設定ファイル名"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB入力 (v4l2サポート有)"
 
-#~ msgid "QTSound"
-#~ msgstr "QTサウンド"
-
-#~ msgid "QuickTime Sound Capture"
-#~ msgstr "QuickTimeサウンドキャプチャー"
-
-#~ msgid "No Audio Input device found"
-#~ msgstr "オーディオ入力デバイスが見つかりません"
-
-#~ msgid ""
-#~ "Your Mac does not seem to be equipped with a suitable audio input device."
-#~ "Please check your connectors and drivers."
-#~ msgstr ""
-#~ "あなたのMacは適切なオーディオ入力デバイスを持っていないようです。ドライ"
-#~ "バーと接続を確認してください。"
-
-#~ msgid "No audio input device found"
-#~ msgstr "オーディオ入力デバイスが見つかりません"
-
 #~ msgid "Uncompressed RAR"
 #~ msgstr "PARの解凍"
-
-#~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windowsマルチメディアデバイス出力"
-
-#~ msgid "Windows Store audio output"
-#~ msgstr "Windowsストアオーディオ出力"
-
-#~ msgid "SCTE-27 decoder"
-#~ msgstr "SCTE-27デコーダー"
 
 #~ msgid "SCTE-27"
 #~ msgstr "SCTE-27"
 
-#~ msgid "Specify the width to decode the image too"
-#~ msgstr "画像をデコードするための幅を指定"
-
-#~ msgid "Specify the height to decode the image too"
-#~ msgstr "画像をデコードするための高さを指定"
-
-#~ msgid "Scale factor to apply to image"
-#~ msgstr "画像に適用する倍率因子"
-
-#~ msgid "SVG video decoder"
-#~ msgstr "SVGビデオデコーダー"
-
 #~ msgid "WinMsg"
 #~ msgstr "WinMsg"
-
-#~ msgid "Windows messages interface"
-#~ msgstr "Windowsメッセージインターフェース"
-
-#~ msgid "Save this Log..."
-#~ msgstr "ログを保存..."
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "VLCデバッグログ(%s).rtf"
@@ -31854,24 +31766,8 @@ msgstr "メディアマネージャーリスト"
 #~ msgid "Empty"
 #~ msgstr "空"
 
-#~ msgid "Deactivate"
-#~ msgstr "無効化"
-
-#~ msgid "Audio Fingerprinting"
-#~ msgstr "オーディオフィンガープリント"
-
 #~ msgid "Select a matching identity"
 #~ msgstr "一致する主体の選択"
-
-#~ msgid "No fingerprint has been found"
-#~ msgstr "フィンガープリントが見つかりません"
-
-#~ msgid "Fingerprinting track..."
-#~ msgstr "フィンガープリントトラック..."
-
-#~ msgctxt "Tooltip|Clear"
-#~ msgid "Clear"
-#~ msgstr "クリア"
 
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
@@ -31883,17 +31779,11 @@ msgstr "メディアマネージャーリスト"
 #~ msgid "Extension not responding!"
 #~ msgstr "エクステンションが応答しません!"
 
-#~ msgid "addons local storage"
-#~ msgstr "ローカルストレージのアドオン"
-
 #~ msgid "Addons local storage installer"
 #~ msgstr "ローカルストレージのアドオンインストーラー"
 
 #~ msgid "Addons local storage lister"
 #~ msgstr "ローカルストレージのアドオンリスト"
-
-#~ msgid "Videolan.org's addons finder"
-#~ msgstr "Videolan.orgのアドオン検索"
 
 #~ msgid "addons.videolan.org addons finder"
 #~ msgstr "addons.videolan.orgアドオン検索"
@@ -31904,57 +31794,17 @@ msgstr "メディアマネージャーリスト"
 #~ msgid "single .vlp archive addons finder"
 #~ msgstr "単一.vlpアーカイブアドオン検索"
 
-#~ msgid "acoustid"
-#~ msgstr "acoustid"
-
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "トラックフィンガープリント(Acoustidベース)"
 
-#~ msgid "Duration of the fingerprinting"
-#~ msgstr "フィンガープリントの長さ"
-
-#~ msgid "Default: 90sec"
-#~ msgstr "デフォルト: 90秒"
-
-#~ msgid "Chromaprint stream output"
-#~ msgstr "クロマプリントストリーム出力"
-
-#~ msgid ""
-#~ "Please wait while your font cache is rebuilt.\n"
-#~ "This should take less than a few minutes."
-#~ msgstr ""
-#~ "フォントキャッシュの再構築中です。しばらくお待ちください。\n"
-#~ "おそらく1分未満で完了します。"
-
-#~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "視覚化ウィンドウの幅をピクセルで指定します。"
-
-#~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "視覚化ウィンドウの高さをピクセルで指定します。"
-
-#~ msgid "glSpectrum"
-#~ msgstr "glSpectrum"
-
-#~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "3D OpenGLスペクトル視覚化"
-
 #~ msgid "Hann"
 #~ msgstr "Hann"
-
-#~ msgid "Flat Top"
-#~ msgstr "フラットトップ"
 
 #~ msgid "Blackman-Harris"
 #~ msgstr "Blackman-Harris"
 
 #~ msgid "Kaiser"
 #~ msgstr "カイザー"
-
-#~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLCメディアプレイヤー - Flashビューワー"
-
-#~ msgid "Streaming Output"
-#~ msgstr "ストリーム出力"
 
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "ここでは好みのビデオ出力と設定を選択します。"
@@ -31963,12 +31813,6 @@ msgstr "メディアマネージャーリスト"
 #~ msgstr ""
 #~ "これらのモジュールはVLCのその他すべてのパーツに対するネットワーク機能を提"
 #~ "供します。"
-
-#~ msgid ""
-#~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr ""
-#~ "これらはビデオ、オーディオ、字幕のエンコーディングモジュールに関する一般的"
-#~ "な設定です。"
 
 #~ msgid "Dialog providers can be configured here."
 #~ msgstr "ダイアログプロバイダーの設定が可能です。"
@@ -31979,6 +31823,224 @@ msgstr "メディアマネージャーリスト"
 #~ msgstr ""
 #~ "字幕のデマルチプレクサーの動作に関する設定を行います。例えば、字幕のタイト"
 #~ "ルやファイル名を指定します。"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "アルバムアートのダウンロードポリシー"
+
+#~ msgid "Album art download policy"
+#~ msgstr "アルバムアートのダウンロードポリシー"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "アルバムアートのダウンロードポリシー"
+
+#, fuzzy
+#~ msgid ""
+#~ "In this section you can force the behavior of the subtitle demuxer, for "
+#~ "example by setting the subtitles type or file name."
+#~ msgstr ""
+#~ "字幕のデマルチプレクサーの動作に関する設定を行います。例えば、字幕のタイト"
+#~ "ルやファイル名を指定します。"
+
+#, fuzzy
+#~ msgid "VLC Debug Log (%s).rtfd"
+#~ msgstr "VLCデバッグログ(%s).rtf"
+
+#, fuzzy
+#~ msgid "Subtitle track added"
+#~ msgstr "字幕トラック"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "メディア 戻す"
+
+#, fuzzy
+#~ msgid "Path to the media in the Zip archive"
+#~ msgstr "使用するスキンのパスを指定します。"
+
+#, fuzzy
+#~ msgid "Fast udp streaming"
+#~ msgstr "ストリーミングを設定..."
+
+#, fuzzy
+#~ msgid "&Post processing"
+#~ msgstr "後処理"
+
+#, fuzzy
+#~ msgid "AVFoundation Video Capture"
+#~ msgstr "ビデオキャプチャー"
+
+#, fuzzy
+#~ msgid "AVFoundation video capture module."
+#~ msgstr "オーディオ出力モジュール"
+
+#, fuzzy
+#~ msgid "No video devices found"
+#~ msgstr "入力デバイスが見つかりません"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable video input device. "
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "あなたのMacは適切な入力デバイスを持っていないようです。ドライバーと接続を"
+#~ "確認してください。"
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "衛星レンジコード"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "QTSound"
+#~ msgstr "サラウンド"
+
+#, fuzzy
+#~ msgid "QuickTime Sound Capture"
+#~ msgstr "QuickTimeキャプチャー"
+
+#, fuzzy
+#~ msgid "No Audio Input device found"
+#~ msgstr "入力デバイスが見つかりません"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mac does not seem to be equipped with a suitable audio input device."
+#~ "Please check your connectors and drivers."
+#~ msgstr ""
+#~ "あなたのMacは適切な入力デバイスを持っていないようです。ドライバーと接続を"
+#~ "確認してください。"
+
+#, fuzzy
+#~ msgid "No audio input device found"
+#~ msgstr "入力デバイスが見つかりません"
+
+#, fuzzy
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Windows GDIビデオ出力"
+
+#, fuzzy
+#~ msgid "Windows Store audio output"
+#~ msgstr "Windows GDIビデオ出力"
+
+#, fuzzy
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "G.711デコーダー"
+
+#, fuzzy
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "言語を含む行を指定します。"
+
+#, fuzzy
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "使用するデインターレースモジュールを指定します。"
+
+#, fuzzy
+#~ msgid "Scale factor to apply to image"
+#~ msgstr ""
+#~ "トランスコーディング中のビデオに適用される倍率因子を指定します。(例: 0.25)"
+
+#, fuzzy
+#~ msgid "SVG video decoder"
+#~ msgstr "CDGビデオデコーダー"
+
+#, fuzzy
+#~ msgid "Windows messages interface"
+#~ msgstr "Windowsサービスインターフェース"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "名前を付けて保存 (&S)..."
+
+#, fuzzy
+#~ msgid "Deactivate"
+#~ msgstr "選択"
+
+#, fuzzy
+#~ msgid "Audio Fingerprinting"
+#~ msgstr "&Fingerprint"
+
+#, fuzzy
+#~ msgid "No fingerprint has been found"
+#~ msgstr "入力が見つかりません"
+
+#, fuzzy
+#~ msgid "Fingerprinting track..."
+#~ msgstr "&Fingerprint"
+
+#, fuzzy
+#~ msgctxt "Tooltip|Clear"
+#~ msgid "Clear"
+#~ msgstr "クリア"
+
+#, fuzzy
+#~ msgid "addons local storage"
+#~ msgstr "ローカルの最大ビットレート"
+
+#, fuzzy
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "ビデオ変換フィルター"
+
+#, fuzzy
+#~ msgid "acoustid"
+#~ msgstr "アコースティック"
+
+#, fuzzy
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "ミラーリングの方向を指定します。"
+
+#, fuzzy
+#~ msgid "Default: 90sec"
+#~ msgstr "デフォルトのストリーム"
+
+#, fuzzy
+#~ msgid "Chromaprint stream output"
+#~ msgstr "ストリーム出力の集積"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please wait while your font cache is rebuilt.\n"
+#~ "This should take less than a few minutes."
+#~ msgstr ""
+#~ "フォントキャッシュの再構築中です。しばらくお待ちください。\n"
+#~ "おそらく1分未満で完了します。"
+
+#, fuzzy
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "ビデオウィンドウの幅をピクセルで指定します。"
+
+#, fuzzy
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "ビデオウィンドウの高さをピクセルで指定します。"
+
+#, fuzzy
+#~ msgid "glSpectrum"
+#~ msgstr "スペクトル"
+
+#, fuzzy
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "現在の視覚化"
+
+#, fuzzy
+#~ msgid "Flat Top"
+#~ msgstr "常に前面に表示"
+
+#, fuzzy
+#~ msgid "VLC media player - Flash Viewer"
+#~ msgstr "VLCメディアプレイヤー - ウェブインターフェース"
+
+#, fuzzy
+#~ msgid "Streaming Output"
+#~ msgstr "ストリーム出力"
+
+#, fuzzy
+#~ msgid ""
+#~ "These are general settings for video/audio/subtitle encoding modules."
+#~ msgstr "ビデオ出力モジュールの総合設定"
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -31994,11 +32056,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "アルバムアートのダウンロードポリシー"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "アルバムアートのダウンロードポリシー"
+#~ msgstr "アルバムアートファイル名"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -32116,9 +32174,6 @@ msgstr "メディアマネージャーリスト"
 #~ msgid "Open BDMV folder"
 #~ msgstr "VIDEO_TS / BDMVフォルダーを開く"
 
-#~ msgid "Album art download policy"
-#~ msgstr "アルバムアートのダウンロードポリシー"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "出力モジュール"
@@ -32188,10 +32243,6 @@ msgstr "メディアマネージャーリスト"
 #~ msgstr "字幕ファイルを使用 (&T)"
 
 #, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "アルバムアートのダウンロードポリシー"
-
-#, fuzzy
 #~ msgid "Configure Media Library"
 #~ msgstr "メディアライブラリ"
 
@@ -32230,9 +32281,7 @@ msgstr "メディアマネージャーリスト"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitles encoding modules."
-#~ msgstr ""
-#~ "これらはビデオ、オーディオ、字幕のエンコーディングモジュールに関する一般的"
-#~ "な設定です。"
+#~ msgstr "ビデオ出力モジュールの総合設定"
 
 #, fuzzy
 #~ msgid "Dialog providers settings"
@@ -32241,14 +32290,6 @@ msgstr "メディアマネージャーリスト"
 #, fuzzy
 #~ msgid "Subtitle demuxer settings"
 #~ msgstr "字幕テキストのエンコード"
-
-#, fuzzy
-#~ msgid ""
-#~ "In this section you can force the behavior of the subtitle demuxer, for "
-#~ "example by setting the subtitles type or file name."
-#~ msgstr ""
-#~ "字幕のデマルチプレクサーの動作に関する設定を行います。例えば、字幕のタイト"
-#~ "ルやファイル名を指定します。"
 
 #, fuzzy
 #~ msgid "There is no help available for these modules."
@@ -32319,7 +32360,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Windowsストアオーディオ出力"
+#~ msgstr "ファイルオーディオ出力"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -33192,10 +33233,6 @@ msgstr "メディアマネージャーリスト"
 #, fuzzy
 #~ msgid "Compiled by %@ with %@"
 #~ msgstr "%2$@を使って%1$sによってコンパイルされました"
-
-#, fuzzy
-#~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "VLCデバッグログ(%s).rtf"
 
 #, fuzzy
 #~ msgid "Run VLC with dark or bright interface style"
@@ -35667,5 +35704,6 @@ msgstr "メディアマネージャーリスト"
 #~ msgid "Automatic gain/exposure"
 #~ msgstr "自動ゲイン"
 
+#, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "アドオン管理"
