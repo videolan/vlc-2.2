@@ -7,9 +7,11 @@ USE_FFMPEG ?= 1
 ifdef USE_FFMPEG
 HASH=fe47cba
 FFMPEG_SNAPURL := http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=$(HASH);sf=tgz
+FFMPEG_GITURL := git://git.videolan.org/ffmpeg.git
 else
 HASH=3a6dfec
 FFMPEG_SNAPURL := http://git.libav.org/?p=libav.git;a=snapshot;h=$(HASH);sf=tgz
+FFMPEG_GITURL := git://git.libav.org/libav.git
 endif
 
 FFMPEGCONF = \
@@ -148,14 +150,14 @@ ifeq ($(call need_pkg,"libavcodec >= 54.25.0 libavformat >= 53.21.0 libswscale")
 PKGS_FOUND += ffmpeg
 endif
 
-$(TARBALLS)/ffmpeg-$(HASH).tar.gz:
-	$(call download,$(FFMPEG_SNAPURL))
+$(TARBALLS)/ffmpeg-$(HASH).tar.xz:
+	$(call download_git,$(FFMPEG_GITURL),,$(HASH))
 
-.sum-ffmpeg: $(TARBALLS)/ffmpeg-$(HASH).tar.gz
+.sum-ffmpeg: $(TARBALLS)/ffmpeg-$(HASH).tar.xz
 	$(warning Not implemented.)
 	touch $@
 
-ffmpeg: ffmpeg-$(HASH).tar.gz .sum-ffmpeg
+ffmpeg: ffmpeg-$(HASH).tar.xz .sum-ffmpeg
 	rm -Rf $@ $@-$(HASH)
 	mkdir -p $@-$(HASH)
 	$(ZCAT) "$<" | (cd $@-$(HASH) && tar xv --strip-components=1)
