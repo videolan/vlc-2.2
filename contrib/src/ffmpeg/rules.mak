@@ -160,7 +160,7 @@ $(TARBALLS)/ffmpeg-$(HASH).tar.xz:
 ffmpeg: ffmpeg-$(HASH).tar.xz .sum-ffmpeg
 	rm -Rf $@ $@-$(HASH)
 	mkdir -p $@-$(HASH)
-	$(ZCAT) "$<" | (cd $@-$(HASH) && tar xv --strip-components=1)
+	$(XZCAT) "$<" | (cd $@-$(HASH) && tar xv --strip-components=1)
 	$(MOVE)
 
 .ffmpeg: ffmpeg
