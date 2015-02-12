@@ -1394,6 +1394,13 @@ static void Ogg_DecodePacket( demux_t *p_demux,
         i_header_len = (*p_oggpacket->packet & PACKET_LEN_BITS01) >> 6;
         i_header_len |= (*p_oggpacket->packet & PACKET_LEN_BITS2) << 1;
 
+        if( i_header_len >= p_oggpacket->bytes )
+        {
+            msg_Dbg( p_demux, "discarding invalid packet" );
+            block_Release( p_block );
+            return;
+        }
+
         if( p_stream->fmt.i_codec == VLC_CODEC_SUBT)
         {
             /* But with subtitles we need to retrieve the duration first */
