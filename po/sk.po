@@ -1,15 +1,15 @@
 # Slovak translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Marián Hikaník <podnety@mojepreklady.net>, 2012-2014
+# Marián Hikaník <podnety@mojepreklady.net>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-11-22 11:41+0000\n"
+"PO-Revision-Date: 2015-02-03 19:52+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sk/)\n"
@@ -365,8 +365,8 @@ msgid ""
 "that automatically add items to the playlist (\"service discovery\" modules)."
 msgstr ""
 "Nastavenia vplývajúce na správanie sa playlistu (napr. v režime prehrávania) "
-"a modulov, ktoré automaticky pridávajú do playlistu nové položky (zisťovacie "
-"moduly)."
+"a modulov, ktoré automaticky pridávajú do playlistu nové položky (moduly pre "
+"\"zisťovanie služieb\")."
 
 #: include/vlc_config_cat.h:172
 msgid "General playlist behaviour"
@@ -3918,7 +3918,7 @@ msgstr "Prehrať a ukončiť"
 
 #: src/libvlc-module.c:1141
 msgid "Exit if there are no more items in the playlist."
-msgstr "Ak v playliste už nie sú žiadne položky, ukončiť prehrávanie."
+msgstr "Ak v playliste už nie sú žiadne položky, ukončiť."
 
 #: src/libvlc-module.c:1143
 msgid "Play and pause"
@@ -3926,7 +3926,7 @@ msgstr "Prehrať a pozastaviť"
 
 #: src/libvlc-module.c:1145
 msgid "Pause each item in the playlist on the last frame."
-msgstr "Pozastaviť pri každej položke v playliste pri poslednej snímke."
+msgstr "Pozastaviť každú položku v playliste pri poslednej snímke."
 
 #: src/libvlc-module.c:1147
 msgid "Auto start"
@@ -3934,7 +3934,7 @@ msgstr "Automatické spustenie"
 
 #: src/libvlc-module.c:1148
 msgid "Automatically start playing the playlist content once it's loaded."
-msgstr "Po načítaní playlistu sa automaticky spustí jeho prehrávanie."
+msgstr "Po načítaní playlistu automaticky spustiř jeho prehrávanie."
 
 #: src/libvlc-module.c:1151
 msgid "Pause on audio communication"
@@ -4587,10 +4587,7 @@ msgstr "Záložka č. 10 v playliste"
 
 #: src/libvlc-module.c:1346
 msgid "This allows you to define playlist bookmarks."
-msgstr ""
-"Tu si môžete nastaviť záložky vo svojom obľúbenom playliste. Pomocou "
-"záložiek sa potom môžete vrátiť na želané miesto v playliste jediným "
-"kliknutím."
+msgstr "Tu si môžete nastaviť záložky vo svojom playliste."
 
 #: src/libvlc-module.c:1348
 msgid "Cycle audio track"
@@ -4730,11 +4727,11 @@ msgstr "Normálne/slučka/opakovať"
 
 #: src/libvlc-module.c:1384
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr "Prepnúť režimy playlistu Normálne/slučka/opakovať"
+msgstr "Prepnúť režimy playlistu: normálne/slučka/opakovať"
 
 #: src/libvlc-module.c:1387
 msgid "Toggle random playlist playback"
-msgstr "Prepnúť náhodné prehrávanie playlistu"
+msgstr "Prepnúť náhodné prehrávanie z playlistu"
 
 #: src/libvlc-module.c:1392 src/libvlc-module.c:1393
 msgid "Un-Zoom"
@@ -14537,7 +14534,7 @@ msgstr "| repeat [on|off] . . . .  prepnut opakovanie polozky playlistu"
 
 #: modules/control/rc.c:793
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr "| loop [on|off] . . . . . .  prepnut opakovanie playlistu"
+msgstr "| loop [on|off] . . . . . .  prepnut slucku v playliste"
 
 #: modules/control/rc.c:794
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
@@ -15994,23 +15991,23 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:67
 msgid "M3U playlist import"
-msgstr "Import M3U playlistu"
+msgstr "Import playlistu M3U"
 
 #: modules/demux/playlist/playlist.c:72
 msgid "RAM playlist import"
-msgstr "Import playlistov vo formáte RAM"
+msgstr "Import playlistu RAM"
 
 #: modules/demux/playlist/playlist.c:77
 msgid "PLS playlist import"
-msgstr "Import PLS playlistu"
+msgstr "Import playlistu PLS"
 
 #: modules/demux/playlist/playlist.c:82
 msgid "B4S playlist import"
-msgstr "Import B4S playlistu"
+msgstr "Import playlistu B4S"
 
 #: modules/demux/playlist/playlist.c:87
 msgid "DVB playlist import"
-msgstr "Import DVB playlistu"
+msgstr "Import playlistu DVB"
 
 #: modules/demux/playlist/playlist.c:92
 msgid "Podcast parser"
@@ -16018,7 +16015,7 @@ msgstr "Analyzátor podcastov"
 
 #: modules/demux/playlist/playlist.c:97
 msgid "XSPF playlist import"
-msgstr "Import XSPF playlistu"
+msgstr "Import playlistu XSPF"
 
 #: modules/demux/playlist/playlist.c:102
 msgid "New winamp 5.2 shoutcast import"
@@ -16026,7 +16023,7 @@ msgstr "Import protokolu shoutcast vo formáte programu Winamp 5.2"
 
 #: modules/demux/playlist/playlist.c:109
 msgid "ASX playlist import"
-msgstr "Import ASX playlistu"
+msgstr "Import playlistu ASX"
 
 #: modules/demux/playlist/playlist.c:114
 msgid "Kasenna MediaBase parser"
@@ -16038,7 +16035,7 @@ msgstr "Importér playlistov vo formáte QuickTime Media Link"
 
 #: modules/demux/playlist/playlist.c:124
 msgid "Google Video Playlist importer"
-msgstr "Importér playlistov vo formáte Google Video"
+msgstr "Import playlistov pre Google Video"
 
 #: modules/demux/playlist/playlist.c:129
 msgid "Dummy IFO demux"
@@ -17782,7 +17779,7 @@ msgstr "Dvojnásobná veľkosť"
 
 #: modules/gui/macosx/MainMenu.m:437 modules/gui/macosx/MainMenu.m:1598
 msgid "Fit to Screen"
-msgstr "Roztiahnuť na veľkosť obrazovky"
+msgstr "Prispôsobiť na veľkosť obrazovky"
 
 #: modules/gui/macosx/MainMenu.m:439 modules/gui/macosx/MainMenu.m:1601
 #: modules/gui/macosx/MainMenu.m:1607 modules/gui/macosx/simple_prefs.m:400
@@ -18395,7 +18392,7 @@ msgstr "Rozšírený M3U súbor"
 
 #: modules/gui/macosx/playlist.m:777
 msgid "XML Shareable Playlist Format (XSPF)"
-msgstr "XML formát playlistu (XSPF)"
+msgstr "XML formát zdieľaného playlistu (XSPF)"
 
 #: modules/gui/macosx/playlist.m:778 modules/gui/qt4/dialogs_provider.cpp:563
 msgid "HTML playlist"
@@ -19999,7 +19996,7 @@ msgstr " r                      Prepnut nahodne prehravanie"
 
 #: modules/gui/ncurses.c:916
 msgid " l                      Toggle Loop Playlist"
-msgstr " l                      Prepnut opakovanie playlistu"
+msgstr " l                      Prepnut slucku v playliste"
 
 #: modules/gui/ncurses.c:917
 msgid " R                      Toggle Repeat item"
@@ -20222,8 +20219,7 @@ msgstr "Otvoriť médium"
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Previous media in the playlist, skip backward when held"
 msgstr ""
-"Predchádzajúce médium v playliste, pri držaní môžete preskakovať smerom "
-"dozadu"
+"Predchádzajúce médium v playliste, pri držaní môžete preskakovať dozadu"
 
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Next media in the playlist, skip forward when held"
@@ -22138,7 +22134,7 @@ msgstr "&Rýchlejšie"
 
 #: modules/gui/qt4/menus.cpp:879
 msgid "N&ormal Speed"
-msgstr "No&rmálna veľkosť"
+msgstr "N&ormálna rýchlosť"
 
 #: modules/gui/qt4/menus.cpp:889
 msgid "Slo&wer"
@@ -22979,7 +22975,7 @@ msgstr "Zadajte názov súboru so záznamom."
 
 #: modules/misc/playlist/export.c:50
 msgid "M3U playlist export"
-msgstr "Export playlistov vo formáte M3U"
+msgstr "Export playlistu vo formáte M3U"
 
 #: modules/misc/playlist/export.c:56
 msgid "M3U8 playlist export"
@@ -22991,7 +22987,7 @@ msgstr "Export playlistu vo formáte XSPF"
 
 #: modules/misc/playlist/export.c:68
 msgid "HTML playlist export"
-msgstr "Export playlistov vo formáte HTML"
+msgstr "Export playlistu HTML"
 
 #: modules/misc/rtsp.c:61
 msgid "Maximum number of connections"
@@ -27363,7 +27359,7 @@ msgstr "URL adresy polí RSS/Atom, oddelené značkou '|'."
 
 #: modules/video_filter/rss.c:131
 msgid "Speed of feeds"
-msgstr "Rotovanie medzi poliami"
+msgstr "Rýchlosť rotovania medzi poliami"
 
 #: modules/video_filter/rss.c:132
 msgid "Speed of the RSS/Atom feeds in microseconds (bigger is slower)."
@@ -33029,7 +33025,7 @@ msgstr "Zoznam správcov médií"
 
 #, fuzzy
 #~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "Prepnúť režimy playlistu Normálne/slučka/opakovať"
+#~ msgstr "Prepnúť režimy playlistu: normálne/slučka/opakovať"
 
 #, fuzzy
 #~ msgid "Display OSD menu on top of video output"
@@ -34059,8 +34055,7 @@ msgstr "Zoznam správcov médií"
 #, fuzzy
 #~ msgid "Previous media in the playlist, skip backward when keep-pressed"
 #~ msgstr ""
-#~ "Predchádzajúce médium v playliste, pri držaní môžete preskakovať smerom "
-#~ "dozadu"
+#~ "Predchádzajúce médium v playliste, pri držaní môžete preskakovať dozadu"
 
 #, fuzzy
 #~ msgid "Next media in the playlist, skip forward when keep-pressed"
