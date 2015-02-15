@@ -38,7 +38,7 @@ StrCpy $Action_OnArrivalSVCDMovie "Chwarae ffilm SVCD"
 StrCpy $Action_OnArrivalVideoFiles "Chwarae ffeiliau fideo"
 StrCpy $Action_OnArrivalMusicFiles "Chwarae ffeiliau sain"
 StrCpy $Action_OnArrivalDVDAudio "Chwarae DVD sain"
-StrCpy $License_NextText 'Wedi ei ddarllen, rydych yn ymwybodol o'ch hawliau. Cliciwch "Nesaf" i barhau.'
+StrCpy $License_NextText "Wedi ei ddarllen, rydych yn ymwybodol o'ch hawliau. Cliciwch 'Nesaf' i barhau."
 StrCpy $Detail_CheckProcesses "Yn gwirio..."
 StrCpy $MessageBox_VLCRunning "Mae'n ymddangos bod VLC yn rhedeg, felly bydd nawr yn cael ei gau."
 StrCpy $MessageBox_VLCUnableToClose "Methwyd cau VLC. Caewch y chwaraeydd, os gwelwch yn dda."
@@ -46,9 +46,9 @@ StrCpy $MessageBox_InstallAborted "Diweddwyd y broses gosod cyn gorffen!"
 StrCpy $Reinstall_Headline "Eisoes wedi'i osod"
 StrCpy $Reinstall_HeadlineInstall "Dewiswch sut hoffech osod VLC."
 StrCpy $Reinstall_HeadlineMaintenance "Dewiswch yr opsiwn cynnal a chadw i'w weithredu."
-StrCpy $Reinstall_MessageOlder 'Mae fersiwn gynt o VLC wedi'i osod ar eich system. Dewiswch un o'r gweithredoedd a chliciwch "Nesaf" i barhau.'
-StrCpy $Reinstall_MessageNewer 'Mae fersiwn mwy diweddar o VLC eisoes wedi'i osod! Nid yw'n arferol i israddio at fersiwn gynt. Dewiswch un o'r gweithredoedd a chliciwch "Nesaf" i barhau.'
-StrCpy $Reinstall_MessageSame 'Mae VLC ${VERSION} eisoes wedi'i osod. Dewiswch un o'r gweithredoedd a chliciwch "Nesaf" i barhau.'
+StrCpy $Reinstall_MessageOlder "Mae fersiwn gynt o VLC wedi'i osod ar eich system. Dewiswch un o'r gweithredoedd a chliciwch 'Nesaf' i barhau."
+StrCpy $Reinstall_MessageNewer "Mae fersiwn mwy diweddar o VLC eisoes wedi'i osod! Nid yw'n arferol i israddio at fersiwn gynt. Dewiswch un o'r gweithredoedd a chliciwch 'Nesaf' i barhau."
+StrCpy $Reinstall_MessageSame "Mae VLC ${VERSION} eisoes wedi'i osod. Dewiswch un o'r gweithredoedd a chliciwch 'Nesaf' i barhau."
 StrCpy $Reinstall_OptionUpgrade "Uwchraddio VLC gyda'r un gosodiadau (argymhellwyd)"
 StrCpy $Reinstall_OptionDowngrade "Israddio VLC gyda'r un gosodiadau (argymhellwyd)"
 StrCpy $Reinstall_OptionComponents "Ychwangeug/Tynnu/Ailosod cydrannau"
