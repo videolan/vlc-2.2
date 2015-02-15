@@ -1,5 +1,5 @@
 # Korean translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
@@ -8,15 +8,15 @@
 # Han HoJoong <0demon0@paran.com>, 2005
 # Kang Jeong-Hee <keizie@gmail.com>, 2007
 # Namhyung Kim <namhyung@gmail.com>, 2007
+# Potato <sheppaul@naver.com>, 2013-2015
 # Seongki Shin <skshin@gmail.com>, 2013
-# Potato <sheppaul@naver.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2014-11-21 16:54+0100\n"
-"PO-Revision-Date: 2014-11-24 07:15+0000\n"
-"Last-Translator: Changkyoon Kim <ocnblu@gmail.com>\n"
+"PO-Revision-Date: 2015-02-09 00:36+0000\n"
+"Last-Translator: Potato <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ko/)\n"
 "Language: ko\n"
@@ -316,9 +316,9 @@ msgid ""
 "not do that.\n"
 "You can also set default parameters for each packetizer."
 msgstr ""
-"패킷타이저는 먹스 과정 전에 엘러멘터리 스트링을 \"전처리\"하기 위해 사용됩니"
-"다. 이 설정은 항상 특정 패킷타이저를 사용하도록 해 줍니다. 여러분은 아마도 이"
-"렇게 설정해서는 안 될 것입니다.\n"
+"패킷타이저는 먹스 과정 전에 엘러멘터리 스트림을 \"미리 처리\"하기 위해 사용됩"
+"니다. 이 설정은 항상 패킷타이저를 사용하도록 합니다. 여러분은 이렇게 설정해서"
+"는 안 될 것입니다.\n"
 "또한 각 패킷타이저에서 사용할 기본 매개변수를 설정할 수 있습니다."
 
 #: include/vlc_config_cat.h:156
@@ -11414,7 +11414,7 @@ msgstr "선형 PCM 오디오 디코더"
 
 #: modules/codec/lpcm.c:65
 msgid "Linear PCM audio packetizer"
-msgstr "선형 PCM 오디오 패킷타이저"
+msgstr " Linear PCM 오디오 패킷타이저"
 
 #: modules/codec/lpcm.c:71
 msgid "Linear PCM audio encoder"
@@ -11743,7 +11743,7 @@ msgstr "유사 raw 비디오 디코더"
 
 #: modules/codec/rawvideo.c:73
 msgid "Pseudo raw video packetizer"
-msgstr "유사 Raw 비디오 패킷타이저"
+msgstr "Pseudo Raw 비디오 패킷타이저"
 
 #: modules/codec/schroedinger.c:54
 msgid "Chroma format"
@@ -22181,15 +22181,15 @@ msgstr "last.fm 계정의 비밀번호"
 
 #: modules/misc/audioscrobbler.c:118
 msgid "Scrobbler URL"
-msgstr "음악통계기 URL"
+msgstr "스크로블러 주소"
 
 #: modules/misc/audioscrobbler.c:119
 msgid "The URL set for an alternative scrobbler engine"
-msgstr "음악통계기 엔진 대체 URL 세트"
+msgstr "대체 가능한 스크로블러 엔진 주소 목록"
 
 #: modules/misc/audioscrobbler.c:131
 msgid "Audioscrobbler"
-msgstr "음악통계기"
+msgstr "오디오스크로블러"
 
 #: modules/misc/audioscrobbler.c:132
 msgid "Submission of played songs to last.fm"
@@ -22217,8 +22217,8 @@ msgid ""
 "VLC.\n"
 "Visit http://www.last.fm/join/ to get an account."
 msgstr ""
-"사용자명을 정하거나 또는 Audioscrobbler 플러그인을 비활성화하고, VLC를 재시작"
-"하세요.\n"
+"사용자명을 정하거나 또는 오디오스크로블러(음악 통계 및 추천) 플러그인을 비활"
+"성화하고, VLC를 재시작하세요.\n"
 "계정을 얻으려면 http://www.last.fm/join/ 를 방문하세요."
 
 #: modules/misc/gnutls.c:51
@@ -22887,7 +22887,7 @@ msgstr "LibNotify 알림 플러그인"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
-msgstr "복사 패킷타이저"
+msgstr "Copy 패킷타이저"
 
 #: modules/packetizer/dirac.c:87
 msgid "Dirac packetizer"
@@ -38964,11 +38964,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Audioscrobbler username"
-#~ msgstr "음악통계기"
+#~ msgstr "오디오스크로블러"
 
 #, fuzzy
 #~ msgid "Audioscrobbler password"
-#~ msgstr "음악통계기"
+#~ msgstr "오디오스크로블러"
 
 #, fuzzy
 #~ msgid "Dummy video filter"
