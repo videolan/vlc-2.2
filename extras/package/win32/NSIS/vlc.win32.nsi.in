@@ -130,6 +130,7 @@ RequestExecutionLevel admin
   !insertmacro MUI_LANGUAGE "Russian"
   !insertmacro MUI_LANGUAGE "Portuguese"
   !insertmacro MUI_LANGUAGE "PortugueseBR"
+  !insertmacro MUI_LANGUAGE "Albanian"
   !insertmacro MUI_LANGUAGE "Welsh"
   !insertmacro MUI_LANGUAGE "Uzbek"
   !insertmacro MUI_LANGUAGE "Ukrainian"
@@ -550,6 +551,7 @@ UAC_Success:
   StrCmp $LANGUAGE ${LANG_UKRAINIAN} Ukrainian 0
   StrCmp $LANGUAGE ${LANG_UZBEK} Uzbek 0
   StrCmp $LANGUAGE ${LANG_WELSH} Welsh 0
+  StrCmp $LANGUAGE ${LANG_ALBANIAN} Albanian 0
   StrCmp $LANGUAGE ${LANG_PORTUGUESEBR} Brazilian EndLanguageCmp
   French:
   !include "languages\french.nsh"
@@ -679,6 +681,9 @@ UAC_Success:
   Goto EndLanguageCmp
   Welsh:
   !include "languages\welsh.nsh"
+  Goto EndLanguageCmp
+  Albanian:
+  !include "languages\albanian.nsh"
   Goto EndLanguageCmp
   Brazilian:
   !include "languages\brazilian_portuguese.nsh"
@@ -1075,6 +1080,7 @@ UAC_Success:
   StrCmp $LANGUAGE ${LANG_UKRAINIAN} Ukrainian 0
   StrCmp $LANGUAGE ${LANG_UZBEK} Uzbek 0
   StrCmp $LANGUAGE ${LANG_WELSH} Welsh 0
+  StrCmp $LANGUAGE ${LANG_ALBANIAN} Albanian 0
   StrCmp $LANGUAGE ${LANG_PORTUGUESEBR} Brazilian EndLanguageCmp
   French:
   !include "languages\french.nsh"
@@ -1204,6 +1210,9 @@ UAC_Success:
   Goto EndLanguageCmp
   Welsh:
   !include "languages\welsh.nsh"
+  Goto EndLanguageCmp
+  Albanian:
+  !include "languages\albanian.nsh"
   Goto EndLanguageCmp
   Brazilian:
   !include "languages\brazilian_portuguese.nsh"
