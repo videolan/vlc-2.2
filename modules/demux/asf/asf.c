@@ -1499,7 +1499,7 @@ static int DemuxInit( demux_t *p_demux )
                     es_format_Copy( tk->p_fmt, &fmt );
             }
 
-            fmt.i_id = tk->info.p_sp->i_stream_number;
+            fmt.i_id = tk->p_sp->i_stream_number;
 
             tk->p_es = es_out_Add( p_demux->out, &fmt );
 
