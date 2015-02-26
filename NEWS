@@ -1,4 +1,4 @@
-Changes between 2.1.x and 2.2.0:
+Changes between 2.1.6 and 2.2.0:
 --------------------------------
 
 Important changes:
@@ -189,6 +189,9 @@ Security:
  * Fix potential buffer overflow in schroedinger encoder
  * Fix null-pointer dereference in DMO decoder
  * Fix buffer overflow in parsing of string boxes in mp4 demuxer
+ * Fix SRTP integer overflow
+ * Fix potential crash in zip access
+ * Fix read overflow in Ogg demuxer
 
 Win32 installer:
  * Update translations and greek encoding
