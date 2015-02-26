@@ -9,7 +9,7 @@ SOURCES_packetizer_dirac = dirac.c
 SOURCES_packetizer_flac = flac.c
 SOURCES_packetizer_hevc = hevc.c
 
-libpacketizer_avparser_plugin_la_SOURCES = avparser.c \
+libpacketizer_avparser_plugin_la_SOURCES = avparser.c avparser.h \
                               ../codec/avcodec/avcommon.h \
                               ../codec/avcodec/avcodec.h \
                               ../codec/avcodec/fourcc.c
