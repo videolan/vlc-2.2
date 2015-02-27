@@ -7,7 +7,7 @@ ifdef HAVE_MACOSX
 #PKGS += qt
 endif
 ifdef HAVE_WIN32
-PKGS += qt
+#PKGS += qt
 endif
 
 ifeq ($(call need_pkg,"QtCore QtGui"),)
