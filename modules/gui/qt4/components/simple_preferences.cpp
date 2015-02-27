@@ -996,6 +996,11 @@ void SPrefsPanel::updateAudioOptions( int number)
     optionWidgets["spdifChB"]->setVisible( ( value == "alsa" || value == "oss" || value == "auhal" ||
                                            value == "directsound" || value == "waveout" ) );
 
+#ifdef _WIN32
+    // FIXME
+    if( value == "any" )
+        value = "directsound";
+#endif
     int volume = getDefaultAudioVolume(VLC_OBJECT(p_intf), qtu(value));
     bool save = true;
 
