@@ -1,6 +1,6 @@
 # libvorbis
 
-VORBIS_VERSION := 1.3.4
+VORBIS_VERSION := 1.3.5
 VORBIS_URL := http://downloads.xiph.org/releases/vorbis/libvorbis-$(VORBIS_VERSION).tar.xz
 #VORBIS_URL := $(CONTRIB_VIDEOLAN)/libvorbis-$(VORBIS_VERSION).tar.gz
 
@@ -24,8 +24,6 @@ $(TARBALLS)/libvorbis-$(VORBIS_VERSION).tar.xz:
 .sum-vorbis: libvorbis-$(VORBIS_VERSION).tar.xz
 
 libvorbis: libvorbis-$(VORBIS_VERSION).tar.xz .sum-vorbis
-	$(UNPACK)
-	$(APPLY) $(SRC)/vorbis/osx.patch
 	$(UPDATE_AUTOCONFIG)
 	$(MOVE)
 
