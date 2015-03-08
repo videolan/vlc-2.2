@@ -24,6 +24,7 @@ $(TARBALLS)/libvorbis-$(VORBIS_VERSION).tar.xz:
 .sum-vorbis: libvorbis-$(VORBIS_VERSION).tar.xz
 
 libvorbis: libvorbis-$(VORBIS_VERSION).tar.xz .sum-vorbis
+	$(UNPACK)
 	$(UPDATE_AUTOCONFIG)
 	$(MOVE)
 
