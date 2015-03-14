@@ -181,6 +181,12 @@ static int WindowControl(vout_window_t *p_wnd, int i_query, va_list args)
         {
             unsigned i_state = va_arg(args, unsigned);
 
+            if (i_state & VOUT_WINDOW_STATE_BELOW)
+            {
+                msg_Dbg(p_wnd, "Ignore change to VOUT_WINDOW_STATE_BELOW");
+                goto out;
+            }
+
             NSInteger i_cooca_level = NSNormalWindowLevel;
             if (i_state & VOUT_WINDOW_STATE_ABOVE)
                 i_cooca_level = NSStatusWindowLevel;
@@ -198,7 +204,6 @@ static int WindowControl(vout_window_t *p_wnd, int i_query, va_list args)
         }
         case VOUT_WINDOW_SET_SIZE:
         {
-
             unsigned int i_width  = va_arg(args, unsigned int);
             unsigned int i_height = va_arg(args, unsigned int);
 
@@ -216,6 +221,11 @@ static int WindowControl(vout_window_t *p_wnd, int i_query, va_list args)
         }
         case VOUT_WINDOW_SET_FULLSCREEN:
         {
+            if (var_InheritBool(VLCIntf, "video-wallpaper")) {
+                msg_Dbg(p_wnd, "Ignore fullscreen event as video-wallpaper is on");
+                goto out;
+            }
+
             int i_full = va_arg(args, int);
             BOOL b_animation = YES;
 
@@ -240,6 +250,7 @@ static int WindowControl(vout_window_t *p_wnd, int i_query, va_list args)
         }
     }
 
+out:
     [o_vout_provider_lock unlock];
     [o_pool release];
     return VLC_SUCCESS;
