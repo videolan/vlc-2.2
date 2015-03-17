@@ -1046,11 +1046,6 @@ MainInputManager::MainInputManager( intf_thread_t *_p_intf )
     DCONNECT( this, inputChanged(),
               im, inputChangedHandler() );
 
-    /* initialize p_input (an input can already be running) */
-    p_input = playlist_CurrentInput( THEPL );
-    if( p_input )
-        emit inputChanged( );
-
     /* Audio Menu */
     menusAudioMapper = new QSignalMapper();
     CONNECT( menusAudioMapper, mapped(QString), this, menusUpdateAudio( QString ) );
