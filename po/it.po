@@ -14,6 +14,7 @@
 # Francesco Marinucci <framari@opmbx.org>, 2013
 # ghina90 <inactive+ghina90@transifex.com>, 2013
 # Guybrush88 <erpizzo@alice.it>, 2014
+# Jacopo Tumminello <tummarellox@gmail.com>, 2015
 # lorenzo facca <lorenzo.facca@gmail.com>, 2013-2014
 # Lorenzo Porta, 2013
 # thegladiator <justthegladiator@gmail.com>, 2014
@@ -31,13 +32,13 @@
 # sara.nocentini <sara.nocentini@gmail.com>, 2014
 # Marco Esposito <antani125@yahoo.it>, 2013
 # Veronica Di Giorgio <verodigiorgio@gmail.com>, 2013
-# Vincenzo Reale <vinx.reale@gmail.com>, 2014
+# Vincenzo Reale <vinx.reale@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2014-12-29 20:43+0000\n"
+"PO-Revision-Date: 2015-03-07 15:04+0000\n"
 "Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
@@ -150,7 +151,7 @@ msgstr "Moduli d'uscita"
 
 #: include/vlc_config_cat.h:65
 msgid "General settings for audio output modules."
-msgstr "Impostazioni generali per i moduli d'uscita audio."
+msgstr "Impostazioni generali per i moduli di uscita audio."
 
 #: include/vlc_config_cat.h:67 src/libvlc-module.c:1953
 #: modules/gui/macosx/VideoEffects.m:83
@@ -6690,9 +6691,8 @@ msgid "Layer C time interleaving"
 msgstr "Tempo di interleaving del lato C"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Identificatore di rete"
+msgstr "Identificatore del flusso"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -14062,19 +14062,19 @@ msgstr "Codificatore H.264/MPEG-4 Part 10/AVC (x264 10-bit)"
 
 #: modules/codec/x264.c:455
 msgid "H.262/MPEG-2 encoder (x262)"
-msgstr "Codificatore H.262/MPEG-2 (x262)"
+msgstr "Encoder H.262/MPEG-2 (x262)"
 
 #: modules/codec/x264.c:459
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264)"
-msgstr "Codificatore H.264/MPEG-4 Part 10/AVC (x264)"
+msgstr "Encoder H.264/MPEG-4 Part 10/AVC (x264)"
 
 #: modules/codec/x265.c:45
 msgid "H.265/HEVC encoder (x265)"
-msgstr "Codificatore H.265/HEVC (x265)"
+msgstr "Encoder H.265/HEVC (x265)"
 
 #: modules/codec/xwd.c:36
 msgid "XWD image decoder"
-msgstr "Decodificatore immagine XWD"
+msgstr "Decoder immagine XWD"
 
 #: modules/codec/zvbi.c:61
 msgid "Teletext page"
@@ -17270,6 +17270,8 @@ msgid ""
 "Media encapsulated as %@ cannot be streamed through the HTTP protocol for "
 "technical reasons."
 msgstr ""
+"Il media incapsulato come %@ non può essere trasmesso tramite il protocollo "
+"HTTP per motivi tecnici."
 
 #: modules/gui/macosx/ConvertAndSave.m:370
 msgid "Save as new profile"
@@ -23541,9 +23543,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "Plugin di notifica Libnotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Copy packetizer"
+msgstr "Pacchettizzatore avparser"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -23682,6 +23683,9 @@ msgid ""
 "The SAP module normally chooses itself the right addresses to listen to. "
 "However, you can specify a specific address."
 msgstr ""
+"Il modulo SAP, di norma, sceglie automaticamente gli indirizzi corretti sui "
+"quali rimanere in ascolto. In ogni caso, puoi indicare un indirizzo "
+"specifico."
 
 #: modules/services_discovery/sap.c:85
 msgid "SAP timeout (seconds)"
@@ -23691,6 +23695,8 @@ msgstr "Timeout SAP (secondi)"
 msgid ""
 "Delay after which SAP items get deleted if no new announcement is received."
 msgstr ""
+"Ritardo dopo il quale gli elementi SAP sono eliminati se non si riceve un "
+"nuovo annuncio."
 
 #: modules/services_discovery/sap.c:89
 msgid "Try to parse the announce"
@@ -26398,6 +26404,8 @@ msgid ""
 "Gaussian's standard deviation. The blurring will take into account pixels up "
 "to 3*sigma away in any direction."
 msgstr ""
+"Deviazione standard gaussiana. La sfocatura prenderà in considerazione i "
+"pixel fino a 3*sigma in ogni direzione."
 
 #: modules/video_filter/gaussianblur.c:52
 msgid "Add a blurring effect"
@@ -27062,6 +27070,7 @@ msgstr "Nome del plugin OpenCV interno da usare"
 #: modules/video_filter/posterize.c:61
 msgid "Posterize level (number of colors is cube of this value)"
 msgstr ""
+"Livello di posterizzazione (il numero di colori è il cubo di questo valore)"
 
 #: modules/video_filter/posterize.c:67
 msgid "Posterize video filter"
@@ -27487,6 +27496,8 @@ msgid ""
 "Directory path where images files should be saved. If not set, then images "
 "will be automatically saved in users homedir."
 msgstr ""
+"Percorso della directory dove salvare le immagini. Se non impostato, le "
+"immagini saranno salvate automaticamente nella directory principale."
 
 #: modules/video_filter/scene.c:86
 msgid "Always write to the same file"
@@ -27596,6 +27607,9 @@ msgid ""
 "predecessor has disappeared (subtitle delay will be extended to meet this "
 "requirement)."
 msgstr ""
+"Tempo minimo (in millisecondi) che il sottotitolo dovrebbe rimanere visibile "
+"dopo che il suo predecessore è scomparso (il ritardo dei sottotitoli sarà "
+"esteso per soddisfare questo requisito)."
 
 #: modules/video_filter/subsdelay.c:69
 msgid "Interval between disappearance and appearance"
@@ -27607,6 +27621,9 @@ msgid ""
 "subtitle appearance (earlier subtitle delay will be extended to fill the "
 "gap)."
 msgstr ""
+"Tempo minimo (in millisecondi) tra la scomparsa del sottotitolo e "
+"l'apparizione del sottititolo successivo (il precedente ritardo dei "
+"sottotitoli sarà esteso per colmare il gap)"
 
 #: modules/video_filter/subsdelay.c:74
 msgid "Interval between appearance and disappearance"
@@ -27618,6 +27635,9 @@ msgid ""
 "subtitle has appeared (earlier subtitle delay will be shortened to avoid the "
 "overlap)."
 msgstr ""
+"Tempo minimo (in millisecondi) che i sottotitoli dovrebbero rimanere "
+"visibili dopo che il sottotitolo più recente è apparso (il precedente "
+"ritardo dei sottotitoli sarà ridotto al fine di evitare la sovrapposizione)."
 
 #: modules/video_filter/subsdelay.c:80
 msgid "Absolute delay"
@@ -27727,13 +27747,15 @@ msgstr "Core Animation OpenGL Layer (Mac OS X)"
 
 #: modules/video_output/decklink.cpp:70
 msgid "Timelength after which we assume there is no signal."
-msgstr ""
+msgstr "Periodo di tempo dopo il quale si suppone non c'è segnale."
 
 #: modules/video_output/decklink.cpp:72
 msgid ""
 "Timelength after which we assume there is no signal.\n"
 "After this delay we black out the video."
 msgstr ""
+"Periodo di tempo dopo il quale si suppone non c'è segnale. Dopo questo tempo "
+"il video sarà disattivato."
 
 #: modules/video_output/decklink.cpp:76
 msgid "Picture to display on input signal loss."
@@ -29936,9 +29958,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Elenco gestore multimediale"
-
-#~ msgid "Video acceleration not available"
-#~ msgstr "Accelerazione video non disponibile"
 
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
@@ -34192,6 +34211,10 @@ msgstr "Elenco gestore multimediale"
 
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Impronta digitale del brano (basata su Acoustid)"
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "Uscita video K Video Acceleration"
 
 #, fuzzy
 #~ msgid "A file containing a simple playlist"
@@ -41487,7 +41510,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "SLP attribute identifiers"
-#~ msgstr "Identificatore di rete"
+#~ msgstr "Identificatore del flusso"
 
 #, fuzzy
 #~ msgid "SLP LDAP filter"
