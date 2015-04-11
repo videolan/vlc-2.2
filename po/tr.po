@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2015-01-23 07:43+0000\n"
+"PO-Revision-Date: 2015-02-27 23:26+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/tr/)\n"
@@ -6651,9 +6651,8 @@ msgid "Layer C time interleaving"
 msgstr "C katmanı zaman harmanlaması"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Ağ kimliği"
+msgstr "Akış kodu"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -16602,7 +16601,7 @@ msgstr "İki Geçişli"
 #: modules/gui/qt4/components/extended_panels.cpp:1246
 #: modules/gui/qt4/ui/equalizer.h:136
 msgid "Preamp"
-msgstr "Öngüçlendirme"
+msgstr "Ön güçlendirme"
 
 #: modules/gui/macosx/AudioEffects.m:117
 msgid "Enable dynamic range compressor"
@@ -20955,7 +20954,7 @@ msgstr "Bu çoklayıcı doğrudan VLC tarafından sağlanmıyor: Eksik olabilir.
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "Bu çoklayıcı bulunamadı. Bu profil kullanılamayacak"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -23405,9 +23404,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "LibNotify Bildirimleri Uygulama Eki"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Kopya Paketleyicisi"
+msgstr "avparser paketleyici"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -29855,9 +29853,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Ortam Yöneticisi Listesi"
 
-#~ msgid "Video acceleration not available"
-#~ msgstr "Görüntü hızlandırması kullanılamıyor"
-
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
 #~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
@@ -32719,6 +32714,23 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgstr "VLC Hata Ayıklama Günlüğü (%s).rtf"
 
 #, fuzzy
+#~ msgid ""
+#~ "Your video output acceleration driver does not support the required "
+#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+#~ "%<PRIu32>.\n"
+#~ "Video output acceleration will be disabled. However, rendering videos "
+#~ "with overly large resolution may cause severe performance degration."
+#~ msgstr ""
+#~ "XVideo görüntü hızlandırma sürücünüz istenen çözünürlüğü desteklemiyor: "
+#~ "%ux%u piksel. Desteklenen en yüksek çözünürlük: %<PRIu32>x%<PRIu32>.\n"
+#~ "Hızlandırma devre dışı bırakılacak. Çözünürlük yüksek olduğunda, "
+#~ "görüntüler oluşturulurken başarım çok fazla düşebilir."
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "K Video hızlandırıcı görüntü çıkışı"
+
+#, fuzzy
 #~ msgid "Subtitle track added"
 #~ msgstr "Altyazı izi"
 
@@ -33286,19 +33298,6 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgstr ""
 #~ "Bu seçenek etkinleştirildiğinde, altyazı ve EÜG karıştırmaları için "
 #~ "donanımsal hızlandırma kullanılmaya çalışılır."
-
-#, fuzzy
-#~ msgid ""
-#~ "Your video output acceleration driver does not support the required "
-#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
-#~ "%<PRIu32>.\n"
-#~ "Video output acceleration will be disabled. However, rendering videos "
-#~ "with overly large resolution may cause severe performance degration."
-#~ msgstr ""
-#~ "XVideo görüntü hızlandırma sürücünüz istenen çözünürlüğü desteklemiyor: "
-#~ "%ux%u piksel. Desteklenen en yüksek çözünürlük: %<PRIu32>x%<PRIu32>.\n"
-#~ "Hızlandırma devre dışı bırakılacak. Çözünürlük yüksek olduğunda, "
-#~ "görüntüler oluşturulurken başarım çok fazla düşebilir."
 
 #, fuzzy
 #~ msgid "Are you sure you wish to create the stream ?"
@@ -34518,7 +34517,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Preamp\n"
-#~ msgstr "Öngüçlendirme"
+#~ msgstr "Ön güçlendirme"
 
 #, fuzzy
 #~ msgid " dB"
@@ -37858,7 +37857,7 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgid ""
 #~ "Preamp\n"
 #~ "12.0dB"
-#~ msgstr "Öngüçlendirme"
+#~ msgstr "Ön güçlendirme"
 
 #, fuzzy
 #~ msgid "More Information"
