@@ -11,6 +11,7 @@
 # Miroslav Oujeský <oujesky@mail.muni.cz>, 2006
 # Sofartin <hrubymar10@gmail.com>, 2013
 # dreddux <dreddux@gmail.com>, 2012
+# Petr Nekvinda <petr.nekvinda@gmail.com>, 2015
 # Petr Šimáček <petr.simacek@gmail.com>, 2012
 # Roman Ondráček <ondracek.roman@centrum.cz>, 2014
 # sifkka <sifkka@gmail.com>, 2014
@@ -26,7 +27,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2015-02-14 16:03+0000\n"
+"PO-Revision-Date: 2015-03-06 09:41+0000\n"
 "Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/vlc-trans/language/"
 "cs/)\n"
@@ -176,7 +177,7 @@ msgstr "Obecná nastavení videa"
 
 #: include/vlc_config_cat.h:77
 msgid "General settings for video output modules."
-msgstr ""
+msgstr "Obecná nastavení pro moduly výstupu videa."
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -1889,7 +1890,7 @@ msgstr "Výchozí zesílení přehrávání"
 
 #: src/libvlc-module.c:212
 msgid "This is the gain used for stream without replay gain information"
-msgstr "Zesílení použito pro proud bez informací o zesílení"
+msgstr "Zesílení použité pro proud bez informací o zesílení"
 
 #: src/libvlc-module.c:214
 msgid "Peak protection"
@@ -1931,11 +1932,10 @@ msgid ""
 "\"video filters\" modules section. You can also set many miscellaneous video "
 "options."
 msgstr ""
-"Tyto možnosti dovolují modifikovat chování podsystému výstupu videa. "
-"Například je možné povolit video filtry (odstranění prokládání, úprava "
-"obrazu, etc.). Zde je možné filtry povolit, zatímco jejich konfigurace se "
-"provádí v sekci \"moduly pro video filtry\". Rovněž je zde možné nastavit "
-"další různé volby."
+"Možnosti pro úpravy chování podsystému výstupu videa. Například je možné "
+"povolit video filtry (odstranění prokládání, úprava obrazu, atp.). Zde je "
+"možné filtry povolit, zatímco jejich konfigurace se provádí v sekci \"moduly "
+"pro video filtry\". Rovněž je zde možné nastavit další různé volby."
 
 #: src/libvlc-module.c:242
 msgid "Video output module"
@@ -2304,6 +2304,8 @@ msgid ""
 "This adds post-processing filters to enhance the picture quality, for "
 "instance deinterlacing, or distort the video."
 msgstr ""
+"Toto přidává post-processing filtr vylepšující kvalitu obrazu rozkládání "
+"nebo deformování obrazu."
 
 #: src/libvlc-module.c:387
 msgid "Video snapshot directory (or filename)"
@@ -2350,6 +2352,8 @@ msgid ""
 "You can enforce the width of the video snapshot. By default it will keep the "
 "original width (-1). Using 0 will scale the width to keep the aspect ratio."
 msgstr ""
+"Můžete vynutit šířku snímku videa. Originálně je držena původní šířka (-1). "
+"Použitím 0 bude měřítko šířky dodržovat poměr stran."
 
 #: src/libvlc-module.c:413
 msgid "Video snapshot height"
@@ -2361,6 +2365,8 @@ msgid ""
 "the original height (-1). Using 0 will scale the height to keep the aspect "
 "ratio."
 msgstr ""
+"Můžete vynutit výšku snímku videa. Originálně je držena původní výška (-1). "
+"Použitím 0 bude měřítko výšky dodržovat poměr stran."
 
 #: src/libvlc-module.c:419
 msgid "Video cropping"
@@ -2386,6 +2392,11 @@ msgid ""
 "y (4:3, 16:9, etc.) expressing the global image aspect, or a float value "
 "(1.25, 1.3333, etc.) expressing pixel squareness."
 msgstr ""
+"Toto nutí zdrojový poměr stran. Například některá DVD nárokují poměr 16:9, "
+"ale skutečně jsou v poměru 4:3. Toto může být také použito jako tip pro VLC, "
+"kdy film nenese informaci o poměru stran. Akceptované formáty jsou x:y (4:3, "
+"16:9, atd.) vyjadřující globální poměr snímku nebo plovoucí hodnotu (1.25, "
+"1.3333, atd.) vyjadřující kolmost pixelu."
 
 #: src/libvlc-module.c:434
 msgid "Video Auto Scaling"
@@ -2556,7 +2567,7 @@ msgstr "Hodnota mezipaměti pro síťové zdroje, v milisekundách."
 
 #: src/libvlc-module.c:515
 msgid "Clock reference average counter"
-msgstr ""
+msgstr "Časová reference poměru počítadla"
 
 #: src/libvlc-module.c:517
 msgid ""
@@ -2653,7 +2664,7 @@ msgstr "Výchozí rozhraní pro multicast. Přepisuje směrovací tabulku."
 
 #: src/libvlc-module.c:557
 msgid "DiffServ Code Point"
-msgstr ""
+msgstr "DiffServ Kód Bodu"
 
 #: src/libvlc-module.c:558
 msgid ""
@@ -2718,7 +2729,7 @@ msgstr ""
 
 #: src/libvlc-module.c:596
 msgid "Menu language"
-msgstr ""
+msgstr "Nabídka jazyku"
 
 #: src/libvlc-module.c:598
 msgid ""
@@ -2753,6 +2764,10 @@ msgid ""
 "option if you don't have enough CPU power or network bandwidth to play "
 "higher resolutions."
 msgstr ""
+"Je-li k dispozici více video formátů, vyberte ten, jehož rozlišení je "
+"nejblíže (ale ne vyšší než) toto nastavení v počtu řádků. Použijte tuto "
+"možnost, pokud nemáte dostatečný výkon CPU, nebo šířku pásma pro přehrávání "
+"vyšších rozlišení."
 
 #: src/libvlc-module.c:618
 msgid "Best available"
@@ -2872,7 +2887,7 @@ msgstr "Adresář, nebo název souboru, kam se budou ukládat nahrávky"
 
 #: src/libvlc-module.c:669
 msgid "Prefer native stream recording"
-msgstr ""
+msgstr "Upřednostnit základní nahrávání proudu."
 
 #: src/libvlc-module.c:671
 msgid ""
@@ -2890,7 +2905,7 @@ msgstr "Adresář pro ukládání dočasných souborů funkce časového posunu.
 
 #: src/libvlc-module.c:678
 msgid "Timeshift granularity"
-msgstr ""
+msgstr "Zrnitost posunu času"
 
 #: src/libvlc-module.c:680
 msgid ""
@@ -2933,11 +2948,11 @@ msgstr ""
 
 #: src/libvlc-module.c:702
 msgid "Enable sub-pictures"
-msgstr ""
+msgstr "Zapnout sub-obrázky"
 
 #: src/libvlc-module.c:704
 msgid "You can completely disable the sub-picture processing."
-msgstr ""
+msgstr "Můžete kompletně vypnout zpracování sub-obrázku."
 
 #: src/libvlc-module.c:706 src/libvlc-module.c:1621 src/text/iso-639_def.h:145
 #: modules/gui/macosx/simple_prefs.m:405
@@ -2968,7 +2983,7 @@ msgstr ""
 
 #: src/libvlc-module.c:715
 msgid "Subpictures source module"
-msgstr ""
+msgstr "Modul zdroje sub-obrázku"
 
 #: src/libvlc-module.c:717
 msgid ""
@@ -2978,7 +2993,7 @@ msgstr ""
 
 #: src/libvlc-module.c:720
 msgid "Subpictures filter module"
-msgstr ""
+msgstr "Modul filtru sub-obrázku"
 
 #: src/libvlc-module.c:722
 msgid ""
@@ -3000,7 +3015,7 @@ msgstr ""
 
 #: src/libvlc-module.c:730
 msgid "Subtitle autodetection fuzziness"
-msgstr ""
+msgstr "Zmatenost autodetekce titulků"
 
 #: src/libvlc-module.c:732
 msgid ""
@@ -6346,9 +6361,8 @@ msgid "Layer C time interleaving"
 msgstr ""
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Identifikátor sítě"
+msgstr ""
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -20861,7 +20875,7 @@ msgstr "&Smazat"
 
 #: modules/gui/qt4/menus.cpp:1640
 msgid "&Save To Playlist"
-msgstr ""
+msgstr "Uložit do &seznamu skladeb"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -22043,9 +22057,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "Modul oznámení LibNotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "paketizér"
+msgstr ""
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -28216,7 +28229,7 @@ msgstr "Seznam správců médií"
 #, fuzzy
 #~ msgid ""
 #~ "These are general settings for video/audio/subtitle encoding modules."
-#~ msgstr "Obecná nastavení pro moduly výstupu zvuku."
+#~ msgstr "Obecná nastavení pro moduly výstupu videa."
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
