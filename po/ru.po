@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2015-01-09 15:54+0000\n"
+"PO-Revision-Date: 2015-03-14 05:04+0000\n"
 "Last-Translator: Alexander Lakhin <exclusion@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ru/)\n"
@@ -6561,9 +6561,8 @@ msgid "Layer C time interleaving"
 msgstr "Перемежение в слое C"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Идентификатор сети"
+msgstr "Идентификатор потока"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -20815,7 +20814,7 @@ msgstr "Этот миксер не входит в состав VLC: он мож
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "Мультиплексор отсутствует. Использовать этот профиль нельзя."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -23251,9 +23250,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "Модуль уведомления LibNotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Упаковщик копированием"
+msgstr "Упаковщик avparser"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -29671,9 +29669,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Список настроек медиаменеджера"
 
-#~ msgid "Video acceleration not available"
-#~ msgstr "Ускорение видео не поддерживается"
-
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
 #~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
@@ -31981,6 +31976,23 @@ msgstr "Список настроек медиаменеджера"
 #~ msgstr "Отладочные сообщения VLC (%s).rtf"
 
 #, fuzzy
+#~ msgid ""
+#~ "Your video output acceleration driver does not support the required "
+#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+#~ "%<PRIu32>.\n"
+#~ "Video output acceleration will be disabled. However, rendering videos "
+#~ "with overly large resolution may cause severe performance degration."
+#~ msgstr ""
+#~ "Ваш драйвер ускорения вывода XVideo не поддерживает требуемое разрешение: "
+#~ "%ux%u пикселов. Максимально возможное разрешение: %<PRIu32>x%<PRIu32>.\n"
+#~ "Ускорение видеовывода будет отключено. При воспроизведении видео с "
+#~ "большим разрешением может наблюдаться замедление."
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "Вывод видео через K Video Acceleration"
+
+#, fuzzy
 #~ msgid "Subtitle track added"
 #~ msgstr "Дорожка субтитров"
 
@@ -34104,19 +34116,6 @@ msgstr "Список настроек медиаменеджера"
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
 #~ msgstr ""
 #~ "Попытаться использовать аппаратное ускорение для наложения субтитров/OSD."
-
-#, fuzzy
-#~ msgid ""
-#~ "Your video output acceleration driver does not support the required "
-#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
-#~ "%<PRIu32>.\n"
-#~ "Video output acceleration will be disabled. However, rendering videos "
-#~ "with overly large resolution may cause severe performance degration."
-#~ msgstr ""
-#~ "Ваш драйвер ускорения вывода XVideo не поддерживает требуемое разрешение: "
-#~ "%ux%u пикселов. Максимально возможное разрешение: %<PRIu32>x%<PRIu32>.\n"
-#~ "Ускорение видеовывода будет отключено. При воспроизведении видео с "
-#~ "большим разрешением может наблюдаться замедление."
 
 #, fuzzy
 #~ msgid "Stream Name"
