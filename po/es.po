@@ -1,11 +1,10 @@
 # Spanish translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Alvaro Sáez <asaez@asaez.eu>, 2013
 # Chema <jomarg@telefonica.net>, 2014
-# David González <pico.dev@gmail.com>, 2014
 # alberto <cyko666@gmail.com>, 2013
 # estebande <estebandeleo91@hotmail.com>, 2013
 # Chema <jomarg@telefonica.net>, 2013
@@ -13,6 +12,7 @@
 # Juan Diego Fernández Rosado <juandiegofernandezrosado@gmail.com>, 2014
 # Konrad Iturbe <mail@chernowii.com>, 2013
 # Marc Sokolovitch <sokolovitch@yahoo.com>, 2013
+# picodotdev <pico.dev@gmail.com>, 2014-2015
 # Sam Askari <saskarip@gmail.com>, 2013
 # saulortega <saulortega.co@gmail.com>, 2013
 # Yllelder, 2013
@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2014-11-22 17:39+0000\n"
+"PO-Revision-Date: 2015-02-27 09:57+0000\n"
 "Last-Translator: picodotdev <pico.dev@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/es/)\n"
@@ -6650,9 +6650,8 @@ msgid "Layer C time interleaving"
 msgstr "Entrelazado de tiempo de capa C"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Identificador de red"
+msgstr "Identificador de emisión"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -20986,7 +20985,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "El muxer no se encuentra. Usando ester perfil fallará"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -23445,9 +23444,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "Complemento de notificación LibNotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Copiar empaquetador"
+msgstr "Empaquetador avparser"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -29922,9 +29920,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Lista del administrador multimedia"
 
-#~ msgid "Video acceleration not available"
-#~ msgstr "Aceleración de vídeo no disponible"
-
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
 #~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
@@ -34480,6 +34475,24 @@ msgstr "Lista del administrador multimedia"
 #~ msgstr "Seleccionar una identidad coincidente"
 
 #, fuzzy
+#~ msgid ""
+#~ "Your video output acceleration driver does not support the required "
+#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+#~ "%<PRIu32>.\n"
+#~ "Video output acceleration will be disabled. However, rendering videos "
+#~ "with overly large resolution may cause severe performance degration."
+#~ msgstr ""
+#~ "La controladora de aceleración de renderizado XVideo no soporta la "
+#~ "resolución requerida de %ux%u pixeles pero %<PRIu32>x%<PRIu32> pixels en "
+#~ "su lugar.\n"
+#~ "La aceleración así estará deshabilitada. El rendimiento se degradará "
+#~ "severamente si la resolución es alta."
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "Salida de aceleración de vídeo K"
+
+#, fuzzy
 #~ msgid "Subtitle track added"
 #~ msgstr "Pista de subtítulos"
 
@@ -34972,20 +34985,6 @@ msgstr "Lista del administrador multimedia"
 #, fuzzy
 #~ msgid "Occitan (post 1500); Provencal"
 #~ msgstr "Occitano; Provenzal"
-
-#, fuzzy
-#~ msgid ""
-#~ "Your video output acceleration driver does not support the required "
-#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
-#~ "%<PRIu32>.\n"
-#~ "Video output acceleration will be disabled. However, rendering videos "
-#~ "with overly large resolution may cause severe performance degration."
-#~ msgstr ""
-#~ "La controladora de aceleración de renderizado XVideo no soporta la "
-#~ "resolución requerida de %ux%u pixeles pero %<PRIu32>x%<PRIu32> pixels en "
-#~ "su lugar.\n"
-#~ "La aceleración así estará deshabilitada. El rendimiento se degradará "
-#~ "severamente si la resolución es alta."
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
@@ -41549,7 +41548,7 @@ msgstr "Lista del administrador multimedia"
 
 #, fuzzy
 #~ msgid "SLP attribute identifiers"
-#~ msgstr "Identificador de red"
+#~ msgstr "Identificador de emisión"
 
 #, fuzzy
 #~ msgid "SLP input"
