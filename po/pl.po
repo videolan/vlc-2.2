@@ -6,7 +6,7 @@
 # Daniel Krawczyk <daniekonepl@gmail.com>, 2014
 # Grzegorz Pruchniakowski <gootector@o2.pl>, 2013-2014
 # Cysioland <cysioland@gmail.com>, 2013
-# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2007-2014
+# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2007-2015
 # robaks, 2013
 # filux <smartadminpl@gmail.com>, 2014
 msgid ""
@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2014-12-29 08:26+0000\n"
-"Last-Translator: Grzegorz Pruchniakowski <gootector@o2.pl>\n"
+"PO-Revision-Date: 2015-02-27 10:19+0000\n"
+"Last-Translator: M T <hippie_1968@hotmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/pl/)\n"
 "Language: pl\n"
@@ -6574,9 +6574,8 @@ msgid "Layer C time interleaving"
 msgstr "Przeplatanie czasu warstwy C"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Identyfikator sieci"
+msgstr "Identyfikator strumienia"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -20831,7 +20830,7 @@ msgstr "Ten mukser nie jest dostarczany przez VLC: może brakować."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "Tego muksera brakuje. Używanie tego profilu nie powiedzie się"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -23291,9 +23290,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "Wtyczka powiadomienia LibNotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Pakietowiec kopiowania"
+msgstr "Pakietowiec avparser"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -29751,9 +29749,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Lista menedżera mediów"
 
-#~ msgid "Video acceleration not available"
-#~ msgstr "Przyspieszenie obrazu jest nie dostępne"
-
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
 #~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
@@ -32795,6 +32790,24 @@ msgstr "Lista menedżera mediów"
 #~ "ustawienie typu napisów lub nazwy pliku."
 
 #, fuzzy
+#~ msgid ""
+#~ "Your video output acceleration driver does not support the required "
+#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+#~ "%<PRIu32>.\n"
+#~ "Video output acceleration will be disabled. However, rendering videos "
+#~ "with overly large resolution may cause severe performance degration."
+#~ msgstr ""
+#~ "Sterownik XVideo przyspieszenia renderowania nie obsługuje wymaganej "
+#~ "rozdzielczości: %ux%u pikseli. Maksymalna obsługiwana rozdzielczość to "
+#~ "%<PRIu32>x%<PRIu32>.\n"
+#~ "Przyspieszenie zostanie wyłączone. Jednak renderowanie filmów o zbyt "
+#~ "dużej rozdzielczości, może spowodować poważny spadek wydajności."
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "Wyjście obrazu K Video Acceleration"
+
+#, fuzzy
 #~ msgid "Subtitle track added"
 #~ msgstr "Ścieżka napisów"
 
@@ -33429,20 +33442,6 @@ msgstr "Lista menedżera mediów"
 #~ msgstr ""
 #~ "Spróbuj używać przyspieszenia sprzętowego dla mieszania napisów/"
 #~ "informacji na ekranie (OSD)."
-
-#, fuzzy
-#~ msgid ""
-#~ "Your video output acceleration driver does not support the required "
-#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
-#~ "%<PRIu32>.\n"
-#~ "Video output acceleration will be disabled. However, rendering videos "
-#~ "with overly large resolution may cause severe performance degration."
-#~ msgstr ""
-#~ "Sterownik XVideo przyspieszenia renderowania nie obsługuje wymaganej "
-#~ "rozdzielczości: %ux%u pikseli. Maksymalna obsługiwana rozdzielczość to "
-#~ "%<PRIu32>x%<PRIu32>.\n"
-#~ "Przyspieszenie zostanie wyłączone. Jednak renderowanie filmów o zbyt "
-#~ "dużej rozdzielczości, może spowodować poważny spadek wydajności."
 
 #, fuzzy
 #~ msgid "Consider width and height as maximum values."
