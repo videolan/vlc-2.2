@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2014
+# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2015
 # Tadashi Jokagi <elf@elf.no-ip.org>, 2004-2009
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2014-12-07 11:18+0000\n"
+"PO-Revision-Date: 2015-02-27 12:30+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ja/)\n"
@@ -6526,9 +6526,8 @@ msgid "Layer C time interleaving"
 msgstr "レイヤー C タイムインターリーブ"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "ネットワーク識別子"
+msgstr "ストリーム識別子"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -20729,7 +20728,7 @@ msgstr "このマルチプレクサはVLCから提供されていません: 見�
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "このマルチプレクサーがないため、このプロファイルは失敗しました。"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -23182,9 +23181,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "LibNotify通知プラグイン"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "コピーのパケッタイザー"
+msgstr "AVパーサーパケッタイザー"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -29584,9 +29582,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "メディアマネージャーリスト"
 
-#~ msgid "Video acceleration not available"
-#~ msgstr "ビデオアクセラレーションは有効ではありません"
-
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
 #~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
@@ -31863,6 +31858,24 @@ msgstr "メディアマネージャーリスト"
 #~ msgstr "VLCデバッグログ(%s).rtf"
 
 #, fuzzy
+#~ msgid ""
+#~ "Your video output acceleration driver does not support the required "
+#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+#~ "%<PRIu32>.\n"
+#~ "Video output acceleration will be disabled. However, rendering videos "
+#~ "with overly large resolution may cause severe performance degration."
+#~ msgstr ""
+#~ "XVideoレンダリングアクセラレーションドライバーは要求された解像度 %ux%u ピ"
+#~ "クセルをサポートしていません。%<PRIu32>x%<PRIu32> ピクセルを使用してくださ"
+#~ "い。\n"
+#~ "アクセラレーションは無効化されます。解像度が高い場合性能が劣化することがあ"
+#~ "ります。"
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "Kビデオアクセラレーションビデオ出力"
+
+#, fuzzy
 #~ msgid "Subtitle track added"
 #~ msgstr "字幕トラック"
 
@@ -33984,20 +33997,6 @@ msgstr "メディアマネージャーリスト"
 #, fuzzy
 #~ msgid "Try to use hardware acceleration for subtitles/OSD blending."
 #~ msgstr "字幕とOSDの合成にハードウェアアクセラレーションの使用を試みます。"
-
-#, fuzzy
-#~ msgid ""
-#~ "Your video output acceleration driver does not support the required "
-#~ "resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
-#~ "%<PRIu32>.\n"
-#~ "Video output acceleration will be disabled. However, rendering videos "
-#~ "with overly large resolution may cause severe performance degration."
-#~ msgstr ""
-#~ "XVideoレンダリングアクセラレーションドライバーは要求された解像度 %ux%u ピ"
-#~ "クセルをサポートしていません。%<PRIu32>x%<PRIu32> ピクセルを使用してくださ"
-#~ "い。\n"
-#~ "アクセラレーションは無効化されます。解像度が高い場合性能が劣化することがあ"
-#~ "ります。"
 
 #, fuzzy
 #~ msgid "Stream Name"
