@@ -1,8 +1,9 @@
 # Thai translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
+# Chaisiri Toomthong <chaisiri_tt@hotmail.com>, 2015
 # <develop5@datawiz.co.th>, 2006
 # jerng <jernghan@gmail.com>, 2011-2014
 # Chalermpon Dasri <d.chalermpon@gmail.com>, 2013
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2014-09-11 13:58+0000\n"
-"Last-Translator: jerng <jernghan@gmail.com>\n"
+"PO-Revision-Date: 2015-03-17 18:24+0000\n"
+"Last-Translator: Chaisiri Toomthong <chaisiri_tt@hotmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
 "Language: th\n"
@@ -161,9 +162,8 @@ msgid "General video settings"
 msgstr "ค่าตั้งวีดิทัศน์ทั่วไป"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "General settings for video output modules."
-msgstr "ค่าตั้งทั่วไปของมอดูลส่งเสียง"
+msgstr ""
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -462,7 +462,7 @@ msgstr "สร้างโฟลเดอร์..."
 
 #: include/vlc_intf_strings.h:70
 msgid "Rename Directory..."
-msgstr ""
+msgstr "เปลี่ยนชื่อที่เก็บแฟ้ม"
 
 #: include/vlc_intf_strings.h:71
 msgid "Rename Folder..."
@@ -1088,7 +1088,7 @@ msgstr "พักก&ารเล่น"
 
 #: src/config/keys.c:112
 msgid "Print"
-msgstr ""
+msgstr "พิมพ์"
 
 #: src/config/keys.c:114 modules/demux/mp4/id3genres.h:76
 msgid "Space"
@@ -1196,11 +1196,11 @@ msgstr ""
 
 #: src/input/decoder.c:698
 msgid "Unidentified codec"
-msgstr ""
+msgstr "ตัวถอด/ลงรหัสที่ไม่สามารถระบุได้"
 
 #: src/input/decoder.c:699
 msgid "VLC could not identify the audio or video codec"
-msgstr ""
+msgstr "VLC ไม่สามารถระบุตัวถอด/ลงรหัสเสียงหรือวีดิทัศน์นี้ได้"
 
 #: src/input/es_out.c:924 src/input/es_out.c:929 src/libvlc-module.c:228
 #: modules/access/vcdx/access.c:455 modules/access/vcdx/info.c:226
@@ -2043,7 +2043,7 @@ msgstr ""
 
 #: src/libvlc-module.c:291
 msgid "Grayscale video output"
-msgstr ""
+msgstr "การแสดงวีดิทัศน์แบบขาวดำ"
 
 #: src/libvlc-module.c:293
 msgid ""
@@ -2084,7 +2084,7 @@ msgstr "อยู่ข้างบนเสมอ"
 
 #: src/libvlc-module.c:311
 msgid "Always place the video window on top of other windows."
-msgstr ""
+msgstr "แสดงหน้าต่างวีดิทัศน์ไว้ด้านบนสุดเสมอ"
 
 #: src/libvlc-module.c:313
 msgid "Enable wallpaper mode "
@@ -2093,7 +2093,7 @@ msgstr "ใช้รูปแบบพื้นหลัง"
 #: src/libvlc-module.c:315
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
-msgstr ""
+msgstr "รูปแบบวอลเปเปอร์ ช่วยให้คุณแสดงวีดิทัศน์ดั่งเช่นเป็นพื้นหลังของเดสก์ท็อปได้"
 
 #: src/libvlc-module.c:318
 msgid "Show media title on video"
@@ -2134,18 +2134,18 @@ msgstr "ซ่อนเคอร์เซอร์ของเมาส์แล
 #: modules/video_filter/deinterlace/deinterlace.c:97
 #: share/lua/http/dialogs/create_stream.html:346
 msgid "Deinterlace"
-msgstr ""
+msgstr "แยกภาพประสาน"
 
 #: src/libvlc-module.c:346 src/video_output/interlacing.c:196
 #: modules/gui/macosx/MainMenu.m:454 modules/gui/macosx/MainMenu.m:455
 #: modules/gui/macosx/simple_prefs.m:428
 #: modules/video_filter/deinterlace/deinterlace.c:53
 msgid "Deinterlace mode"
-msgstr ""
+msgstr "รูปแบบการแยกภาพประสาน"
 
 #: src/libvlc-module.c:348
 msgid "Deinterlace method to use for video processing."
-msgstr ""
+msgstr "วิธีการแยกภาพประสานที่ใช้ในการประมวลผลวีดิทัศน์"
 
 #: src/libvlc-module.c:355 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Discard"
@@ -2378,7 +2378,7 @@ msgstr ""
 
 #: src/libvlc-module.c:471
 msgid "Drop late frames"
-msgstr ""
+msgstr "ละทิ้งเฟรมที่ล่าช้า"
 
 #: src/libvlc-module.c:473
 msgid ""
@@ -2463,7 +2463,7 @@ msgstr ""
 
 #: src/libvlc-module.c:520
 msgid "Clock synchronisation"
-msgstr ""
+msgstr "การปรับเทียบเวลาของนาฬิกาให้ตรงกัน"
 
 #: src/libvlc-module.c:522
 msgid ""
@@ -2524,7 +2524,7 @@ msgstr ""
 
 #: src/libvlc-module.c:547 modules/stream_out/rtp.c:126
 msgid "Hop limit (TTL)"
-msgstr ""
+msgstr "จำกัด Hop (TTL)"
 
 #: src/libvlc-module.c:549 modules/stream_out/rtp.c:128
 msgid ""
@@ -2607,7 +2607,7 @@ msgstr ""
 
 #: src/libvlc-module.c:596
 msgid "Menu language"
-msgstr ""
+msgstr "ภาษาของเมนู"
 
 #: src/libvlc-module.c:598
 msgid ""
@@ -2633,7 +2633,7 @@ msgstr "ID กระของร่องบทบรรยายที่จะ
 
 #: src/libvlc-module.c:610
 msgid "Preferred video resolution"
-msgstr ""
+msgstr "ความละเอียดของวิดิทัศน์ที่เหมาะสม"
 
 #: src/libvlc-module.c:612
 msgid ""
@@ -2701,11 +2701,11 @@ msgstr "กระแสะจะเดินในช่วงเวลานี
 
 #: src/libvlc-module.c:640
 msgid "Fast seek"
-msgstr ""
+msgstr "การไล่ดูแบบเร็ว"
 
 #: src/libvlc-module.c:642
 msgid "Favor speed over precision while seeking"
-msgstr ""
+msgstr "ให้ความสำคัญกับความเร็วมากกว่าความแม่นยำระหว่างการไล่ดู"
 
 #: src/libvlc-module.c:644
 msgid "Playback speed"
@@ -2713,7 +2713,7 @@ msgstr "ความเร็วการเล่น"
 
 #: src/libvlc-module.c:646
 msgid "This defines the playback speed (nominal speed is 1.0)."
-msgstr ""
+msgstr "ค่านี้กำหนดความเร็วในการเล่น (ความเร็วปกติคือ 1.0)"
 
 #: src/libvlc-module.c:648
 msgid "Input list"
@@ -4237,14 +4237,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "สับเปลี่ยนระหว่างร่องบทบรรยายที่มีอยู่"
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "บทบรรยายข่าวข้อความ"
+msgstr ""
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "สับเปลี่ยนร่องบทบรรยาย"
+msgstr ""
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -6177,9 +6175,8 @@ msgid "Layer C time interleaving"
 msgstr "การแทรกเวลาชั้น C"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "ตัวผันค่ากระแส"
+msgstr ""
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -20323,9 +20320,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr ""
 
 #: modules/gui/qt4/main_interface.cpp:388
-#, fuzzy
 msgid "&Continue"
-msgstr "ทำต่อ"
+msgstr ""
 
 #: modules/gui/qt4/main_interface.cpp:1256
 msgid "Control menu for the player"
@@ -21828,9 +21824,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "ปลั๊กอินแจ้งเหตุโดยใช้ LibNotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "ตัวทำแพ็กเก็ตคัดลอก"
+msgstr ""
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -27025,9 +27020,8 @@ msgstr "ปรับปรุง"
 #: modules/gui/qt4/ui/sprefs_interface.h:503
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/sprefs_video.h:320 modules/gui/qt4/ui/streampanel.h:167
-#, fuzzy
 msgid "Form"
-msgstr "รูปแบบ"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
@@ -27038,9 +27032,8 @@ msgid "0.00 dB"
 msgstr "0.00 dB"
 
 #: modules/gui/qt4/ui/messages_panel.h:139
-#, fuzzy
 msgid "&Verbosity:"
-msgstr "ระดับรายละเอียด"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:140
 msgid "&Filter:"
@@ -27159,9 +27152,8 @@ msgid "Audio and Subtitles"
 msgstr "เสียงและบทบรรยาย"
 
 #: modules/gui/qt4/ui/open_file.h:143
-#, fuzzy
 msgid "Use a sub&title file"
-msgstr "ใช้แฟ้มบทบรรยาย"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:145
 msgid "Select the subtitle file"
@@ -27330,9 +27322,8 @@ msgid "New destination"
 msgstr "เพิ่มการส่ง"
 
 #: modules/gui/qt4/ui/sout.h:210
-#, fuzzy
 msgid "Display locally"
-msgstr "แสดง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:212
 msgid "Transcoding Options"
@@ -27351,9 +27342,8 @@ msgid "Option Setup"
 msgstr "ตั้งค่าตัวเลือก"
 
 #: modules/gui/qt4/ui/sout.h:216
-#, fuzzy
 msgid "Set up any additional options for streaming"
-msgstr "เลือกปลายทางที่จะทำกระแสส่งไป"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:217
 msgid "Miscellaneous Options"
@@ -27364,9 +27354,8 @@ msgid "Stream all elementary streams"
 msgstr "ทำกระแสพวกกระแสมูลฐานทั้งหมด"
 
 #: modules/gui/qt4/ui/sout.h:219
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "ค่าตั้งทั่วไปของส่วนส่งกระแส"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:428
 msgid " %"
@@ -27385,9 +27374,8 @@ msgid "Visualization:"
 msgstr "มโนทัศน์:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:437
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "เปิดใช้เสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:438
 msgid "Dolby Surround:"
@@ -27566,14 +27554,12 @@ msgid "Operating System Integration"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:539
-#, fuzzy
 msgid "File extensions association"
-msgstr "การเข้าใช้แฟ้ม"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:540
-#, fuzzy
 msgid "Set up associations..."
-msgstr "การเข้าใช้แฟ้ม"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:291
 msgid "Enable On Screen Display (OSD)"
@@ -27636,9 +27622,8 @@ msgid "KVA"
 msgstr "KVA"
 
 #: modules/gui/qt4/ui/sprefs_video.h:335
-#, fuzzy
 msgid "Deinterlacing"
-msgstr "แ&ยกภาพประสาน"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:337
 msgid "Force Aspect Ratio"
@@ -27669,14 +27654,12 @@ msgid "Run manually"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:176
-#, fuzzy
 msgid "Setup schedule"
-msgstr "ตารางเวลา"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:177
-#, fuzzy
 msgid "Run on schedule"
-msgstr "ตารางเวลา"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:178
 msgid "Status"
@@ -27765,9 +27748,8 @@ msgid "Mask"
 msgstr "ตัวพราง"
 
 #: modules/gui/qt4/ui/video_effects.h:1468
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "มอดูลแสดงวีดิทัศน์"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1469
 msgid "Brightness (%)"
@@ -27778,9 +27760,8 @@ msgid "Mark analyzed Pixels"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1473
-#, fuzzy
 msgid "Filter threshold (%)"
-msgstr "ขีดเริ่มของความสว่าง"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1476
 msgid "Anaglyph 3D"
@@ -27795,23 +27776,20 @@ msgid "Motion detect"
 msgstr "ตรวจจับการเคลื่อนไหว"
 
 #: modules/gui/qt4/ui/video_effects.h:1482
-#, fuzzy
 msgid "Spatial blur"
-msgstr "สภาวะเสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1486
 msgid "Anti-Flickering"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1487
-#, fuzzy
 msgid "Soften"
-msgstr "นุ่มนวล"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1488
-#, fuzzy
 msgid "Denoiser"
-msgstr "Noise"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1489
 msgid "Spatial luma strength"
@@ -28413,9 +28391,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgid "Don't repair"
 #~ msgstr "ไม่ต้องส่ง"
 
-#~ msgid "Media in Zip"
-#~ msgstr "สือในรูป zip"
-
 #~ msgid "MTU for out mode"
 #~ msgstr "MTU สำหรับรูปแบบส่วนแสดงผล"
 
@@ -28425,11 +28400,27 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgid "&Post processing"
 #~ msgstr "&ลดภาพเสีย"
 
-#~ msgid "Save this Log..."
-#~ msgstr "บันทึกปูมตัวนี้..."
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "เลือกส่วนแสดงผลวีดิทัศน์ และตั้งค่ามันได้ที่นี่"
+
+#, fuzzy
+#~ msgid "Manual download only"
+#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
+
+#~ msgid "Album art download policy"
+#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
+
+#, fuzzy
+#~ msgid "Album art download policy:"
+#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
+
+#, fuzzy
+#~ msgid "Media in Zip"
+#~ msgstr "ปุ่มเล่นย้อนกลับ (Rewind, ◂)"
+
+#, fuzzy
+#~ msgid "Save this Log..."
+#~ msgstr "&บ&ันทึกเป็น"
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -28437,11 +28428,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Album art policy"
-#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
-
-#, fuzzy
-#~ msgid "Manual download only"
-#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
+#~ msgstr "ชื่อแฟ้มหน้าปกอัลบัม"
 
 #, fuzzy
 #~ msgid "Load Media Library"
@@ -28479,9 +28466,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgid "Open BDMV folder"
 #~ msgstr "เปิดโฟลเดอร์"
 
-#~ msgid "Album art download policy"
-#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
-
 #, fuzzy
 #~ msgid "Output module"
 #~ msgstr "มอดูลแสดงผล"
@@ -28509,10 +28493,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #, fuzzy
 #~ msgid "Add a subtitle file"
 #~ msgstr "เพิ่มแฟ้มบทบรรยาย:"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
 
 #, fuzzy
 #~ msgid "Configure Media Library"
@@ -29999,5 +29979,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgid "Subpicture filters"
 #~ msgstr "มอดูลตัวผันค่าภาพบทบรรยาย"
 
+#, fuzzy
 #~ msgid "Addon Manager"
-#~ msgstr "ตัวจัดการส่วนเสริม"
+#~ msgstr "จัตจัดการส่วนเสริม"
