@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-02-26 23:48+0100\n"
-"PO-Revision-Date: 2015-02-04 10:59+0000\n"
+"PO-Revision-Date: 2015-03-08 11:58+0000\n"
 "Last-Translator: Ingmārs Dīriņš <melhiors14@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/lv/)\n"
@@ -174,13 +174,13 @@ msgstr "Video filtri tiek lietoti, lai apstrādātu video straumi."
 
 #: include/vlc_config_cat.h:82
 msgid "Subtitles / OSD"
-msgstr "Subtitri / ekrāna norādījumi (OSD)"
+msgstr "Subtitri / ekrāna displejs (OSD)"
 
 #: include/vlc_config_cat.h:83
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr ""
-"Iestatījumi, kas saistīti ar ekrāna norādījumiem, subtitriem un \"pārklājuma "
+"Iestatījumi, kas saistīti ar ekrāna displeju, subtitriem un \"pārklājuma "
 "apakšbildēm\"."
 
 #: include/vlc_config_cat.h:91
@@ -3005,15 +3005,15 @@ msgstr "Jūs varat pilnībā atspējot apakšbilžu apstrādāšanu."
 #: modules/stream_out/transcode/transcode.c:212
 #: modules/gui/qt4/ui/sprefs_subtitles.h:290
 msgid "On Screen Display"
-msgstr "Ekrāna norādījumi (OSD)"
+msgstr "Ekrāna displejs (OSD)"
 
 #: src/libvlc-module.c:708
 msgid ""
 "VLC can display messages on the video. This is called OSD (On Screen "
 "Display)."
 msgstr ""
-"VLC var attēlot ziņojumus uz video. Šis tiek saukts par ekrāna norādījumiem "
-"(On Screen Display)."
+"VLC var attēlot ziņojumus uz video. Šis tiek saukts par ekrāna displeju (On "
+"Screen Display)."
 
 #: src/libvlc-module.c:711
 msgid "Text rendering module"
@@ -6588,9 +6588,8 @@ msgid "Layer C time interleaving"
 msgstr "Slāņa C laika mijiedarbība"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Tīkla identifikators"
+msgstr "Straumes identifikators"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -8261,7 +8260,7 @@ msgstr "Ekrāna indekss"
 
 #: modules/access/screen/screen.c:84
 msgid "Index of screen (1, 2, 3, ...). Alternative to Display ID."
-msgstr "Ekrāna indekss (1, 2, 3, ...). Alternatīvs Displeja ID."
+msgstr "Ekrāna indekss (1, 2, 3, ...). Alternatīva Displeja ID."
 
 #: modules/access/screen/screen.c:97
 msgid "Screen Input"
@@ -16423,8 +16422,8 @@ msgstr ""
 "<p>VLC mediju atskaņotājs ir brīvā un atvērtā koda mediju atskaņotājs, "
 "iekodētājs un straumētājs, kuru veidojuši brīvprātīgie no <a href=\"http://"
 "www.videolan.org/\"><span style=\" text-decoration: underline; color:#0057ae;"
-"\">VideoLAN</span></a> kopienas.</p><p>VLC lieto tā iekšējos kodekus, strādā "
-"uz būtībā jebkuras populāras platformas, un var nolasīt gandrīz visas "
+"\">VideoLAN</span></a> kopienas.</p><p>VLC lieto savus iekšējos kodekus, "
+"strādā uz būtībā jebkuras populāras platformas, un var nolasīt gandrīz visas "
 "datnes, CD, DVD, tīkla straumes, tveršanas kartes un citus mediju formātus!</"
 "p><p><a href=\"http://www.videolan.org/contribute/\"><span style=\" text-"
 "decoration: underline; color:#0057ae;\">Palīdzi un pievienojies mums!</"
@@ -18423,7 +18422,7 @@ msgstr "Video iestatījumi"
 #: modules/gui/qt4/components/simple_preferences.cpp:294
 #: modules/gui/qt4/components/simple_preferences.cpp:873
 msgid "Subtitle & On Screen Display Settings"
-msgstr "Subtitru un ekrāna norādījumu iestatījumi"
+msgstr "Subtitru un ekrāna displeja iestatījumi"
 
 #: modules/gui/macosx/simple_prefs.m:296
 msgid "Input & Codec Settings"
@@ -18591,7 +18590,7 @@ msgstr "Vēlamā subtitru valoda"
 
 #: modules/gui/macosx/simple_prefs.m:406
 msgid "Enable OSD"
-msgstr "Iespējot ekrāna norādījumus (OSD)"
+msgstr "Iespējot ekrāna displeju (OSD)"
 
 #: modules/gui/macosx/simple_prefs.m:407 modules/text_renderer/win32text.c:66
 #: modules/video_filter/marq.c:107 modules/video_filter/rss.c:146
@@ -20847,7 +20846,7 @@ msgstr "Šis muksētājs nav sniegts tieši no VLC: Tas varētu būt trūkstošs
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "Šis muksētājs ir trūkstošs. Šī profila lietošana neizdosies"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -23291,9 +23290,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "LibNotify paziņošanas spraudnis"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Kopēšanas paketizētājs"
+msgstr "avparser paketizētājs"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -24565,13 +24563,12 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:123
 msgid "OSD menu"
-msgstr "Ekrāna norādījumu (OSD) izvēlne"
+msgstr "Ekrāna displeja (OSD) izvēlne"
 
 #: modules/stream_out/transcode/transcode.c:125
 msgid ""
 "Stream the On Screen Display menu (using the osdmenu subpicture module)."
-msgstr ""
-"Straumēt ekrāna norādījumu izvēlni (lietojot osdmenu apakšbilžu moduli)."
+msgstr "Straumēt ekrāna displeja izvēlni (lietojot osdmenu apakšbilžu moduli)."
 
 #: modules/stream_out/transcode/transcode.c:127
 msgid "Number of threads"
@@ -27080,18 +27077,18 @@ msgid ""
 "transparency. The default is being not transparent (value 255) the minimum "
 "is fully transparent (value 0)."
 msgstr ""
-"Ekrāna norādījumu (OSD) VNC caurspīdīgums var tikt mainīts, uzdodot vērtību "
+"Ekrāna displeja (OSD) VNC caurspīdīgums var tikt mainīts, uzdodot vērtību "
 "starp 0 un 255. Zemāka vērtība norāda vairāk caurspīdīguma, augstāka nozīmē "
 "mazāk caurspīdīguma. Noklusētais ir būt necaurspīdīgam (vērtība 255), "
 "minimuma ir pilnībā caurspīdīgs (vērtība 0)."
 
 #: modules/video_filter/remoteosd.c:115
 msgid "Remote-OSD over VNC"
-msgstr "Attālinātie ekrāna norādījumi (OSD) pāri VNC"
+msgstr "Attālinātais ekrāna displejs (OSD) pāri VNC"
 
 #: modules/video_filter/remoteosd.c:117
 msgid "Remote-OSD"
-msgstr "Attālinātie ekrāna norādījumi (OSD)"
+msgstr "Attālinātais ekrāna displejs (OSD)"
 
 #: modules/video_filter/ripple.c:52
 msgid "Ripple video filter"
@@ -27860,7 +27857,7 @@ msgstr "Lietot aparatūras maisīšanas atbalstu"
 #: modules/video_output/msw/direct3d.c:64
 msgid "Try to use hardware acceleration for subtitle/OSD blending."
 msgstr ""
-"Mēģināt lietot aparatūras paātrinājumu subtitru/ekrāna norādījumu (OSD) "
+"Mēģināt lietot aparatūras paātrinājumu subtitru/ekrāna displeja (OSD) "
 "sajaukšanai."
 
 #: modules/video_output/msw/direct3d.c:66
@@ -29452,7 +29449,7 @@ msgstr "Uzstādīt asociācijas..."
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:291
 msgid "Enable On Screen Display (OSD)"
-msgstr "Iespējot ekrāna norādījumus (OSD)"
+msgstr "Iespējot ekrāna displeju (OSD)"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:292
 msgid "Show media title on video start"
@@ -29744,9 +29741,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Mediju pārvaldnieka saraksts"
 
-#~ msgid "Video acceleration not available"
-#~ msgstr "Video paātrināšana nav pieejama"
-
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
 #~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
@@ -29954,6 +29948,10 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "VLC atkļūdošanas žurnāls (%s).rtf"
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "K Video Acceleration video izvade"
 
 #, fuzzy
 #~ msgid "Subtitle track added"
@@ -30579,7 +30577,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Subtitles/OSD"
-#~ msgstr "Subtitri / ekrāna norādījumi (OSD)"
+#~ msgstr "Subtitri / ekrāna displejs (OSD)"
 
 #, fuzzy
 #~ msgid "Chroma modules settings"
@@ -30699,7 +30697,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Subtitles && OSD"
-#~ msgstr "Subtitri / ekrāna norādījumi (OSD)"
+#~ msgstr "Subtitri / ekrāna displejs (OSD)"
 
 #, fuzzy
 #~ msgid "Input && Codecs"
@@ -31246,7 +31244,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Subtitles & OSD settings"
-#~ msgstr "Subtitru un ekrāna norādījumu iestatījumi"
+#~ msgstr "Subtitru un ekrāna displeja iestatījumi"
 
 #, fuzzy
 #~ msgid "Open..."
