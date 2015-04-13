@@ -13,7 +13,7 @@ PKGDIR="vlc"
 AC_SUBST(PKGDIR)
 
 CONFIGURE_LINE="`echo "$0 $ac_configure_args" | sed -e 's/\\\/\\\\\\\/g'`"
-CODENAME="Weatherwax"
+CODENAME="Terry Pratchett (Weatherwax)"
 COPYRIGHT_YEARS="1996-2015"
 
 AC_CONFIG_SRCDIR(src/libvlc.c)
