@@ -8,7 +8,7 @@ Codec:
  * Fix lpcm channel ordering
  * Fix potential NULL dereference in dmo
  * Fix teletext framing code in DVB PES packets
- * Fix potential buffer overflow in schroendinger decoder
+ * Fix potential buffer overflow in schroendinger decoder (CVE-2014-9629)
  * Fix AAC samplerate
 
 Demuxers:
@@ -244,13 +244,14 @@ Audio output:
 
 Security:
  * Fix heap overflow in decomp stream filter
- * Fix buffer overflow in updater
+ * Fix buffer overflow in updater (CVE-2014-9625)
  * Fix potential buffer overflow in schroedinger encoder
  * Fix null-pointer dereference in DMO decoder
- * Fix buffer overflow in parsing of string boxes in mp4 demuxer
+ * Fix buffer overflow in parsing of string boxes in mp4 demuxer (CVE-2014-9626,9627,9628)
  * Fix SRTP integer overflow
  * Fix potential crash in zip access
  * Fix read overflow in Ogg demuxer
+ * Fix RTP overflow (CVE-2014-9630)
 
 Win32 installer:
  * Update translations and greek encoding
