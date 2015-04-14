@@ -2,10 +2,10 @@ dnl Autoconf settings for vlc
 
 AC_COPYRIGHT([Copyright 1999-2015 VLC authors and VideoLAN])
 
-AC_INIT(vlc, 2.2.1)
+AC_INIT(vlc, 2.2.2)
 VERSION_MAJOR=2
 VERSION_MINOR=2
-VERSION_REVISION=1
+VERSION_REVISION=2
 VERSION_EXTRA=0
 VERSION_DEV=
 
@@ -13,7 +13,7 @@ PKGDIR="vlc"
 AC_SUBST(PKGDIR)
 
 CONFIGURE_LINE="`echo "$0 $ac_configure_args" | sed -e 's/\\\/\\\\\\\/g'`"
-CODENAME="Terry Pratchett (Weatherwax)"
+CODENAME="Weatherwax"
 COPYRIGHT_YEARS="1996-2015"
 
 AC_CONFIG_SRCDIR(src/libvlc.c)
