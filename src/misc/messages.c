@@ -120,9 +120,11 @@ void vlc_vaLog (vlc_object_t *obj, int type, const char *module,
 #endif
 
     if (priv) {
+        int canc = vlc_savecancel ();
         vlc_rwlock_rdlock (&priv->log.lock);
         priv->log.cb (priv->log.opaque, type, &msg, format, args);
         vlc_rwlock_unlock (&priv->log.lock);
+        vlc_restorecancel (canc);
     }
 }
 
