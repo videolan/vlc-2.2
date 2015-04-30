@@ -4864,13 +4864,16 @@ static int LeafParseTRUN( demux_t *p_demux, mp4_track_t *p_track,
             es_out_Control( p_demux->out, ES_OUT_SET_PCR, VLC_TS_0 + i_nzdts );
         }
 
-        if ( p_track->p_es )
+        if ( p_block )
         {
-            p_block->i_dts = VLC_TS_0 + i_nzdts;
-            p_block->i_pts = VLC_TS_0 + i_nzpts;
-            es_out_Send( p_demux->out, p_track->p_es, p_block );
+            if ( p_track->p_es )
+            {
+                p_block->i_dts = VLC_TS_0 + i_nzdts;
+                p_block->i_pts = VLC_TS_0 + i_nzpts;
+                es_out_Send( p_demux->out, p_track->p_es, p_block );
+            }
+            else block_Release( p_block );
         }
-        else free( p_block );
 
         chunk_size += len;
     }
