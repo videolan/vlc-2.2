@@ -479,7 +479,7 @@ static int Mux(sout_mux_t *p_mux)
                 block_t *p_next = block_FifoShow(p_input->p_fifo);
                 if ( p_next->i_flags & BLOCK_FLAG_DISCONTINUITY )
                 { /* we have no way to know real length except by decoding */
-                    if ( p_stream->fmt.i_cat == VIDEO_ES )
+                    if ( p_stream->fmt.i_cat == VIDEO_ES && p_stream->fmt.video.i_frame_rate )
                     {
                         p_data->i_length = CLOCK_FREQ *
                                            p_stream->fmt.video.i_frame_rate_base /
@@ -489,7 +489,7 @@ static int Mux(sout_mux_t *p_mux)
                     }
                     else if ( p_stream->fmt.i_cat == AUDIO_ES &&
                               p_stream->fmt.audio.i_rate &&
-                              p_data->i_nb_samples )
+                              p_data->i_nb_samples && p_stream->fmt.audio.i_rate )
                     {
                         p_data->i_length = CLOCK_FREQ * p_data->i_nb_samples /
                                            p_stream->fmt.audio.i_rate;
