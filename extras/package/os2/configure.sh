@@ -29,7 +29,6 @@ OPTIONS="
       --enable-x264
       --disable-xcb
       --disable-xvideo
-      --disable-glx
       --enable-freetype
       --disable-fribidi
       --enable-fontconfig
