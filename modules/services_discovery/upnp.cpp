@@ -110,7 +110,7 @@ static int Open( vlc_object_t *p_this )
     if( !( p_sd->p_sys = p_sys ) )
         return VLC_ENOMEM;
 
-#ifdef UPNP_ENABLE_IPV6
+#if defined( UPNP_ENABLE_IPV6 ) && !defined(_WIN32)
     char* psz_miface;
     psz_miface = var_InheritString( p_sd, "miface" );
     msg_Info( p_sd, "Initializing libupnp on '%s' interface", psz_miface );
