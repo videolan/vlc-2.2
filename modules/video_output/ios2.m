@@ -135,7 +135,10 @@ static int Open(vlc_object_t *this)
 
     /* get the object we will draw into */
     UIView* viewContainer = var_CreateGetAddress (vd, "drawable-nsobject");
-    if (!viewContainer || ![viewContainer isKindOfClass:[UIView class]])
+    if (!viewContainer)
+        goto bailout;
+
+    if (![viewContainer isKindOfClass:[UIView class]])
         goto bailout;
 
     vout_display_DeleteWindow (vd, NULL);
