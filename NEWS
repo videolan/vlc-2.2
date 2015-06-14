@@ -3,24 +3,39 @@ Changes between 2.2.1 and 2.2.2:
 
 Access:
  * Fix SetupFormat for continuous framesize in v4l2
+ * Fix off-by-one buffer overflow in RealRtsp module
 
 Demux:
  * Fix support for ms-dvr files
+ * Fix time detection in AVI files over HTTP
  * HLS: fix hang on stop, crashes and small improvements
  * Fix mp4 NULL dereference reported by by Fortinet's FortiGuard Labs
 
 Decoders:
  * Fix importing surface from main memory in VDPAU
+ * Fix possible double-free in ADPCM decoder
 
 Audio output:
  * Fix audio drop after a flush with pulseaudio
+ * Fix audio initialization on iOS
 
 Skins2:
  * Fix video control that fails to show up
+ * Fix UTF-8 conversion issues
+ * Fix Unicode folders location failing to open the skins
 
 Misc:
  * Fix build if one disables XCB but activate VDPAU on Unix
  * Fix build with recent FreeRDP versions
+ * Fix interface crashes when input-title-format option is empty
+ * Fix MP4 mux divide-by-zero crash
+ * Improve PNG encoding time
+ * Fix some UPnP initialization lag
+ * Rewrite of the Jamendo Service Discovery
+
+Translations:
+ * Add Kashmiri and Maithili languages
+ * Update of most translations
 
 
 Changes between 2.2.0 and 2.2.1:
