@@ -331,6 +331,9 @@ static void Run(intf_thread_t *p_intf)
 
     [NSBundle loadNibNamed: @"MainMenu" owner: NSApp];
 
+    [NSBundle loadNibNamed:@"MainWindow" owner: [VLCMain sharedInstance]];
+    [[[VLCMain sharedInstance] mainWindow] makeKeyAndOrderFront:nil];
+
     [NSApp run];
     msg_Dbg(p_intf, "Run loop has been stopped");
     [[VLCMain sharedInstance] applicationWillTerminate:nil];
@@ -781,12 +784,6 @@ static VLCMain *_o_sharedMainInstance = nil;
     PL_LOCK;
     items_at_launch = p_playlist->p_local_category->i_children;
     PL_UNLOCK;
-
-    [NSBundle loadNibNamed:@"MainWindow" owner: self];
-
-    // This cannot be called directly here, as the main loop is not running yet so it would have no effect.
-    // So lets enqueue it into the loop for later execution.
-    [o_mainwindow performSelector:@selector(makeKeyAndOrderFront:) withObject:nil afterDelay:0];
 
     [[SUUpdater sharedUpdater] setDelegate:self];
 }
