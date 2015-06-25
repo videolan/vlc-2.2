@@ -38,6 +38,14 @@
 #include <vlc_image.h>
 #include <vlc_block.h>
 
+#if (__STDC_VERSION__ >= 201112L)
+# include <stdalign.h>
+static_assert(sizeof (uintptr_t) == sizeof (atomic_uintptr_t),
+              "Please compile in C99 mode (or update to LibVLC 3.0).");
+static_assert(alignof (uintptr_t) == alignof (atomic_uintptr_t),
+              "Please compile in C99 mode (or update to LibVLC 3.0).");
+#endif
+
 /**
  * Allocate a new picture in the heap.
  *

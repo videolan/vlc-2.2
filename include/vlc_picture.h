@@ -102,7 +102,11 @@ struct picture_t
     /** This way the picture_Release can be overloaded */
     struct
     {
+#if (defined (__LIBVLC__) && !defined (__PLUGIN__))
         atomic_uintptr_t refcount;
+#else
+        uintptr_t refcount_placeholder_keep_off;
+#endif
         void (*pf_destroy)( picture_t * );
         picture_gc_sys_t *p_sys;
     } gc;
