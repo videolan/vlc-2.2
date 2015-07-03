@@ -1110,6 +1110,10 @@ void CaptureOpenPanel::initialize()
 
 CaptureOpenPanel::~CaptureOpenPanel()
 {
+#ifdef _WIN32
+    delete vdevDshowW;
+    delete adevDshowW;
+#endif
 }
 
 void CaptureOpenPanel::clear()
