@@ -33,6 +33,8 @@
 #import "playlistinfo.h"
 #import "bookmarks.h"
 #import "TrackSynchronization.h"
+#import "ResumeDialogController.h"
+#import "playlist.h"
 
 @implementation VLCVoutWindowController
 
@@ -411,6 +413,8 @@
     [[[VLCMain sharedInstance] info] updateCocoaWindowLevel:i_currentFloatingWindowLevel];
     [[VLCBookmarks sharedInstance] updateCocoaWindowLevel:i_currentFloatingWindowLevel];
     [[VLCTrackSynchronization sharedInstance] updateCocoaWindowLevel:i_currentFloatingWindowLevel];
+
+    [[[VLCMain sharedInstance] resumeDialog] updateCocoaWindowLevel:i_currentFloatingWindowLevel];
 }
 
 @synthesize currentStatusWindowLevel=i_currentFloatingWindowLevel;
