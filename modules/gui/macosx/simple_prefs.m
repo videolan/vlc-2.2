@@ -725,15 +725,30 @@ static inline char * __config_GetLabel(vlc_object_t *p_this, const char *psz_nam
 
     [self setupButton: o_input_mkv_preload_dir_ckb forBoolValue: "mkv-preload-local-dir"];
 
+    /* do not trust translators to do the correct thing,
+     * so re-build the menu in an unorthodox way (#15106) */
     [o_input_cachelevel_pop removeAllItems];
-    [o_input_cachelevel_pop addItemsWithTitles: [NSArray arrayWithObjects:_NS("Custom"), _NS("Lowest latency"),
-     _NS("Low latency"), _NS("Normal"), _NS("High latency"), _NS("Higher latency"), nil]];
-    [[o_input_cachelevel_pop itemAtIndex: 0] setTag: 0];
-    [[o_input_cachelevel_pop itemAtIndex: 1] setTag: 100];
-    [[o_input_cachelevel_pop itemAtIndex: 2] setTag: 200];
-    [[o_input_cachelevel_pop itemAtIndex: 3] setTag: 300];
-    [[o_input_cachelevel_pop itemAtIndex: 4] setTag: 500];
-    [[o_input_cachelevel_pop itemAtIndex: 5] setTag: 1000];
+    NSArray *plainTitles = [NSArray arrayWithObjects: @"Custom", @"Lowest latency", @"Low latency", @"Normal", @"High latency", @"Higher latency", nil];
+    NSMenuItem *workerItem;
+    [o_input_cachelevel_pop addItemsWithTitles: plainTitles];
+    workerItem = [o_input_cachelevel_pop itemAtIndex: 0];
+    [workerItem setTag: 0];
+    [workerItem setTitle:_NS("Custom")];
+    workerItem = [o_input_cachelevel_pop itemAtIndex: 1];
+    [workerItem setTag: 100];
+    [workerItem setTitle:_NS("Lowest Latency")];
+    workerItem = [o_input_cachelevel_pop itemAtIndex: 2];
+    [workerItem setTag: 200];
+    [workerItem setTitle:_NS("Low Latency")];
+    workerItem = [o_input_cachelevel_pop itemAtIndex: 3];
+    [workerItem setTag: 300];
+    [workerItem setTitle:_NS("Normal")];
+    workerItem = [o_input_cachelevel_pop itemAtIndex: 4];
+    [workerItem setTag: 500];
+    [workerItem setTitle:_NS("Higher Latency")];
+    workerItem = [o_input_cachelevel_pop itemAtIndex: 5];
+    [workerItem setTag: 1000];
+    [workerItem setTitle:_NS("Highest Latency")];
 
     #define TestCaC(name, factor) \
     b_cache_equal =  b_cache_equal && \
