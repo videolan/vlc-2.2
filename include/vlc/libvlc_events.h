@@ -76,6 +76,8 @@ enum libvlc_event_e {
     libvlc_MediaPlayerScrambledChanged,
     libvlc_MediaPlayerCorked = libvlc_MediaPlayerScrambledChanged + 3 + 1,
     libvlc_MediaPlayerUncorked,
+    libvlc_MediaPlayerMuted,
+    libvlc_MediaPlayerUnmuted,
 
     libvlc_MediaListItemAdded=0x200,
     libvlc_MediaListWillAddItem,
