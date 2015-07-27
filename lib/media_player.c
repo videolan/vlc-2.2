@@ -66,6 +66,10 @@ mute_changed(vlc_object_t *obj, const char *name, vlc_value_t old,
              vlc_value_t cur, void *opaque);
 
 static int
+volume_changed(vlc_object_t *obj, const char *name, vlc_value_t old,
+               vlc_value_t cur, void *opaque);
+
+static int
 snapshot_was_taken( vlc_object_t *p_this, char const *psz_cmd,
                     vlc_value_t oldval, vlc_value_t newval, void *p_data );
 
@@ -410,6 +414,19 @@ static int mute_changed(vlc_object_t *obj, const char *name, vlc_value_t old,
     return VLC_SUCCESS;
 }
 
+static int volume_changed(vlc_object_t *obj, const char *name, vlc_value_t old,
+                          vlc_value_t cur, void *opaque)
+{
+    libvlc_media_player_t *mp = (libvlc_media_player_t *)obj;
+    libvlc_event_t event;
+
+    event.type = libvlc_MediaPlayerAudioVolume;
+    event.u.media_player_audio_volume.volume = cur.f_float;
+    libvlc_event_send(mp->p_event_manager, &event);
+    VLC_UNUSED(name); VLC_UNUSED(old); VLC_UNUSED(opaque);
+    return VLC_SUCCESS;
+}
+
 /**************************************************************************
  * Create a Media Instance object.
  *
@@ -585,6 +602,7 @@ libvlc_media_player_new( libvlc_instance_t *instance )
 
     var_AddCallback(mp, "corks", corks_changed, NULL);
     var_AddCallback(mp, "mute", mute_changed, NULL);
+    var_AddCallback(mp, "volume", volume_changed, NULL);
 
     /* Snapshot initialization */
     register_event(mp, SnapshotTaken);
@@ -636,6 +654,7 @@ static void libvlc_media_player_destroy( libvlc_media_player_t *p_mi )
                      "snapshot-file", snapshot_was_taken, p_mi );
 
     /* Detach callback from the media player / input manager object */
+    var_DelCallback( p_mi, "volume", volume_changed, NULL );
     var_DelCallback( p_mi, "mute", mute_changed, NULL );
     var_DelCallback( p_mi, "corks", corks_changed, NULL );
 
