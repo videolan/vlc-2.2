@@ -395,6 +395,7 @@ block_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
         p_block = vlc_av_frame_Wrap(frame);
         if (unlikely(p_block == NULL))
             goto drop;
+        frame = NULL;
     }
 #else
     {
@@ -449,6 +450,7 @@ block_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
 end:
     *pp_block = NULL;
 drop:
+    av_frame_free(&frame);
     if( p_block != NULL )
         block_Release(p_block);
     return NULL;
