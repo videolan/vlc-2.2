@@ -599,6 +599,9 @@ libvlc_media_player_new( libvlc_instance_t *instance )
     register_event(mp, ScrambledChanged);
     register_event(mp, Corked);
     register_event(mp, Uncorked);
+    register_event(mp, Muted);
+    register_event(mp, Unmuted);
+    register_event(mp, AudioVolume);
 
     var_AddCallback(mp, "corks", corks_changed, NULL);
     var_AddCallback(mp, "mute", mute_changed, NULL);
