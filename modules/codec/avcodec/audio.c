@@ -265,6 +265,7 @@ block_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
 {
     decoder_sys_t *p_sys = p_dec->p_sys;
     AVCodecContext *ctx = p_sys->p_context;
+    AVFrame *frame = NULL;
 
     if( !pp_block || !*pp_block )
         return NULL;
@@ -312,11 +313,11 @@ block_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
     }
 
 #if (LIBAVCODEC_VERSION_MAJOR >= 55)
-    AVFrame *frame = av_frame_alloc();
+    frame = av_frame_alloc();
     if (unlikely(frame == NULL))
         goto end;
 #else
-    AVFrame *frame = &(AVFrame) { };
+    frame = &(AVFrame) { };
 #endif
 
     for( int got_frame = 0; !got_frame; )
