@@ -566,6 +566,7 @@ static void ReadMetaFromXiph( Ogg::XiphComment* tag, demux_meta_t* p_demux_meta,
         /* TODO: Use i_cover_score / i_cover_idx to select the picture. */
         p_attachment = ParseFlacPicture( p_data, i_data, 0,
             &i_cover_score, &i_cover_idx );
+        free( p_data );
     }
 
     TAB_INIT( p_demux_meta->i_attachments, p_demux_meta->attachments );
