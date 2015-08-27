@@ -92,6 +92,7 @@ int aout_DecNew( audio_output_t *p_aout,
         aout_OutputDelete (p_aout);
 error:
         aout_volume_Delete (owner->volume);
+        owner->volume = NULL;
         aout_OutputUnlock (p_aout);
         return -1;
     }
@@ -119,6 +120,7 @@ void aout_DecDelete (audio_output_t *aout)
         aout_OutputDelete (aout);
     }
     aout_volume_Delete (owner->volume);
+    owner->volume = NULL;
     aout_OutputUnlock (aout);
     var_Destroy (aout, "stereo-mode");
 }
