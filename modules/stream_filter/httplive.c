@@ -1030,7 +1030,7 @@ static int parse_M3U8(stream_t *s, vlc_array_t *streams, uint8_t *buffer, const 
             p_begin = p_read;
 
             /* */
-            if (strncmp(line, "#EXT-X-STREAM-INF", 17) == 0)
+            if (strncmp(line, "#EXT-X-STREAM-INF", 17) == 0 && !p_sys->b_meta)
             {
                 p_sys->b_meta = true;
                 char *uri = ReadLine(p_begin, &p_read, p_end - p_begin);
@@ -2105,7 +2105,6 @@ static int Open(vlc_object_t *p_this)
     if (Prefetch(s, &current) != VLC_SUCCESS)
     {
         msg_Err(s, "fetching first segment failed.");
-        goto fail;
     }
 
     p_sys->download.stream = current;
