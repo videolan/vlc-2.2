@@ -464,6 +464,7 @@ libvlc_media_list_player_new(libvlc_instance_t * p_instance)
         free (p_mlp);
         return NULL;
     }
+    install_media_player_observer(p_mlp);
 
     libvlc_retain(p_instance);
     p_mlp->p_libvlc_instance = p_instance;
