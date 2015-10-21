@@ -1052,6 +1052,8 @@ static int ThreadDisplayRenderPicture(vout_thread_t *vout, bool is_forced)
                 subpicture_Delete(subpic);
             return VLC_EGENERIC;
         }
+
+        todisplay = sys->display.filtered;
     }
 
     vout_chrono_Stop(&vout->p->render);
@@ -1075,10 +1077,7 @@ static int ThreadDisplayRenderPicture(vout_thread_t *vout, bool is_forced)
 
     /* Display the direct buffer returned by vout_RenderPicture */
     vout->p->displayed.date = mdate();
-    vout_display_Display(vd,
-                         sys->display.filtered ? sys->display.filtered
-                                                : todisplay,
-                         subpic);
+    vout_display_Display(vd, todisplay, subpic);
     sys->display.filtered = NULL;
 
     vout_statistic_AddDisplayed(&vout->p->statistic, 1);
