@@ -34,6 +34,7 @@ libass: libass-$(ASS_VERSION).tar.gz .sum-ass
 	$(UNPACK)
 	$(APPLY) $(SRC)/ass/ass-macosx.patch
 	$(APPLY) $(SRC)/ass/ass-solaris.patch
+	$(APPLY) $(SRC)/ass/e572a26.patch
 	$(UPDATE_AUTOCONFIG)
 	$(MOVE)
 
