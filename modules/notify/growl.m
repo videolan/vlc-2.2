@@ -308,7 +308,8 @@ static int ItemChange( vlc_object_t *p_this, const char *psz_var,
                                    iconData: o_art
                                    priority: 0
                                    isSticky: NO
-                               clickContext: nil];
+                               clickContext: nil
+                                 identifier: @"VLCNowPlayingNotification"];
     [o_pool drain];
 }
 
