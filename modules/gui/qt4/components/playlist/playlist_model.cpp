@@ -569,9 +569,9 @@ void PLModel::processInputItemUpdate( )
     {
         PLItem *item = findByInputId( rootItem, input_GetItem( p_input )->i_id );
         if( item ) emit currentIndexChanged( index( item, 0 ) );
-    }
 
-    processInputItemUpdate( input_GetItem( p_input ) );
+        processInputItemUpdate( input_GetItem( p_input ) );
+    }
 }
 
 void PLModel::processInputItemUpdate( input_item_t *p_item )
