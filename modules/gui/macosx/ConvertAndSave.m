@@ -160,7 +160,7 @@ static VLCConvertAndSave *_o_sharedInstance = nil;
     [_destination_filename_lbl setHidden: YES];
     [_destination_browse_btn setTitle:_NS("Browse...")];
     [_destination_stream_btn setTitle:_NS("Setup Streaming...")];
-    [_destination_stream_lbl setStringValue:@"Select Streaming Method"];
+    [_destination_stream_lbl setStringValue:_NS("Select Streaming Method")];
     [_destination_itwantafile_btn setTitle:_NS("Save as File")];
     [_destination_itwantastream_btn setTitle:_NS("Stream")];
     [_destination_cancel_btn setHidden:YES];
@@ -207,6 +207,7 @@ static VLCConvertAndSave *_o_sharedInstance = nil;
     [[_stream_sdp_matrix cellWithTag:3] setTitle:_NS("Export SDP as file")];
     [_stream_sap_ckb setState:NSOffState];
     [_stream_sdp_matrix setEnabled:NO];
+    [_stream_sdp_browsefile_btn setStringValue:_NS("Browse...")];
 
     /* there is no way to hide single cells, so replace the existing ones with empty cells.. */
     id blankCell = [[[NSCell alloc] init] autorelease];
