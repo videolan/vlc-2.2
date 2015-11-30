@@ -208,6 +208,8 @@ static VLCConvertAndSave *_o_sharedInstance = nil;
     [_stream_sap_ckb setState:NSOffState];
     [_stream_sdp_matrix setEnabled:NO];
     [_stream_sdp_browsefile_btn setStringValue:_NS("Browse...")];
+    [_stream_channel_lbl setStringValue:_NS("Channel Name")];
+    [_stream_sdp_lbl setStringValue:_NS("SDP URL")];
 
     /* there is no way to hide single cells, so replace the existing ones with empty cells.. */
     id blankCell = [[[NSCell alloc] init] autorelease];
