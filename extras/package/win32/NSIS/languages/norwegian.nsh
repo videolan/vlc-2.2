@@ -53,4 +53,4 @@ StrCpy $Reinstall_OptionUpgrade "Oppgrader VLC med de forrige innstillingene (an
 StrCpy $Reinstall_OptionDowngrade "Nedgrader VLC med de tidligere innstillingene (anbefalt)"
 StrCpy $Reinstall_OptionComponents "Legg til/Fjern/Installér komponenter på ny"
 StrCpy $Reinstall_OptionAdvanced "Endre innstillinger (avansert)"
-StrCpy $Reinstall_OptionUninstall "Avinstallér VLC"
+StrCpy $Reinstall_OptionUninstall "Avinstaller VLC"
