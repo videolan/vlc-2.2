@@ -45,7 +45,7 @@
 #include <sys/time.h>
 #include <sys/select.h>
 
-#include <386/builtin.h>
+#include <sys/builtin.h>
 
 static vlc_threadvar_t thread_key;
 
