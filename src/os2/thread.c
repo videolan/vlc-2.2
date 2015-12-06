@@ -70,7 +70,7 @@ struct vlc_thread
 
 static void vlc_cancel_self (PVOID dummy);
 
-static ULONG vlc_DosWaitEventSemEx( HEV hev, ULONG ulTimeout, BOOL fCancelable )
+static ULONG vlc_DosWaitEventSemEx( HEV hev, ULONG ulTimeout )
 {
     HMUX      hmux;
     SEMRECORD asr[ 2 ];
@@ -79,10 +79,11 @@ static ULONG vlc_DosWaitEventSemEx( HEV hev, ULONG ulTimeout, BOOL fCancelable )
     ULONG     rc;
 
     struct vlc_thread *th = vlc_threadvar_get( thread_key );
-    if( th == NULL || !fCancelable )
+    if( th == NULL || !th->killable )
     {
         /* Main thread - cannot be cancelled anyway
          * Alien thread - out of our control
+         * Cancel disabled thread - ignore cancel
          */
         if( hev != NULLHANDLE )
             return DosWaitEventSem( hev, ulTimeout );
@@ -118,12 +119,12 @@ static ULONG vlc_DosWaitEventSemEx( HEV hev, ULONG ulTimeout, BOOL fCancelable )
 
 static ULONG vlc_WaitForSingleObject (HEV hev, ULONG ulTimeout)
 {
-    return vlc_DosWaitEventSemEx( hev, ulTimeout, TRUE );
+    return vlc_DosWaitEventSemEx( hev, ulTimeout );
 }
 
 static ULONG vlc_Sleep (ULONG ulTimeout)
 {
-    ULONG rc = vlc_DosWaitEventSemEx( NULLHANDLE, ulTimeout, TRUE );
+    ULONG rc = vlc_DosWaitEventSemEx( NULLHANDLE, ulTimeout );
 
     return ( rc != ERROR_TIMEOUT ) ? rc : 0;
 }
