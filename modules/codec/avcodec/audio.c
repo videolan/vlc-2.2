@@ -451,7 +451,9 @@ block_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
 end:
     *pp_block = NULL;
 drop:
+#if (LIBAVCODEC_VERSION_MAJOR >= 55)
     av_frame_free(&frame);
+#endif
     if( p_block != NULL )
         block_Release(p_block);
     return NULL;
