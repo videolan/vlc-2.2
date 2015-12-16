@@ -4,35 +4,59 @@ Changes between 2.2.1 and 2.2.2:
 Access:
  * Fix SetupFormat for continuous framesize in v4l2
  * Fix off-by-one buffer overflow in RealRtsp module
+ * Fix screen recording aspect-ratio, framerate and potential crash
+ * Fix Windows directshow input freeze
 
 Demux:
  * Fix support for ms-dvr files
  * Fix time detection in AVI files over HTTP
  * HLS: fix hang on stop, crashes and small improvements
  * Fix mp4 NULL dereference reported by by Fortinet's FortiGuard Labs
+ * Fix regression for VC-1 in WMV
 
 Decoders:
  * Fix importing surface from main memory in VDPAU
  * Fix possible double-free in ADPCM decoder
  * Support 9-bit and 10-bit GBR planar formats
+ * Support GoToMeeting 2 and GoToMeeting 3 codecs
+ * Fix crash in teletext (zvbi) decoder
+ * Fix Bluray subtitles (PGS) timestamps
 
 Audio output:
  * Fix audio drop after a flush with pulseaudio
  * Fix audio initialization on iOS
  * Fix audio stuttering with AirPlay devices on OS X (2 sec delay needs to
    be set manually by the user)
+ * Fix pulseaudio latency computation
+ * Fix alsa default device selection
 
 Skins2:
  * Fix video control that fails to show up
  * Fix UTF-8 conversion issues
  * Fix Unicode folders location failing to open the skins
+ * Fix crash over malformed skins bitmaps
+ * Fix fullscreen for Gnome3/Unity Window Managers
 
 OS X:
  * Support for OS X El Capitan
  * Fix code signature for releases on El Capitan
+ * Improve resume dialog, starting time, preferences, lua extensions
+ * Fix threads ordering, preferences crashes, URL drag'n drops
+
+Qt:
+ * Fix crash when opening multiple items on Windows
+ * Fix recent items appending when using a playlist
+ * Improve addons manager dialog, playlist
+ * Fix changing the audio-device in the menu
+ * Fix support for Qt >= 5.5
+ * Fix memory leaks
+
+Video Output:
+ * Fix build if one disables XCB but activate VDPAU on Unix
+ * Fix Direct3D plane allocation size to avoid colour bleeding
+ * Fix some crashes in swscale resizing
 
 Misc:
- * Fix build if one disables XCB but activate VDPAU on Unix
  * Fix build with recent FreeRDP versions
  * Fix interface crashes when input-title-format option is empty
  * Fix MP4 mux divide-by-zero crash
@@ -41,15 +65,25 @@ Misc:
  * Rewrite of the Jamendo Service Discovery
  * Fix snapshot aspect ratio for anamorphic contents
  * Fix custom snapshot sizes
+ * Dynamic generation of GnuTLS Diffie-Hellman parameters
+ * Fix "vb" transcoding parameter
+ * Fix superfluous audio channel extraction in the core
+ * Fix miscellaneous crashes, double-frees, integer overflows, infinite loops,
+   read overflow, invalid frees and division by zero issues
+ * Fix support for lua 5.2 and fix XSS in the http interface
+ * Update and improve Soundcloud, Vimeo and Youtube scripts
+ * Update of codecs and libraries to fix 3rd party security issues (like
+   TALOS-CAN-0036, TALOS-CAN-0037, CVE-2015-7981, CVE-2015-8126
 
 Translations:
  * Add Kashmiri and Maithili languages
  * Update of most translations
 
 libVLC:
- * expose audio mute, cork and volume change events: libvlc_MediaPlayerCorked,
+ * Expose audio mute, cork and volume change events: libvlc_MediaPlayerCorked,
    libvlc_MediaPlayerUncorked, libvlc_MediaPlayerMuted,
    libvlc_MediaPlayerUnmuted and libvlc_MediaPlayerAudioVolume
+ * Fix propagation of libvlc_MediaPlayerTitleChanged event
 
 
 Changes between 2.2.0 and 2.2.1:
