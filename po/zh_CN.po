@@ -4,6 +4,7 @@
 #
 # Translators:
 # Dean Lee <xslidian@gmail.com>, 2012-2015
+# Sophia Meifang Wang <sophiatiger121@hotmail.com>, 2015
 # Wei Mingzhi <whistler@openoffice.org>, 2009
 # Yoyo <admin@wisestudio.org>, 2008
 # zhangmin <zm1990s@gmail.com>, 2014
@@ -276,8 +277,8 @@ msgid ""
 "always force a specific muxer. You should probably not do that.\n"
 "You can also set default parameters for each muxer."
 msgstr ""
-"复用器可创建封装格式，用于将基本流 (视频、音频...) 放到一起。此设置允许您强制"
-"指定一个复用器。您可能不应这样做。\n"
+"复用器将创建可以被用于放置所有通量流 (视频、音频...) 的包裹格式。此设置将允许"
+"您总是强制制定一个复用器。您可能不需要那么做。\n"
 "您也可以为每个复用器设置默认参数。"
 
 #: include/vlc_config_cat.h:141
@@ -2500,8 +2501,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -6561,9 +6563,8 @@ msgid "DVDnav Input"
 msgstr "DVD 导航输入"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Nuv 去复用器"
+msgstr "DVDnav 去复用器"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -6613,8 +6614,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV 输入"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "文件读取失败"
 
@@ -6698,8 +6700,8 @@ msgstr "文件输入"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8047,7 +8049,7 @@ msgstr "帧缓冲输入"
 
 #: modules/access/shm.c:84
 msgid "Shared memory framebuffer"
-msgstr "帧缓冲共享内存"
+msgstr "共享的内存帧缓冲"
 
 #: modules/access/smb.c:56
 msgid "SMB user name"
@@ -8508,7 +8510,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9327,7 +9330,8 @@ msgstr "均衡器"
 msgid "Flat"
 msgstr "单调"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "经典"
 
@@ -9336,7 +9340,8 @@ msgstr "经典"
 msgid "Club"
 msgstr "俱乐部"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "舞曲"
 
@@ -9368,19 +9373,23 @@ msgstr "实况"
 msgid "Party"
 msgstr "聚会"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "流行"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "雷盖"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "摇滚"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "斯卡"
 
@@ -9392,7 +9401,8 @@ msgstr "柔和"
 msgid "Soft rock"
 msgstr "慢摇"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "电子乐"
 
@@ -13312,7 +13322,7 @@ msgstr "VBI 及 Teletext 解码器"
 
 #: modules/codec/zvbi.c:86
 msgid "VBI & Teletext"
-msgstr "VBI 和 Teletext"
+msgstr "VBI 及 Teletext"
 
 #: modules/control/dbus/dbus.c:148
 msgid "DBus"
@@ -14281,8 +14291,8 @@ msgstr "图像"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "每秒帧数"
 
@@ -15749,15 +15759,13 @@ msgstr "服务发现"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
 msgstr "界面"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Lua 元装取器"
+msgstr "封面及元数据装取器"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -15824,7 +15832,8 @@ msgstr "启用动态范围压缩器"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "复位"
 
@@ -15944,8 +15953,8 @@ msgid "Bookmarks"
 msgstr "书签"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "添加"
 
@@ -16242,9 +16251,8 @@ msgid "Setup Streaming..."
 msgstr "配置串流传输..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "流模式"
+msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -16655,11 +16663,11 @@ msgstr "在主窗口中显示向前与向后按钮。"
 
 #: modules/gui/macosx/macosx.m:112 modules/gui/macosx/MainMenu.m:387
 msgid "Show Shuffle & Repeat Buttons"
-msgstr "显示“随机”“重复”按钮"
+msgstr "显示“随机”/“重复”按钮"
 
 #: modules/gui/macosx/macosx.m:113
 msgid "Shows the shuffle and repeat buttons in the main window."
-msgstr "在主窗口中显示随机与重复按钮。"
+msgstr "在主窗口中显示随机及重复按钮。"
 
 #: modules/gui/macosx/macosx.m:115 modules/gui/macosx/MainMenu.m:389
 msgid "Show Audio Effects Button"
@@ -17171,7 +17179,7 @@ msgid ""
 "\n"
 "Choose available device in above pull-down menu.\n"
 msgstr ""
-"未选中设备。\n"
+"未选择设备。\n"
 "\n"
 "请在上面的下拉菜单中选择可用设备。\n"
 
@@ -17729,7 +17737,7 @@ msgstr "更改热键"
 
 #: modules/gui/macosx/simple_prefs.m:352
 msgid "Select an action to change the associated hotkey:"
-msgstr "选择一个要被更改的已分配热键:"
+msgstr "选择一项操作，以修改其对应热键:"
 
 #: modules/gui/macosx/simple_prefs.m:353
 #: modules/gui/qt4/components/preferences_widgets.cpp:1151
@@ -17738,7 +17746,7 @@ msgstr "操作"
 
 #: modules/gui/macosx/simple_prefs.m:354
 msgid "Shortcut"
-msgstr "快捷方式"
+msgstr "快捷键"
 
 #: modules/gui/macosx/simple_prefs.m:360
 msgid "Repair AVI Files"
@@ -17914,24 +17922,20 @@ msgid "No check was performed yet."
 msgstr "尚未执行检查。"
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
-msgstr "最低潜伏时间"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
-msgstr "低潜伏"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
-msgstr "较高潜伏时间"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "较高潜伏时间"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18077,7 +18081,8 @@ msgstr ""
 "根据内容及该值重新计算字幕时长。\n"
 "设为 0 可禁用。"
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "视频效果"
 
@@ -18085,7 +18090,8 @@ msgstr "视频效果"
 msgid "Basic"
 msgstr "基础"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "几何"
 
@@ -18102,7 +18108,8 @@ msgstr "颜色"
 msgid "Image Adjust"
 msgstr "图像调整"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "亮度阈值"
 
@@ -18111,12 +18118,14 @@ msgstr "亮度阈值"
 msgid "Sharpen"
 msgstr "锐利"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Banding 移除"
 
@@ -18125,7 +18134,8 @@ msgstr "Banding 移除"
 msgid "Radius"
 msgstr "半径"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "胶片颗粒"
 
@@ -18269,7 +18279,8 @@ msgstr "动态模糊"
 msgid "Factor"
 msgstr "因素"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "运动检测"
 
@@ -18302,8 +18313,9 @@ msgstr "添加标志"
 msgid "Logo"
 msgstr "标志"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "透明"
 
@@ -18602,7 +18614,8 @@ msgstr "UDP 单播"
 msgid "UDP Multicast"
 msgstr "UDP 多播"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "转码"
 
@@ -18626,13 +18639,13 @@ msgstr "转码视频"
 msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
 "stream."
-msgstr "启用本选项可允许转码流中的音频轨道。"
+msgstr "启用本选项可转码流中的音频轨道（如果存在的话）。"
 
 #: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:1759
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
 "stream."
-msgstr "启用本选项可允许转码流中的视频轨道。"
+msgstr "启用本选项可转码流中的视频轨道（如果存在的话）。"
 
 #: modules/gui/macosx/wizard.m:389
 msgid "Encapsulation format"
@@ -18642,15 +18655,15 @@ msgstr "封装格式"
 msgid ""
 "This page allows selecting how the stream will be encapsulated. Depending on "
 "previously chosen settings all formats won't be available."
-msgstr "此页可选择流将被如何封装。根据先前选择的设置，可能不是所有格式都可用。"
+msgstr "此页可选择如何封装流。根据先前选择的设置，可能不是所有格式都可用。"
 
 #: modules/gui/macosx/wizard.m:395
 msgid "Additional streaming options"
-msgstr "附加流选项"
+msgstr "其他流选项"
 
 #: modules/gui/macosx/wizard.m:396
 msgid "In this page, a few additional streaming parameters can be set."
-msgstr "在此页中，可以设置一些附加的流参数。"
+msgstr "在此页中，可以设置其他一些串流参数。"
 
 #: modules/gui/macosx/wizard.m:398 modules/gui/macosx/wizard.m:1787
 msgid "Time-To-Live (TTL)"
@@ -20014,8 +20027,8 @@ msgstr "应用(&A)"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1380
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20159,8 +20172,8 @@ msgstr "删除所有书签"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20180,7 +20193,8 @@ msgstr "字节"
 msgid "Convert"
 msgstr "转换"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "目标文件:"
 
@@ -20281,7 +20295,8 @@ msgstr "转到(&G)"
 msgid "Go to time"
 msgstr "转到时间"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "关于"
@@ -20493,7 +20508,7 @@ msgstr "服务发现可将新资源添加到您的播放列表，如网络电台
 
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
-msgstr ""
+msgstr "检索播放列表中各项的额外信息及封面"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -21196,9 +21211,8 @@ msgid "&Save To Playlist"
 msgstr "保存到播放列表(&S)"
 
 #: modules/gui/qt4/menus.cpp:1650
-#, fuzzy
 msgid "&Post processing"
-msgstr "预处理"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -23045,7 +23059,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "mosaic 图像的透明度。"
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X 偏移"
 
@@ -23054,7 +23069,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "在 mosaic 左上角开始的非负 X 坐标。"
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y 偏移"
 
@@ -26596,8 +26612,8 @@ msgid ""
 "Select the resolution for the framebuffer. Currently it supports the values "
 "0=QCIF 1=CIF 2=NTSC 3=PAL, 4=auto (default 4=auto)"
 msgstr ""
-"选择帧缓冲的分辨率。当前它支持值 0=QCIF 1=CIF 2=NTSC 3=PAL, 4=自动 (默认为 4="
-"自动)"
+"选择帧缓冲的分辨率。目前支持的值有 0=QCIF 1=CIF 2=NTSC 3=PAL, 4=自动 (默认为 "
+"4=自动)"
 
 #: modules/video_output/fb.c:70
 msgid "Framebuffer uses hw acceleration"
@@ -26605,7 +26621,7 @@ msgstr "帧缓冲使用硬件加速"
 
 #: modules/video_output/fb.c:71
 msgid "Disable for double buffering in software."
-msgstr ""
+msgstr "禁用本项，将在软件中实施双重缓冲。"
 
 #: modules/video_output/fb.c:73
 msgid "Image format (default RGB)"
@@ -26615,8 +26631,7 @@ msgstr "图像格式 (默认 RGB)"
 msgid ""
 "Chroma fourcc used by the framebuffer. Default is RGB since the fb device "
 "has no way to report its chroma."
-msgstr ""
-"帧缓冲设备所用的色度 fourcc。默认为 RGB，因为帧缓冲设备无法报告其色度。"
+msgstr "帧缓冲所用的色度 fourcc。默认为 RGB，因为帧缓冲设备无法报告其色度。"
 
 #: modules/video_output/fb.c:92
 msgid "GNU/Linux framebuffer video output"
@@ -27552,7 +27567,7 @@ msgstr "#在此粘贴您的 VLM 命令"
 
 #: share/lua/http/dialogs/batch_window.html:30
 msgid "#separate commands with a new line or a semi-colon"
-msgstr "#以换行或分号分隔命令"
+msgstr "#以换行或分号分隔各条命令"
 
 #: share/lua/http/dialogs/browse_window.html:41
 #: share/lua/http/mobile_browse.html:48
@@ -28599,18 +28614,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "媒体管理器列表"
-
-#~ msgid "---  DVD Menu"
-#~ msgstr "---  DVD 菜单"
-
-#~ msgid "First Played"
-#~ msgstr "首先播放"
-
-#~ msgid "Video Manager"
-#~ msgstr "视频管理器"
-
-#~ msgid "----- Title"
-#~ msgstr "----- 标题"
 
 #~ msgid ""
 #~ "If your framebuffer supports hardware acceleration or does double "
@@ -31600,6 +31603,22 @@ msgstr "媒体管理器列表"
 #~ "因此加速将禁用。若分辨率较大，性能可能会严重下降。"
 
 #, fuzzy
+#~ msgid "---  DVD Menu"
+#~ msgstr "DVD 菜单"
+
+#, fuzzy
+#~ msgid "First Played"
+#~ msgstr "首先播放"
+
+#, fuzzy
+#~ msgid "Video Manager"
+#~ msgstr "插件管理器"
+
+#, fuzzy
+#~ msgid "----- Title"
+#~ msgstr "标题"
+
+#, fuzzy
 #~ msgid "Video acceleration not available"
 #~ msgstr "K Video 加速视频输出"
 
@@ -32922,7 +32941,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Clear overlay framebuffer"
-#~ msgstr "帧缓冲共享内存"
+#~ msgstr "共享的内存帧缓冲"
 
 #, fuzzy
 #~ msgid "Render text or image"
@@ -32930,7 +32949,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Display on overlay framebuffer"
-#~ msgstr "帧缓冲共享内存"
+#~ msgstr "共享的内存帧缓冲"
 
 #, fuzzy
 #~ msgid "Commands"
@@ -33279,7 +33298,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Select an action to change the associated hotkey"
-#~ msgstr "选择一个要被更改的已分配热键:"
+#~ msgstr "选择一项操作，以修改其对应热键:"
 
 #, fuzzy
 #~ msgid "Hotkey for "
@@ -36454,7 +36473,7 @@ msgstr "媒体管理器列表"
 #~ "Chose abailable device in above pull-down menu\n"
 #~ "."
 #~ msgstr ""
-#~ "未选中设备。\n"
+#~ "未选择设备。\n"
 #~ "\n"
 #~ "请在上面的下拉菜单中选择可用设备。\n"
 
