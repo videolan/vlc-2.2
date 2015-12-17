@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-12-16 16:36+0100\n"
-"PO-Revision-Date: 2015-03-02 14:13+0000\n"
+"PO-Revision-Date: 2015-12-04 12:15+0000\n"
 "Last-Translator: Potato <sheppaul@naver.com>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/vlc-trans/"
-"language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/yaron/vlc-trans/language/"
+"ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -178,7 +178,7 @@ msgstr "자막 / OSD"
 #: include/vlc_config_cat.h:83
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
-msgstr "OSD, 자막 및 \"부화면 오버레이\"에 관련된 설정"
+msgstr "OSD, 자막 및 \"부화면 오버레이\"에 관한 설정"
 
 #: include/vlc_config_cat.h:91
 msgid "Input / Codecs"
@@ -197,8 +197,8 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"여러 접근 방식에 관련된 설정. 변경하고자 하는 공통 설정은 HTTP 프록시 또는 캐"
-"쉬 설정입니다."
+"여러 접근 방식에 관한 설정. 사용자들이 보통 바꾸려는 설정은 HTTP 프록시나    "
+"캐쉬 설정입니다."
 
 #: include/vlc_config_cat.h:101
 msgid "Stream filters"
@@ -396,8 +396,8 @@ msgid ""
 "go to the directory where you installed VLC and run \"vlc -I qt\"\n"
 msgstr ""
 "\n"
-"경고: GUI 에 더 이상 접근할 수 없으면, 명령줄 창을 열고 VLC가 설치된 디렉토리"
-"로 이동하여 \"vlc -I qt\" 를 실행하세요\n"
+"경고: GUI 에 더 이상 접근할 수 없으면, 명령줄 창을 열고 VLC가 설치된 폴더로 "
+"이동하여 \"vlc -I qt\" 를 실행하세요\n"
 
 #: include/vlc_intf_strings.h:46
 msgid "&Open File..."
@@ -409,7 +409,7 @@ msgstr "고급 열기(&A)..."
 
 #: include/vlc_intf_strings.h:48
 msgid "Open D&irectory..."
-msgstr "디렉토리 열기(&I)..."
+msgstr "폴더 열기(&I)..."
 
 #: include/vlc_intf_strings.h:49
 msgid "Open &Folder..."
@@ -421,7 +421,7 @@ msgstr "열고 싶은 하나 이상의 파일을 선택하세요"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
-msgstr "디렉토리 선택하기"
+msgstr "폴더 선택하기"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Folder"
@@ -475,7 +475,7 @@ msgstr "정보..."
 
 #: include/vlc_intf_strings.h:68
 msgid "Create Directory..."
-msgstr "디렉토리 만들기..."
+msgstr "폴더 만들기..."
 
 #: include/vlc_intf_strings.h:69
 msgid "Create Folder..."
@@ -483,7 +483,7 @@ msgstr "폴더 만들기..."
 
 #: include/vlc_intf_strings.h:70
 msgid "Rename Directory..."
-msgstr "디렉토리명 변경하기..."
+msgstr "폴더 이름 변경하기..."
 
 #: include/vlc_intf_strings.h:71
 msgid "Rename Folder..."
@@ -491,7 +491,7 @@ msgstr "폴더명 변경하기..."
 
 #: include/vlc_intf_strings.h:72
 msgid "Show Containing Directory..."
-msgstr "포함된 디렉토리 보기..."
+msgstr "포함하는 폴더 보기..."
 
 #: include/vlc_intf_strings.h:73
 msgid "Show Containing Folder..."
@@ -508,7 +508,7 @@ msgstr "저장..."
 #: include/vlc_intf_strings.h:79 modules/gui/macosx/CoreInteraction.m:396
 #: modules/gui/macosx/MainMenu.m:410 modules/gui/macosx/MainMenu.m:1589
 msgid "Repeat All"
-msgstr "전체 반복"
+msgstr "전체 반복하기"
 
 #: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:416
 #: modules/gui/macosx/MainMenu.m:409 modules/gui/macosx/MainMenu.m:1584
@@ -536,7 +536,7 @@ msgstr "파일 추가..."
 
 #: include/vlc_intf_strings.h:86
 msgid "Add Directory..."
-msgstr "디렉토리 추가..."
+msgstr "폴더 추가..."
 
 #: include/vlc_intf_strings.h:87
 msgid "Add Folder..."
@@ -1641,7 +1641,7 @@ msgstr "기본 스트림"
 
 #: src/libvlc-module.c:94
 msgid "This stream will always be opened at VLC startup."
-msgstr "이 스트림은 VLC가 시작될 때 항상 열려질 것입니다."
+msgstr " VLC 시작시 이 스트림을 항상 엽니다."
 
 #: src/libvlc-module.c:96
 msgid "Color messages"
@@ -2277,11 +2277,11 @@ msgstr ""
 
 #: src/libvlc-module.c:387
 msgid "Video snapshot directory (or filename)"
-msgstr "비디오 스냅샷 디렉토리 (또는 파일명)"
+msgstr "비디오 스냅샷 폴더 (또는 파일명)"
 
 #: src/libvlc-module.c:389
 msgid "Directory where the video snapshots will be stored."
-msgstr "비디오 스냅샷을 저장할 디렉토리."
+msgstr "비디오 스냅샷을 저장할 폴더."
 
 #: src/libvlc-module.c:391 src/libvlc-module.c:393
 msgid "Video snapshot file prefix"
@@ -2579,8 +2579,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -2855,11 +2856,11 @@ msgstr ""
 #: src/libvlc-module.c:665 modules/gui/macosx/simple_prefs.m:357
 #: modules/gui/qt4/ui/sprefs_input.h:355
 msgid "Record directory or filename"
-msgstr "녹화 디렉토리 또는 파일명"
+msgstr "녹화 폴더 또는 파일명"
 
 #: src/libvlc-module.c:667 modules/gui/macosx/simple_prefs.m:359
 msgid "Directory or filename where the records will be stored"
-msgstr "녹화를 저장할 디렉토리나 파일명"
+msgstr "녹화를 저장할 폴더나 파일명"
 
 #: src/libvlc-module.c:669
 msgid "Prefer native stream recording"
@@ -2873,21 +2874,22 @@ msgstr "가능하면 스트림 출력 모듈을 사용하는 대신에 입력 �
 
 #: src/libvlc-module.c:674
 msgid "Timeshift directory"
-msgstr "타임시프트 디렉토리"
+msgstr "타임쉬프트 폴더"
 
 #: src/libvlc-module.c:676
 msgid "Directory used to store the timeshift temporary files."
-msgstr "타임시프트 임시 파일 저장에 사용되는 디렉토리"
+msgstr "타임쉬프트 임시 파일 저장시 사용하는 폴더."
 
 #: src/libvlc-module.c:678
 msgid "Timeshift granularity"
-msgstr "타임시프트 단위"
+msgstr "타임쉬프트 단위 크기"
 
 #: src/libvlc-module.c:680
 msgid ""
 "This is the maximum size in bytes of the temporary files that will be used "
 "to store the timeshifted streams."
-msgstr "타임시프트된 스트림 저장에 사용될 임시 파일의 최대 바이트 크기입니다."
+msgstr ""
+"이것은 타임쉬프트된 스트림 저장에 사용할 임시 파일의 최대 바이트 크기입니다."
 
 #: src/libvlc-module.c:683
 msgid "Change title according to current media"
@@ -3029,8 +3031,8 @@ msgid ""
 "Look for a subtitle file in those paths too, if your subtitle file was not "
 "found in the current directory."
 msgstr ""
-"만약 현재 디렉토리에서 자막 파일을 찾지 못하면, 다음 경로에서도 자막 파일을 "
-"검색합니다."
+"만약 현재 폴더에서 자막 파일을 찾지 못하면, 다음 경로에서도 자막 파일을 검색"
+"합니다."
 
 #: src/libvlc-module.c:745
 msgid "Use subtitle file"
@@ -3511,7 +3513,7 @@ msgstr "스트림 필터 모듈"
 
 #: src/libvlc-module.c:1001
 msgid "Stream filters are used to modify the stream that is being read. "
-msgstr "스트림 필터는 읽고 있는 스트림을 변경하는데 사용됩니다."
+msgstr "스트림 필터는 현재 읽고 있는 스트림을 변경하는데 사용됩니다."
 
 #: src/libvlc-module.c:1003
 msgid "Demux module"
@@ -3574,7 +3576,7 @@ msgstr ""
 #: src/libvlc-module.c:1030
 msgid ""
 "This option is useful if you want to lower the latency when reading a stream"
-msgstr "스트림을 읽을때 낮은 대기시간을 원할때 이 옵션은 유용합니다"
+msgstr "스트림을 읽을때 낮은 지연시간을 원할때 이 옵션은 유용합니다"
 
 #: src/libvlc-module.c:1033
 msgid "VLM configuration file"
@@ -3634,7 +3636,7 @@ msgstr "모든 VLC 메시지를 syslog 에 기록 (유닉스 시스텀)."
 
 #: src/libvlc-module.c:1061
 msgid "Allow only one running instance"
-msgstr "VLC의 중복 실행을 금지합니다"
+msgstr "중복 실행 금지하기"
 
 #: src/libvlc-module.c:1064
 msgid ""
@@ -3716,13 +3718,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1111
 msgid "Automatically preparse files"
-msgstr "자동으로 파일 미리 읽기"
+msgstr "파일을 자동으로 미리 분석하기"
 
 #: src/libvlc-module.c:1113
 msgid ""
 "Automatically preparse files added to the playlist (to retrieve some "
 "metadata)."
-msgstr "재생목록에 들어온 파일을 미리 읽어서 정보를 파악합니다."
+msgstr ""
+"재생목록에 추가한 파일을 자동으로 미리 분석합니다 (몇 가지 메타데이터 정보를 "
+"가져오기 위해) "
 
 #: src/libvlc-module.c:1116 modules/gui/macosx/simple_prefs.m:391
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
@@ -3744,7 +3748,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1123
 msgid "Play files randomly forever"
-msgstr "항상 무작위 파일 재생"
+msgstr "무작위 반복 재생하기"
 
 #: src/libvlc-module.c:1125
 msgid "VLC will randomly play files in the playlist until interrupted."
@@ -3760,7 +3764,7 @@ msgstr "순서대로 반복 재생합니다."
 
 #: src/libvlc-module.c:1131
 msgid "Repeat current item"
-msgstr "현재 항목 반복"
+msgstr "현재 항목 반복하기"
 
 #: src/libvlc-module.c:1133
 msgid "VLC will keep playing the current playlist item."
@@ -3768,7 +3772,7 @@ msgstr "지금 재생중인 항목을 반복합니다."
 
 #: src/libvlc-module.c:1135
 msgid "Play and stop"
-msgstr "재생 / 멈춤"
+msgstr "각 항목 재생 후 정지하기"
 
 #: src/libvlc-module.c:1137
 msgid "Stop the playlist after each played playlist item."
@@ -3776,7 +3780,7 @@ msgstr "재생목록 항목이 하나 끝날 때마다 멈춥니다."
 
 #: src/libvlc-module.c:1139
 msgid "Play and exit"
-msgstr "재생 후 종료"
+msgstr "재생목록 끝에서 종료하기"
 
 #: src/libvlc-module.c:1141
 msgid "Exit if there are no more items in the playlist."
@@ -3784,7 +3788,7 @@ msgstr "재생목록에 더 이상 항목이 없으면 종료."
 
 #: src/libvlc-module.c:1143
 msgid "Play and pause"
-msgstr "재생 및 일시중지"
+msgstr "각 항목 재생 후 일시중지하기"
 
 #: src/libvlc-module.c:1145
 msgid "Pause each item in the playlist on the last frame."
@@ -3792,11 +3796,11 @@ msgstr "재생목록의 각 항목마다 마지막 프레임에서 일시중지�
 
 #: src/libvlc-module.c:1147
 msgid "Auto start"
-msgstr "자동 시작"
+msgstr "재생을 자동으로 시작하기"
 
 #: src/libvlc-module.c:1148
 msgid "Automatically start playing the playlist content once it's loaded."
-msgstr "재생목록의 컨턴트가 읽어지면 자동 재생 시작."
+msgstr "재생목록의 내용을 불러오면 자동으로 재생을 시작합니다."
 
 #: src/libvlc-module.c:1151
 msgid "Pause on audio communication"
@@ -3810,14 +3814,14 @@ msgstr "통화(음성 통신) 중일 때, 재생이 자동으로 일지 중지�
 
 #: src/libvlc-module.c:1156
 msgid "Use media library"
-msgstr "미디어 라이브러리 사용"
+msgstr "미디어 라이브러리 사용하기"
 
 #: src/libvlc-module.c:1158
 msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
-"미디어 라이브러리는 자동으로 저장되고 VLC 이 시작될때마다 새로읽어 집니다."
+"VLC를 시작할 때마다 자동으로 미디어 라이브러리를 저장하고 다시 불러옵니다."
 
 #: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Display playlist tree"
@@ -6740,9 +6744,8 @@ msgid "DVDnav Input"
 msgstr "DVDnav 입력"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Nuv 디먹서"
+msgstr "DVDnav 디먹서"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -6794,8 +6797,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV 입력"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "파일 읽기 실패"
 
@@ -6811,7 +6815,7 @@ msgstr "VLC가 파일(%s)을 읽을 수 없습니다."
 
 #: modules/access/fs.c:33
 msgid "Subdirectory behavior"
-msgstr "하위 디렉토리 동작"
+msgstr "하위 폴더 동작"
 
 #: modules/access/fs.c:35
 msgid ""
@@ -6820,10 +6824,10 @@ msgid ""
 "collapse: subdirectories appear but are expanded on first play.\n"
 "expand: all subdirectories are expanded.\n"
 msgstr ""
-"하위디렉토리를 확장할 것인지 선택하세요.\n"
-"하지 않음: 하위디렉토리는 재생목록에 나타나지 않습니다.\n"
-"접기: 하위디렉토리가 나타나지만 첫번째 재생시에 확장됩니다.\n"
-"확장하기: 모든 하위디렉토리를 확장합니다.\n"
+"하위 폴더를 확장할 것인지 선택하세요.\n"
+"하지 않음: 하위 폴더는 재생목록에 나타나지 않습니다.\n"
+"접기: 하위 폴더가 나타나지만 첫번째 재생시에 확장됩니다.\n"
+"확장하기: 모든 하위 폴더를 확장합니다.\n"
 
 #: modules/access/fs.c:42
 msgid "Collapse"
@@ -6844,9 +6848,9 @@ msgid ""
 "This is useful if you add directories that contain playlist files for "
 "instance. Use a comma-separated list of extensions."
 msgstr ""
-"디렉토리를 열 때 이 확장자를 가진 파일은 재생목록에 추가하지 않을 것입니다.\n"
-"이것은 예를 들어 당신이 재생목록 파일을 포함하는 디렉토리를 추가할 때 유용합"
-"니다. 확장자를 콤마로 분리한 목록을 사용하세요."
+"폴더를 열 때 이 확장자를 가진 파일은 재생목록에 추가하지 않을 것입니다.\n"
+"이것은 예를 들어 당신이 재생목록 파일을 포함하는 폴더를 추가할 때 유용합니"
+"다. 콤마로 분리한 확장자 목록을 사용하세요."
 
 #: modules/access/fs.c:53
 msgid ""
@@ -6867,11 +6871,11 @@ msgstr "항목을 정렬하지 않습니다."
 
 #: modules/access/fs.c:57
 msgid "Directory sort order"
-msgstr "디렉토리 정렬 순서"
+msgstr "폴더 정렬 순서"
 
 #: modules/access/fs.c:59
 msgid "Define the sort algorithm used when adding items from a directory."
-msgstr "디렉토리에서 항목을 추가할 때의 정렬 알고리즘을 정의합니다."
+msgstr "폴더에서 항목을 추가할 때의 정렬 알고리즘을 정의합니다."
 
 #: modules/access/fs.c:62
 msgid "File input"
@@ -6881,8 +6885,8 @@ msgstr "파일 입력"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -6891,7 +6895,7 @@ msgstr "파일"
 
 #: modules/access/fs.c:72 modules/gui/qt4/ui/sprefs_video.h:339
 msgid "Directory"
-msgstr "디렉토리"
+msgstr "폴더"
 
 #: modules/access/ftp.c:65
 msgid "FTP user name"
@@ -7779,9 +7783,9 @@ msgid ""
 "of streams) on the icecast/shoutcast website. Requires the bitrate "
 "information specified for shoutcast. Requires Ogg streaming for icecast."
 msgstr ""
-"서버를 아이스캐스트/샤우트캐스트 웹사이트의 'Yellow Pages' (스트림의 디렉토"
-"리 목록) 에서 공식적으로 사용할 수 있도록 만듭니다. 샤우트캐스트를 위해 지정"
-"한 비트레이트 정보가 필요합니다. 아이스캐스트는 Ogg 스트리밍이 필요합니다."
+"서버를 아이스캐스트/샤우트캐스트 웹사이트의 'Yellow Pages' (스트림 안내 목"
+"록) 에서 공식적으로 사용할 수 있도록 만듭니다. 샤우트캐스트를 위해 지정한 비"
+"트레이트 정보가 필요합니다. 아이스캐스트는 Ogg 스트리밍이 필요합니다."
 
 #: modules/access_output/shout.c:111
 msgid "IceCAST output"
@@ -8720,7 +8724,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9556,7 +9561,8 @@ msgstr "이퀄라이저"
 msgid "Flat"
 msgstr "플랫"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "클래식"
 
@@ -9565,7 +9571,8 @@ msgstr "클래식"
 msgid "Club"
 msgstr "클럽"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "댄스"
 
@@ -9597,19 +9604,23 @@ msgstr "라이브"
 msgid "Party"
 msgstr "파티"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "팝"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "레게"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "록"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "스카"
 
@@ -9621,7 +9632,8 @@ msgstr "소프트"
 msgid "Soft rock"
 msgstr "소프트 록"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "테크노"
 
@@ -10960,7 +10972,7 @@ msgstr "VBR 인코딩의 품질 (0=CBR, 1~5 일정한 품질 VBR, 5는 최고 �
 
 #: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
-msgstr "afterburner 라이브러 사용하기"
+msgstr "Afterburner 라이브러리 사용하기"
 
 #: modules/codec/fdkaac.c:77
 msgid ""
@@ -13867,8 +13879,8 @@ msgid ""
 "Tell lirc to read this configuration file. By default it searches in the "
 "users home directory."
 msgstr ""
-"Lirc가 이 설정 파일을 읽도록 합니다. 기본적으로 사용자의 홈 디렉토리에서 검색"
-"합니다."
+"Lirc가 이 설정 파일을 읽도록 합니다. 기본적으로 사용자의 홈 폴더에서 검색합니"
+"다."
 
 #: modules/control/lirc.c:58
 msgid "Infrared"
@@ -14614,8 +14626,8 @@ msgstr "이미지"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "초당 프레임 수"
 
@@ -14654,15 +14666,15 @@ msgstr "세그먼트에서 발견된 챕터 코덱을 이용합니다."
 #: modules/demux/mkv/mkv.cpp:62 modules/gui/macosx/simple_prefs.m:370
 #: modules/gui/qt4/ui/sprefs_input.h:358
 msgid "Preload MKV files in the same directory"
-msgstr "같은 디렉토리의 MKV 파일을 미리 불러오기"
+msgstr "같은 폴더의 MKV 파일을 미리 불러오기"
 
 #: modules/demux/mkv/mkv.cpp:63
 msgid ""
 "Preload matroska files in the same directory to find linked segments (not "
 "good for broken files)."
 msgstr ""
-"연결된 세그먼트를 찾기 위해 같은 디렉토리에 있는 MKV 파일을 미리 불러옵니다 "
-"(깨진 파일에는 좋지 않음)."
+"연결된 세그먼트를 찾기 위해 같은 폴더에 있는 MKV 파일을 미리 불러옵니다 (깨"
+"진 파일에는 좋지 않음)."
 
 #: modules/demux/mkv/mkv.cpp:66 modules/demux/ts.c:121
 msgid "Seek based on percent not time"
@@ -16103,15 +16115,13 @@ msgstr "서비스 검색"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
 msgstr "인터페이스"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Lua 메타 가져오기"
+msgstr "아트와 메타 가져오기"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16178,7 +16188,8 @@ msgstr "다이내믹 레인지 압축기 사용하기"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "초기화"
 
@@ -16298,8 +16309,8 @@ msgid "Bookmarks"
 msgstr "책갈피"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "추가"
 
@@ -16610,9 +16621,8 @@ msgid "Setup Streaming..."
 msgstr "스트리밍 설정하기.."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "스트리밍 방식"
+msgstr "스트리밍 방식 선택"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18021,7 +18031,7 @@ msgstr "기본 정보 보기"
 
 #: modules/gui/macosx/prefs_widgets.m:1156
 msgid "Select a directory"
-msgstr "디렉토리 선택"
+msgstr "폴더 선택하기"
 
 #: modules/gui/macosx/prefs_widgets.m:1156
 msgid "Select a file"
@@ -18304,24 +18314,20 @@ msgid "No check was performed yet."
 msgstr "아직 확인하지 않았습니다."
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
-msgstr "가장 낮은 대기시간"
+msgstr "가장 낮은 지연시간"
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
-msgstr "낮은 대기시간"
+msgstr "낮은 지연시간"
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
-msgstr "더 높은 대기시간"
+msgstr "더 높은 지연시간"
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "더 높은 대기시간"
+msgstr "가장 높은 지연시간"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18468,7 +18474,8 @@ msgstr ""
 "자막 지속 시간을 다시 계산합니다.\n"
 "0으로 놓으면 끕니다."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "비디오 효과"
 
@@ -18476,7 +18483,8 @@ msgstr "비디오 효과"
 msgid "Basic"
 msgstr "기본"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "구조"
 
@@ -18493,7 +18501,8 @@ msgstr "색상"
 msgid "Image Adjust"
 msgstr "이미지 조정"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "밝기 임계값"
 
@@ -18502,12 +18511,14 @@ msgstr "밝기 임계값"
 msgid "Sharpen"
 msgstr "선명도"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "시그마"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "밴딩 제거"
 
@@ -18516,7 +18527,8 @@ msgstr "밴딩 제거"
 msgid "Radius"
 msgstr "반경"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Film Grain"
 
@@ -18660,7 +18672,8 @@ msgstr "모션 블러"
 msgid "Factor"
 msgstr "비율"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "모션 인식"
 
@@ -18693,8 +18706,9 @@ msgstr "로고 추가"
 msgid "Logo"
 msgstr "로고"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "투명"
 
@@ -19015,7 +19029,8 @@ msgstr "UDP 유니캐스트"
 msgid "UDP Multicast"
 msgstr "UDP 멀티캐스트"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "트랜스코딩"
 
@@ -19177,7 +19192,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1020
 msgid "Select the directory to save to"
-msgstr "저장할 디렉토리 선택"
+msgstr "저장할 폴더 선택"
 
 #: modules/gui/macosx/wizard.m:1072
 msgid "No folder selected"
@@ -19185,7 +19200,7 @@ msgstr "폴더가 선택되지 않음"
 
 #: modules/gui/macosx/wizard.m:1074
 msgid "A directory where to save the files has to be selected."
-msgstr "파일을 저장할 디렉토리를 선택하세요."
+msgstr "파일을 저장할 폴더를 선택하세요."
 
 #: modules/gui/macosx/wizard.m:1076
 msgid ""
@@ -19314,7 +19329,8 @@ msgid ""
 "This option allows you to specify the directory the ncurses filebrowser will "
 "show you initially."
 msgstr ""
-"이 옵션에서 ncurses 파일탐색기가 처음 보여 줄 디렉토리를 지정할 수 있습니다."
+"이 옵션에서 Ncurses 파일 탐색기(NC류)가 처음 보여 줄 폴더를 지정할 수 있습니"
+"다."
 
 #: modules/gui/ncurses.c:77
 msgid "Ncurses interface"
@@ -19506,7 +19522,7 @@ msgstr " <enter>                선택 파일을 재생목록에 추가하기"
 
 #: modules/gui/ncurses.c:934
 msgid " <space>                Add the selected directory to the playlist"
-msgstr " <space>                선택 디렉토리 재생목록에 추가하기"
+msgstr " <space>                선택 폴더 재생목록에 추가하기"
 
 #: modules/gui/ncurses.c:935
 msgid " .                      Show/Hide hidden files"
@@ -20084,7 +20100,7 @@ msgstr "선택한 시간 위치로 이동하려면 더블 클릭하세요"
 
 #: modules/gui/qt4/components/open_panels.cpp:58
 msgid "Select a device or a VIDEO_TS directory"
-msgstr "장치나 VIDEO_TS 디렉토리를 선택하세요"
+msgstr "장치나 VIDEO_TS 폴더를 선택하세요"
 
 #: modules/gui/qt4/components/open_panels.cpp:59
 msgid "Select a device or a VIDEO_TS folder"
@@ -20213,7 +20229,7 @@ msgstr "커버"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Directory"
-msgstr "디렉토리 만들기"
+msgstr "폴더 만들기"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:48
 msgid "Create Folder"
@@ -20221,7 +20237,7 @@ msgstr "폴더 만들기"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:50
 msgid "Enter name for new directory:"
-msgstr "새 디렉토리 이름을 입력하세요:"
+msgstr "새 폴더 이름을 입력하세요:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:51
 msgid "Enter name for new folder:"
@@ -20229,7 +20245,7 @@ msgstr "새 폴더 이름을 입력하세요:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
 msgid "Rename Directory"
-msgstr "디렉토리명 바꾸기"
+msgstr "폴더 이름 바꾸기"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:54
 msgid "Rename Folder"
@@ -20237,7 +20253,7 @@ msgstr "폴더명 바꾸기"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
 msgid "Enter a new name for the directory:"
-msgstr "새 디렉토리 이름을 입력하세요:"
+msgstr "새 폴더 이름을 입력하세요:"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
 msgid "Enter a new name for the folder:"
@@ -20400,19 +20416,19 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:714
 msgid "Lowest latency"
-msgstr "가장 낮은 대기시간"
+msgstr "가장 낮은 지연시간"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:715
 msgid "Low latency"
-msgstr "낮은 대기시간"
+msgstr "낮은 지연시간"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:717
 msgid "High latency"
-msgstr "높은 대기시간"
+msgstr "높은 지연시간"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:718
 msgid "Higher latency"
-msgstr "더 높은 대기시간"
+msgstr "더 높은 지연시간"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:766
 msgid "This is VLC's skinnable interface. You can download other skins at"
@@ -20453,8 +20469,8 @@ msgstr "적용(&A)"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1380
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20500,7 +20516,7 @@ msgstr "프로파일 이름을 설정해야 합니다."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:40
 msgid "File/Directory"
-msgstr "파일/디렉토리"
+msgstr "파일/폴더"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:40
 msgid "File/Folder"
@@ -20598,8 +20614,8 @@ msgstr "모든 책갈피 삭제하기"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20619,7 +20635,8 @@ msgstr "바이트"
 msgid "Convert"
 msgstr "변환"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "대상 파일:"
 
@@ -20723,7 +20740,8 @@ msgstr "이동(&G)"
 msgid "Go to time"
 msgstr "시간으로 이동"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "정보"
@@ -20940,7 +20958,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
-msgstr ""
+msgstr "재생목록 항목의 추가 정보와 아트를 검색합니다"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -21057,7 +21075,7 @@ msgstr "VLC 미디어 재생기의 환경설정을 초기화 할까요?"
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
 msgid "Open Directory"
-msgstr "디렉토리 열기"
+msgstr "폴더 열기"
 
 #: modules/gui/qt4/dialogs_provider.cpp:66
 msgid "Open Folder"
@@ -21647,9 +21665,8 @@ msgid "&Save To Playlist"
 msgstr "재생목록에 저장하기"
 
 #: modules/gui/qt4/menus.cpp:1650
-#, fuzzy
 msgid "&Post processing"
-msgstr "후처리"
+msgstr "후처리(&P)"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -22077,15 +22094,15 @@ msgstr "단일 비밀번호는 이 인터페이스의 접근을 제한합니다.
 
 #: modules/lua/vlc.c:54 modules/lua/vlc.c:55
 msgid "Source directory"
-msgstr "원본 디렉토리"
+msgstr "원본 폴더"
 
 #: modules/lua/vlc.c:56
 msgid "Directory index"
-msgstr "디렉토리 인덱스"
+msgstr "폴더 인덱스"
 
 #: modules/lua/vlc.c:57
 msgid "Allow to build directory index"
-msgstr "디렉토리 인덱스를 생성합니다"
+msgstr "폴더 인덱스를 생성합니다"
 
 #: modules/lua/vlc.c:59 modules/stream_out/raop.c:147
 #: share/lua/http/dialogs/stream_config_window.html:28
@@ -22193,7 +22210,7 @@ msgstr "앨범 아트 파일명"
 
 #: modules/meta_engine/folder.c:66
 msgid "Filename to look for album art in current directory"
-msgstr "현재 디렉토리에서 앨범 아트를 검색할 파일명"
+msgstr "현재 폴더에서 앨범 아트를 검색할 파일명"
 
 #: modules/misc/audioscrobbler.c:115
 msgid "The username of your last.fm account"
@@ -23548,7 +23565,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "모자이크 사진의 투명도."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X 오프셋"
 
@@ -23557,7 +23575,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "모자이크의 외쪽 위 모서리의 X 좌표, 음수가 아니면."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y 오프셋"
 
@@ -26797,15 +26816,15 @@ msgstr ""
 
 #: modules/video_filter/scene.c:81
 msgid "Directory path prefix"
-msgstr "디렉토리 경로 접두사"
+msgstr "폴더 경로 접두사"
 
 #: modules/video_filter/scene.c:82
 msgid ""
 "Directory path where images files should be saved. If not set, then images "
 "will be automatically saved in users homedir."
 msgstr ""
-"이미지 파일이 저장될 디렉토리 경루. 설정되어 있지 않으면, 이미지는 사용자의 "
-"홈디렉토리에 자동으로 저장이 될 것입니다."
+"이미지 파일을 저장할 폴더 경로. 설정되어 있지 않으면 이미지는 사용자의 홈폴더"
+"에 자동으로 저장이 될 것입니다."
 
 #: modules/video_filter/scene.c:86
 msgid "Always write to the same file"
@@ -27060,7 +27079,7 @@ msgid ""
 "Timelength after which we assume there is no signal.\n"
 "After this delay we black out the video."
 msgstr ""
-"신호가 없다고 가정할 수 있는 시간의 길이.\n"
+"신호가 없다고 추정한 시간의 길이.\n"
 "이 지연시간 후에 화면을 검게 만듭니다."
 
 #: modules/video_output/decklink.cpp:76
@@ -27210,7 +27229,7 @@ msgstr "프레임버퍼시 하드웨어 가속을 사용합니다"
 
 #: modules/video_output/fb.c:71
 msgid "Disable for double buffering in software."
-msgstr ""
+msgstr "더블 버퍼링을 비활성화합니다."
 
 #: modules/video_output/fb.c:73
 msgid "Image format (default RGB)"
@@ -28542,7 +28561,7 @@ msgstr "파일 선택"
 
 #: modules/gui/qt4/ui/open_file.h:152
 msgid "You can select local files with the following list and buttons."
-msgstr "다음 목록 및 버튼으로 로컬 파일을 선택할수 있습니다."
+msgstr "다음 목록 및 버튼으로 로컬 파일을 선택할 수 있습니다."
 
 #: modules/gui/qt4/ui/open_file.h:153
 msgid "Add..."
@@ -28678,23 +28697,23 @@ msgstr "미디어 소스를 스트림으로 설정하기"
 
 #: modules/gui/qt4/ui/sout.h:205
 msgid "Destination Setup"
-msgstr "대상 설정"
+msgstr "목적지 설정"
 
 #: modules/gui/qt4/ui/sout.h:206
 msgid "Select destinations to stream to"
-msgstr "스트림할 대상을 선택하세요"
+msgstr "스트리명할 목적지를 선택하세요"
 
 #: modules/gui/qt4/ui/sout.h:207
 msgid ""
 "Add destinations following the streaming methods you need. Be sure to check "
 "with transcoding that the format is compatible with the method used."
 msgstr ""
-"당인이 필요한 스트리밍 방법을 준수하는 대상을 추가하세요. 트랜스코딩시 해당 "
-"형식이 사용되는 방법과 호환되는지 꼭 확인하세요."
+"당신이 필요한 스트리밍 방법을 준수하는 목적지를 추가하세요. 트랜스코딩시 해"
+"당 형식이 사용되는 방법과 호환되는지 꼭 확인하세요."
 
 #: modules/gui/qt4/ui/sout.h:208
 msgid "New destination"
-msgstr "새 대상"
+msgstr "새 목적지"
 
 #: modules/gui/qt4/ui/sout.h:210
 msgid "Display locally"
@@ -29140,7 +29159,7 @@ msgstr "필터 임계값 (%)"
 
 #: modules/gui/qt4/ui/video_effects.h:1476
 msgid "Anaglyph 3D"
-msgstr "3D 입체 사진"
+msgstr "애너글리프 3D"
 
 #: modules/gui/qt4/ui/video_effects.h:1477
 msgid "Mirror"
@@ -29188,7 +29207,7 @@ msgstr "VLM 설정"
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "Media Manager Edition"
-msgstr "미디어 관리자 형식"
+msgstr "미디어 관리자 에디션"
 
 #: modules/gui/qt4/ui/vlm.h:288
 msgid "Name:"
@@ -29229,18 +29248,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "미디어 관리자 목록"
-
-#~ msgid "---  DVD Menu"
-#~ msgstr "--- DVD 메뉴"
-
-#~ msgid "First Played"
-#~ msgstr "처음 재생됨"
-
-#~ msgid "Video Manager"
-#~ msgstr "비디오 관리자"
-
-#~ msgid "----- Title"
-#~ msgstr "----- 제목"
 
 #~ msgid ""
 #~ "If your framebuffer supports hardware acceleration or does double "
@@ -32091,9 +32098,6 @@ msgstr "미디어 관리자 목록"
 #~ msgid "Empty"
 #~ msgstr "비었음"
 
-#~ msgid "Select a matching identity"
-#~ msgstr "일치하는 것을 선택하기"
-
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
 #~ "Do you want to kill it now? "
@@ -32173,6 +32177,26 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid "VLC Debug Log (%s).rtfd"
 #~ msgstr "VLC 디버그 로그 (%s).rtf"
+
+#, fuzzy
+#~ msgid "---  DVD Menu"
+#~ msgstr "DVD 메뉴"
+
+#, fuzzy
+#~ msgid "First Played"
+#~ msgstr "첫번째 재생"
+
+#, fuzzy
+#~ msgid "Video Manager"
+#~ msgstr "애드온 관리자"
+
+#, fuzzy
+#~ msgid "----- Title"
+#~ msgstr "제목"
+
+#, fuzzy
+#~ msgid "Select a matching identity"
+#~ msgstr "스트리밍 방식 선택"
 
 #, fuzzy
 #~ msgid "Video acceleration not available"
@@ -32904,7 +32928,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Select current widget"
-#~ msgstr "현재 항목 반복"
+#~ msgstr "현재 항목 반복하기"
 
 #, fuzzy
 #~ msgid "CPU"
@@ -34281,7 +34305,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Open a device or a VIDEO_TS directory"
-#~ msgstr "장치나 VIDEO_TS 디렉토리를 선택하세요"
+#~ msgstr "장치나 VIDEO_TS 폴더를 선택하세요"
 
 #, fuzzy
 #~ msgid "&Update List"
@@ -34387,8 +34411,8 @@ msgstr "미디어 관리자 목록"
 #~ "This option allows you to set the default path that the interface will "
 #~ "open when looking for a file. "
 #~ msgstr ""
-#~ "이 옵션에서 ncurses 파일탐색기가 처음 보여 줄 디렉토리를 지정할 수 있습니"
-#~ "다."
+#~ "이 옵션에서 Ncurses 파일 탐색기(NC류)가 처음 보여 줄 폴더를 지정할 수 있습"
+#~ "니다."
 
 #, fuzzy
 #~ msgid "Open the messages window"
@@ -34528,7 +34552,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Preload Directory"
-#~ msgstr "디렉토리 만들기"
+#~ msgstr "폴더 만들기"
 
 #, fuzzy
 #~ msgid "Motion blue"
@@ -35184,7 +35208,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Open VIDEO_TS Directory"
-#~ msgstr "디렉토리 열기"
+#~ msgstr "폴더 열기"
 
 #, fuzzy
 #~ msgid "No items in the playlist"
@@ -35548,7 +35572,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Open &Directory..."
-#~ msgstr "디렉토리 열기(&I)..."
+#~ msgstr "폴더 열기(&I)..."
 
 #, fuzzy
 #~ msgid "Random off"
@@ -35560,7 +35584,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Add directory..."
-#~ msgstr "디렉토리 추가..."
+#~ msgstr "폴더 추가..."
 
 #, fuzzy
 #~ msgid "VLC could not open the packetizer module."
@@ -35975,7 +35999,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Show the current item"
-#~ msgstr "현재 항목 반복"
+#~ msgstr "현재 항목 반복하기"
 
 #, fuzzy
 #~ msgid "Audio Port"
@@ -36038,7 +36062,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Choose directory"
-#~ msgstr "원본 디렉토리"
+#~ msgstr "원본 폴더"
 
 #, fuzzy
 #~ msgid "WinCE interface"
@@ -36174,7 +36198,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "VIDEO_TS directory"
-#~ msgstr "디렉토리"
+#~ msgstr "폴더"
 
 #, fuzzy
 #~ msgid "Video On Demand"
@@ -36286,7 +36310,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Record directory"
-#~ msgstr "원본 디렉토리"
+#~ msgstr "원본 폴더"
 
 #, fuzzy
 #~ msgid "Force use of the timeshift module"
@@ -36294,7 +36318,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Timeshift"
-#~ msgstr "타임시프트 디렉토리"
+#~ msgstr "타임쉬프트 폴더"
 
 #, fuzzy
 #~ msgid "Audio method"
@@ -36926,7 +36950,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Open Dir&ectory...\tCtrl-E"
-#~ msgstr "디렉토리 열기(&I)..."
+#~ msgstr "폴더 열기(&I)..."
 
 #, fuzzy
 #~ msgid "Open &Disc...\tCtrl-D"
@@ -37539,7 +37563,7 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "Allows you to specify the image format in which the video snapshots will "
 #~ "be stored."
-#~ msgstr "비디오 스냅샷을 저장할 디렉토리."
+#~ msgstr "비디오 스냅샷을 저장할 폴더."
 
 #, fuzzy
 #~ msgid "Program to select"
@@ -38188,7 +38212,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Open Target"
-#~ msgstr "디렉토리 열기"
+#~ msgstr "폴더 열기"
 
 #, fuzzy
 #~ msgid "Use stream output"
