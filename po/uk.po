@@ -11,10 +11,10 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-12-16 16:36+0100\n"
-"PO-Revision-Date: 2015-02-27 12:56+0000\n"
+"PO-Revision-Date: 2015-12-04 10:51+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/"
-"language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/yaron/vlc-trans/language/"
+"uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2624,8 +2624,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -6876,9 +6877,8 @@ msgid "DVDnav Input"
 msgstr "Введення DVDnav"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Демультиплексор Nuv"
+msgstr "Демультиплексор DVDnav"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -6931,8 +6931,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "Введення з EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Сталася помилка читання файлу"
 
@@ -7022,8 +7023,8 @@ msgstr "Введення з файлів"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8894,7 +8895,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9742,7 +9744,8 @@ msgstr "Еквалайзер"
 msgid "Flat"
 msgstr "Плоский"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Класичний"
 
@@ -9751,7 +9754,8 @@ msgstr "Класичний"
 msgid "Club"
 msgstr "Клубний"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Танцювальний"
 
@@ -9783,19 +9787,23 @@ msgstr "Живий виступ"
 msgid "Party"
 msgstr "Вечірка"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Поп"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Реггі"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Рок"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ска"
 
@@ -9807,7 +9815,8 @@ msgstr "Легкий"
 msgid "Soft rock"
 msgstr "Легкий рок"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Техно"
 
@@ -14959,8 +14968,8 @@ msgstr "Зображення"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Кадрів на секунду"
 
@@ -16458,15 +16467,13 @@ msgstr "Пошук служб"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
-msgstr "Інтерфейс"
+msgstr "Інтерфейси"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Отримувач метаінформації Lua"
+msgstr "Отримувачі обкладинок та метаданих"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16533,7 +16540,8 @@ msgstr "Увімкнути компресор динамічного діапа�
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Перезапуск"
 
@@ -16653,8 +16661,8 @@ msgid "Bookmarks"
 msgstr "Закладки"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Додати"
 
@@ -16969,9 +16977,8 @@ msgid "Setup Streaming..."
 msgstr "Налаштування передачі…"
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Метод мовлення"
+msgstr "Вибрати метод мовлення"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18677,24 +18684,20 @@ msgid "No check was performed yet."
 msgstr "Ще не було перевірки."
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
 msgstr "Найнижча затримка"
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
 msgstr "Низька затримка"
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
 msgstr "Вища затримка"
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "Вища затримка"
+msgstr "Найвища затримка"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18843,7 +18846,8 @@ msgstr ""
 "на основі довжини слів і цього множника.\n"
 "0 не змінює її."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Відеоефекти"
 
@@ -18851,7 +18855,8 @@ msgstr "Відеоефекти"
 msgid "Basic"
 msgstr "Основне"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Геометрія"
 
@@ -18868,7 +18873,8 @@ msgstr "Колір"
 msgid "Image Adjust"
 msgstr "Параметри зображення"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Поріг яскравості"
 
@@ -18877,12 +18883,14 @@ msgstr "Поріг яскравості"
 msgid "Sharpen"
 msgstr "Чіткість"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Сигма"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Видалення стиснення"
 
@@ -18891,7 +18899,8 @@ msgstr "Видалення стиснення"
 msgid "Radius"
 msgstr "Радіус"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Зернистість плівки"
 
@@ -19035,7 +19044,8 @@ msgstr "Розмиття рухом"
 msgid "Factor"
 msgstr "Множник"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Визначення руху"
 
@@ -19068,8 +19078,9 @@ msgstr "Додати лого"
 msgid "Logo"
 msgstr "Лого"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Прозорість"
 
@@ -19397,7 +19408,8 @@ msgstr "Негруповий UDP"
 msgid "UDP Multicast"
 msgstr "Груповий UDP"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Перекодування"
 
@@ -20847,8 +20859,8 @@ msgstr "Застосувати"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1380
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20996,8 +21008,8 @@ msgstr "Видалити всі закладки"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -21017,7 +21029,8 @@ msgstr "Байт"
 msgid "Convert"
 msgstr "Конвертувати"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Файл призначення:"
 
@@ -21121,7 +21134,8 @@ msgstr "Перейти"
 msgid "Go to time"
 msgstr "Перейти до часу"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Про програму"
@@ -21340,6 +21354,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
 msgstr ""
+"Витягнення додаткових даних та обкладинок для елементів списку відтворення"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -22047,9 +22062,8 @@ msgid "&Save To Playlist"
 msgstr "&Зберегти у список відтворення"
 
 #: modules/gui/qt4/menus.cpp:1650
-#, fuzzy
 msgid "&Post processing"
-msgstr "Пост-обробка"
+msgstr "&Пост-обробка"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -23974,7 +23988,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Прозорість мозаїки малюнку."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Зсув по X"
 
@@ -23983,7 +23998,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "Координата X верхнього лівого кута мозаїки, якщо невід’ємна"
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Зсув по Y"
 
@@ -27707,7 +27723,7 @@ msgstr "Буфер кадрів використовує апаратне при
 
 #: modules/video_output/fb.c:71
 msgid "Disable for double buffering in software."
-msgstr ""
+msgstr "Вимкнути подвійну буферизацію у програмному забезпеченні."
 
 #: modules/video_output/fb.c:73
 msgid "Image format (default RGB)"
@@ -29743,18 +29759,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Список медіаменеджеру"
 
-#~ msgid "---  DVD Menu"
-#~ msgstr "--- DVD Меню"
-
-#~ msgid "First Played"
-#~ msgstr "Перші відтворені"
-
-#~ msgid "Video Manager"
-#~ msgstr "Менеджер відео"
-
-#~ msgid "----- Title"
-#~ msgstr "----- Назва"
-
 #~ msgid ""
 #~ "If your framebuffer supports hardware acceleration or does double "
 #~ "buffering in hardware then you must disable this option. It then does "
@@ -29868,9 +29872,6 @@ msgstr "Список медіаменеджеру"
 #~ msgid "Kaiser"
 #~ msgstr "Кайзер"
 
-#~ msgid "Select a matching identity"
-#~ msgstr "Вибрати відповідну особу"
-
 #~ msgid "No EPG Data Available"
 #~ msgstr "Дані EPG недоступні"
 
@@ -29882,6 +29883,26 @@ msgstr "Список медіаменеджеру"
 
 #~ msgid "VLC Debug Log (%s).rtf"
 #~ msgstr "Журнал налагодження VLC (%s).rtf"
+
+#, fuzzy
+#~ msgid "---  DVD Menu"
+#~ msgstr "Меню DVD"
+
+#, fuzzy
+#~ msgid "First Played"
+#~ msgstr "Перша гра"
+
+#, fuzzy
+#~ msgid "Video Manager"
+#~ msgstr "Менеджер доповнень"
+
+#, fuzzy
+#~ msgid "----- Title"
+#~ msgstr "Назва"
+
+#, fuzzy
+#~ msgid "Select a matching identity"
+#~ msgstr "Вибрати метод мовлення"
 
 #, fuzzy
 #~ msgid "Video acceleration not available"
