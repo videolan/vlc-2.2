@@ -1,30 +1,35 @@
 # Italian translation
 # Copyright (C) 2015 VideoLAN
-# This file is distributed under the same license as the VLC package.
+# This file is distributed under the same license as the vlc package.
 #
 # Translators:
 # Alessandro Felicetti <aleminecraft98@gmail.com>, 2014
 # Alfonso Maria Marzano <marzanoalfonso@gmail.com>, 2014
 # Alixir, 2014
 # Andrea Martini <andrea.martini@me.com>, 2014
+# Antonino Murabito <antoninomurabito@gmail.com>, 2015
 # Ludolf <biagio.consalvo@libero.it>, 2014
 # Davide Beatrici <davidebeatrici@gmail.com>, 2014
 # elisa.garufi <garufi.elisa@gmail.com>, 2014
 # franzes melis <gamesonicstaff@gmail.com>, 2014
-# Francesco Marinucci <framari@opmbx.org>, 2013
+# Francesco Marinucci <franzmari@chakraos.org>, 2013
 # ghina90 <inactive+ghina90@transifex.com>, 2013
+# Gianmario Salvetti <gianmario.salvetti@gmail.com>, 2015
 # Guybrush88 <erpizzo@alice.it>, 2014
+# Illuminato Luca Costantino <lucacostantino88@gmail.com>, 2015
 # Jacopo Tumminello <tummarellox@gmail.com>, 2015
 # lorenzo facca <lorenzo.facca@gmail.com>, 2013-2014
 # Lorenzo Porta, 2013
 # thegladiator <justthegladiator@gmail.com>, 2014
 # Marco91, 2013
+# Marco Ciotola <848222@stud.unive.it>, 2015
 # Mary Piconese <meryjoearmstrong@gmail.com>, 2014
 # Md Ariful <md.ariful@email.com>, 2014
 # Mirko Moreschi <mirkomito000@gmail.com>, 2014
 # Monica <momocat19@gmail.com>, 2014
 # mrk2006 <mrk2005@libero.it>, 2014
 # n.patriarchi <niccolo@cyber.it>, 2014
+# Paolo Ringegni <pasport98@hotmail.it>, 2015
 # Paolo Velati <paolo.velati@gmail.com>, 2013
 # Angelo Prandelli <prangel85@gmail.com>, 2013
 # Roberto91 <robh91@hotmail.it>, 2014
@@ -38,10 +43,10 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-12-16 16:36+0100\n"
-"PO-Revision-Date: 2015-03-07 15:04+0000\n"
+"PO-Revision-Date: 2015-12-16 10:18+0000\n"
 "Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
-"language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/yaron/vlc-trans/language/"
+"it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2685,8 +2690,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -4899,7 +4905,7 @@ msgstr "Moduli speciali"
 
 #: src/libvlc-module.c:1957 modules/gui/qt4/dialogs/plugins.cpp:84
 msgid "Plugins"
-msgstr "Moduli"
+msgstr "Plugin"
 
 #: src/libvlc-module.c:1963
 msgid "Performance options"
@@ -6986,9 +6992,8 @@ msgid "DVDnav Input"
 msgstr "Ingresso DVDnav"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Demuxer Nuv"
+msgstr "Demuxer DVDnav"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -7041,8 +7046,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "Ingresso EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Lettura file non riuscita"
 
@@ -7134,8 +7140,8 @@ msgstr "Ingresso file"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -7549,7 +7555,7 @@ msgstr "Ingresso SDI"
 
 #: modules/access/linsys/linsys_sdi.c:113
 msgid "SDI Demux"
-msgstr "Demultiplatore SDI"
+msgstr "Demuxer SDI"
 
 #: modules/access/live555.cpp:78
 msgid "Kasenna RTSP dialect"
@@ -9024,7 +9030,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9884,7 +9891,8 @@ msgstr "Equalizzatore"
 msgid "Flat"
 msgstr "Piatto"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Classica"
 
@@ -9893,7 +9901,8 @@ msgstr "Classica"
 msgid "Club"
 msgstr "Club"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dance"
 
@@ -9925,19 +9934,23 @@ msgstr "Dal vivo"
 msgid "Party"
 msgstr "Party"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Pop"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Reggae"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9949,7 +9962,8 @@ msgstr "Melodico"
 msgid "Soft rock"
 msgstr "Rock melodico"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Techno"
 
@@ -11502,7 +11516,7 @@ msgstr "Decodificatore basato su GStreamer"
 msgid ""
 "Quality level for encoding (this can enlarge or reduce output image size)."
 msgstr ""
-"Livello di qualità per l'encoding (può ingrandire o ridurre il peso "
+"Livello di qualità per la codifica (può ingrandire o ridurre il peso "
 "dell'immagine in uscita)."
 
 #: modules/codec/jpeg.c:109
@@ -15125,8 +15139,8 @@ msgstr "Image"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Fotogrammi al secondo"
 
@@ -15140,7 +15154,7 @@ msgstr ""
 
 #: modules/demux/mjpeg.c:53
 msgid "M-JPEG camera demuxer"
-msgstr "Demultiplatore camera M-JPEG"
+msgstr "Demuxer camera M-JPEG"
 
 #: modules/demux/mkv/mkv.cpp:47
 msgid "Matroska stream demuxer"
@@ -15921,7 +15935,7 @@ msgstr "Direttore artistico"
 
 #: modules/demux/mp4/mp4.c:1476
 msgid "Copyright Acknowledgement"
-msgstr "Riconoscimenti del Copyright"
+msgstr "Riconoscimenti del copyright"
 
 #: modules/demux/mp4/mp4.c:1477
 msgid "Conductor"
@@ -15989,7 +16003,7 @@ msgstr "Demuxer video H264"
 
 #: modules/demux/mpeg/hevc.c:47
 msgid "Desired frame rate for the stream."
-msgstr "Framerate desiderato per lo stream."
+msgstr "Framerate desiderato per il flusso."
 
 #: modules/demux/mpeg/hevc.c:54
 msgid "HEVC/H.265 video demuxer"
@@ -16092,7 +16106,7 @@ msgstr "Importatore scaletta video Google"
 
 #: modules/demux/playlist/playlist.c:129
 msgid "Dummy IFO demux"
-msgstr ""
+msgstr "Demux IFO finto"
 
 #: modules/demux/playlist/playlist.c:134
 msgid "iTunes Music Library importer"
@@ -16250,7 +16264,7 @@ msgstr ""
 
 #: modules/demux/rawdv.c:51
 msgid "DV (Digital Video) demuxer"
-msgstr "Demultiplatore DV (Digital Video)"
+msgstr "Demuxer DV (Digital Video)"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -16358,6 +16372,9 @@ msgid ""
 "value as the PID in the TS stream, instead of 1, 2, 3, etc. Useful to do "
 "'#duplicate{..., select=\"es=<pid>\"}'."
 msgstr ""
+"Imposta l'ID interno di ogni flusso elementare gestito da VLC allo stesso "
+"valore del PID nel flusso TS, invece di 1, 2, 3, ecc. Utile per "
+"'#duplicate{..., select=\"es=<pid>\"}'."
 
 #: modules/demux/ts.c:102 modules/mux/mpeg/ts.c:159
 msgid "CSA Key"
@@ -16403,6 +16420,8 @@ msgid ""
 "Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
+"Separa le pagine di televideo/dvb in ES indipendenti. Può essere utile "
+"disattivare questa opzione quando si usa il flusso in uscita."
 
 #: modules/demux/ts.c:123
 msgid ""
@@ -16412,7 +16431,7 @@ msgstr ""
 
 #: modules/demux/ts.c:126
 msgid "Trust in-stream PCR"
-msgstr ""
+msgstr "Considera affidabile il flusso PCR in ingresso"
 
 #: modules/demux/ts.c:127
 msgid "Use the stream PCR as a reference."
@@ -16420,7 +16439,7 @@ msgstr "Usa il flusso PCR come referenza"
 
 #: modules/demux/ts.c:130
 msgid "MPEG Transport Stream demuxer"
-msgstr "Demultiplatore MPEG Transport Stream"
+msgstr "Demuxer MPEG Transport Stream"
 
 #: modules/demux/ts.c:164 modules/gui/macosx/MainMenu.m:470
 #: modules/gui/macosx/MainMenu.m:1652 modules/gui/qt4/dialogs/toolbar.cpp:512
@@ -16469,7 +16488,7 @@ msgstr "TY"
 
 #: modules/demux/ty.c:60
 msgid "TY Stream audio/video demux"
-msgstr "Demultiplatore audio/video TY Stream"
+msgstr "Demuxer audio/video TY Stream"
 
 #: modules/demux/ty.c:777
 msgid "Closed captions 2"
@@ -16489,7 +16508,7 @@ msgstr "Velocità fotogrammi desiderata per il flusso VC-1."
 
 #: modules/demux/vc1.c:50
 msgid "VC1 video demuxer"
-msgstr "Demultiplatore video VC1"
+msgstr "Demuxer video VC1"
 
 #: modules/demux/vobsub.c:49
 msgid "Vobsub subtitles parser"
@@ -16623,15 +16642,13 @@ msgstr "Rilevamento servizi"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
-msgstr "Interfaccia"
+msgstr "Interfacce"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Lua Meta Fetcher"
+msgstr "Ricerca copertina e informazioni"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16698,7 +16715,8 @@ msgstr "Abilita compressore a intervallo dinamico"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Ripristina"
 
@@ -16818,8 +16836,8 @@ msgid "Bookmarks"
 msgstr "Segnalibri"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Aggiungi"
 
@@ -17138,9 +17156,8 @@ msgid "Setup Streaming..."
 msgstr "Configura trasmissione..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Sistema di trasmissione"
+msgstr "Seleziona metodo di trasmissione"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -17319,7 +17336,7 @@ msgstr "Nessun URL SDP specificato"
 
 #: modules/gui/macosx/ConvertAndSave.m:501
 msgid "A SDP export is requested, but no URL is provided."
-msgstr "E' richiesta un'esportazione SDP, ma non è stato fornito un URL."
+msgstr "È richiesta un'esportazione SDP, ma non è stato fornito un URL."
 
 #: modules/gui/macosx/ConvertAndSave.m:1059
 #: modules/gui/macosx/simple_prefs.m:736 modules/gui/macosx/simple_prefs.m:768
@@ -18406,7 +18423,7 @@ msgstr "Visualizza il flusso localmente"
 
 #: modules/gui/macosx/output.m:135 modules/gui/qt4/dialogs/convert.cpp:79
 msgid "Dump raw input"
-msgstr "Elimina elemento originale"
+msgstr "Estrai ingresso grezzo"
 
 #: modules/gui/macosx/output.m:146
 msgid "Encapsulation Method"
@@ -18861,24 +18878,20 @@ msgid "No check was performed yet."
 msgstr "Non è stato eseguito ancora alcun controllo."
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
-msgstr "Latenza minore"
+msgstr "Latenza minima"
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
 msgstr "Bassa latenza"
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
 msgstr "Latenza maggiore"
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "Latenza maggiore"
+msgstr "Latenza massima"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -19033,7 +19046,8 @@ msgstr ""
 "loro contenuto e a questo valore.\n"
 "Imposta 0 per disabilitarli."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Effetti video"
 
@@ -19041,7 +19055,8 @@ msgstr "Effetti video"
 msgid "Basic"
 msgstr "Di base"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Geometria"
 
@@ -19058,7 +19073,8 @@ msgstr "Colore"
 msgid "Image Adjust"
 msgstr "Regolazione immagine"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Soglia di luminosità"
 
@@ -19067,12 +19083,14 @@ msgstr "Soglia di luminosità"
 msgid "Sharpen"
 msgstr "Accentuazione"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Rimozione banding"
 
@@ -19081,7 +19099,8 @@ msgstr "Rimozione banding"
 msgid "Radius"
 msgstr "Raggio"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Granulosità pellicola"
 
@@ -19225,7 +19244,8 @@ msgstr "Sfocatura movimento"
 msgid "Factor"
 msgstr "Fattore"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Rilevazione del movimento"
 
@@ -19258,8 +19278,9 @@ msgstr "Aggiungi logo"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Trasparenza"
 
@@ -19597,7 +19618,8 @@ msgstr "Unicast UDP"
 msgid "UDP Multicast"
 msgstr "UDP Multicast"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Transcodifica"
 
@@ -21051,8 +21073,8 @@ msgstr "&Applica"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1380
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -21086,7 +21108,7 @@ msgstr "Questo muxer non è fornito direttamente da VLC: potrebbe essere perso."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:609
 msgid "This muxer is missing. Using this profile will fail"
-msgstr ""
+msgstr "Questo muxer non è presente. Questo profilo non funzionerà."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:753
 msgid " Profile Name Missing"
@@ -21203,8 +21225,8 @@ msgstr "Elimina tutti i segnalibri"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -21224,7 +21246,8 @@ msgstr "Byte"
 msgid "Convert"
 msgstr "Converti"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "File di destinazione:"
 
@@ -21329,7 +21352,8 @@ msgstr "&Vai"
 msgid "Go to time"
 msgstr "Vai a"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Informazioni"
@@ -21547,7 +21571,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
-msgstr ""
+msgstr "Recupera informazioni extra e immagini per gli elementi della scaletta"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -22258,9 +22282,8 @@ msgid "&Save To Playlist"
 msgstr "&Salva in scaletta"
 
 #: modules/gui/qt4/menus.cpp:1650
-#, fuzzy
 msgid "&Post processing"
-msgstr "Post-elaborazione"
+msgstr "&Post-elaborazione"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -22591,9 +22614,8 @@ msgid ""
 "When set to 'no', this parameter is intended to give old skins a chance to "
 "play back video even though no video tag is implemented"
 msgstr ""
-"Quando è impostato su 'no', questo parametro è destinato per dare la "
-"possibilità del play back video anche se non viene implementato nessun tag "
-"video "
+"Se impostato su 'no', questo parametro è pensato per dare la possibilità di "
+"riprodurre video anche se non è implementato nessun tag video "
 
 #: modules/gui/skins2/src/skin_main.cpp:508
 msgid "Skinnable Interface"
@@ -22637,7 +22659,7 @@ msgstr "Telecine inverso"
 
 #: modules/hw/vdpau/chroma.c:882
 msgid "Deinterlace chroma skip"
-msgstr ""
+msgstr "Deinterlaccia il salto di crominanza"
 
 #: modules/hw/vdpau/chroma.c:883
 msgid "Whether temporal deinterlacing applies to luma only"
@@ -23491,6 +23513,8 @@ msgid ""
 "Size of the TS packet to encrypt. The encryption routines subtract the TS-"
 "header from the value before encrypting."
 msgstr ""
+"Dimensione del pacchetto TS da decifrare. La funzione di decifratura sottrae "
+"l'intestazione TS dal valore prima di cifrarlo."
 
 #: modules/mux/mpeg/ts.c:181
 msgid "TS muxer (libdvbpsi)"
@@ -23513,11 +23537,13 @@ msgstr ""
 
 #: modules/mux/ogg.c:50
 msgid "Index size ratio"
-msgstr "Mantieni proporzioni"
+msgstr "Rapporto di dimensioni dell'indice"
 
 #: modules/mux/ogg.c:52
 msgid "Set index size ratio. Alters default (60min content) or estimated size."
 msgstr ""
+"Imposta il rapporto di dimensioni dell'indice. Altera il valore predefinito "
+"(60 min. di contenuto) o la dimensione stimata."
 
 #: modules/mux/ogg.c:60
 msgid "Ogg/OGM muxer"
@@ -23720,6 +23746,8 @@ msgid ""
 "This enables actual parsing of the announces by the SAP module. Otherwise, "
 "all announcements are parsed by the \"live555\" (RTP/RTSP) module."
 msgstr ""
+"Questo permette il parsing attuale degli annunci tramite il modulo SAP. "
+"Altrimenti, tutti gli annunci saranno letti dal modulo \"live555\" (RTP/RTSP)"
 
 #: modules/services_discovery/sap.c:94
 msgid "SAP Strict mode"
@@ -24208,7 +24236,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Trasparenza dell'immagine del mosaico."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Scostamento X"
 
@@ -24218,7 +24247,8 @@ msgstr ""
 "Coordinata X dell'angolo in alto a destra del mosaico, se non negativa."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Scostamento Y"
 
@@ -24605,7 +24635,7 @@ msgstr "Scrive le statistiche su un file invece di stdout"
 
 #: modules/stream_out/stats.c:43
 msgid "Prefix to show on output line"
-msgstr "Prefisso da visualizzare sulla linea di output"
+msgstr "Prefisso da visualizzare sulla linea di uscita"
 
 #: modules/stream_out/stats.c:52
 msgid "Writes statistic info about stream"
@@ -24942,6 +24972,9 @@ msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overridden."
 msgstr ""
+"Questa è la dimensione di default relativa dei font che verranno "
+"renderizzati a video. Se una dimensione assoluta dei font è impostata, la "
+"dimensione relativa verrà sovrascritta."
 
 #: modules/text_renderer/freetype.c:121
 msgid "Background opacity"
@@ -25226,6 +25259,7 @@ msgstr "Maschera di trasparenza"
 #: modules/video_filter/alphamask.c:44
 msgid "Alpha blending transparency mask. Uses a png alpha channel."
 msgstr ""
+"Maschera di trasparenza alpha blending. Usa un canale di trasparenza png."
 
 #: modules/video_filter/alphamask.c:63
 msgid "Alpha mask video filter"
@@ -25369,6 +25403,7 @@ msgstr "Numero di fnordlicht"
 msgid ""
 "Depending on the amount your fnordlicht hardware choose 1 to 254 channels"
 msgstr ""
+"In base al numero dei tuoi dispositivi fnordlicht, scegli tra 1 e 254 canali"
 
 #: modules/video_filter/atmo/atmo.cpp:177
 msgid "Save Debug Frames"
@@ -25780,7 +25815,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:340
 msgid "Gradient bitmap searchpath"
-msgstr "Searchpath del gradiente della bitmap"
+msgstr "Percorso di ricerca del gradiente della bitmap"
 
 #: modules/video_filter/atmo/atmo.cpp:341
 msgid ""
@@ -25939,8 +25974,8 @@ msgid ""
 "Set ball speed, the displacement value                                 in "
 "number of pixels by frame."
 msgstr ""
-"Imposta la velocità della palla, il valore di spostamento in numero di "
-"pixels per fotogramma."
+"Imposta la velocità della palla, il valore di spostamento in numero di pixel "
+"per fotogramma."
 
 #: modules/video_filter/ball.c:107
 msgid "Ball size"
@@ -26027,7 +26062,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:75
 msgid "Blendbench"
-msgstr ""
+msgstr "Blendbench"
 
 #: modules/video_filter/blendbench.c:80
 msgid "Benchmarking"
@@ -26052,6 +26087,10 @@ msgid ""
 "weather forecasts). You can choose the \"key\" color for blending (blue by "
 "default)."
 msgstr ""
+"Questo effetto, conosciuto anche come \"schermo verde\" o \"cromakey\", "
+"miscela le parti blu dell'immagine in primo piano nel mosaico con lo sfondo "
+"(come nelle previsioni del tempo). Potete scegliere il colore \"chiave\" per "
+"il mix (di default è il blu)"
 
 #: modules/video_filter/bluescreen.c:42
 msgid "Bluescreen U value"
@@ -26257,7 +26296,7 @@ msgstr ""
 
 #: modules/video_filter/croppadd.c:78
 msgid "Croppadd"
-msgstr ""
+msgstr "Ritaglio/Aggiunta"
 
 #: modules/video_filter/croppadd.c:79
 msgid "Video cropping filter"
@@ -26301,7 +26340,7 @@ msgstr "Metodo di deinterlacciamento da utilizzare per la trasmissione."
 
 #: modules/video_filter/deinterlace/deinterlace.c:65
 msgid "Phosphor chroma mode for 4:2:0 input"
-msgstr ""
+msgstr "Modalità di crominanza fosforo per l'ingresso 4:2:0"
 
 #: modules/video_filter/deinterlace/deinterlace.c:66
 msgid ""
@@ -26365,6 +26404,8 @@ msgstr "Sovrimpressione"
 #: modules/video_filter/erase.c:56
 msgid "Image mask. Pixels with an alpha value greater than 50% will be erased."
 msgstr ""
+"Maschera dell'immagine. I pixel con un valore alpha maggiore del 50% saranno "
+"cancellati."
 
 #: modules/video_filter/erase.c:59
 msgid "X coordinate of the mask."
@@ -26460,7 +26501,7 @@ msgstr "Modalità distorsione"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
-msgstr ""
+msgstr "Modalità di distorsione, una tra \"gradiente\", \"bordo\" e \"hough\"."
 
 #: modules/video_filter/gradient.c:65
 msgid "Gradient image type"
@@ -26471,6 +26512,8 @@ msgid ""
 "Gradient image type (0 or 1). 0 will turn the image to white while 1 will "
 "keep colors."
 msgstr ""
+"Tipo di immagine del gradiente (0 o 1). 0 renderà l'immagine bianca, mentre "
+"1 manterrà i colori."
 
 #: modules/video_filter/gradient.c:69
 msgid "Apply cartoon effect"
@@ -26479,12 +26522,12 @@ msgstr "Applica effetto cartone"
 #: modules/video_filter/gradient.c:70
 msgid "Apply cartoon effect. It is only used by \"gradient\" and \"edge\"."
 msgstr ""
-"Applicare l'effetto cartone animato.Questo è solo utilizzato da \"gradient\" "
-"e \"edge\"."
+"Applica l'effetto cartone animato. Utilizzato solo da \"gradiente\" e \"bordo"
+"\"."
 
 #: modules/video_filter/gradient.c:73
 msgid "Apply color gradient or edge detection effects"
-msgstr "Applica gradiente di colore o effetti di rilevamento del margine"
+msgstr "Applica gradiente di colore o effetti di rilevamento del bordo"
 
 #: modules/video_filter/gradient.c:81
 msgid "Gradient video filter"
@@ -26619,7 +26662,7 @@ msgstr "Usa un'immagine locale come logo del video"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub source"
-msgstr ""
+msgstr "Sorgente secondaria Logo"
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
@@ -26682,6 +26725,9 @@ msgid ""
 "Number of milliseconds between string updates. This is mainly useful when "
 "using meta data or time format string sequences."
 msgstr ""
+"Numero di millisecondi tra gli aggiornamenti delle stringhe. Ciò è utile "
+"principalmente quando si utilizzano metadati o sequenze stringhe per il "
+"formato orario."
 
 #: modules/video_filter/marq.c:108
 msgid ""
@@ -26796,6 +26842,8 @@ msgid ""
 "Transparency of the mosaic foreground pictures. 0 means transparent, 255 "
 "opaque (default)."
 msgstr ""
+"Trasparenza delle immagini in primo piano del mosaico. 0 indica trasparente, "
+"255 opaco (predefinito)"
 
 #: modules/video_filter/mosaic.c:93
 msgid "Total height of the mosaic, in pixels."
@@ -26847,6 +26895,9 @@ msgid ""
 "2=right, 4=top, 8=bottom, you can also use combinations of these values, eg "
 "6 = top-right)."
 msgstr ""
+"E' possibile applicare l'allineamento del mosaico nel video (0=centro, "
+"1=sinistra, 2=destra, 4=sopra, 8=sotto, puoi anche usare delle combinazioni "
+"di questi valori, es 6 = in alto a destra)."
 
 #: modules/video_filter/mosaic.c:117
 msgid "Positioning method"
@@ -26953,7 +27004,7 @@ msgstr "offset"
 
 #: modules/video_filter/mosaic.c:176
 msgid "Mosaic video sub source"
-msgstr ""
+msgstr "Sorgente secondaria video mosaico"
 
 #: modules/video_filter/mosaic.c:177
 msgid "Mosaic"
@@ -26993,11 +27044,11 @@ msgstr "Esempio OpenCV"
 
 #: modules/video_filter/opencv_example.cpp:81
 msgid "Haar cascade filename"
-msgstr ""
+msgstr "Nome file della cascata di Haar"
 
 #: modules/video_filter/opencv_example.cpp:82
 msgid "Name of XML file containing Haar cascade description"
-msgstr ""
+msgstr "Nome del file XML che contiene la descrizione della cascata di Haar"
 
 #: modules/video_filter/opencv_wrapper.c:61
 msgid "Use input chroma unaltered"
@@ -27052,6 +27103,8 @@ msgid ""
 "Ammount by which to scale the picture before sending it to the internal "
 "OpenCV filter"
 msgstr ""
+"Fattore di scala di conversione dell'immagine prima di inviarla al filtro "
+"interno OpenCV"
 
 #: modules/video_filter/opencv_wrapper.c:85
 msgid "OpenCV filter chroma"
@@ -27061,14 +27114,18 @@ msgstr "Filtro crominanza OpenCV"
 msgid ""
 "Chroma to convert picture to before sending it to the internal OpenCV filter"
 msgstr ""
+"Crominanza di conversione dell'immagine prima di inviarla al filtro interno "
+"OpenCV"
 
 #: modules/video_filter/opencv_wrapper.c:89
 msgid "Wrapper filter output"
-msgstr ""
+msgstr "Uscita del filtro di incapsulamento"
 
 #: modules/video_filter/opencv_wrapper.c:90
 msgid "Determines what (if any) video is displayed by the wrapper filter"
 msgstr ""
+"Determina quale video (se presente) è visualizzato dal filtro di "
+"incapsulamento"
 
 #: modules/video_filter/opencv_wrapper.c:93
 msgid "OpenCV internal filter name"
@@ -27507,8 +27564,8 @@ msgid ""
 "Directory path where images files should be saved. If not set, then images "
 "will be automatically saved in users homedir."
 msgstr ""
-"Percorso della directory dove salvare le immagini. Se non impostato, le "
-"immagini saranno salvate automaticamente nella directory principale."
+"Percorso della cartella dove salvare le immagini. Se non impostato, le "
+"immagini saranno salvate automaticamente nella cartella principale."
 
 #: modules/video_filter/scene.c:86
 msgid "Always write to the same file"
@@ -27589,6 +27646,8 @@ msgstr "Fattore di calcolo"
 msgid ""
 "Calculation factor. In Absolute delay mode the factor represents seconds."
 msgstr ""
+"Fattore di calcolo. Nella modalità Ritardo assoluto, il fattore è espresso "
+"in secondi."
 
 #: modules/video_filter/subsdelay.c:57
 msgid "Maximum overlapping subtitles"
@@ -27607,6 +27666,8 @@ msgid ""
 "Alpha value of the earliest subtitle, where 0 is fully transparent and 255 "
 "is fully opaque."
 msgstr ""
+"Valore alfa dei sottotitoli, dove 0 è completamente trasparente e 255 è "
+"completamente opaco."
 
 #: modules/video_filter/subsdelay.c:64
 msgid "Interval between two disappearances"
@@ -27634,7 +27695,7 @@ msgid ""
 msgstr ""
 "Tempo minimo (in millisecondi) tra la scomparsa del sottotitolo e "
 "l'apparizione del sottititolo successivo (il precedente ritardo dei "
-"sottotitoli sarà esteso per colmare il gap)"
+"sottotitoli sarà esteso per colmare il divario)."
 
 #: modules/video_filter/subsdelay.c:74
 msgid "Interval between appearance and disappearance"
@@ -27758,15 +27819,15 @@ msgstr "Core Animation OpenGL Layer (Mac OS X)"
 
 #: modules/video_output/decklink.cpp:70
 msgid "Timelength after which we assume there is no signal."
-msgstr "Periodo di tempo dopo il quale si suppone non c'è segnale."
+msgstr "Periodo di tempo dopo il quale si suppone che non ci sia segnale."
 
 #: modules/video_output/decklink.cpp:72
 msgid ""
 "Timelength after which we assume there is no signal.\n"
 "After this delay we black out the video."
 msgstr ""
-"Periodo di tempo dopo il quale si suppone non c'è segnale. Dopo questo tempo "
-"il video sarà disattivato."
+"Periodo di tempo dopo il quale si suppone che non ci sia segnale. Dopo "
+"questo tempo il video sarà disattivato."
 
 #: modules/video_output/decklink.cpp:76
 msgid "Picture to display on input signal loss."
@@ -27920,7 +27981,7 @@ msgstr "Framebuffer utilizza l'accelerazione hw"
 
 #: modules/video_output/fb.c:71
 msgid "Disable for double buffering in software."
-msgstr ""
+msgstr "Disabilita per raddoppiare il buffer nel programma."
 
 #: modules/video_output/fb.c:73
 msgid "Image format (default RGB)"
@@ -27931,6 +27992,8 @@ msgid ""
 "Chroma fourcc used by the framebuffer. Default is RGB since the fb device "
 "has no way to report its chroma."
 msgstr ""
+"Crominanza fourcc utilizzata dal framebuffer. Il valore predefinito è RGB "
+"poiché il dispositivo fb non ha modo di indicare la sua crominanza."
 
 #: modules/video_output/fb.c:92
 msgid "GNU/Linux framebuffer video output"
@@ -27998,6 +28061,8 @@ msgid ""
 "Enable this option if the diagonal stripes are displayed when the window "
 "size is equal to or smaller than the movie size."
 msgstr ""
+"Abilita questa opzione se le strisce diagonali sono visualizzate quando la "
+"dimensione della finestra è uguale o minore della dimensione del video."
 
 #: modules/video_output/kva.c:55 modules/gui/qt4/ui/sprefs_video.h:333
 msgid "Video mode"
@@ -28247,6 +28312,8 @@ msgstr "Crominanza"
 msgid ""
 "Output chroma for the memory image as a 4-character string, eg. \"RV32\"."
 msgstr ""
+"Crominanza di uscita per l'immagine di memoria come una stringa di 4 "
+"caratteri, ad es. \"RV32\"."
 
 #: modules/video_output/vmem.c:59
 msgid "Video memory output"
@@ -28370,6 +28437,9 @@ msgid ""
 "requires YV12/I420 fourcc. By default vlc writes the fourcc of the picture "
 "frame into the output destination."
 msgstr ""
+"L'intestazione YUV4MPEG2 è compatibile con l'uscita video yuv di mplayer e "
+"richiede YV12/I420 fourcc. In modo predefinito, vlc scrive il fourcc del "
+"fotogramma nella destinazione di uscita."
 
 #: modules/video_output/yuv.c:59
 msgid "YUV output"
@@ -28462,6 +28532,8 @@ msgid ""
 "Check this option if you want attenuate blended zone by this plug-in (if "
 "option is unchecked, attenuate is made by opengl)"
 msgstr ""
+"Marca questa opzione se desideri attenuare la zona miscelata da questo "
+"plugin (se l'opzione non è marcata, l'attenuazione è generata da opengl)"
 
 #: modules/video_splitter/panoramix.c:106
 msgid "Attenuation, begin (in %)"
@@ -28504,6 +28576,8 @@ msgid ""
 "Select in percent (50 is center) the position of the middle point (Lagrange) "
 "of blended zone"
 msgstr ""
+"Seleziona in percentuale (50 è il centro) la posizione del punto medio "
+"(Lagrange) della zona miscelata"
 
 #: modules/video_splitter/panoramix.c:121
 msgid "Gamma (Red) correction"
@@ -28513,6 +28587,8 @@ msgstr "Correzione gamma (Rosso)"
 msgid ""
 "Select the gamma for the correction of blended zone (Red or Y component)"
 msgstr ""
+"Seleziona la gamma per la correzione della zona miscelata (Rosso e "
+"componente Y)"
 
 #: modules/video_splitter/panoramix.c:125
 msgid "Gamma (Green) correction"
@@ -28522,6 +28598,8 @@ msgstr "Correzione gamma (Verde)"
 msgid ""
 "Select the gamma for the correction of blended zone (Green or U component)"
 msgstr ""
+"Seleziona la gamma per la correzione della zona miscelata (Verde e "
+"componente U)"
 
 #: modules/video_splitter/panoramix.c:129
 msgid "Gamma (Blue) correction"
@@ -28531,6 +28609,8 @@ msgstr "Correzione gamma (Blu)"
 msgid ""
 "Select the gamma for the correction of blended zone (Blue or V component)"
 msgstr ""
+"Seleziona la gamma per la correzione della zona miscelata (Blu e componente "
+"V)"
 
 #: modules/video_splitter/panoramix.c:133
 msgid "Black Crush for Red"
@@ -28538,7 +28618,7 @@ msgstr "Crush nero per il rosso"
 
 #: modules/video_splitter/panoramix.c:134
 msgid "Select the Black Crush of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Seleziona il crush nero per la zona miscelata (Rosso e componente Y)"
 
 #: modules/video_splitter/panoramix.c:135
 msgid "Black Crush for Green"
@@ -28546,7 +28626,7 @@ msgstr "Crush nero per il verde"
 
 #: modules/video_splitter/panoramix.c:136
 msgid "Select the Black Crush of blended zone (Green or U component)"
-msgstr ""
+msgstr "Seleziona il crush nero per la zona miscelata (Verde e componente U)"
 
 #: modules/video_splitter/panoramix.c:137
 msgid "Black Crush for Blue"
@@ -28554,7 +28634,7 @@ msgstr "Crush nero per il blu"
 
 #: modules/video_splitter/panoramix.c:138
 msgid "Select the Black Crush of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Seleziona il crush nero per la zona miscelata (Blu e componente V)"
 
 #: modules/video_splitter/panoramix.c:140
 msgid "White Crush for Red"
@@ -28562,7 +28642,7 @@ msgstr "Crush bianco per il rosso"
 
 #: modules/video_splitter/panoramix.c:141
 msgid "Select the White Crush of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Seleziona il crush bianco per la zona miscelata (Rosso e componente Y)"
 
 #: modules/video_splitter/panoramix.c:142
 msgid "White Crush for Green"
@@ -28570,7 +28650,7 @@ msgstr "Crush bianco per il verde"
 
 #: modules/video_splitter/panoramix.c:143
 msgid "Select the White Crush of blended zone (Green or U component)"
-msgstr ""
+msgstr "Seleziona il crush bianco per la zona miscelata (Verde e componente U)"
 
 #: modules/video_splitter/panoramix.c:144
 msgid "White Crush for Blue"
@@ -28578,7 +28658,7 @@ msgstr "Crush bianco per il blu"
 
 #: modules/video_splitter/panoramix.c:145
 msgid "Select the White Crush of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Seleziona il crush bianco per la zona miscelata (Blu e componente V)"
 
 #: modules/video_splitter/panoramix.c:147
 msgid "Black Level for Red"
@@ -28804,6 +28884,8 @@ msgid ""
 "The parameter alpha for the Kaiser window. Increasing alpha increases the "
 "main-lobe width and decreases the side-lobe amplitude. "
 msgstr ""
+"Il parametro alfa per la finestra Kaiser. L'incremento di alfa aumenta la "
+"larghezza del lobo principale e riduce l'ampiezza dei lobi laterali."
 
 #: modules/visualization/visual/visual.c:70
 msgid "Show 80 bands instead of 20"
@@ -28883,7 +28965,7 @@ msgstr "Colore V-plane"
 
 #: modules/visualization/visual/visual.c:108
 msgid "YUV-Color cube shifting across the V-plane ( 0 - 127 )."
-msgstr ""
+msgstr "Spostamento del cubo di colori YUV sul piano V ( 0 - 127 )."
 
 #: modules/visualization/visual/visual.c:118
 msgid "Visualizer"
@@ -29531,7 +29613,7 @@ msgstr "Profilo x264 e selezione del livello"
 
 #: modules/gui/qt4/ui/sprefs_input.h:348
 msgid "x264 preset and tuning selection"
-msgstr "Preset x264 e selezione del tuning"
+msgstr "Preimpostazione x264 e selezione del sintonizzatore"
 
 #: modules/gui/qt4/ui/sprefs_input.h:349
 msgid "Hardware-accelerated decoding"
@@ -29966,18 +30048,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Elenco gestore multimediale"
-
-#~ msgid "---  DVD Menu"
-#~ msgstr "---  Menu DVD"
-
-#~ msgid "First Played"
-#~ msgstr "Prima riproduzione"
-
-#~ msgid "Video Manager"
-#~ msgstr "Gestore video"
-
-#~ msgid "----- Title"
-#~ msgstr "----- Titolo"
 
 #~ msgid ""
 #~ "The XVideo rendering acceleration driver does not support the required "
@@ -31329,13 +31399,6 @@ msgstr "Elenco gestore multimediale"
 #~ msgid "Allows you to modify what OpenGL provider should be used"
 #~ msgstr "Permette di modificare il fornitore OpenGL che sarà utilizzato"
 
-#~ msgid ""
-#~ "Output chroma for the snapshot image (a 4 character string, like "
-#~ "\"RV32\")."
-#~ msgstr ""
-#~ "Croma di uscita della schermata (una stringa di 4 caratteri, del tipo "
-#~ "\"RV32\")."
-
 #~ msgid "Cache size (number of images)"
 #~ msgstr "Dimensione cache (numero di immagini)"
 
@@ -32560,12 +32623,6 @@ msgstr "Elenco gestore multimediale"
 
 #~ msgid "DAAP shares"
 #~ msgstr "Condivisioni DAAP"
-
-#, fuzzy
-#~ msgid ""
-#~ "Distort mode, one of \"wave\", \"ripple\", \"gradient\", \"edge\", \"hough"
-#~ "\" and \"psychedelic\"."
-#~ msgstr "Modalità distorsione, scegliere tra \"wave\" e \"ripple\""
 
 #, fuzzy
 #~ msgid "margin"
@@ -34154,9 +34211,6 @@ msgstr "Elenco gestore multimediale"
 #~ msgid "Empty"
 #~ msgstr "Vuoto"
 
-#~ msgid "Select a matching identity"
-#~ msgstr "Seleziona un'identità corrispondente"
-
 #~ msgid ""
 #~ "Extension '%s' does not respond.\n"
 #~ "Do you want to kill it now? "
@@ -34231,6 +34285,41 @@ msgstr "Elenco gestore multimediale"
 
 #~ msgid "Track fingerprinter (based on Acoustid)"
 #~ msgstr "Impronta digitale del brano (basata su Acoustid)"
+
+#, fuzzy
+#~ msgid "---  DVD Menu"
+#~ msgstr "Menu DVD"
+
+#, fuzzy
+#~ msgid "First Played"
+#~ msgstr "Prima riproduzione"
+
+#, fuzzy
+#~ msgid "Video Manager"
+#~ msgstr "Gestore delle estensioni"
+
+#, fuzzy
+#~ msgid "----- Title"
+#~ msgstr "Titolo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Output chroma for the snapshot image (a 4 character string, like "
+#~ "\"RV32\")."
+#~ msgstr ""
+#~ "Crominanza di uscita per l'immagine di memoria come una stringa di 4 "
+#~ "caratteri, ad es. \"RV32\"."
+
+#, fuzzy
+#~ msgid ""
+#~ "Distort mode, one of \"wave\", \"ripple\", \"gradient\", \"edge\", \"hough"
+#~ "\" and \"psychedelic\"."
+#~ msgstr ""
+#~ "Modalità di distorsione, una tra \"gradiente\", \"bordo\" e \"hough\"."
+
+#, fuzzy
+#~ msgid "Select a matching identity"
+#~ msgstr "Seleziona metodo di trasmissione"
 
 #, fuzzy
 #~ msgid "Video acceleration not available"
@@ -34742,7 +34831,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Data search path"
-#~ msgstr "Searchpath del gradiente della bitmap"
+#~ msgstr "Percorso di ricerca del gradiente della bitmap"
 
 #, fuzzy
 #~ msgid "One instance when started from file"
@@ -37410,7 +37499,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Dummy S/PDIF audio mixer"
-#~ msgstr "Muxer Dummy/Raw"
+#~ msgstr "Demux IFO finto"
 
 #, fuzzy
 #~ msgid "Trivial audio mixer"
@@ -39614,7 +39703,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Defines a few additional parameters for the stream."
-#~ msgstr "Framerate desiderato per lo stream."
+#~ msgstr "Framerate desiderato per il flusso."
 
 #, fuzzy
 #~ msgid ""
@@ -41927,7 +42016,7 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "ISO 13818-1 MPEG Transport Stream input - new"
-#~ msgstr "Demultiplatore MPEG Transport Stream"
+#~ msgstr "Demuxer MPEG Transport Stream"
 
 #, fuzzy
 #~ msgid "Mac OS X interface, sound and video"
@@ -42091,11 +42180,11 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "Jump -1 minute"
-#~ msgstr "Elimina elemento originale"
+#~ msgstr "Estrai ingresso grezzo"
 
 #, fuzzy
 #~ msgid "Jump +1 minute"
-#~ msgstr "Elimina elemento originale"
+#~ msgstr "Estrai ingresso grezzo"
 
 #, fuzzy
 #~ msgid "Jump -5 minutes"
@@ -42111,11 +42200,11 @@ msgstr "Elenco gestore multimediale"
 
 #, fuzzy
 #~ msgid "ISO 13818-1 MPEG Transport Stream demuxstream"
-#~ msgstr "Demultiplatore MPEG Transport Stream"
+#~ msgstr "Demuxer MPEG Transport Stream"
 
 #, fuzzy
 #~ msgid "ISO 13818-1 MPEG Transport Stream demuxstream (libdvbpsi)"
-#~ msgstr "Demultiplatore MPEG Transport Stream"
+#~ msgstr "Demuxer MPEG Transport Stream"
 
 #, fuzzy
 #~ msgid "caching value in ms"
