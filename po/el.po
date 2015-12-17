@@ -14,9 +14,9 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2015-12-16 16:36+0100\n"
-"PO-Revision-Date: 2015-02-27 19:37+0000\n"
+"PO-Revision-Date: 2015-12-05 19:04+0000\n"
 "Last-Translator: Savvas Nesseris <nesseris@yahoo.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/vlc-trans/language/"
+"Language-Team: Greek (http://www.transifex.com/yaron/vlc-trans/language/"
 "el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -1491,7 +1491,7 @@ msgstr "Σαιζόν"
 
 #: src/input/meta.c:76
 msgid "Episode"
-msgstr "Επισόδειο"
+msgstr "Επεισόδιο"
 
 #: src/input/meta.c:77
 msgid "Show Name"
@@ -2686,8 +2686,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -7057,9 +7058,8 @@ msgid "DVDnav Input"
 msgstr "Είσοδος DVDnav"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Αποπολυπλέκτης Nuv"
+msgstr "Αποπολυπλέκτης DVDnav "
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -7112,8 +7112,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "Είσοδος EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Η ανάγνωση του αρχείου απέτυχε"
 
@@ -7205,8 +7206,8 @@ msgstr "Είσοδος αρχείου"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -9117,7 +9118,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9976,7 +9978,8 @@ msgstr "Ισοσταθμιστής"
 msgid "Flat"
 msgstr "Μουσική ύφεση"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Κλασική"
 
@@ -9985,7 +9988,8 @@ msgstr "Κλασική"
 msgid "Club"
 msgstr "Club"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Χορευτική"
 
@@ -10017,19 +10021,23 @@ msgstr "Ζωντανή"
 msgid "Party"
 msgstr "Πάρτι"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Ποπ"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Ρέγκε"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Ροκ"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Σκα"
 
@@ -10041,7 +10049,8 @@ msgstr "Ελαφρά"
 msgid "Soft rock"
 msgstr "Ελαφρό ροκ"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Τέκνο"
 
@@ -15271,8 +15280,8 @@ msgstr "Εικόνα"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Καρέ ανά δευτερόλεπτο"
 
@@ -16796,15 +16805,13 @@ msgstr "Ανακάλυψη υπηρεσιών"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
-msgstr "Διεπαφή"
+msgstr "Διεπαφές"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Λήπτης μεταδεδομένων lua"
+msgstr "Λήπτες τέχνης και μεταδοδεμένων"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16871,7 +16878,8 @@ msgstr "Ενεργοποίηση συμπιεστή δυναμικού εύρο�
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Επαναφορά"
 
@@ -16991,8 +16999,8 @@ msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Προσθήκη"
 
@@ -17320,9 +17328,8 @@ msgid "Setup Streaming..."
 msgstr "Ρύθμιση ροής δεδομένων..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Μέθοδος συνεχούς ροής δεδομένων"
+msgstr "Επιλέξτε Μέθοδο Ροής"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -19049,24 +19056,20 @@ msgid "No check was performed yet."
 msgstr "Ακόμα δεν πραγματοποιήθηκε έλεγχος."
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
 msgstr "Κατώτατη λανθάνουσα κατάσταση"
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
 msgstr "Χαμηλή λανθάνουσα κατάσταση"
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
 msgstr "Υψηλότερη λανθάνουσα κατάσταση"
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "Υψηλότερη λανθάνουσα κατάσταση"
+msgstr "Υψηλότατη λανθάνουσα κατάσταση"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -19221,7 +19224,8 @@ msgstr ""
 "με το περιεχόμενό τους και αυτή την τιμή.\n"
 "Ρυθμίστε το στο 0 για απενεργοποίηση."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Εφέ βίντεο"
 
@@ -19229,7 +19233,8 @@ msgstr "Εφέ βίντεο"
 msgid "Basic"
 msgstr "Βασικά"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Γεωμετρία"
 
@@ -19246,7 +19251,8 @@ msgstr "Χρώμα"
 msgid "Image Adjust"
 msgstr "Προσαρμογή εικόνας"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Κατώφλι φωτεινότητας"
 
@@ -19255,12 +19261,14 @@ msgstr "Κατώφλι φωτεινότητας"
 msgid "Sharpen"
 msgstr "Όξυνση"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Σίγμα"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Αφαίρεση δακτυλίου"
 
@@ -19269,7 +19277,8 @@ msgstr "Αφαίρεση δακτυλίου"
 msgid "Radius"
 msgstr "Ακτίνα"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Κόκκος φιλμ"
 
@@ -19413,7 +19422,8 @@ msgstr "Θόλωση κίνησης"
 msgid "Factor"
 msgstr "Συντελεστής"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Ανίχνευση κίνησης"
 
@@ -19446,8 +19456,9 @@ msgstr "Προσθήκη λογότυπου"
 msgid "Logo"
 msgstr "Λογότυπο"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Διαφάνεια"
 
@@ -19795,7 +19806,8 @@ msgstr "Μονοεκπομπή UDP"
 msgid "UDP Multicast"
 msgstr "Πολυεκπομπή UDP"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Επανακωδικοποίηση"
 
@@ -21274,8 +21286,8 @@ msgstr "&Εφαρμογή"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1380
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -21431,8 +21443,8 @@ msgstr "Διαγραφή όλων των σελιδοδεικτών"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -21452,7 +21464,8 @@ msgstr "Bytes"
 msgid "Convert"
 msgstr "Μετατροπή"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Αρχείο προορισμού:"
 
@@ -21560,7 +21573,8 @@ msgstr "&Μετάβαση"
 msgid "Go to time"
 msgstr "Μετάβαση στο χρόνο"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Περί"
@@ -21780,7 +21794,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
-msgstr ""
+msgstr "Ανακτά έξτρα πληροφορίες και τέχνη για αντικείμενα λιστών αναπαραγωγής"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -21986,7 +22000,7 @@ msgstr "Επίπεδο κουμπί"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
 msgid "Next widget style"
-msgstr "Στυλ επόμενου επινοήματος"
+msgstr "Στυλ επόμενου γραφικού στοιχείου"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:77
 msgid "Big Button"
@@ -22022,7 +22036,7 @@ msgstr "Γραμμή εργαλείων χρόνου"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:128
 msgid "Advanced Widget"
-msgstr "Επινοήματα για προχωρημένους"
+msgstr "Γραφικά στοιχεία για προχωρημένους"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:137
 msgid "Fullscreen Controller"
@@ -22494,9 +22508,8 @@ msgid "&Save To Playlist"
 msgstr "&Αποθήκευση σε λίστα αναπαραγωγής"
 
 #: modules/gui/qt4/menus.cpp:1650
-#, fuzzy
 msgid "&Post processing"
-msgstr "Μετεπεξεργασία"
+msgstr "&Μετεπεξεργασία"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -24474,7 +24487,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Διαφάνεια της εικόνας μωσαϊκού."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Απόκλιση X"
 
@@ -24484,7 +24498,8 @@ msgstr ""
 "Συντεταγμένη Χ της επάνω αριστερά γωνίας του μωσαϊκού εάν δεν είναι αρνητική."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Απόκλιση Y"
 
@@ -28321,7 +28336,7 @@ msgstr "Η ενδιάμεση μνήμη πλαισίου χρησιμοποιε
 
 #: modules/video_output/fb.c:71
 msgid "Disable for double buffering in software."
-msgstr ""
+msgstr "Ακυρώστε για διπλή ενδιάμεση αποθήκευση στο λογισμικό."
 
 #: modules/video_output/fb.c:73
 msgid "Image format (default RGB)"
@@ -30409,18 +30424,6 @@ msgstr "AAAA;"
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Λίστα διαχειριστή πολυμέσων"
-
-#~ msgid "---  DVD Menu"
-#~ msgstr "--- Μενού DVD"
-
-#~ msgid "First Played"
-#~ msgstr "Πρώτο παιγμένο"
-
-#~ msgid "Video Manager"
-#~ msgstr "Διαχειριστής βίντεο"
-
-#~ msgid "----- Title"
-#~ msgstr "----- Τίτλος"
 
 #~ msgid ""
 #~ "If your framebuffer supports hardware acceleration or does double "
@@ -33537,8 +33540,25 @@ msgstr "Λίστα διαχειριστή πολυμέσων"
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "Όνομα αρχείου ρύθμισης στο share/dvb/dvb-s"
 
+#, fuzzy
+#~ msgid "---  DVD Menu"
+#~ msgstr "Μενού DVD"
+
+#, fuzzy
+#~ msgid "First Played"
+#~ msgstr "Πρώτη αναπαραγωγή"
+
+#, fuzzy
+#~ msgid "Video Manager"
+#~ msgstr "Διαχειριστής προσθέτων"
+
+#, fuzzy
+#~ msgid "----- Title"
+#~ msgstr "Τίτλος"
+
+#, fuzzy
 #~ msgid "Select a matching identity"
-#~ msgstr "Επιλογή μιας ταιριαστής ταυτότητας"
+#~ msgstr "Επιλέξτε Μέθοδο Ροής"
 
 #, fuzzy
 #~ msgid "Video acceleration not available"
