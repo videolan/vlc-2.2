@@ -275,6 +275,7 @@ function parse()
             end
             if string.match( line, "<meta property=\"og:image\"" ) then
                 _,_,arturl = string.find( line, "content=\"(.-)\"" )
+                arturl = vlc.strings.resolve_xml_special_chars( arturl )
             end
             -- This is not available in the video parameters (whereas it
             -- is given by the get_video_info API as the "author" field)
