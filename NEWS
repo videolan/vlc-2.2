@@ -6,6 +6,7 @@ Access:
  * Fix off-by-one buffer overflow in RealRtsp module
  * Fix screen recording aspect-ratio, framerate and potential crash
  * Fix Windows directshow input freeze
+ * Fix MMS segmentation fault/abort when server forces a large allocation
 
 Demux:
  * Fix support for ms-dvr files
@@ -84,6 +85,9 @@ libVLC:
    libvlc_MediaPlayerUncorked, libvlc_MediaPlayerMuted,
    libvlc_MediaPlayerUnmuted and libvlc_MediaPlayerAudioVolume
  * Fix propagation of libvlc_MediaPlayerTitleChanged event
+
+Translations:
+ * Update of most translations
 
 
 Changes between 2.2.0 and 2.2.1:
