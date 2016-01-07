@@ -3664,18 +3664,19 @@ static void PMTSetupEs0x06( demux_t *p_demux, ts_pid_t *pid,
     es_format_t *p_fmt = &pid->es->fmt;
     dvbpsi_descriptor_t *p_subs_dr = PMTEsFindDescriptor( p_es, 0x59 );
 
-    if( PMTEsHasRegistration( p_demux, p_es, "AC-3" ) ||
+    if( PMTEsHasRegistration( p_demux, p_es, "EAC3" ) ||
+        PMTEsFindDescriptor( p_es, 0x7a ) )
+    {
+        /* DVB with stream_type 0x06 (ETS EN 300 468) */
+        p_fmt->i_cat = AUDIO_ES;
+        p_fmt->i_codec = VLC_CODEC_EAC3;
+    }
+    else if( PMTEsHasRegistration( p_demux, p_es, "AC-3" ) ||
         PMTEsFindDescriptor( p_es, 0x6a ) ||
         PMTEsFindDescriptor( p_es, 0x81 ) )
     {
         p_fmt->i_cat = AUDIO_ES;
         p_fmt->i_codec = VLC_CODEC_A52;
-    }
-    else if( PMTEsFindDescriptor( p_es, 0x7a ) )
-    {
-        /* DVB with stream_type 0x06 (ETS EN 300 468) */
-        p_fmt->i_cat = AUDIO_ES;
-        p_fmt->i_codec = VLC_CODEC_EAC3;
     }
     else if( PMTEsHasRegistration( p_demux, p_es, "DTS1" ) ||
              PMTEsHasRegistration( p_demux, p_es, "DTS2" ) ||
