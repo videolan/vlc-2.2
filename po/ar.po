@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2015-12-16 16:36+0100\n"
+"POT-Creation-Date: 2016-01-18 22:17+0100\n"
 "PO-Revision-Date: 2015-12-15 17:19+0000\n"
 "Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
 "Language-Team: Arabic (http://www.transifex.com/yaron/vlc-trans/language/"
@@ -1274,7 +1274,7 @@ msgstr "كوديك"
 
 #: src/input/es_out.c:2918 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:80 modules/gui/macosx/simple_prefs.m:380
-#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:504
+#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:510
 msgid "Language"
 msgstr "اللغة"
 
@@ -2571,10 +2571,9 @@ msgstr ""
 #: src/libvlc-module.c:538 src/video_output/vout_intf.c:98
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
-#: modules/audio_output/directsound.c:1021
-#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
-#: modules/gui/macosx/prefs_widgets.m:1221
+#: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
+#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
+#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -3661,7 +3660,7 @@ msgstr ".بدأ بفتح ملف تابع VLC"
 msgid "Tell VLC that it is being launched due to a file association in the OS"
 msgstr ".أنه إنطلق بسبب تجمع ملف في نظام التشغيل VLC أخبر "
 
-#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:524
+#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Use only one instance when started from file manager"
 msgstr "استخدام مثيل واحد فقط عند البدأ من مدير الملفات"
 
@@ -3683,7 +3682,7 @@ msgstr ""
 "يجب الملاحظة بأنه في بعض المشاكل، فلك سيستعمل كل وقت المعالج و بذلك سيتم "
 "إيقاف جميع التطبيقات، لهذا يجب إعادة تشغيل الجهاز"
 
-#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:527
+#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Enqueue items into playlist in one instance mode"
 msgstr "إدراج العناصر بقائمة الانتظار في قائمة التشغيل في وضع مثيل واحد"
 
@@ -3717,7 +3716,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1116 modules/gui/macosx/simple_prefs.m:391
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#: modules/gui/qt4/ui/sprefs_interface.h:537
+#: modules/gui/qt4/ui/sprefs_interface.h:543
 msgid "Allow metadata network access"
 msgstr ""
 
@@ -3807,7 +3806,7 @@ msgid ""
 "VLC."
 msgstr ".VLC يتم حفظ مكتبة الإعلام تلقائيا واعادة تحميلها في كل إعادة تشغيل"
 
-#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:525
+#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Display playlist tree"
 msgstr "اعرض شجرة قائمة التشغيل"
 
@@ -6705,9 +6704,8 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "دخل EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304
-#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
-#: modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
+#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "فشلت قراءة الملف"
 
@@ -6791,8 +6789,8 @@ msgstr "قراءة الملفات"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413
-#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
+#: modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8571,8 +8569,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93
-#: modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9384,8 +9381,7 @@ msgstr "معادِل"
 msgid "Flat"
 msgstr "مسطح"
 
-#: modules/audio_filter/equalizer_presets.h:54
-#: modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "كلاسيكي"
 
@@ -9394,8 +9390,7 @@ msgstr "كلاسيكي"
 msgid "Club"
 msgstr "ناد"
 
-#: modules/audio_filter/equalizer_presets.h:54
-#: modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "حفلة راقصة"
 
@@ -9427,23 +9422,19 @@ msgstr "مباشر"
 msgid "Party"
 msgstr "حفلة"
 
-#: modules/audio_filter/equalizer_presets.h:56
-#: modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "بوب"
 
-#: modules/audio_filter/equalizer_presets.h:56
-#: modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "ريجي"
 
-#: modules/audio_filter/equalizer_presets.h:57
-#: modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "روك"
 
-#: modules/audio_filter/equalizer_presets.h:57
-#: modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "سكا"
 
@@ -9455,8 +9446,7 @@ msgstr "رقيق"
 msgid "Soft rock"
 msgstr "روك خفيف"
 
-#: modules/audio_filter/equalizer_presets.h:57
-#: modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "تيكنو"
 
@@ -14262,8 +14252,8 @@ msgstr "صورة"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
-#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
+#: modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "الإطارات لكلّ ثانية"
 
@@ -15556,15 +15546,15 @@ msgstr ""
 msgid "DVB subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3934
+#: modules/demux/ts.c:3935
 msgid "clean effects"
 msgstr " مُؤَثرالتنظيف"
 
-#: modules/demux/ts.c:3935
+#: modules/demux/ts.c:3936
 msgid "hearing impaired"
 msgstr "تالف السمع 16:9 "
 
-#: modules/demux/ts.c:3936
+#: modules/demux/ts.c:3937
 msgid "visual impaired commentary"
 msgstr "التعليق إعاقة بصريه "
 
@@ -15796,8 +15786,7 @@ msgstr ""
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94
-#: modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "أعد الضبط"
 
@@ -15917,8 +15906,8 @@ msgid "Bookmarks"
 msgstr "قوائم العناوين"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103
-#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
+#: modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "أضف"
 
@@ -17177,7 +17166,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:362
 #: modules/gui/macosx/simple_prefs.m:405 modules/gui/macosx/wizard.m:343
-#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:521
+#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:527
 msgid "Choose..."
 msgstr "...إختيار"
 
@@ -17584,6 +17573,7 @@ msgid "Select"
 msgstr "اختر"
 
 #: modules/gui/macosx/ResumeDialogController.m:44 modules/gui/qt4/qt4.cpp:188
+#: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Continue playback?"
 msgstr "مواصلة التشغيل؟"
 
@@ -17627,7 +17617,7 @@ msgstr "إعدادات الفيديو"
 
 #: modules/gui/macosx/simple_prefs.m:300
 #: modules/gui/qt4/components/simple_preferences.cpp:300
-#: modules/gui/qt4/components/simple_preferences.cpp:879
+#: modules/gui/qt4/components/simple_preferences.cpp:880
 msgid "Subtitle & On Screen Display Settings"
 msgstr ""
 
@@ -17743,7 +17733,7 @@ msgid "Show Fullscreen Controller"
 msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:387
-#: modules/gui/qt4/ui/sprefs_interface.h:528
+#: modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Privacy / Network Interaction"
 msgstr ""
 
@@ -17997,8 +17987,7 @@ msgid ""
 "Set 0 to disable."
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:74
-#: modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "تأثيرات الفيديو"
 
@@ -18006,8 +17995,7 @@ msgstr "تأثيرات الفيديو"
 msgid "Basic"
 msgstr "أساسي"
 
-#: modules/gui/macosx/VideoEffects.m:81
-#: modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "الهندسة"
 
@@ -18024,8 +18012,7 @@ msgstr "لون"
 msgid "Image Adjust"
 msgstr "تعديل الصورة"
 
-#: modules/gui/macosx/VideoEffects.m:91
-#: modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr ""
 
@@ -18034,14 +18021,12 @@ msgstr ""
 msgid "Sharpen"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:96
-#: modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:97
-#: modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr ""
 
@@ -18050,8 +18035,7 @@ msgstr ""
 msgid "Radius"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:99
-#: modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr ""
 
@@ -18195,8 +18179,7 @@ msgstr "تضبيب الحركة"
 msgid "Factor"
 msgstr "المعامل"
 
-#: modules/gui/macosx/VideoEffects.m:155
-#: modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "كشف حركة"
 
@@ -18229,9 +18212,8 @@ msgstr "أضف شعارًا"
 msgid "Logo"
 msgstr "علامة"
 
-#: modules/gui/macosx/VideoEffects.m:205
-#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
-#: modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
+#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "الشفافيه "
 
@@ -18547,8 +18529,7 @@ msgstr "UDP Unicast"
 msgid "UDP Multicast"
 msgstr "UDP Multicast"
 
-#: modules/gui/macosx/wizard.m:373
-#: modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "رمز عابر "
 
@@ -19596,7 +19577,7 @@ msgid "File names:"
 msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:162
-#: modules/gui/qt4/ui/sprefs_interface.h:531
+#: modules/gui/qt4/ui/sprefs_interface.h:537
 msgid "Filter:"
 msgstr ""
 
@@ -19867,7 +19848,7 @@ msgid "Input & Codecs Settings"
 msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:304
-#: modules/gui/qt4/components/simple_preferences.cpp:923
+#: modules/gui/qt4/components/simple_preferences.cpp:924
 msgid "Configure Hotkeys"
 msgstr "اضبط المفاتيح الساخنة"
 
@@ -19911,33 +19892,33 @@ msgstr ""
 msgid "System's default"
 msgstr "افتراضات النظام"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1303
+#: modules/gui/qt4/components/simple_preferences.cpp:1304
 msgid "File associations"
 msgstr "الإرتباطات بنوع الملفات"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1312
+#: modules/gui/qt4/components/simple_preferences.cpp:1313
 #: modules/gui/qt4/dialogs_provider.hpp:42
 msgid "Audio Files"
 msgstr "الملفات الصوتية"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1313
+#: modules/gui/qt4/components/simple_preferences.cpp:1314
 #: modules/gui/qt4/dialogs_provider.hpp:41
 msgid "Video Files"
 msgstr "ملفات الفيديو"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1314
+#: modules/gui/qt4/components/simple_preferences.cpp:1315
 #: modules/gui/qt4/dialogs_provider.hpp:43
 msgid "Playlist Files"
 msgstr "ملفات قائمة التشغيل"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1379
+#: modules/gui/qt4/components/simple_preferences.cpp:1380
 msgid "&Apply"
 msgstr ""
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1380
+#: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49
-#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
+#: modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20081,8 +20062,8 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110
-#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
+#: modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20102,8 +20083,7 @@ msgstr "بايتات"
 msgid "Convert"
 msgstr "تحويل"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58
-#: modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "الملف المقصود :"
 
@@ -20198,8 +20178,7 @@ msgstr "ا&ذهب"
 msgid "Go to time"
 msgstr "اذهب إلى الوقت"
 
-#: modules/gui/qt4/dialogs/help.cpp:86
-#: modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "عن"
@@ -20741,7 +20720,7 @@ msgid "Repeat delay:"
 msgstr "تأخير الإعادة:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:111
-#: modules/gui/qt4/ui/sprefs_interface.h:529
+#: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid " days"
 msgstr " أيام"
 
@@ -22920,8 +22899,7 @@ msgid "Transparency of the mosaic picture."
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142
-#: share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr " X جزئيا "
 
@@ -22930,8 +22908,7 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144
-#: share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y جزئيا "
 
@@ -27581,7 +27558,7 @@ msgstr "حدّث"
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
 #: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:425
 #: modules/gui/qt4/ui/sprefs_input.h:345
-#: modules/gui/qt4/ui/sprefs_interface.h:503
+#: modules/gui/qt4/ui/sprefs_interface.h:509
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/sprefs_video.h:320 modules/gui/qt4/ui/streampanel.h:167
 msgid "Form"
@@ -28029,99 +28006,99 @@ msgstr ""
 msgid "Default caching policy"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:505
+#: modules/gui/qt4/ui/sprefs_interface.h:511
 msgid "Menus language:"
 msgstr "لغة القوائم:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:506
+#: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Look and feel"
 msgstr "الشكل والمظهر"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:507
+#: modules/gui/qt4/ui/sprefs_interface.h:513
 msgid "Use custom skin"
 msgstr "استخدام شكل مخصص"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:509
+#: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr "هذه واجهة VLC الافتراضية التي تظهر بشكل أصلي من المظهر والمنظر"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:511
+#: modules/gui/qt4/ui/sprefs_interface.h:517
 msgid "Use native style"
 msgstr "استخدام النمط الأصلي"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:512
+#: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "Resize interface to video size"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:513
+#: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Show controls in full screen mode"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:514
+#: modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Pause playback when minimized"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:515
+#: modules/gui/qt4/ui/sprefs_interface.h:521
 msgid "Show media change popup:"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:516
+#: modules/gui/qt4/ui/sprefs_interface.h:522
 msgid "Start in minimal view mode"
 msgstr "تشغيل في النمط المصغر"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:517
+#: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Force window style:"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:518
+#: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Integrate video in interface"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:519
+#: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Show systray icon"
 msgstr "إظهار أيقونة البرنامج في شريط المهام"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:520
+#: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Skin resource file:"
 msgstr "ملف "
 
-#: modules/gui/qt4/ui/sprefs_interface.h:522
+#: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "Playlist and Instances"
 msgstr "قائمة التشغيل والحالات"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:523
+#: modules/gui/qt4/ui/sprefs_interface.h:529
 msgid "Allow only one instance"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:526
+#: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Pause on the last frame of a video"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:530
+#: modules/gui/qt4/ui/sprefs_interface.h:536
 msgid "Every "
 msgstr "كل"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:533
+#: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Separate words by | (without space)"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:535
+#: modules/gui/qt4/ui/sprefs_interface.h:541
 msgid "Save recently played items"
 msgstr "احفظ آخر العناصر المُشغّلة"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:536
+#: modules/gui/qt4/ui/sprefs_interface.h:542
 msgid "Activate updates notifier"
 msgstr "فعّل منبّه التحديثات"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:538
+#: modules/gui/qt4/ui/sprefs_interface.h:545
 msgid "Operating System Integration"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:539
+#: modules/gui/qt4/ui/sprefs_interface.h:546
 msgid "File extensions association"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:540
+#: modules/gui/qt4/ui/sprefs_interface.h:547
 msgid "Set up associations..."
 msgstr ""
 

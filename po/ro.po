@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2015-12-16 16:36+0100\n"
+"POT-Creation-Date: 2016-01-18 22:17+0100\n"
 "PO-Revision-Date: 2014-08-19 01:41+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/vlc-trans/"
@@ -1292,7 +1292,7 @@ msgstr "Codec"
 
 #: src/input/es_out.c:2918 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:80 modules/gui/macosx/simple_prefs.m:380
-#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:504
+#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:510
 msgid "Language"
 msgstr "Limbă"
 
@@ -2656,7 +2656,7 @@ msgstr ""
 #: src/libvlc-module.c:538 src/video_output/vout_intf.c:98
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
+#: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
 #: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
 #: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
@@ -3794,7 +3794,7 @@ msgstr ""
 "Informează VLC că este lansat datorită unei asocieri de fișier în sistemul "
 "de operare"
 
-#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:524
+#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Use only one instance when started from file manager"
 msgstr "Folosește o singură instanță când este pornit din managerul de fișiere"
 
@@ -3818,7 +3818,7 @@ msgstr ""
 "tot timpul procesorului și determina întreg sistemul să devină neresponsiv, "
 "lucru care ar putea necesita o repornire a mașinii dumneavoastră."
 
-#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:527
+#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Enqueue items into playlist in one instance mode"
 msgstr ""
 "Adaugă elementele în lista de redare când rulează în modul o singură instanță"
@@ -3853,7 +3853,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1116 modules/gui/macosx/simple_prefs.m:391
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#: modules/gui/qt4/ui/sprefs_interface.h:537
+#: modules/gui/qt4/ui/sprefs_interface.h:543
 msgid "Allow metadata network access"
 msgstr ""
 
@@ -3950,7 +3950,7 @@ msgstr ""
 "Mediateca este salvată automat și reîncărcată de fiecare dată la pornirea "
 "VLC."
 
-#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:525
+#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Display playlist tree"
 msgstr "Afișează arborele listei de redare"
 
@@ -16056,15 +16056,15 @@ msgstr "Subtitluri teletext: pentru cei cu dizabilități de auz"
 msgid "DVB subtitles: hearing impaired"
 msgstr "Subtitluri DVB: pentru cei cu dizabilități de auz"
 
-#: modules/demux/ts.c:3934
+#: modules/demux/ts.c:3935
 msgid "clean effects"
 msgstr "efecte curate"
 
-#: modules/demux/ts.c:3935
+#: modules/demux/ts.c:3936
 msgid "hearing impaired"
 msgstr "dizabilități de auz"
 
-#: modules/demux/ts.c:3936
+#: modules/demux/ts.c:3937
 msgid "visual impaired commentary"
 msgstr "comentariu pentru cei cu dizabilități de vedere"
 
@@ -17696,7 +17696,7 @@ msgstr "Redă sincron alt media"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:362
 #: modules/gui/macosx/simple_prefs.m:405 modules/gui/macosx/wizard.m:343
-#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:521
+#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:527
 msgid "Choose..."
 msgstr "Alege..."
 
@@ -18103,6 +18103,7 @@ msgid "Select"
 msgstr "Selectează"
 
 #: modules/gui/macosx/ResumeDialogController.m:44 modules/gui/qt4/qt4.cpp:188
+#: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Continue playback?"
 msgstr ""
 
@@ -18146,7 +18147,7 @@ msgstr "Setări video"
 
 #: modules/gui/macosx/simple_prefs.m:300
 #: modules/gui/qt4/components/simple_preferences.cpp:300
-#: modules/gui/qt4/components/simple_preferences.cpp:879
+#: modules/gui/qt4/components/simple_preferences.cpp:880
 msgid "Subtitle & On Screen Display Settings"
 msgstr ""
 
@@ -18262,7 +18263,7 @@ msgid "Show Fullscreen Controller"
 msgstr "Arată panoul de control de mod pe tot ecranul"
 
 #: modules/gui/macosx/simple_prefs.m:387
-#: modules/gui/qt4/ui/sprefs_interface.h:528
+#: modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Privacy / Network Interaction"
 msgstr "Intimitate și interacțiune de rețea"
 
@@ -20087,7 +20088,7 @@ msgid "File names:"
 msgstr "Nume fișier:"
 
 #: modules/gui/qt4/components/open_panels.cpp:162
-#: modules/gui/qt4/ui/sprefs_interface.h:531
+#: modules/gui/qt4/ui/sprefs_interface.h:537
 msgid "Filter:"
 msgstr "Filtru:"
 
@@ -20362,7 +20363,7 @@ msgid "Input & Codecs Settings"
 msgstr "Setări de intrare și codecuri"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:304
-#: modules/gui/qt4/components/simple_preferences.cpp:923
+#: modules/gui/qt4/components/simple_preferences.cpp:924
 msgid "Configure Hotkeys"
 msgstr "Configurare taste rapide (hotkeys)"
 
@@ -20411,30 +20412,30 @@ msgstr "saitul web pentru tematici VLC"
 msgid "System's default"
 msgstr "Implicit al sistemului"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1303
+#: modules/gui/qt4/components/simple_preferences.cpp:1304
 msgid "File associations"
 msgstr "Asocieri de fișier"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1312
+#: modules/gui/qt4/components/simple_preferences.cpp:1313
 #: modules/gui/qt4/dialogs_provider.hpp:42
 msgid "Audio Files"
 msgstr "Fișiere audio"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1313
+#: modules/gui/qt4/components/simple_preferences.cpp:1314
 #: modules/gui/qt4/dialogs_provider.hpp:41
 msgid "Video Files"
 msgstr "Fișiere video"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1314
+#: modules/gui/qt4/components/simple_preferences.cpp:1315
 #: modules/gui/qt4/dialogs_provider.hpp:43
 msgid "Playlist Files"
 msgstr "Fișiere de listă de redare"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1379
+#: modules/gui/qt4/components/simple_preferences.cpp:1380
 msgid "&Apply"
 msgstr "&Aplică"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1380
+#: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
 #: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
 #: modules/gui/qt4/dialogs/openurl.cpp:61
@@ -21240,7 +21241,7 @@ msgid "Repeat delay:"
 msgstr "Întârziere de repetare:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:111
-#: modules/gui/qt4/ui/sprefs_interface.h:529
+#: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid " days"
 msgstr " zile"
 
@@ -28135,7 +28136,7 @@ msgstr "Actualizează"
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
 #: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:425
 #: modules/gui/qt4/ui/sprefs_input.h:345
-#: modules/gui/qt4/ui/sprefs_interface.h:503
+#: modules/gui/qt4/ui/sprefs_interface.h:509
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/sprefs_video.h:320 modules/gui/qt4/ui/streampanel.h:167
 msgid "Form"
@@ -28594,100 +28595,100 @@ msgstr "Transport de flux Live555"
 msgid "Default caching policy"
 msgstr "Politica implicită de stocare în cache"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:505
+#: modules/gui/qt4/ui/sprefs_interface.h:511
 msgid "Menus language:"
 msgstr "Limba meniurilor:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:506
+#: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Look and feel"
 msgstr "Aspect și percepție"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:507
+#: modules/gui/qt4/ui/sprefs_interface.h:513
 msgid "Use custom skin"
 msgstr "Folosește o tematică personalizată"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:509
+#: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr ""
 "Aceasta este interfața implicită a VLC, cu un aspect și o percepție nativă."
 
-#: modules/gui/qt4/ui/sprefs_interface.h:511
+#: modules/gui/qt4/ui/sprefs_interface.h:517
 msgid "Use native style"
 msgstr "Foloșeste stilul nativ"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:512
+#: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "Resize interface to video size"
 msgstr "Redimensionează interfața la dimensiunea video"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:513
+#: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Show controls in full screen mode"
 msgstr "Arată controalele în modul pe tot ecranul"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:514
+#: modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Pause playback when minimized"
 msgstr "Pune redarea în pauză când este minimizat"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:515
+#: modules/gui/qt4/ui/sprefs_interface.h:521
 msgid "Show media change popup:"
 msgstr "Arată o notificare la schimarea media:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:516
+#: modules/gui/qt4/ui/sprefs_interface.h:522
 msgid "Start in minimal view mode"
 msgstr "Pornește în modul de vizualizare minimal"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:517
+#: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Force window style:"
 msgstr "Forțează stilul de fereastră:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:518
+#: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Integrate video in interface"
 msgstr "Integrează video în interfață"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:519
+#: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Show systray icon"
 msgstr "Arată o pictogramă în zona de notificare"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:520
+#: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Skin resource file:"
 msgstr "Fișier de resursă tematică:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:522
+#: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "Playlist and Instances"
 msgstr "Liste de redare și instanțe"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:523
+#: modules/gui/qt4/ui/sprefs_interface.h:529
 msgid "Allow only one instance"
 msgstr "Permite numai o singură instanță"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:526
+#: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Pause on the last frame of a video"
 msgstr "Pune pauză pe ultimul cadru al unui video"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:530
+#: modules/gui/qt4/ui/sprefs_interface.h:536
 msgid "Every "
 msgstr "La fiecare "
 
-#: modules/gui/qt4/ui/sprefs_interface.h:533
+#: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Separate words by | (without space)"
 msgstr "Separă cuvintele cu | (făsă spații)"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:535
+#: modules/gui/qt4/ui/sprefs_interface.h:541
 msgid "Save recently played items"
 msgstr "Salvează elementele redate recent"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:536
+#: modules/gui/qt4/ui/sprefs_interface.h:542
 msgid "Activate updates notifier"
 msgstr "Activează notificarea pentru disponibilitatea actualizărilor"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:538
+#: modules/gui/qt4/ui/sprefs_interface.h:545
 msgid "Operating System Integration"
 msgstr "Integrare în sistemul de operare"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:539
+#: modules/gui/qt4/ui/sprefs_interface.h:546
 msgid "File extensions association"
 msgstr "Asocieri de extensii de fișier"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:540
+#: modules/gui/qt4/ui/sprefs_interface.h:547
 msgid "Set up associations..."
 msgstr "Stabilește asocierile..."
 

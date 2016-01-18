@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2015-12-16 16:36+0100\n"
+"POT-Creation-Date: 2016-01-18 22:17+0100\n"
 "PO-Revision-Date: 2014-03-09 18:41+0000\n"
 "Last-Translator: nesterow <nestserau@me.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/vlc-trans/"
@@ -1284,7 +1284,7 @@ msgstr "Кодэк"
 
 #: src/input/es_out.c:2918 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:80 modules/gui/macosx/simple_prefs.m:380
-#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:504
+#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:510
 msgid "Language"
 msgstr "Мова"
 
@@ -2614,7 +2614,7 @@ msgstr ""
 #: src/libvlc-module.c:538 src/video_output/vout_intf.c:98
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
-#: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:745
+#: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
 #: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
 #: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
@@ -3735,7 +3735,7 @@ msgstr "VLC запушчаны з асацыяцый файлаў"
 msgid "Tell VLC that it is being launched due to a file association in the OS"
 msgstr "Паказвае, што VLC запушчаны з асацыяцый файлаў у АС"
 
-#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:524
+#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Use only one instance when started from file manager"
 msgstr "Абмежавацца адным экземплярам пры запуску з файлавага кіраўніка"
 
@@ -3759,7 +3759,7 @@ msgstr ""
 "адсутнасці рэакцыі сістэмы на нейкія дзеянні і запатрабаваць перазагрузкі "
 "камп'ютара."
 
-#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:527
+#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Enqueue items into playlist in one instance mode"
 msgstr "Дадаваць аб'екты да плэйлісту ў рэжыме аднаго экземпляра"
 
@@ -3793,7 +3793,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1116 modules/gui/macosx/simple_prefs.m:391
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#: modules/gui/qt4/ui/sprefs_interface.h:537
+#: modules/gui/qt4/ui/sprefs_interface.h:543
 msgid "Allow metadata network access"
 msgstr ""
 
@@ -3887,7 +3887,7 @@ msgstr ""
 "Медыятэка аўтаматычна захоўваецца і перазагружаецца штораз падчас запуску "
 "VLC."
 
-#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:525
+#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Display playlist tree"
 msgstr "Паказваць плэйліст як дрэва"
 
@@ -16223,15 +16223,15 @@ msgstr "Субтытры тэлетэксту: для людзей з паруш
 msgid "DVB subtitles: hearing impaired"
 msgstr "Субтытры DVB: для людзей з парушэннем слыху"
 
-#: modules/demux/ts.c:3934
+#: modules/demux/ts.c:3935
 msgid "clean effects"
 msgstr "ачысціць эфекты"
 
-#: modules/demux/ts.c:3935
+#: modules/demux/ts.c:3936
 msgid "hearing impaired"
 msgstr "з парушэннем слыху"
 
-#: modules/demux/ts.c:3936
+#: modules/demux/ts.c:3937
 msgid "visual impaired commentary"
 msgstr "каментар для людзей з парушэннем зроку"
 
@@ -17932,7 +17932,7 @@ msgstr "Сінхронна граць іншы медыяаб'ект"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:362
 #: modules/gui/macosx/simple_prefs.m:405 modules/gui/macosx/wizard.m:343
-#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:521
+#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:527
 msgid "Choose..."
 msgstr "Задаць..."
 
@@ -18354,6 +18354,7 @@ msgid "Select"
 msgstr "Выбраць"
 
 #: modules/gui/macosx/ResumeDialogController.m:44 modules/gui/qt4/qt4.cpp:188
+#: modules/gui/qt4/ui/sprefs_interface.h:544
 #, fuzzy
 msgid "Continue playback?"
 msgstr "Кіраваць iTunes у часе прайгравання"
@@ -18400,7 +18401,7 @@ msgstr "Настаўленні відэа"
 
 #: modules/gui/macosx/simple_prefs.m:300
 #: modules/gui/qt4/components/simple_preferences.cpp:300
-#: modules/gui/qt4/components/simple_preferences.cpp:879
+#: modules/gui/qt4/components/simple_preferences.cpp:880
 msgid "Subtitle & On Screen Display Settings"
 msgstr "Настаўленні субтытраў і экраннай індыкацыі"
 
@@ -18518,7 +18519,7 @@ msgid "Show Fullscreen Controller"
 msgstr "Панэль кіравання ў поўнаэкранным рэжыме"
 
 #: modules/gui/macosx/simple_prefs.m:387
-#: modules/gui/qt4/ui/sprefs_interface.h:528
+#: modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Privacy / Network Interaction"
 msgstr "Канфідэнцыйнасць / узаемадзеянне з сеткай"
 
@@ -20432,7 +20433,7 @@ msgid "File names:"
 msgstr "Назвы файлаў:"
 
 #: modules/gui/qt4/components/open_panels.cpp:162
-#: modules/gui/qt4/ui/sprefs_interface.h:531
+#: modules/gui/qt4/ui/sprefs_interface.h:537
 msgid "Filter:"
 msgstr "Фільтр:"
 
@@ -20716,7 +20717,7 @@ msgid "Input & Codecs Settings"
 msgstr "Настаўленні ўводу і кодэкаў"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:304
-#: modules/gui/qt4/components/simple_preferences.cpp:923
+#: modules/gui/qt4/components/simple_preferences.cpp:924
 msgid "Configure Hotkeys"
 msgstr "Канфігурацыя скаротаў"
 
@@ -20766,30 +20767,30 @@ msgstr "сайта абалонак VLC"
 msgid "System's default"
 msgstr "Стандартны сістэмны"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1303
+#: modules/gui/qt4/components/simple_preferences.cpp:1304
 msgid "File associations"
 msgstr "Прывязкі файлаў"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1312
+#: modules/gui/qt4/components/simple_preferences.cpp:1313
 #: modules/gui/qt4/dialogs_provider.hpp:42
 msgid "Audio Files"
 msgstr "аўдыёфайлы"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1313
+#: modules/gui/qt4/components/simple_preferences.cpp:1314
 #: modules/gui/qt4/dialogs_provider.hpp:41
 msgid "Video Files"
 msgstr "відэафайлы"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1314
+#: modules/gui/qt4/components/simple_preferences.cpp:1315
 #: modules/gui/qt4/dialogs_provider.hpp:43
 msgid "Playlist Files"
 msgstr "файлы плэйлістоў"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1379
+#: modules/gui/qt4/components/simple_preferences.cpp:1380
 msgid "&Apply"
 msgstr "&Ужыць"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:1380
+#: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
 #: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
 #: modules/gui/qt4/dialogs/openurl.cpp:61
@@ -21620,7 +21621,7 @@ msgid "Repeat delay:"
 msgstr "Інтэрвал паміж паўторамі:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:111
-#: modules/gui/qt4/ui/sprefs_interface.h:529
+#: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid " days"
 msgstr " дзён"
 
@@ -28836,7 +28837,7 @@ msgstr "Абнаўленне"
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
 #: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:425
 #: modules/gui/qt4/ui/sprefs_input.h:345
-#: modules/gui/qt4/ui/sprefs_interface.h:503
+#: modules/gui/qt4/ui/sprefs_interface.h:509
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/sprefs_video.h:320 modules/gui/qt4/ui/streampanel.h:167
 msgid "Form"
@@ -29288,99 +29289,99 @@ msgstr "Транспарт патоку Live555"
 msgid "Default caching policy"
 msgstr "Стандартная палітыка кэшавання"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:505
+#: modules/gui/qt4/ui/sprefs_interface.h:511
 msgid "Menus language:"
 msgstr "Мова меню:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:506
+#: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Look and feel"
 msgstr "Афармленне і паводзіны"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:507
+#: modules/gui/qt4/ui/sprefs_interface.h:513
 msgid "Use custom skin"
 msgstr "Ужываць уласную абалонку"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:509
+#: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr "Стандартны інтэрфейс VLC, просты выгляд"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:511
+#: modules/gui/qt4/ui/sprefs_interface.h:517
 msgid "Use native style"
 msgstr "Стандартны выгляд"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:512
+#: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "Resize interface to video size"
 msgstr "Падганяць памер інтэрфейсу пад памер відэа"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:513
+#: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Show controls in full screen mode"
 msgstr "Панэль кіравання ў поўнаэкранным рэжыме"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:514
+#: modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Pause playback when minimized"
 msgstr "Перапыняць прайграванне пры згортванні"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:515
+#: modules/gui/qt4/ui/sprefs_interface.h:521
 msgid "Show media change popup:"
 msgstr "Паказваць выплыўное акенца пры змене медыяаб'екта:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:516
+#: modules/gui/qt4/ui/sprefs_interface.h:522
 msgid "Start in minimal view mode"
 msgstr "Запускаць у мінімальным выглядзе"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:517
+#: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Force window style:"
 msgstr "Задаць стыль вокнаў:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:518
+#: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Integrate video in interface"
 msgstr "Убудаваць відэа ў інтэрфейс"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:519
+#: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Show systray icon"
 msgstr "Значок у сістэмным трэі"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:520
+#: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Skin resource file:"
 msgstr "Файл рэсурсаў абалонкі:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:522
+#: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "Playlist and Instances"
 msgstr "Плэйліст і экземпляры"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:523
+#: modules/gui/qt4/ui/sprefs_interface.h:529
 msgid "Allow only one instance"
 msgstr "Дазволіць толькі адну копію"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:526
+#: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Pause on the last frame of a video"
 msgstr "Паўза на апошнім кадры відэа"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:530
+#: modules/gui/qt4/ui/sprefs_interface.h:536
 msgid "Every "
 msgstr "з інтэрвалам "
 
-#: modules/gui/qt4/ui/sprefs_interface.h:533
+#: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Separate words by | (without space)"
 msgstr "Падзяляйце словы сімвалам \"|\" (без прагалаў)"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:535
+#: modules/gui/qt4/ui/sprefs_interface.h:541
 msgid "Save recently played items"
 msgstr "Захоўваць раней граныя аб'екты"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:536
+#: modules/gui/qt4/ui/sprefs_interface.h:542
 msgid "Activate updates notifier"
 msgstr "Уключыць паведамленні пра абнаўленні"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:538
+#: modules/gui/qt4/ui/sprefs_interface.h:545
 msgid "Operating System Integration"
 msgstr "Ітэграцыя з аперацыйнай сістэмай"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:539
+#: modules/gui/qt4/ui/sprefs_interface.h:546
 msgid "File extensions association"
 msgstr "Прывязкі файлаў"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:540
+#: modules/gui/qt4/ui/sprefs_interface.h:547
 msgid "Set up associations..."
 msgstr "Наставіць прывязкі..."
 
