@@ -252,7 +252,10 @@ stream_t *stream_UrlNew( vlc_object_t *p_parent, const char *psz_url )
     if( !psz_url )
         return NULL;
 
-    char psz_dup[strlen( psz_url ) + 1];
+    char *psz_dup = malloc(strlen( psz_url ) + 1);
+    if( !psz_dup )
+        return NULL;
+
     strcpy( psz_dup, psz_url );
     input_SplitMRL( &psz_access, &psz_demux, &psz_path, &psz_anchor, psz_dup );
 
@@ -261,8 +264,11 @@ stream_t *stream_UrlNew( vlc_object_t *p_parent, const char *psz_url )
     if( p_access == NULL )
     {
         msg_Err( p_parent, "no suitable access module for `%s'", psz_url );
+        free( psz_dup );
         return NULL;
     }
+
+    free( psz_dup );
 
     return stream_AccessNew( p_access, NULL );
 }
