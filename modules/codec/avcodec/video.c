@@ -1359,10 +1359,10 @@ static enum PixelFormat ffmpeg_GetFormat( AVCodecContext *p_context,
 
         /* We try to call vlc_va_Setup when possible to detect errors when
          * possible (later is too late) */
-        if( p_context->width > 0 && p_context->height > 0
+        if( p_context->coded_width > 0 && p_context->coded_height > 0
          && vlc_va_Setup( p_va, &p_context->hwaccel_context,
                           &p_dec->fmt_out.video.i_chroma,
-                          p_context->width, p_context->height ) )
+                          p_context->coded_width, p_context->coded_height ) )
         {
             msg_Err( p_dec, "acceleration setup failure" );
             break;
