@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2016-01-18 22:17+0100\n"
+"POT-Creation-Date: 2016-02-27 18:20+0100\n"
 "PO-Revision-Date: 2010-09-21 15:58+0400\n"
 "Last-Translator: Eduard Babayan <edo248@gmail.com>\n"
 "Language-Team: VLC Armenian <edo248@gmail.com>\n"
@@ -1143,7 +1143,7 @@ msgstr "Մեդիա Ֆայլեր"
 msgid "Media View"
 msgstr "Մեդիա Ֆայլեր"
 
-#: src/config/keys.c:104 modules/gui/qt4/components/controller.cpp:542
+#: src/config/keys.c:104 modules/gui/qt4/components/controller.cpp:543
 msgid "Menu"
 msgstr "Մենյու"
 
@@ -4305,7 +4305,7 @@ msgstr ""
 "Այս կայանքները են համաշխարհային VLC հիմնական bindings, որը հայտնի է որպես \" "
 "կոճակ  \"."
 
-#: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1846
+#: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1848
 msgid "Ignore"
 msgstr "Անտեսել"
 
@@ -15268,14 +15268,14 @@ msgstr "D-Bus վերահսկողության ինտերֆեյսի"
 #: modules/control/dbus/dbus_root.c:81 modules/gui/macosx/MainWindow.m:209
 #: modules/gui/macosx/MainWindow.m:742 modules/gui/macosx/MainWindow.m:748
 #: modules/gui/macosx/MainWindow.m:1372 modules/gui/ncurses.c:1042
-#: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1102
-#: modules/gui/qt4/main_interface.cpp:1106
-#: modules/gui/qt4/main_interface.cpp:1145
+#: modules/gui/qt4/dialogs/help.cpp:91 modules/gui/qt4/main_interface.cpp:1143
 #: modules/gui/qt4/main_interface.cpp:1147
-#: modules/gui/qt4/main_interface.cpp:1255
-#: modules/gui/qt4/main_interface.cpp:1272
-#: modules/gui/qt4/main_interface.cpp:1280
-#: modules/gui/qt4/main_interface.cpp:1303 modules/lua/libs/httpd.c:80
+#: modules/gui/qt4/main_interface.cpp:1186
+#: modules/gui/qt4/main_interface.cpp:1188
+#: modules/gui/qt4/main_interface.cpp:1296
+#: modules/gui/qt4/main_interface.cpp:1313
+#: modules/gui/qt4/main_interface.cpp:1321
+#: modules/gui/qt4/main_interface.cpp:1344 modules/lua/libs/httpd.c:80
 #: modules/notify/growl.m:281 modules/video_output/xcb/window.c:313
 msgid "VLC media player"
 msgstr "VLC Մեդիա Նվագարկիչ"
@@ -16136,7 +16136,7 @@ msgstr "AIFF դեմուլտիպլեքսոր"
 msgid "ASF/WMV demuxer"
 msgstr "WAV դեմուլտիպլեքսոր"
 
-#: modules/demux/asf/asf.c:215 modules/demux/asf/asf.c:1197
+#: modules/demux/asf/asf.c:215 modules/demux/asf/asf.c:1194
 msgid "Could not demux ASF stream"
 msgstr "Հնարավոր չէ դեմուլտիպլեքսավորել ASF հոսքը"
 
@@ -16144,7 +16144,7 @@ msgstr "Հնարավոր չէ դեմուլտիպլեքսավորել ASF հոս�
 msgid "VLC failed to load the ASF header."
 msgstr "VLC չհաջողվեց բեռնել ASF հայտարարությունը"
 
-#: modules/demux/asf/asf.c:1198
+#: modules/demux/asf/asf.c:1195
 msgid "DRM protected streams are not supported."
 msgstr ""
 
@@ -18838,22 +18838,22 @@ msgstr "(ոչինչ միացված չէ)"
 msgid "Click to exit fullscreen playback."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:1548 modules/gui/macosx/intf.m:1565
+#: modules/gui/macosx/intf.m:1550 modules/gui/macosx/intf.m:1567
 #, fuzzy
 msgid "VLC media playback"
 msgstr "VLC Մեդիա Նվագարկիչ"
 
-#: modules/gui/macosx/intf.m:1844
+#: modules/gui/macosx/intf.m:1846
 msgid "Remove old preferences?"
 msgstr "Ջնջե՞լ հին նախընտրանքները"
 
-#: modules/gui/macosx/intf.m:1845
+#: modules/gui/macosx/intf.m:1847
 #, fuzzy
 msgid "We just found an older version of VLC's preferences files."
 msgstr ""
 "Մենք պարզապես գտել ավելի հին տարբերակ է VLC ի նախընտրությունների ֆայլեր."
 
-#: modules/gui/macosx/intf.m:1846
+#: modules/gui/macosx/intf.m:1848
 #, fuzzy
 msgid "Move To Trash and Relaunch VLC"
 msgstr "Թափոն փոխադրել եւ Relaunch VLC"
@@ -21840,25 +21840,25 @@ msgstr "Փնտրել՝ %s"
 msgid "Shift+L"
 msgstr "Shift + L"
 
-#: modules/gui/qt4/components/controller.cpp:445
+#: modules/gui/qt4/components/controller.cpp:446
 #, fuzzy
 msgid "Click to toggle between loop all, loop one and no loop"
 msgstr "Սեղմելով ընտրել կրկնել մեկը թե կրկնել բոլորը"
 
-#: modules/gui/qt4/components/controller.cpp:536
+#: modules/gui/qt4/components/controller.cpp:537
 msgid "Previous Chapter/Title"
 msgstr "Նախորդ Բաժին / Վերնագիր"
 
-#: modules/gui/qt4/components/controller.cpp:548
+#: modules/gui/qt4/components/controller.cpp:549
 msgid "Next Chapter/Title"
 msgstr "Հաջորդ Բաժին / Վերնագիր"
 
-#: modules/gui/qt4/components/controller.cpp:581
+#: modules/gui/qt4/components/controller.cpp:582
 #, fuzzy
 msgid "Teletext Activation"
 msgstr "Տելետեքստ ակտիվացմանը"
 
-#: modules/gui/qt4/components/controller.cpp:597
+#: modules/gui/qt4/components/controller.cpp:598
 #, fuzzy
 msgid "Toggle Transparency "
 msgstr "Toggle Թրանսփարենսի"
@@ -23691,12 +23691,12 @@ msgstr ""
 msgid "&Continue"
 msgstr "Շարունակել"
 
-#: modules/gui/qt4/main_interface.cpp:1256
+#: modules/gui/qt4/main_interface.cpp:1297
 #, fuzzy
 msgid "Control menu for the player"
 msgstr "Ղեկավարել ցանկի համար խաղացողը`"
 
-#: modules/gui/qt4/main_interface.cpp:1300
+#: modules/gui/qt4/main_interface.cpp:1341
 msgid "Paused"
 msgstr "Ընդմիջված"
 
