@@ -332,11 +332,9 @@ static void I420_YUY2( filter_t *p_filter, picture_t *p_source,
             C_YUV420_YUYV( );
         }
 
-        p_y1 += i_source_margin;
         p_y2 += i_source_margin;
         p_u += i_source_margin_c;
         p_v += i_source_margin_c;
-        p_line1 += i_dest_margin;
         p_line2 += i_dest_margin;
     }
 
@@ -376,11 +374,9 @@ static void I420_YUY2( filter_t *p_filter, picture_t *p_source,
                 C_YUV420_YUYV( );
             }
 
-            p_y1 += i_source_margin;
             p_y2 += i_source_margin;
             p_u += i_source_margin_c;
             p_v += i_source_margin_c;
-            p_line1 += i_dest_margin;
             p_line2 += i_dest_margin;
         }
     }
@@ -404,11 +400,9 @@ static void I420_YUY2( filter_t *p_filter, picture_t *p_source,
                 C_YUV420_YUYV( );
             }
 
-            p_y1 += i_source_margin;
             p_y2 += i_source_margin;
             p_u += i_source_margin_c;
             p_v += i_source_margin_c;
-            p_line1 += i_dest_margin;
             p_line2 += i_dest_margin;
         }
     }
