@@ -1,6 +1,6 @@
 # Korean translation
-# Copyright (C) 2015 VideoLAN
-# This file is distributed under the same license as the VLC package.
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the vlc package.
 #
 # Translators:
 # airplanez <airplanez@gmail.com>, 2012
@@ -8,14 +8,14 @@
 # Han HoJoong <0demon0@paran.com>, 2005
 # Kang Jeong-Hee <keizie@gmail.com>, 2007
 # Namhyung Kim <namhyung@gmail.com>, 2007
-# Potato <sheppaul@naver.com>, 2013-2015
+# Potato <sheppaul@naver.com>, 2013-2016
 # Seongki Shin <skshin@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2015-12-04 12:15+0000\n"
+"PO-Revision-Date: 2016-03-27 12:53+0000\n"
 "Last-Translator: Potato <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/yaron/vlc-trans/language/"
 "ko/)\n"
@@ -341,7 +341,7 @@ msgstr "VOD"
 
 #: include/vlc_config_cat.h:163
 msgid "VLC's implementation of Video On Demand"
-msgstr "VLC의 VOD (Video On Demand) 구현"
+msgstr "VLC의 VOD (주문형 비디오) 구현"
 
 #: include/vlc_config_cat.h:167 src/libvlc-module.c:1993
 #: src/playlist/engine.c:245 modules/demux/playlist/playlist.c:64
@@ -396,7 +396,7 @@ msgid ""
 "go to the directory where you installed VLC and run \"vlc -I qt\"\n"
 msgstr ""
 "\n"
-"경고: GUI 에 더 이상 접근할 수 없으면, 명령줄 창을 열고 VLC가 설치된 폴더로 "
+"경고: GUI 에 더 이상 접근할 수 없으면, 명령행 창을 열고 VLC가 설치된 폴더로 "
 "이동하여 \"vlc -I qt\" 를 실행하세요\n"
 
 #: include/vlc_intf_strings.h:46
@@ -709,7 +709,7 @@ msgstr "자동"
 
 #: src/config/file.c:460
 msgid "boolean"
-msgstr "boolean"
+msgstr "불 방식"
 
 #: src/config/file.c:460 src/config/help.c:397
 msgid "integer"
@@ -810,7 +810,7 @@ msgstr "주의:"
 
 #: src/config/help.c:593
 msgid "add --advanced to your command line to see advanced options."
-msgstr "고급 옵션을 보려면 명령줄에 --advanced 를 추가하세요."
+msgstr "고급 옵션을 보려면 명령행에 --advanced 를 추가하세요."
 
 #: src/config/help.c:598
 #, c-format
@@ -849,7 +849,7 @@ msgid ""
 "Dumped content to vlc-help.txt file.\n"
 msgstr ""
 "\n"
-"vlc-help.txt 파일로 내용 덤프.\n"
+"vlc-help.txt 파일로 내용을 출력했습니다.\n"
 
 #: src/config/help.c:713
 msgid ""
@@ -857,11 +857,11 @@ msgid ""
 "Press the RETURN key to continue...\n"
 msgstr ""
 "\n"
-"계속하려면  Enter 키를 눌러 주세요...\n"
+"계속하려면 엔터키를 누르세요...\n"
 
 #: src/config/keys.c:56
 msgid "Backspace"
-msgstr "Backspace"
+msgstr "백스페이스"
 
 #: src/config/keys.c:57
 msgid "Brightness Down"
@@ -912,7 +912,7 @@ msgstr "Down"
 
 #: src/config/keys.c:68 modules/control/rc.c:72
 msgid "End"
-msgstr "끝"
+msgstr "End"
 
 #: src/config/keys.c:69
 msgid "Enter"
@@ -1109,7 +1109,7 @@ msgstr "Up"
 
 #: src/config/keys.c:118 modules/gui/macosx/MainMenu.m:515
 msgid "Volume Down"
-msgstr "볼륨 줄이기"
+msgstr "볼륨 낮추기"
 
 #: src/config/keys.c:119
 msgid "Volume Mute"
@@ -1435,7 +1435,7 @@ msgstr "트랙 수"
 
 #: src/input/meta.c:74
 msgid "Director"
-msgstr "디렉터"
+msgstr "감독"
 
 #: src/input/meta.c:75
 msgid "Season"
@@ -1625,7 +1625,7 @@ msgstr "상세 출력 (0,1,2)"
 msgid ""
 "This is the verbosity level (0=only errors and standard messages, "
 "1=warnings, 2=debug)."
-msgstr "상세 출력 수준입니다 (0=에러 및 표준 메시지만, 1=경고, 2=디버그)."
+msgstr "상세 출력 수준입니다 (0=오류 및 표준 메시지만, 1=경고, 2=디버그)."
 
 #: src/libvlc-module.c:88
 msgid "Be quiet"
@@ -1727,7 +1727,7 @@ msgstr "이 선형 이득(linear gain)이 출력되는 오디오에 적용될 �
 
 #: src/libvlc-module.c:140
 msgid "Audio output volume step"
-msgstr "음량 조절 단계"
+msgstr "오디오 볼륨 조절 단계"
 
 #: src/libvlc-module.c:142
 msgid "The step size of the volume is adjustable using this option."
@@ -1864,11 +1864,11 @@ msgstr "리플레이 게인 정보가 없는 스트림에 사용되는 이득입
 
 #: src/libvlc-module.c:214
 msgid "Peak protection"
-msgstr "Peak 보호"
+msgstr "피크 보호"
 
 #: src/libvlc-module.c:216
 msgid "Protect against sound clipping"
-msgstr "사운드 clipping 방지"
+msgstr "사운드 클리핑 방지"
 
 #: src/libvlc-module.c:219
 msgid "Enable time stretching audio"
@@ -2245,7 +2245,7 @@ msgstr ""
 #: src/libvlc-module.c:372 modules/gui/macosx/simple_prefs.m:424
 #: modules/gui/qt4/ui/sprefs_video.h:327
 msgid "Window decorations"
-msgstr "윈도우 꾸미기"
+msgstr "창 꾸미기"
 
 #: src/libvlc-module.c:374
 msgid ""
@@ -2579,8 +2579,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -3250,7 +3251,7 @@ msgstr "제목 메타데이터"
 
 #: src/libvlc-module.c:864
 msgid "Allows you to specify a \"title\" metadata for an input."
-msgstr "입력에 \"제목\" 메타데이터 지정 허용."
+msgstr "입력에 \"제목\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:866
 msgid "Author metadata"
@@ -3258,7 +3259,7 @@ msgstr "저자 메타데이터"
 
 #: src/libvlc-module.c:868
 msgid "Allows you to specify an \"author\" metadata for an input."
-msgstr "입력에 \"저자\" 메타데이터 지정 허용."
+msgstr "입력에 \"저자\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:870
 msgid "Artist metadata"
@@ -3266,7 +3267,7 @@ msgstr "아티스트 메타데이터"
 
 #: src/libvlc-module.c:872
 msgid "Allows you to specify an \"artist\" metadata for an input."
-msgstr "입력에 \"아티스트\" 메타데이터 지정 허용."
+msgstr "입력에 \"아티스트\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:874
 msgid "Genre metadata"
@@ -3274,7 +3275,7 @@ msgstr "장르 메타데이터"
 
 #: src/libvlc-module.c:876
 msgid "Allows you to specify a \"genre\" metadata for an input."
-msgstr "입력에 \"장르\" 메타데이터 지정 허용."
+msgstr "입력에 \"장르\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:878
 msgid "Copyright metadata"
@@ -3282,7 +3283,7 @@ msgstr "저작권 메타데이터"
 
 #: src/libvlc-module.c:880
 msgid "Allows you to specify a \"copyright\" metadata for an input."
-msgstr ". "
+msgstr "입력에 \"저작권\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:882
 msgid "Description metadata"
@@ -3290,7 +3291,7 @@ msgstr "설명 메타데이터"
 
 #: src/libvlc-module.c:884
 msgid "Allows you to specify a \"description\" metadata for an input."
-msgstr "입력에 \"설명\" 메타데이터 지정 허용."
+msgstr "입력에 \"설명\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:886
 msgid "Date metadata"
@@ -3298,7 +3299,7 @@ msgstr "날짜 메타데이터"
 
 #: src/libvlc-module.c:888
 msgid "Allows you to specify a \"date\" metadata for an input."
-msgstr "입력에 \"날짜\" 메타데이터 지정 허용."
+msgstr "입력에 \"날짜\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:890
 msgid "URL metadata"
@@ -3306,7 +3307,7 @@ msgstr "URL 메타데이터"
 
 #: src/libvlc-module.c:892
 msgid "Allows you to specify a \"url\" metadata for an input."
-msgstr "입력에 \"url\" 메타데이터 지정 허용."
+msgstr "입력에 \"url\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #: src/libvlc-module.c:896
 msgid ""
@@ -3583,7 +3584,7 @@ msgstr "VLM 설정 파일"
 
 #: src/libvlc-module.c:1035
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr "VLM 이 시작할 때 VLM 설정 파일을 읽습니다."
+msgstr "VLM이 시작할 때 VLM 설정 파일을 읽습니다."
 
 #: src/libvlc-module.c:1037
 msgid "Use a plugins cache"
@@ -3844,7 +3845,7 @@ msgstr "무시"
 
 #: src/libvlc-module.c:1183
 msgid "Volume Control"
-msgstr "음량 제어"
+msgstr "볼륨 제어"
 
 #: src/libvlc-module.c:1183
 msgid "Position Control"
@@ -4199,7 +4200,7 @@ msgstr "볼륨 높임"
 
 #: src/libvlc-module.c:1279
 msgid "Select the key to increase audio volume."
-msgstr "오디오 음량 키울 키 선택."
+msgstr "오디오 볼륨을 높일 키를 선택하세요."
 
 #: src/libvlc-module.c:1280
 msgid "Volume down"
@@ -4207,7 +4208,7 @@ msgstr "볼륨 낮춤"
 
 #: src/libvlc-module.c:1281
 msgid "Select the key to decrease audio volume."
-msgstr "오디오 음량 줄일 키 선택."
+msgstr "오디오 볼륨을 낮출 키를 선택하세요."
 
 #: src/libvlc-module.c:1282 modules/access/v4l2/v4l2.c:181
 #: modules/gui/macosx/ControlsBar.m:500 modules/gui/macosx/MainMenu.m:426
@@ -4575,7 +4576,7 @@ msgstr "일반/순환/반복"
 
 #: src/libvlc-module.c:1384
 msgid "Toggle Normal/Loop/Repeat playlist modes"
-msgstr "일반/순환/반목 재생목록 모드 토글하기"
+msgstr "일반/순환/반복 재생목록 모드 토글하기"
 
 #: src/libvlc-module.c:1387
 msgid "Toggle random playlist playback"
@@ -4701,7 +4702,7 @@ msgstr "VLM"
 
 #: src/libvlc-module.c:1952
 msgid "Special modules"
-msgstr "특별 모듈"
+msgstr "특수 모듈"
 
 #: src/libvlc-module.c:1957 modules/gui/qt4/dialogs/plugins.cpp:84
 msgid "Plugins"
@@ -4820,11 +4821,11 @@ msgid ""
 "Downloading... %s/%s %.1f%% done"
 msgstr ""
 "%s\n"
-"다운로드중... %s/%s %.1f%% 완료"
+"다운로드 중... %s/%s %.1f%% 완료"
 
 #: src/misc/update.c:596
 msgid "Downloading ..."
-msgstr "다운로드중..."
+msgstr "다운로드 중..."
 
 #: src/misc/update.c:597 src/misc/update.c:724 modules/demux/avi/avi.c:2567
 #: modules/gui/macosx/AudioEffects.m:372 modules/gui/macosx/AudioEffects.m:387
@@ -4855,11 +4856,11 @@ msgid ""
 "Downloading... %s/%s - %.1f%% done"
 msgstr ""
 "%s\n"
-"다운로드중... %s/%s - %.1f%% 완료"
+"다운로드 중... %s/%s - %.1f%% 완료"
 
 #: src/misc/update.c:649
 msgid "File could not be verified"
-msgstr "파일을 확인할수 없음"
+msgstr "파일을 확인할 수 없음"
 
 #: src/misc/update.c:650
 #, c-format
@@ -4885,7 +4886,7 @@ msgstr ""
 
 #: src/misc/update.c:686
 msgid "File not verifiable"
-msgstr "파일을 검사할수 없음"
+msgstr "파일을 검사할 수 없음"
 
 #: src/misc/update.c:687
 #, c-format
@@ -4901,7 +4902,7 @@ msgstr "파일 손상됨"
 #: src/misc/update.c:699 src/misc/update.c:711
 #, c-format
 msgid "Downloaded file \"%s\" was corrupted. Thus, it was deleted."
-msgstr "다운로드 파일 \"%s\" 가 손상됨. 그래서 삭제되었습니다."
+msgstr "다운로드한 \"%s\" 파일이 손상되서 삭제했습니다."
 
 #: src/misc/update.c:722
 msgid "Update VLC media player"
@@ -4930,7 +4931,7 @@ msgstr "정의되지 않음"
 
 #: src/text/iso-639_def.h:40
 msgid "Afar"
-msgstr "Afar"
+msgstr "아파르어"
 
 #: src/text/iso-639_def.h:41
 msgid "Abkhazian"
@@ -4970,15 +4971,15 @@ msgstr "아이마라어"
 
 #: src/text/iso-639_def.h:50
 msgid "Azerbaijani"
-msgstr "Azerbaijani"
+msgstr "아제르바이잔어"
 
 #: src/text/iso-639_def.h:51
 msgid "Bashkir"
-msgstr "Bashkir"
+msgstr "바슈키르어"
 
 #: src/text/iso-639_def.h:52
 msgid "Basque"
-msgstr "Basque"
+msgstr "바스크어"
 
 #: src/text/iso-639_def.h:53
 msgid "Belarusian"
@@ -5002,7 +5003,7 @@ msgstr "보스니아어"
 
 #: src/text/iso-639_def.h:58
 msgid "Breton"
-msgstr "Breton"
+msgstr "브르타뉴어"
 
 #: src/text/iso-639_def.h:59
 msgid "Bulgarian"
@@ -5010,7 +5011,7 @@ msgstr "불가리아어"
 
 #: src/text/iso-639_def.h:60
 msgid "Burmese"
-msgstr "Burmese"
+msgstr "버마어"
 
 #: src/text/iso-639_def.h:61
 msgid "Catalan"
@@ -5018,11 +5019,11 @@ msgstr "카탈로니아어"
 
 #: src/text/iso-639_def.h:62
 msgid "Chamorro"
-msgstr "Chamorro"
+msgstr "챠모르어"
 
 #: src/text/iso-639_def.h:63
 msgid "Chechen"
-msgstr "Chechen"
+msgstr "체첸어"
 
 #: src/text/iso-639_def.h:64
 msgid "Chinese"
@@ -5030,19 +5031,19 @@ msgstr "중국어"
 
 #: src/text/iso-639_def.h:65
 msgid "Church Slavic"
-msgstr "Church Slavic"
+msgstr "교회 슬라브어"
 
 #: src/text/iso-639_def.h:66
 msgid "Chuvash"
-msgstr "Chuvash"
+msgstr "츄바시어"
 
 #: src/text/iso-639_def.h:67
 msgid "Cornish"
-msgstr "Cornish"
+msgstr "콘월어"
 
 #: src/text/iso-639_def.h:68
 msgid "Corsican"
-msgstr "Corsican"
+msgstr "코르시카어"
 
 #: src/text/iso-639_def.h:69
 msgid "Czech"
@@ -5058,7 +5059,7 @@ msgstr "네덜란드어"
 
 #: src/text/iso-639_def.h:72
 msgid "Dzongkha"
-msgstr "Dzongkha"
+msgstr "종카어"
 
 #: src/text/iso-639_def.h:73
 msgid "English"
@@ -5066,7 +5067,7 @@ msgstr "영어"
 
 #: src/text/iso-639_def.h:74
 msgid "Esperanto"
-msgstr "에스페란토"
+msgstr "에스페란토어"
 
 #: src/text/iso-639_def.h:75
 msgid "Estonian"
@@ -5074,11 +5075,11 @@ msgstr "에스토니아어"
 
 #: src/text/iso-639_def.h:76
 msgid "Faroese"
-msgstr "Faroese"
+msgstr "페로스어"
 
 #: src/text/iso-639_def.h:77
 msgid "Fijian"
-msgstr "Fijian"
+msgstr "피지어"
 
 #: src/text/iso-639_def.h:78
 msgid "Finnish"
@@ -5090,7 +5091,7 @@ msgstr "프랑스어"
 
 #: src/text/iso-639_def.h:80
 msgid "Frisian"
-msgstr "Frisian"
+msgstr "프리지아어"
 
 #: src/text/iso-639_def.h:81
 msgid "Georgian"
@@ -5102,27 +5103,27 @@ msgstr "독일어"
 
 #: src/text/iso-639_def.h:83
 msgid "Gaelic (Scots)"
-msgstr "Gaelic (Scots)"
+msgstr "게일어 (스코틀랜드)"
 
 #: src/text/iso-639_def.h:84
 msgid "Irish"
-msgstr "Irish"
+msgstr "아일랜드어"
 
 #: src/text/iso-639_def.h:85
 msgid "Gallegan"
-msgstr "Gallegan"
+msgstr "갈리시아어"
 
 #: src/text/iso-639_def.h:86
 msgid "Manx"
-msgstr "Manx"
+msgstr "맹크스어"
 
 #: src/text/iso-639_def.h:87
 msgid "Greek, Modern"
-msgstr "Greek, Modern"
+msgstr "현대 그리스어"
 
 #: src/text/iso-639_def.h:88
 msgid "Guarani"
-msgstr "Guarani"
+msgstr "과라니어"
 
 #: src/text/iso-639_def.h:89
 msgid "Gujarati"
@@ -5130,19 +5131,19 @@ msgstr "구자라티어"
 
 #: src/text/iso-639_def.h:90
 msgid "Hebrew"
-msgstr "헤브류어"
+msgstr "히브리어"
 
 #: src/text/iso-639_def.h:91
 msgid "Herero"
-msgstr "Herero"
+msgstr "헤레로어"
 
 #: src/text/iso-639_def.h:92
 msgid "Hindi"
-msgstr "Hindi"
+msgstr "힌디어"
 
 #: src/text/iso-639_def.h:93
 msgid "Hiri Motu"
-msgstr "Hiri Motu"
+msgstr "모투어"
 
 #: src/text/iso-639_def.h:94
 msgid "Hungarian"
@@ -5150,19 +5151,19 @@ msgstr "헝가리어"
 
 #: src/text/iso-639_def.h:95
 msgid "Icelandic"
-msgstr "Icelandic"
+msgstr "아이슬란드어"
 
 #: src/text/iso-639_def.h:96
 msgid "Inuktitut"
-msgstr "Inuktitut"
+msgstr "이누크티투트어"
 
 #: src/text/iso-639_def.h:97
 msgid "Interlingue"
-msgstr "Interlingue"
+msgstr "국제보조언어"
 
 #: src/text/iso-639_def.h:98
 msgid "Interlingua"
-msgstr "Interlingua"
+msgstr "인터링구아(과학자용 인공 국제어)"
 
 #: src/text/iso-639_def.h:99
 msgid "Indonesian"
@@ -5170,7 +5171,7 @@ msgstr "인도네시아어"
 
 #: src/text/iso-639_def.h:100
 msgid "Inupiaq"
-msgstr "Inupiaq"
+msgstr "이누피아크어"
 
 #: src/text/iso-639_def.h:101
 msgid "Italian"
@@ -5178,7 +5179,7 @@ msgstr "이탈리아어"
 
 #: src/text/iso-639_def.h:102
 msgid "Javanese"
-msgstr "Javanese"
+msgstr "자바어"
 
 #: src/text/iso-639_def.h:103
 msgid "Japanese"
@@ -5186,39 +5187,39 @@ msgstr "일본어"
 
 #: src/text/iso-639_def.h:104
 msgid "Greenlandic, Kalaallisut"
-msgstr "Greenlandic, Kalaallisut"
+msgstr "그린란드어, 칼랄리수트"
 
 #: src/text/iso-639_def.h:105
 msgid "Kannada"
-msgstr "Kannada"
+msgstr "칸나다어"
 
 #: src/text/iso-639_def.h:106
 msgid "Kashmiri"
-msgstr "Kashmiri"
+msgstr "카슈미르어"
 
 #: src/text/iso-639_def.h:107
 msgid "Kazakh"
-msgstr "Kazakh"
+msgstr "카자흐어"
 
 #: src/text/iso-639_def.h:108
 msgid "Khmer"
-msgstr "Khmer"
+msgstr "크메르어"
 
 #: src/text/iso-639_def.h:109
 msgid "Kikuyu"
-msgstr "Kikuyu"
+msgstr "키쿠유어"
 
 #: src/text/iso-639_def.h:110
 msgid "Kinyarwanda"
-msgstr "Kinyarwanda"
+msgstr "키냐르완다어"
 
 #: src/text/iso-639_def.h:111
 msgid "Kirghiz"
-msgstr "Kirghiz"
+msgstr "키르기스어"
 
 #: src/text/iso-639_def.h:112
 msgid "Komi"
-msgstr "Komi"
+msgstr "코미어"
 
 #: src/text/iso-639_def.h:113
 msgid "Korean"
@@ -5226,7 +5227,7 @@ msgstr "한국어"
 
 #: src/text/iso-639_def.h:114
 msgid "Kuanyama"
-msgstr "Kuanyama"
+msgstr "콴야마어"
 
 #: src/text/iso-639_def.h:115
 msgid "Kurdish"
@@ -5246,7 +5247,7 @@ msgstr "라트비아어"
 
 #: src/text/iso-639_def.h:119
 msgid "Lingala"
-msgstr "Lingala"
+msgstr "링갈라어"
 
 #: src/text/iso-639_def.h:120
 msgid "Lithuanian"
@@ -5254,7 +5255,7 @@ msgstr "리투아니아어"
 
 #: src/text/iso-639_def.h:121
 msgid "Letzeburgesch"
-msgstr "Letzeburgesch"
+msgstr "레체뷔르게시어"
 
 #: src/text/iso-639_def.h:122
 msgid "Macedonian"
@@ -5262,19 +5263,19 @@ msgstr "마케도니아어"
 
 #: src/text/iso-639_def.h:123
 msgid "Marshall"
-msgstr "Marshall"
+msgstr "마샬어"
 
 #: src/text/iso-639_def.h:124
 msgid "Malayalam"
-msgstr "Malayalam"
+msgstr "말라얄람어"
 
 #: src/text/iso-639_def.h:125
 msgid "Maori"
-msgstr "Maori"
+msgstr "마오리어"
 
 #: src/text/iso-639_def.h:126
 msgid "Marathi"
-msgstr "Marathi"
+msgstr "마라티어"
 
 #: src/text/iso-639_def.h:127
 msgid "Malay"
@@ -5282,15 +5283,15 @@ msgstr "말레이어"
 
 #: src/text/iso-639_def.h:128
 msgid "Malagasy"
-msgstr "Malagasy"
+msgstr "말라가시어"
 
 #: src/text/iso-639_def.h:129
 msgid "Maltese"
-msgstr "Maltese"
+msgstr "몰타어"
 
 #: src/text/iso-639_def.h:130
 msgid "Moldavian"
-msgstr "Moldavian"
+msgstr "몰디비아어"
 
 #: src/text/iso-639_def.h:131
 msgid "Mongolian"
@@ -5298,27 +5299,27 @@ msgstr "몽골어"
 
 #: src/text/iso-639_def.h:132
 msgid "Nauru"
-msgstr "Nauru"
+msgstr "나우루어"
 
 #: src/text/iso-639_def.h:133
 msgid "Navajo"
-msgstr "Navajo"
+msgstr "나바호어"
 
 #: src/text/iso-639_def.h:134
 msgid "Ndebele, South"
-msgstr "Ndebele, South"
+msgstr "남은데벨레어"
 
 #: src/text/iso-639_def.h:135
 msgid "Ndebele, North"
-msgstr "Ndebele, North"
+msgstr "북은데벨레어"
 
 #: src/text/iso-639_def.h:136
 msgid "Ndonga"
-msgstr "Ndonga"
+msgstr "은동가어"
 
 #: src/text/iso-639_def.h:137
 msgid "Nepali"
-msgstr "Nepali"
+msgstr "네팔어"
 
 #: src/text/iso-639_def.h:138
 msgid "Norwegian"
@@ -5326,35 +5327,35 @@ msgstr "노르웨이어"
 
 #: src/text/iso-639_def.h:139
 msgid "Norwegian Nynorsk"
-msgstr "Norwegian Nynorsk"
+msgstr "노르웨이 뉘노르스크어"
 
 #: src/text/iso-639_def.h:140
 msgid "Norwegian Bokmaal"
-msgstr "Norwegian Bokmaal"
+msgstr "노르웨어 보크몰어"
 
 #: src/text/iso-639_def.h:141
 msgid "Chichewa; Nyanja"
-msgstr "Chichewa; Nyanja"
+msgstr "치체와어; 냔자어"
 
 #: src/text/iso-639_def.h:142
 msgid "Occitan; Provençal"
-msgstr "Occitan; Provençal"
+msgstr "프로방스어"
 
 #: src/text/iso-639_def.h:143
 msgid "Oriya"
-msgstr "Oriya"
+msgstr "오리아어"
 
 #: src/text/iso-639_def.h:144
 msgid "Oromo"
-msgstr "Oromo"
+msgstr "오로모어"
 
 #: src/text/iso-639_def.h:146
 msgid "Ossetian; Ossetic"
-msgstr "Ossetian; Ossetic"
+msgstr "오세트어"
 
 #: src/text/iso-639_def.h:147
 msgid "Panjabi"
-msgstr "Panjabi"
+msgstr "펀자브어"
 
 #: src/text/iso-639_def.h:148
 msgid "Persian"
@@ -5362,7 +5363,7 @@ msgstr "페르시아어"
 
 #: src/text/iso-639_def.h:149
 msgid "Pali"
-msgstr "Pali"
+msgstr "팔리어"
 
 #: src/text/iso-639_def.h:150
 msgid "Polish"
@@ -5374,11 +5375,11 @@ msgstr "포르투갈어"
 
 #: src/text/iso-639_def.h:152
 msgid "Pushto"
-msgstr "Pushto"
+msgstr "파슈토어"
 
 #: src/text/iso-639_def.h:153
 msgid "Quechua"
-msgstr "Quechua"
+msgstr "케추아어"
 
 #: src/text/iso-639_def.h:154
 msgid "Original audio"
@@ -5386,7 +5387,7 @@ msgstr "원본 오디오"
 
 #: src/text/iso-639_def.h:155
 msgid "Raeto-Romance"
-msgstr "Raeto-Romance"
+msgstr "레토-로멘스"
 
 #: src/text/iso-639_def.h:156
 msgid "Romanian"
@@ -5394,19 +5395,19 @@ msgstr "루마니아어"
 
 #: src/text/iso-639_def.h:157
 msgid "Rundi"
-msgstr "Rundi"
+msgstr "룬디어"
 
 #: src/text/iso-639_def.h:158
 msgid "Russian"
-msgstr "Russian"
+msgstr "러시아어"
 
 #: src/text/iso-639_def.h:159
 msgid "Sango"
-msgstr "Sango"
+msgstr "상고어"
 
 #: src/text/iso-639_def.h:160
 msgid "Sanskrit"
-msgstr "Sanskrit"
+msgstr "산스크리트어"
 
 #: src/text/iso-639_def.h:161
 msgid "Serbian"
@@ -5418,7 +5419,7 @@ msgstr "크로아티아어"
 
 #: src/text/iso-639_def.h:163
 msgid "Sinhalese"
-msgstr "Sinhalese"
+msgstr "신할라어"
 
 #: src/text/iso-639_def.h:164
 msgid "Slovak"
@@ -5430,7 +5431,7 @@ msgstr "슬로베니아어"
 
 #: src/text/iso-639_def.h:166
 msgid "Northern Sami"
-msgstr "Northern Sami"
+msgstr "북부 사미어"
 
 #: src/text/iso-639_def.h:167
 msgid "Samoan"
@@ -5438,19 +5439,19 @@ msgstr "사모아어"
 
 #: src/text/iso-639_def.h:168
 msgid "Shona"
-msgstr "Shona"
+msgstr "쇼나어"
 
 #: src/text/iso-639_def.h:169
 msgid "Sindhi"
-msgstr "Sindhi"
+msgstr "신드어"
 
 #: src/text/iso-639_def.h:170
 msgid "Somali"
-msgstr "Somali"
+msgstr "소말리어"
 
 #: src/text/iso-639_def.h:171
 msgid "Sotho, Southern"
-msgstr "Sotho, Southern"
+msgstr "남부 소토어"
 
 #: src/text/iso-639_def.h:172
 msgid "Spanish"
@@ -5458,15 +5459,15 @@ msgstr "스페인어"
 
 #: src/text/iso-639_def.h:173
 msgid "Sardinian"
-msgstr "Sardinian"
+msgstr "사르데냐어"
 
 #: src/text/iso-639_def.h:174
 msgid "Swati"
-msgstr "Swati"
+msgstr "스와트어"
 
 #: src/text/iso-639_def.h:175
 msgid "Sundanese"
-msgstr "Sundanese"
+msgstr "순다어"
 
 #: src/text/iso-639_def.h:176
 msgid "Swahili"
@@ -5478,23 +5479,23 @@ msgstr "스웨덴어"
 
 #: src/text/iso-639_def.h:178
 msgid "Tahitian"
-msgstr "Tahitian"
+msgstr "타히티어"
 
 #: src/text/iso-639_def.h:179
 msgid "Tamil"
-msgstr "Tamil"
+msgstr "타밀어"
 
 #: src/text/iso-639_def.h:180
 msgid "Tatar"
-msgstr "Tatar"
+msgstr "타타르어"
 
 #: src/text/iso-639_def.h:181
 msgid "Telugu"
-msgstr "Telugu"
+msgstr "델루구어"
 
 #: src/text/iso-639_def.h:182
 msgid "Tajik"
-msgstr "Tajik"
+msgstr "타지크어"
 
 #: src/text/iso-639_def.h:183
 msgid "Tagalog"
@@ -5506,23 +5507,23 @@ msgstr "타이어"
 
 #: src/text/iso-639_def.h:185
 msgid "Tibetan"
-msgstr "Tibetan"
+msgstr "티베트어"
 
 #: src/text/iso-639_def.h:186
 msgid "Tigrinya"
-msgstr "Tigrinya"
+msgstr "티그리냐어"
 
 #: src/text/iso-639_def.h:187
 msgid "Tonga (Tonga Islands)"
-msgstr "Tonga (Tonga Islands)"
+msgstr "통가어 (통가섬)"
 
 #: src/text/iso-639_def.h:188
 msgid "Tswana"
-msgstr "Tswana"
+msgstr "츠와나어"
 
 #: src/text/iso-639_def.h:189
 msgid "Tsonga"
-msgstr "Tsonga"
+msgstr "총가어"
 
 #: src/text/iso-639_def.h:190
 msgid "Turkish"
@@ -5530,19 +5531,19 @@ msgstr "터키어"
 
 #: src/text/iso-639_def.h:191
 msgid "Turkmen"
-msgstr "Turkmen"
+msgstr "투르크맨어"
 
 #: src/text/iso-639_def.h:192
 msgid "Twi"
-msgstr "Twi"
+msgstr "트위어"
 
 #: src/text/iso-639_def.h:193
 msgid "Uighur"
-msgstr "Uighur"
+msgstr "위구르어"
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
-msgstr "Ukrainian"
+msgstr "우크라니아어"
 
 #: src/text/iso-639_def.h:195
 msgid "Urdu"
@@ -5554,19 +5555,19 @@ msgstr "우즈베키스탄어"
 
 #: src/text/iso-639_def.h:197
 msgid "Vietnamese"
-msgstr "Vietnamese"
+msgstr "베트남어"
 
 #: src/text/iso-639_def.h:198
 msgid "Volapuk"
-msgstr "Volapuk"
+msgstr "볼라퓌크어"
 
 #: src/text/iso-639_def.h:199
 msgid "Welsh"
-msgstr "Welsh"
+msgstr "웨일스어"
 
 #: src/text/iso-639_def.h:200
 msgid "Wolof"
-msgstr "Wolof"
+msgstr "월로프어"
 
 #: src/text/iso-639_def.h:201
 msgid "Xhosa"
@@ -5574,15 +5575,15 @@ msgstr "코사어"
 
 #: src/text/iso-639_def.h:202
 msgid "Yiddish"
-msgstr "Yiddish"
+msgstr "이디시어"
 
 #: src/text/iso-639_def.h:203
 msgid "Yoruba"
-msgstr "Yoruba"
+msgstr "요루바어"
 
 #: src/text/iso-639_def.h:204
 msgid "Zhuang"
-msgstr "Zhuang"
+msgstr "좡어"
 
 #: src/text/iso-639_def.h:205
 msgid "Zulu"
@@ -5811,7 +5812,7 @@ msgstr "오디오 CD 입력"
 
 #: modules/access/cdda.c:69
 msgid "[cdda:][device][@[track]]"
-msgstr "[cdda:][device][@[track]]"
+msgstr "[cdda:][장치][@[트랙]]"
 
 #: modules/access/cdda.c:78
 msgid "CDDB Server"
@@ -5859,7 +5860,7 @@ msgid ""
 "DeckLink capture card to use, if multiple exist. The cards are numbered from "
 "0."
 msgstr ""
-"사용할 DeckLink 캡처 카드가 여러 개 있는 경우, 카드 번호는 0 부터 매겨집니다."
+"사용할 덱링크 캡처 카드가 여러 개 있는 경우, 카드 번호는 0 부터 매겨집니다."
 
 #: modules/access/decklink.cpp:51
 msgid "Desired input video mode. Leave empty for autodetection."
@@ -5870,8 +5871,8 @@ msgid ""
 "Desired input video mode for DeckLink captures. This value should be a "
 "FOURCC code in textual form, e.g. \"ntsc\"."
 msgstr ""
-"DeckLink 캡처의 요구되는 입력 비디오 모드. 이 값은 텍스트 형식의 FourCC 코드"
-"여야 합니다. 예. \"ntsc\""
+"덱링크 캡처에 요구되는 입력 비디오 모드. 이 값은 텍스트 형식의 FourCC 코드여"
+"야 합니다. 예. \"ntsc\""
 
 #: modules/access/decklink.cpp:57 modules/video_output/decklink.cpp:90
 msgid "Audio connection"
@@ -5882,7 +5883,7 @@ msgid ""
 "Audio connection to use for DeckLink captures. Valid choices: embedded, "
 "aesebu, analog. Leave blank for card default."
 msgstr ""
-"DeckLink 캡처에 사용할 오디오 연결. 유요한 선택: embedded, aesebu, analog. 카"
+"덱링크 캡처에 사용할 오디오 연결. 유요한 선택: embedded, aesebu, analog. 카"
 "드 기본값을 사용하려면 공백으로 놔 두세요."
 
 #: modules/access/decklink.cpp:63 modules/demux/rawaud.c:43
@@ -5894,7 +5895,7 @@ msgstr "오디오 샘플레이트 (Hz)"
 msgid ""
 "Audio sampling rate (in hertz) for DeckLink captures. 0 disables audio input."
 msgstr ""
-"DeckLink 캡처시 오디오 샘플링 레이트 (hertz 단위). 0 은 오디오 입력을 끕니다."
+"덱링크 캡처시 오디오 샘플링 레이트 (hertz 단위). 0 은 오디오 입력을 끕니다."
 
 #: modules/access/decklink.cpp:68 modules/access/dshow/dshow.cpp:197
 #: modules/video_output/decklink.cpp:100
@@ -5906,8 +5907,8 @@ msgid ""
 "Number of input audio channels for DeckLink captures. Must be 2, 8 or 16. 0 "
 "disables audio input."
 msgstr ""
-"DeckLink 캡처의 입력 오디오 채널 수. 2, 8이나 16 중 하나여야 합니다. 0 은 오"
-"디오 입력을 끕니다."
+"덱링크 캡처의 입력 오디오 채널 수. 2, 8이나 16 중 하나여야 합니다. 0 은 오디"
+"오 입력을 끕니다."
 
 #: modules/access/decklink.cpp:73 modules/video_output/decklink.cpp:105
 msgid "Video connection"
@@ -5918,7 +5919,7 @@ msgid ""
 "Video connection to use for DeckLink captures. Valid choices: sdi, hdmi, "
 "opticalsdi, component, composite, svideo. Leave blank for card default."
 msgstr ""
-"DeckLink 캡처에 사용할 비디오 연결. 유효한 선택: sdi, hdmi, opticalsdi, "
+"덱링크 캡처에 사용할 비디오 연결. 유효한 선택: sdi, hdmi, opticalsdi, "
 "component, composite, svideo. 카드 기본값을 쓰려면 공백으로 놔 두세요."
 
 #: modules/access/decklink.cpp:84 modules/access/linsys/linsys_sdi.c:93
@@ -5964,11 +5965,11 @@ msgstr "화면 비율 (4:3, 16:9). 기본적으로 정사각형 픽셀로 가정
 
 #: modules/access/decklink.cpp:99
 msgid "DeckLink"
-msgstr "DeckLink"
+msgstr "덱링크"
 
 #: modules/access/decklink.cpp:100
 msgid "Blackmagic DeckLink SDI input"
-msgstr "Blackmagic DeckLink SDI 입력"
+msgstr "블랙매직 덱링크 SDI 입력"
 
 #: modules/access/decklink.cpp:120 modules/video_output/decklink.cpp:109
 msgid "10 bits"
@@ -6233,7 +6234,7 @@ msgstr "비디오 또는 오디오 장치가 선택되지 않음."
 #: modules/access/dshow/dshow.cpp:602
 msgid "VLC cannot open ANY capture device. Check the error log for details."
 msgstr ""
-"VLC가 아무 캡처 장치도 열 수 없습니다. 자세한 사항은 에러 로그를 확인하세요."
+"VLC가 아무 캡처 장치도 열 수 없습니다. 자세한 사항은 오류 로그를 확인하세요."
 
 #: modules/access/dshow/dshow.cpp:1041
 msgid ""
@@ -6652,7 +6653,7 @@ msgstr "ATSC 소수 채널"
 
 #: modules/access/dtv/access.c:236
 msgid "Physical channel"
-msgstr "물리 채널"
+msgstr "물리적인 채널"
 
 #: modules/access/dtv/access.c:242
 msgid "DTV"
@@ -6796,8 +6797,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV 입력"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "파일 읽기 실패"
 
@@ -6883,8 +6885,8 @@ msgstr "파일 입력"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -7173,7 +7175,7 @@ msgstr "Geg callback 함수의 주소"
 
 #: modules/access/imem.c:109
 msgid "Release function"
-msgstr "Release 함수"
+msgstr "릴리즈 기능"
 
 #: modules/access/imem.c:111
 msgid "Address of the release callback function"
@@ -7354,7 +7356,7 @@ msgstr "RTP/RTSP/SDP 디먹서 (Live555 사용)"
 
 #: modules/access/live555.cpp:110
 msgid "RTSP/RTP access and demux"
-msgstr "RTSP/RTP 접근 및 demux"
+msgstr "RTSP/RTP 접근 및 디먹스"
 
 #: modules/access/live555.cpp:115 modules/access/live555.cpp:116
 #: modules/gui/macosx/simple_prefs.m:368
@@ -7444,7 +7446,7 @@ msgstr ""
 
 #: modules/access/mms/mms.c:69
 msgid "Microsoft Media Server (MMS) input"
-msgstr "Microsoft Media Server (MMS) 입력"
+msgstr "마이크로소프트 미디어 서버 (MMS) 입력"
 
 #: modules/access/mtp.c:57
 msgid "MTP input"
@@ -7737,7 +7739,7 @@ msgstr "장르 설명"
 
 #: modules/access_output/shout.c:83
 msgid "Genre of the content. "
-msgstr "컨텐츠 장르."
+msgstr "컨텐츠의 장르."
 
 #: modules/access_output/shout.c:85
 msgid "URL description"
@@ -7827,11 +7829,11 @@ msgstr ""
 
 #: modules/access/pulse.c:42
 msgid "PulseAudio"
-msgstr "PulseAudio"
+msgstr "펄스오디오"
 
 #: modules/access/pulse.c:43
 msgid "PulseAudio input"
-msgstr "PulseAudio 입력"
+msgstr "펄스오디오 입력"
 
 #: modules/access/qtcapture.m:45
 msgid "Video Capture width"
@@ -7851,7 +7853,7 @@ msgstr "비디오 캡처 높이, 픽셀 단위"
 
 #: modules/access/qtcapture.m:62 modules/access/qtcapture.m:63
 msgid "Quicktime Capture"
-msgstr "Quicktime 캡처"
+msgstr "퀵타임 캡처"
 
 #: modules/access/qtcapture.m:250 modules/access/qtcapture.m:280
 msgid "No Input device found"
@@ -7914,8 +7916,8 @@ msgid ""
 "RTP packets will be authenticated and deciphered with this Secure RTP master "
 "shared secret key. This must be a 32-character-long hexadecimal string."
 msgstr ""
-"RTP 패킷은 이 Secure RTP 마스터 공유 비밀 키로 인증되고 해독이 될 것입니다. "
-"이것은 32 문자 길이의 16진수 문자열이어야 합니다."
+"RTP 패킷은 이 보안 RTP 마스터 공유 비밀 키로 인증되고 해독이 될 것입니다. 이"
+"것은 32 문자 길이의 16진수 문자열이어야 합니다."
 
 #: modules/access/rtp/rtp.c:55 modules/stream_out/rtp.c:152
 msgid "SRTP salt (hexadecimal)"
@@ -7987,7 +7989,7 @@ msgstr "RTP"
 
 #: modules/access/rtp/rtp.c:96
 msgid "Real-Time Protocol (RTP) input"
-msgstr "Real-Time 프로토콜 (RTP) 입력"
+msgstr "실시간 프로토콜 (RTP) 입력"
 
 #: modules/access/rtp/rtp.c:756
 msgid "SDP required"
@@ -8657,24 +8659,24 @@ msgstr "살구색"
 
 #: modules/access/v4l2/v4l2.c:166
 msgid "Vivid"
-msgstr "비비드"
+msgstr "생생한"
 
 #: modules/access/v4l2/v4l2.c:169 modules/audio_output/auhal.c:66
 #: modules/audio_output/directsound.c:68 modules/audio_output/waveout.c:143
 msgid "Audio volume"
-msgstr "오디오 음량"
+msgstr "오디오 볼륨"
 
 #: modules/access/v4l2/v4l2.c:171
 msgid "Volume of the audio input."
-msgstr "오디오 입력의 음량."
+msgstr "오디오 입력의 볼륨."
 
 #: modules/access/v4l2/v4l2.c:172
 msgid "Audio balance"
-msgstr "오디오 균형"
+msgstr "오디오 밸런스"
 
 #: modules/access/v4l2/v4l2.c:174
 msgid "Balance of the audio input."
-msgstr "오디오 입력의 균형."
+msgstr "오디오 입력의 밸런스."
 
 #: modules/access/v4l2/v4l2.c:175
 msgid "Bass level"
@@ -8722,11 +8724,12 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
-msgstr "모두"
+msgstr "전체"
 
 #: modules/access/v4l2/v4l2.c:246
 msgid "Multichannel television sound (MTS)"
@@ -8746,11 +8749,11 @@ msgstr "PAL N Argentina"
 
 #: modules/access/v4l2/v4l2.c:256
 msgid "NTSC M Japan"
-msgstr "NTSC M Japan"
+msgstr "NTSC M 일본"
 
 #: modules/access/v4l2/v4l2.c:256
 msgid "NTSC M South Korea"
-msgstr "NTSC M South Korea"
+msgstr "NTSC M 남한"
 
 #: modules/access/v4l2/v4l2.c:267 modules/audio_output/alsa.c:76
 msgid "Mono"
@@ -8850,21 +8853,21 @@ msgstr "준비"
 
 #: modules/access/vcdx/info.c:66
 msgid "Vol #"
-msgstr "음량 #"
+msgstr "볼륨 #"
 
 #: modules/access/vcdx/info.c:67
 msgid "Vol max #"
-msgstr "최대 음량 #"
+msgstr "최대 볼륨 #"
 
 #: modules/access/vcdx/info.c:68
 msgid "Volume Set"
-msgstr "음량 설정"
+msgstr "볼륨 설정"
 
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/ControlsBar.m:497
 #: modules/gui/macosx/fspanel.m:467 modules/gui/qt4/dialogs/toolbar.cpp:448
 #: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:427
 msgid "Volume"
-msgstr "음량"
+msgstr "볼륨"
 
 #: modules/access/vcdx/info.c:71
 msgid "System Id"
@@ -9090,7 +9093,7 @@ msgstr "ARM NEON 비디오 크로마 변환"
 
 #: modules/arm_neon/simple_channel_mixer.c:47
 msgid "Audio filter for simple channel mixing using NEON assembly"
-msgstr "NEON 어셈블리를 이용한 간단한 채널 믹스용 오디오 필터"
+msgstr "네온 어셈블리를 이용한 간단한 채널 믹스용 오디오 필터"
 
 #: modules/arm_neon/volume.c:38
 msgid "ARM NEON audio volume"
@@ -9360,11 +9363,11 @@ msgstr "피드백 이득"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Gain on Feedback loop"
-msgstr "피드백 루프의 이득"
+msgstr "피드백 순환의 이득"
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Wet mix"
-msgstr "Wet mix"
+msgstr "Wet 믹스"
 
 #: modules/audio_filter/chorus_flanger.c:91
 msgid "Level of delayed signal"
@@ -9372,7 +9375,7 @@ msgstr "지연된 신호 레벨"
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Dry Mix"
-msgstr "Dry Mix"
+msgstr "Dry 믹스"
 
 #: modules/audio_filter/chorus_flanger.c:93
 msgid "Level of input signal"
@@ -9381,27 +9384,27 @@ msgstr "입력 신호 레벨"
 #: modules/audio_filter/compressor.c:155 modules/gui/macosx/AudioEffects.m:119
 #: modules/gui/qt4/components/extended_panels.cpp:1409
 msgid "RMS/peak"
-msgstr "RMS/Peak"
+msgstr "RMS/피크"
 
 #: modules/audio_filter/compressor.c:156
 msgid "Set the RMS/peak (0 ... 1)."
-msgstr "RMS/Peak 설정하기 (0 ... 1)."
+msgstr "RMS/피크 설정하기 (0 ... 1)."
 
 #: modules/audio_filter/compressor.c:158
 msgid "Attack time"
-msgstr "Attack 시간"
+msgstr "어택 시간"
 
 #: modules/audio_filter/compressor.c:160
 msgid "Set the attack time in milliseconds (1.5 ... 400)."
-msgstr "Attack 시간을 밀리초 단위로 설정합니다 (1.5 ... 400)."
+msgstr "어택 시간을 밀리초 단위로 설정합니다 (1.5 ... 400)."
 
 #: modules/audio_filter/compressor.c:162
 msgid "Release time"
-msgstr "Release 시간"
+msgstr "릴리즈 시간"
 
 #: modules/audio_filter/compressor.c:164
 msgid "Set the release time in milliseconds (2 ... 800)."
-msgstr "Release 시간을 밀리초 단위로 설정합니다 (2 ... 800)."
+msgstr "릴리즈 시간을 밀리초 단위로 설정합니다 (2 ... 800)."
 
 #: modules/audio_filter/compressor.c:166
 msgid "Threshold level"
@@ -9558,7 +9561,8 @@ msgstr "이퀄라이저"
 msgid "Flat"
 msgstr "플랫"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "클래식"
 
@@ -9567,7 +9571,8 @@ msgstr "클래식"
 msgid "Club"
 msgstr "클럽"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "댄스"
 
@@ -9599,19 +9604,23 @@ msgstr "라이브"
 msgid "Party"
 msgstr "파티"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "팝"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "레게"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "록"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "스카"
 
@@ -9623,7 +9632,8 @@ msgstr "소프트"
 msgid "Soft rock"
 msgstr "소프트 록"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "테크노"
 
@@ -9676,7 +9686,7 @@ msgstr ""
 
 #: modules/audio_filter/normvol.c:78 modules/audio_filter/normvol.c:79
 msgid "Volume normalizer"
-msgstr "음량 평준화기"
+msgstr "볼륨 평준화기"
 
 #: modules/audio_filter/param_eq.c:52 modules/audio_filter/param_eq.c:53
 msgid "Parametric Equalizer"
@@ -9813,7 +9823,7 @@ msgstr "각각의 스트라이드에 출력할 길이(밀리초)"
 
 #: modules/audio_filter/scaletempo.c:56
 msgid "Overlap Length"
-msgstr "오버랩 길이"
+msgstr "겹침 길이"
 
 #: modules/audio_filter/scaletempo.c:56
 msgid "Percentage of stride to overlap"
@@ -9829,7 +9839,7 @@ msgstr "최고의 중첩 위치를 검색할 길이, 밀리초 단위"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:54
 msgid "Room size"
-msgstr "공간 크기"
+msgstr "방 크기"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:55
 msgid "Defines the virtual surface of the room emulated by the filter."
@@ -9837,7 +9847,7 @@ msgstr "이 필터가 에뮬레이트할 방의 가상 공간을 정의합니다
 
 #: modules/audio_filter/spatializer/spatializer.cpp:58
 msgid "Room width"
-msgstr "공간 너비"
+msgstr "방 너비"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:59
 msgid "Width of the virtual room"
@@ -9859,7 +9869,7 @@ msgstr "Dry"
 #: modules/gui/macosx/AudioEffects.m:134
 #: modules/gui/qt4/components/extended_panels.cpp:1435
 msgid "Damp"
-msgstr "Damp"
+msgstr "댐핑"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:71
 msgid "Audio Spatializer"
@@ -9909,7 +9919,7 @@ msgstr ""
 
 #: modules/audio_filter/stereo_widen.c:70
 msgid "Dry mix"
-msgstr "Dry mix"
+msgstr "Dry 믹스"
 
 #: modules/audio_filter/stereo_widen.c:71
 msgid "Level of input signal of original channel."
@@ -10007,15 +10017,15 @@ msgstr "샘플 형식"
 
 #: modules/audio_output/audioqueue.c:66
 msgid "AudioQueue (iOS / Mac OS) audio output"
-msgstr "AudioQueue (iOS / Mac OS) 오디오 출력"
+msgstr "오디오큐 (iOS / 맥 OS) 오디오 출력"
 
 #: modules/audio_output/audiotrack.c:137
 msgid "Android AudioTrack audio output"
-msgstr "안드로이드 AudioTrack 오디오 출력"
+msgstr "안드로이드 오디오트랙 오디오 출력"
 
 #: modules/audio_output/audiounit_ios.c:94
 msgid "AudioUnit output for iOS"
-msgstr "iOS의 AudioUnit 출력"
+msgstr "iOS의 오디오유닛 출력"
 
 #: modules/audio_output/auhal.c:69
 msgid "Last audio device"
@@ -10023,7 +10033,7 @@ msgstr "마지막 오디오 장치"
 
 #: modules/audio_output/auhal.c:169
 msgid "HAL AudioUnit output"
-msgstr "HAL AudioUnit 출력"
+msgstr "HAL 오디오유닛 출력"
 
 #: modules/audio_output/auhal.c:426
 msgid ""
@@ -10183,11 +10193,11 @@ msgstr "OSS 장치 노드 경로"
 
 #: modules/audio_output/oss.c:74
 msgid "Open Sound System audio output"
-msgstr "Open Sound System 오이오 출력"
+msgstr "오픈 사운드 시스템 오디오 출력"
 
 #: modules/audio_output/pulse.c:42
 msgid "Pulseaudio audio output"
-msgstr "Pulseaudio 오디오 출력"
+msgstr "펄스오디오 오디오 출력"
 
 #: modules/audio_output/sndio.c:39
 msgid "OpenBSD sndio audio output"
@@ -10223,7 +10233,7 @@ msgstr "WaveOut 오디오 출력"
 
 #: modules/audio_output/waveout.c:703
 msgid "Microsoft Soundmapper"
-msgstr "Microsoft Soundmapper"
+msgstr "마이크로소프트 사운드맵퍼"
 
 #: modules/audio_output/windows_audio_common.h:122
 msgid "Use float32 output"
@@ -10259,11 +10269,11 @@ msgstr "AES3/SMPTE 302M 오디오 패킷타이저"
 
 #: modules/codec/araw.c:51
 msgid "Raw/Log Audio decoder"
-msgstr "Raw/Log 오디오 디코더"
+msgstr "원시/로그 오디오 디코더"
 
 #: modules/codec/araw.c:60
 msgid "Raw audio encoder"
-msgstr "Raw 오디오 인코더"
+msgstr "원시 오디오 인코더"
 
 #: modules/codec/avcodec/avcodec.c:68
 msgid "Non-ref"
@@ -10333,10 +10343,10 @@ msgid ""
 "can produce a lot of errors.\n"
 "Valid values range from 0 to 4 (0 disables all errors resilience)."
 msgstr ""
-"libavcodec은 에러 내성Error Resilience이 있습니다.\n"
-"그러나 (MS의 ISO MPEG-4 인코더와 같은) 버그가 있는 인코더에서 이것은 많은 에"
-"러를 일으킬 수 있습니다.\n"
-"유효한 값은 0에서 4 사이입니다 (0은 모든 에러 내성을 비활성화합니다)."
+"libavcodec은 오류 내성Error Resilience이 있습니다.\n"
+"그러나 (MS의 ISO MPEG-4 인코더와 같은) 버그가 있는 인코더에서 이것은 많은 오"
+"류를 일으킬 수 있습니다.\n"
+"유효한 값은 0에서 4 사이입니다 (0은 모든 오류 내성을 비활성화합니다)."
 
 #: modules/codec/avcodec/avcodec.h:79
 msgid "Workaround bugs"
@@ -10387,7 +10397,7 @@ msgstr "재생속도 조절하기"
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
-"규격에 비호환하는 속도증가 트릭을 허용합니다. 빠르지만 에러가 나기 쉽습니다."
+"규격에 비호환하는 속도증가 트릭을 허용합니다. 빠르지만 오류가 나기 쉽습니다."
 
 #: modules/codec/avcodec/avcodec.h:102
 msgid "Skip frame (default=0)"
@@ -10451,15 +10461,15 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:128 modules/gui/macosx/simple_prefs.m:369
 msgid "Skip the loop filter for H.264 decoding"
-msgstr "H.264 디코딩 루프 필터 건너뛰기"
+msgstr "H.264 디코딩 순환 필터 건너뛰기"
 
 #: modules/codec/avcodec/avcodec.h:129
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
 msgstr ""
-"루프 필터 (deblocking이라고 알려진) 건너뛰기는 보통 품질에 불리한 효과를 지니"
-"고 있습니다. 그러나 고해상도 스트림에서 재생속도를 크게 향상시킵니다."
+"순환(깍두기 제거) 필터 건너뛰기는 보통 품질에 불리한 효과를 지니고 있습니다. "
+"그러나 고해상도 스트림에서 재생속도를 크게 향상시킵니다."
 
 #: modules/codec/avcodec/avcodec.h:133
 msgid "Hardware decoding"
@@ -10760,7 +10770,7 @@ msgstr ""
 "%s.\n"
 "이걸 고치는 방법을 모르면, 배포자에게 도움을 요청하세요.\n"
 "\n"
-"VLC 미디어 재생기 내부의 에러가 아닙니다.\n"
+"VLC 미디어 재생기 내부의 오류가 아닙니다.\n"
 "이 문제에 대해서 VideoLAN 프로젝트에 연락하지 마세요.\n"
 
 #: modules/codec/avcodec/encoder.c:880
@@ -11739,15 +11749,15 @@ msgstr ""
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
-msgstr "QuickTime 라이브러리 디코더"
+msgstr "퀵타임 라이브러리 디코더"
 
 #: modules/codec/rawvideo.c:66
 msgid "Pseudo raw video decoder"
-msgstr "유사 raw 비디오 디코더"
+msgstr "유사 원시 비디오 디코더"
 
 #: modules/codec/rawvideo.c:73
 msgid "Pseudo raw video packetizer"
-msgstr "Pseudo Raw 비디오 패킷타이저"
+msgstr "유사 원시 비디오 패킷타이저"
 
 #: modules/codec/schroedinger.c:54
 msgid "Chroma format"
@@ -11800,7 +11810,7 @@ msgstr "일정한 람다 모드"
 
 #: modules/codec/schroedinger.c:82
 msgid "Constant error mode"
-msgstr "일정한 에러 모드"
+msgstr "일정한 오류 모드"
 
 #: modules/codec/schroedinger.c:83
 msgid "Constant quality mode"
@@ -11819,8 +11829,8 @@ msgid ""
 "No fixed gop structure. A picture can be intra or inter and refer to "
 "previous or future pictures."
 msgstr ""
-"고정된 GOP 구조 없음. Picture는 intra나 inter가 될 수 있고, 이전이나 다음 "
-"picture를 참고합니다."
+"고정된 GOP 구조 없음. 한 장의 그림은 intra나 inter가 될 수 있고, 이전이나 다"
+"음 그림을 참고합니다."
 
 #: modules/codec/schroedinger.c:101
 msgid "I-frame only sequence"
@@ -11886,7 +11896,7 @@ msgstr "연속하는 시퀀스 헤더 사이의 영상 개수, 예. 영상 그�
 
 #: modules/codec/schroedinger.c:134
 msgid "Prefilter"
-msgstr "전필터"
+msgstr "전처리필터"
 
 #: modules/codec/schroedinger.c:135
 msgid "Enable adaptive prefiltering"
@@ -12194,7 +12204,7 @@ msgstr ""
 
 #: modules/codec/speex.c:80
 msgid "Voice activity detection"
-msgstr "음성 활성화 감지"
+msgstr "음성 동작 감지"
 
 #: modules/codec/speex.c:82
 msgid ""
@@ -12508,7 +12518,7 @@ msgstr "tx3g 자막"
 
 #: modules/codec/svcdsub.c:47
 msgid "Philips OGT (SVCD subtitle) decoder"
-msgstr "Philips OGT (SVCD 자막) 디코더"
+msgstr "필립스 OGT (SVCD 자막) 디코더"
 
 #: modules/codec/svcdsub.c:48
 msgid "SVCD subtitles"
@@ -12516,7 +12526,7 @@ msgstr "SVCD 자막"
 
 #: modules/codec/svcdsub.c:57
 msgid "Philips OGT (SVCD subtitle) packetizer"
-msgstr "Philips OGT (SVCD 자막) 패킷타이저"
+msgstr "필립스 OGT (SVCD 자막) 패킷타이저"
 
 #: modules/codec/t140.c:35
 msgid "T.140 text encoder"
@@ -12524,7 +12534,7 @@ msgstr "T.140 텍스트 인코더"
 
 #: modules/codec/telx.c:54
 msgid "Override page"
-msgstr "페이지 재정의"
+msgstr "페이지 무시하기"
 
 #: modules/codec/telx.c:55
 msgid ""
@@ -12545,7 +12555,7 @@ msgstr "자막 플래그를 무시하고, 자막이 나타나지 않을 경우 �
 
 #: modules/codec/telx.c:64
 msgid "Workaround for France"
-msgstr "프랑스 버그 회피"
+msgstr "프랑스용 대체 동작"
 
 #: modules/codec/telx.c:65
 msgid ""
@@ -12610,7 +12620,7 @@ msgstr "가변 비트레이트 사용. 기본값 고정 비트레이트 (CBR)."
 
 #: modules/codec/twolame.c:64
 msgid "Psycho-acoustic model"
-msgstr "Psycho-acoustic 모델"
+msgstr "음향 심리학 모델"
 
 #: modules/codec/twolame.c:66
 msgid "Integer from -1 (no model) to 4."
@@ -12850,22 +12860,22 @@ msgstr ""
 
 #: modules/codec/x264.c:148
 msgid "Skip loop filter"
-msgstr "루프 필터 건너뛰기"
+msgstr "순환 필터 건너뛰기"
 
 #: modules/codec/x264.c:149
 msgid "Deactivate the deblocking loop filter (decreases quality)."
-msgstr "디블로킹 순환 필터 비활성화 (품질이 나빠짐)."
+msgstr "깍뚜기제거 순환 필터를 비활성화합니다 (품질 저하)."
 
 #: modules/codec/x264.c:151
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
-msgstr "루프 필터 AlphaC0 와 Beta 변수, alpha:beta"
+msgstr "순환 필터 AlphaC0 와 Beta 변수, alpha:beta"
 
 #: modules/codec/x264.c:152
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
-"루프 필터 AlphaC0 와 Beta 변수. alpha, beta 변수 범위는 모두 -6에서 6. -6은 "
+"순환 필터 AlphaC0 와 Beta 변수. alpha, beta 변수 범위는 모두 -6에서 6. -6은 "
 "가벼운 필터를, 6은 강력한 필터를 의미합니다."
 
 #: modules/codec/x264.c:156
@@ -12936,7 +12946,7 @@ msgstr "mb-tree 전송률조절 사용하기"
 
 #: modules/codec/x264.c:185
 msgid "You can disable use of Macroblock-tree on ratecontrol"
-msgstr "전송률조절시 매크로블록-tree 사용을 비활성화할 수 있습니다"
+msgstr "전송률조절시 매크로블록-트리 사용을 비활성화할 수 있습니다"
 
 #: modules/codec/x264.c:187
 msgid "Force number of slices per frame"
@@ -12989,7 +12999,7 @@ msgstr "최소 QP"
 
 #: modules/codec/x264.c:206
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
-msgstr "최대 양자화 매개변수. 15 에서 35 이 유용한 범위인것 같습니다."
+msgstr "최대 양자화 매개변수. 15 에서 35 이 유용한 범위인 것 같습니다."
 
 #: modules/codec/x264.c:209
 msgid "Max QP"
@@ -13092,7 +13102,7 @@ msgstr "P 와 B 사이의 QP 비율. 범위 1.0 에서 2.0."
 
 #: modules/codec/x264.c:250
 msgid "QP difference between chroma and luma"
-msgstr "크로마Chroma와 루마Luma 사이의 QP 차이"
+msgstr "크로마와 루마 사이의 QP 차이"
 
 #: modules/codec/x264.c:251
 msgid "QP difference between chroma and luma."
@@ -13156,11 +13166,11 @@ msgid ""
 "(p4x4 requires p8x8. i8x8 requires 8x8dct)."
 msgstr ""
 "분석 모드에서 고려해야될 분할: \n"
-" - 없음  : \n"
-" - 빠른  : i4x4\n"
-" - 보통: i4x4,p8x8,(i8x8)\n"
-" - 느린  : i4x4,p8x8,(i8x8),b8x8\n"
-" - 모두   : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
+" - 없음 : \n"
+" - 빠른 : i4x4\n"
+" - 보통 : i4x4,p8x8,(i8x8)\n"
+" - 느린 : i4x4,p8x8,(i8x8),b8x8\n"
+" - 모두 : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 는 p8x8 필요. i8x8 는 8x8dct 필요)."
 
 #: modules/codec/x264.c:281
@@ -13177,7 +13187,7 @@ msgid ""
 " -  1: 8x8\n"
 " - -1: smallest possible according to level\n"
 msgstr ""
-"직접 예츨 크기:  -  0: 4x4\n"
+"직접 예측 크기:  -  0: 4x4\n"
 " -  1: 8x8\n"
 " - -1: 단계에 따른 가능한 최소\n"
 
@@ -13199,9 +13209,9 @@ msgid ""
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
-"P 프레임의 가중치 예측: -0: 비활성화됨\n"
-"- 1: 블라인드 옵셋(Blind offset)\n"
-"- 2: 스마트 분석(Smart analysis)\n"
+" P 프레임의 가중치 예측: -0: 비활성화됨\n"
+" - 1: 블라인드 오프셋(Blind offset)\n"
+" - 2: 스마트 분석(Smart analysis)\n"
 
 #: modules/codec/x264.c:299
 msgid "Integer pixel motion estimation method"
@@ -13534,7 +13544,7 @@ msgstr "느리게"
 
 #: modules/codec/x264.c:442
 msgid "Spatial"
-msgstr "공간"
+msgstr "공간의"
 
 #: modules/codec/x264.c:442 modules/hw/vdpau/chroma.c:864
 msgid "Temporal"
@@ -13554,19 +13564,19 @@ msgstr "row alternation"
 
 #: modules/codec/x264.c:447
 msgid "side by side"
-msgstr "side by side"
+msgstr "좌/우"
 
 #: modules/codec/x264.c:447
 msgid "top bottom"
-msgstr "top bottom"
+msgstr "상/하"
 
 #: modules/codec/x264.c:447
 msgid "frame alternation"
-msgstr "frame alternation"
+msgstr "프레임 변경"
 
 #: modules/codec/x264.c:451
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264 10-bit)"
-msgstr "H.264/MPEG-4 Part 10/AVC 인코더 (x264 10-bit)"
+msgstr "H.264/MPEG-4 파트 10/AVC 인코더 (x264 10-bit)"
 
 #: modules/codec/x264.c:455
 msgid "H.262/MPEG-2 encoder (x262)"
@@ -13574,7 +13584,7 @@ msgstr "H.262/MPEG-2 인코더 (x262)"
 
 #: modules/codec/x264.c:459
 msgid "H.264/MPEG-4 Part 10/AVC encoder (x264)"
-msgstr "H.264/MPEG-4 Part 10/AVC 인코더 (x264)"
+msgstr "H.264/MPEG-4 파트 10/AVC 인코더 (x264)"
 
 #: modules/codec/x265.c:45
 msgid "H.265/HEVC encoder (x265)"
@@ -13601,7 +13611,7 @@ msgid ""
 "Setting vbi-opaque to true makes the text to be boxed and maybe easier to "
 "read."
 msgstr ""
-"Vbi-opaque를 true로 설정하면 텍스트에 불투명 박스를 씌워서 읽기 쉬워집니다."
+"Vbi-opaque를 true로 설정하면 텍스트에 불투명 상자를 씌워서 읽기 쉬워집니다."
 
 #: modules/codec/zvbi.c:69
 msgid "Teletext alignment"
@@ -13666,8 +13676,8 @@ msgid ""
 "the quiet mode will not bring this command box but can also be pretty "
 "annoying when you want to stop VLC and no video window is open."
 msgstr ""
-"기본적으로 더미 인터페이스 플러그인은 도스 명령어 박스를 시작합니다. Quiet 모"
-"드를 사용하면 이 명령어 박스가 나타나지 않지만 VLC를 멈추려고 하는데 아무런 "
+"기본적으로 더미 인터페이스 플러그인은 도스 명령어 상자를 시작합니다. Quiet 모"
+"드를 사용하면 이 명령어 상자가 나타나지 않지만 VLC를 멈추려고 하는데 아무런 "
 "비디오 창이 열리지 않는다면 꽤나 번거러울 수 있습니다."
 
 #: modules/control/dummy.c:49
@@ -13882,11 +13892,11 @@ msgstr "적외선 원격 제어 인터페이스"
 
 #: modules/control/motion.c:65
 msgid "motion"
-msgstr "모션"
+msgstr "동작"
 
 #: modules/control/motion.c:68
 msgid "motion control interface"
-msgstr "모션 제어 인터페이스"
+msgstr "동작 제어 인터페이스"
 
 #: modules/control/motion.c:69 modules/video_filter/rotate.c:57
 msgid ""
@@ -13933,7 +13943,7 @@ msgstr "네트워크 동기화"
 
 #: modules/control/ntservice.c:44
 msgid "Install Windows Service"
-msgstr "Windows 서비스 설치"
+msgstr "윈도우 서비스 설치"
 
 #: modules/control/ntservice.c:46
 msgid "Install the Service and exit."
@@ -13941,7 +13951,7 @@ msgstr "서비스 설치 후 종료."
 
 #: modules/control/ntservice.c:47
 msgid "Uninstall Windows Service"
-msgstr "Windows 서비스 설치 제거"
+msgstr "윈도우 서비스 설치 제거"
 
 #: modules/control/ntservice.c:49
 msgid "Uninstall the Service and exit."
@@ -13984,7 +13994,7 @@ msgstr "NT 서비스"
 
 #: modules/control/ntservice.c:67
 msgid "Windows Service interface"
-msgstr "Windows 서비스 인터페이스"
+msgstr "윈도우 서비스 인터페이스"
 
 #: modules/control/rc.c:68
 msgid "Initializing"
@@ -13996,7 +14006,7 @@ msgstr "열기"
 
 #: modules/control/rc.c:73
 msgid "Error"
-msgstr "에러"
+msgstr "오류"
 
 #: modules/control/rc.c:159
 msgid "Show stream position"
@@ -14009,7 +14019,7 @@ msgstr "스트림의 현재 위치를 초로 가끔 나타내기."
 
 #: modules/control/rc.c:163
 msgid "Fake TTY"
-msgstr "Fake TTY"
+msgstr "가짜 TTY"
 
 #: modules/control/rc.c:164
 msgid "Force the rc module to use stdin as if it was a TTY."
@@ -14041,8 +14051,8 @@ msgid ""
 "the quiet mode will not bring this command box but can also be pretty "
 "annoying when you want to stop VLC and no video window is open."
 msgstr ""
-"기본적으로 rc 인터페이스 플러그인은 도스 명령어 박스를 시작합니다. Quiet 모드"
-"를 사용하면 이 명령어 박스가 나타나지 않지만 VLC를 멈추려고 하는데 아무런 비"
+"기본적으로 RC 인터페이스 플러그인은 도스 명령어 상자를 시작합니다. Quiet 모드"
+"를 사용하면 이 명령어 상자가 나타나지 않지만 VLC를 멈추려고 하는데 아무런 비"
 "디오 창이 열리지 않는다면 꽤나 번거러울 수 있습니다."
 
 #: modules/control/rc.c:184
@@ -14072,123 +14082,123 @@ msgstr "| add XYZ  . . . . . . . . . . . . 재생목록에 XYZ 추가"
 
 #: modules/control/rc.c:785
 msgid "| enqueue XYZ  . . . . . . . . . queue XYZ to playlist"
-msgstr "| enqueue XYZ  . . . . . . . . .  재생목록에 XYZ 추가"
+msgstr "| enqueue XYZ  . . . . . . . . . . 재생목록에 XYZ 추가"
 
 #: modules/control/rc.c:786
 msgid "| playlist . . . . .  show items currently in playlist"
-msgstr "| playlist . . . . .  현재 재생목록 내의 항목들 보기"
+msgstr "| playlist . . . . . . . . . 현재 재생목록의 항목 보기"
 
 #: modules/control/rc.c:787
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
-msgstr "| play . . . . . . . . . . . . . . . . .  스트림 재생"
+msgstr "| play . . . . . . . . . . . . . . . . . . 스트림 재생"
 
 #: modules/control/rc.c:788
 msgid "| stop . . . . . . . . . . . . . . . . . . stop stream"
-msgstr "| stop . . . . . . . . . . . . . . . . .  스트림 정지"
+msgstr "| stop . . . . . . . . . . . . . . . . . . 스트림 정지"
 
 #: modules/control/rc.c:789
 msgid "| next . . . . . . . . . . . . . .  next playlist item"
-msgstr "| next . . . . . . . . . . . . . .  재생목록의 다음 항목"
+msgstr "| next  . . . . . . . . . . . . . 재생목록의 다음 항목"
 
 #: modules/control/rc.c:790
 msgid "| prev . . . . . . . . . . . .  previous playlist item"
-msgstr "| prev . . . . . . . . . . . .  재생목록의 이전 항목"
+msgstr "| prev . . . . . . . . . . . . .  재생목록의 이전 항목"
 
 #: modules/control/rc.c:791
 msgid "| goto . . . . . . . . . . . . . .  goto item at index"
-msgstr "| goto . . . . . . . . . . . . . .  해당 항목으로 이동"
+msgstr "| goto  . . . . . . . . . . . . 인덱스의 항목으로 이동"
 
 #: modules/control/rc.c:792
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
-msgstr "| repeat [on|off] . . . . 재생목록 항목 반복 토글하기"
+msgstr "| repeat [on|off]  . . . . 재생목록 항목 반복 토글하기"
 
 #: modules/control/rc.c:793
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr "| loop [on|off] . . . . . . . . . 재생목록 순환 토글하기"
+msgstr "| loop [on|off] . . . . . . . . 재생목록 순환 토글하기"
 
 #: modules/control/rc.c:794
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
-msgstr "| random [on|off] . . . . . . . 무작위로 이동하기 토글하기"
+msgstr "| random [on|off] . . . . . 무작위로 이동하기 토글하기"
 
 #: modules/control/rc.c:795
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
-msgstr "| clear . . . . . . . . . . . . . . 재생목록 비우기"
+msgstr "| clear  . . . . . . . . . . . . . . . 재생목록 비우기"
 
 #: modules/control/rc.c:796
 msgid "| status . . . . . . . . . . . current playlist status"
-msgstr "| status . . . . . . . . . . . 현재 재생목록 상태"
+msgstr "| status  . . . . . . . . . . . . . 현재 재생목록 상태"
 
 #: modules/control/rc.c:797
 msgid "| title [X]  . . . . . . set/get title in current item"
-msgstr "| title [X]  . . . . . . 현재 항목의 제목 설정/가져오기"
+msgstr "| title [X] . . . . . . . . 현재 항목의 제목 설정/얻기"
 
 #: modules/control/rc.c:798
 msgid "| title_n  . . . . . . . .  next title in current item"
-msgstr "| title_n  . . . . . . . .  현재 항목의 다음 제목"
+msgstr "| title_n  . . . . . . . . . . . 현재 항목의 다음 제목"
 
 #: modules/control/rc.c:799
 msgid "| title_p  . . . . . .  previous title in current item"
-msgstr "| title_p  . . . . . .  현재 항목의 이전 제목"
+msgstr "| title_p  . . . . . . . . . . . 현재 항목의 이전 제목"
 
 #: modules/control/rc.c:800
 msgid "| chapter [X]  . . . . set/get chapter in current item"
-msgstr "| chapter [X]  . . . . 현재 항목의 챕터를 설정/가져옴"
+msgstr "| chapter [X] . . . . . 현재 항목의 챕터를 설정/가져옴"
 
 #: modules/control/rc.c:801
 msgid "| chapter_n  . . . . . .  next chapter in current item"
-msgstr "| chapter_n  . . . . . .  현재 항목의 다음 챕터"
+msgstr "| chapter_n  . . . . . . . . . . 현재 항목의 다음 챕터"
 
 #: modules/control/rc.c:802
 msgid "| chapter_p  . . . .  previous chapter in current item"
-msgstr "| chapter_p  . . . .  현재 항목의 이전 챕터"
+msgstr "| chapter_p  . . . . . . . . . . 현재 항목의 이전 챕터"
 
 #: modules/control/rc.c:804
 msgid "| seek X . . . seek in seconds, for instance `seek 12'"
-msgstr "| seek X . . . 초 단위 이동, 예: `seek 12'"
+msgstr "| seek X . . . . . . . . . 초 단위 이동, 예: `seek 12'"
 
 #: modules/control/rc.c:805
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
-msgstr "| pause  . . . . . . . . . . . . . . . . 일시중지 토글하기"
+msgstr "| pause  . . . . . . . . . . . . . . 일시중지 토글하기"
 
 #: modules/control/rc.c:806
 msgid "| fastforward  . . . . . . . .  .  set to maximum rate"
-msgstr "| fastforward  . . . . . . . .  .  최대 레이트로 설정"
+msgstr "| fastforward . . . . . . . . . . . . 최대 속도로 설정"
 
 #: modules/control/rc.c:807
 msgid "| rewind  . . . . . . . . . . . .  set to minimum rate"
-msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #: modules/control/rc.c:808
 msgid "| faster . . . . . . . . . .  faster playing of stream"
-msgstr "| faster . . . . . . . . . .  스트림을 빨리 재생"
+msgstr "| faster . . . . . . . . . . . . 스트림을 더 빨리 재생"
 
 #: modules/control/rc.c:809
 msgid "| slower . . . . . . . . . .  slower playing of stream"
-msgstr "| slower . . . . . . . . . .  스트림을 천천히 재생"
+msgstr "| slower . . . . . . . . . . . 스트림을 더 천천히 재생"
 
 #: modules/control/rc.c:810
 msgid "| normal . . . . . . . . . .  normal playing of stream"
-msgstr "| normal . . . . . . . . . .  스트림을 보통 속도로 재생"
+msgstr "| normal . . . . . . . . . . 스트림을 보통 속도로 재생"
 
 #: modules/control/rc.c:811
 msgid "| frame. . . . . . . . . .  play frame by frame"
-msgstr "| frame. . . . . . . . . .  한 프레임씩 재생하기"
+msgstr "| frame . . . . . . . . . . . . . 한 프레임씩 재생하기"
 
 #: modules/control/rc.c:812
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
-msgstr "| f [on|off] . . . . . . . . . . . . 전체 화면 토글하기"
+msgstr "| f [on|off]  . . . . . . . . . . . 전체 화면 토글하기"
 
 #: modules/control/rc.c:813
 msgid "| info . . . . .  information about the current stream"
-msgstr "| info . . . . .  현재 스트림의 정보"
+msgstr "| info  . . . . . . . . . . . . . . 현재 스트림의 정보"
 
 #: modules/control/rc.c:814
 msgid "| stats  . . . . . . . .  show statistical information"
-msgstr "| stats  . . . . . . . .  통계 정보 보기"
+msgstr "| stats . . . . . . . . . . . . . . . . 통계 정보 보기"
 
 #: modules/control/rc.c:815
 msgid "| get_time . . seconds elapsed since stream's beginning"
-msgstr "| get_time . . 스트림이 시작된 때부터 경과된 시간 (초)"
+msgstr "| get_time  . . . . . . . . 스트림 시작 이후 경과한 초"
 
 #: modules/control/rc.c:816
 msgid "| is_playing . . . .  1 if a stream plays, 0 otherwise"
@@ -14196,71 +14206,71 @@ msgstr "| is_playing . . . .  스트림이 재생 중이면 1, 아니면 0"
 
 #: modules/control/rc.c:817
 msgid "| get_title . . . . .  the title of the current stream"
-msgstr "| get_title . . . . .  현재 스트림의 제목"
+msgstr "| get_title . . . . . . . . . . . . 현재 스트림의 제목"
 
 #: modules/control/rc.c:818
 msgid "| get_length . . . .  the length of the current stream"
-msgstr "| get_length . . . .  현재 스트림의 길이"
+msgstr "| get_length  . . . . . . . . . . . 현재 스트림의 길이"
 
 #: modules/control/rc.c:820
 msgid "| volume [X] . . . . . . . . . .  set/get audio volume"
-msgstr "| volume [X] . . . . . . . . . .  음량 설정/가져오기"
+msgstr "| volume [X]  . . . . . . . . . . . . . 볼륨 설정/얻기"
 
 #: modules/control/rc.c:821
 msgid "| volup [X]  . . . . . . .  raise audio volume X steps"
-msgstr "| volup [X]  . . . . . . .  X 만큼 음량 올림"
+msgstr "| volup [X]  . . . . . . . . . X 만큼 오디오 볼륨 높임"
 
 #: modules/control/rc.c:822
 msgid "| voldown [X]  . . . . . .  lower audio volume X steps"
-msgstr "| voldown [X]  . . . . . .  X 만큼 음량 내림"
+msgstr "| voldown [X]  . . . . . . . . X 만큼 오디오 볼륨 낮춤"
 
 #: modules/control/rc.c:823
 msgid "| adev [device]  . . . . . . . .  set/get audio device"
-msgstr "| adev [device]  . . . . . . . .  오디오 장치 설정하기/가져오기"
+msgstr "| adev [장치]  . . . . . 오디오 장치 설정하기/가져오기"
 
 #: modules/control/rc.c:824
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
-msgstr "| achan [X]. . . . . . . . . .  오디오 채널 설정/가져오기"
+msgstr "| achan [X]. . . . . . . . . 오디오 채널 설정/가져오기"
 
 #: modules/control/rc.c:825
 msgid "| atrack [X] . . . . . . . . . . . set/get audio track"
-msgstr "| atrack [X] . . . . . . . . . . . 오디오 트랙 설정/가져옴"
+msgstr "| atrack [X] . . . . . . . . . 오디오 트랙 설정/가져옴"
 
 #: modules/control/rc.c:826
 msgid "| vtrack [X] . . . . . . . . . . . set/get video track"
-msgstr "| vtrack [X] . . . . . . . . . . . 영상 트랙 설정/가져옴"
+msgstr "| vtrack [X] . . . . . . . . . . . 영상 트랙 설정/얻기"
 
 #: modules/control/rc.c:827
 msgid "| vratio [X]  . . . . . . . set/get video aspect ratio"
-msgstr "| vratio [X]  . . . . . . . 비디오 화면비율 정합니다/가져옵니다"
+msgstr "| vratio [X] . . . . . . . . 비디오 화면비율 설정/얻기"
 
 #: modules/control/rc.c:828
 msgid "| vcrop [X]  . . . . . . . . . . .  set/get video crop"
-msgstr "| vcrop [X]  . . . . . . . . . . .  영상 잘라내기 설정/가져옴"
+msgstr "| vcrop [X]  . . . . . . . . . 영상 잘라내기 설정/얻기"
 
 #: modules/control/rc.c:829
 msgid "| vzoom [X]  . . . . . . . . . . .  set/get video zoom"
-msgstr "| vzoom [X]  . . . . . . . . . . .  화면 크기 정하기/가져오기"
+msgstr "| vzoom [X] . . . . . . . . . 화면 확대/축소 설정/얻기"
 
 #: modules/control/rc.c:830
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
-msgstr "| snapshot . . . . . . . . . . . . 비디오 스냅샷 찍기"
+msgstr "| snapshot  . . . . . . . . . . . . 비디오 스냅샷 찍기"
 
 #: modules/control/rc.c:831
 msgid "| strack [X] . . . . . . . . .  set/get subtitle track"
-msgstr "| strack [X] . . . . . . . . .  자막 트랙 정하기/가져오기"
+msgstr "| strack [X] . . . . . . . . . . . 자막 트랙 설정/얻기"
 
 #: modules/control/rc.c:832
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
-msgstr "| key [hotkey name] . . . . . .  단축키 눌림 흉내"
+msgstr "| key [단축키 이름] . . . . . 단축키 누르기 시뮬레이트"
 
 #: modules/control/rc.c:834
 msgid "| help . . . . . . . . . . . . . . . this help message"
-msgstr "| help . . . . . . . . . . . . . . . 이 도움말 메시지"
+msgstr "| help  . . . . . . . . . . . . . . . 이 도움말 메시지"
 
 #: modules/control/rc.c:835
 msgid "| logout . . . . . . .  exit (if in socket connection)"
-msgstr "| logout . . . . . . .  (소켓 연결인 경우) 종료"
+msgstr "| logout . . . . . . . . . . . (소켓 연결인 경우) 종료"
 
 #: modules/control/rc.c:836
 msgid "| quit . . . . . . . . . . . . . . . . . . .  quit vlc"
@@ -14291,12 +14301,12 @@ msgstr[0] "재생목록에 %u 만 있습니다"
 
 #: modules/control/rc.c:1746 modules/gui/ncurses.c:814
 msgid "+-[Incoming]"
-msgstr "+-[입력]"
+msgstr "+-[들어오는]"
 
 #: modules/control/rc.c:1747 modules/gui/ncurses.c:816
 #, c-format
 msgid "| input bytes read : %8.0f KiB"
-msgstr "| 입력 바이트 읽음 : %8.0f KiB"
+msgstr "| 입력 바이트 읽음   : %8.0f KiB"
 
 #: modules/control/rc.c:1749 modules/gui/ncurses.c:818
 #, c-format
@@ -14311,36 +14321,36 @@ msgstr "| 디먹스 바이트 읽음 : %8.0f KiB"
 #: modules/control/rc.c:1753 modules/gui/ncurses.c:822
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
-msgstr "| 디먹스 비트레이트    :   %6.0f kb/s"
+msgstr "| 디먹스 비트레이트  :   %6.0f kb/s"
 
 #: modules/control/rc.c:1755
 #, c-format
 msgid "| demux corrupted  :    %5<PRIi64>"
-msgstr "| 디먹스 깨짐  :    %5<PRIi64>"
+msgstr "| 디먹스 깨짐        :    %5<PRIi64>"
 
 #: modules/control/rc.c:1757
 #, c-format
 msgid "| discontinuities  :    %5<PRIi64>"
-msgstr "| 불연속  :    %5<PRIi64>"
+msgstr "| 불연속             :    %5<PRIi64>"
 
 #: modules/control/rc.c:1761 modules/gui/ncurses.c:828
 msgid "+-[Video Decoding]"
-msgstr "+-[디비오 디코딩]"
+msgstr "+-[비디오 디코딩]"
 
 #: modules/control/rc.c:1762 modules/gui/ncurses.c:830
 #, c-format
 msgid "| video decoded    :    %5<PRIi64>"
-msgstr "| 디코드된 비디오    :    %5<PRIi64>"
+msgstr "| 디코드한 비디오    :    %5<PRIi64>"
 
 #: modules/control/rc.c:1764 modules/gui/ncurses.c:832
 #, c-format
 msgid "| frames displayed :    %5<PRIi64>"
-msgstr "| 출력한 프레임 :    %5<PRIi64>"
+msgstr "| 출력한 프레임      :    %5<PRIi64>"
 
 #: modules/control/rc.c:1766 modules/gui/ncurses.c:834
 #, c-format
 msgid "| frames lost      :    %5<PRIi64>"
-msgstr "| 잃은 프레임      :    %5<PRIi64>"
+msgstr "| 분실한 프레임      :    %5<PRIi64>"
 
 #: modules/control/rc.c:1770 modules/gui/ncurses.c:840
 msgid "+-[Audio Decoding]"
@@ -14354,12 +14364,12 @@ msgstr "| 디코드한 오디오    :    %5<PRIi64>"
 #: modules/control/rc.c:1773 modules/gui/ncurses.c:844
 #, c-format
 msgid "| buffers played   :    %5<PRIi64>"
-msgstr "| 재생한 버퍼   :    %5<PRIi64>"
+msgstr "| 재생한 버퍼        :    %5<PRIi64>"
 
 #: modules/control/rc.c:1775 modules/gui/ncurses.c:846
 #, c-format
 msgid "| buffers lost     :    %5<PRIi64>"
-msgstr "| 잃은 버퍼     :    %5<PRIi64>"
+msgstr "| 분실한 버퍼        :    %5<PRIi64>"
 
 #: modules/control/rc.c:1779 modules/gui/ncurses.c:851
 msgid "+-[Streaming]"
@@ -14368,17 +14378,17 @@ msgstr "+-[스트리밍]"
 #: modules/control/rc.c:1780 modules/gui/ncurses.c:853
 #, c-format
 msgid "| packets sent     :    %5<PRIi64>"
-msgstr "| 전송한 패킷     :    %5<PRIi64>"
+msgstr "| 전송한 패킷        :    %5<PRIi64>"
 
 #: modules/control/rc.c:1782 modules/gui/ncurses.c:854
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
-msgstr "| 전송한 바이트       : %8.0f KiB"
+msgstr "| 전송한 바이트      : %8.0f KiB"
 
 #: modules/control/rc.c:1784 modules/gui/ncurses.c:856
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
-msgstr "| 전송 비트레이트  :   %6.0f kb/s"
+msgstr "| 전송 비트레이트    :   %6.0f kb/s"
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
@@ -14529,7 +14539,7 @@ msgstr "덤프 파일명"
 
 #: modules/demux/demuxdump.c:35
 msgid "Name of the file to which the raw stream will be dumped."
-msgstr "raw 스트림이 덤프될 파일명."
+msgstr "원시 스트림을 덤프할 파일명."
 
 #: modules/demux/demuxdump.c:36
 msgid "Append to existing file"
@@ -14616,8 +14626,8 @@ msgstr "이미지"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "초당 프레임 수"
 
@@ -14744,7 +14754,7 @@ msgstr "메가 베이스 레벨"
 
 #: modules/demux/mod.c:94
 msgid "Mega bass cutoff"
-msgstr "메가 베이스 cutoff"
+msgstr "메가 베이스 자르기"
 
 #: modules/demux/mod.c:96
 msgid "Surround"
@@ -14760,211 +14770,211 @@ msgstr "서라운드 지연 (ms)"
 
 #: modules/demux/mp4/id3genres.h:32
 msgid "Blues"
-msgstr "블루스"
+msgstr "블루스 Blues"
 
 #: modules/demux/mp4/id3genres.h:33
 msgid "Classic Rock"
-msgstr "Classic Rock"
+msgstr "클래식 락 Classic Rock"
 
 #: modules/demux/mp4/id3genres.h:34
 msgid "Country"
-msgstr "컨트리"
+msgstr "컨트리 Country"
 
 #: modules/demux/mp4/id3genres.h:36
 msgid "Disco"
-msgstr "디스코"
+msgstr "디스코 Disco"
 
 #: modules/demux/mp4/id3genres.h:37
 msgid "Funk"
-msgstr "펑크"
+msgstr "펑크 Funk"
 
 #: modules/demux/mp4/id3genres.h:38
 msgid "Grunge"
-msgstr "그런지"
+msgstr "그런지 Grunge"
 
 #: modules/demux/mp4/id3genres.h:39
 msgid "Hip-Hop"
-msgstr "힙합"
+msgstr "힙합 Hip-Hop"
 
 #: modules/demux/mp4/id3genres.h:40
 msgid "Jazz"
-msgstr "재즈"
+msgstr "재즈 Jazz"
 
 #: modules/demux/mp4/id3genres.h:41
 msgid "Metal"
-msgstr "메탈"
+msgstr "메탈 Metal"
 
 #: modules/demux/mp4/id3genres.h:42
 msgid "New Age"
-msgstr "뉴 에이지"
+msgstr "뉴 에이지 New Age"
 
 #: modules/demux/mp4/id3genres.h:43
 msgid "Oldies"
-msgstr "Oldies"
+msgstr "올디즈 Oldies"
 
 #: modules/demux/mp4/id3genres.h:44
 msgid "Other"
-msgstr "그 외"
+msgstr "그 외 Other"
 
 #: modules/demux/mp4/id3genres.h:46
 msgid "R&B"
-msgstr "R&B"
+msgstr "앨앤비 R&B"
 
 #: modules/demux/mp4/id3genres.h:47
 msgid "Rap"
-msgstr "랩"
+msgstr "랩 Rap"
 
 #: modules/demux/mp4/id3genres.h:51
 msgid "Industrial"
-msgstr "인더스트리얼"
+msgstr "인더스트리얼 Industrial"
 
 #: modules/demux/mp4/id3genres.h:52
 msgid "Alternative"
-msgstr "얼터너티브"
+msgstr "얼터너티브 Alternative"
 
 #: modules/demux/mp4/id3genres.h:54
 msgid "Death Metal"
-msgstr "Death Metal"
+msgstr "데스 메탈 Death Metal"
 
 #: modules/demux/mp4/id3genres.h:55
 msgid "Pranks"
-msgstr "Pranks"
+msgstr "프랭크 Pranks"
 
 #: modules/demux/mp4/id3genres.h:56
 msgid "Soundtrack"
-msgstr "사운드트랙"
+msgstr "사운드트랙 Soundtrack"
 
 #: modules/demux/mp4/id3genres.h:57
 msgid "Euro-Techno"
-msgstr "유로-테크노"
+msgstr "유로-테크노 Euro-Techno"
 
 #: modules/demux/mp4/id3genres.h:58
 msgid "Ambient"
-msgstr "Ambient"
+msgstr "엠비언트 Ambient"
 
 #: modules/demux/mp4/id3genres.h:59
 msgid "Trip-Hop"
-msgstr "Trip-Hop"
+msgstr "트립 합 Trip-Hop"
 
 #: modules/demux/mp4/id3genres.h:60
 msgid "Vocal"
-msgstr "보컬"
+msgstr "보컬 Vocal"
 
 #: modules/demux/mp4/id3genres.h:61
 msgid "Jazz+Funk"
-msgstr "재즈+펑크"
+msgstr "재즈+펑크 Jazz+Funk"
 
 #: modules/demux/mp4/id3genres.h:62
 msgid "Fusion"
-msgstr "퓨전"
+msgstr "퓨전 Fusion"
 
 #: modules/demux/mp4/id3genres.h:63
 msgid "Trance"
-msgstr "트랜스"
+msgstr "트랜스 Trance"
 
 #: modules/demux/mp4/id3genres.h:65
 msgid "Instrumental"
-msgstr "경음악"
+msgstr "연주 음악 Instrumental"
 
 #: modules/demux/mp4/id3genres.h:66
 msgid "Acid"
-msgstr "애시드"
+msgstr "액시드 Acid"
 
 #: modules/demux/mp4/id3genres.h:67
 msgid "House"
-msgstr "하우스"
+msgstr "하우스 House"
 
 #: modules/demux/mp4/id3genres.h:68
 msgid "Game"
-msgstr "게임"
+msgstr "게임 Game"
 
 #: modules/demux/mp4/id3genres.h:69
 msgid "Sound Clip"
-msgstr "Sound Clip"
+msgstr "사운드 클립 Sound Clip"
 
 #: modules/demux/mp4/id3genres.h:70
 msgid "Gospel"
-msgstr "가스펠"
+msgstr "가스펠 Gospel"
 
 #: modules/demux/mp4/id3genres.h:71 modules/gui/macosx/VideoEffects.m:136
 msgid "Noise"
-msgstr "노이즈"
+msgstr "노이즈 Noise"
 
 #: modules/demux/mp4/id3genres.h:72
 msgid "Alternative Rock"
-msgstr "Alternative Rock"
+msgstr "얼터너티브 락 Alternative Rock"
 
 #: modules/demux/mp4/id3genres.h:73
 msgid "Bass"
-msgstr "베이스"
+msgstr "베이스 Bass"
 
 #: modules/demux/mp4/id3genres.h:74
 msgid "Soul"
-msgstr "소울"
+msgstr "소울 Soul"
 
 #: modules/demux/mp4/id3genres.h:75
 msgid "Punk"
-msgstr "펑크"
+msgstr "펑크 Punk"
 
 #: modules/demux/mp4/id3genres.h:77
 msgid "Meditative"
-msgstr "명상음악"
+msgstr "명상음악 Meditative"
 
 #: modules/demux/mp4/id3genres.h:78
 msgid "Instrumental Pop"
-msgstr "Instrumental Pop"
+msgstr "팝 연주 음악 Instrumental Pop"
 
 #: modules/demux/mp4/id3genres.h:79
 msgid "Instrumental Rock"
-msgstr "Instrumental Rock"
+msgstr "락 연주 음악 Instrumental Rock"
 
 #: modules/demux/mp4/id3genres.h:80
 msgid "Ethnic"
-msgstr "에스닉"
+msgstr "민속 음악 Ethnic"
 
 #: modules/demux/mp4/id3genres.h:81
 msgid "Gothic"
-msgstr "고딕"
+msgstr "고딕 Gothic"
 
 #: modules/demux/mp4/id3genres.h:82
 msgid "Darkwave"
-msgstr "다크 웨이브"
+msgstr "다크웨이브 Darkwave"
 
 #: modules/demux/mp4/id3genres.h:83
 msgid "Techno-Industrial"
-msgstr "테크노-인더스트리얼"
+msgstr "테크노-인더스트리얼 Techno-Industrial"
 
 #: modules/demux/mp4/id3genres.h:84
 msgid "Electronic"
-msgstr "일렉트로닉"
+msgstr "일렉트로닉 Electronic"
 
 #: modules/demux/mp4/id3genres.h:85
 msgid "Pop-Folk"
-msgstr "팝-포크"
+msgstr "팝-포크 Pop-Folk"
 
 #: modules/demux/mp4/id3genres.h:86
 msgid "Eurodance"
-msgstr "유로 댄스"
+msgstr "유로 댄스 Eurodance"
 
 #: modules/demux/mp4/id3genres.h:87
 msgid "Dream"
-msgstr "드림"
+msgstr "드림 Dream"
 
 #: modules/demux/mp4/id3genres.h:88
 msgid "Southern Rock"
-msgstr "Southern Rock"
+msgstr "남부 락 Southern Rock"
 
 #: modules/demux/mp4/id3genres.h:89
 msgid "Comedy"
-msgstr "코메디"
+msgstr "코메디 Comedy"
 
 #: modules/demux/mp4/id3genres.h:90
 msgid "Cult"
-msgstr "컬트"
+msgstr "컬트 Cult"
 
 #: modules/demux/mp4/id3genres.h:91
 msgid "Gangsta"
-msgstr "갱스터"
+msgstr "갱스터 Gangsta"
 
 #: modules/demux/mp4/id3genres.h:92
 msgid "Top 40"
@@ -14972,341 +14982,341 @@ msgstr "탑 40"
 
 #: modules/demux/mp4/id3genres.h:93
 msgid "Christian Rap"
-msgstr "Christian Rap"
+msgstr "크리스찬 랩 Christian Rap"
 
 #: modules/demux/mp4/id3genres.h:94
 msgid "Pop/Funk"
-msgstr "Pop/Funk"
+msgstr "팝/펑크 Pop/Funk"
 
 #: modules/demux/mp4/id3genres.h:95
 msgid "Jungle"
-msgstr "정글"
+msgstr "정글 Jungle"
 
 #: modules/demux/mp4/id3genres.h:96
 msgid "Native American"
-msgstr "미국 음악"
+msgstr "미국 음악 Native American"
 
 #: modules/demux/mp4/id3genres.h:97
 msgid "Cabaret"
-msgstr "카바레"
+msgstr "카바레 Cabaret"
 
 #: modules/demux/mp4/id3genres.h:98
 msgid "New Wave"
-msgstr "New Wave"
+msgstr "새 물결 New Wave"
 
 #: modules/demux/mp4/id3genres.h:99 modules/gui/macosx/VideoEffects.m:158
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1478
 msgid "Psychedelic"
-msgstr "사이키델릭"
+msgstr "사이키델릭 (Psychedelic)"
 
 #: modules/demux/mp4/id3genres.h:100
 msgid "Rave"
-msgstr "레이브"
+msgstr "레이브 Rave"
 
 #: modules/demux/mp4/id3genres.h:101
 msgid "Showtunes"
-msgstr "Showtunes"
+msgstr "쇼툰즈 Showtunes"
 
 #: modules/demux/mp4/id3genres.h:102
 msgid "Trailer"
-msgstr "트레일러"
+msgstr "트레일러 Trailer"
 
 #: modules/demux/mp4/id3genres.h:103
 msgid "Lo-Fi"
-msgstr "Lo-Fi"
+msgstr "로우 파이 Lo-Fi"
 
 #: modules/demux/mp4/id3genres.h:104
 msgid "Tribal"
-msgstr "Tribal"
+msgstr "부족 음악 Tribal"
 
 #: modules/demux/mp4/id3genres.h:105
 msgid "Acid Punk"
-msgstr "Acid Punk"
+msgstr "액시드 펑크 Acid Punk"
 
 #: modules/demux/mp4/id3genres.h:106
 msgid "Acid Jazz"
-msgstr "Acid Jazz"
+msgstr "액시드 재즈 Acid Jazz"
 
 #: modules/demux/mp4/id3genres.h:107
 msgid "Polka"
-msgstr "폴카"
+msgstr "폴카 Polka"
 
 #: modules/demux/mp4/id3genres.h:108
 msgid "Retro"
-msgstr "레트로"
+msgstr "레트로 Retro"
 
 #: modules/demux/mp4/id3genres.h:109
 msgid "Musical"
-msgstr "뮤지컬"
+msgstr "뮤지컬 Musical"
 
 #: modules/demux/mp4/id3genres.h:110
 msgid "Rock & Roll"
-msgstr "Rock & Roll"
+msgstr "락앤롤 Rock & ROll"
 
 #: modules/demux/mp4/id3genres.h:111
 msgid "Hard Rock"
-msgstr "Hard Rock"
+msgstr "하드 락 Hard Rock"
 
 #: modules/demux/mp4/id3genres.h:112
 msgid "Folk"
-msgstr "Folk"
+msgstr "포크 Folk"
 
 #: modules/demux/mp4/id3genres.h:113
 msgid "Folk-Rock"
-msgstr "Folk-Rock"
+msgstr "포크-락 Folk-Rock"
 
 #: modules/demux/mp4/id3genres.h:114
 msgid "National Folk"
-msgstr "National Folk"
+msgstr "내셔널 포크 National Folk"
 
 #: modules/demux/mp4/id3genres.h:115
 msgid "Swing"
-msgstr "Swing"
+msgstr "스윙 Swing"
 
 #: modules/demux/mp4/id3genres.h:116
 msgid "Fast Fusion"
-msgstr "Fast Fusion"
+msgstr "빠른 퓨전 Fast Fusion"
 
 #: modules/demux/mp4/id3genres.h:117
 msgid "Bebob"
-msgstr "Bebob"
+msgstr "비밥 Bebob"
 
 #: modules/demux/mp4/id3genres.h:119
 msgid "Revival"
-msgstr "Revival"
+msgstr "리바이벌 Revival"
 
 #: modules/demux/mp4/id3genres.h:120
 msgid "Celtic"
-msgstr "Celtic"
+msgstr "켈트 Celtic"
 
 #: modules/demux/mp4/id3genres.h:121
 msgid "Bluegrass"
-msgstr "Bluegrass"
+msgstr "블루그래스 Buegrass"
 
 #: modules/demux/mp4/id3genres.h:122
 msgid "Avantgarde"
-msgstr "Avantgarde"
+msgstr "아방가르드 vantgarde"
 
 #: modules/demux/mp4/id3genres.h:123
 msgid "Gothic Rock"
-msgstr "Gothic Rock"
+msgstr "고딕 락 Gothic Rock"
 
 #: modules/demux/mp4/id3genres.h:124
 msgid "Progressive Rock"
-msgstr "Progressive Rock"
+msgstr "프로그레시브 락 Progressive Rock"
 
 #: modules/demux/mp4/id3genres.h:125
 msgid "Psychedelic Rock"
-msgstr "Psychedelic Rock"
+msgstr "사이키델릭 락 Psychedelic Rock"
 
 #: modules/demux/mp4/id3genres.h:126
 msgid "Symphonic Rock"
-msgstr "Symphonic Rock"
+msgstr "심포닉 락 Symphonic Rock"
 
 #: modules/demux/mp4/id3genres.h:127
 msgid "Slow Rock"
-msgstr "Slow Rock"
+msgstr "슬로우 락 Slow Rock"
 
 #: modules/demux/mp4/id3genres.h:128
 msgid "Big Band"
-msgstr "Big Band"
+msgstr "빅 밴드 Big Band"
 
 #: modules/demux/mp4/id3genres.h:130
 msgid "Easy Listening"
-msgstr "Easy Listening"
+msgstr "이지 리스링 Easy Listening"
 
 #: modules/demux/mp4/id3genres.h:131
 msgid "Acoustic"
-msgstr "Acoustic"
+msgstr "어쿠스틱 Acoustic"
 
 #: modules/demux/mp4/id3genres.h:132
 msgid "Humour"
-msgstr "Humour"
+msgstr "유머 Humour"
 
 #: modules/demux/mp4/id3genres.h:133
 msgid "Speech"
-msgstr "Speech"
+msgstr "연설 Speech"
 
 #: modules/demux/mp4/id3genres.h:134
 msgid "Chanson"
-msgstr "Chanson"
+msgstr "샹송 Chanson"
 
 #: modules/demux/mp4/id3genres.h:135
 msgid "Opera"
-msgstr "Opera"
+msgstr "오페라 Opera"
 
 #: modules/demux/mp4/id3genres.h:136
 msgid "Chamber Music"
-msgstr "실내악"
+msgstr "실내악 Chamber Music"
 
 #: modules/demux/mp4/id3genres.h:137
 msgid "Sonata"
-msgstr "Sonata"
+msgstr "소나타 Sonata"
 
 #: modules/demux/mp4/id3genres.h:138
 msgid "Symphony"
-msgstr "Symphony"
+msgstr "교향곡 Symphony"
 
 #: modules/demux/mp4/id3genres.h:139
 msgid "Booty Bass"
-msgstr "Booty Bass"
+msgstr "부티 베이스 Booty Bass"
 
 #: modules/demux/mp4/id3genres.h:140
 msgid "Primus"
-msgstr "Primus"
+msgstr "프리무스 Primus"
 
 #: modules/demux/mp4/id3genres.h:141
 msgid "Porn Groove"
-msgstr "Porn Groove"
+msgstr "포르노 그루브 Porn Groove"
 
 #: modules/demux/mp4/id3genres.h:142
 msgid "Satire"
-msgstr "Satire"
+msgstr "풍자 Satire"
 
 #: modules/demux/mp4/id3genres.h:143
 msgid "Slow Jam"
-msgstr "Slow Jam"
+msgstr "슬로우 잼 Slow Jam"
 
 #: modules/demux/mp4/id3genres.h:145
 msgid "Tango"
-msgstr "Tango"
+msgstr "탱고 Tango"
 
 #: modules/demux/mp4/id3genres.h:146
 msgid "Samba"
-msgstr "Samba"
+msgstr "삼바 Samba"
 
 #: modules/demux/mp4/id3genres.h:147
 msgid "Folklore"
-msgstr "Folklore"
+msgstr "민속 Folklore"
 
 #: modules/demux/mp4/id3genres.h:148
 msgid "Ballad"
-msgstr "Ballad"
+msgstr "발라드 Ballad"
 
 #: modules/demux/mp4/id3genres.h:149
 msgid "Power Ballad"
-msgstr "Power Ballad"
+msgstr "파워 발라드 Power Ballad"
 
 #: modules/demux/mp4/id3genres.h:150
 msgid "Rhythmic Soul"
-msgstr "Rhythmic Soul"
+msgstr "리드믹 소울 Rhythmic Soul"
 
 #: modules/demux/mp4/id3genres.h:151
 msgid "Freestyle"
-msgstr "Freestyle"
+msgstr "프리스타일 Freestyle"
 
 #: modules/demux/mp4/id3genres.h:152
 msgid "Duet"
-msgstr "Duet"
+msgstr "듀엣 Duet"
 
 #: modules/demux/mp4/id3genres.h:153
 msgid "Punk Rock"
-msgstr "Punk Rock"
+msgstr "펑크 락 Punk Rock"
 
 #: modules/demux/mp4/id3genres.h:154
 msgid "Drum Solo"
-msgstr "Drum Solo"
+msgstr "드럼 솔로 Drum Solo"
 
 #: modules/demux/mp4/id3genres.h:155
 msgid "Acapella"
-msgstr "Acapella"
+msgstr "아카펠라 Acapella"
 
 #: modules/demux/mp4/id3genres.h:156
 msgid "Euro-House"
-msgstr "Euro-House"
+msgstr "유로-하우스 Euro-House"
 
 #: modules/demux/mp4/id3genres.h:157
 msgid "Dance Hall"
-msgstr "Dance Hall"
+msgstr "댄스 홀 Dance Hall"
 
 #: modules/demux/mp4/id3genres.h:158
 msgid "Goa"
-msgstr "Goa"
+msgstr "고아 Goa"
 
 #: modules/demux/mp4/id3genres.h:159
 msgid "Drum & Bass"
-msgstr "Drum & Bass"
+msgstr "드럼 & 베이스 Drum & Bass"
 
 #: modules/demux/mp4/id3genres.h:160
 msgid "Club - House"
-msgstr "Club - House"
+msgstr "클럽 - 하우스 Club - House"
 
 #: modules/demux/mp4/id3genres.h:161
 msgid "Hardcore"
-msgstr "Hardcore"
+msgstr "하드코어 Hardcore"
 
 #: modules/demux/mp4/id3genres.h:162
 msgid "Terror"
-msgstr "Terror"
+msgstr "테러 Terror"
 
 #: modules/demux/mp4/id3genres.h:163
 msgid "Indie"
-msgstr "Indie"
+msgstr "인디 Indie"
 
 #: modules/demux/mp4/id3genres.h:164
 msgid "BritPop"
-msgstr "BritPop"
+msgstr "브릿팝 BritPop"
 
 #: modules/demux/mp4/id3genres.h:165
 msgid "Negerpunk"
-msgstr "Negerpunk"
+msgstr "니그로펑그 Negerpunk"
 
 #: modules/demux/mp4/id3genres.h:166
 msgid "Polsk Punk"
-msgstr "Polsk Punk"
+msgstr "폴란드 펑크 Polsk Punk"
 
 #: modules/demux/mp4/id3genres.h:167
 msgid "Beat"
-msgstr "Beat"
+msgstr "비트 Beat"
 
 #: modules/demux/mp4/id3genres.h:168
 msgid "Christian Gangsta Rap"
-msgstr "Christian Gangsta Rap"
+msgstr "크리스챤 갱스터 랩 Christian Gangsta Rap"
 
 #: modules/demux/mp4/id3genres.h:169
 msgid "Heavy Metal"
-msgstr "Heavy Metal"
+msgstr "헤비 메탈 Heavy Metal"
 
 #: modules/demux/mp4/id3genres.h:170
 msgid "Black Metal"
-msgstr "Black Metal"
+msgstr "블랙 메탈 Black Metal"
 
 #: modules/demux/mp4/id3genres.h:171
 msgid "Crossover"
-msgstr "Crossover"
+msgstr "크로스오버 Crossover"
 
 #: modules/demux/mp4/id3genres.h:172
 msgid "Contemporary Christian"
-msgstr "Contemporary Christian"
+msgstr "현대 크리스챤 Contemporary Christian"
 
 #: modules/demux/mp4/id3genres.h:173
 msgid "Christian Rock"
-msgstr "Christian Rock"
+msgstr "크리스챤 락 Christian Rock"
 
 #: modules/demux/mp4/id3genres.h:174
 msgid "Merengue"
-msgstr "Merengue"
+msgstr "메렝게 Merengue"
 
 #: modules/demux/mp4/id3genres.h:175
 msgid "Salsa"
-msgstr "Salsa"
+msgstr "살사 Salsa"
 
 #: modules/demux/mp4/id3genres.h:176
 msgid "Thrash Metal"
-msgstr "Thrash Metal"
+msgstr "스래시 메탈 Thrash Metal"
 
 #: modules/demux/mp4/id3genres.h:177
 msgid "Anime"
-msgstr "Anime"
+msgstr "애니메 Anime"
 
 #: modules/demux/mp4/id3genres.h:178
 msgid "JPop"
-msgstr "JPop"
+msgstr "제이팝 JPop"
 
 #: modules/demux/mp4/id3genres.h:179
 msgid "Synthpop"
-msgstr "Synthpop"
+msgstr "신스팝 Synthpop"
 
 #: modules/demux/mp4/mp4.c:52
 msgid "MP4 stream demuxer"
@@ -15336,7 +15346,7 @@ msgstr "정보"
 
 #: modules/demux/mp4/mp4.c:1457
 msgid "Disclaimer"
-msgstr "Disclaimer"
+msgstr "경고"
 
 #: modules/demux/mp4/mp4.c:1458
 msgid "Requirements"
@@ -15393,7 +15403,7 @@ msgstr "상품"
 
 #: modules/demux/mp4/mp4.c:1471
 msgid "Grouping"
-msgstr "그룹"
+msgstr "그룹화"
 
 #: modules/demux/mp4/mp4.c:1473
 msgid "Sub-Title"
@@ -15489,7 +15499,7 @@ msgstr "MPEG-I/II 비디오 디먹서"
 
 #: modules/demux/nsc.c:47
 msgid "Windows Media NSC metademux"
-msgstr "Windows Media NSC metademux"
+msgstr "윈도우 미디어 NSC metademux"
 
 #: modules/demux/nsv.c:49
 msgid "NullSoft demuxer"
@@ -15505,11 +15515,11 @@ msgstr "OGG 디먹서"
 
 #: modules/demux/playlist/gvp.c:208
 msgid "Google Video"
-msgstr "Google 비디오"
+msgstr "구글 비디오"
 
 #: modules/demux/playlist/playlist.c:46
 msgid "Show shoutcast adult content"
-msgstr "Shoutcast 성인 컨텐츠 보기"
+msgstr "샤우트캐스트 성인 컨텐츠 보기"
 
 #: modules/demux/playlist/playlist.c:47
 msgid "Show NC17 rated video streams when using shoutcast video playlists."
@@ -15549,7 +15559,7 @@ msgstr "DVB 재생목록 가져오기"
 
 #: modules/demux/playlist/playlist.c:92
 msgid "Podcast parser"
-msgstr "Podcast 분석기"
+msgstr "팟캐스트 분석기"
 
 #: modules/demux/playlist/playlist.c:97
 msgid "XSPF playlist import"
@@ -15557,7 +15567,7 @@ msgstr "XSPF 재생목록 가져오기"
 
 #: modules/demux/playlist/playlist.c:102
 msgid "New winamp 5.2 shoutcast import"
-msgstr "새로운 WinAmp 5.2 Shoutcase 가져오기"
+msgstr "새로운 윈앰프 5.2 샤우트캐스트 가져오기"
 
 #: modules/demux/playlist/playlist.c:109
 msgid "ASX playlist import"
@@ -15569,11 +15579,11 @@ msgstr "Kasenna MediaBase 분석기"
 
 #: modules/demux/playlist/playlist.c:119
 msgid "QuickTime Media Link importer"
-msgstr "QuickTime 미디어 링크 가져오기"
+msgstr "퀵타임 미디어 링크 가져오기"
 
 #: modules/demux/playlist/playlist.c:124
 msgid "Google Video Playlist importer"
-msgstr "Google 비디오 재생목록 가져오기"
+msgstr "구글 비디오 재생목록 가져오기"
 
 #: modules/demux/playlist/playlist.c:129
 msgid "Dummy IFO demux"
@@ -15581,7 +15591,7 @@ msgstr "더미 IFO 디먹스"
 
 #: modules/demux/playlist/playlist.c:134
 msgid "iTunes Music Library importer"
-msgstr "iTunes 음악 라이브러기 가져오기"
+msgstr "아이튠즈 음악 라이브러기 가져오기"
 
 #: modules/demux/playlist/playlist.c:139
 msgid "WPL playlist import"
@@ -15594,7 +15604,7 @@ msgstr "ZPL 재생목록 가져오기"
 #: modules/demux/playlist/podcast.c:195 modules/demux/playlist/podcast.c:207
 #: modules/demux/playlist/podcast.c:269 modules/demux/playlist/podcast.c:292
 msgid "Podcast Info"
-msgstr "Podcast 정보"
+msgstr "팟캐스트 정보"
 
 #: modules/demux/playlist/podcast.c:197
 msgid "Podcast Link"
@@ -15618,7 +15628,7 @@ msgstr "팟캐스트 자막"
 
 #: modules/demux/playlist/podcast.c:207 modules/demux/playlist/podcast.c:278
 msgid "Podcast Summary"
-msgstr "Podcast 요약"
+msgstr "팟캐스트 요약"
 
 #: modules/demux/playlist/podcast.c:272
 msgid "Podcast Publication Date"
@@ -15642,7 +15652,7 @@ msgstr "팟캐스트 형식"
 
 #: modules/demux/playlist/podcast.c:293
 msgid "Podcast Size"
-msgstr "Podcast 크기"
+msgstr "팟캐스트 크기"
 
 #: modules/demux/playlist/podcast.c:294
 #, c-format
@@ -15651,7 +15661,7 @@ msgstr "%s 바이트"
 
 #: modules/demux/playlist/shoutcast.c:332
 msgid "Shoutcast"
-msgstr "Shoutcast"
+msgstr "샤우트캐스트"
 
 #: modules/demux/playlist/shoutcast.c:336
 msgid "Listeners"
@@ -15702,11 +15712,11 @@ msgstr "입력 스트림의 오디오 채널. 0 이상의 수. 기본은 2."
 
 #: modules/demux/rawaud.c:49
 msgid "FOURCC code of raw input format"
-msgstr "Raw 입력 형식의 FourCC 코드"
+msgstr "원시 입력 형식의 FourCC 코드"
 
 #: modules/demux/rawaud.c:51
 msgid "FOURCC code of the raw input format. This is a four character string."
-msgstr "Raw 입력 형식의 FourCC 코드. 이것은 네자리 문자열입니다.."
+msgstr "원시 입력 형식의 FourCC 코드. 이것은 네자리 문자열입니다.."
 
 #: modules/demux/rawaud.c:53
 msgid "Forces the audio language"
@@ -15722,7 +15732,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:64
 msgid "Raw audio demuxer"
-msgstr "Raw 오디오 디먹서"
+msgstr "원시 오디오 디먹서"
 
 #: modules/demux/rawdv.c:43
 msgid ""
@@ -15740,16 +15750,16 @@ msgid ""
 "This is the desired frame rate when playing raw video streams. In the form "
 "30000/1001 or 29.97"
 msgstr ""
-"Raw 비디오 스트림 재생시 요구되는 프레임 레이트 입니다.  30000/1001 또는 "
+"원시 비디오 스트림 재생시 요구되는 프레임 레이트 입니다.  30000/1001 또는 "
 "29.97 형태로"
 
 #: modules/demux/rawvid.c:49
 msgid "This specifies the width in pixels of the raw video stream."
-msgstr "Raw 비디오 스트림의 너비를 픽셀단위로 지정합니다."
+msgstr "원시 비디오 스트림의 너비를 픽셀단위로 지정합니다."
 
 #: modules/demux/rawvid.c:53
 msgid "This specifies the height in pixels of the raw video stream."
-msgstr "Raw 비디오 스트림의 높이를 픽셀단위로 지정합니다."
+msgstr "원시 비디오 스트림의 높이를 픽셀단위로 지정합니다."
 
 #: modules/demux/rawvid.c:56
 msgid "Force chroma (Use carefully)"
@@ -15761,7 +15771,7 @@ msgstr "크로마를 강제로 사용합니다. 4 문자의 문자열로 되어 
 
 #: modules/demux/rawvid.c:65
 msgid "Raw video demuxer"
-msgstr "Raw 비디오 디먹서"
+msgstr "원시 비디오 디먹서"
 
 #: modules/demux/real.c:70
 msgid "Real demuxer"
@@ -15976,7 +15986,7 @@ msgstr "VC1 비디오 디먹서"
 
 #: modules/demux/vobsub.c:49
 msgid "Vobsub subtitles parser"
-msgstr "Vobsub 자막 파서"
+msgstr "Vobsub 자막 분석기"
 
 #: modules/demux/voc.c:43
 msgid "VOC demuxer"
@@ -16178,19 +16188,20 @@ msgstr "다이내믹 레인지 압축기 사용하기"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "초기화"
 
 #: modules/gui/macosx/AudioEffects.m:120
 #: modules/gui/qt4/components/extended_panels.cpp:1410
 msgid "Attack"
-msgstr "Attack"
+msgstr "어택"
 
 #: modules/gui/macosx/AudioEffects.m:121
 #: modules/gui/qt4/components/extended_panels.cpp:1411
 msgid "Release"
-msgstr "Release"
+msgstr "릴리즈"
 
 #: modules/gui/macosx/AudioEffects.m:122
 #: modules/gui/qt4/components/extended_panels.cpp:1412
@@ -16207,7 +16218,7 @@ msgstr "헤드폰 가상화"
 
 #: modules/gui/macosx/AudioEffects.m:138
 msgid "Volume normalization"
-msgstr "볼륨 정규화"
+msgstr "볼륨 평준화"
 
 #: modules/gui/macosx/AudioEffects.m:139
 msgid "Maximum level"
@@ -16298,8 +16309,8 @@ msgid "Bookmarks"
 msgstr "책갈피"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "추가"
 
@@ -16403,7 +16414,7 @@ msgid ""
 "%@ unexpectedly quit the last time it was run. Would you like to send a "
 "crash report to %@?"
 msgstr ""
-"%@는 마지막 실행시에 갑자기 종료되었습니다. %@에 충돌 리포트를 전송할까요?"
+"%@는 마지막 실행시에 갑자기 종료되었습니다. %@에 고장 보고서를 전송할까요?"
 
 #: modules/gui/macosx/BWQuincyUI.m:83
 #: modules/gui/qt4/components/info_panels.cpp:172
@@ -16806,7 +16817,7 @@ msgstr "사용자명"
 
 #: modules/gui/macosx/coredialogs.m:240
 msgid "Errors and Warnings"
-msgstr "에러 및 경고"
+msgstr "오류 및 경고"
 
 #: modules/gui/macosx/coredialogs.m:241
 msgid "Clean up"
@@ -16829,7 +16840,7 @@ msgid ""
 "Don't display dialogs that don't require user action (Critical and error "
 "panel)."
 msgstr ""
-"사용자 동작 (치명적인 에러 패널) 을 필요로 하지 않는 대화상자를 출력하지 않습"
+"사용자 동작 (치명적인 오류 패널) 을 필요로 하지 않는 대화상자를 출력하지 않습"
 "니다."
 
 #: modules/gui/macosx/fspanel.m:409
@@ -17085,7 +17096,7 @@ msgstr "아이튠즈/Spotify 일시중지하고 재시작하기"
 
 #: modules/gui/macosx/macosx.m:132
 msgid "Continue playback where you left off"
-msgstr "자리를 비울 때 계속 재생하기"
+msgstr "마지막 위치에서 이어서 재생하기"
 
 #: modules/gui/macosx/macosx.m:133
 msgid ""
@@ -17288,11 +17299,11 @@ msgstr "한단계 뒤로"
 
 #: modules/gui/macosx/MainMenu.m:424
 msgid "Increase Volume"
-msgstr "음량 키우기"
+msgstr "볼륨 키우기"
 
 #: modules/gui/macosx/MainMenu.m:425
 msgid "Decrease Volume"
-msgstr "음량 줄이기"
+msgstr "볼륨 줄이기"
 
 #: modules/gui/macosx/MainMenu.m:431 modules/gui/macosx/MainMenu.m:432
 msgid "Audio Device"
@@ -17404,7 +17415,7 @@ msgstr "메시지..."
 
 #: modules/gui/macosx/MainMenu.m:489
 msgid "Errors and Warnings..."
-msgstr "에러 및 경고..."
+msgstr "오류 및 경고..."
 
 #: modules/gui/macosx/MainMenu.m:491
 msgid "Bring All to Front"
@@ -17421,7 +17432,7 @@ msgstr "VLC 미디어 재생기 도움말..."
 
 #: modules/gui/macosx/MainMenu.m:495
 msgid "ReadMe / FAQ..."
-msgstr "ReadMe / FAQ..."
+msgstr "읽어보기 / 자주 묻는 질문..."
 
 #: modules/gui/macosx/MainMenu.m:497
 msgid "Online Documentation..."
@@ -17738,7 +17749,7 @@ msgstr "다음 채널"
 
 #: modules/gui/macosx/open.m:214 modules/gui/macosx/open.m:1485
 msgid "Retrieving Channel Info..."
-msgstr "채널 정보 검색중..."
+msgstr "채널 정보 검색 중..."
 
 #: modules/gui/macosx/open.m:215
 msgid "EyeTV is not launched"
@@ -17907,7 +17918,7 @@ msgstr "확장 M3U"
 
 #: modules/gui/macosx/playlist.m:776
 msgid "XML Shareable Playlist Format (XSPF)"
-msgstr "XML Shareable Playlist Format (XSPF)"
+msgstr "XML 공유 재생목록 형식 (XSPF)"
 
 #: modules/gui/macosx/playlist.m:777 modules/gui/qt4/dialogs_provider.cpp:563
 msgid "HTML playlist"
@@ -18158,7 +18169,7 @@ msgstr "하드웨어 가속"
 
 #: modules/gui/macosx/simple_prefs.m:367
 msgid "Post-Processing Quality"
-msgstr "후 처리 품질"
+msgstr "후처리 품질"
 
 #: modules/gui/macosx/simple_prefs.m:371
 msgid "Edit default application settings for network protocols"
@@ -18368,7 +18379,7 @@ msgid ""
 "Press new keys for\n"
 "\"%@\""
 msgstr ""
-"Press new keys for\n"
+"다음에 대해 새 키를 누르세요\n"
 "\"%@\""
 
 #: modules/gui/macosx/simple_prefs.m:1530
@@ -18401,7 +18412,7 @@ msgstr "오디오 트랙 동기화:"
 #: modules/gui/macosx/TrackSynchronization.m:63
 #: modules/gui/macosx/TrackSynchronization.m:67
 msgid "s"
-msgstr " s"
+msgstr "s"
 
 #: modules/gui/macosx/TrackSynchronization.m:64
 msgid "A positive value means that the audio is ahead of the video"
@@ -18464,7 +18475,8 @@ msgstr ""
 "자막 지속 시간을 다시 계산합니다.\n"
 "0으로 놓으면 끕니다."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "비디오 효과"
 
@@ -18472,7 +18484,8 @@ msgstr "비디오 효과"
 msgid "Basic"
 msgstr "기본"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "구조"
 
@@ -18489,7 +18502,8 @@ msgstr "색상"
 msgid "Image Adjust"
 msgstr "이미지 조정"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "밝기 임계값"
 
@@ -18498,12 +18512,14 @@ msgstr "밝기 임계값"
 msgid "Sharpen"
 msgstr "선명도"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "시그마"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "밴딩 제거"
 
@@ -18512,9 +18528,10 @@ msgstr "밴딩 제거"
 msgid "Radius"
 msgstr "반경"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
-msgstr "Film Grain"
+msgstr "필름 그레인"
 
 #: modules/gui/macosx/VideoEffects.m:100 modules/video_filter/grain.c:53
 #: modules/gui/qt4/ui/video_effects.h:1403
@@ -18524,7 +18541,7 @@ msgstr "변화"
 #: modules/gui/macosx/VideoEffects.m:105
 #: modules/gui/qt4/ui/video_effects.h:1411
 msgid "Synchronize top and bottom"
-msgstr "상하단 동기화"
+msgstr "위쪽 및 아래쪽 동기화"
 
 #: modules/gui/macosx/VideoEffects.m:106
 #: modules/gui/qt4/ui/video_effects.h:1412
@@ -18582,7 +18599,7 @@ msgstr "열"
 #: modules/gui/macosx/VideoEffects.m:124 modules/video_splitter/clone.c:57
 #: modules/gui/qt4/ui/video_effects.h:1493
 msgid "Clone"
-msgstr "복제"
+msgstr "복제 (Clone)"
 
 #: modules/gui/macosx/VideoEffects.m:125 modules/video_splitter/clone.c:39
 #: modules/gui/qt4/ui/video_effects.h:1494
@@ -18592,7 +18609,7 @@ msgstr "복제할 수"
 #: modules/gui/macosx/VideoEffects.m:126
 #: modules/gui/qt4/ui/video_effects.h:1434
 msgid "Wall"
-msgstr "월"
+msgstr "벽 (Wall)"
 
 #: modules/gui/macosx/VideoEffects.m:130 modules/video_filter/colorthres.c:70
 #: modules/gui/qt4/ui/video_effects.h:1425
@@ -18621,7 +18638,7 @@ msgstr "경계"
 
 #: modules/gui/macosx/VideoEffects.m:144 modules/video_filter/gradient.c:76
 msgid "Hough"
-msgstr "Hough"
+msgstr "허프"
 
 #: modules/gui/macosx/VideoEffects.m:147
 #: modules/gui/qt4/ui/video_effects.h:1424
@@ -18656,7 +18673,8 @@ msgstr "모션 블러"
 msgid "Factor"
 msgstr "비율"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "모션 인식"
 
@@ -18667,7 +18685,7 @@ msgstr "물결 효과"
 
 #: modules/gui/macosx/VideoEffects.m:159 modules/video_filter/anaglyph.c:73
 msgid "Anaglyph"
-msgstr "입체 사진"
+msgstr "애너글리프"
 
 #: modules/gui/macosx/VideoEffects.m:161
 #: modules/gui/qt4/ui/video_effects.h:1455
@@ -18689,8 +18707,9 @@ msgstr "로고 추가"
 msgid "Logo"
 msgstr "로고"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "투명"
 
@@ -18743,12 +18762,12 @@ msgstr "H264 은 새로운 비디오 코덱 (MPEG TS 및 MP4 와 같이 사용�
 #: modules/gui/macosx/wizard.m:148
 msgid "WMV (Windows Media Video) 1 (useable with MPEG TS, MPEG1, ASF and OGG)"
 msgstr ""
-"WMV (Windows Media Video) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
+"WMV (윈도우 미디어 비디오) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
 
 #: modules/gui/macosx/wizard.m:152
 msgid "WMV (Windows Media Video) 2 (useable with MPEG TS, MPEG1, ASF and OGG)"
 msgstr ""
-"WMV (Windows Media Video) 2 (MPEG TS, MPEG1, ASF 및 OGG와 같이 사용가능)"
+"WMV (윈도우 미디어 비디오) 2 (MPEG TS, MPEG1, ASF 및 OGG와 같이 사용가능)"
 
 #: modules/gui/macosx/wizard.m:156
 msgid ""
@@ -18940,11 +18959,11 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:332 modules/gui/macosx/wizard.m:491
 #: modules/gui/macosx/wizard.m:1607
 msgid "Stream to network"
-msgstr "네트워크로 전송"
+msgstr "네트워크로 스트림"
 
 #: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
-msgstr "파일로 저장/트랜스코딩"
+msgstr "파일로 저장/트랜스코드"
 
 #: modules/gui/macosx/wizard.m:337
 msgid "Choose input"
@@ -19011,7 +19030,8 @@ msgstr "UDP 유니캐스트"
 msgid "UDP Multicast"
 msgstr "UDP 멀티캐스트"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "트랜스코딩"
 
@@ -19333,23 +19353,23 @@ msgstr "[화면]"
 
 #: modules/gui/ncurses.c:876
 msgid " h,H                    Show/Hide help box"
-msgstr " h,H                    도움말 박스 보이기/숨기기"
+msgstr " h,H                    도움말 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:877
 msgid " i                      Show/Hide info box"
-msgstr " i                      정보 박스 보이기/숨기기"
+msgstr " i                      정보 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:878
 msgid " M                      Show/Hide metadata box"
-msgstr " M                      메타데이터 박스 보이기/숨기기"
+msgstr " M                      메타데이터 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:879
 msgid " L                      Show/Hide messages box"
-msgstr " L                      메시지 박스 보이기/숨기기"
+msgstr " L                      메시지 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:880
 msgid " P                      Show/Hide playlist box"
-msgstr " P                      재생목록 박스 보이기/숨기기"
+msgstr " P                      재생목록 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:881
 msgid " B                      Show/Hide filebrowser"
@@ -19357,11 +19377,11 @@ msgstr " B                      파일탐색기 보이기/숨기기"
 
 #: modules/gui/ncurses.c:882
 msgid " x                      Show/Hide objects box"
-msgstr " x                      옵젝 박스 보이기/숨기기"
+msgstr " x                      오브젝트 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:883
 msgid " S                      Show/Hide statistics box"
-msgstr " S                      통계 박스 보이기/숨기기"
+msgstr " S                      통계 상자 보이기/숨기기"
 
 #: modules/gui/ncurses.c:884
 msgid " Esc                    Close Add/Search entry"
@@ -19432,17 +19452,17 @@ msgstr " m                      음소거"
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:906
 msgid " <up>,<down>            Navigate through the box line by line"
-msgstr " <up>,<down>            한 줄씩 박스 네이게이션하기"
+msgstr " <up>,<down>            한 줄씩 상자 네이게이션하기"
 
 #. xgettext: You can use ⇞ and ⇟ characters
 #: modules/gui/ncurses.c:908
 msgid " <pageup>,<pagedown>    Navigate through the box page by page"
-msgstr " <pageup>,<pagedown>    한 페이지씩 박스 네비게이션하기"
+msgstr " <pageup>,<pagedown>    한 페이지씩 상자 네비게이션하기"
 
 #. xgettext: You can use ↖ and ↘ characters
 #: modules/gui/ncurses.c:910
 msgid " <start>,<end>          Navigate to start/end of box"
-msgstr " <start>,<end>          박스의 처음/끝으로 네비게이션하기"
+msgstr " <start>,<end>          상자의 처음/끝으로 네비게이션하기"
 
 #: modules/gui/ncurses.c:914
 msgid "[Playlist]"
@@ -19454,7 +19474,7 @@ msgstr " r                      무작위 재생 토글하기"
 
 #: modules/gui/ncurses.c:917
 msgid " l                      Toggle Loop Playlist"
-msgstr " l                      재생목록 반복 토글하기"
+msgstr " l                      재생목록 순환 토글하기"
 
 #: modules/gui/ncurses.c:918
 msgid " R                      Toggle Repeat item"
@@ -19474,11 +19494,11 @@ msgstr " g                      현재 재생 항목으로 이동하기"
 
 #: modules/gui/ncurses.c:922
 msgid " /                      Look for an item"
-msgstr "/ 항목 찾아보기"
+msgstr " /                      항목 찾아보기"
 
 #: modules/gui/ncurses.c:923
 msgid " ;                      Look for the next item"
-msgstr ": 다음 항목 찾아보기"
+msgstr " ;                      다음 항목 찾아보기"
 
 #: modules/gui/ncurses.c:924
 msgid " A                      Add an entry"
@@ -19534,43 +19554,43 @@ msgstr "[순환]"
 #: modules/gui/ncurses.c:1073
 #, c-format
 msgid " Source   : %s"
-msgstr " 소스   : %s"
+msgstr " 소스     : %s"
 
 #: modules/gui/ncurses.c:1106
 #, c-format
 msgid " Position : %s/%s"
-msgstr "위치 : %s/%s"
+msgstr " 위치     : %s/%s"
 
 #: modules/gui/ncurses.c:1111
 msgid " Volume   : Mute"
-msgstr "볼륨   : 음소거"
+msgstr " 볼륨     : 음소거"
 
 #: modules/gui/ncurses.c:1112
 #, c-format
 msgid " Volume   : %3ld%%"
-msgstr "볼륨   : %3ld%%"
+msgstr " 볼륨     : %3ld%%"
 
 #: modules/gui/ncurses.c:1112
 msgid " Volume   : ----"
-msgstr "볼륨   : ----"
+msgstr " 볼륨     : ----"
 
 #: modules/gui/ncurses.c:1118
 #, c-format
 msgid " Title    : %<PRId64>/%d"
-msgstr "제목    : %<PRId64>/%d"
+msgstr " 제목     : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1124
 #, c-format
 msgid " Chapter  : %<PRId64>/%d"
-msgstr "챕터  : %<PRId64>/%d"
+msgstr " 챕터  : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1129
 msgid " Source: <no current item> "
-msgstr "소스: <현재 항목이 없습니다> "
+msgstr " 소스: <현재 항목 없음> "
 
 #: modules/gui/ncurses.c:1131
 msgid " [ h for help ]"
-msgstr " [ 도움말(H) ]"
+msgstr " [ 도움말은 h ]"
 
 #: modules/gui/ncurses.c:1152
 #, c-format
@@ -19612,7 +19632,7 @@ msgid ""
 "If the playlist is empty, open a medium"
 msgstr ""
 "재생\n"
-"재생목록이 비었으면, 매체 열기"
+"재생목록이 비었으면, 미디어 열기"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Previous / Backward"
@@ -19670,7 +19690,7 @@ msgstr "재생 정지"
 
 #: modules/gui/qt4/components/controller.hpp:124
 msgid "Open a medium"
-msgstr "매체 열기"
+msgstr "미디어 열기"
 
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Previous media in the playlist, skip backward when held"
@@ -19929,7 +19949,7 @@ msgstr "오디오 지문을 이용해 메타 데이터 검색하기"
 
 #: modules/gui/qt4/components/info_panels.cpp:392
 msgid "Extra metadata and other information are shown in this panel.\n"
-msgstr "추가 메타데이터 및 기타 정보가 이 패널에 보여집니다.\n"
+msgstr "이 패널에 추가 메타데이터 및 기타 정보가 나타납니다.\n"
 
 #: modules/gui/qt4/components/info_panels.cpp:464
 msgid ""
@@ -19937,7 +19957,7 @@ msgid ""
 "Muxer, Audio and Video Codecs, Subtitles are shown."
 msgstr ""
 "만들어진 미디어 또는 스트림에 대한 정보.\n"
-"먹서, 오디오 및 비디오 코덱, 자막이 보여집니다."
+"먹서, 오디오 및 비디오 코덱, 자막이 나타납니다."
 
 #: modules/gui/qt4/components/info_panels.cpp:541
 msgid "Current media / stream statistics"
@@ -19953,15 +19973,15 @@ msgstr "출력/기록/전송"
 
 #: modules/gui/qt4/components/info_panels.cpp:570
 msgid "Media data size"
-msgstr "미디어 자료 크기"
+msgstr "미디어 데이터 크기"
 
 #: modules/gui/qt4/components/info_panels.cpp:576
 msgid "Demuxed data size"
-msgstr "디먹스된 자료 크기"
+msgstr "디먹스한 데이터 크기"
 
 #: modules/gui/qt4/components/info_panels.cpp:577
 msgid "Content bitrate"
-msgstr "내용 비트레이트"
+msgstr "내용물 비트레이트"
 
 #: modules/gui/qt4/components/info_panels.cpp:579
 msgid "Discarded (corrupted)"
@@ -19969,7 +19989,7 @@ msgstr "버림 (깨졌음)"
 
 #: modules/gui/qt4/components/info_panels.cpp:581
 msgid "Dropped (discontinued)"
-msgstr "누락함 (중지됨)"
+msgstr "누락 (중지됨)"
 
 #: modules/gui/qt4/components/info_panels.cpp:584
 #: modules/gui/qt4/components/info_panels.cpp:597
@@ -19979,7 +19999,7 @@ msgstr "디코드"
 #: modules/gui/qt4/components/info_panels.cpp:585
 #: modules/gui/qt4/components/info_panels.cpp:598
 msgid "blocks"
-msgstr "블락"
+msgstr "블럭"
 
 #: modules/gui/qt4/components/info_panels.cpp:586
 msgid "Displayed"
@@ -20023,7 +20043,7 @@ msgstr "마지막 60초"
 
 #: modules/gui/qt4/components/info_panels.cpp:624
 msgid "Overall"
-msgstr "종합"
+msgstr "전부"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:452
 msgid "Current visualization"
@@ -20305,7 +20325,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1142
 msgid "in"
-msgstr "in"
+msgstr "->"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1144
 msgid "Any field"
@@ -20450,8 +20470,8 @@ msgstr "적용(&A)"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20595,8 +20615,8 @@ msgstr "모든 책갈피 삭제하기"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20616,7 +20636,8 @@ msgstr "바이트"
 msgid "Convert"
 msgstr "변환"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "대상 파일:"
 
@@ -20670,7 +20691,7 @@ msgstr "v4l2 제어"
 
 #: modules/gui/qt4/dialogs/extended.cpp:101
 msgid "&Write changes to config"
-msgstr "변경을 설정에 기록합니다"
+msgstr "변경을 설정에 기록(&W)"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:61
 #: modules/gui/qt4/dialogs/firstrun.cpp:69
@@ -20720,7 +20741,8 @@ msgstr "이동(&G)"
 msgid "Go to time"
 msgstr "시간으로 이동"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "정보"
@@ -21313,7 +21335,7 @@ msgstr "VOD: "
 
 #: modules/gui/qt4/main_interface.cpp:382
 msgid "Do you want to restart the playback where left off?"
-msgstr "자리를 비울 때 재생을 재시작할까요?"
+msgstr "마지막 위치에서 이어서 재생할까요?"
 
 #: modules/gui/qt4/main_interface.cpp:388
 msgid "&Continue"
@@ -21473,7 +21495,7 @@ msgstr "시각화 선택"
 
 #: modules/gui/qt4/menus.cpp:592
 msgid "&Increase Volume"
-msgstr "볼륨 키우기(&I)"
+msgstr "볼륨 높이기(&I)"
 
 #: modules/gui/qt4/menus.cpp:595
 msgid "&Decrease Volume"
@@ -21641,7 +21663,7 @@ msgstr "지우기(&C)"
 
 #: modules/gui/qt4/menus.cpp:1640
 msgid "&Save To Playlist"
-msgstr "재생목록에 저장하기"
+msgstr "재생목록에 저장하기(&S)"
 
 #: modules/gui/qt4/menus.cpp:1650
 msgid "&Post processing"
@@ -21666,8 +21688,8 @@ msgid ""
 "Show an icon in the systray allowing you to control VLC media player for "
 "basic actions."
 msgstr ""
-"VLC 미디어 재생의 기본적인 동작을 조절할 수 있도록 트레이에 아이콘을 보여줍니"
-"다."
+"VLC 미디어 재생기의 기본적인 동작을 조절할 수 있도록 트레이에 아이콘을 보여줍"
+"니다."
 
 #: modules/gui/qt4/qt4.cpp:88
 msgid "Start VLC with only a systray icon"
@@ -21745,7 +21767,7 @@ msgstr "두 업데이트 확인 사이의 날짜 수"
 
 #: modules/gui/qt4/qt4.cpp:128
 msgid "Ask for network policy at start"
-msgstr "시작때 네트워크 정책 묻기"
+msgstr "시작할 때 네트워크 정책 묻습니다"
 
 #: modules/gui/qt4/qt4.cpp:130
 msgid "Save the recently played items in the menu"
@@ -22145,7 +22167,7 @@ msgstr "Lua 메타 가져오기"
 
 #: modules/lua/vlc.c:133
 msgid "Fetch meta data using lua scripts"
-msgstr "lua 스크립트를 사용하여 메타 데이터 가져오기"
+msgstr "Lua 스크립트를 사용하여 메타 데이터 가져오기"
 
 #: modules/lua/vlc.c:138
 msgid "Lua Meta Reader"
@@ -22153,7 +22175,7 @@ msgstr "Lua 메타 읽어오기"
 
 #: modules/lua/vlc.c:139
 msgid "Read meta data using lua scripts"
-msgstr "lua 스크립트를 사용하여 메타 데이터 가져오기"
+msgstr "Lua 스크립트를 사용하여 메타 데이터 가져오기"
 
 #: modules/lua/vlc.c:145
 msgid "Lua Playlist"
@@ -22169,7 +22191,7 @@ msgstr "Lua 아트"
 
 #: modules/lua/vlc.c:152
 msgid "Fetch artwork using lua scripts"
-msgstr "lua 스크립트를 사용하여 아트워크 가져오기"
+msgstr "Lua 스크립트를 사용하여 아트워크 가져오기"
 
 #: modules/lua/vlc.c:157 modules/lua/vlc.c:158
 msgid "Lua Extension"
@@ -22255,7 +22277,7 @@ msgstr ""
 
 #: modules/misc/gnutls.c:62
 msgid "Performance (prioritize faster ciphers)"
-msgstr "성능 (더 빠른 암호 우선함)"
+msgstr "성능 (더 빠른 암호 우선)"
 
 #: modules/misc/gnutls.c:64
 msgid "Secure 128-bits (exclude 256-bits ciphers)"
@@ -22263,7 +22285,7 @@ msgstr "Secure 128-bits (256-bits 암호 제외)"
 
 #: modules/misc/gnutls.c:65
 msgid "Secure 256-bits (prioritize 256-bits ciphers)"
-msgstr "Secure 256-bits (256-bits 암호 우선함)"
+msgstr "Secure 256-bits (256-bits 암호 우선)"
 
 #: modules/misc/gnutls.c:66
 msgid "Export (include insecure ciphers)"
@@ -22355,7 +22377,7 @@ msgstr "파워"
 
 #: modules/misc/inhibit/dbus.c:233
 msgid "Inhibits power suspend and session idle timeout."
-msgstr "절전 모드와 세션 idle 시간제한을 금지합니다."
+msgstr "절전 모드와 세션 유휴 시간제한을 금지합니다."
 
 #: modules/misc/inhibit/xdg.c:37
 msgid "XDG-screensaver"
@@ -22379,7 +22401,7 @@ msgstr "Syslog ident"
 
 #: modules/misc/logger.c:123
 msgid "Set the ident that VLC would use when logging to syslog."
-msgstr "syslog에 로깅할 때 사용할 ident를 정합니다."
+msgstr "syslog에 로깅할 때 사용할 들여쓰기 값을 정합니다."
 
 #: modules/misc/logger.c:126
 msgid "Syslog facility"
@@ -22387,7 +22409,7 @@ msgstr "Syslog 기능"
 
 #: modules/misc/logger.c:127
 msgid "Select the syslog facility where logs will be forwarded."
-msgstr "로그가 전달될 syslog 기능을 선택하세요."
+msgstr "로그를 전달할 syslog 기능을 선택하세요."
 
 #: modules/misc/logger.c:154
 msgid "Verbosity"
@@ -22513,23 +22535,23 @@ msgstr "XML 분석기 (libxml2 사용)"
 
 #: modules/mux/asf.c:57
 msgid "Title to put in ASF comments."
-msgstr "ASF 설명에 넣을 제목."
+msgstr "ASF 코멘트에 넣을 제목."
 
 #: modules/mux/asf.c:59
 msgid "Author to put in ASF comments."
-msgstr "ASF 설명에 넣을 저자."
+msgstr "ASF 코멘트에 넣을 저자."
 
 #: modules/mux/asf.c:61
 msgid "Copyright string to put in ASF comments."
-msgstr "ASF 설명에 넣을 저자권 문자열."
+msgstr "ASF 코멘트에 넣을 저작권 문자열."
 
 #: modules/mux/asf.c:62 modules/mux/avi.c:52
 msgid "Comment"
-msgstr "설명"
+msgstr "코멘트"
 
 #: modules/mux/asf.c:63
 msgid "Comment to put in ASF comments."
-msgstr "ASF 설명에 넣을 설명."
+msgstr "ASF 코멘트에 넣을 설명."
 
 #: modules/mux/asf.c:65
 msgid "\"Rating\" to put in ASF comments."
@@ -23013,7 +23035,7 @@ msgstr "로컬 드라이브"
 #: modules/services_discovery/podcast.c:54
 #: modules/gui/qt4/ui/podcast_configuration.h:101
 msgid "Podcast URLs list"
-msgstr "Podcast URL 목록"
+msgstr "팟캐스트 URL 목록"
 
 #: modules/services_discovery/podcast.c:55
 msgid "Enter the list of podcasts to retrieve, separated by '|' (pipe)."
@@ -23071,7 +23093,7 @@ msgstr ""
 
 #: modules/services_discovery/sap.c:94
 msgid "SAP Strict mode"
-msgstr "SAP Strict 모드"
+msgstr "SAP 엄격 모드"
 
 #: modules/services_discovery/sap.c:96
 msgid ""
@@ -23253,7 +23275,7 @@ msgid ""
 "IDs bridge_in will register."
 msgstr ""
 "bridge_in 이 등록할 스트림 ID를 얻기 위해 bridge_out에 지정된 스트림 ID에 추"
-"가할 offset."
+"가할 오프셋."
 
 #: modules/stream_out/bridge.c:60
 msgid "Name of current instance"
@@ -23285,7 +23307,7 @@ msgstr ""
 
 #: modules/stream_out/bridge.c:72
 msgid "Placeholder delay"
-msgstr "객체틀 지연"
+msgstr "플레이스홀더 지연"
 
 #: modules/stream_out/bridge.c:74
 msgid "Delay (in ms) before the placeholder kicks in."
@@ -23413,7 +23435,7 @@ msgstr "오디오 출력 먹서"
 
 #: modules/stream_out/es.c:57
 msgid "This is the muxer that will be used for audio."
-msgstr "오디오에 사용될 먹서 입니다."
+msgstr "오디오에 사용될 먹서입니다."
 
 #: modules/stream_out/es.c:58
 msgid "Video output muxer"
@@ -23421,7 +23443,7 @@ msgstr "비디오 출력 먹서"
 
 #: modules/stream_out/es.c:60
 msgid "This is the muxer that will be used for video."
-msgstr "비디오에 사용될 먹서 입니다."
+msgstr "비디오에 사용될 먹서입니다."
 
 #: modules/stream_out/es.c:62
 msgid "Output URL"
@@ -23429,7 +23451,7 @@ msgstr "출력 URL"
 
 #: modules/stream_out/es.c:64
 msgid "This is the default output URI."
-msgstr "기본 출력 URI 입니다."
+msgstr "기본 출력 URI입니다."
 
 #: modules/stream_out/es.c:65
 msgid "Audio output URL"
@@ -23437,7 +23459,7 @@ msgstr "오디오 출력 URL"
 
 #: modules/stream_out/es.c:67
 msgid "This is the output URI that will be used for audio."
-msgstr "오디오에 사용될 출력 URI 입니다."
+msgstr "오디오에 사용될 출력 URI입니다."
 
 #: modules/stream_out/es.c:68
 msgid "Video output URL"
@@ -23445,7 +23467,7 @@ msgstr "영상 출력 URL"
 
 #: modules/stream_out/es.c:70
 msgid "This is the output URI that will be used for video."
-msgstr "비디오에 사용될 출력 URI 입니다."
+msgstr "비디오에 사용될 출력 URI입니다."
 
 #: modules/stream_out/es.c:79
 msgid "Elementary stream output"
@@ -23544,7 +23566,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "모자이크 사진의 투명도."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X 오프셋"
 
@@ -23553,7 +23576,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "모자이크의 외쪽 위 모서리의 X 좌표, 음수가 아니면."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y 오프셋"
 
@@ -23578,7 +23602,7 @@ msgid ""
 "Output volume for analog output: 0 for silence, 1..255 from almost silent to "
 "very loud."
 msgstr ""
-"아날로그 출력의 출력 음량: 0 은 조용함, 1..255 가장 조용함부터 가장 시끄러운."
+"아날로그 출력의 출력 볼륨: 0 은 조용함, 1..255 가장 조용함부터 가장 시끄러운."
 
 #: modules/stream_out/raop.c:155
 msgid "Password for target device."
@@ -23630,7 +23654,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:83 modules/stream_out/standard.c:81
 msgid "SAP announcing"
-msgstr "SAP announcing"
+msgstr "SAP 알리는 중"
 
 #: modules/stream_out/rtp.c:84 modules/stream_out/standard.c:82
 msgid "Announce this session with SAP."
@@ -23850,7 +23874,7 @@ msgstr ""
 
 #: modules/stream_out/smem.c:65
 msgid "Audio prerender callback"
-msgstr "오디오 prerender callback"
+msgstr "오디오 전-렌더 콜백"
 
 #: modules/stream_out/smem.c:66
 msgid ""
@@ -23874,7 +23898,7 @@ msgstr ""
 
 #: modules/stream_out/smem.c:73
 msgid "Audio postrender callback"
-msgstr "오디오 postrender callback"
+msgstr "오디오 후-렌더 콜백"
 
 #: modules/stream_out/smem.c:74
 msgid ""
@@ -23902,7 +23926,7 @@ msgstr "오디오 callback 함수에 대한 자료"
 
 #: modules/stream_out/smem.c:83
 msgid "Time Synchronized output"
-msgstr "시간 동기화돈 출력"
+msgstr "시간 동기화된 출력"
 
 #: modules/stream_out/smem.c:84
 msgid ""
@@ -24362,31 +24386,31 @@ msgstr "일련의 비디오 필터 모듈을 이용하는 비디오 필터링"
 #: modules/video_chroma/i422_i420.c:56 modules/video_chroma/i422_yuy2.c:72
 #: modules/video_chroma/yuy2_i420.c:58 modules/video_chroma/yuy2_i422.c:57
 msgid "Conversions from "
-msgstr "변환원"
+msgstr "다음에서 변환: "
 
 #: modules/video_chroma/i420_rgb.c:78
 msgid "SSE2 I420,IYUV,YV12 to RV15,RV16,RV24,RV32 conversions"
-msgstr "SSE2 I420,IYUV,YV12 를 RV15,RV16,RV24,RV32 로 변환"
+msgstr "SSE2 I420,IYUV,YV12를 RV15,RV16,RV24,RV32로 변환"
 
 #: modules/video_chroma/i420_rgb.c:83
 msgid "MMX I420,IYUV,YV12 to RV15,RV16,RV24,RV32 conversions"
-msgstr "MMX I420,IYUV,YV12 를 RV15,RV16,RV24,RV32 로 변환"
+msgstr "MMX I420,IYUV,YV12를 RV15,RV16,RV24,RV32로 변환"
 
 #: modules/video_chroma/i420_rgb.c:88
 msgid "I420,IYUV,YV12 to RGB2,RV15,RV16,RV24,RV32 conversions"
-msgstr "I420,IYUV,YV12 를 RGB2,RV15,RV16,RV24,RV32 로 변환"
+msgstr "I420,IYUV,YV12를 RGB2,RV15,RV16,RV24,RV32로 변환"
 
 #: modules/video_chroma/i420_yuy2.c:97 modules/video_chroma/i422_yuy2.c:77
 msgid "MMX conversions from "
-msgstr "MMX 변환원 "
+msgstr "다음에서 MMX 변환: "
 
 #: modules/video_chroma/i420_yuy2.c:101 modules/video_chroma/i422_yuy2.c:82
 msgid "SSE2 conversions from "
-msgstr "SSE2 변환원 "
+msgstr "다음에서 SSE2 변환: "
 
 #: modules/video_chroma/i420_yuy2.c:106
 msgid "AltiVec conversions from "
-msgstr "AltiVec 변환원 "
+msgstr "다음에서 AltiVec 변환: "
 
 #: modules/video_chroma/omxdl.c:35
 msgid "OpenMAX DL image processing"
@@ -24422,7 +24446,7 @@ msgstr "실험적"
 
 #: modules/video_chroma/swscale.c:62
 msgid "Nearest neighbour (bad quality)"
-msgstr "Nearest neighbour (화질 나쁨)"
+msgstr "Nearest Neighbour (화질 나쁨)"
 
 #: modules/video_chroma/swscale.c:63
 msgid "Area"
@@ -24430,7 +24454,7 @@ msgstr "Area"
 
 #: modules/video_chroma/swscale.c:63
 msgid "Luma bicubic / chroma bilinear"
-msgstr "루마 bicubic / 크로마 bilinear"
+msgstr "Luma Bicubic / Chroma Bilinear"
 
 #: modules/video_chroma/swscale.c:63
 msgid "Gauss"
@@ -24442,11 +24466,11 @@ msgstr "SincR"
 
 #: modules/video_chroma/swscale.c:64
 msgid "Lanczos"
-msgstr "랑초스"
+msgstr "Lanczos"
 
 #: modules/video_chroma/swscale.c:64
 msgid "Bicubic spline"
-msgstr "Bicubic spline"
+msgstr "Bicubic Spline"
 
 #: modules/video_chroma/swscale.c:67 modules/video_filter/scale.c:47
 msgid "Video scaling filter"
@@ -24478,11 +24502,11 @@ msgstr "이미지 명암 설정, 0 과 2 사이. 기본 1."
 
 #: modules/video_filter/adjust.c:72
 msgid "Image hue (0-360)"
-msgstr "이미지 색도 (0~360)"
+msgstr "이미지 색상 (0~360)"
 
 #: modules/video_filter/adjust.c:73
 msgid "Set the image hue, between 0 and 360. Defaults to 0."
-msgstr "이미지 색조 설정, 0 과 360 사이. 기본 0."
+msgstr "이미지 색상 설정, 0 과 360 사이. 기본 0."
 
 #: modules/video_filter/adjust.c:74
 msgid "Image saturation (0-3)"
@@ -25415,7 +25439,7 @@ msgstr "출력 (캔버스) 이미지 높이"
 
 #: modules/video_filter/canvas.c:89
 msgid "Output picture aspect ratio"
-msgstr "출력 사진 종횡비율"
+msgstr "출력 사진 화면 비율"
 
 #: modules/video_filter/canvas.c:91
 msgid ""
@@ -25756,7 +25780,7 @@ msgstr "Gradfun"
 
 #: modules/video_filter/gradfun.c:60
 msgid "Debanding algorithm"
-msgstr "Debanding 알고리즘"
+msgstr "디밴딩 알고리즘"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
@@ -25804,7 +25828,7 @@ msgstr "최소 기간"
 
 #: modules/video_filter/grain.c:59
 msgid "Minimal period of the noise grain in pixel"
-msgstr "Noise grain의 최소 기간, 픽셀 단위"
+msgstr "노이즈 그레인의 최소 기간, 픽셀 단위"
 
 #: modules/video_filter/grain.c:60
 msgid "Maximal period"
@@ -25812,35 +25836,35 @@ msgstr "최대 기간"
 
 #: modules/video_filter/grain.c:61
 msgid "Maximal period of the noise grain in pixel"
-msgstr "Noise grain의 최대 기간, 픽셀 단위"
+msgstr "노이즈 그레인의 최대 기간, 픽셀 단위"
 
 #: modules/video_filter/grain.c:64
 msgid "Grain video filter"
-msgstr "Grain 영상 필터"
+msgstr "그레인 영상 필터"
 
 #: modules/video_filter/grain.c:65
 msgid "Grain"
-msgstr "Grain"
+msgstr "그레인"
 
 #: modules/video_filter/grain.c:66
 msgid "Adds filtered gaussian noise"
-msgstr "filtered gaussian noise 추가하기"
+msgstr "필터된 가우시안 노이즈 추가하기"
 
 #: modules/video_filter/hqdn3d.c:56
 msgid "Spatial luma strength (0-254)"
-msgstr "Spatial 루마 세기 (0-254)"
+msgstr "공간의 루마 세기 (0-254)"
 
 #: modules/video_filter/hqdn3d.c:57
 msgid "Spatial chroma strength (0-254)"
-msgstr "Spatial 크로마 세기 (0-254)"
+msgstr "공간의 크로마 세기 (0-254)"
 
 #: modules/video_filter/hqdn3d.c:58
 msgid "Temporal luma strength (0-254)"
-msgstr "Temporal 루마 세기 (0-254)"
+msgstr "시간의 루마 세기 (0-254)"
 
 #: modules/video_filter/hqdn3d.c:59
 msgid "Temporal chroma strength (0-254)"
-msgstr "Temporal 크로마 세기 (0-254)"
+msgstr "시간의 크로마 세기 (0-254)"
 
 #: modules/video_filter/hqdn3d.c:62
 msgid "HQ Denoiser 3D"
@@ -25848,7 +25872,7 @@ msgstr "HQ Denoiser 3D"
 
 #: modules/video_filter/hqdn3d.c:63
 msgid "High Quality 3D Denoiser filter"
-msgstr "고품질 3D Denoiser 필터"
+msgstr "고품질 3D 노이즈감소 필터"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
@@ -25864,9 +25888,9 @@ msgid ""
 "<alpha>]][;<image>[,<delay>[,<alpha>]]][;...]. If you only have one file, "
 "simply enter its filename."
 msgstr ""
-"사용할 이미지 파일의 전체 경로. 형식은 <image>[,<delay in ms>[,<alpha>]][;"
-"<image>[,<delay>[,<alpha>]]][;...]. 파일 한 개만 있으면, 단순히 그 파일이름"
-"만 입력하세요."
+"사용할 이미지 파일의 전체 경로. 형식은 <이미지>[,<밀리초 지연시간>[,<알파>]]"
+"[;<이미지>[,<지연시간>[,<알파>]]][;...]. 파일 한 개만 있으면, 단순히 그 파일"
+"이름만 입력하세요."
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
@@ -26302,7 +26326,7 @@ msgstr "변경없는 입력 크로마 사용하기"
 
 #: modules/video_filter/opencv_wrapper.c:62
 msgid "I420 - first plane is greyscale"
-msgstr "I420 - 첫번째 면 회색조"
+msgstr "I420 - 첫번째 면은 회색 톤"
 
 #: modules/video_filter/opencv_wrapper.c:62
 msgid "RGB32"
@@ -26322,11 +26346,11 @@ msgstr "처리된 영상 표시"
 
 #: modules/video_filter/opencv_wrapper.c:69
 msgid "Show only errors"
-msgstr "에러만 보기"
+msgstr "오류만 보기"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Show errors and warnings"
-msgstr "에러 및 경고 보기"
+msgstr "오류 및 경고 보기"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Show everything including debug messages"
@@ -26361,7 +26385,7 @@ msgstr "내부 OpenCV 필터로 전송하기 전에 화면을 변환하기 위�
 
 #: modules/video_filter/opencv_wrapper.c:89
 msgid "Wrapper filter output"
-msgstr "래퍼 필터 출력"
+msgstr "Wrapper 필터 출력"
 
 #: modules/video_filter/opencv_wrapper.c:90
 msgid "Determines what (if any) video is displayed by the wrapper filter"
@@ -26377,15 +26401,15 @@ msgstr "사용할 내부 OpenCV 플러그인 필터의 이름"
 
 #: modules/video_filter/posterize.c:61
 msgid "Posterize level (number of colors is cube of this value)"
-msgstr "Posterize 단계 (색상의 수는 이 값의 세제곱입니다)"
+msgstr "포스터화 단계 (색상의 수는 이 값의 세제곱입니다)"
 
 #: modules/video_filter/posterize.c:67
 msgid "Posterize video filter"
-msgstr "Posterize 비디오 필터"
+msgstr "포스터화 비디오 필터"
 
 #: modules/video_filter/posterize.c:69
 msgid "Posterize video by lowering the number of colors"
-msgstr "색상의 수를 줄여서 비디오를 posterize 합니다."
+msgstr "색상의 수를 줄여서 비디오를 포스터화합니다."
 
 #: modules/video_filter/postproc.c:70
 msgid ""
@@ -26961,7 +26985,7 @@ msgstr "자막지연"
 
 #: modules/video_filter/subsdelay.c:291
 msgid "Overlap fix"
-msgstr "중첩 고침"
+msgstr "겹침 고침"
 
 #: modules/video_filter/transform.c:47
 msgid "Transform type"
@@ -26997,11 +27021,11 @@ msgstr "VHS 영화"
 
 #: modules/video_filter/wave.c:53
 msgid "Wave video filter"
-msgstr "Wave 비디오 필터"
+msgstr "물결 비디오 필터"
 
 #: modules/video_filter/wave.c:54
 msgid "Wave"
-msgstr "Wave"
+msgstr "물결"
 
 #: modules/video_filter/yuvp.c:47
 msgid "YUVP converter"
@@ -27037,7 +27061,7 @@ msgstr "출력시 특정 크로마를 강제로 사용합니다. 기본값은 RG
 
 #: modules/video_output/android/surface.c:65
 msgid "Android Surface video output"
-msgstr "안드로이드 Surface 비디오 출력"
+msgstr "안드로이드 표면 비디오 출력"
 
 #: modules/video_output/caca.c:56
 msgid "Color ASCII art video output"
@@ -27045,7 +27069,7 @@ msgstr "컬러 아스키 아트 비디오 출력"
 
 #: modules/video_output/caopengllayer.m:53
 msgid "Core Animation OpenGL Layer (Mac OS X)"
-msgstr "Core Animation OpenGL Layer (Mac OS X)"
+msgstr "코어 애니메이션 OpenGL 레이어0 (맥 OS X)"
 
 #: modules/video_output/decklink.cpp:70
 msgid "Timelength after which we assume there is no signal."
@@ -27069,7 +27093,7 @@ msgstr "출력 카드"
 
 #: modules/video_output/decklink.cpp:81
 msgid "DeckLink output card, if multiple exist. The cards are numbered from 0."
-msgstr "DeckLink 출력 카드. 여러개가 존재하면 카드 번호는 0부터 시작합니다."
+msgstr "덱링크 출력 카드. 여러개가 존재하면 카드 번호는 0부터 시작합니다."
 
 #: modules/video_output/decklink.cpp:84
 msgid "Desired output mode"
@@ -27080,29 +27104,29 @@ msgid ""
 "Desired output mode for DeckLink output. This value should be a FOURCC code "
 "in textual form, e.g. \"ntsc\"."
 msgstr ""
-"DeckLink 출력에 사용할 출력 모드. 이 값은 텍스트 형식의 FourCC 코드여야 합니"
+"덱링크 출력에 사용할 출력 모드. 이 값은 텍스트 형식의 FourCC 코드여야 합니"
 "다. 예: \"ntsc\"."
 
 #: modules/video_output/decklink.cpp:92
 msgid "Audio connection for DeckLink output."
-msgstr "DeckLink 출력의 오디오 연결"
+msgstr "덱링크 출력의 오디오 연결"
 
 #: modules/video_output/decklink.cpp:97
 msgid ""
 "Audio sampling rate (in hertz) for DeckLink output. 0 disables audio output."
-msgstr "DeckLink 출력의 오디오 샘플링 레이트 (Hz). 0은 오디오 출력을 끕니다."
+msgstr "덱링크 출력의 오디오 샘플링 레이트 (Hz). 0은 오디오 출력을 끕니다."
 
 #: modules/video_output/decklink.cpp:102
 msgid ""
 "Number of output channels for DeckLink output. Must be 2, 8 or 16. 0 "
 "disables audio output."
 msgstr ""
-"DeckLink 출력의 출력 채널 수. 2, 8이나 16 중 하나여야 합니다. 0 은 오디오 출"
-"력을 끕니다."
+"덱링크 출력의 출력 채널 수. 2, 8이나 16 중 하나여야 합니다. 0 은 오디오 출력"
+"을 끕니다."
 
 #: modules/video_output/decklink.cpp:107
 msgid "Video connection for DeckLink output."
-msgstr "DeckLink 출력의 비디오 연결"
+msgstr "덱링크 출력의 비디오 연결"
 
 #: modules/video_output/decklink.cpp:111
 msgid "Use 10 bits per pixel for video frames."
@@ -27110,7 +27134,7 @@ msgstr "비디오 프레임에 픽셀당 10비트를 사용하세요."
 
 #: modules/video_output/decklink.cpp:177
 msgid "DecklinkOutput"
-msgstr "DecklinkOutput"
+msgstr "덱링크출력"
 
 #: modules/video_output/decklink.cpp:178
 msgid "output module to write to Blackmagic SDI card"
@@ -27118,23 +27142,23 @@ msgstr "블랙매직 SDI 카드에 기록할 출력 모듈"
 
 #: modules/video_output/decklink.cpp:179
 msgid "Decklink General Options"
-msgstr "DeckLink 일반 옵션"
+msgstr "덱링크 일반 옵션"
 
 #: modules/video_output/decklink.cpp:184
 msgid "Decklink Video Output module"
-msgstr "DeckLink 비디오 출력 모듈"
+msgstr "덱링크 비디오 출력 모듈"
 
 #: modules/video_output/decklink.cpp:189
 msgid "Decklink Video Options"
-msgstr "DeckLink 비디오 옵션"
+msgstr "덱링크 비디오 옵션"
 
 #: modules/video_output/decklink.cpp:204
 msgid "Decklink Audio Output module"
-msgstr "DeckLink 오디오 출력 모듈"
+msgstr "덱링크 오디오 출력 모듈"
 
 #: modules/video_output/decklink.cpp:209
 msgid "Decklink Audio Options"
-msgstr "DeckLink 오디오 옵션"
+msgstr "덱링크 오디오 옵션"
 
 #: modules/video_output/directfb.c:50
 msgid "DirectFB video output http://www.directfb.org/"
@@ -27142,15 +27166,15 @@ msgstr "DirectFB 영상 출력 http://www.directfb.org/"
 
 #: modules/video_output/drawable.c:34
 msgid "Window handle (HWND)"
-msgstr "윈도우 핸들 (HWND)"
+msgstr "창 핸들 (HWND)"
 
 #: modules/video_output/drawable.c:36 modules/video_output/xcb/window.c:50
 msgid ""
 "Video will be embedded in this pre-existing window. If zero, a new window "
 "will be created."
 msgstr ""
-"동영상은 이 미리 존재하는 창에 임베드될 것입니다. 만약 0이면, 새 창이 생성될 "
-"것입니다."
+"동영상은 이 미리 존재하는 창에 내장될 것입니다. 만약 0이면, 새 창이 생성될 것"
+"입니다."
 
 #: modules/video_output/drawable.c:46 modules/video_output/xcb/window.c:76
 msgid "Drawable"
@@ -27158,7 +27182,7 @@ msgstr "나타낼수 있음"
 
 #: modules/video_output/drawable.c:47 modules/video_output/xcb/window.c:77
 msgid "Embedded window video"
-msgstr "임베드된 윈도우 창"
+msgstr "내장된 윈도우 창"
 
 #: modules/video_output/egl.c:47
 msgid "EGL"
@@ -27222,7 +27246,7 @@ msgstr ""
 
 #: modules/video_output/fb.c:92
 msgid "GNU/Linux framebuffer video output"
-msgstr "GNU/Linux 프레임버퍼 비디오 출력"
+msgstr "GNU/리눅스 프레임버퍼 비디오 출력"
 
 #: modules/video_output/gl.c:40
 msgid "OpenGL extension"
@@ -27238,7 +27262,7 @@ msgstr "OpenGL ES 확장"
 
 #: modules/video_output/gl.c:44
 msgid "Extension through which to use the Open Graphics Library (OpenGL)."
-msgstr "개방형 그래픽 라이브러리(OpenGL)를 사용할 확장"
+msgstr "오픈 그래픽 라이브러리(OpenGL)를 사용할 확장"
 
 #: modules/video_output/gl.c:50
 msgid "OpenGL ES2"
@@ -27246,7 +27270,7 @@ msgstr "OpenGL ES2"
 
 #: modules/video_output/gl.c:51
 msgid "OpenGL for Embedded Systems 2 video output"
-msgstr "OpenGL for Embedded Systems 2 비디오 출력"
+msgstr "임베디드 시스템 2용 OpenGL 비디오 출력"
 
 #: modules/video_output/gl.c:61
 msgid "OpenGL ES"
@@ -27254,7 +27278,7 @@ msgstr "OpenGL ES"
 
 #: modules/video_output/gl.c:62
 msgid "OpenGL for Embedded Systems video output"
-msgstr "OpenGL for Embedded Systems 비디오 출력"
+msgstr "임베디드 시스템용 OpenGL 비디오 출력"
 
 #: modules/video_output/gl.c:71
 msgid "OpenGL"
@@ -27461,15 +27485,15 @@ msgstr "바탕화면"
 
 #: modules/video_output/msw/glwin32.c:45
 msgid "GPU affinity"
-msgstr "GPU affinity"
+msgstr "GPU 연계"
 
 #: modules/video_output/msw/glwin32.c:51
 msgid "OpenGL video output"
-msgstr "OpenGL 영상 출력"
+msgstr "OpenGL 비디오 출력"
 
 #: modules/video_output/msw/wingdi.c:52
 msgid "Windows GDI video output"
-msgstr "Windows GDI 영상 출력"
+msgstr "윈도우 GDI 비디오 출력"
 
 #: modules/video_output/sdl.c:56
 msgid "SDL chroma format"
@@ -27664,7 +27688,7 @@ msgstr "YUV 비디오 출력"
 
 #: modules/video_splitter/clone.c:40
 msgid "Number of video windows in which to clone the video."
-msgstr "영상을 복제할 창의 갯수."
+msgstr "영상을 복제할 창의 개수."
 
 #: modules/video_splitter/clone.c:43
 msgid "Video output modules"
@@ -27684,7 +27708,7 @@ msgstr "다수의 창이나 비디오 출력 모듈에 비디오 복제하기"
 
 #: modules/video_splitter/clone.c:55
 msgid "Clone video filter"
-msgstr "복제(Clone) 영상 필터"
+msgstr "복제Clone 영상 필터"
 
 #: modules/video_splitter/panoramix.c:61
 msgid ""
@@ -27705,19 +27729,19 @@ msgstr "활성 윈도우의 쉼표로 구분된 목록, 전체 기본값"
 
 #: modules/video_splitter/panoramix.c:74
 msgid "Split the video in multiple windows to display on a wall of screens"
-msgstr "비디오를 화면들의 벽에 출력하기 위해 다수의 창으로 분할하기"
+msgstr "비디오를 화면 벽에 출력하기 위해 다수의 창으로 분할하기"
 
 #: modules/video_splitter/panoramix.c:81
 msgid "Panoramix: wall with overlap video filter"
-msgstr "파노라믹스: 오버랩 비디오 필터를 가지는 월"
+msgstr "파노라믹스: 겹치는 비디오 필터로 된 벽"
 
 #: modules/video_splitter/panoramix.c:82
 msgid "Panoramix"
-msgstr "파노라믹스"
+msgstr "파노라믹스 (Panoramix)"
 
 #: modules/video_splitter/panoramix.c:94
 msgid "length of the overlapping area (in %)"
-msgstr "오버래핑 영역의 길이 (% 단위)"
+msgstr "겹치는 영역의 길이 (% 단위)"
 
 #: modules/video_splitter/panoramix.c:95
 msgid "Select in percent the length of the blended zone"
@@ -27725,7 +27749,7 @@ msgstr "백분율로 혼합 구역의 길이 선택"
 
 #: modules/video_splitter/panoramix.c:98
 msgid "height of the overlapping area (in %)"
-msgstr "오버래핑 영역의 높이 (% 단위)"
+msgstr "겹치는 영역의 높이 (% 단위)"
 
 #: modules/video_splitter/panoramix.c:99
 msgid "Select in percent the height of the blended zone (case of 2x2 wall)"
@@ -27740,45 +27764,45 @@ msgid ""
 "Check this option if you want attenuate blended zone by this plug-in (if "
 "option is unchecked, attenuate is made by opengl)"
 msgstr ""
-"플러그인으로 혼합 구역을 감쇄하기 원하면 선택 (옵션이 선택해제되면, 오픈GL "
-"로 감쇄됩니다)"
+"이 플러그인으로 혼합된 구역을 감쇠하려면 이 옵션을 사용하세요 (옵션 미사용"
+"시, 오픈GL로 감쇠합니다)"
 
 #: modules/video_splitter/panoramix.c:106
 msgid "Attenuation, begin (in %)"
-msgstr "감쇠, 처음 (%)"
+msgstr "감쇠, 시작 (% 단위)"
 
 #: modules/video_splitter/panoramix.c:107
 msgid ""
 "Select in percent the Lagrange coefficient of the beginning blended zone"
-msgstr "혼합 구역 초반부의 Lagrange coefficient를 백분율로 선택하기"
+msgstr "혼합 구역 초반부의 라그랑즈 계수를 백분율로 선택하기"
 
 #: modules/video_splitter/panoramix.c:110
 msgid "Attenuation, middle (in %)"
-msgstr "감쇠, 중간 (%)"
+msgstr "감쇠, 중간 (% 단위)"
 
 #: modules/video_splitter/panoramix.c:111
 msgid ""
 "Select in percent the Lagrange coefficient of the middle of blended zone"
-msgstr "혼합 구역 중간의 Lagrange coefficient를 백분율로 선택하기"
+msgstr "혼합 구역 중간의 라그랑즈 계수를 백분율로 선택하기"
 
 #: modules/video_splitter/panoramix.c:114
 msgid "Attenuation, end (in %)"
-msgstr "감쇠, 끝 (%)"
+msgstr "감쇠, 끝 (% 단위)"
 
 #: modules/video_splitter/panoramix.c:115
 msgid "Select in percent the Lagrange coefficient of the end of blended zone"
-msgstr "혼합 구역 끝부분의 Lagrange coefficient를 백분율로 선택하기"
+msgstr "혼합 구역 끝부분의 라그랑즈 계수를 백분율로 선택하기"
 
 #: modules/video_splitter/panoramix.c:118
 msgid "middle position (in %)"
-msgstr "중간 위치 (%)"
+msgstr "중간 위치 (% 단위)"
 
 #: modules/video_splitter/panoramix.c:119
 msgid ""
 "Select in percent (50 is center) the position of the middle point (Lagrange) "
 "of blended zone"
 msgstr ""
-"혼합 구역의 중간 지점(Lagrange)의 위치를 백분율(50은 가운데)로 선택하기"
+"혼합 구역의 중간 지점(라그랑즈)의 위치를 백분율(50은 가운데)로 선택하기"
 
 #: modules/video_splitter/panoramix.c:121
 msgid "Gamma (Red) correction"
@@ -27787,7 +27811,7 @@ msgstr "감마 (빨강) 보정"
 #: modules/video_splitter/panoramix.c:122
 msgid ""
 "Select the gamma for the correction of blended zone (Red or Y component)"
-msgstr "혼합 구역 교정을 위해 감마 선택 (빨강 or Y component)"
+msgstr "혼합 구역 교정을 위해 감마 선택 (빨강 or Y 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:125
 msgid "Gamma (Green) correction"
@@ -27796,7 +27820,7 @@ msgstr "감마 (녹색) 보정"
 #: modules/video_splitter/panoramix.c:126
 msgid ""
 "Select the gamma for the correction of blended zone (Green or U component)"
-msgstr "혼합 구역 교정을 위해 감마 선택 (녹색 or U component)"
+msgstr "혼합 구역 교정을 위해 감마 선택 (녹색 or U 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:129
 msgid "Gamma (Blue) correction"
@@ -27805,7 +27829,7 @@ msgstr "감마 (파랑) 보정"
 #: modules/video_splitter/panoramix.c:130
 msgid ""
 "Select the gamma for the correction of blended zone (Blue or V component)"
-msgstr "혼합 구역 교정을 위해 감마 선택 (파랑 or V component)"
+msgstr "혼합 구역 교정을 위해 감마 선택 (파랑 or V 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:133
 msgid "Black Crush for Red"
@@ -27813,7 +27837,7 @@ msgstr "빨강의 블랙 크러쉬"
 
 #: modules/video_splitter/panoramix.c:134
 msgid "Select the Black Crush of blended zone (Red or Y component)"
-msgstr "혼합 구역의 블랙 크러쉬 선택 (빨강 or Y component)"
+msgstr "혼합 구역의 블랙 크러쉬 선택 (빨강 or Y 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:135
 msgid "Black Crush for Green"
@@ -27821,7 +27845,7 @@ msgstr "녹색의 블랙 크러쉬"
 
 #: modules/video_splitter/panoramix.c:136
 msgid "Select the Black Crush of blended zone (Green or U component)"
-msgstr "혼합 구역의 블랙 크러쉬 선택 (녹색 or U component)"
+msgstr "혼합 구역의 블랙 크러쉬 선택 (녹색 or U 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:137
 msgid "Black Crush for Blue"
@@ -27829,7 +27853,7 @@ msgstr "파랑의 블랙 크러쉬"
 
 #: modules/video_splitter/panoramix.c:138
 msgid "Select the Black Crush of blended zone (Blue or V component)"
-msgstr "혼합 구역의 블랙 크러쉬 선택 (파랑 or V component)"
+msgstr "혼합 구역의 블랙 크러쉬 선택 (파랑 or V 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:140
 msgid "White Crush for Red"
@@ -27837,7 +27861,7 @@ msgstr "빨강의 화이트 크러쉬"
 
 #: modules/video_splitter/panoramix.c:141
 msgid "Select the White Crush of blended zone (Red or Y component)"
-msgstr "혼합 구역의 화이트 크러쉬 선택 (빨강 or Y component)"
+msgstr "혼합 구역의 화이트 크러쉬 선택 (빨강 or Y 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:142
 msgid "White Crush for Green"
@@ -27845,7 +27869,7 @@ msgstr "녹색의 화이트 크러쉬"
 
 #: modules/video_splitter/panoramix.c:143
 msgid "Select the White Crush of blended zone (Green or U component)"
-msgstr "혼합 구역의 화이트 크러쉬 선택 (녹색 or U component)"
+msgstr "혼합 구역의 화이트 크러쉬 선택 (녹색 or U 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:144
 msgid "White Crush for Blue"
@@ -27853,7 +27877,7 @@ msgstr "파랑의 화이트 크러쉬"
 
 #: modules/video_splitter/panoramix.c:145
 msgid "Select the White Crush of blended zone (Blue or V component)"
-msgstr "혼합 구역의 화이트 크러쉬 선택 (파랑 or V component)"
+msgstr "혼합 구역의 화이트 크러쉬 선택 (파랑 or V 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:147
 msgid "Black Level for Red"
@@ -27861,7 +27885,7 @@ msgstr "빨강의 블랙 레벨"
 
 #: modules/video_splitter/panoramix.c:148
 msgid "Select the Black Level of blended zone (Red or Y component)"
-msgstr "혼합 구역의 블랙 레벨 선택 (빨강 or Y component)"
+msgstr "혼합 구역의 블랙 레벨 선택 (빨강 or Y 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:149
 msgid "Black Level for Green"
@@ -27869,7 +27893,7 @@ msgstr "녹색의 블랙 레벨"
 
 #: modules/video_splitter/panoramix.c:150
 msgid "Select the Black Level of blended zone (Green or U component)"
-msgstr "혼합 구역의 블랙 레벨 선택 (녹색 or U component)"
+msgstr "혼합 구역의 블랙 레벨 선택 (녹색 or U 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:151
 msgid "Black Level for Blue"
@@ -27877,7 +27901,7 @@ msgstr "파랑의 블랙 레벨"
 
 #: modules/video_splitter/panoramix.c:152
 msgid "Select the Black Level of blended zone (Blue or V component)"
-msgstr "혼합 구역의 블랙 레벨 선택 (파랑 or V component)"
+msgstr "혼합 구역의 블랙 레벨 선택 (파랑 or V 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:154
 msgid "White Level for Red"
@@ -27885,7 +27909,7 @@ msgstr "빨강의 화이트 레벨"
 
 #: modules/video_splitter/panoramix.c:155
 msgid "Select the White Level of blended zone (Red or Y component)"
-msgstr "혼합 구역의 화이트 레벨 선택 (빨강 or Y component)"
+msgstr "혼합 구역의 화이트 레벨 선택 (빨강 or Y 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:156
 msgid "White Level for Green"
@@ -27893,7 +27917,7 @@ msgstr "녹색의 화이트 레벨"
 
 #: modules/video_splitter/panoramix.c:157
 msgid "Select the White Level of blended zone (Green or U component)"
-msgstr "혼합 구역의 화이트 레벨 선택 (녹색 or U component)"
+msgstr "혼합 구역의 화이트 레벨 선택 (녹색 or U 컴포넌트)"
 
 #: modules/video_splitter/panoramix.c:158
 msgid "White Level for Blue"
@@ -27901,7 +27925,7 @@ msgstr "파랑의 화이트 레벨"
 
 #: modules/video_splitter/panoramix.c:159
 msgid "Select the White Level of blended zone (Blue or V component)"
-msgstr "혼합 구역의 화이트 레벨 선택 (파랑 or V component)"
+msgstr "혼합 구역의 화이트 레벨 선택 (파랑 or V 컴포넌트)"
 
 #: modules/video_splitter/wall.c:47
 msgid "Number of horizontal windows in which to split the video."
@@ -27921,11 +27945,11 @@ msgstr "벽을 만드는 개별적인 디스플레이의 화면 비율."
 
 #: modules/video_splitter/wall.c:68
 msgid "Wall video filter"
-msgstr "Wall 비디오 필터"
+msgstr "벽Wall 비디오 필터"
 
 #: modules/video_splitter/wall.c:69
 msgid "Image wall"
-msgstr "이미지 월"
+msgstr "이미지 벽 (Image Wall)"
 
 #: modules/visualization/goom.c:45
 msgid "Goom display width"
@@ -28130,7 +28154,7 @@ msgstr "얼마나 많은 스펙트럼 섹션이 존재할지 결정."
 
 #: modules/visualization/visual/visual.c:98
 msgid "Peak height"
-msgstr "Peak 높이"
+msgstr "피크 높이"
 
 #: modules/visualization/visual/visual.c:100
 msgid "Total pixel height of the peak items."
@@ -28138,7 +28162,7 @@ msgstr "Peak 항목의 전체 픽셀 높이."
 
 #: modules/visualization/visual/visual.c:102
 msgid "Peak extra width"
-msgstr "Peak 여분 너비"
+msgstr "피크 여분 너비"
 
 #: modules/visualization/visual/visual.c:104
 msgid "Additions or subtractions of pixels on the peak width."
@@ -28351,7 +28375,7 @@ msgstr "일단 스트림이 생성되면, 미디어 보기 창이 스트림을 �
 #: share/lua/http/index.html:269
 msgid ""
 "Volume will be controlled by the player, and not the <i>Main Controls</i>."
-msgstr "볼륨이, 메인 컨트롤이 아니라, 재생기에 의해 제어될 것입니다."
+msgstr "<i>메인 컨트롤</i>이 아니라, 재생기에서 볼륨을 제어할 것입니다."
 
 #: share/lua/http/index.html:272
 msgid ""
@@ -28430,7 +28454,7 @@ msgstr "해당 미디어의 캐쉬 설정 변경하기"
 
 #: modules/gui/qt4/ui/open.h:252
 msgid " ms"
-msgstr "ms"
+msgstr " ms"
 
 #: modules/gui/qt4/ui/open.h:253
 msgid "MRL"
@@ -28594,7 +28618,7 @@ msgstr "WAV"
 
 #: modules/gui/qt4/ui/profiles.h:696
 msgid "RAW"
-msgstr "RAW"
+msgstr "원시"
 
 #: modules/gui/qt4/ui/profiles.h:697
 msgid "MP4/MOV"
@@ -28730,7 +28754,7 @@ msgstr "생성된 스트림 출력 문자열"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:428
 msgid " %"
-msgstr "  %"
+msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Output module:"
@@ -28798,7 +28822,7 @@ msgstr "하드웨어 가속 디코딩"
 
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "Skip H.264 in-loop deblocking filter"
-msgstr "H.264 in-loop deblocking 필터 건너뛰기"
+msgstr "H.264 내부순환 깍두기제거 필터 건너뛰기"
 
 #: modules/gui/qt4/ui/sprefs_input.h:351
 msgid "Video quality post-processing level"
@@ -29062,7 +29086,7 @@ msgstr "VLC 업데이트 확인"
 
 #: modules/gui/qt4/ui/update.h:149
 msgid "Launching an update request..."
-msgstr "업데이트 요청 실행중..."
+msgstr "업데이트 요청 실행 중..."
 
 #: modules/gui/qt4/ui/update.h:150
 msgid "Do you want to download it?"
@@ -29140,7 +29164,7 @@ msgstr "애너글리프 3D"
 
 #: modules/gui/qt4/ui/video_effects.h:1477
 msgid "Mirror"
-msgstr "미러"
+msgstr "미러 (Mirror)"
 
 #: modules/gui/qt4/ui/video_effects.h:1481
 msgid "Motion detect"
@@ -29160,7 +29184,7 @@ msgstr "부드럽게"
 
 #: modules/gui/qt4/ui/video_effects.h:1488
 msgid "Denoiser"
-msgstr "잡음제거"
+msgstr "잡음 제거"
 
 #: modules/gui/qt4/ui/video_effects.h:1489
 msgid "Spatial luma strength"
@@ -29180,7 +29204,7 @@ msgstr "시간의 크로마 세기"
 
 #: modules/gui/qt4/ui/vlm.h:286
 msgid "VLM configurator"
-msgstr "VLM 설정"
+msgstr "VLM 설정 마법사"
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "Media Manager Edition"
@@ -32229,7 +32253,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "QuickTime Sound Capture"
-#~ msgstr "Quicktime 캡처"
+#~ msgstr "퀵타임 캡처"
 
 #, fuzzy
 #~ msgid "No Audio Input device found"
@@ -32249,11 +32273,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows GDI 영상 출력"
+#~ msgstr "윈도우 GDI 비디오 출력"
 
 #, fuzzy
 #~ msgid "Windows Store audio output"
-#~ msgstr "Windows GDI 영상 출력"
+#~ msgstr "윈도우 GDI 비디오 출력"
 
 #, fuzzy
 #~ msgid "SCTE-27 decoder"
@@ -32277,7 +32301,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Windows messages interface"
-#~ msgstr "Windows 서비스 인터페이스"
+#~ msgstr "윈도우 서비스 인터페이스"
 
 #, fuzzy
 #~ msgid "Save this Log..."
@@ -32314,7 +32338,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "acoustid"
-#~ msgstr "Acoustic"
+#~ msgstr "어쿠스틱 Acoustic"
 
 #, fuzzy
 #~ msgid "Duration of the fingerprinting"
@@ -32573,7 +32597,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Spatial luma strength (default 4)"
-#~ msgstr "Spatial 루마 세기 (0-254)"
+#~ msgstr "공간의 루마 세기 (0-254)"
 
 #, fuzzy
 #~ msgid "Spatial chroma strength (default 3)"
@@ -32585,7 +32609,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Temporal chroma strength (default 4.5)"
-#~ msgstr "Temporal 크로마 세기 (0-254)"
+#~ msgstr "시간의 크로마 세기 (0-254)"
 
 #, fuzzy
 #~ msgid "iOS OpenGL ES video output (requires UIView)"
@@ -32620,7 +32644,7 @@ msgstr "미디어 관리자 목록"
 #~ "This is the desired frame rate when playing raw video streams.  In the "
 #~ "form 30000/1001 or 29.97"
 #~ msgstr ""
-#~ "Raw 비디오 스트림 재생시 요구되는 프레임 레이트 입니다.  30000/1001 또는 "
+#~ "원시 비디오 스트림 재생시 요구되는 프레임 레이트 입니다.  30000/1001 또는 "
 #~ "29.97 형태로"
 
 #, fuzzy
@@ -32893,7 +32917,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Toggle Normal/Repeat/Loop playlist modes"
-#~ msgstr "일반/순환/반목 재생목록 모드 토글하기"
+#~ msgstr "일반/순환/반복 재생목록 모드 토글하기"
 
 #, fuzzy
 #~ msgid "Display OSD menu on top of video output"
@@ -32913,7 +32937,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Greek, Modern ()"
-#~ msgstr "Greek, Modern"
+#~ msgstr "현대 그리스어"
 
 #, fuzzy
 #~ msgid "Aspect-ratio"
@@ -32966,7 +32990,7 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid "VLC cannot open ANY capture device.Check the error log for details."
 #~ msgstr ""
-#~ "VLC가 아무 캡처 장치도 열 수 없습니다. 자세한 사항은 에러 로그를 확인하세"
+#~ "VLC가 아무 캡처 장치도 열 수 없습니다. 자세한 사항은 오류 로그를 확인하세"
 #~ "요."
 
 #, fuzzy
@@ -33035,7 +33059,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Audio volume (0-65535)."
-#~ msgstr "오디오 음량"
+#~ msgstr "오디오 볼륨"
 
 #, fuzzy
 #~ msgid "Channel"
@@ -33095,7 +33119,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Float32 audio mixer"
-#~ msgstr "Raw 오디오 디먹서"
+#~ msgstr "원시 오디오 디먹서"
 
 #, fuzzy
 #~ msgid "OSS DSP device"
@@ -33138,7 +33162,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "RealVideo library decoder"
-#~ msgstr "QuickTime 라이브러리 디코더"
+#~ msgstr "퀵타임 라이브러리 디코더"
 
 #, fuzzy
 #~ msgid "Subtitles text encoding"
@@ -33173,11 +33197,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "all"
-#~ msgstr "월"
+#~ msgstr "벽 (Wall)"
 
 #, fuzzy
 #~ msgid "spatial"
-#~ msgstr "공간"
+#~ msgstr "공간의"
 
 #, fuzzy
 #~ msgid "temporal"
@@ -33189,67 +33213,67 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
-#~ msgstr "| adev [device]  . . . . . . . .  오디오 장치 설정하기/가져오기"
+#~ msgstr "| adev [장치]  . . . . . 오디오 장치 설정하기/가져오기"
 
 #, fuzzy
 #~ msgid "| strack [X] . . . . . . . . . set/get subtitles track"
-#~ msgstr "| strack [X] . . . . . . . . .  자막 트랙 정하기/가져오기"
+#~ msgstr "| strack [X] . . . . . . . . . . . 자막 트랙 설정/얻기"
 
 #, fuzzy
 #~ msgid "| @name marq-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+#~ msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #, fuzzy
 #~ msgid "| @name marq-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+#~ msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #, fuzzy
 #~ msgid "| @name marq-opacity # . . . . . . . . . . . . . opacity"
-#~ msgstr "| next . . . . . . . . . . . . . .  재생목록의 다음 항목"
+#~ msgstr "| next  . . . . . . . . . . . . . 재생목록의 다음 항목"
 
 #, fuzzy
 #~ msgid "| @name marq-timeout T. . . . . . . . . . timeout, in ms"
-#~ msgstr "| snapshot . . . . . . . . . . . . 비디오 스냅샷 찍기"
+#~ msgstr "| snapshot  . . . . . . . . . . . . 비디오 스냅샷 찍기"
 
 #, fuzzy
 #~ msgid "| @name marq-size # . . . . . . . . font size, in pixels"
-#~ msgstr "| title_n  . . . . . . . .  현재 항목의 다음 제목"
+#~ msgstr "| title_n  . . . . . . . . . . . 현재 항목의 다음 제목"
 
 #, fuzzy
 #~ msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+#~ msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #, fuzzy
 #~ msgid "| @name logo-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+#~ msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #, fuzzy
 #~ msgid "| @name logo-position #. . . . . . . . relative position"
-#~ msgstr "| logout . . . . . . .  (소켓 연결인 경우) 종료"
+#~ msgstr "| logout . . . . . . . . . . . (소켓 연결인 경우) 종료"
 
 #, fuzzy
 #~ msgid "| @name mosaic-alpha # . . . . . . . . . . . . . . alpha"
-#~ msgstr "| pause  . . . . . . . . . . . . . . . . 일시중지 토글하기"
+#~ msgstr "| pause  . . . . . . . . . . . . . . 일시중지 토글하기"
 
 #, fuzzy
 #~ msgid "| @name mosaic-height #. . . . . . . . . . . . . .height"
-#~ msgstr "| next . . . . . . . . . . . . . .  재생목록의 다음 항목"
+#~ msgstr "| next  . . . . . . . . . . . . . 재생목록의 다음 항목"
 
 #, fuzzy
 #~ msgid "| @name mosaic-width # . . . . . . . . . . . . . . width"
-#~ msgstr "| next . . . . . . . . . . . . . .  재생목록의 다음 항목"
+#~ msgstr "| next  . . . . . . . . . . . . . 재생목록의 다음 항목"
 
 #, fuzzy
 #~ msgid "| @name mosaic-rows #. . . . . . . . . . .number of rows"
-#~ msgstr "| faster . . . . . . . . . .  스트림을 빨리 재생"
+#~ msgstr "| faster . . . . . . . . . . . . 스트림을 더 빨리 재생"
 
 #, fuzzy
 #~ msgid "| @name mosaic-cols #. . . . . . . . . . .number of cols"
-#~ msgstr "| normal . . . . . . . . . .  스트림을 보통 속도로 재생"
+#~ msgstr "| normal . . . . . . . . . . 스트림을 보통 속도로 재생"
 
 #, fuzzy
 #~ msgid "| longhelp . . . . . . . . . . . a longer help message"
-#~ msgstr "| help . . . . . . . . . . . . . . . 이 도움말 메시지"
+#~ msgstr "| help  . . . . . . . . . . . . . . . 이 도움말 메시지"
 
 #, fuzzy
 #~ msgid "Playlist has only %d elements"
@@ -33261,59 +33285,59 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Classic rock"
-#~ msgstr "Classic Rock"
+#~ msgstr "클래식 락 Classic Rock"
 
 #, fuzzy
 #~ msgid "Death metal"
-#~ msgstr "Death Metal"
+#~ msgstr "데스 메탈 Death Metal"
 
 #, fuzzy
 #~ msgid "Sound clip"
-#~ msgstr "Sound Clip"
+#~ msgstr "사운드 클립 Sound Clip"
 
 #, fuzzy
 #~ msgid "Alternative rock"
-#~ msgstr "Alternative Rock"
+#~ msgstr "얼터너티브 락 Alternative Rock"
 
 #, fuzzy
 #~ msgid "Instrumental pop"
-#~ msgstr "Instrumental Pop"
+#~ msgstr "팝 연주 음악 Instrumental Pop"
 
 #, fuzzy
 #~ msgid "Instrumental rock"
-#~ msgstr "Instrumental Rock"
+#~ msgstr "락 연주 음악 Instrumental Rock"
 
 #, fuzzy
 #~ msgid "Southern rock"
-#~ msgstr "Southern Rock"
+#~ msgstr "남부 락 Southern Rock"
 
 #, fuzzy
 #~ msgid "Christian rap"
-#~ msgstr "Christian Rap"
+#~ msgstr "크리스찬 랩 Christian Rap"
 
 #, fuzzy
 #~ msgid "Pop/funk"
-#~ msgstr "Pop/Funk"
+#~ msgstr "팝/펑크 Pop/Funk"
 
 #, fuzzy
 #~ msgid "New wave"
-#~ msgstr "New Wave"
+#~ msgstr "새 물결 New Wave"
 
 #, fuzzy
 #~ msgid "Acid punk"
-#~ msgstr "Acid Punk"
+#~ msgstr "액시드 펑크 Acid Punk"
 
 #, fuzzy
 #~ msgid "Acid jazz"
-#~ msgstr "Acid Jazz"
+#~ msgstr "액시드 재즈 Acid Jazz"
 
 #, fuzzy
 #~ msgid "Rock & roll"
-#~ msgstr "Rock & Roll"
+#~ msgstr "락앤롤 Rock & ROll"
 
 #, fuzzy
 #~ msgid "Hard rock"
-#~ msgstr "Hard Rock"
+#~ msgstr "하드 락 Hard Rock"
 
 #, fuzzy
 #~ msgid "Dummy ifo demux"
@@ -33362,7 +33386,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Image file"
-#~ msgstr "이미지 월"
+#~ msgstr "이미지 벽 (Image Wall)"
 
 #, fuzzy
 #~ msgid "Transparency of the image"
@@ -33403,7 +33427,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "GNU/Linux osd/overlay framebuffer interface"
-#~ msgstr "GNU/Linux 프레임버퍼 비디오 출력"
+#~ msgstr "GNU/리눅스 프레임버퍼 비디오 출력"
 
 #, fuzzy
 #~ msgid "Maemo hildon interface"
@@ -33451,7 +33475,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "SAP announce"
-#~ msgstr "SAP announcing"
+#~ msgstr "SAP 알리는 중"
 
 #, fuzzy
 #~ msgid "RTSP announce"
@@ -33576,7 +33600,7 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid "Press the new keys for "
 #~ msgstr ""
-#~ "Press new keys for\n"
+#~ "다음에 대해 새 키를 누르세요\n"
 #~ "\"%@\""
 
 #, fuzzy
@@ -33787,7 +33811,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Crop video filter"
-#~ msgstr "복제(Clone) 영상 필터"
+#~ msgstr "복제Clone 영상 필터"
 
 #, fuzzy
 #~ msgid "Cropping failed"
@@ -33799,7 +33823,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Wrapper filter verbosity"
-#~ msgstr "래퍼 필터 출력"
+#~ msgstr "Wrapper 필터 출력"
 
 #, fuzzy
 #~ msgid "Configuration file"
@@ -34226,7 +34250,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "rtp"
-#~ msgstr "BritPop"
+#~ msgstr "브릿팝 BritPop"
 
 #, fuzzy
 #~ msgid "ftp"
@@ -34413,7 +34437,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "QPushButton"
-#~ msgstr "Pushto"
+#~ msgstr "파슈토어"
 
 #, fuzzy
 #~ msgid "Toggle enabled"
@@ -34485,7 +34509,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Error!"
-#~ msgstr "에러"
+#~ msgstr "오류"
 
 #, fuzzy
 #~ msgid "Create Mosaic"
@@ -34557,7 +34581,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Audio output saved volume"
-#~ msgstr "음량 조절 단계"
+#~ msgstr "오디오 볼륨 조절 단계"
 
 #, fuzzy
 #~ msgid ""
@@ -34746,7 +34770,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Fake"
-#~ msgstr "Fake TTY"
+#~ msgstr "가짜 TTY"
 
 #, fuzzy
 #~ msgid "Fake video input"
@@ -34904,11 +34928,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Brightness of the video input."
-#~ msgstr "오디오 입력의 균형."
+#~ msgstr "오디오 입력의 밸런스."
 
 #, fuzzy
 #~ msgid "Color of the video input."
-#~ msgstr "오디오 입력의 음량."
+#~ msgstr "오디오 입력의 볼륨."
 
 #, fuzzy
 #~ msgid "Tuner to use, if there are several ones."
@@ -34967,7 +34991,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
-#~ msgstr "오디오에 사용될 먹서 입니다."
+#~ msgstr "오디오에 사용될 먹서입니다."
 
 #, fuzzy
 #~ msgid "Dummy S/PDIF audio mixer"
@@ -35253,7 +35277,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "\\ sending bitrate  :   %6.0f kb/s"
-#~ msgstr "| 전송 비트레이트  :   %6.0f kb/s"
+#~ msgstr "| 전송 비트레이트    :   %6.0f kb/s"
 
 #, fuzzy
 #~ msgid "DVB Type:"
@@ -35373,7 +35397,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Interfaces implemented using lua scripts"
-#~ msgstr "lua 스크립트를 사용하여 메타 데이터 가져오기"
+#~ msgstr "Lua 스크립트를 사용하여 메타 데이터 가져오기"
 
 #, fuzzy
 #~ msgid "Lua Interface Module (shortcuts)"
@@ -35415,7 +35439,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "OMAP framebuffer video output"
-#~ msgstr "GNU/Linux 프레임버퍼 비디오 출력"
+#~ msgstr "GNU/리눅스 프레임버퍼 비디오 출력"
 
 #, fuzzy
 #~ msgid "OpenGL Provider"
@@ -35616,7 +35640,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "cddax://[device-or-file][@[T]track]"
-#~ msgstr "[cdda:][device][@[track]]"
+#~ msgstr "[cdda:][장치][@[트랙]]"
 
 #, fuzzy
 #~ msgid "Audio Compact Disc"
@@ -35888,7 +35912,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "pal"
-#~ msgstr "Nepali"
+#~ msgstr "네팔어"
 
 #, fuzzy
 #~ msgid "mono"
@@ -35988,7 +36012,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Classic look"
-#~ msgstr "Classic Rock"
+#~ msgstr "클래식 락 Classic Rock"
 
 #, fuzzy
 #~ msgid "Select play mode"
@@ -36016,7 +36040,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Post-Processing quality"
-#~ msgstr "후 처리 품질"
+#~ msgstr "후처리 품질"
 
 #, fuzzy
 #~ msgid "Repair AVI files"
@@ -36071,11 +36095,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Shoutcast Radio"
-#~ msgstr "Shoutcast"
+#~ msgstr "샤우트캐스트"
 
 #, fuzzy
 #~ msgid "Shoutcast TV"
-#~ msgstr "Shoutcast"
+#~ msgstr "샤우트캐스트"
 
 #, fuzzy
 #~ msgid "Shoutcast radio listings"
@@ -36083,7 +36107,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Shoutcast TV listings"
-#~ msgstr "Shoutcast"
+#~ msgstr "샤우트캐스트"
 
 #, fuzzy
 #~ msgid "Filter mode"
@@ -36115,7 +36139,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Embedded Windows video"
-#~ msgstr "임베드된 윈도우 창"
+#~ msgstr "내장된 윈도우 창"
 
 #, fuzzy
 #~ msgid "Matrox Graphic Array video output"
@@ -36151,7 +36175,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "(Experimental) XCB video output"
-#~ msgstr "OpenGL 영상 출력"
+#~ msgstr "OpenGL 비디오 출력"
 
 #, fuzzy
 #~ msgid "GaLaktos visualization"
@@ -36191,7 +36215,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "New Node"
-#~ msgstr "뉴 에이지"
+#~ msgstr "뉴 에이지 New Age"
 
 #, fuzzy
 #~ msgid "UDP/RTP Multicast"
@@ -36271,7 +36295,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Illegal Polarization"
-#~ msgstr "볼륨 정규화"
+#~ msgstr "볼륨 평준화"
 
 #, fuzzy
 #~ msgid "EyeTV access module"
@@ -36327,11 +36351,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Kate comment"
-#~ msgstr "설명"
+#~ msgstr "코멘트"
 
 #, fuzzy
 #~ msgid "Speex comment"
-#~ msgstr "설명"
+#~ msgstr "코멘트"
 
 #, fuzzy
 #~ msgid "Define playlist bookmarks."
@@ -36339,11 +36363,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Raw A/52 demuxer"
-#~ msgstr "Raw 오디오 디먹서"
+#~ msgstr "원시 오디오 디먹서"
 
 #, fuzzy
 #~ msgid "Raw DTS demuxer"
-#~ msgstr "Raw 오디오 디먹서"
+#~ msgstr "원시 오디오 디먹서"
 
 #, fuzzy
 #~ msgid "MPEG-4 audio demuxer"
@@ -36469,7 +36493,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "MusicBrainz"
-#~ msgstr "뮤지컬"
+#~ msgstr "뮤지컬 Musical"
 
 #, fuzzy
 #~ msgid "MusicBrainz meta data"
@@ -36565,7 +36589,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Native or Skins"
-#~ msgstr "미국 음악"
+#~ msgstr "미국 음악 Native American"
 
 #, fuzzy
 #~ msgid "Subtitles languages"
@@ -36765,7 +36789,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "New node"
-#~ msgstr "뉴 에이지"
+#~ msgstr "뉴 에이지 New Age"
 
 #, fuzzy
 #~ msgid "Alt"
@@ -36897,7 +36921,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Video Options"
-#~ msgstr "DeckLink 비디오 옵션"
+#~ msgstr "덱링크 비디오 옵션"
 
 #, fuzzy
 #~ msgid ""
@@ -37021,19 +37045,19 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "WMV (Windows Media Video) 7 (useable with MPEG TS, MPEG1, ASF and OGG)"
 #~ msgstr ""
-#~ "WMV (Windows Media Video) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
+#~ "WMV (윈도우 미디어 비디오) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
 
 #, fuzzy
 #~ msgid ""
 #~ "WMV (Windows Media Video) 8 (useable with MPEG TS, MPEG1, ASF and OGG)"
 #~ msgstr ""
-#~ "WMV (Windows Media Video) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
+#~ "WMV (윈도우 미디어 비디오) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
 
 #, fuzzy
 #~ msgid ""
 #~ "WMV (Windows Media Video) 9 (useable with MPEG TS, MPEG1, ASF and OGG)"
 #~ msgstr ""
-#~ "WMV (Windows Media Video) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
+#~ "WMV (윈도우 미디어 비디오) 1 (MPEG TS, MPEG1, ASF 및 OGG 와 같이 사용가능)"
 
 #, fuzzy
 #~ msgid "Theora is a free general-purpose codec (useable with MPEG TS)"
@@ -37121,7 +37145,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "France"
-#~ msgstr "트랜스"
+#~ msgstr "트랜스 Trance"
 
 #, fuzzy
 #~ msgid "Visualisation"
@@ -37241,7 +37265,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "This is the muxer that will be used."
-#~ msgstr "오디오에 사용될 먹서 입니다."
+#~ msgstr "오디오에 사용될 먹서입니다."
 
 #, fuzzy
 #~ msgid "Halve sample rate"
@@ -37325,7 +37349,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "ISO-9660 Volume Set"
-#~ msgstr "음량 설정"
+#~ msgstr "볼륨 설정"
 
 #, fuzzy
 #~ msgid "IPv6 multicast output interface"
@@ -37381,19 +37405,19 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "| time-x X . . . . . . . . . . . .offset from left"
-#~ msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+#~ msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #, fuzzy
 #~ msgid "| time-y Y . . . . . . . . . . . . offset from top"
-#~ msgstr "| rewind  . . . . . . . . . . . .  최소 레이트로 설정"
+#~ msgstr "| rewind  . . . . . . . . . . . . . . 최소 속도로 설정"
 
 #, fuzzy
 #~ msgid "| time-color # . . . . . . . . . . font color, RGB"
-#~ msgstr "| clear . . . . . . . . . . . . . . 재생목록 비우기"
+#~ msgstr "| clear  . . . . . . . . . . . . . . . 재생목록 비우기"
 
 #, fuzzy
 #~ msgid "| time-size # . . . . . . . . font size, in pixels"
-#~ msgstr "| title_n  . . . . . . . .  현재 항목의 다음 제목"
+#~ msgstr "| title_n  . . . . . . . . . . . 현재 항목의 다음 제목"
 
 #, fuzzy
 #~ msgid "Muxing application"
@@ -37580,7 +37604,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Select the key to turn off audio volume."
-#~ msgstr "오디오 음량 키울 키 선택."
+#~ msgstr "오디오 볼륨을 높일 키를 선택하세요."
 
 #, fuzzy
 #~ msgid ""
@@ -37720,11 +37744,11 @@ msgstr "미디어 관리자 목록"
 #, fuzzy
 #~ msgid ""
 #~ "Allows you to specify a URL with additional information on the stream."
-#~ msgstr "입력에 \"제목\" 메타데이터 지정 허용."
+#~ msgstr "입력에 \"제목\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #, fuzzy
 #~ msgid "Allows you to specify contact e-mail address for this session."
-#~ msgstr "입력에 \"제목\" 메타데이터 지정 허용."
+#~ msgstr "입력에 \"제목\" 메타데이터를 지정할 수 있도록 허용합니다."
 
 #, fuzzy
 #~ msgid ""
@@ -37809,7 +37833,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Mega bass cut off (10-100Hz)"
-#~ msgstr "메가 베이스 cutoff"
+#~ msgstr "메가 베이스 자르기"
 
 #, fuzzy
 #~ msgid "Allows you to set the desired frame rate."
@@ -37869,11 +37893,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "SLP announce"
-#~ msgstr "SAP announcing"
+#~ msgstr "SAP 알리는 중"
 
 #, fuzzy
 #~ msgid "SLP announcing"
-#~ msgstr "SAP announcing"
+#~ msgstr "SAP 알리는 중"
 
 #, fuzzy
 #~ msgid "Jump 3 seconds backwards"
@@ -37961,7 +37985,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "SAP announces"
-#~ msgstr "SAP announcing"
+#~ msgstr "SAP 알리는 중"
 
 #, fuzzy
 #~ msgid "Streamming"
@@ -37985,7 +38009,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Repeat time (ms)"
-#~ msgstr "Release 시간"
+#~ msgstr "릴리즈 시간"
 
 #, fuzzy
 #~ msgid "Wait time (ms)"
@@ -38077,7 +38101,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Sat"
-#~ msgstr "Swati"
+#~ msgstr "스와트어"
 
 #, fuzzy
 #~ msgid "Stop stream"
@@ -38289,7 +38313,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "SAP IPv6 announcing"
-#~ msgstr "SAP announcing"
+#~ msgstr "SAP 알리는 중"
 
 #, fuzzy
 #~ msgid "Random effect"
@@ -38329,11 +38353,11 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Vol %%%d"
-#~ msgstr "음량 #"
+#~ msgstr "볼륨 #"
 
 #, fuzzy
 #~ msgid "Vol %d%%"
-#~ msgstr "음량 #"
+#~ msgstr "볼륨 #"
 
 #, fuzzy
 #~ msgid "Force the rtci module to use stdin as if it was a TTY. "
@@ -38784,7 +38808,7 @@ msgstr "미디어 관리자 목록"
 #~ msgid ""
 #~ "This is the local display port that will be used for X11 drawing.  For "
 #~ "instance :0. 1. "
-#~ msgstr "오디오에 사용될 출력 URI 입니다."
+#~ msgstr "오디오에 사용될 출력 URI입니다."
 
 #, fuzzy
 #~ msgid "Device &name:"
@@ -38848,7 +38872,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Volume &Down"
-#~ msgstr "볼륨 줄이기"
+#~ msgstr "볼륨 낮추기"
 
 #, fuzzy
 #~ msgid "Channel server"
@@ -38872,7 +38896,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Native Windows interface"
-#~ msgstr "Windows 서비스 인터페이스"
+#~ msgstr "윈도우 서비스 인터페이스"
 
 #, fuzzy
 #~ msgid "channel server address"
@@ -38932,7 +38956,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "SVGAlib module"
-#~ msgstr "특별 모듈"
+#~ msgstr "특수 모듈"
 
 #, fuzzy
 #~ msgid "X11 module"
@@ -38948,7 +38972,7 @@ msgstr "미디어 관리자 목록"
 
 #, fuzzy
 #~ msgid "Slowmotion"
-#~ msgstr "모션"
+#~ msgstr "동작"
 
 #, fuzzy
 #~ msgid "Select program"
