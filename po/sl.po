@@ -1,21 +1,21 @@
 # Slovenian translation
-# Copyright (C) 2015 VideoLAN
-# This file is distributed under the same license as the VLC package.
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the vlc package.
 #
 # Translators:
 # Aljoša Žagar <anthon.manix@gmail.com>, 2013
 # janezm.74, 2014
 # Damir Jerovšek <jierro@windowslive.com>, 2014
-# Martin Srebotnjak <miles@filmsi.net>, 2013-2015
-# Matej Urbančič <mateju@svn.gnome.org>, 2005-2010, 2014-2015
-# Peter Klofutar, 2014-2015
+# Martin Srebotnjak <miles@filmsi.net>, 2013-2016
+# Matej Urbančič, 2005-2010, 2014-2016
+# Peter Klofutar, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2015-12-04 10:01+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2016-02-19 14:59+0000\n"
+"Last-Translator: Peter Klofutar\n"
 "Language-Team: Slovenian (http://www.transifex.com/yaron/vlc-trans/language/"
 "sl/)\n"
 "Language: sl\n"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:112
 msgid "Audio codecs"
-msgstr "Kodeki zvoka"
+msgstr "Zvokovni kodek"
 
 #: include/vlc_config_cat.h:113
 msgid "Settings for the audio-only decoders and encoders."
@@ -2621,8 +2621,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -6919,8 +6920,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV dovod"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Neuspešno branje datoteke"
 
@@ -7009,8 +7011,8 @@ msgstr "Datotečni dovod"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8871,7 +8873,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9715,7 +9718,8 @@ msgstr "Uravnalnik zvoka"
 msgid "Flat"
 msgstr "Plosko"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Klasična"
 
@@ -9724,7 +9728,8 @@ msgstr "Klasična"
 msgid "Club"
 msgstr "Klubska"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Plesna"
 
@@ -9756,19 +9761,23 @@ msgstr "V živo"
 msgid "Party"
 msgstr "Zabava"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Pop"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Reggae"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9780,7 +9789,8 @@ msgstr "Mehka"
 msgid "Soft rock"
 msgstr "Mehki rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Tehno"
 
@@ -9994,7 +10004,7 @@ msgstr "Velikost prostora"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:55
 msgid "Defines the virtual surface of the room emulated by the filter."
-msgstr ""
+msgstr "Določa navidezno površino sobe, ki jo filter emulira."
 
 #: modules/audio_filter/spatializer/spatializer.cpp:58
 msgid "Room width"
@@ -11135,7 +11145,7 @@ msgstr ""
 
 #: modules/codec/fdkaac.c:76
 msgid "Enable afterburner library"
-msgstr ""
+msgstr "Omogoči knjižnico afterburner"
 
 #: modules/codec/fdkaac.c:77
 msgid ""
@@ -13139,11 +13149,11 @@ msgstr "Uporabi občasno osveževanje Intra nbamesto sličic IDR"
 
 #: modules/codec/x264.c:184
 msgid "Use mb-tree ratecontrol"
-msgstr ""
+msgstr "Uporabi drevo makroblokov na nadzoru stopenj"
 
 #: modules/codec/x264.c:185
 msgid "You can disable use of Macroblock-tree on ratecontrol"
-msgstr ""
+msgstr "Uporabo drevesa makroblokov na nadzoru stopenj lahko onemogočite"
 
 #: modules/codec/x264.c:187
 msgid "Force number of slices per frame"
@@ -13812,6 +13822,8 @@ msgid ""
 "Setting vbi-opaque to true makes the text to be boxed and maybe easier to "
 "read."
 msgstr ""
+"Nastavitev VBI prozornosti poudari besedilo z okvirjem, da ga je lažje "
+"prebrati."
 
 #: modules/codec/zvbi.c:69
 msgid "Teletext alignment"
@@ -14834,8 +14846,8 @@ msgstr "Slika"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Sličice na sekundo"
 
@@ -15024,7 +15036,7 @@ msgstr "Zimzelena"
 
 #: modules/demux/mp4/id3genres.h:44
 msgid "Other"
-msgstr "Ostalo"
+msgstr "Drugo"
 
 #: modules/demux/mp4/id3genres.h:46
 msgid "R&B"
@@ -15044,7 +15056,7 @@ msgstr "Alternativna"
 
 #: modules/demux/mp4/id3genres.h:54
 msgid "Death Metal"
-msgstr "Death metal"
+msgstr "Death Metal"
 
 #: modules/demux/mp4/id3genres.h:55
 msgid "Pranks"
@@ -15076,7 +15088,7 @@ msgstr "Jazz+Funk"
 
 #: modules/demux/mp4/id3genres.h:62
 msgid "Fusion"
-msgstr "Fuzija"
+msgstr "Fusion"
 
 #: modules/demux/mp4/id3genres.h:63
 msgid "Trance"
@@ -15168,11 +15180,11 @@ msgstr "Eurodance"
 
 #: modules/demux/mp4/id3genres.h:87
 msgid "Dream"
-msgstr "Sanje"
+msgstr "Sanjarjenje"
 
 #: modules/demux/mp4/id3genres.h:88
 msgid "Southern Rock"
-msgstr "Južni rok"
+msgstr "Južnjaški rok"
 
 #: modules/demux/mp4/id3genres.h:89
 msgid "Comedy"
@@ -15192,7 +15204,7 @@ msgstr "Top 40"
 
 #: modules/demux/mp4/id3genres.h:93
 msgid "Christian Rap"
-msgstr "Kristjanski rap"
+msgstr "Katoliški rap"
 
 #: modules/demux/mp4/id3genres.h:94
 msgid "Pop/Funk"
@@ -15230,7 +15242,7 @@ msgstr "Showtunes"
 
 #: modules/demux/mp4/id3genres.h:102
 msgid "Trailer"
-msgstr "Napovednik"
+msgstr "Napovedniki"
 
 #: modules/demux/mp4/id3genres.h:103
 msgid "Lo-Fi"
@@ -15262,7 +15274,7 @@ msgstr "Muzikal"
 
 #: modules/demux/mp4/id3genres.h:110
 msgid "Rock & Roll"
-msgstr "Rock & roll"
+msgstr "Rock & Roll"
 
 #: modules/demux/mp4/id3genres.h:111
 msgid "Hard Rock"
@@ -15286,7 +15298,7 @@ msgstr "Swing"
 
 #: modules/demux/mp4/id3genres.h:116
 msgid "Fast Fusion"
-msgstr ""
+msgstr "Fast Fusion"
 
 #: modules/demux/mp4/id3genres.h:117
 msgid "Bebob"
@@ -15314,11 +15326,11 @@ msgstr "Gotski rock"
 
 #: modules/demux/mp4/id3genres.h:124
 msgid "Progressive Rock"
-msgstr "Progresiven rock"
+msgstr "Progresivni rock"
 
 #: modules/demux/mp4/id3genres.h:125
 msgid "Psychedelic Rock"
-msgstr "Psihadeličen rock"
+msgstr "Psihedelični rock"
 
 #: modules/demux/mp4/id3genres.h:126
 msgid "Symphonic Rock"
@@ -15326,7 +15338,7 @@ msgstr "Simfonični rock"
 
 #: modules/demux/mp4/id3genres.h:127
 msgid "Slow Rock"
-msgstr "Počasen rock"
+msgstr "Slow Rock"
 
 #: modules/demux/mp4/id3genres.h:128
 msgid "Big Band"
@@ -15338,7 +15350,7 @@ msgstr "Lahko poslušanje"
 
 #: modules/demux/mp4/id3genres.h:131
 msgid "Acoustic"
-msgstr "Akustična"
+msgstr "Akustična glasba"
 
 #: modules/demux/mp4/id3genres.h:132
 msgid "Humour"
@@ -15370,15 +15382,15 @@ msgstr "Simfonija"
 
 #: modules/demux/mp4/id3genres.h:139
 msgid "Booty Bass"
-msgstr ""
+msgstr "Booty Bass"
 
 #: modules/demux/mp4/id3genres.h:140
 msgid "Primus"
-msgstr ""
+msgstr "Primus"
 
 #: modules/demux/mp4/id3genres.h:141
 msgid "Porn Groove"
-msgstr ""
+msgstr "Porn Groove"
 
 #: modules/demux/mp4/id3genres.h:142
 msgid "Satire"
@@ -15386,7 +15398,7 @@ msgstr "Satira"
 
 #: modules/demux/mp4/id3genres.h:143
 msgid "Slow Jam"
-msgstr ""
+msgstr "Slow Jam"
 
 #: modules/demux/mp4/id3genres.h:145
 msgid "Tango"
@@ -15406,15 +15418,15 @@ msgstr "Balada"
 
 #: modules/demux/mp4/id3genres.h:149
 msgid "Power Ballad"
-msgstr ""
+msgstr "Power Ballad"
 
 #: modules/demux/mp4/id3genres.h:150
 msgid "Rhythmic Soul"
-msgstr ""
+msgstr "Ritmični soul"
 
 #: modules/demux/mp4/id3genres.h:151
 msgid "Freestyle"
-msgstr "Prosti slog"
+msgstr "Freestyle"
 
 #: modules/demux/mp4/id3genres.h:152
 msgid "Duet"
@@ -15422,27 +15434,27 @@ msgstr "Duet"
 
 #: modules/demux/mp4/id3genres.h:153
 msgid "Punk Rock"
-msgstr "Punk rock"
+msgstr "Punk Rock"
 
 #: modules/demux/mp4/id3genres.h:154
 msgid "Drum Solo"
-msgstr "Solo bobni"
+msgstr "Drum Solo"
 
 #: modules/demux/mp4/id3genres.h:155
 msgid "Acapella"
-msgstr "A capella"
+msgstr "Acapela"
 
 #: modules/demux/mp4/id3genres.h:156
 msgid "Euro-House"
-msgstr ""
+msgstr "Euro-House"
 
 #: modules/demux/mp4/id3genres.h:157
 msgid "Dance Hall"
-msgstr ""
+msgstr "Dance Hall"
 
 #: modules/demux/mp4/id3genres.h:158
 msgid "Goa"
-msgstr ""
+msgstr "Goa"
 
 #: modules/demux/mp4/id3genres.h:159
 msgid "Drum & Bass"
@@ -15450,19 +15462,19 @@ msgstr "Drum & Bass"
 
 #: modules/demux/mp4/id3genres.h:160
 msgid "Club - House"
-msgstr ""
+msgstr "Club - House"
 
 #: modules/demux/mp4/id3genres.h:161
 msgid "Hardcore"
-msgstr ""
+msgstr "Hardcore"
 
 #: modules/demux/mp4/id3genres.h:162
 msgid "Terror"
-msgstr ""
+msgstr "Terror"
 
 #: modules/demux/mp4/id3genres.h:163
 msgid "Indie"
-msgstr ""
+msgstr "Indie"
 
 #: modules/demux/mp4/id3genres.h:164
 msgid "BritPop"
@@ -15470,11 +15482,11 @@ msgstr "BritPop"
 
 #: modules/demux/mp4/id3genres.h:165
 msgid "Negerpunk"
-msgstr ""
+msgstr "Negerpunk"
 
 #: modules/demux/mp4/id3genres.h:166
 msgid "Polsk Punk"
-msgstr ""
+msgstr "Polsk Punk"
 
 #: modules/demux/mp4/id3genres.h:167
 msgid "Beat"
@@ -15482,7 +15494,7 @@ msgstr "Beat"
 
 #: modules/demux/mp4/id3genres.h:168
 msgid "Christian Gangsta Rap"
-msgstr "Krščanski gangsterski rap"
+msgstr "Katoliški gangsta rap"
 
 #: modules/demux/mp4/id3genres.h:169
 msgid "Heavy Metal"
@@ -15498,15 +15510,15 @@ msgstr "Mešana"
 
 #: modules/demux/mp4/id3genres.h:172
 msgid "Contemporary Christian"
-msgstr "Sodobna krščanska glasba"
+msgstr "Sodobna katoliška glasba"
 
 #: modules/demux/mp4/id3genres.h:173
 msgid "Christian Rock"
-msgstr "Kristjanski rok"
+msgstr "Katoliški rok"
 
 #: modules/demux/mp4/id3genres.h:174
 msgid "Merengue"
-msgstr ""
+msgstr "Merenge"
 
 #: modules/demux/mp4/id3genres.h:175
 msgid "Salsa"
@@ -15526,7 +15538,7 @@ msgstr "Japonski pop"
 
 #: modules/demux/mp4/id3genres.h:179
 msgid "Synthpop"
-msgstr ""
+msgstr "Synthpop"
 
 #: modules/demux/mp4/mp4.c:52
 msgid "MP4 stream demuxer"
@@ -15641,7 +15653,7 @@ msgstr "Opis glasbe"
 
 #: modules/demux/mp4/mp4.c:1479
 msgid "Liner Notes"
-msgstr ""
+msgstr "Vrstični zapisi"
 
 #: modules/demux/mp4/mp4.c:1480
 msgid "Phonogram Rights"
@@ -15681,7 +15693,7 @@ msgstr "MPEG-I/II/4 / A52 / DTS / MLP zvok"
 
 #: modules/demux/mpeg/es.c:58
 msgid "Audio ES"
-msgstr ""
+msgstr "Audio ES"
 
 #: modules/demux/mpeg/es.c:70
 msgid "MPEG-4 video"
@@ -16405,7 +16417,8 @@ msgstr "Omogoči stiskalnik dinamičnega območja"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Ponastavi"
 
@@ -16525,8 +16538,8 @@ msgid "Bookmarks"
 msgstr "Zaznamki"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Dodaj"
 
@@ -16845,7 +16858,7 @@ msgstr "Nastavite pretok ..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
 msgid "Select Streaming Method"
-msgstr ""
+msgstr "Izberite način pretakanja"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18552,19 +18565,19 @@ msgstr "Preverjanje še ni bilo izvedeno."
 
 #: modules/gui/macosx/simple_prefs.m:739
 msgid "Lowest Latency"
-msgstr ""
+msgstr "Najnižja zamuda"
 
 #: modules/gui/macosx/simple_prefs.m:742
 msgid "Low Latency"
-msgstr ""
+msgstr "Nizka zamuda"
 
 #: modules/gui/macosx/simple_prefs.m:748
 msgid "Higher Latency"
-msgstr ""
+msgstr "Višja zamuda"
 
 #: modules/gui/macosx/simple_prefs.m:751
 msgid "Highest Latency"
-msgstr ""
+msgstr "Najvišja zamuda"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18714,7 +18727,8 @@ msgstr ""
 " glede na njihovo vsebino in to vrednost.\n"
 "Nastavite 0 za onemogočanje."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Slikovni učinki"
 
@@ -18722,7 +18736,8 @@ msgstr "Slikovni učinki"
 msgid "Basic"
 msgstr "Osnovno"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Geometrija"
 
@@ -18739,7 +18754,8 @@ msgstr "Barva"
 msgid "Image Adjust"
 msgstr "Prilagodi sliko"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Prag svetlosti"
 
@@ -18748,12 +18764,14 @@ msgstr "Prag svetlosti"
 msgid "Sharpen"
 msgstr "Izostritev"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Odstranitev barvnih pasov"
 
@@ -18762,7 +18780,8 @@ msgstr "Odstranitev barvnih pasov"
 msgid "Radius"
 msgstr "Radij"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Filmska zrnatost"
 
@@ -18906,7 +18925,8 @@ msgstr "Megljenje gibanja"
 msgid "Factor"
 msgstr "Faktor"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Zaznavanje gibanja"
 
@@ -18939,8 +18959,9 @@ msgstr "Dodaj logotip"
 msgid "Logo"
 msgstr "Logotip"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Prozornost"
 
@@ -19251,7 +19272,8 @@ msgstr "UDP pošiljanje posamezniku"
 msgid "UDP Multicast"
 msgstr "UDP skupinsko pošiljanje"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Prekodiranje"
 
@@ -20690,8 +20712,8 @@ msgstr "&Uporabi"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20843,8 +20865,8 @@ msgstr "Izbriši vse zaznamke"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20864,7 +20886,8 @@ msgstr "Bajti"
 msgid "Convert"
 msgstr "Pretvori"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Ciljna datoteka:"
 
@@ -20968,7 +20991,8 @@ msgstr "&Pojdi"
 msgid "Go to time"
 msgstr "Skok na čas"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "O programu"
@@ -21893,7 +21917,7 @@ msgstr "&Shrani na seznam predvajanja"
 
 #: modules/gui/qt4/menus.cpp:1650
 msgid "&Post processing"
-msgstr ""
+msgstr "&Poobdelava"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -23726,7 +23750,7 @@ msgstr ""
 
 #: modules/stream_out/langfromtelx.c:45
 msgid "Magazine"
-msgstr ""
+msgstr "Revija"
 
 #: modules/stream_out/langfromtelx.c:47
 msgid "Specify the magazine containing the language page"
@@ -23804,7 +23828,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Prozornost mozaične slike"
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Odmik X osi"
 
@@ -23813,7 +23838,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "točka X osi zgornjega levega kota mozaika, če ni negativna."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Odmik Y osi"
 
@@ -25490,11 +25516,11 @@ msgstr ""
 #: modules/video_filter/audiobargraph_v.c:78
 #: modules/video_filter/audiobargraph_v.c:96
 msgid "Audio Bar Graph Video sub source"
-msgstr ""
+msgstr "Podvir slike vrstičnega grafa zvoka"
 
 #: modules/video_filter/audiobargraph_v.c:79
 msgid "Audio Bar Graph Video"
-msgstr ""
+msgstr "Slika vrstičnega grafa zvoka"
 
 #: modules/video_filter/ball.c:98
 msgid "Ball color"
@@ -25836,7 +25862,7 @@ msgstr "Oblaganje desnega dela slike po obrezovanju v točkah."
 
 #: modules/video_filter/croppadd.c:78
 msgid "Croppadd"
-msgstr ""
+msgstr "Obreži & Obloži"
 
 #: modules/video_filter/croppadd.c:79
 msgid "Video cropping filter"
@@ -26769,7 +26795,7 @@ msgstr "Velikost oblike roba dela"
 
 #: modules/video_filter/puzzle.c:64
 msgid "Size of the curve along the piece's edge"
-msgstr ""
+msgstr "Velikost krivulje ob robu predmeta"
 
 #: modules/video_filter/puzzle.c:65
 msgid "Auto shuffle"
@@ -34090,7 +34116,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Death metal"
-#~ msgstr "Death metal"
+#~ msgstr "Death Metal"
 
 #, fuzzy
 #~ msgid "Sound clip"
@@ -34110,11 +34136,11 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Southern rock"
-#~ msgstr "Južni rok"
+#~ msgstr "Južnjaški rok"
 
 #, fuzzy
 #~ msgid "Christian rap"
-#~ msgstr "Kristjanski rap"
+#~ msgstr "Katoliški rap"
 
 #, fuzzy
 #~ msgid "Pop/funk"
@@ -34134,7 +34160,7 @@ msgstr "Seznam upravljalnika predstavnih datotek"
 
 #, fuzzy
 #~ msgid "Rock & roll"
-#~ msgstr "Rock & roll"
+#~ msgstr "Rock & Roll"
 
 #, fuzzy
 #~ msgid "Hard rock"
