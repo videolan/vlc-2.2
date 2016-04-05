@@ -1,16 +1,16 @@
 # Japanese translation
-# Copyright (C) 2015 VideoLAN
-# This file is distributed under the same license as the VLC package.
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the vlc package.
 #
 # Translators:
-# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2015
+# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2016
 # Tadashi Jokagi <elf@elf.no-ip.org>, 2004-2009
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2015-12-04 12:47+0000\n"
+"PO-Revision-Date: 2016-01-22 13:19+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/yaron/vlc-trans/language/"
 "ja/)\n"
@@ -2601,8 +2601,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -6104,12 +6105,11 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:145 modules/access/v4l2/v4l2.c:196
 msgid "Picture aspect-ratio n:m"
-msgstr "ピクチャーのアスペクト比 n:m"
+msgstr "画像のアスペクト比 n:m"
 
 #: modules/access/dshow/dshow.cpp:146 modules/access/v4l2/v4l2.c:197
 msgid "Define input picture aspect-ratio to use. Default is 4:3"
-msgstr ""
-"使用する入力ピクチャーのアスペクト比を指定します。デフォルトは4:3です。"
+msgstr "使用する入力画像のアスペクト比を指定します。デフォルトは4:3です。"
 
 #: modules/access/dshow/dshow.cpp:147 modules/access/v4l2/v4l2.c:53
 msgid "Video input chroma format"
@@ -6870,8 +6870,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV入力"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "ファイルの読み込みに失敗しました"
 
@@ -6960,8 +6961,8 @@ msgstr "ファイル入力"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8523,7 +8524,7 @@ msgstr "明るさ"
 
 #: modules/access/v4l2/v4l2.c:85
 msgid "Picture brightness or black level."
-msgstr "ピクチャーの明るさ、または黒のレベル"
+msgstr "画像の明るさ、または黒のレベル"
 
 #: modules/access/v4l2/v4l2.c:86
 msgid "Automatic brightness"
@@ -8540,7 +8541,7 @@ msgstr "コントラスト"
 
 #: modules/access/v4l2/v4l2.c:90
 msgid "Picture contrast or luma gain."
-msgstr "ピクチャーのコントラスト、または輝度のゲイン"
+msgstr "画像のコントラスト、または輝度のゲイン"
 
 #: modules/access/v4l2/v4l2.c:91 modules/gui/macosx/VideoEffects.m:92
 #: modules/gui/macosx/VideoEffects.m:132
@@ -8551,7 +8552,7 @@ msgstr "彩度"
 
 #: modules/access/v4l2/v4l2.c:92
 msgid "Picture saturation or chroma gain."
-msgstr "ピクチャーの彩度、またはクロマのゲイン"
+msgstr "画像の彩度、またはクロマのゲイン"
 
 #: modules/access/v4l2/v4l2.c:93 modules/gui/macosx/VideoEffects.m:88
 #: modules/gui/qt4/ui/video_effects.h:1392
@@ -8568,7 +8569,7 @@ msgstr "自動色相"
 
 #: modules/access/v4l2/v4l2.c:97
 msgid "Automatically adjust the picture hue."
-msgstr "ピクチャーの色相を自動的に調整します。"
+msgstr "画像の色相を自動的に調整します。"
 
 #: modules/access/v4l2/v4l2.c:98
 msgid "White balance temperature (K)"
@@ -8588,7 +8589,7 @@ msgstr "自動ホワイトバランス"
 
 #: modules/access/v4l2/v4l2.c:104
 msgid "Automatically adjust the picture white balance."
-msgstr "ピクチャーのホワイトバランスを自動的に調整します。"
+msgstr "画像のホワイトバランスを自動的に調整します。"
 
 #: modules/access/v4l2/v4l2.c:105
 msgid "Red balance"
@@ -8629,7 +8630,7 @@ msgstr "ゲイン"
 
 #: modules/access/v4l2/v4l2.c:119
 msgid "Picture gain."
-msgstr "ピクチャーゲイン"
+msgstr "画像のゲイン"
 
 #: modules/access/v4l2/v4l2.c:120
 msgid "Sharpness"
@@ -8678,7 +8679,7 @@ msgstr "逆光補正"
 
 #: modules/access/v4l2/v4l2.c:141
 msgid "Band-stop filter"
-msgstr "光帯停止フィルター"
+msgstr "帯域停止フィルター"
 
 #: modules/access/v4l2/v4l2.c:143
 msgid "Cut a light band induced by fluorescent lighting (unit undocumented)."
@@ -8690,7 +8691,7 @@ msgstr "水平方向反転"
 
 #: modules/access/v4l2/v4l2.c:146
 msgid "Flip the picture horizontally."
-msgstr "水平方向に回転します。"
+msgstr "水平方向に画像を回転します。"
 
 #: modules/access/v4l2/v4l2.c:147
 msgid "Vertical flip"
@@ -8698,7 +8699,7 @@ msgstr "垂直方向反転"
 
 #: modules/access/v4l2/v4l2.c:149
 msgid "Flip the picture vertically."
-msgstr "垂直方向に回転します。"
+msgstr "垂直方向に画像を回転します。"
 
 #: modules/access/v4l2/v4l2.c:150
 msgid "Rotate (degrees)"
@@ -8706,7 +8707,7 @@ msgstr "回転(角度)"
 
 #: modules/access/v4l2/v4l2.c:151
 msgid "Picture rotation angle (in degrees)."
-msgstr "ピクチャーの回転角度を指定します。"
+msgstr "画像の回転角度を指定します。 (度)"
 
 #: modules/access/v4l2/v4l2.c:152
 msgid "Color killer"
@@ -8717,8 +8718,7 @@ msgid ""
 "Enable the color killer, i.e. switch to black & white picture whenever the "
 "signal is weak."
 msgstr ""
-"カラーキラーを有効化します。つまり、シグナルが弱い時、白黒のピクチャーにしま"
-"す。"
+"カラーキラーを有効化します。つまり、シグナルが弱い時、白黒の画像にします。"
 
 #: modules/access/v4l2/v4l2.c:156
 msgid "Color effect"
@@ -8828,7 +8828,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9213,27 +9214,27 @@ msgstr "ARM NEONビデオ彩度 YUV->RGBA"
 
 #: modules/audio_filter/audiobargraph_a.c:39
 msgid "Defines if BarGraph information should be sent"
-msgstr "BarGraphインフォメーションの送信"
+msgstr "棒グラフの情報の送信"
 
 #: modules/audio_filter/audiobargraph_a.c:40
 msgid ""
 "Defines if BarGraph information should be sent. 1 if the information should "
 "be sent, 0 otherwise (default 1)."
 msgstr ""
-"Bar Graphインフォメーションが送信されるかどうか設定します。送信する場合は1、"
-"それ以外は0。(デフォルト 1)"
+"棒グラフの情報が送信されるかどうか設定します。送信する場合は1、それ以外は0。"
+"(デフォルト 1)"
 
 #: modules/audio_filter/audiobargraph_a.c:42
 msgid "Sends the barGraph information every n audio packets"
-msgstr "Bar Graphの情報を一定のオーディオパケットごとに送信"
+msgstr "棒グラフの情報を一定のオーディオパケットごとに送信"
 
 #: modules/audio_filter/audiobargraph_a.c:43
 msgid ""
 "Defines how often the barGraph information should be sent. Sends the "
 "barGraph information every n audio packets (default 4)."
 msgstr ""
-"Bar Graphの情報がどれくらいの頻度で送信されるか設定します。Bar Graphの情報を"
-"送信する間隔をオーディオパケット数で指定します。(デフォルト 4)"
+"棒グラフの情報がどれくらいの頻度で送信されるか設定します。棒グラフの情報を送"
+"信する間隔をオーディオパケット数で指定します。(デフォルト 4)"
 
 #: modules/audio_filter/audiobargraph_a.c:45
 msgid "Defines if silence alarm information should be sent"
@@ -9288,11 +9289,11 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:70
 msgid "Audio part of the BarGraph function"
-msgstr "Bar Graph機能のオーディオパート"
+msgstr "棒グラフ機能のオーディオパート"
 
 #: modules/audio_filter/audiobargraph_a.c:71
 msgid "Audiobar Graph"
-msgstr "Audiobarグラフ"
+msgstr "オーディオ棒グラフ"
 
 #: modules/audio_filter/channel_mixer/dolby.c:49
 msgid "Simple decoder for Dolby Surround encoded streams"
@@ -9673,7 +9674,8 @@ msgstr "イコライザー"
 msgid "Flat"
 msgstr "フラット"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "クラシカル"
 
@@ -9682,7 +9684,8 @@ msgstr "クラシカル"
 msgid "Club"
 msgstr "クラブ"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "ダンス"
 
@@ -9714,19 +9717,23 @@ msgstr "ライブ"
 msgid "Party"
 msgstr "パーティ"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "ポップ"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "レゲエ"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "ロック"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "スカ"
 
@@ -9738,7 +9745,8 @@ msgstr "ソフト"
 msgid "Soft rock"
 msgstr "ソフトロック"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "テクノ"
 
@@ -10502,8 +10510,8 @@ msgid ""
 "time. It's useful with low CPU power but it can produce distorted pictures."
 msgstr ""
 "処理が間に合わない場合、部分的にデコードしたり、フレームをスキップすることを"
-"許可します。CPUパワーが低い場合には有効ですが、歪んだピクチャーを生成する可能"
-"性があります。"
+"許可します。CPUパワーが低い場合には有効ですが、歪んだ画像を生成する可能性があ"
+"ります。"
 
 #: modules/codec/avcodec/avcodec.h:98
 msgid "Allow speed tricks"
@@ -10721,8 +10729,8 @@ msgid ""
 "standard MPEG2 decoders."
 msgstr ""
 "MPEG2エンコーディングにMPEG4の量子化マトリクスを使用します。これは一般的によ"
-"りよい見栄えのピクチャーをもたらしますが、標準的なMPEG2デコーダーとの互換性も"
-"引き続き保っています。"
+"りよい見栄えの画像をもたらしますが、標準的なMPEG2デコーダーとの互換性も引き続"
+"き保っています。"
 
 #: modules/codec/avcodec/avcodec.h:195 modules/codec/jpeg.c:49
 msgid "Quality level"
@@ -11707,7 +11715,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:79
 msgid "Group of Picture Reference Distance"
-msgstr "Group of Picture基準距離"
+msgstr "GOP (Group of Pictures) 基準距離"
 
 #: modules/codec/qsv.c:81
 msgid ""
@@ -11974,8 +11982,8 @@ msgid ""
 "No fixed gop structure. A picture can be intra or inter and refer to "
 "previous or future pictures."
 msgstr ""
-"Fixed GOP構造がありません。ピクチャーはInter、またはIntraで前、または先のピク"
-"チャーを参照することが可能"
+"固定化したGOP構造なし。画像間、または画像内で前、または先の画像を参照すること"
+"が可能"
 
 #: modules/codec/schroedinger.c:101
 msgid "I-frame only sequence"
@@ -11983,11 +11991,11 @@ msgstr "Iフレームのみのシーケンス"
 
 #: modules/codec/schroedinger.c:102 modules/codec/schroedinger.c:103
 msgid "Inter pictures refere to previous pictures only"
-msgstr "Interピクチャーは前のピクチャーのみを参照可能"
+msgstr "画像間は前の画像のみを参照可能"
 
 #: modules/codec/schroedinger.c:104 modules/codec/schroedinger.c:105
 msgid "Inter pictures can refer to previous or future pictures"
-msgstr "Interピクチャーは前、または先のピクチャーを参照可能"
+msgstr "画像間は前、または先の画像を参照可能"
 
 #: modules/codec/schroedinger.c:109
 msgid "Constant quality factor"
@@ -12041,8 +12049,7 @@ msgstr "GOP長"
 msgid ""
 "Number of pictures between successive sequence headers i.e. length of the "
 "group of pictures"
-msgstr ""
-"連続的なシーケンスヘッダー間のピクチャー数。つまり、ピクチャーのグループ数"
+msgstr "連続的なシーケンスヘッダー間の画像数。つまり、画像のグループ数"
 
 #: modules/codec/schroedinger.c:134
 msgid "Prefilter"
@@ -12086,7 +12093,7 @@ msgstr "高い値はよりプレフィルタリングを行うことを意味し
 
 #: modules/codec/schroedinger.c:160
 msgid "Picture coding mode"
-msgstr "ピクチャーコーディングモード"
+msgstr "画像コーディングモード"
 
 #: modules/codec/schroedinger.c:161
 msgid ""
@@ -12102,7 +12109,7 @@ msgstr "自動:入力を基準としてエンコーダーが決定(最適)"
 
 #: modules/codec/schroedinger.c:167
 msgid "force coding frame as single picture"
-msgstr "単一ピクチャーとしてコーディングフレームを強制"
+msgstr "単一画像としてコーディングフレームを強制"
 
 #: modules/codec/schroedinger.c:168
 msgid "force coding frame as separate interlaced fields"
@@ -12163,11 +12170,11 @@ msgstr "クロマをモーション予測処理の一部として使用します
 
 #: modules/codec/schroedinger.c:218
 msgid "Intra picture DWT filter"
-msgstr "IntraピクチャーDWTフィルター"
+msgstr "画像内DWTフィルター"
 
 #: modules/codec/schroedinger.c:221
 msgid "Inter picture DWT filter"
-msgstr "InterピクチャーDWTフィルター"
+msgstr "画像間DWTフィルター"
 
 #: modules/codec/schroedinger.c:244
 msgid "Number of DWT iterations"
@@ -12415,7 +12422,7 @@ msgstr "DVD字幕デコーダー"
 
 #: modules/codec/spudec/spudec.c:51
 msgid "DVD subtitles"
-msgstr "DVB字幕"
+msgstr "DVD字幕"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
@@ -14068,7 +14075,7 @@ msgstr "赤外線"
 
 #: modules/control/lirc.c:61
 msgid "Infrared remote control interface"
-msgstr "HTTPリモートコントロールインターフェース"
+msgstr "赤外線リモートコントロールインターフェース"
 
 #: modules/control/motion.c:65
 msgid "motion"
@@ -14813,8 +14820,8 @@ msgstr "画像"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "フレーム数/秒"
 
@@ -16384,7 +16391,8 @@ msgstr "ダイナミックレンジ圧縮の有効化"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "リセット"
 
@@ -16504,8 +16512,8 @@ msgid "Bookmarks"
 msgstr "ブックマーク"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "追加"
 
@@ -16522,7 +16530,7 @@ msgstr "編集"
 #: modules/gui/macosx/bookmarks.m:100 modules/gui/qt4/dialogs/bookmarks.cpp:57
 #: modules/video_filter/extract.c:75
 msgid "Extract"
-msgstr "展開"
+msgstr "抽出"
 
 #: modules/gui/macosx/bookmarks.m:105 modules/gui/macosx/bookmarks.m:111
 #: modules/gui/qt4/dialogs/bookmarks.cpp:77
@@ -18687,7 +18695,8 @@ msgstr ""
 "字幕の持続時間をその要素とこの値で再計算します。\n"
 "0を設定すると無効化します。"
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "ビデオエフェクト"
 
@@ -18695,7 +18704,8 @@ msgstr "ビデオエフェクト"
 msgid "Basic"
 msgstr "基本"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "ジオメトリ"
 
@@ -18712,21 +18722,24 @@ msgstr "色"
 msgid "Image Adjust"
 msgstr "画像調整"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "明るさの閾値"
 
 #: modules/gui/macosx/VideoEffects.m:95 modules/video_filter/sharpen.c:67
 #: modules/gui/qt4/ui/video_effects.h:1398
 msgid "Sharpen"
-msgstr "シャープ化"
+msgstr "シャープネス"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "シグマ"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "バンディングノイズ除去"
 
@@ -18735,7 +18748,8 @@ msgstr "バンディングノイズ除去"
 msgid "Radius"
 msgstr "半径"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "フィルム粒状化"
 
@@ -18879,7 +18893,8 @@ msgstr "モーションぼかし"
 msgid "Factor"
 msgstr "係数"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "モーション検出"
 
@@ -18912,8 +18927,9 @@ msgstr "ロゴの追加"
 msgid "Logo"
 msgstr "ロゴ"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "透明度"
 
@@ -18975,8 +18991,7 @@ msgstr "WMV (Windows Media Video) 2 (MPEG TS, MPEG1, ASFおよび, OGGで使用�
 msgid ""
 "MJPEG consists of a series of JPEG pictures (useable with MPEG TS, MPEG1, "
 "ASF and OGG)"
-msgstr ""
-"一連のJPEGピクチャーからなるMJPEG(MPEG TS, MPEG1, ASFおよび、OGGで使用可能)"
+msgstr "一連のJPEG画像からなるMJPEG(MPEG TS, MPEG1, ASFおよび、OGGで使用可能)"
 
 #: modules/gui/macosx/wizard.m:160
 msgid "Theora is a free general-purpose codec (useable with MPEG TS and OGG)"
@@ -19194,7 +19209,7 @@ msgstr "存在するプレイリストの項目"
 
 #: modules/gui/macosx/wizard.m:350 modules/gui/macosx/wizard.m:430
 msgid "Partial Extract"
-msgstr "部分展開"
+msgstr "部分抽出"
 
 #: modules/gui/macosx/wizard.m:352
 msgid ""
@@ -19241,7 +19256,8 @@ msgstr "UDPユニキャスト"
 msgid "UDP Multicast"
 msgstr "UDPマルチキャスト"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "トランスコーディング"
 
@@ -20530,7 +20546,7 @@ msgstr "リスト"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:149
 msgid "PictureFlow"
-msgstr "ピクチャーフロー"
+msgstr "画像フロー"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:305
 msgid "Select File"
@@ -20691,8 +20707,8 @@ msgstr "適用 (&A)"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20850,8 +20866,8 @@ msgstr "すべてのブックマークを削除"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20871,7 +20887,8 @@ msgstr "バイト"
 msgid "Convert"
 msgstr "変換"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "出力ファイル:"
 
@@ -20976,7 +20993,8 @@ msgstr "再生 (&G)"
 msgid "Go to time"
 msgstr "指定時間に移動"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "VideoLANについて"
@@ -23222,7 +23240,7 @@ msgstr "MPEG4ビデオパケッタイザー"
 
 #: modules/packetizer/mpegvideo.c:57
 msgid "Sync on Intra Frame"
-msgstr "Intraフレームに同期"
+msgstr "イントラフレームに同期"
 
 #: modules/packetizer/mpegvideo.c:58
 msgid ""
@@ -23230,7 +23248,7 @@ msgid ""
 "instructs the packetizer to sync on the first Intra Frame found."
 msgstr ""
 "通常、パケッタイザーは次のフルフレームに同期します。このフラグはパケッタイ"
-"ザーを最初に見つかったIntraフレームに同期することを指示します。"
+"ザーを最初に見つかったイントラフレームに同期することを指示します。"
 
 #: modules/packetizer/mpegvideo.c:71
 msgid "MPEG-I/II video packetizer"
@@ -23521,9 +23539,9 @@ msgid ""
 "this value (in milliseconds, should be >= 100 ms). For high values, you will "
 "need to raise caching values."
 msgstr ""
-"ピクチャービデオ出力からのピクチャーを遅延させる長さをミリ秒で指定します。"
-"(100ミリ秒以上を指定すべきです)高い値を指定する場合、キャッシュの値も大きくす"
-"る必要があります。"
+"ピクチャービデオ出力からの画像を遅延させる長さをミリ秒で指定します。(100ミリ"
+"秒以上を指定すべきです)高い値を指定する場合、キャッシュの値も大きくする必要が"
+"あります。"
 
 #: modules/stream_out/bridge.c:56
 msgid "ID Offset"
@@ -23823,10 +23841,11 @@ msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:130
 msgid "Transparency of the mosaic picture."
-msgstr "モザイクピクチャーの透過度"
+msgstr "モザイク画像の透過度"
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Xオフセット"
 
@@ -23835,7 +23854,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "負の値でない場合、モザイクの左上のX座標を指定します。"
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Yオフセット"
 
@@ -25331,7 +25351,7 @@ msgstr "ゾーン1: 右"
 
 #: modules/video_filter/atmo/atmo.cpp:318
 msgid "Zone 0:top"
-msgstr "ゾーン0:トップ"
+msgstr "ゾーン0: 上"
 
 #: modules/video_filter/atmo/atmo.cpp:319
 msgid "Zone 2:bottom"
@@ -25469,7 +25489,7 @@ msgstr "X座標"
 
 #: modules/video_filter/audiobargraph_v.c:45
 msgid "X coordinate of the bargraph."
-msgstr "Bar GraphのX座標を指定します。"
+msgstr "棒グラフのX座標を指定します。"
 
 #: modules/video_filter/audiobargraph_v.c:46 modules/video_filter/erase.c:60
 #: modules/video_filter/logo.c:61
@@ -25478,21 +25498,21 @@ msgstr "Y座標"
 
 #: modules/video_filter/audiobargraph_v.c:47
 msgid "Y coordinate of the bargraph."
-msgstr "Bar GraphのY座標を指定します。"
+msgstr "棒グラフのY座標を指定します。"
 
 #: modules/video_filter/audiobargraph_v.c:48
 msgid "Transparency of the bargraph"
-msgstr "Bar Graphの透明度"
+msgstr "棒グラフの透明度"
 
 #: modules/video_filter/audiobargraph_v.c:49
 msgid ""
 "Bargraph transparency value (from 0 for full transparency to 255 for full "
 "opacity)."
-msgstr "Bar Graphの透明度を指定します。(0は完全に透明、255は完全に不透明)"
+msgstr "棒グラフの透明度を指定します。(0は完全に透明、255は完全に不透明)"
 
 #: modules/video_filter/audiobargraph_v.c:51
 msgid "Bargraph position"
-msgstr "Bar Graphの位置"
+msgstr "棒グラフの位置"
 
 #: modules/video_filter/audiobargraph_v.c:53
 msgid ""
@@ -25500,8 +25520,8 @@ msgid ""
 "4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-"
 "right)."
 msgstr ""
-"ビデオ上のBar Graphの位置を指定します。(0=中央、1=左、2=右、4=上、8=下、これ"
-"らの値を組み合わせて指定することも可能です。例えば、6=右上)"
+"ビデオ上の棒グラフの位置を指定します。(0=中央、1=左、2=右、4=上、8=下、これら"
+"の値を組み合わせて指定することも可能です。例えば、6=右上)"
 
 #: modules/video_filter/audiobargraph_v.c:56
 msgid "Bar width in pixel (default : 10)"
@@ -25511,17 +25531,17 @@ msgstr "Barの幅(デフォルト: 10ピクセル)"
 msgid ""
 "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
 msgstr ""
-"表示されるBar Graphのそれぞれのバーの幅をピクセルで指定します。(デフォルト: "
-"10ピクセル)"
+"表示される棒グラフのそれぞれのバーの幅をピクセルで指定します。(デフォルト: 10"
+"ピクセル)"
 
 #: modules/video_filter/audiobargraph_v.c:78
 #: modules/video_filter/audiobargraph_v.c:96
 msgid "Audio Bar Graph Video sub source"
-msgstr "オーディオBar Graphビデオサブソース"
+msgstr "オーディオ棒グラフビデオサブソース"
 
 #: modules/video_filter/audiobargraph_v.c:79
 msgid "Audio Bar Graph Video"
-msgstr "オーディオBar Graphビデオ"
+msgstr "オーディオ棒グラフビデオ"
 
 #: modules/video_filter/ball.c:98
 msgid "Ball color"
@@ -25645,7 +25665,7 @@ msgstr "合成する画像"
 
 #: modules/video_filter/blend.cpp:44
 msgid "Video pictures blending"
-msgstr "ビデオピクチャー合成"
+msgstr "ビデオ画像合成"
 
 #: modules/video_filter/bluescreen.c:37
 msgid ""
@@ -25732,15 +25752,15 @@ msgstr "出力画像(キャンバス)の高さを指定します。"
 
 #: modules/video_filter/canvas.c:89
 msgid "Output picture aspect ratio"
-msgstr "出力ピクチャーのアスペクト比"
+msgstr "出力画像のアスペクト比"
 
 #: modules/video_filter/canvas.c:91
 msgid ""
 "Set the canvas' picture aspect ratio. If omitted, the canvas is assumed to "
 "have the same SAR as the input."
 msgstr ""
-"キャンバス上のピクチャーのアスペクト比を指定します。省略された場合、キャンバ"
-"スは入力と同じSARを持つものと仮定されます。"
+"キャンバス上の画像のアスペクト比を指定します。省略された場合、キャンバスは入"
+"力と同じSARを持つものと仮定されます。"
 
 #: modules/video_filter/canvas.c:93
 msgid "Pad video"
@@ -25997,7 +26017,7 @@ msgstr "マスクのY座標を指定します。"
 
 #: modules/video_filter/erase.c:63
 msgid "Remove zones of the video using a picture as mask"
-msgstr "ピクチャーをマスクとして利用してビデオのゾーンを消去します。"
+msgstr "画像をマスクとしてビデオのゾーンを消去します。"
 
 #: modules/video_filter/erase.c:68
 msgid "Erase video filter"
@@ -26077,11 +26097,11 @@ msgstr "Debandアルゴリズム"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
-msgstr "湾曲モード"
+msgstr "ひずみモード"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
-msgstr "湾曲のモードを\"傾き\", \"エッジ\", \"ハフ\"から1つ選択します。"
+msgstr "ひずみのモードを\"傾き\", \"エッジ\", \"ハフ\"から1つ選択します。"
 
 #: modules/video_filter/gradient.c:65
 msgid "Gradient image type"
@@ -26240,7 +26260,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:73
 msgid "Use a local picture as logo on the video"
-msgstr "ビデオ上にローカルピクチャーをロゴとして表示します。"
+msgstr "ビデオ上にローカル画像をロゴとして表示します。"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub source"
@@ -26418,8 +26438,8 @@ msgid ""
 "Transparency of the mosaic foreground pictures. 0 means transparent, 255 "
 "opaque (default)."
 msgstr ""
-"前面に表示されるモザイクの透明度を指定。0は透明、255は完全に不透明(デフォル"
-"ト)。"
+"前面に表示されるモザイク画像の透明度を指定。0は透明、255は完全に不透明(デフォ"
+"ルト)。"
 
 #: modules/video_filter/mosaic.c:93
 msgid "Total height of the mosaic, in pixels."
@@ -26604,7 +26624,7 @@ msgstr "モーション検出ビデオフィルター"
 
 #: modules/video_filter/oldmovie.c:185
 msgid "Old movie effect video filter"
-msgstr "古い映画化ビデオフィルター"
+msgstr "古い映画効果ビデオフィルター"
 
 #: modules/video_filter/oldmovie.c:186
 msgid "Old movie"
@@ -26678,7 +26698,7 @@ msgstr "スケーリング係数(0.1～2.0)"
 msgid ""
 "Ammount by which to scale the picture before sending it to the internal "
 "OpenCV filter"
-msgstr "内部のOpenCVフィルターにピクチャーを送信する前にスケーリングする量"
+msgstr "内部のOpenCVフィルターに画像を送信する前にスケーリングする量"
 
 #: modules/video_filter/opencv_wrapper.c:85
 msgid "OpenCV filter chroma"
@@ -26687,7 +26707,7 @@ msgstr "OpenCVフィルターのクロマ"
 #: modules/video_filter/opencv_wrapper.c:86
 msgid ""
 "Chroma to convert picture to before sending it to the internal OpenCV filter"
-msgstr "内部OpenCVフィルターに送信される前にピクチャー変換を行うクロマ"
+msgstr "内部OpenCVフィルターに送信される前に画像変換を行うクロマ"
 
 #: modules/video_filter/opencv_wrapper.c:89
 msgid "Wrapper filter output"
@@ -27149,7 +27169,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:91
 msgid "Send your video to picture files"
-msgstr "ビデオをピクチャーファイルに送信します。"
+msgstr "ビデオを画像ファイルに送信します。"
 
 #: modules/video_filter/scene.c:95
 msgid "Scene filter"
@@ -27311,7 +27331,7 @@ msgstr "入れ替えしない"
 
 #: modules/video_filter/transform.c:56
 msgid "Video transformation filter"
-msgstr "ビデオ変換フィルター"
+msgstr "ビデオ位置変換フィルター"
 
 #: modules/video_filter/transform.c:57
 msgid "Transformation"
@@ -27668,7 +27688,9 @@ msgstr "ビデオが表示されるVideoCoreレイヤー"
 msgid ""
 "VideoCore layer where the video is displayed. Subpictures are displayed "
 "directly above and a black background directly below."
-msgstr "ビデオが表示されるVideoCoreレイヤー。"
+msgstr ""
+"ビデオが表示されるVideoCoreレイヤー。サブピクチャーは上部に直接表示され、黒い"
+"背景は直接下部に表示されます。"
 
 #: modules/video_output/mmal.c:56 modules/video_output/mmal.c:57
 msgid "Adjust HDMI refresh rate to the video."
@@ -27993,8 +28015,8 @@ msgid ""
 "frame into the output destination."
 msgstr ""
 "mplayerのYUVビデオ出力に互換性のあるYUV4MPEG2ヘッダーです。YV12/I420 FourCCが"
-"必要となります。デフォルトでは、VLCはピクチャーフレームのFourCCを出力先に書き"
-"出します。"
+"必要となります。デフォルトでは、VLCは画像フレームのFourCCを出力先に書き出しま"
+"す。"
 
 #: modules/video_output/yuv.c:59
 msgid "YUV output"
@@ -28448,7 +28470,7 @@ msgstr "オリジナルのスペクトル描画"
 
 #: modules/visualization/visual/visual.c:84
 msgid "Enable the \"flat\" spectrum analyzer in the spectrometer."
-msgstr "スペクトロメーターに\"フラット\"なスペクトルアナライザーを描画します。"
+msgstr "スペクトルメーターに\"フラット\"なスペクトルアナライザーを描画します。"
 
 #: modules/visualization/visual/visual.c:86
 msgid "Draw bands in the spectrometer"
@@ -32029,7 +32051,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Videolan.org's addons finder"
-#~ msgstr "ビデオ変換フィルター"
+#~ msgstr "ビデオ位置変換フィルター"
 
 #, fuzzy
 #~ msgid "acoustid"
@@ -32813,11 +32835,11 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Defines if BarGraph information should be sent (default 1)"
-#~ msgstr "BarGraphインフォメーションの送信"
+#~ msgstr "棒グラフの情報の送信"
 
 #, fuzzy
 #~ msgid "Sends the barGraph information every n audio packets (default 4)"
-#~ msgstr "Bar Graphの情報を一定のオーディオパケットごとに送信"
+#~ msgstr "棒グラフの情報を一定のオーディオパケットごとに送信"
 
 #, fuzzy
 #~ msgid "Defines if silence alarm information should be sent (default 1)"
@@ -33226,14 +33248,14 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Transparency of the image"
-#~ msgstr "Bar Graphの透明度"
+#~ msgstr "棒グラフの透明度"
 
 #, fuzzy
 #~ msgid ""
 #~ "Transparency value of the new image used in blending. By default it set "
 #~ "to fully opaque (255). (from 0 for full transparency to 255 for full "
 #~ "opacity)"
-#~ msgstr "Bar Graphの透明度を指定します。(0は完全に透明、255は完全に不透明)"
+#~ msgstr "棒グラフの透明度を指定します。(0は完全に透明、255は完全に不透明)"
 
 #, fuzzy
 #~ msgid "X coordinate of the rendered image"
@@ -33609,7 +33631,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "PictureFlow View "
-#~ msgstr "ピクチャーフロー"
+#~ msgstr "画像フロー"
 
 #, fuzzy
 #~ msgid "Select an action to change the associated hotkey"
@@ -33907,7 +33929,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Remove borders of the video and replace them by black borders"
-#~ msgstr "ピクチャーをマスクとして利用してビデオのゾーンを消去します。"
+#~ msgstr "画像をマスクとしてビデオのゾーンを消去します。"
 
 #, fuzzy
 #~ msgid "Manual ratio"
@@ -34292,8 +34314,7 @@ msgstr "メディアマネージャーリスト"
 #~ msgid ""
 #~ "Number of pictures between successive sequenence headers i.e. length of "
 #~ "the group of pictures"
-#~ msgstr ""
-#~ "連続的なシーケンスヘッダー間のピクチャー数。つまり、ピクチャーのグループ数"
+#~ msgstr "連続的なシーケンスヘッダー間の画像数。つまり、画像のグループ数"
 
 #, fuzzy
 #~ msgid "Low Pass Ffilter"
@@ -35730,7 +35751,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "Automate picture coding mode"
-#~ msgstr "ピクチャーコーディングモード"
+#~ msgstr "画像コーディングモード"
 
 #, fuzzy
 #~ msgid "Automatic gain/exposure"
