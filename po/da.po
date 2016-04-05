@@ -1,16 +1,17 @@
 # Danish translation
-# Copyright (C) 2015 VideoLAN
-# This file is distributed under the same license as the VLC package.
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the vlc package.
 #
 # Translators:
-# Aputsiaĸ Niels Janussen <aj@isit.gl>, 2014-2015
+# Aputsiaĸ Niels Janussen <aj@isit.gl>, 2014-2016
 # bbuullll33rr <madsrbojesen@gmail.com>, 2013
 # Louis Tim Larsen <louis@louis.dk>, 2014
 # Nicolai Nystrup-Eriksen <nicolain-e@hotmail.dk>, 2014
 # Adam Jerjir Ancker <nrbbiyoutube@gmail.com>, 2013
 # Peter Jespersen <flywheel@illogical.dk>, 2013
-# scootergrisen, 2015
+# scootergrisen, 2015-2016
 # Sejani, 2013
+# Ulrik Johansen, 2016
 # ulrik, 2013-2014
 # Jonas Larsen <jonas@vrt.dk>
 # Morten Brix Pedersen <morten@wtf.dk>
@@ -32,8 +33,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2015-12-04 10:01+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2016-04-01 10:06+0000\n"
+"Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/yaron/vlc-trans/language/"
 "da/)\n"
 "Language: da\n"
@@ -57,7 +58,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:33
 msgid "VLC preferences"
-msgstr "VLC indstillinger"
+msgstr "VLC-indstillinger"
 
 #: include/vlc_config_cat.h:35
 msgid "Select \"Advanced Options\" to see all options."
@@ -469,7 +470,7 @@ msgstr "&Meddelelser"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "Gå til bestemt &tidspunkt"
+msgstr "&Gå til bestemt tidspunkt"
 
 #: include/vlc_intf_strings.h:59
 msgid "Custom &Bookmarks"
@@ -523,7 +524,7 @@ msgstr "Vis overordnet mappe..."
 
 #: include/vlc_intf_strings.h:73
 msgid "Show Containing Folder..."
-msgstr "Vis overordnet mappe..."
+msgstr "Vis indeholdende mappe..."
 
 #: include/vlc_intf_strings.h:74
 msgid "Stream..."
@@ -572,7 +573,7 @@ msgstr "Tilføj mappe..."
 
 #: include/vlc_intf_strings.h:89
 msgid "Save Playlist to &File..."
-msgstr "Gem spilleliste som &fil..."
+msgstr "&Gem spilleliste som fil..."
 
 #: include/vlc_intf_strings.h:91 modules/gui/macosx/MainWindow.m:174
 #: modules/gui/qt4/components/preferences_widgets.cpp:1139
@@ -789,7 +790,7 @@ msgid ""
 "  vlc://quit                     Special item to quit VLC\n"
 "\n"
 msgstr ""
-"Anvendelse: %s [valg] [stream] ...\n"
+"Brug: %s [valg] [stream] ...\n"
 "Du kan angive flere streams på kommandoprompten.\n"
 "De sættes i kø i spillelisten.\n"
 "Den først angivne stream afspilles først.\n"
@@ -936,7 +937,7 @@ msgstr "Browser - stop"
 #: modules/gui/qt4/ui/podcast_configuration.h:104
 #: modules/gui/qt4/ui/streampanel.h:172
 msgid "Delete"
-msgstr "Delete"
+msgstr "Slet"
 
 #: src/config/keys.c:67
 msgid "Down"
@@ -1201,7 +1202,7 @@ msgstr "dekoder"
 #: modules/codec/avcodec/encoder.c:370 modules/codec/avcodec/encoder.c:893
 #: modules/stream_out/es.c:362 modules/stream_out/es.c:377
 msgid "Streaming / Transcoding failed"
-msgstr "Streaming / transkodning mislykkedes"
+msgstr "Streaming/transkodning mislykkedes"
 
 #: src/input/decoder.c:262
 #, c-format
@@ -1320,7 +1321,7 @@ msgstr "%u Hz"
 
 #: src/input/es_out.c:2945
 msgid "Bits per sample"
-msgstr "Bit per sample"
+msgstr "Bit pr. sample"
 
 #: src/input/es_out.c:2950 modules/access_output/shout.c:92
 #: modules/demux/playlist/shoutcast.c:335
@@ -1328,7 +1329,7 @@ msgstr "Bit per sample"
 #: modules/gui/macosx/ConvertAndSave.m:188 modules/gui/qt4/ui/profiles.h:712
 #: modules/gui/qt4/ui/profiles.h:738
 msgid "Bitrate"
-msgstr "Bitrate"
+msgstr "Bithastighed"
 
 #: src/input/es_out.c:2950
 #, c-format
@@ -1411,7 +1412,7 @@ msgstr "Genre"
 
 #: src/input/meta.c:58 modules/mux/asf.c:60 modules/mux/avi.c:51
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Ophavsret"
 
 #: src/input/meta.c:59 src/libvlc-module.c:228 modules/access/vcdx/info.c:63
 #: modules/gui/macosx/MainMenu.m:77
@@ -1454,7 +1455,7 @@ msgstr "Indkodet af"
 
 #: src/input/meta.c:71
 msgid "Artwork URL"
-msgstr "URL til grafisk materiale"
+msgstr "URL til billede"
 
 #: src/input/meta.c:72
 msgid "Track ID"
@@ -2130,14 +2131,14 @@ msgstr "Du kan zoome videoen med den angivne faktor."
 
 #: src/libvlc-module.c:291
 msgid "Grayscale video output"
-msgstr "Video-ud i gråtoner"
+msgstr "Video-ud i gråtone"
 
 #: src/libvlc-module.c:293
 msgid ""
 "Output video in grayscale. As the color information aren't decoded, this can "
 "save some processing power."
 msgstr ""
-"Vis video i gråtoner. Da farveoplysningerne så ikke dekodes, kan dette spare "
+"Vis video i gråtone. Da farveoplysningerne så ikke dekodes, kan dette spare "
 "noget processorkraft."
 
 #: src/libvlc-module.c:296
@@ -2180,14 +2181,13 @@ msgstr "Placer altid videovinduet foran andre vinduer."
 
 #: src/libvlc-module.c:313
 msgid "Enable wallpaper mode "
-msgstr "Aktivér skrivebordsbaggrundtilstand "
+msgstr "Aktivér skrivebordstapettilstand "
 
 #: src/libvlc-module.c:315
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
 msgstr ""
-"Men skrivebordsbaggrundtilstanden kan du vise videoen på skrivebordets "
-"baggrund."
+"Men skrivebordstapettilstanden kan du vise videoen på skrivebordets baggrund."
 
 #: src/libvlc-module.c:318
 msgid "Show media title on video"
@@ -2282,7 +2282,7 @@ msgstr "Deaktivér pauseskærm under afspilning af video."
 
 #: src/libvlc-module.c:368
 msgid "Inhibit the power management daemon during playback"
-msgstr "Forhindre strømsparer-baggrundsprogrammet under afspilning"
+msgstr "Forhindr strømspare-baggrundsprogrammet under afspilning"
 
 #: src/libvlc-module.c:369
 msgid ""
@@ -2373,7 +2373,7 @@ msgid ""
 "original width (-1). Using 0 will scale the width to keep the aspect ratio."
 msgstr ""
 "Du kan gennemtvinge bredden af skærmbilledet. Som standard (-1) vil det "
-"beholde den oprindelige bredde. Vælg 0 for at skalere bredden, så den "
+"bevare den oprindelige bredde. Vælg 0 for at skalere bredden, så den "
 "overholder højde-bredde-forholdet."
 
 #: src/libvlc-module.c:413
@@ -2386,9 +2386,9 @@ msgid ""
 "the original height (-1). Using 0 will scale the height to keep the aspect "
 "ratio."
 msgstr ""
-"Du kan gennemtvinge højden på skærmbillede. Som standard (-1) vil det "
-"beholde den oprindelige højde. Vælg 0 for at skalere højden, så den "
-"overholder højde-bredde-forholdet."
+"Du kan gennemtvinge højden på skærmbillede. Som standard (-1) vil det bevare "
+"den oprindelige højde. Vælg 0 for at skalere højden, så den overholder højde-"
+"bredde-forholdet."
 
 #: src/libvlc-module.c:419
 msgid "Video cropping"
@@ -2640,8 +2640,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -2974,7 +2975,7 @@ msgid ""
 msgstr ""
 "Denne indstilling giver dig mulighed for at angive titlen i forhold henhold "
 "til hvad, der bliver afspillet<br>$a: Kunstner<br>$b: Album<br>$c: "
-"Copyright<br>$t: Titel<br>$g: Genre<br>$n: Spornummer<br>$p: Afspiller nu<br>"
+"Ophavsret<br>$t: Titel<br>$g: Genre<br>$n: Spornummer<br>$p: Afspiller nu<br>"
 "$A: Dato<br>$D: Varighed<br>$Z: \"Afspilles nu\" (Fald tilbage på Titel - "
 "Kunstner)"
 
@@ -3046,8 +3047,8 @@ msgid ""
 "images or text over the video (like a logo, arbitrary text, ...)."
 msgstr ""
 "Her kan du tilføje såkaldte \"undertekst-billedfiltre\". Med disse filtre "
-"kan du lægge nogle billeder eller tekst oven i videoen (f.eks. et logo, en "
-"tekst osv.)."
+"kan du lægge nogle billeder eller tekst oven i videoen (såsom et logo, en "
+"tekst, ...)."
 
 #: src/libvlc-module.c:720
 msgid "Subpictures filter module"
@@ -3359,12 +3360,12 @@ msgstr "Giver dig mulighed for at angive en \"genre\"-metadata for et input."
 
 #: src/libvlc-module.c:878
 msgid "Copyright metadata"
-msgstr "Copyright-metadata"
+msgstr "Ophavsret-metadata"
 
 #: src/libvlc-module.c:880
 msgid "Allows you to specify a \"copyright\" metadata for an input."
 msgstr ""
-"Giver dig mulighed for at angive en \"copyright\"-metadata for et input."
+"Giver dig mulighed for at angive en \"ophavsret\"-metadata for et input."
 
 #: src/libvlc-module.c:882
 msgid "Description metadata"
@@ -3635,7 +3636,7 @@ msgid ""
 "`vod_rtsp' to switch back to the old, legacy module."
 msgstr ""
 "Du kan vælge hvilket VoD-servermodul, du ønsker at anvende. Angiv dette til "
-"'vod_rtsp' for at skifte tilbage til det gamle, nedarvede modul."
+"\"vod_rtsp\" for at skifte tilbage til det gamle, nedarvede modul."
 
 #: src/libvlc-module.c:1015
 msgid "Allow real-time priority"
@@ -4742,11 +4743,11 @@ msgstr "Undlad at afskære en pixel i højre side af videoen"
 
 #: src/libvlc-module.c:1415
 msgid "Toggle wallpaper mode in video output"
-msgstr "Skrivebordsbaggrundtilstand i videooutput til/fra"
+msgstr "Skrivebordstapettilstand i videooutput til/fra"
 
 #: src/libvlc-module.c:1417
 msgid "Toggle wallpaper mode in video output."
-msgstr "Skrivebordsbaggrundtilstand i videooutput til/fra."
+msgstr "Skrivebordstapettilstand i videooutput til/fra."
 
 #: src/libvlc-module.c:1419
 msgid "Cycle through audio devices"
@@ -5257,7 +5258,7 @@ msgstr "Gujarati"
 
 #: src/text/iso-639_def.h:90
 msgid "Hebrew"
-msgstr "Hebræisk"
+msgstr "Hebraisk"
 
 #: src/text/iso-639_def.h:91
 msgid "Herero"
@@ -6177,7 +6178,7 @@ msgid ""
 "don't specify anything the default size for your device will be used. You "
 "can specify a standard size (cif, d1, ...) or <width>x<height>."
 msgstr ""
-"Størrelsen på videoen, der skal vises af DirectShow-plugin'et. Hvis du ikke "
+"Størrelsen på videoen, der skal vises af DirectShow-pluginet. Hvis du ikke "
 "angiver en standardstørrelse, vil din enheds standardstørrelse blive brugt. "
 "Du kan specificere en standardstørrelse (cif, d1, ...) eller "
 "<bredde>x<højde>."
@@ -6348,7 +6349,7 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:205
 msgid "Audio bits per sample"
-msgstr "Lyd-bits per sample"
+msgstr "Lyd-bits pr. sample"
 
 #: modules/access/dshow/dshow.cpp:207
 msgid "Select audio input format with the given bits/sample (if non 0)"
@@ -6951,8 +6952,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV-input"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Kunne ikke læse fil"
 
@@ -7043,8 +7045,8 @@ msgstr "Fil-input"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -7192,7 +7194,7 @@ msgid ""
 msgstr ""
 "Programmets navn og version bliver tildelt af HTTP-serveren. De skal "
 "adskilles af en skråstreg, f.eks. FooBar/1.2.3. Denne valgmulighed kan kun "
-"angives per input-enhed, ikke globalt."
+"angives pr. input-enhed, ikke globalt."
 
 #: modules/access/http.c:98
 msgid "HTTP input"
@@ -7584,15 +7586,15 @@ msgid ""
 "You can choose to select all of them."
 msgstr ""
 "MMS-streams kan indeholde flere forskellige elementary streams med "
-"forskellige bitrates. Du kan vælge hvad for nogen du vil have af dem."
+"forskellige bithastigheder. Du kan vælge hvad for nogen du vil have af dem."
 
 #: modules/access/mms/mms.c:54
 msgid "Maximum bitrate"
-msgstr "Højeste bitrate"
+msgstr "Højeste bithastighed"
 
 #: modules/access/mms/mms.c:56
 msgid "Select the stream with the maximum bitrate under that limit."
-msgstr "Vælg streamet med den højeste bitrate under begrænsningen."
+msgstr "Vælg streamet med den højeste bithastighed under begrænsningen."
 
 #: modules/access/mms/mms.c:60
 msgid ""
@@ -8296,7 +8298,7 @@ msgstr "Skærm"
 #: modules/access/screen/xcb.c:41 modules/access/shm.c:44
 #: modules/access/vnc.c:60
 msgid "How many times the screen content should be refreshed per second."
-msgstr "Hvor mange gange skærmindholdet skal genopfriskes hvert sekund."
+msgstr "Hvor mange gange skærmindholdet skal genopfriskes pr. sekund."
 
 #: modules/access/screen/xcb.c:43
 msgid "Region left column"
@@ -8916,7 +8918,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9554,7 +9557,7 @@ msgstr "Gennemsøgningshastighed"
 #: modules/audio_filter/chorus_flanger.c:86
 msgid "Rate of change of sweep depth in milliseconds shift per second of play"
 msgstr ""
-"Rate for ændring af gennemsøgningsdybte i millisekundskift per "
+"Rate for ændring af gennemsøgningsdybte i millisekundskift pr. "
 "afspilningssekund"
 
 #: modules/audio_filter/chorus_flanger.c:89
@@ -9764,7 +9767,8 @@ msgstr "Equalizer"
 msgid "Flat"
 msgstr "Flat"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Classical"
 
@@ -9773,7 +9777,8 @@ msgstr "Classical"
 msgid "Club"
 msgstr "Club"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dance"
 
@@ -9805,19 +9810,23 @@ msgstr "Live"
 msgid "Party"
 msgstr "Party"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Pop"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Reggae"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9829,7 +9838,8 @@ msgstr "Soft"
 msgid "Soft rock"
 msgstr "Soft rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Techno"
 
@@ -10256,8 +10266,8 @@ msgid ""
 "You should configure your speaker layout with \"Audio Midi Setup\" in /"
 "Applications/Utilities. VLC will output Stereo only."
 msgstr ""
-"Du bør opsætte dit højttalere-layout med \"Audio Midi Setup\" i /Programmer/"
-"Tilbehør. VLC outputtet kun Stereo."
+"Du bør opsætte dit højttalerlayout med \"Audio Midi Setup\" i /Programmer/"
+"Tilbehør. VLC outputter kun stereo."
 
 #: modules/audio_output/auhal.c:1213
 msgid "System Sound Output Device"
@@ -10725,11 +10735,11 @@ msgstr "Antal B-billeder som vil blive kodet mellem to referencebilleder."
 
 #: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance"
-msgstr "Tolerance for video-bitrate"
+msgstr "Tolerance for video-bithastighed"
 
 #: modules/codec/avcodec/avcodec.h:156
 msgid "Video bitrate tolerance in kbit/s."
-msgstr "Tolerance for video-bitrate i kbit/s."
+msgstr "Tolerance for video-bithastighed i kbit/s."
 
 #: modules/codec/avcodec/avcodec.h:158
 msgid "Interlaced encoding"
@@ -10992,7 +11002,7 @@ msgid ""
 "This is not an error inside VLC media player.\n"
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
-"Det ser ud til, at din installation af Libav/FFMPEG (libavcodec) mangler "
+"Det ser ud til, at din installation af Libav/FFmpeg (libavcodec) mangler "
 "følgende indkoder:\n"
 "%s.\n"
 "Hvis du ikke ved, hvordan du skal ordne det, så bed om hjælp fra din "
@@ -11511,7 +11521,7 @@ msgid ""
 "Kate streams can be rendered using the Tiger library. Disabling this will "
 "only render static text and bitmap based streams."
 msgstr ""
-"Kate-strømme kan optegnes via Tiger-biblioteket. Hvis du deaktiverer dette, "
+"Kate-streams kan optegnes via Tiger-biblioteket. Hvis du deaktiverer dette, "
 "så er det kun statisk tekst og bitmap-baserede strømme som bliver optegnet."
 
 #: modules/codec/kate.c:219
@@ -11619,11 +11629,11 @@ msgid ""
 "played. This will hopefully be fixed soon."
 msgstr ""
 "Kate er et codec til tekst- og billedbaserede overlægninger.\n"
-"Gengivelsesbiblioteket Tiger kræves for at gengive komplekse Kate-strømme, "
+"Gengivelsesbiblioteket Tiger kræves for at gengive komplekse Kate-streams, "
 "men VLC kan stadig gengive statisk tekst- og billedbaserede undertekster, "
 "hvis det ikke er tilgængeligt.\n"
 "Bemærk at ændringer af indstillingerne nedenfor, ikke vil træde i kraft før "
-"en ny strøm bliver afspillet. Dette bliver forhåbentlig snart rettet."
+"en ny stream bliver afspillet. Dette bliver forhåbentlig snart rettet."
 
 #: modules/codec/kate.c:271
 msgid "Kate"
@@ -11823,15 +11833,15 @@ msgstr ""
 
 #: modules/codec/qsv.c:85
 msgid "Target Usage"
-msgstr "Målret anvendelse"
+msgstr "Ønsket brug"
 
 #: modules/codec/qsv.c:86
 msgid ""
 "The target usage allow to choose between different trade-offs between "
 "quality and speed. Allowed values are : 'speed', 'balanced' and 'quality'."
 msgstr ""
-"Målrettet anvendelse giver mulighed for at vælge forskellige kompromiser "
-"mellem kvalitet og hastighed. Tilladte værdier er : 'speed', 'balanced' og "
+"Ønsket brug giver mulighed for at vælge forskellige kompromiser mellem "
+"kvalitet og hastighed. Tilladte værdier er : 'speed', 'balanced' og "
 "'quality'."
 
 #: modules/codec/qsv.c:90
@@ -11852,7 +11862,7 @@ msgstr ""
 "IdrInterval=1, så er hvert andet I-billede et IDR-billede, osv. For MPEG2, "
 "så definerer IdrInterval intervallet for sekvenshovedet før hver n'te I-"
 "billede. Hvis IdrInterval=0 (standard), så indsætter SDK sekvenshovedet én "
-"gang i begyndelsen af strømmen. "
+"gang i begyndelsen af stream'en. "
 
 #: modules/codec/qsv.c:100
 msgid "Rate Control Method"
@@ -11918,7 +11928,7 @@ msgstr ""
 
 #: modules/codec/qsv.c:122
 msgid "Maximum Bitrate"
-msgstr "Højeste bitrate"
+msgstr "Højeste bithastighed"
 
 #: modules/codec/qsv.c:123
 msgid ""
@@ -11926,9 +11936,9 @@ msgid ""
 "method. If not set, this parameter. is computed from other sources such as "
 "bitrate, profile, level, etc."
 msgstr ""
-"Angiver den maksimale bitrate i Kpbs (1000 bits/s) for VBR rate control-"
+"Angiver den maksimale bithastighed i Kpbs (1000 bits/s) for VBR rate control-"
 "metode. Hvis parameteren ikke angives, udregnes den fra andre kilder, såsom "
-"bitrate, profil, niveau, osv."
+"bithastighed, profil, niveau, osv."
 
 #: modules/codec/qsv.c:127
 msgid "Accuracy of RateControl"
@@ -11956,12 +11966,12 @@ msgid ""
 "Number of 100 frames before the 'avbr' rate control method reaches the "
 "requested bitrate with the requested accuracy. See the accuracy parameter. "
 msgstr ""
-"Antal 100 billeder før 'avbr' rate control-metoden når den ønskede bitrate "
-"med den ønskede præcision. Se accuracy-parameteren. "
+"Antal 100 billeder før 'avbr' rate control-metoden når den ønskede "
+"bithastighed med den ønskede præcision. Se accuracy-parameteren. "
 
 #: modules/codec/qsv.c:139
 msgid "Number of slices per frame"
-msgstr "Antal opdelinger per billede"
+msgstr "Antal opdelinger pr. billede"
 
 #: modules/codec/qsv.c:140
 msgid ""
@@ -12047,7 +12057,7 @@ msgstr "Tilstand med konstant lydgrænse"
 
 #: modules/codec/schroedinger.c:78
 msgid "Constant bitrate mode (CBR)"
-msgstr "Tilstand med konstant bitrate (CBR)"
+msgstr "Tilstand med konstant bithastighed (CBR)"
 
 #: modules/codec/schroedinger.c:79
 msgid "Low Delay mode"
@@ -12115,29 +12125,30 @@ msgstr "Støjgrænse som anvendes i tilstanden for konstant støjtærskel"
 
 #: modules/codec/schroedinger.c:117
 msgid "CBR bitrate (kbps)"
-msgstr "CBR-bitrate (kbps)"
+msgstr "CBR-bithastighed (kbps)"
 
 #: modules/codec/schroedinger.c:118
 msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Målret bitrate i kbps når encoding er i constant bitrate mode"
+msgstr "Ønsket bithastighed i kbps når encoding er i constant bitrate mode"
 
 #: modules/codec/schroedinger.c:121
 msgid "Maximum bitrate (kbps)"
-msgstr "Højeste bitrate (kbps)"
+msgstr "Højeste bithastighed (kbps)"
 
 #: modules/codec/schroedinger.c:122
 msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
 msgstr ""
-"Højeste bitrate i kbps når der indkodes med tilstanden konstant bithastighed"
+"Højeste bithastighed i kbps når der indkodes med tilstanden konstant "
+"bithastighed"
 
 #: modules/codec/schroedinger.c:125
 msgid "Minimum bitrate (kbps)"
-msgstr "Laveste bitrate (kbps)"
+msgstr "Laveste bithastighed (kbps)"
 
 #: modules/codec/schroedinger.c:126
 msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
 msgstr ""
-"Den laveste bitrate i kbps når der indkodes med tilstanden konstant "
+"Den laveste bithastighed i kbps når der indkodes med tilstanden konstant "
 "bithastighed"
 
 #: modules/codec/schroedinger.c:129
@@ -12291,7 +12302,7 @@ msgstr "Aktivér flere kvantiseringer"
 
 #: modules/codec/schroedinger.c:251
 msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr "Aktivér flere kvantiseringer per underbånd (én per kodeblock)"
+msgstr "Aktivér flere kvantiseringer pr. underbånd (én pr. kodeblok)"
 
 #: modules/codec/schroedinger.c:255
 msgid "Disable arithmetic coding"
@@ -12300,7 +12311,8 @@ msgstr "Deaktivér aritmetisk kodning"
 #: modules/codec/schroedinger.c:256
 msgid "Use variable length codes instead, useful for very high bitrates"
 msgstr ""
-"Anvend i stedet koder af varierende længde, nyttig ved meget høje bitrates"
+"Anvend i stedet koder af varierende længde, nyttig ved meget høje "
+"bithastigheder"
 
 #: modules/codec/schroedinger.c:261
 msgid "perceptual weighting method"
@@ -12316,19 +12328,19 @@ msgstr "opfattet afstand til beregning af opfattet vægt"
 
 #: modules/codec/schroedinger.c:277
 msgid "Horizontal slices per frame"
-msgstr "Vandrette opdelinger per billede"
+msgstr "Vandrette opdelinger pr. billede"
 
 #: modules/codec/schroedinger.c:278
 msgid "Number of horizontal slices per frame in low delay mode"
-msgstr "Antal vandrette opdelinger per billede i tilstand med lav forsinkelse"
+msgstr "Antal vandrette opdelinger pr. billede i tilstand med lav forsinkelse"
 
 #: modules/codec/schroedinger.c:282
 msgid "Vertical slices per frame"
-msgstr "Lodrette opdelinger per billede"
+msgstr "Lodrette opdelinger pr. billede"
 
 #: modules/codec/schroedinger.c:283
 msgid "Number of vertical slices per frame in low delay mode"
-msgstr "Antal lodrette opdelinger per billede i tilstand med lav forsinkelse"
+msgstr "Antal lodrette opdelinger pr. billede i tilstand med lav forsinkelse"
 
 #: modules/codec/schroedinger.c:287
 msgid "Size of code blocks in each subband"
@@ -12348,7 +12360,7 @@ msgstr "stor - brug store kodeblokke"
 
 #: modules/codec/schroedinger.c:301
 msgid "full - One code block per subband"
-msgstr "fuld - én kodeblok per underbånd"
+msgstr "fuld - én kodeblok pr. underbånd"
 
 #: modules/codec/schroedinger.c:306
 msgid "Enable hierarchical Motion Estimation"
@@ -12444,11 +12456,11 @@ msgstr "Gennemtving kompleksiteten for indkoderen."
 
 #: modules/codec/speex.c:71
 msgid "Maximal bitrate"
-msgstr "Højeste bitrate"
+msgstr "Højeste bithastighed"
 
 #: modules/codec/speex.c:73
 msgid "Enforce the maximal VBR bitrate"
-msgstr "Gennemtving den højeste VBR-bitrate"
+msgstr "Gennemtving den højeste VBR-bithastighed"
 
 #: modules/codec/speex.c:75 modules/codec/vorbis.c:181
 msgid "CBR encoding"
@@ -12841,7 +12853,7 @@ msgid ""
 "particular bitrate. This will produce a VBR stream."
 msgstr ""
 "Gennemtving en kvalitet mellem 1 (lav) og 10 (høj), i stedet for at angive "
-"en bestemt bitrate. Det vil skabe en VBR stream."
+"en bestemt bithastighed. Det vil skabe en VBR stream."
 
 #: modules/codec/theora.c:108 modules/video_filter/postproc.c:68
 msgid "Post processing quality"
@@ -12865,7 +12877,7 @@ msgid ""
 "of specifying a particular bitrate. This will produce a VBR stream."
 msgstr ""
 "Gennemtving en bestemt encoding-kvalitet mellem 0.0 (høj) og 50.0 (lav), i "
-"stedet for en bestemt bitrate. Det vil producere en VBR-stream."
+"stedet for en bestemt bithastighed. Det vil producere en VBR-stream."
 
 #: modules/codec/twolame.c:59
 msgid "Stereo mode"
@@ -12905,23 +12917,24 @@ msgstr "Ulead DV-lyddekoder"
 
 #: modules/codec/vorbis.c:175
 msgid "Maximum encoding bitrate"
-msgstr "Højeste bitrate ved indkodning"
+msgstr "Højeste bithastighed ved indkodning"
 
 #: modules/codec/vorbis.c:177
 msgid "Maximum bitrate in kbps. This is useful for streaming applications."
 msgstr ""
-"Maksimal bitrate i kbps. Det er specielt nyttig til streamingprogrammer."
+"Maksimal bithastighed i kbps. Det er specielt nyttig til streamingprogrammer."
 
 #: modules/codec/vorbis.c:178
 msgid "Minimum encoding bitrate"
-msgstr "Minimum indkodningsbitrate"
+msgstr "Minimum indkodningsbithastighed"
 
 #: modules/codec/vorbis.c:180
 msgid ""
 "Minimum bitrate in kbps. This is useful for encoding for a fixed-size "
 "channel."
 msgstr ""
-"Laveste bitrate i kbps. Brugbar hvis encoding til et fastsat antal kanaler."
+"Laveste bithastighed i kbps. Brugbar hvis encoding til et fastsat antal "
+"kanaler."
 
 #: modules/codec/vorbis.c:183
 msgid "Force a constant bitrate encoding (CBR)."
@@ -13203,7 +13216,7 @@ msgstr ""
 "2: skift efter række - V og H fås med interlace efter række\n"
 "3: side om side - V er til venstre, R til højre\n"
 "4: top og bund - V er i toppen, H i bunden\n"
-"5: skift efter billede - én visning per billede"
+"5: skift efter billede - én visning pr. billede"
 
 #: modules/codec/x264.c:181
 msgid "Use Periodic Intra Refresh"
@@ -13223,7 +13236,7 @@ msgstr "Du kan deaktiverer brug af Macroblock-tree for hastighedskontrol"
 
 #: modules/codec/x264.c:187
 msgid "Force number of slices per frame"
-msgstr "Gennemtving antal opdelinger per billede"
+msgstr "Gennemtving antal opdelinger pr. billede"
 
 #: modules/codec/x264.c:188
 msgid "Force rectangular slices and is overridden by other slicing options"
@@ -13246,7 +13259,7 @@ msgstr "Begræns størrelsen af hver enkelt opdeling i macroblocks"
 
 #: modules/codec/x264.c:194
 msgid "Sets a maximum number of macroblocks per slice"
-msgstr "Indstil højeste antal macroblocks per opdeling"
+msgstr "Indstil højeste antal macroblocks pr. opdeling"
 
 #: modules/codec/x264.c:197
 msgid "Set QP"
@@ -13297,19 +13310,19 @@ msgstr "Maks. QP-trin mellem billeder."
 
 #: modules/codec/x264.c:215
 msgid "Average bitrate tolerance"
-msgstr "Tolerance for middelbitrate"
+msgstr "Tolerance for gennemsnitlig bithastighed"
 
 #: modules/codec/x264.c:216
 msgid "Allowed variance in average bitrate (in kbits/s)."
-msgstr "Tillad variation i average bitrate (i kbit/s)."
+msgstr "Tillad variation i gennemsnitlig bithastighed (i kbit/s)."
 
 #: modules/codec/x264.c:219
 msgid "Max local bitrate"
-msgstr "Maks. lokal bitrate"
+msgstr "Maks. lokal bithastighed"
 
 #: modules/codec/x264.c:220
 msgid "Sets a maximum local bitrate (in kbits/s)."
-msgstr "Vælger en lokal maksimal bitrate (i kbit/s)."
+msgstr "Vælger en lokal maksimal bithastighed (i kbit/s)."
 
 #: modules/codec/x264.c:222
 msgid "VBV buffer"
@@ -13317,7 +13330,7 @@ msgstr "VBV-buffer"
 
 #: modules/codec/x264.c:223
 msgid "Averaging period for the maximum local bitrate (in kbits)."
-msgstr "Midlingsperiode for største lokale bitrate (i kbit)."
+msgstr "Midlingsperiode for største lokale bithastighed (i kbit)."
 
 #: modules/codec/x264.c:226
 msgid "Initial VBV buffer occupancy"
@@ -13347,7 +13360,7 @@ msgstr ""
 "- 0: Deaktiveret\n"
 "- 1: Aktuelt standardtilstanden for x264\n"
 "- 2: bruger log(var)^2 i stedet for log(var) og forsøger at tilpasse styrken "
-"for hvert billede"
+"pr. billede"
 
 #: modules/codec/x264.c:236
 msgid "Strength of AQ"
@@ -13526,7 +13539,7 @@ msgid ""
 "may benefit from settings between 24 and 32. Range 0 to 64."
 msgstr ""
 "Maksimum for søgning til estimering af bevægelse, målt fra forudsagt "
-"position(er). Et forvalg på 16 er godt til de fleste optagelser, mens "
+"position(er). Standard på 16 er godt til de fleste optagelser, mens "
 "sekvenser med høj grad af bevægelse kan drage fordel fra indstillinger "
 "mellem 24 og 32. Interval fra 0 til 64."
 
@@ -13597,7 +13610,7 @@ msgid ""
 "as opposed to only one ref per macroblock."
 msgstr ""
 "Tillad at hver 8x8- eller 16x8-partition uafhængigt vælge et "
-"referencebillede, i modsætning til kun én ref per makroblok."
+"referencebillede, i modsætning til kun én ref pr. makroblok."
 
 #: modules/codec/x264.c:340
 msgid "Chroma in motion estimation"
@@ -13760,7 +13773,7 @@ msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr ""
-"Angiv id-tallene for SPS og PPS, for at tillade sammenkædning af strømme med "
+"Angiv id-tallene for SPS og PPS, for at tillade sammenkædning af streams med "
 "forskellige indstillinger."
 
 #: modules/codec/x264.c:409
@@ -14047,7 +14060,7 @@ msgstr "Løkke: %s"
 #: modules/control/hotkeys.c:202
 #, c-format
 msgid "Random: %s"
-msgstr "Tilfælidg: %s"
+msgstr "Tilfældig: %s"
 
 #: modules/control/hotkeys.c:331
 #, c-format
@@ -14390,7 +14403,7 @@ msgstr "| add XYZ  . . . . . . . . tilføj XYZ til spillelisten"
 
 #: modules/control/rc.c:785
 msgid "| enqueue XYZ  . . . . . . . . . queue XYZ to playlist"
-msgstr "| enqueue XYZ . . . .  tilføj XYZ til spillelistens kø"
+msgstr "| enqueue XYZ  . . . . tilføj XYZ til spillelistens kø"
 
 #: modules/control/rc.c:786
 msgid "| playlist . . . . .  show items currently in playlist"
@@ -14418,19 +14431,19 @@ msgstr "| goto . . . . . . . . . . . . gå til punkt fra indeks"
 
 #: modules/control/rc.c:792
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
-msgstr "| repeat [on|off]   Gentag spilleliste punkter til/fra"
+msgstr "| repeat [on|off]   gentag spilleliste punkter til/fra"
 
 #: modules/control/rc.c:793
 msgid "| loop [on|off] . . . . . . . . . toggle playlist loop"
-msgstr "| loop [on|off] . . . . . . Gentag spilleliste til/fra"
+msgstr "| loop [on|off]  . . . . .  gentag spilleliste til/fra"
 
 #: modules/control/rc.c:794
 msgid "| random [on|off] . . . . . . .  toggle random jumping"
-msgstr "| random [on|off]  . . .  Tilfældig rækkefølge til/fra"
+msgstr "| random [on|off]  . . .  tilfældig rækkefølge til/fra"
 
 #: modules/control/rc.c:795
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
-msgstr "| clear . . . . . . . . . . . . . . . ryd spillelisten"
+msgstr "| clear  . . . . . . . . . . . . . .  ryd spillelisten"
 
 #: modules/control/rc.c:796
 msgid "| status . . . . . . . . . . . current playlist status"
@@ -14450,7 +14463,7 @@ msgstr "| title_p  . . . . . . forrige titel i nuværende punkt"
 
 #: modules/control/rc.c:800
 msgid "| chapter [X]  . . . . set/get chapter in current item"
-msgstr "| chapter [X] . . angiv/hent kapitel i nuværende punkt"
+msgstr "| chapter [X]  .  angiv/hent kapitel i nuværende punkt"
 
 #: modules/control/rc.c:801
 msgid "| chapter_n  . . . . . .  next chapter in current item"
@@ -14466,7 +14479,7 @@ msgstr "| seek X . . . . . .  søg i sekunder, f.eks. `seek 12'"
 
 #: modules/control/rc.c:805
 msgid "| pause  . . . . . . . . . . . . . . . .  toggle pause"
-msgstr "| pause  . . . . . . . . . . . . . . . . Pause til/fra"
+msgstr "| pause  . . . . . . . . . . . . . . . . pause til/fra"
 
 #: modules/control/rc.c:806
 msgid "| fastforward  . . . . . . . .  .  set to maximum rate"
@@ -14514,7 +14527,7 @@ msgstr "| is_playing . .  1 hvis et stream afspilles, ellers 0"
 
 #: modules/control/rc.c:817
 msgid "| get_title . . . . .  the title of the current stream"
-msgstr "| get_title . . . . . . titlen på det nuværende stream"
+msgstr "| get_title  . . . . .  titlen på det nuværende stream"
 
 #: modules/control/rc.c:818
 msgid "| get_length . . . .  the length of the current stream"
@@ -14620,7 +14633,7 @@ msgstr "| input bytes læst : %8.0f KiB"
 #: modules/control/rc.c:1749 modules/gui/ncurses.c:818
 #, c-format
 msgid "| input bitrate    :   %6.0f kb/s"
-msgstr "| input bitrate    :   %6.0f kb/s"
+msgstr "| input bithastighed    :   %6.0f kb/s"
 
 #: modules/control/rc.c:1751 modules/gui/ncurses.c:820
 #, c-format
@@ -14630,7 +14643,7 @@ msgstr "| demux bytes læst : %8.0f KiB"
 #: modules/control/rc.c:1753 modules/gui/ncurses.c:822
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
-msgstr "| demux bitrate    :   %6.0f kb/s"
+msgstr "| demux bithastighed    :   %6.0f kb/s"
 
 #: modules/control/rc.c:1755
 #, c-format
@@ -14697,7 +14710,7 @@ msgstr "| bytes sendt       : %8.0f KiB"
 #: modules/control/rc.c:1784 modules/gui/ncurses.c:856
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
-msgstr "| sende bitrate  :   %6.0f kb/s"
+msgstr "| sende bithastighed  :   %6.0f kb/s"
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
@@ -14937,10 +14950,10 @@ msgstr "Billede"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
-msgstr "Billeder per sekund"
+msgstr "Billeder pr. sekund"
 
 #: modules/demux/mjpeg.c:47
 msgid ""
@@ -15197,7 +15210,7 @@ msgstr "House"
 
 #: modules/demux/mp4/id3genres.h:68
 msgid "Game"
-msgstr "Game"
+msgstr "Spil"
 
 #: modules/demux/mp4/id3genres.h:69
 msgid "Sound Clip"
@@ -15730,7 +15743,7 @@ msgstr "Art director"
 
 #: modules/demux/mp4/mp4.c:1476
 msgid "Copyright Acknowledgement"
-msgstr "Tilkendegivelse af copyright"
+msgstr "Tilkendegivelse af ophavsret"
 
 #: modules/demux/mp4/mp4.c:1477
 msgid "Conductor"
@@ -15926,7 +15939,7 @@ msgstr "Podcast-link"
 
 #: modules/demux/playlist/podcast.c:198
 msgid "Podcast Copyright"
-msgstr "Podcast copyright"
+msgstr "Podcast ophavsret"
 
 #: modules/demux/playlist/podcast.c:199
 msgid "Podcast Category"
@@ -16114,7 +16127,7 @@ msgid ""
 "Override the normal frames per second settings. This will only work with "
 "MicroDVD and SubRIP (SRT) subtitles."
 msgstr ""
-"Tilsidesæt den normale billeder per sekund-indstilling. Virker kun med "
+"Tilsidesæt den normale billeder pr. sekund-indstilling. Virker kun med "
 "MircoDVD og SubRIP (SRT) undertekster."
 
 #: modules/demux/subtitle.c:56
@@ -16463,7 +16476,7 @@ msgstr "Find tilføjelser online"
 #: modules/gui/macosx/AddonManager.m:121 modules/gui/macosx/MainMenu.m:354
 #: modules/gui/qt4/dialogs/plugins.cpp:80
 msgid "Addons Manager"
-msgstr "Håndtering af tilføjelser"
+msgstr "Tilføjelseshåndtering"
 
 #: modules/gui/macosx/AddonManager.m:124
 #: modules/gui/qt4/dialogs/plugins.cpp:1159
@@ -16510,7 +16523,8 @@ msgstr "Aktivér kompression af dynamisk interval"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Nulstil"
 
@@ -16630,8 +16644,8 @@ msgid "Bookmarks"
 msgstr "Bogmærker"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Tilføj"
 
@@ -16946,7 +16960,7 @@ msgstr "Indstil streaming..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
 msgid "Select Streaming Method"
-msgstr ""
+msgstr "Vælg streamingmetode"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -17454,7 +17468,7 @@ msgstr "Aldrig"
 
 #: modules/gui/macosx/macosx.m:141 modules/gui/qt4/qt4.cpp:184
 msgid "Maximum Volume displayed"
-msgstr "Viser maksimal lydstyrke"
+msgstr "Maksimale viste lydstyrke"
 
 #: modules/gui/macosx/macosx.m:145
 msgid "Mac OS X interface"
@@ -17976,7 +17990,7 @@ msgstr "Brugerdefineret afspilning"
 
 #: modules/gui/macosx/open.m:157
 msgid "Open VIDEO_TS / BDMV folder"
-msgstr "Åbn VIDEO_TS / BDMV mappe"
+msgstr "Åbn VIDEO_TS/BDMV-mappe"
 
 #: modules/gui/macosx/open.m:158
 msgid "Insert Disc"
@@ -18183,7 +18197,7 @@ msgstr "S-Video input"
 
 #: modules/gui/macosx/output.m:127
 msgid "Streaming/Saving:"
-msgstr "Streamer/Gemmer:"
+msgstr "Streamer/gemmer:"
 
 #: modules/gui/macosx/output.m:128
 msgid "Settings..."
@@ -18212,7 +18226,7 @@ msgstr "Indstillinger for transkodning"
 #: modules/gui/macosx/output.m:154 modules/gui/macosx/output.m:164
 #: modules/gui/macosx/wizard.m:381
 msgid "Bitrate (kb/s)"
-msgstr "Bitrate (kb/s)"
+msgstr "Bithastighed (kb/s)"
 
 #: modules/gui/macosx/output.m:171
 msgid "Stream Announcing"
@@ -18300,7 +18314,7 @@ msgstr "Læst fra medie"
 #: modules/gui/macosx/playlistinfo.m:97
 #: modules/gui/qt4/components/info_panels.cpp:572
 msgid "Input bitrate"
-msgstr "Input bitrate"
+msgstr "Input bithastighed"
 
 #: modules/gui/macosx/playlistinfo.m:98
 msgid "Demuxed"
@@ -18308,7 +18322,7 @@ msgstr "Demuxet"
 
 #: modules/gui/macosx/playlistinfo.m:99
 msgid "Stream bitrate"
-msgstr "Bitrate for stream"
+msgstr "Bithastighed for stream"
 
 #: modules/gui/macosx/playlistinfo.m:102 modules/gui/macosx/playlistinfo.m:112
 msgid "Decoded blocks"
@@ -18500,7 +18514,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:364
 msgid "Codecs / Muxers"
-msgstr "Codecs / Muxers"
+msgstr "Codecs/muxers"
 
 #: modules/gui/macosx/simple_prefs.m:366
 msgid "Hardware Acceleration"
@@ -18545,7 +18559,7 @@ msgstr "Vis betjeningspanel i fuldskærm"
 #: modules/gui/macosx/simple_prefs.m:387
 #: modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Privacy / Network Interaction"
-msgstr "Anonymitet / Netværksbrug"
+msgstr "Anonymitet/netværksbrug"
 
 #: modules/gui/macosx/simple_prefs.m:392
 msgid "Automatically check for updates"
@@ -18655,19 +18669,19 @@ msgstr "Ingen søgning er gennemført endnu."
 
 #: modules/gui/macosx/simple_prefs.m:739
 msgid "Lowest Latency"
-msgstr ""
+msgstr "Laveste forsinkelse"
 
 #: modules/gui/macosx/simple_prefs.m:742
 msgid "Low Latency"
-msgstr ""
+msgstr "Lav forsinkelse"
 
 #: modules/gui/macosx/simple_prefs.m:748
 msgid "Higher Latency"
-msgstr ""
+msgstr "Højere forsinkelse"
 
 #: modules/gui/macosx/simple_prefs.m:751
 msgid "Highest Latency"
-msgstr ""
+msgstr "Højeste forsinkelse"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18817,7 +18831,8 @@ msgstr ""
 "til deres indhold og deres værdi.\n"
 "Sæt til 0 for at deaktivere."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Videoeffekter"
 
@@ -18825,7 +18840,8 @@ msgstr "Videoeffekter"
 msgid "Basic"
 msgstr "Grundlæggende"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Geometri"
 
@@ -18842,7 +18858,8 @@ msgstr "Farve"
 msgid "Image Adjust"
 msgstr "Billedtilpasning"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Lysstyrkegrænse"
 
@@ -18851,12 +18868,14 @@ msgstr "Lysstyrkegrænse"
 msgid "Sharpen"
 msgstr "Skarphed"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Banding fjernelse"
 
@@ -18865,7 +18884,8 @@ msgstr "Banding fjernelse"
 msgid "Radius"
 msgstr "Radius"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Filmkorn"
 
@@ -18911,7 +18931,7 @@ msgstr "Vend lodret"
 
 #: modules/gui/macosx/VideoEffects.m:120
 msgid "Magnification/Zoom"
-msgstr "Forstørrelse/Zoom"
+msgstr "Forstørrelse/zoom"
 
 #: modules/gui/macosx/VideoEffects.m:121
 #: modules/gui/qt4/ui/video_effects.h:1440
@@ -19009,7 +19029,8 @@ msgstr "Bevægelsessløring"
 msgid "Factor"
 msgstr "Faktor"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Bevægelsesdetektering"
 
@@ -19042,8 +19063,9 @@ msgstr "Tilføj logo"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Gennemsigtighed"
 
@@ -19264,7 +19286,7 @@ msgstr ""
 "Brug dette til at streame til en dynamisk gruppe af computere på et "
 "multicast-aktiveret netværk. Dette er den mest effektive metode til at "
 "streame til flere computere, men det vil ikke virke over internettet. RTP-"
-"headere vil blive tilføjet streamet."
+"headere vil blive tilføjet streamet"
 
 #: modules/gui/macosx/wizard.m:316 modules/gui/qt4/dialogs/sout.cpp:91
 msgid "Back"
@@ -19273,7 +19295,7 @@ msgstr "Tilbage"
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:322
 #: modules/gui/macosx/wizard.m:1195
 msgid "Streaming/Transcoding Wizard"
-msgstr "Streaming/Transcoding Guide"
+msgstr "Streaming/transcodingguide"
 
 #: modules/gui/macosx/wizard.m:323
 msgid "This wizard allows configuring simple streaming or transcoding setups."
@@ -19304,7 +19326,7 @@ msgstr "Stream til netværk"
 
 #: modules/gui/macosx/wizard.m:334 modules/gui/macosx/wizard.m:1615
 msgid "Transcode/Save to file"
-msgstr "Transcode/Gem til fil"
+msgstr "Transcode/gem til fil"
 
 #: modules/gui/macosx/wizard.m:337
 msgid "Choose input"
@@ -19334,7 +19356,7 @@ msgid ""
 "network stream.) The starting and ending times can be given in seconds."
 msgstr ""
 "Kan bruges til kun at læse en del af streamet. Det skal være muligt at "
-"styrer det indkommende stream (f.eks., en fil eller en disk, men ikke et UDP-"
+"styrer det indkommende stream (f.eks. en fil eller en disk, men ikke et UDP-"
 "netværksstream.) Start- og sluttiderne kan angives i sekunder."
 
 #: modules/gui/macosx/wizard.m:356
@@ -19357,7 +19379,7 @@ msgstr "Destination"
 
 #: modules/gui/macosx/wizard.m:364 modules/gui/macosx/wizard.m:436
 msgid "Streaming method"
-msgstr "Streaming måde"
+msgstr "Streamingmetode"
 
 #: modules/gui/macosx/wizard.m:365
 msgid "Address of the computer to stream to."
@@ -19371,7 +19393,8 @@ msgstr "UDP Unicast"
 msgid "UDP Multicast"
 msgstr "UDP Multicast"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Transcode"
 
@@ -19643,7 +19666,7 @@ msgid ""
 "name will be used."
 msgstr ""
 "Når der streames med UDP, kan streamet annonceres med SAP/SDP-"
-"annonceringsprotokollen. På den måde behøver clienten ikke at indtaste "
+"annonceringsprotokollen. På den måde behøver klienten ikke at indtaste "
 "multicast-adressen. Den vil være at finde i deres spilleliste, hvis de "
 "aktiverer SAP-ekstra-interfacet.\n"
 "Hvis du vil give dit stream et navn, så indtast det her, eller vil der blive "
@@ -19699,39 +19722,39 @@ msgstr "[Visning]"
 
 #: modules/gui/ncurses.c:876
 msgid " h,H                    Show/Hide help box"
-msgstr " h,H                    Vis/Skjul hjælp boks"
+msgstr " h,H                    Vis/skjul hjælp-boks"
 
 #: modules/gui/ncurses.c:877
 msgid " i                      Show/Hide info box"
-msgstr " i                      Vis/Skjul info boks"
+msgstr " i                      Vis/skjul info-boks"
 
 #: modules/gui/ncurses.c:878
 msgid " M                      Show/Hide metadata box"
-msgstr " M                      Vis/Skjul metadata boks"
+msgstr " M                      Vis/skjul metadata-boks"
 
 #: modules/gui/ncurses.c:879
 msgid " L                      Show/Hide messages box"
-msgstr " L                      Vis/Skjul meddelelsesboks"
+msgstr " L                      Vis/skjul meddelelser-boks"
 
 #: modules/gui/ncurses.c:880
 msgid " P                      Show/Hide playlist box"
-msgstr " P                      Vis/Skjul spilleliste boks"
+msgstr " P                      Vis/skjul spilleliste-boks"
 
 #: modules/gui/ncurses.c:881
 msgid " B                      Show/Hide filebrowser"
-msgstr " B                      Vis/Skjul filbrowser"
+msgstr " B                      Vis/skjul filbrowser"
 
 #: modules/gui/ncurses.c:882
 msgid " x                      Show/Hide objects box"
-msgstr " x                      Vis/Skjul objekter boks"
+msgstr " x                      Vis/skjul objekter-boks"
 
 #: modules/gui/ncurses.c:883
 msgid " S                      Show/Hide statistics box"
-msgstr " S                      Vis/Skjul statistik boks"
+msgstr " S                      Vis/skjul statistik-boks"
 
 #: modules/gui/ncurses.c:884
 msgid " Esc                    Close Add/Search entry"
-msgstr " Esc                    Luk Tilføj/Søg indtastning"
+msgstr " Esc                    Luk tilføj/søg indtastning"
 
 #: modules/gui/ncurses.c:885
 msgid " Ctrl-l                 Refresh the screen"
@@ -19751,7 +19774,7 @@ msgstr " s                      Stop"
 
 #: modules/gui/ncurses.c:893
 msgid " <space>                Pause/Play"
-msgstr " <mellemrum>            Pause/Afspil"
+msgstr " <mellemrum>            Pause/afspil"
 
 #: modules/gui/ncurses.c:894
 msgid " f                      Toggle Fullscreen"
@@ -19771,15 +19794,15 @@ msgstr " b                      Skift mellem videospor"
 
 #: modules/gui/ncurses.c:898
 msgid " n, p                   Next/Previous playlist item"
-msgstr " n, p                   Næste/Forrige punkt på spilleliste"
+msgstr " n, p                   Næste/forrige punkt på spilleliste"
 
 #: modules/gui/ncurses.c:899
 msgid " [, ]                   Next/Previous title"
-msgstr " [, ]                   Næste/Forrige titel"
+msgstr " [, ]                   Næste/forrige titel"
 
 #: modules/gui/ncurses.c:900
 msgid " <, >                   Next/Previous chapter"
-msgstr " <, >                   Næste/Forrige kapitel"
+msgstr " <, >                   Næste/forrige kapitel"
 
 #. xgettext: You can use ← and → characters
 #: modules/gui/ncurses.c:902
@@ -19789,7 +19812,7 @@ msgstr " <venstre>,<højre>      Søg -/+ 1%%"
 
 #: modules/gui/ncurses.c:903
 msgid " a, z                   Volume Up/Down"
-msgstr " a, z                   Højere/Lavere"
+msgstr " a, z                   Højere/lavere"
 
 #: modules/gui/ncurses.c:904
 msgid " m                      Mute"
@@ -19798,17 +19821,17 @@ msgstr " m                      Mute"
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:906
 msgid " <up>,<down>            Navigate through the box line by line"
-msgstr " <op>,<ned>             Naviger gennem boksen, linje efter linje"
+msgstr " <op>,<ned>             Navigér gennem boksen, linje efter linje"
 
 #. xgettext: You can use ⇞ and ⇟ characters
 #: modules/gui/ncurses.c:908
 msgid " <pageup>,<pagedown>    Navigate through the box page by page"
-msgstr " <pageup>,<pagedown>    Naviger gennem boksen, side efter side"
+msgstr " <pageup>,<pagedown>    Navigér gennem boksen, side efter side"
 
 #. xgettext: You can use ↖ and ↘ characters
 #: modules/gui/ncurses.c:910
 msgid " <start>,<end>          Navigate to start/end of box"
-msgstr " <start>,<end>          Naviger til starten/slutningen af boks"
+msgstr " <start>,<end>          Navigér til starten/slutningen af boks"
 
 #: modules/gui/ncurses.c:914
 msgid "[Playlist]"
@@ -19873,7 +19896,7 @@ msgstr " <mellemrum>            Føj den markerede mappe til spillelisten"
 
 #: modules/gui/ncurses.c:935
 msgid " .                      Show/Hide hidden files"
-msgstr " .                      Vis/Skjul skjulte filer"
+msgstr " .                      Vis/skjul skjulte filer"
 
 #: modules/gui/ncurses.c:939
 msgid "[Player]"
@@ -19982,11 +20005,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Previous / Backward"
-msgstr "Forrige / Tilbage"
+msgstr "Forrige / tilbage"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Next / Forward"
-msgstr "Næste / Fremad"
+msgstr "Næste / fremad"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "De-Fullscreen"
@@ -20327,7 +20350,7 @@ msgstr "Demuxed datastørrelse"
 
 #: modules/gui/qt4/components/info_panels.cpp:577
 msgid "Content bitrate"
-msgstr "Indholdets bitrate"
+msgstr "Indholdets bithastighed"
 
 #: modules/gui/qt4/components/info_panels.cpp:579
 msgid "Discarded (corrupted)"
@@ -20611,15 +20634,15 @@ msgstr "Sortér efter"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:249
 msgid "Ascending"
-msgstr "Stigende"
+msgstr "(stigende)"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:253
 msgid "Descending"
-msgstr "Aftagende"
+msgstr "(aftagende)"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:261
 msgid "Display size"
-msgstr "Skærmstørrelse"
+msgstr "Visningsstørrelse"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:262
 msgid "Increase"
@@ -20814,8 +20837,8 @@ msgstr "&Anvend"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20965,8 +20988,8 @@ msgstr "Slet alle bogmærkerne"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20986,7 +21009,8 @@ msgstr "Bytes"
 msgid "Convert"
 msgstr "Konvertér"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Destinationsfil:"
 
@@ -21093,7 +21117,8 @@ msgstr "&Gå"
 msgid "Go to time"
 msgstr "Gå til tidspunkt"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Om"
@@ -21170,7 +21195,7 @@ msgstr "Gem logfil som..."
 
 #: modules/gui/qt4/dialogs/messages.cpp:258
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
-msgstr "Tekst / Logfiler (*.log *.txt);; Alle (*.*) "
+msgstr "Tekst-/logfiler (*.log *.txt);; Alle (*.*) "
 
 #: modules/gui/qt4/dialogs/messages.cpp:265
 msgid ""
@@ -21320,7 +21345,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:414
 msgid "Only installed"
-msgstr "Kun dem som er installeret"
+msgstr "Kun de installerede"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:519
 msgid "Retrieving addons..."
@@ -21333,7 +21358,8 @@ msgstr "Der blev ikke fundet nogen tilføjelser"
 #: modules/gui/qt4/dialogs/plugins.cpp:809
 msgid "This addon has been installed manually. VLC can't manage it by itself."
 msgstr ""
-"Dette addon er blevet installeret manuelt. VLC kan ikke selv håndtere det."
+"Denne tilføjelse er blevet installeret manuelt. VLC kan ikke selv håndtere "
+"den."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1190
 msgid "Version %1"
@@ -21341,7 +21367,7 @@ msgstr "Version %1"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1216
 msgid "%1 downloads"
-msgstr "%1 overførsler"
+msgstr "%1 downloads"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:1285
 msgid "&Uninstall"
@@ -21708,7 +21734,7 @@ msgstr "&Medier"
 
 #: modules/gui/qt4/menus.cpp:339
 msgid "P&layback"
-msgstr "Afspi&lning"
+msgstr "&Afspilning"
 
 #: modules/gui/qt4/menus.cpp:340 modules/gui/qt4/menus.cpp:1037
 msgid "&Audio"
@@ -21720,7 +21746,7 @@ msgstr "&Video"
 
 #: modules/gui/qt4/menus.cpp:342 modules/gui/qt4/menus.cpp:1051
 msgid "Subti&tle"
-msgstr "Under&tekst"
+msgstr "&Undertekst"
 
 #: modules/gui/qt4/menus.cpp:344 modules/gui/qt4/menus.cpp:1067
 msgid "T&ools"
@@ -21764,7 +21790,7 @@ msgstr "Åbn s&eneste medier"
 
 #: modules/gui/qt4/menus.cpp:390
 msgid "Conve&rt / Save..."
-msgstr "Konve&rtér / gem..."
+msgstr "&Konvertér / gem..."
 
 #: modules/gui/qt4/menus.cpp:392
 msgid "&Stream..."
@@ -21868,7 +21894,7 @@ msgstr "Lyd&enhed"
 
 #: modules/gui/qt4/menus.cpp:618
 msgid "&Stereo Mode"
-msgstr "&Stereotilstand"
+msgstr "S&tereotilstand"
 
 #: modules/gui/qt4/menus.cpp:621
 msgid "&Visualizations"
@@ -21900,7 +21926,7 @@ msgstr "Altid &øverst"
 
 #: modules/gui/qt4/menus.cpp:678
 msgid "Set as Wall&paper"
-msgstr "Anvend som &skrivebordsbaggrund"
+msgstr "&Anvend som skrivebordstapet"
 
 #: modules/gui/qt4/menus.cpp:682
 msgid "&Zoom"
@@ -21924,7 +21950,7 @@ msgstr "&Deinterlace-tilstand"
 
 #: modules/gui/qt4/menus.cpp:695
 msgid "Take &Snapshot"
-msgstr "Tag &skærmbillede"
+msgstr "&Tag skærmbillede"
 
 #: modules/gui/qt4/menus.cpp:714
 msgid "T&itle"
@@ -21956,7 +21982,7 @@ msgstr "F&orrige"
 
 #: modules/gui/qt4/menus.cpp:843
 msgid "Ne&xt"
-msgstr "Næ&ste"
+msgstr "&Næste"
 
 #: modules/gui/qt4/menus.cpp:861
 msgid "Sp&eed"
@@ -22020,7 +22046,7 @@ msgstr "&Gem som spilleliste"
 
 #: modules/gui/qt4/menus.cpp:1650
 msgid "&Post processing"
-msgstr ""
+msgstr "&Efterbehandling"
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -22345,8 +22371,8 @@ msgid ""
 "play back video even though no video tag is implemented"
 msgstr ""
 "Når denne indstilling er sat til 'nej', er det meningen at den skal give "
-"gamle skins en mulighed for at afspille video, også selvom video-mærket ikke "
-"er indstillet"
+"gamle skins en mulighed for at afspille video, også selvom der ikke er nogen "
+"video-opmærkning"
 
 #: modules/gui/skins2/src/skin_main.cpp:508
 msgid "Skinnable Interface"
@@ -22554,7 +22580,7 @@ msgstr "Lua-kunst"
 
 #: modules/lua/vlc.c:152
 msgid "Fetch artwork using lua scripts"
-msgstr "Hent kunst vha. lua-scripts"
+msgstr "Hent billede vha. lua-scripts"
 
 #: modules/lua/vlc.c:157 modules/lua/vlc.c:158
 msgid "Lua Extension"
@@ -22911,7 +22937,7 @@ msgstr "Forfatter til at putte i ASF-kommanterer."
 
 #: modules/mux/asf.c:61
 msgid "Copyright string to put in ASF comments."
-msgstr "Copyright-streng til at putte i ASF-kommanterer."
+msgstr "Ophavsret-streng til at putte i ASF-kommanterer."
 
 #: modules/mux/asf.c:62 modules/mux/avi.c:52
 msgid "Comment"
@@ -22935,7 +22961,7 @@ msgstr "ASF pakkestørrelse -- standard er 4096 bytes"
 
 #: modules/mux/asf.c:68
 msgid "Bitrate override"
-msgstr "Bitrate tilsidesættelse"
+msgstr "Bithastighed tilsidesættelse"
 
 #: modules/mux/asf.c:69
 msgid ""
@@ -22943,9 +22969,9 @@ msgid ""
 "Windows Media Player will cache streamed content. Set to audio+video bitrate "
 "in bytes"
 msgstr ""
-"Forsøg ikke på at gætte ASF-bitrate. Aktiveres dette, vil du have kontrol "
-"over hvordan Windows Media Player cacher det streamede indhold. Indstil til "
-"lyd+video-bitrate i bytes"
+"Forsøg ikke på at gætte ASF-bithastighed. Aktiveres dette, vil du have "
+"kontrol over hvordan Windows Media Player cacher det streamede indhold. "
+"Indstil til lyd+video-bithastighed i bytes"
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
@@ -23143,7 +23169,7 @@ msgid ""
 "bitrate between the two boundaries. This avoids having huge bitrate peaks, "
 "especially for reference frames."
 msgstr ""
-"Skær strømmen i stykker på den givne varighed, og sørg for en konstant "
+"Skær stream'en i stykker på den givne varighed, og sørg for en konstant "
 "bithastighed mellem de afgrænsninger. Dette forhindrer store udsving i "
 "bithastigheden, særligt for referencebilleder."
 
@@ -23197,7 +23223,7 @@ msgid ""
 msgstr ""
 "Forsinker DTS (decoding time stamps) og PTS (presentation timestamps) på "
 "dataene i streamet, sammenlignet med PCR'erne. Det giver mulighed for "
-"buffering inden i client-dekoderen."
+"buffering inden i klient-dekoderen."
 
 #: modules/mux/mpeg/ts.c:154
 msgid "Crypt audio"
@@ -23330,7 +23356,7 @@ msgstr "HEVC/H.265 video packetizer"
 
 #: modules/packetizer/mlp.c:49
 msgid "MLP/TrueHD parser"
-msgstr "MLP/TrueHD fortolker"
+msgstr "MLP/TrueHD-fortolker"
 
 #: modules/packetizer/mpeg4audio.c:174
 msgid "MPEG4 audio packetizer"
@@ -23349,9 +23375,9 @@ msgid ""
 "Normally the packetizer would sync on the next full frame. This flags "
 "instructs the packetizer to sync on the first Intra Frame found."
 msgstr ""
-"Normal vil packetizeren synkroniserer på den næste full frame, Dette/Disse "
-"flags instruerer packetizeren til at synkroniserer på den første fundne "
-"Intra-billede."
+"Normalt vil packetizeren synkroniserer på den næste fulde billede, Dette "
+"flag instruerer packetizeren til at synkroniserer på den første fundne Intra-"
+"billede."
 
 #: modules/packetizer/mpegvideo.c:71
 msgid "MPEG-I/II video packetizer"
@@ -23951,7 +23977,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Mosaic billedets gennemsigtighed."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X-forskydning"
 
@@ -23962,7 +23989,8 @@ msgstr ""
 "negativt."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y-forskydning"
 
@@ -24429,11 +24457,11 @@ msgstr "Dette er det video-codec, der vil blive anvendt."
 #: modules/stream_out/transcode/transcode.c:52
 #: share/lua/http/dialogs/create_stream.html:212
 msgid "Video bitrate"
-msgstr "Video bitrate"
+msgstr "Video bithastighed"
 
 #: modules/stream_out/transcode/transcode.c:54
 msgid "Target bitrate of the transcoded video stream."
-msgstr "Bitrate mål for den transcoded video-stream."
+msgstr "Ønsket bithastighed for den transcoded video-stream."
 
 #: modules/stream_out/transcode/transcode.c:55
 msgid "Video scaling"
@@ -24450,7 +24478,7 @@ msgstr "Video billedhastighed"
 
 #: modules/stream_out/transcode/transcode.c:60
 msgid "Target output frame rate for the video stream."
-msgstr "Målret output billedhastighed for video-stream."
+msgstr "Ønsket output billedhastighed for video-stream."
 
 #: modules/stream_out/transcode/transcode.c:61
 msgid "Deinterlace video"
@@ -24515,11 +24543,11 @@ msgstr "Dette er det lyd-codec som vil blive anvendt."
 #: modules/stream_out/transcode/transcode.c:91
 #: share/lua/http/dialogs/create_stream.html:231
 msgid "Audio bitrate"
-msgstr "Lyd-bitrate"
+msgstr "Lyd-bithastighed"
 
 #: modules/stream_out/transcode/transcode.c:93
 msgid "Target bitrate of the transcoded audio stream."
-msgstr "Målret bitrate for den transcoded lyd-stream."
+msgstr "Ønsket bithastighed for den transcoded lyd-stream."
 
 #: modules/stream_out/transcode/transcode.c:96
 msgid ""
@@ -24629,7 +24657,7 @@ msgstr "Skrifttype-fil til den skrifttype du vil bruge"
 
 #: modules/text_renderer/freetype.c:101 modules/text_renderer/win32text.c:61
 msgid "Font size in pixels"
-msgstr "Skrifttypestørrelse i pixels"
+msgstr "Skriftstørrelse i pixels"
 
 #: modules/text_renderer/freetype.c:102 modules/text_renderer/win32text.c:62
 msgid ""
@@ -24637,9 +24665,9 @@ msgid ""
 "set to something different than 0 this option will override the relative "
 "font size."
 msgstr ""
-"Dette er den skrifttypestørrelse som anvendes som standard, på den "
-"genererede video. Hvis indstillingen sættes til andet end 0, vil denne "
-"indstilling tilsidesætte den relative skrifttypestørrelse."
+"Dette er den skriftstørrelse som anvendes som standard, på den genererede "
+"video. Hvis indstillingen sættes til andet end 0, vil denne indstilling "
+"tilsidesætte den relative skrifttypestørrelse."
 
 #: modules/text_renderer/freetype.c:106
 msgid "Text opacity"
@@ -24682,7 +24710,7 @@ msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overridden."
 msgstr ""
-"Dette er den relative standard skrifttypestørrelse som genereres på videoen. "
+"Dette er den relative standard skriftstørrelse som genereres på videoen. "
 "Hvis absolutte skrifttypestørrelse er angivet, vil den relative størrelse "
 "blive tilsidesat."
 
@@ -25308,7 +25336,7 @@ msgstr "Blå værdi af ren hvid på dine LED-strips."
 
 #: modules/video_filter/atmo/atmo.cpp:247
 msgid "Serial Port/Device"
-msgstr "Seriel port/Enhed"
+msgstr "Seriel port/enhed"
 
 #: modules/video_filter/atmo/atmo.cpp:248
 msgid ""
@@ -25360,7 +25388,7 @@ msgstr "Bruges til statistik."
 
 #: modules/video_filter/atmo/atmo.cpp:264
 msgid "Sat windowing"
-msgstr "Sat windowing"
+msgstr "Mætning vindue"
 
 #: modules/video_filter/atmo/atmo.cpp:267
 #: modules/gui/qt4/ui/video_effects.h:1472
@@ -25491,7 +25519,7 @@ msgstr ""
 "nogle kanaler. Den klassiske AtmoLight-sekvens 4,3,1,0,2 indstiller standard "
 "kanal/zone-kortlægning. Med kun to zoner øverst, og en zone til venstre og "
 "højre og ingen opsummerende zone vil kortlægningen for klassisk AtmoLight "
-"være -1,3,2,1,0."
+"være -1,3,2,1,0"
 
 #: modules/video_filter/atmo/atmo.cpp:332
 msgid "Zone 0: Top gradient"
@@ -25682,7 +25710,7 @@ msgstr "Boldens hastighed"
 msgid ""
 "Set ball speed, the displacement value                                 in "
 "number of pixels by frame."
-msgstr "Angiv boldens hastighed, ændringsværdien i antal pixels per billede."
+msgstr "Angiv boldens hastighed, ændringsværdien i antal pixels pr. billede."
 
 #: modules/video_filter/ball.c:107
 msgid "Ball size"
@@ -25914,7 +25942,7 @@ msgid ""
 "green, then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = "
 "yellow (red + green), #FFFFFF = white"
 msgstr ""
-"Farver som denne bevares, mens de andre vil blive omdannet til gråtoner. "
+"Farver som denne bevares, mens de andre vil blive omdannet til gråtone. "
 "Denne skal være heksadecimal (ligesom HTML-farver). De første to tegn er for "
 "rød, dernæst grøn og så blå. #000000 = sort, #FF0000 = rød, #00FF00 = grøn, "
 "#FFFF00 = gul (rød + grøn), #FFFFFF = hvid"
@@ -26165,7 +26193,7 @@ msgstr "Extract RGB component videofilter"
 
 #: modules/video_filter/freeze.c:77
 msgid "Freezing interactive video filter"
-msgstr "Freezing interactive videofilter"
+msgstr "Freezing interaktivt videofilter"
 
 #: modules/video_filter/freeze.c:78
 msgid "Freeze"
@@ -26397,7 +26425,7 @@ msgstr "Logo-videofilter"
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
-msgstr "Magnify/Zoom interactive videofilter"
+msgstr "Magnify/zoom interaktivt videofilter"
 
 #: modules/video_filter/magnify.c:48
 msgid "Magnify"
@@ -26461,13 +26489,12 @@ msgstr ""
 
 #: modules/video_filter/marq.c:110 modules/video_filter/rss.c:150
 msgid "Font size, pixels"
-msgstr "Skrifttypestørrelse, i pixels"
+msgstr "Skriftstørrelse, i pixels"
 
 #: modules/video_filter/marq.c:111 modules/video_filter/rss.c:151
 msgid "Font size, in pixels. Default is -1 (use default font size)."
 msgstr ""
-"Skifttypestørrelse, i pixels. Standard er -1 (brug standard "
-"skrifttypestørrelse)."
+"Skiftstørrelse, i pixels. Standard er -1 (brug standard skriftstørrelse)."
 
 #: modules/video_filter/marq.c:115 modules/video_filter/rss.c:155
 msgid ""
@@ -26629,7 +26656,7 @@ msgid ""
 "number of rows and columns. fixed: use the user-defined number of rows and "
 "columns. offsets: use the user-defined offsets for each image."
 msgstr ""
-"Placeringsmåde til mosaikken. auto: vælg automatisk efter antal rækker og "
+"Placeringsmetode til mosaikken. auto: vælg automatisk efter antal rækker og "
 "kolonner. fastlagt: anvend brugerspecificeret antal af rækker og kolonner. "
 "placering: anvend de brugerspecificerede placeringer for hvert billede."
 
@@ -26661,12 +26688,12 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:134
 msgid "Keep aspect ratio"
-msgstr "Behold højde-bredde-forhold"
+msgstr "Bevar højde-bredde-forhold"
 
 #: modules/video_filter/mosaic.c:136
 msgid "Keep the original aspect ratio when resizing mosaic elements."
 msgstr ""
-"Behold det oprindelige højde-bredde-forhold under størrelsesændring af "
+"Bevar det oprindelige højde-bredde-forhold under størrelsesændring af "
 "mosaikelementer."
 
 #: modules/video_filter/mosaic.c:138
@@ -26780,7 +26807,7 @@ msgstr "Brug inputfarvemætning uændret"
 
 #: modules/video_filter/opencv_wrapper.c:62
 msgid "I420 - first plane is greyscale"
-msgstr "I420 - første lag er i gråtoner"
+msgstr "I420 - første lag er i gråtone"
 
 #: modules/video_filter/opencv_wrapper.c:62
 msgid "RGB32"
@@ -27013,7 +27040,7 @@ msgstr "0/90/180/270/spejlvend"
 
 #: modules/video_filter/puzzle.c:83
 msgid "Puzzle interactive game video filter"
-msgstr "Puzzle interactive game videofilter"
+msgstr "Puzzle interaktivt spil videofilter"
 
 #: modules/video_filter/puzzle.c:84
 msgid "Puzzle"
@@ -27297,8 +27324,8 @@ msgid ""
 "Always write to the same file instead of creating one file per image. In "
 "this case, the number is not appended to the filename."
 msgstr ""
-"Gem altid til den samme fil i stedet for at oprette en ny fil til hvert "
-"billede. Her tilføjes tallet ikke til filnavnet."
+"Gem altid til den samme fil i stedet for at oprette en ny fil pr. billede. "
+"Her tilføjes tallet ikke til filnavnet."
 
 #: modules/video_filter/scene.c:91
 msgid "Send your video to picture files"
@@ -27462,11 +27489,11 @@ msgstr "Transformationstype"
 
 #: modules/video_filter/transform.c:53
 msgid "Transpose"
-msgstr "Transpose (drej 270 + flip h)"
+msgstr "Transpose (drej 270 + vend h)"
 
 #: modules/video_filter/transform.c:53
 msgid "Anti-transpose"
-msgstr "Anti-transpose (drej 90 + flip h)"
+msgstr "Anti-transpose (drej 90 + vend h)"
 
 #: modules/video_filter/transform.c:56
 msgid "Video transformation filter"
@@ -27568,15 +27595,15 @@ msgstr ""
 
 #: modules/video_output/decklink.cpp:84
 msgid "Desired output mode"
-msgstr "Ønskede output tilstand"
+msgstr "Ønsket output tilstand"
 
 #: modules/video_output/decklink.cpp:86
 msgid ""
 "Desired output mode for DeckLink output. This value should be a FOURCC code "
 "in textual form, e.g. \"ntsc\"."
 msgstr ""
-"Ønskede output-tilstand til DeckLink-output. Værdien skal være en FOURCC-"
-"kode i tekstformat, f.eks. \"ntsc\"."
+"Ønsket output-tilstand til DeckLink-output. Værdien skal være en FOURCC-kode "
+"i tekstformat, f.eks. \"ntsc\"."
 
 #: modules/video_output/decklink.cpp:92
 msgid "Audio connection for DeckLink output."
@@ -27602,7 +27629,7 @@ msgstr "Lydforbindelse for DeckLink output."
 
 #: modules/video_output/decklink.cpp:111
 msgid "Use 10 bits per pixel for video frames."
-msgstr "Brug 10 bits per pixel til videobilleder."
+msgstr "Brug 10 bits pr. pixel til videobilleder."
 
 #: modules/video_output/decklink.cpp:177
 msgid "DecklinkOutput"
@@ -27713,7 +27740,7 @@ msgid ""
 "Chroma fourcc used by the framebuffer. Default is RGB since the fb device "
 "has no way to report its chroma."
 msgstr ""
-"Chroma fourcc som bruges af billedbufferen. Forvalget er RGB, da fb-enheden "
+"Chroma fourcc som bruges af billedbufferen. Standard er RGB, da fb-enheden "
 "ikke har mulighed for at rapportere dens chroma."
 
 #: modules/video_output/fb.c:92
@@ -27957,7 +27984,7 @@ msgstr "DirectX (DirectDraw) video output"
 
 #: modules/video_output/msw/directx.c:208
 msgid "Wallpaper"
-msgstr "Skrivebordsbaggrund"
+msgstr "Skrivebordstapet"
 
 #: modules/video_output/msw/glwin32.c:45
 msgid "GPU affinity"
@@ -28796,7 +28823,7 @@ msgstr "Skjul / vis fremviser"
 
 #: share/lua/http/index.html:217
 msgid "Manage Streams"
-msgstr "Håndter streams"
+msgstr "Håndtér streams"
 
 #: share/lua/http/index.html:218
 msgid "Track Synchronisation"
@@ -28849,8 +28876,8 @@ msgid ""
 "right: <i>Manage Streams</i>"
 msgstr ""
 "Streamet oprettes med standardindstillingerne. Vælg knappen til højre: "
-"<i>Håndtér streams/Manage Streams</i>, for mere avanceret konfiguration, "
-"eller for at ændre standardindstillingerne."
+"<i>Håndtér streams</i>, for mere avanceret konfiguration, eller for at ændre "
+"standardindstillingerne."
 
 #: share/lua/http/index.html:268
 msgid ""
@@ -31779,7 +31806,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Video Manager"
-#~ msgstr "Håndtering af tilføjelser"
+#~ msgstr "Tilføjelseshåndtering"
 
 #, fuzzy
 #~ msgid "----- Title"
@@ -31884,8 +31911,8 @@ msgstr "Mediehåndteringsliste"
 #~ "You should configure your speaker layout with the \"Audio Midi Setup\" "
 #~ "utility in /Applications/Utilities. Stereo mode is being used now."
 #~ msgstr ""
-#~ "Du bør opsætte dit højttalere-layout med \"Audio Midi Setup\" i /"
-#~ "Programmer/Tilbehør. VLC outputtet kun Stereo."
+#~ "Du bør opsætte dit højttalerlayout med \"Audio Midi Setup\" i /Programmer/"
+#~ "Tilbehør. VLC outputter kun stereo."
 
 #, fuzzy
 #~ msgid ""
@@ -31961,7 +31988,7 @@ msgstr "Mediehåndteringsliste"
 #~ "Override the normal frames per second settings. This will only affect "
 #~ "frame-based subtitle formats without a fixed value."
 #~ msgstr ""
-#~ "Tilsidesæt den normale billeder per sekund-indstilling. Virker kun med "
+#~ "Tilsidesæt den normale billeder pr. sekund-indstilling. Virker kun med "
 #~ "MircoDVD og SubRIP (SRT) undertekster."
 
 #, fuzzy
@@ -32005,7 +32032,7 @@ msgstr "Mediehåndteringsliste"
 #~ "Override frames per second. It will only work with MicroDVD and SubRIP "
 #~ "subtitles."
 #~ msgstr ""
-#~ "Tilsidesæt den normale billeder per sekund-indstilling. Virker kun med "
+#~ "Tilsidesæt den normale billeder pr. sekund-indstilling. Virker kun med "
 #~ "MircoDVD og SubRIP (SRT) undertekster."
 
 #, fuzzy
@@ -32024,7 +32051,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "| time-color # . . . . . . . . . . font color, RGB"
-#~ msgstr "| clear . . . . . . . . . . . . . . . ryd spillelisten"
+#~ msgstr "| clear  . . . . . . . . . . . . . .  ryd spillelisten"
 
 #, fuzzy
 #~ msgid "| time-size # . . . . . . . . font size, in pixels"
@@ -32274,7 +32301,7 @@ msgstr "Mediehåndteringsliste"
 #~ "This is not an error inside VLC media player.\n"
 #~ "Do not contact the VideoLAN project about this issue.\n"
 #~ msgstr ""
-#~ "Det ser ud til, at din installation af Libav/FFMPEG (libavcodec) mangler "
+#~ "Det ser ud til, at din installation af Libav/FFmpeg (libavcodec) mangler "
 #~ "følgende indkoder:\n"
 #~ "%s.\n"
 #~ "Hvis du ikke ved, hvordan du skal ordne det, så bed om hjælp fra din "
@@ -32472,7 +32499,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "A value > 0 enables constant bitrate mode"
-#~ msgstr "Målret bitrate i kbps når encoding er i constant bitrate mode"
+#~ msgstr "Ønsket bithastighed i kbps når encoding er i constant bitrate mode"
 
 #, fuzzy
 #~ msgid "Distance between 'P' frames"
@@ -32512,7 +32539,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Open BDMV folder"
-#~ msgstr "Åbn VIDEO_TS / BDMV mappe"
+#~ msgstr "Åbn VIDEO_TS/BDMV-mappe"
 
 #, fuzzy
 #~ msgid "Graphic Equalizer"
@@ -32579,7 +32606,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Take Screen Shot"
-#~ msgstr "Tag &skærmbillede"
+#~ msgstr "&Tag skærmbillede"
 
 #, fuzzy
 #~ msgid "Open a device or a VIDEO_TS directory"
@@ -32645,7 +32672,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "     a           Volume Up"
-#~ msgstr " a, z                   Højere/Lavere"
+#~ msgstr " a, z                   Højere/lavere"
 
 #, fuzzy
 #~ msgid "Choose a mirror"
@@ -32747,7 +32774,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Magnification"
-#~ msgstr "Forstørrelse/Zoom"
+#~ msgstr "Forstørrelse/zoom"
 
 #, fuzzy
 #~ msgid "Image colors inversion"
@@ -32933,15 +32960,15 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Bitrate peak"
-#~ msgstr "Bitrate"
+#~ msgstr "Bithastighed"
 
 #, fuzzy
 #~ msgid "Bitrate mode"
-#~ msgstr "Bitrate tilsidesættelse"
+#~ msgstr "Bithastighed tilsidesættelse"
 
 #, fuzzy
 #~ msgid "Audio bitmask"
-#~ msgstr "Lyd-bitrate"
+#~ msgstr "Lyd-bithastighed"
 
 #, fuzzy
 #~ msgid "Audio volume (0-65535)."
@@ -33098,7 +33125,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Frames per second"
-#~ msgstr "Billeder per sekund"
+#~ msgstr "Billeder pr. sekund"
 
 #, fuzzy
 #~ msgid "Subtitles delay"
@@ -33126,7 +33153,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Frames per Second:"
-#~ msgstr "Billeder per sekund"
+#~ msgstr "Billeder pr. sekund"
 
 #, fuzzy
 #~ msgid "Load subtitles file:"
@@ -33246,7 +33273,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Copyright (C) "
-#~ msgstr "Copyright"
+#~ msgstr "Ophavsret"
 
 #, fuzzy
 #~ msgid "&Convert"
@@ -33426,11 +33453,11 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Previous/Backward"
-#~ msgstr "Forrige / Tilbage"
+#~ msgstr "Forrige / tilbage"
 
 #, fuzzy
 #~ msgid "Next/Forward"
-#~ msgstr "Næste / Fremad"
+#~ msgstr "Næste / fremad"
 
 #, fuzzy
 #~ msgid "Loop/Repeat mode"
@@ -33490,15 +33517,15 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Allowed variance in average. bitrate (in kbits/s)."
-#~ msgstr "Tillad variation i average bitrate (i kbit/s)."
+#~ msgstr "Tillad variation i gennemsnitlig bithastighed (i kbit/s)."
 
 #, fuzzy
 #~ msgid "Sets a maximum local bitrate in kbits/s."
-#~ msgstr "Vælger en lokal maksimal bitrate (i kbit/s)."
+#~ msgstr "Vælger en lokal maksimal bithastighed (i kbit/s)."
 
 #, fuzzy
 #~ msgid "Averaging period for the maximum local bitrate in kbits."
-#~ msgstr "Midlingsperiode for største lokale bitrate (i kbit)."
+#~ msgstr "Midlingsperiode for største lokale bithastighed (i kbit)."
 
 #, fuzzy
 #~ msgid "Do not display further errors"
@@ -33747,7 +33774,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Transponder FEC"
-#~ msgstr "Transpose (drej 270 + flip h)"
+#~ msgstr "Transpose (drej 270 + vend h)"
 
 #, fuzzy
 #~ msgid "Satellite Polarisation"
@@ -34270,7 +34297,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Privacy and Network Warning"
-#~ msgstr "Anonymitet / Netværksbrug"
+#~ msgstr "Anonymitet/netværksbrug"
 
 #, fuzzy
 #~ msgid "&Extra Metadata"
@@ -34825,7 +34852,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Bitrate Tolerance:"
-#~ msgstr "Tolerance for video-bitrate"
+#~ msgstr "Tolerance for video-bithastighed"
 
 #, fuzzy
 #~ msgid "Deinterlace:"
@@ -35036,7 +35063,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Matrox Graphic Array video output"
-#~ msgstr "Video-ud i gråtoner"
+#~ msgstr "Video-ud i gråtone"
 
 #, fuzzy
 #~ msgid "DirectX video output"
@@ -35173,7 +35200,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "&Load Playlist File..."
-#~ msgstr "Gem spilleliste som &fil..."
+#~ msgstr "&Gem spilleliste som fil..."
 
 #, fuzzy
 #~ msgid "Additional &Sources"
@@ -35446,7 +35473,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Seam Carving"
-#~ msgstr "Streamer/Gemmer:"
+#~ msgstr "Streamer/gemmer:"
 
 #, fuzzy
 #~ msgid "VLC - Controller"
@@ -35522,7 +35549,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Enable Wallpaper Mode"
-#~ msgstr "Aktivér skrivebordsbaggrundtilstand "
+#~ msgstr "Aktivér skrivebordstapettilstand "
 
 #, fuzzy
 #~ msgid "use Pause Color"
@@ -35578,7 +35605,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "3dfx Glide video output"
-#~ msgstr "Video-ud i gråtoner"
+#~ msgstr "Video-ud i gråtone"
 
 #, fuzzy
 #~ msgid "&OK"
@@ -35586,7 +35613,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "&Delete"
-#~ msgstr "Delete"
+#~ msgstr "Slet"
 
 #, fuzzy
 #~ msgid "Removes all the bookmarks for that stream"
@@ -35662,7 +35689,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "D&elete"
-#~ msgstr "Delete"
+#~ msgstr "Slet"
 
 #, fuzzy
 #~ msgid "&Selection"
@@ -36878,7 +36905,7 @@ msgstr "Mediehåndteringsliste"
 
 #, fuzzy
 #~ msgid "Set the number of Frames Per Second"
-#~ msgstr "Billeder per sekund"
+#~ msgstr "Billeder pr. sekund"
 
 #, fuzzy
 #~ msgid "Use stream output"
