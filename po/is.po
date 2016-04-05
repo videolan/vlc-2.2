@@ -1,25 +1,27 @@
 # Icelandic translation
-# Copyright (C) 2015 VideoLAN
-# This file is distributed under the same license as the VLC package.
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the vlc package.
 #
 # Translators:
 # Andri Pálsson <palsson.andri@gmail.com>, 2011
 # Freyr Gunnar Ólafsson <gnarlin@gmail.com>, 2010
-# Sveinn í Felli <sv1@fellsnet.is>, 2013-2014
+# Hotellook, 2014
+# Magnus Magnusson <maggiymir@gmail.com>, 2013
+# Sveinn í Felli <sv1@fellsnet.is>, 2013,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2014-12-03 14:44+0000\n"
+"PO-Revision-Date: 2016-03-29 06:51+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic (http://www.transifex.com/projects/p/vlc-trans/"
-"language/is/)\n"
+"Language-Team: Icelandic (http://www.transifex.com/yaron/vlc-trans/language/"
+"is/)\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #: include/vlc_common.h:927
 msgid ""
@@ -2458,8 +2460,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -2566,7 +2569,7 @@ msgstr ""
 
 #: src/libvlc-module.c:596
 msgid "Menu language"
-msgstr ""
+msgstr "Tungumál valmynda"
 
 #: src/libvlc-module.c:598
 msgid ""
@@ -2978,7 +2981,7 @@ msgstr ""
 
 #: src/libvlc-module.c:830
 msgid "HTTP/TLS server certificate"
-msgstr ""
+msgstr "Skilríki HTTP/TLS-þjóns"
 
 #: src/libvlc-module.c:832
 msgid ""
@@ -2988,7 +2991,7 @@ msgstr ""
 
 #: src/libvlc-module.c:835
 msgid "HTTP/TLS server private key"
-msgstr ""
+msgstr "Einkalykill HTTP/TLS-þjóns"
 
 #: src/libvlc-module.c:837
 msgid "This private key file (PEM format) is used for server-side TLS."
@@ -2996,7 +2999,7 @@ msgstr ""
 
 #: src/libvlc-module.c:839
 msgid "HTTP/TLS Certificate Authority"
-msgstr ""
+msgstr "HTTP/TLS vottunaraðili (CA)"
 
 #: src/libvlc-module.c:841
 msgid ""
@@ -3006,7 +3009,7 @@ msgstr ""
 
 #: src/libvlc-module.c:844
 msgid "HTTP/TLS Certificate Revocation List"
-msgstr ""
+msgstr "HTTP/TLS afturköllunarlisti (Certificate Revocation List)"
 
 #: src/libvlc-module.c:846
 msgid ""
@@ -6139,9 +6142,8 @@ msgid "Layer C time interleaving"
 msgstr "Tímafléttun á lagi C (time interleaving)"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Auðkenni nets"
+msgstr ""
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -6406,9 +6408,8 @@ msgid "DVDnav Input"
 msgstr "DVDnav Inntak"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Nuv affléttari"
+msgstr ""
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -6457,8 +6458,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV inntak"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr ""
 
@@ -6535,8 +6537,8 @@ msgstr "Skráarinntak"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8304,7 +8306,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -8597,27 +8600,27 @@ msgstr "Byrja"
 
 #: modules/access/vnc.c:48
 msgid "X.509 Certificate Authority"
-msgstr ""
+msgstr "X.509 vottunaraðili (CA)"
 
 #: modules/access/vnc.c:49
 msgid "Certificate of the Authority to verify server's against"
-msgstr ""
+msgstr "Skilríki vottunaraðila (CA) sem sannreyna á þjóninn"
 
 #: modules/access/vnc.c:50
 msgid "X.509 Certificate Revocation List"
-msgstr ""
+msgstr "X.509 afturköllunarlisti (Certificate Revocation List)"
 
 #: modules/access/vnc.c:51
 msgid "List of revoked servers certificates"
-msgstr ""
+msgstr "Listi yfir afturkölluð skilríki þjóna"
 
 #: modules/access/vnc.c:52
 msgid "X.509 Client certificate"
-msgstr ""
+msgstr "Skilríki X.509 biðlara"
 
 #: modules/access/vnc.c:53
 msgid "Certificate for client authentification"
-msgstr ""
+msgstr "Skilríki fyrir auðkenningu biðlara"
 
 #: modules/access/vnc.c:54
 msgid "X.509 Client private key"
@@ -8625,7 +8628,7 @@ msgstr ""
 
 #: modules/access/vnc.c:55
 msgid "Private key for authentification by certificate"
-msgstr ""
+msgstr "Einkalykill fyrir auðkenningu með skilríki"
 
 #: modules/access/vnc.c:58
 msgid "RGB chroma (RV32, RV24, RV16, RGB2)"
@@ -9106,7 +9109,8 @@ msgstr "Tónjafnari"
 msgid "Flat"
 msgstr "Flatt"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Klassískt"
 
@@ -9115,7 +9119,8 @@ msgstr "Klassískt"
 msgid "Club"
 msgstr "Klúbb"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dans"
 
@@ -9147,19 +9152,23 @@ msgstr "Lifandi"
 msgid "Party"
 msgstr "Partý"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Popp"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Reggí"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Rokk"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9171,7 +9180,8 @@ msgstr "Mjúkt"
 msgid "Soft rock"
 msgstr "Mjúkt rokk"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Teknó"
 
@@ -13835,8 +13845,8 @@ msgstr "Mynd"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Rammar á sekúndu"
 
@@ -15283,9 +15293,8 @@ msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
-msgstr "Viðmót"
+msgstr ""
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
@@ -15357,7 +15366,8 @@ msgstr ""
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Endurstilla"
 
@@ -15477,8 +15487,8 @@ msgid "Bookmarks"
 msgstr "Bókamerki"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Bæta við"
 
@@ -15773,9 +15783,8 @@ msgid "Setup Streaming..."
 msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Streymiaðferð"
+msgstr ""
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -17417,24 +17426,20 @@ msgid "No check was performed yet."
 msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
-msgstr "Minnsti biðtími"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
-msgstr "Lítill biðtími"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
-msgstr "Mesti biðtími"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "Mesti biðtími"
+msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -17564,7 +17569,8 @@ msgid ""
 "Set 0 to disable."
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Myndáhrif"
 
@@ -17572,7 +17578,8 @@ msgstr "Myndáhrif"
 msgid "Basic"
 msgstr "Grunnur"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Rúmfræði"
 
@@ -17589,7 +17596,8 @@ msgstr "Litur"
 msgid "Image Adjust"
 msgstr "Fínstilla mynd"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Birtumörk"
 
@@ -17598,12 +17606,14 @@ msgstr "Birtumörk"
 msgid "Sharpen"
 msgstr "Skerpa"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Fjarlægja rendur"
 
@@ -17612,7 +17622,8 @@ msgstr "Fjarlægja rendur"
 msgid "Radius"
 msgstr "Radíus"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Filmukorn"
 
@@ -17756,7 +17767,8 @@ msgstr "Hreyfingarafskerping"
 msgid "Factor"
 msgstr "Stuðull"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Hreyfiskynjun"
 
@@ -17789,8 +17801,9 @@ msgstr "Bæta við merki"
 msgid "Logo"
 msgstr "Merki"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Gegnsæi"
 
@@ -18066,7 +18079,8 @@ msgstr "UDP Einkast"
 msgid "UDP Multicast"
 msgstr "UDP Fjölkast"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Umkóða"
 
@@ -19439,8 +19453,8 @@ msgstr "Virkj&a"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -19585,8 +19599,8 @@ msgstr "Eyða öllum bókamerkjum"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -19606,7 +19620,8 @@ msgstr "Bæti"
 msgid "Convert"
 msgstr "Umbreyta"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Úttaksskrá:"
 
@@ -19701,7 +19716,8 @@ msgstr "&Fara"
 msgid "Go to time"
 msgstr "Fara á tíma"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Um hugbúnaðinn"
@@ -20609,9 +20625,8 @@ msgid "&Save To Playlist"
 msgstr "&Vista í spilunarlista"
 
 #: modules/gui/qt4/menus.cpp:1650
-#, fuzzy
 msgid "&Post processing"
-msgstr "Eftirvinnsla"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -21384,7 +21399,7 @@ msgstr ""
 
 #: modules/misc/securetransport.c:335
 msgid "Accept certificate temporarily"
-msgstr ""
+msgstr "Samþykkja skilríkið tímabundið"
 
 #: modules/misc/stats.c:211 modules/stream_out/stats.c:51
 msgid "Stats"
@@ -21774,9 +21789,8 @@ msgid "LibNotify Notification Plugin"
 msgstr ""
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Afritunarbitari"
+msgstr ""
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -22385,7 +22399,8 @@ msgid "Transparency of the mosaic picture."
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X hliðrun"
 
@@ -22394,7 +22409,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y hliðrun"
 
@@ -27800,21 +27816,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Listi fyrir miðlastjórnun"
 
-#~ msgid "---  DVD Menu"
-#~ msgstr "---  DVD valmynd"
-
-#~ msgid "First Played"
-#~ msgstr "Fyrsta spilun"
-
-#~ msgid "Video Manager"
-#~ msgstr "Myndskeiðsstjórnun"
-
-#~ msgid "----- Title"
-#~ msgstr "----- Titill"
-
-#~ msgid "Video acceleration not available"
-#~ msgstr "Myndmerkishröðun er ekki í boði"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -28384,6 +28385,26 @@ msgstr "Listi fyrir miðlastjórnun"
 
 #~ msgid "These modules provide network functions to all other parts of VLC."
 #~ msgstr "Þessar einingar sjá um netvirkni allra annarra hluta VLC."
+
+#, fuzzy
+#~ msgid "---  DVD Menu"
+#~ msgstr "DVD valmyndir"
+
+#, fuzzy
+#~ msgid "First Played"
+#~ msgstr "Fyrsta spilun"
+
+#, fuzzy
+#~ msgid "Video Manager"
+#~ msgstr "Myndmerkisstaðall"
+
+#, fuzzy
+#~ msgid "----- Title"
+#~ msgstr "Titill"
+
+#, fuzzy
+#~ msgid "Video acceleration not available"
+#~ msgstr "K Video Acceleration myndmerkisúttak"
 
 #, fuzzy
 #~ msgid "Normal/Repeat/Loop"
