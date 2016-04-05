@@ -1,5 +1,5 @@
 # Latvian translation
-# Copyright (C) 2015 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the vlc package.
 #
 # Translators:
@@ -7,6 +7,7 @@
 # Arnis Lupiks, 2014
 # Baiba Berzina <baibabeerzinnaa@gmail.com>, 2015
 # Dāvis Mosāns, 2014
+# Ingmārs Dīriņš <melhiors14@gmail.com>, 2016
 # Jānis-Marks Gailis <jeanmarc.gailis@gmail.com>, 2013-2014
 # Kristaps Ancāns <kristaps.ancans@gmail.com>, 2013
 # Ojārs Spriņķis <ojars.sprinkis@inbox.lv>, 2014
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2015-12-11 17:50+0000\n"
+"PO-Revision-Date: 2016-02-27 16:59+0000\n"
 "Last-Translator: Ingmārs Dīriņš <melhiors14@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/yaron/vlc-trans/language/"
 "lv/)\n"
@@ -350,11 +351,11 @@ msgstr ""
 
 #: include/vlc_config_cat.h:162
 msgid "VOD"
-msgstr "Pieprasījumvideo (VOD)"
+msgstr "Video pēc pieprasījuma (VOD)"
 
 #: include/vlc_config_cat.h:163
 msgid "VLC's implementation of Video On Demand"
-msgstr "VLC pieprasījumvideo (VOD) īstenojums"
+msgstr "VLC video pēc pieprasījuma (VOD) īstenojums"
 
 #: include/vlc_config_cat.h:167 src/libvlc-module.c:1993
 #: src/playlist/engine.c:245 modules/demux/playlist/playlist.c:64
@@ -1215,7 +1216,7 @@ msgstr "Nav apraksta priekš šī kodeka"
 
 #: src/input/decoder.c:693
 msgid "Codec not supported"
-msgstr "Kodeks nav atbalstīts"
+msgstr "Kodeks netiek atbalstīts"
 
 #: src/input/decoder.c:694
 #, c-format
@@ -2329,7 +2330,7 @@ msgstr "Datņu katalogs, kurā tiks uzglabāti video momentuzņēmumi."
 
 #: src/libvlc-module.c:391 src/libvlc-module.c:393
 msgid "Video snapshot file prefix"
-msgstr "Video momenuzņēmuma datnes priedēklis"
+msgstr "Video momentuzņēmuma datnes priedēklis"
 
 #: src/libvlc-module.c:395
 msgid "Video snapshot format"
@@ -2632,8 +2633,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -3194,11 +3196,11 @@ msgid ""
 "127.0.0.1) or a host name (e.g. localhost) to restrict them to a specific "
 "network interface."
 msgstr ""
-"Šis definē adresi, uz kuras RTSP serveris klausīties, kopā ar RTSP "
-"pieprasījumvideo medija bāzes ceļu. Sintakse ir adrese/ceļš. Pēc noklusējuma "
-"serveris klausīsies uz jebkuru lokālo IP adresi. Norādiet IP adresi "
-"(piem., ::1 vai 127.0.0.1) vai resursdatora nosaukumu (piem. localhost), lai "
-"ierobežotu tās uz specifisku tīkla saskarni."
+"Šis definē adresi, uz kuras RTSP serveris klausīties, kopā ar RTSP video pēc "
+"pieprasījuma (VOD) medija bāzes ceļu. Sintakse ir adrese/ceļš. Pēc "
+"noklusējuma serveris klausīsies uz jebkuru lokālo IP adresi. Norādiet IP "
+"adresi (piem., ::1 vai 127.0.0.1) vai resursdatora nosaukumu (piem. "
+"localhost), lai ierobežotu tās uz specifisku tīkla saskarni."
 
 #: src/libvlc-module.c:809
 msgid "HTTP server port"
@@ -3616,15 +3618,16 @@ msgstr ""
 
 #: src/libvlc-module.c:1010
 msgid "VoD server module"
-msgstr "Pieprasījumvideo servera modulis"
+msgstr "Video pēc pieprasījuma servera modulis"
 
 #: src/libvlc-module.c:1012
 msgid ""
 "You can select which VoD server module you want to use. Set this to "
 "`vod_rtsp' to switch back to the old, legacy module."
 msgstr ""
-"Jūs varat atlasīt, kuru pieprasījumvideo servera moduli jūs vēlaties lietot. "
-"Uzstādiet šo uz `vod_rtsp' , lai pārslēgtu atpakaļ uz veco, mantojuma moduli."
+"Jūs varat atlasīt, kuru video pēc pieprasījuma (VoD) servera moduli jūs "
+"vēlaties lietot. Uzstādiet šo uz `vod_rtsp' , lai pārslēgtu atpakaļ uz veco, "
+"mantojuma moduli."
 
 #: src/libvlc-module.c:1015
 msgid "Allow real-time priority"
@@ -5905,7 +5908,7 @@ msgstr ""
 #: modules/access/bluray.c:390
 msgid "Your system BD+ decoding library does not work. Missing configuration?"
 msgstr ""
-"Jūsu sistēmas BD+ atkodēšanas bibliotēka nestrādā. Trūkstoša konfigurācija?"
+"Jūsu sistēmas BD+ atkodēšanas bibliotēka nestrādā. Vai trūkst konfigurācijas?"
 
 #: modules/access/bluray.c:438
 msgid "Failed to start bluray playback. Please try without menu support."
@@ -6372,7 +6375,7 @@ msgstr ""
 msgid ""
 "The device you selected cannot be used, because its type is not supported."
 msgstr ""
-"Ierīce, kuru jūs atlasījāt, nevar tikt lietota, tāpēc ka tās tips nav "
+"Ierīce, kuru jūs atlasījāt, nevar tikt lietota tāpēc, ka tās tips nav "
 "atbalstīts."
 
 #: modules/access/dshow/dshow.cpp:1094
@@ -6939,8 +6942,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV izvade"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Datnes nolasīšana neizdevās"
 
@@ -7032,8 +7036,8 @@ msgstr "Datnes ievade"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8906,7 +8910,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9129,7 +9134,7 @@ msgstr "CD bloku skaits, kurus iegūt vienā lasīšanā."
 
 #: modules/access/vcdx/vcd.c:105
 msgid "Use playback control?"
-msgstr "Lietot atskaņošanas kontroli?"
+msgstr "Vai lietot atskaņošanas kontroli?"
 
 #: modules/access/vcdx/vcd.c:106
 msgid ""
@@ -9141,7 +9146,7 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:111
 msgid "Use track length as maximum unit in seek?"
-msgstr "Lietot celiņa garumu kā maksimuma vienību meklēšanā?"
+msgstr "Vai lietot celiņa garumu kā maksimuma vienību meklēšanā?"
 
 #: modules/access/vcdx/vcd.c:112
 msgid ""
@@ -9152,7 +9157,7 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:117
 msgid "Show extended VCD info?"
-msgstr "Parādīt paplašinātu VCD informāciju?"
+msgstr "Vai parādīt paplašinātu VCD informāciju?"
 
 #: modules/access/vcdx/vcd.c:118
 msgid ""
@@ -9752,7 +9757,8 @@ msgstr "Ekvalaizers"
 msgid "Flat"
 msgstr "Plakans"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Klasiskā"
 
@@ -9761,7 +9767,8 @@ msgstr "Klasiskā"
 msgid "Club"
 msgstr "Klubu"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dejas"
 
@@ -9793,19 +9800,23 @@ msgstr "Dzīvā"
 msgid "Party"
 msgstr "Ballīte"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Pops"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Regejs"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Roks"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9817,7 +9828,8 @@ msgstr "Maigs"
 msgid "Soft rock"
 msgstr "Maigais roks"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Tehno"
 
@@ -10797,7 +10809,7 @@ msgid ""
 "standard MPEG2 decoders."
 msgstr ""
 "Lietot MPEG4 kvantizācijas matricu priekš MPEG2 iekodēšanas. Šis pamatā dod "
-"labāka izskata bildi, kamēr vēl joprojām saglabā saderību ar standarta MPEG2 "
+"labāka izskata bildi, kamēr joprojām saglabā saderību ar standarta MPEG2 "
 "atkodētājiem."
 
 #: modules/codec/avcodec/avcodec.h:195 modules/codec/jpeg.c:49
@@ -10947,7 +10959,7 @@ msgid ""
 msgstr ""
 "Norādiet AAC audio profilu, kuru lietot priekš audio bitplūsmas iekodēšanas. "
 "Tas pieņem sekojošas opcijas: main, low, ssr (nav atbalstīts),ltp, hev1, "
-"hev2 (noklusētais: low). hev1 un hev2 ir šobrīd atbalstīti tikai ar libfdk-"
+"hev2 (noklusētais: low). hev1 un hev2 tiek šobrīd atbalstīti tikai ar libfdk-"
 "aac ieslēgtu libavcodec"
 
 #: modules/codec/avcodec/dxva2.c:59
@@ -14711,7 +14723,7 @@ msgstr "VLC neizdevās ielādēt ASF galveni."
 
 #: modules/demux/asf/asf.c:1195
 msgid "DRM protected streams are not supported."
-msgstr "DRM aizsargātas straumes nav atbalstītas."
+msgstr "DRM aizsargātas straumes netiek atbalstītas."
 
 #: modules/demux/au.c:50
 msgid "AU demuxer"
@@ -14931,8 +14943,8 @@ msgstr "Attēls"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Kadri sekundē"
 
@@ -16506,7 +16518,8 @@ msgstr "Ieslēgt dinamiskā diapazona saspiedēju"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Atstatīt"
 
@@ -16626,8 +16639,8 @@ msgid "Bookmarks"
 msgstr "Grāmatzīmes"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Pievienot"
 
@@ -17177,7 +17190,7 @@ msgstr "VLC mediju atskaņošana"
 
 #: modules/gui/macosx/intf.m:1846
 msgid "Remove old preferences?"
-msgstr "Aizvākt vecos iestatījumus?"
+msgstr "Vai noņemt vecos iestatījumus?"
 
 #: modules/gui/macosx/intf.m:1847
 msgid "We just found an older version of VLC's preferences files."
@@ -17235,7 +17248,7 @@ msgstr "Jauno vienumu automātiskā atskaņošana"
 
 #: modules/gui/macosx/macosx.m:68
 msgid "Start playback of new items immediately once they were added."
-msgstr "Sākt jaunu vienumu atskaņošanu, tiklīdz tie tika pievienoti."
+msgstr "Sākt jaunu vienumu atskaņošanu tūlīt, tiklīdz tie tika pievienoti."
 
 #: modules/gui/macosx/macosx.m:71
 msgid "Keep Recent Items"
@@ -17820,7 +17833,7 @@ msgstr "Atlasiet podraidi, no kuras jūs vēlētos atrakstīties:"
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid "Check for album art and metadata?"
-msgstr "Pārbaudīt albuma mākslu un metadatus?"
+msgstr "Vai pārbaudīt albuma mākslu un metadatus?"
 
 #: modules/gui/macosx/MainWindow.m:243
 msgid "Enable Metadata Retrieval"
@@ -18376,7 +18389,7 @@ msgstr "Atlasīt"
 #: modules/gui/macosx/ResumeDialogController.m:44 modules/gui/qt4/qt4.cpp:188
 #: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Continue playback?"
-msgstr "Turpināt atskaņošanu?"
+msgstr "Vai turpināt atskaņošanu?"
 
 #: modules/gui/macosx/ResumeDialogController.m:45
 #: modules/gui/macosx/simple_prefs.m:877
@@ -18811,7 +18824,8 @@ msgstr ""
 "ar to saturu un šo vērtību.\n"
 "Uzstādīt 0, lai izslēgtu."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Video efekti"
 
@@ -18819,7 +18833,8 @@ msgstr "Video efekti"
 msgid "Basic"
 msgstr "Pamata"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Ģeometrija"
 
@@ -18836,7 +18851,8 @@ msgstr "Krāsa"
 msgid "Image Adjust"
 msgstr "Attēla pielāgošana"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Spilgtuma slieksnis"
 
@@ -18845,12 +18861,14 @@ msgstr "Spilgtuma slieksnis"
 msgid "Sharpen"
 msgstr "Asināt"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Joslošanās noņemšana"
 
@@ -18859,7 +18877,8 @@ msgstr "Joslošanās noņemšana"
 msgid "Radius"
 msgstr "Rādiuss"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Fotofilmas graudainība"
 
@@ -19003,7 +19022,8 @@ msgstr "Kustības aizmiglošana"
 msgid "Factor"
 msgstr "Faktors"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Kustības noteikšana"
 
@@ -19036,8 +19056,9 @@ msgstr "Pievienot logo"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Caurspīdīgums"
 
@@ -19358,7 +19379,8 @@ msgstr "UDP uniraide"
 msgid "UDP Multicast"
 msgstr "UDP multiraide"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Pārkodēt"
 
@@ -20811,8 +20833,8 @@ msgstr "Pielietot"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20956,8 +20978,8 @@ msgstr "Izdzēst visas grāmatzīmes"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20977,7 +20999,8 @@ msgstr "Baiti"
 msgid "Convert"
 msgstr "Pārveidot"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Galamērķa datne:"
 
@@ -21082,7 +21105,8 @@ msgstr "Doties"
 msgid "Go to time"
 msgstr "Doties uz laiku"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Par"
@@ -21623,7 +21647,7 @@ msgstr "Plānotājs"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:75
 msgid "Video On Demand ( VOD )"
-msgstr "Pieprasījumvideo (VOD)"
+msgstr "Video pēc pieprasījuma (VOD)"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:80
 msgid "Hours / Minutes / Seconds:"
@@ -21676,7 +21700,7 @@ msgstr "Plānotājs:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:641
 msgid "VOD: "
-msgstr "Pieprasījumvideo:"
+msgstr "Video pēc pieprasījuma (VOD): "
 
 #: modules/gui/qt4/main_interface.cpp:382
 msgid "Do you want to restart the playback where left off?"
@@ -22827,8 +22851,8 @@ msgid ""
 "This limits the maximum number of clients that can connect to the RTSP VOD. "
 "0 means no limit."
 msgstr ""
-"Šis ierobežo maksimuma klientu skaitu, kuri var pieslēgties pie RTSP "
-"pieprasījumvideo. 0 nozīmē nav ierobežojuma."
+"Šis ierobežo maksimuma klientu skaitu, kuri var pieslēgties pie RTSP video "
+"pēc pieprasījuma (VOD). 0 nozīmē nav ierobežojuma."
 
 #: modules/misc/rtsp.c:65
 msgid "MUX for RAW RTSP transport"
@@ -22852,11 +22876,11 @@ msgstr ""
 
 #: modules/misc/rtsp.c:75 modules/stream_out/rtp.c:247
 msgid "RTSP VoD"
-msgstr "RTSP pieprasījumvideo "
+msgstr "RTSP video pēc pieprasījuma (VoD)"
 
 #: modules/misc/rtsp.c:76
 msgid "Legacy RTSP VoD server"
-msgstr "Mantojuma RTSP pieprasījumvideo serveris"
+msgstr "Mantojuma RTSP video pēc pieprasījuma (VoD) serveris"
 
 #: modules/misc/securetransport.c:53
 msgid "TLS support for OS X and iOS"
@@ -23945,7 +23969,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Mozaīkas bildes caurspīdīgums."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X nobīde"
 
@@ -23954,7 +23979,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "X koordināta augšējam kreisajam stūrim mozaīkā, ja nenegatīvs."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y nobīde"
 
@@ -24207,7 +24233,7 @@ msgstr "RTP straumes izvade"
 
 #: modules/stream_out/rtp.c:248
 msgid "RTSP VoD server"
-msgstr "RTSP pieprasījumvideo serveris"
+msgstr "RTSP video pēc pieprasījuma (VoD) serveris"
 
 #: modules/stream_out/setid.c:45
 msgid "New ES ID"
@@ -25153,8 +25179,8 @@ msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
 msgstr ""
-"Uzstādīt krāsu, kuru parādīt, ja lietotājs pauzē video. (Iegūt gaismu, lai "
-"paņemtu vēl kādu alu?)"
+"Uzstādīt krāsu, kuru parādīt, ja lietotājs pauzē video. (Vai iegūt gaismu, "
+"lai paņemtu vēl kādu alu?)"
 
 #: modules/video_filter/atmo/atmo.cpp:200
 msgid "Pause-Red"
@@ -31172,7 +31198,7 @@ msgstr "Mediju pārvaldnieka saraksts"
 
 #, fuzzy
 #~ msgid "Video On Demand"
-#~ msgstr "Pieprasījumvideo (VOD)"
+#~ msgstr "Video pēc pieprasījuma (VOD)"
 
 #, fuzzy
 #~ msgid "General interface settings"
