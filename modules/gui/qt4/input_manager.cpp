@@ -1320,3 +1320,9 @@ static int PLItemRemoved
     }
     return VLC_SUCCESS;
 }
+
+void MainInputManager::changeFullscreen( bool new_val )
+{
+    if ( var_GetBool( THEPL, "fullscreen" ) != new_val)
+	var_SetBool( THEPL, "fullscreen", new_val );
+}
