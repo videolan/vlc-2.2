@@ -3,11 +3,13 @@ Changes between 2.2.2 and 2.2.3:
 
 Demux:
  * Fix HLS quality selection and a potential stack overflow
- * Fix potential MKV infinite loop
+ * Fix potential MKV infinite loop and improve MKV tags support
  * Fix WMV regression
 
 Decoder:
  * Fix hardware decoding with libvdpau-va-gl
+ * Fix crashes with libvpx
+ * Use libass without caching dialog
 
 Video Ouptut:
  * Fix green lines on Direct3D output
@@ -27,6 +29,9 @@ MacOS X:
 
 Win32:
  * Allow opening more than 15 elements in Explorer
+
+Translations:
+ * Update of most translations
 
 
 Changes between 2.2.1 and 2.2.2:
