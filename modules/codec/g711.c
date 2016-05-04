@@ -219,6 +219,7 @@ static block_t *DecodeBlock( decoder_t *p_dec, block_t **pp_block )
     if( pp_block == NULL )
         return NULL;
     block_t *p_block = *pp_block;
+    *pp_block = NULL;
     if( p_block == NULL )
         return NULL;
 
