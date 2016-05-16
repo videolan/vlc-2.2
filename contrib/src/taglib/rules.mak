@@ -1,6 +1,6 @@
 # TagLib
 
-TAGLIB_VERSION := 1.10beta
+TAGLIB_VERSION := 1.11
 TAGLIB_URL := http://taglib.github.io/releases/taglib-$(TAGLIB_VERSION).tar.gz
 
 PKGS += taglib
@@ -19,8 +19,7 @@ taglib: taglib-$(TAGLIB_VERSION).tar.gz .sum-taglib
 
 .taglib: taglib toolchain.cmake
 	cd $< && $(HOSTVARS_PIC) $(CMAKE) \
-		-DENABLE_STATIC:BOOL=ON \
-		-DWITH_ASF:BOOL=ON \
-		-DWITH_MP4:BOOL=ON .
+		-DBUILD_SHARED_LIBS:BOOL=OFF \
+		.
 	cd $< && $(MAKE) install
 	touch $@
