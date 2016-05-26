@@ -100,7 +100,7 @@ SeekSlider::SeekSlider( Qt::Orientation q, QWidget *_parent, bool _static )
     seekLimitTimer->setSingleShot( true );
 
     /* Tooltip bubble */
-    mTimeTooltip = new TimeTooltip( this );
+    mTimeTooltip = new TimeTooltip( NULL );
     mTimeTooltip->setMouseTracking( true );
 
     /* Properties */
@@ -143,6 +143,7 @@ SeekSlider::~SeekSlider()
     delete chapters;
     if ( alternativeStyle )
         delete alternativeStyle;
+    delete mTimeTooltip;
 }
 
 /***
