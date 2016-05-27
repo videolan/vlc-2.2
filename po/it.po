@@ -1,14 +1,16 @@
 # Italian translation
-# Copyright (C) 2015 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the vlc package.
 #
 # Translators:
 # Alessandro Felicetti <aleminecraft98@gmail.com>, 2014
+# Alessandro Forte <a.forte1010@gmail.com>, 2016
 # Alfonso Maria Marzano <marzanoalfonso@gmail.com>, 2014
 # Alixir, 2014
 # Andrea Martini <andrea.martini@me.com>, 2014
 # Antonino Murabito <antoninomurabito@gmail.com>, 2015
 # Ludolf <biagio.consalvo@libero.it>, 2014
+# Claudio Diana <carbonis@rocketmail.com>, 2016
 # Davide Beatrici <davidebeatrici@gmail.com>, 2014
 # elisa.garufi <garufi.elisa@gmail.com>, 2014
 # franzes melis <gamesonicstaff@gmail.com>, 2014
@@ -23,6 +25,7 @@
 # thegladiator <justthegladiator@gmail.com>, 2014
 # Marco91, 2013
 # Marco Ciotola <848222@stud.unive.it>, 2015
+# Marco Lazzaro <conrad_mc_claud@yahoo.it>, 2016
 # Mary Piconese <meryjoearmstrong@gmail.com>, 2014
 # Md Ariful <md.ariful@email.com>, 2014
 # Mirko Moreschi <mirkomito000@gmail.com>, 2014
@@ -33,7 +36,7 @@
 # Paolo Velati <paolo.velati@gmail.com>, 2013
 # Angelo Prandelli <prangel85@gmail.com>, 2013
 # Roberto91 <robh91@hotmail.it>, 2014
-# Rosario Antoci <pistacho@riseup.net>, 2014
+# Rosario Antoci <oirasor@inventati.org>, 2014
 # sara.nocentini <sara.nocentini@gmail.com>, 2014
 # Marco Esposito <antani125@yahoo.it>, 2013
 # Veronica Di Giorgio <verodigiorgio@gmail.com>, 2013
@@ -43,8 +46,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2015-12-16 10:18+0000\n"
-"Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
+"PO-Revision-Date: 2016-05-24 20:56+0000\n"
+"Last-Translator: Claudio Diana <carbonis@rocketmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/yaron/vlc-trans/language/"
 "it/)\n"
 "Language: it\n"
@@ -2690,8 +2693,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -7045,8 +7049,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "Ingresso EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "Lettura file non riuscita"
 
@@ -7138,8 +7143,8 @@ msgstr "Ingresso file"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -9028,7 +9033,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9888,7 +9894,8 @@ msgstr "Equalizzatore"
 msgid "Flat"
 msgstr "Piatto"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Classica"
 
@@ -9897,7 +9904,8 @@ msgstr "Classica"
 msgid "Club"
 msgstr "Club"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dance"
 
@@ -9929,19 +9937,23 @@ msgstr "Dal vivo"
 msgid "Party"
 msgstr "Party"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Pop"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Reggae"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9953,7 +9965,8 @@ msgstr "Melodico"
 msgid "Soft rock"
 msgstr "Rock melodico"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Techno"
 
@@ -15129,8 +15142,8 @@ msgstr "Image"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Fotogrammi al secondo"
 
@@ -16418,6 +16431,9 @@ msgid ""
 "Seek and position based on a percent byte position, not a PCR generated time "
 "position. If seeking doesn't work property, turn on this option."
 msgstr ""
+"Ricerca e posiziona in base ad una posizione in percentuale di byte, non una "
+"posizione nel tempo generata da PCR. Se la ricerca non funziona "
+"correttamente, attiva questa opzione."
 
 #: modules/demux/ts.c:126
 msgid "Trust in-stream PCR"
@@ -16705,7 +16721,8 @@ msgstr "Abilita compressore a intervallo dinamico"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Ripristina"
 
@@ -16825,8 +16842,8 @@ msgid "Bookmarks"
 msgstr "Segnalibri"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Aggiungi"
 
@@ -19036,7 +19053,8 @@ msgstr ""
 "loro contenuto e a questo valore.\n"
 "Imposta 0 per disabilitarli."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Effetti video"
 
@@ -19044,7 +19062,8 @@ msgstr "Effetti video"
 msgid "Basic"
 msgstr "Di base"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Geometria"
 
@@ -19061,7 +19080,8 @@ msgstr "Colore"
 msgid "Image Adjust"
 msgstr "Regolazione immagine"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Soglia di luminosità"
 
@@ -19070,12 +19090,14 @@ msgstr "Soglia di luminosità"
 msgid "Sharpen"
 msgstr "Accentuazione"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Rimozione banding"
 
@@ -19084,7 +19106,8 @@ msgstr "Rimozione banding"
 msgid "Radius"
 msgstr "Raggio"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Granulosità pellicola"
 
@@ -19228,7 +19251,8 @@ msgstr "Sfocatura movimento"
 msgid "Factor"
 msgstr "Fattore"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Rilevazione del movimento"
 
@@ -19261,8 +19285,9 @@ msgstr "Aggiungi logo"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Trasparenza"
 
@@ -19600,7 +19625,8 @@ msgstr "Unicast UDP"
 msgid "UDP Multicast"
 msgstr "UDP Multicast"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Transcodifica"
 
@@ -20244,7 +20270,7 @@ msgstr "Fotogramma per fotogramma"
 
 #: modules/gui/qt4/components/controller.hpp:118
 msgid "Trickplay Reverse"
-msgstr ""
+msgstr "Trickplay Reverse"
 
 #: modules/gui/qt4/components/controller.hpp:119
 #: modules/gui/qt4/components/controller.hpp:131
@@ -21054,8 +21080,8 @@ msgstr "&Applica"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -21206,8 +21232,8 @@ msgstr "Elimina tutti i segnalibri"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:81
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -21227,7 +21253,8 @@ msgstr "Byte"
 msgid "Convert"
 msgstr "Converti"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "File di destinazione:"
 
@@ -21332,7 +21359,8 @@ msgstr "&Vai"
 msgid "Go to time"
 msgstr "Vai a"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Informazioni"
@@ -24215,7 +24243,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Trasparenza dell'immagine del mosaico."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Scostamento X"
 
@@ -24225,7 +24254,8 @@ msgstr ""
 "Coordinata X dell'angolo in alto a destra del mosaico, se non negativa."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Scostamento Y"
 
@@ -25762,6 +25792,12 @@ msgid ""
 "on top, and one zone on left and right and no summary zone the mapping for "
 "classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
+"Per i device con più di cinque canali /zone scritte per ogni canale scrivere "
+"qui sotto per ogni canale il numero della zona da mostrare e separare i "
+"valori con , o ; e usare -1 per non usare alcuni canali. Per la classica "
+"AtmoLight la sequenza 4,3,1,0,2 impostare il mapping di default canale/zona. "
+"Per avere soltanto due zone in cima e una zona a destra e a sinistra e "
+"nessuna zona sommario  il mapping per il classico AtmoLight sarà -1,3,2,1,0"
 
 #: modules/video_filter/atmo/atmo.cpp:332
 msgid "Zone 0: Top gradient"
@@ -25798,7 +25834,7 @@ msgstr "Percorso di ricerca del gradiente della bitmap"
 msgid ""
 "Now preferred option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
-msgstr ""
+msgstr "Op"
 
 #: modules/video_filter/atmo/atmo.cpp:346
 msgid "Filename of AtmoWin*.exe"
@@ -25848,7 +25884,7 @@ msgstr "Opzioni fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:474
 msgid "Zone Layout for the build-in Atmo"
-msgstr ""
+msgstr "Zona Layout per l'Atmo interno"
 
 #: modules/video_filter/atmo/atmo.cpp:490
 msgid "Settings for the built-in Live Video Processor only"
@@ -25924,7 +25960,7 @@ msgstr ""
 #: modules/video_filter/audiobargraph_v.c:78
 #: modules/video_filter/audiobargraph_v.c:96
 msgid "Audio Bar Graph Video sub source"
-msgstr ""
+msgstr "Sotto fonte Audio Bar Graph Video "
 
 #: modules/video_filter/audiobargraph_v.c:79
 msgid "Audio Bar Graph Video"
@@ -26035,7 +26071,7 @@ msgstr "Crominanza con la quale l'immagine miscelata sarà caricata"
 
 #: modules/video_filter/blendbench.c:74
 msgid "Blending benchmark filter"
-msgstr ""
+msgstr "Combinamento Filtri Benchmark"
 
 #: modules/video_filter/blendbench.c:75
 msgid "Blendbench"
@@ -26078,6 +26114,8 @@ msgid ""
 "\"U\" value for the bluescreen key color (in YUV values). From 0 to 255. "
 "Defaults to 120 for blue."
 msgstr ""
+"Valore \"U\" per la chiave bluescreen (nei valori YUV ). Da 0 a 255. Default "
+"120 per il blu."
 
 #: modules/video_filter/bluescreen.c:46
 msgid "Bluescreen V value"
@@ -26088,6 +26126,8 @@ msgid ""
 "\"V\" value for the bluescreen key color (in YUV values). From 0 to 255. "
 "Defaults to 90 for blue."
 msgstr ""
+"Valore \"V\" per la chiave bluescreen (nei valori YUV ). Da 0 a 255. Default "
+"90 per il blu."
 
 #: modules/video_filter/bluescreen.c:50
 msgid "Bluescreen U tolerance"
@@ -26098,6 +26138,8 @@ msgid ""
 "Tolerance of the bluescreen blender on color variations for the U plane. A "
 "value between 10 and 20 seems sensible."
 msgstr ""
+"Tolleranza del miscelatore bluescreen sulle variazione del colore sul piano "
+"U. È opportuno un valore tra 10 e 20."
 
 #: modules/video_filter/bluescreen.c:55
 msgid "Bluescreen V tolerance"
@@ -26108,6 +26150,8 @@ msgid ""
 "Tolerance of the bluescreen blender on color variations for the V plane. A "
 "value between 10 and 20 seems sensible."
 msgstr ""
+"Tolleranza del miscelatore bluescreen sulle variazione del colore sul piano "
+"V. È opportuno un valore tra 10 e 20."
 
 #: modules/video_filter/bluescreen.c:77
 msgid "Bluescreen video filter"
@@ -26339,7 +26383,7 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/deinterlace.c:88
 msgid "Phosphor old field dimmer strength"
-msgstr ""
+msgstr "Forza del vecchio campo regolatore Phosphor"
 
 #: modules/video_filter/deinterlace/deinterlace.c:89
 msgid ""
@@ -26347,6 +26391,9 @@ msgid ""
 "phosphor light decay for the old field in the Phosphor framerate doubler. "
 "Default: Low."
 msgstr ""
+"Controlla la forza del filtro oscuramento che simula il decadimento del "
+"fosforo per il vecchio campo nel doppio Phosphor framerate delle TV CRT. "
+"Default: Bassa."
 
 #: modules/video_filter/deinterlace/deinterlace.c:96
 msgid "Deinterlacing video filter"
@@ -26959,6 +27006,9 @@ msgid ""
 "if positioning method is set to \"offsets\"). You must give a comma-"
 "separated list of coordinates (eg: 10,10,150,10)."
 msgstr ""
+"Puoi imporre gli offset (x,y) degli elementi sul mosaico (usato solo se il "
+"metodo di posizionamento è impostato su \"offset\"). È necessario separare i "
+"valori delle coordinate con la virgola (es. 10,10,150,10)."
 
 #: modules/video_filter/mosaic.c:156
 msgid ""
@@ -26966,6 +27016,9 @@ msgid ""
 "value (in milliseconds). For high values you will need to raise caching at "
 "input."
 msgstr ""
+"le immagini provenienti dal mosaico degli elementi saranno ritardate secondo "
+"questo valore (in millisecondi). Per valori alti bisogna alzare il caching "
+"in entrata"
 
 #: modules/video_filter/mosaic.c:166
 msgid "auto"
@@ -27132,6 +27185,13 @@ msgid ""
 "With default filter chain, the values map to the following filters:\n"
 "1: hb, 2-4: hb+vb, 5-6: hb+vb+dr"
 msgstr ""
+"Qualità del post processing. Un range valido è da 0 (disabilitato) a 6 "
+"(massimo)\n"
+"Livelli più alti richiedono maggiore potenza CPU, ma produrrannoimmagini di "
+"maggior qualità.\n"
+"Valori della mappa  ai seguenti filtri con la catena di filtraggio di "
+"default:\n"
+"1: hb, 2-4: hb+vb, 5-6: hb+vb+dr"
 
 #: modules/video_filter/postproc.c:75
 msgid "FFmpeg post processing filter chains"
@@ -27531,6 +27591,8 @@ msgid ""
 "Prefix of the output images filenames. Output filenames will have the "
 "\"prefixNUMBER.format\" form if replace is not true."
 msgstr ""
+"Prefisso dei nomi delle immagini uscenti. I nomi in uscita avranno questa "
+"etichetta se non è stato sostituito adeguatamente: \"prefixNUMBER.format\""
 
 #: modules/video_filter/scene.c:81
 msgid "Directory path prefix"
@@ -27614,6 +27676,10 @@ msgid ""
 "delay - multiply subtitle delay. Relative to source content - determine "
 "subtitle delay from its content (text)."
 msgstr ""
+"Ritardo assoluto - aggiunge un valore di ritardo assoluto ad ogni "
+"sottotitolo. Collegato al ritardo della fonte - moltiplica il ritardo del "
+"sottotitolo. Collegato al contenuto della fonte - determina il ritardo del "
+"sottotitolo dal suo contenuto (testo)."
 
 #: modules/video_filter/subsdelay.c:53
 msgid "Calculation factor"
