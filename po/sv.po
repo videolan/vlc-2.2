@@ -5,9 +5,10 @@
 # Translators:
 # A. Regnander <anton_r_3@hotmail.com>, 2014-2016
 # Christopher Rönngren <christopher.ronngren@hotmail.com>, 2015
-# Daniel Nylander <po@danielnylander.se>, 2006-2012
+# Claes-Göran Nydahl <goldug@gmail.com>, 2016
 # Daniel <daniel.a.back@telia.com>, 2015
 # Daniel Gullbransen <daniel@llama.nu>, 2015
+# Daniel Nylander <po@danielnylander.se>, 2006-2012
 # dotar <t.dotar@gmail.com>, 2014
 # Gaius Anderson <gaius.ankh@gmail.com>, 2015
 # Göran Fusse Johansson <goran@fusse.se>, 2014
@@ -15,7 +16,7 @@
 # Hampe BayX <hampus.cc@gmail.com>, 2016
 # Joel Arvidsson <dogai@privat.utfors.se>, 2002
 # Josef Andersson <josef.andersson@fripost.org>, 2015
-# Andreas, 2014
+# Andreas Everos, 2014
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015-2016
 # leveebreaks, 2013,2014
 # Linus Malmgren <linus@malmgren.nu>, 2015
@@ -25,6 +26,7 @@
 # Staś Zw. <staszw@live.se>, 2013
 # Nadia, 2015
 # Niklas Åkerström, 2009
+# Paulus Paulus <suluap@alamier.com>, 2016
 # sebras <sebras@gmail.com>, 2015
 # theschitz <theodore@theschitz.se>, 2015
 msgid ""
@@ -32,7 +34,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2016-03-29 01:36+0200\n"
-"PO-Revision-Date: 2016-03-31 15:42+0000\n"
+"PO-Revision-Date: 2016-05-05 17:43+0000\n"
 "Last-Translator: A. Regnander <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/yaron/vlc-trans/language/"
 "sv/)\n"
@@ -2990,6 +2992,10 @@ msgid ""
 "filters here and configure them in the \"subsources filters\" modules "
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
+"Dessa inställningar låter dig ändra hur underbildssystemet beter sig. Du kan "
+"t.ex. aktivera källor till underbilder (logotyp, osv.). Aktivera dessa "
+"filter här och ställ dem in i avsnittet \"delkällorfilter\". Du kan också "
+"ställa in diverse alternativ för underbilder."
 
 #: src/libvlc-module.c:697 modules/gui/qt4/ui/sprefs_subtitles.h:305
 msgid "Force subtitle position"
@@ -3059,6 +3065,8 @@ msgid ""
 "This adds so-called \"subpicture filters\". These filter subpictures created "
 "by subtitle decoders or other subpictures sources."
 msgstr ""
+"Detta lägger till s.k. \"underbildsfilter\". Dessa underbildsfilter är "
+"skapade av undertextavkodare eller andra underbildskällor."
 
 #: src/libvlc-module.c:725
 msgid "Autodetect subtitle files"
@@ -3257,6 +3265,8 @@ msgid ""
 "This X.509 certicate file (PEM format) is used for server-side TLS. On OS X, "
 "the string is used as a label to search the certificate in the keychain."
 msgstr ""
+"Denna X.509-certifikatfil (PEM-format) används till serversidan av TLS. På "
+"OS X används strängen som en etikett att söka i certifikatet på nyckelkedjan."
 
 #: src/libvlc-module.c:835
 msgid "HTTP/TLS server private key"
@@ -3275,6 +3285,8 @@ msgid ""
 "This X.509 certificate file (PEM format) can optionally be used to "
 "authenticate remote clients in TLS sessions."
 msgstr ""
+"Denna X.509-cerfikatfil (PEM-format) kan eventuellt användas till att "
+"autentisera fjärrklienter i TLS-sessioner. "
 
 #: src/libvlc-module.c:844
 msgid "HTTP/TLS Certificate Revocation List"
@@ -3400,6 +3412,10 @@ msgid ""
 "try the dummy and a52 codecs before trying the other ones. Only advanced "
 "users should alter this option as it can break playback of all your streams."
 msgstr ""
+"Lista över de kodekar som VLC ska använda i första hand. Exempelvis, 'dummy,"
+"a52' ska försöka använda dummy- och a52-kodekar innan den försöker använda "
+"de andra. Detta bör endast avancerade användare ändra, då uppspelningen av "
+"alla dina strömmar kan förstöras."
 
 #: src/libvlc-module.c:907
 msgid "Preferred encoders list"
@@ -3471,6 +3487,8 @@ msgid ""
 "Choose whether the audio stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
+"Välj om ljudströmmen ska omdirigeras till strömmens utgångstjänst när den "
+"sista är aktiverad."
 
 #: src/libvlc-module.c:945
 msgid "Enable SPU stream output"
@@ -5847,7 +5865,7 @@ msgstr "Saknar konfigurationsfil för AACS!"
 
 #: modules/access/bluray.c:371
 msgid "No valid processing key found in AACS config file."
-msgstr ""
+msgstr "Ingen giltig processnyckel hittades i AAC'ns konfigurationsfil."
 
 #: modules/access/bluray.c:373
 msgid "No valid host certificate found in AACS config file."
@@ -22180,7 +22198,7 @@ msgstr "Loggformat"
 
 #: modules/misc/logger.c:119
 msgid "Specify the logging format."
-msgstr ""
+msgstr "Ange loggningsformatet."
 
 #: modules/misc/logger.c:122
 msgid "Syslog ident"
