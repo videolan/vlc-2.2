@@ -977,7 +977,11 @@ static VLCMainWindow *_o_sharedInstance = nil;
 
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:mt_duration];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"HH:mm:ss"];
+    if (mt_duration >= 86400) {
+        [formatter setDateFormat:@"dd:HH:mm:ss"];
+    } else {
+        [formatter setDateFormat:@"HH:mm:ss"];
+    }
     [formatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
 
     NSString *playbackDuration = [NSString stringWithFormat:@" — %@",[formatter stringFromDate:date]];
