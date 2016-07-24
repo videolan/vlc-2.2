@@ -26,6 +26,8 @@
 # include "config.h"
 #endif
 
+#include "qt4.hpp"
+
 #include <vlc_vout.h>                       /* vout_thread_t for FSC */
 
 /* Widgets */

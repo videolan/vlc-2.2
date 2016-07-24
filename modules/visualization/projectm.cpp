@@ -30,6 +30,10 @@
 #endif
 
 #include <assert.h>
+#if defined(__GNUC__) && \
+           ( __GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 7 ) )
+  #define VLC_ATOMIC_H /* Ensure C atomics wont collide with old intrinsics */
+#endif
 
 #include <vlc_common.h>
 #include <vlc_plugin.h>

@@ -29,9 +29,10 @@
 # include "config.h"
 #endif
 
+#include "qt4.hpp"
+
 #include <vlc_input.h>
 
-#include "qt4.hpp"
 #include "util/singleton.hpp"
 #include "adapters/variables.hpp"
 

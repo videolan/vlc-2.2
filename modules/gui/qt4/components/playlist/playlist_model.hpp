@@ -25,9 +25,7 @@
 #ifndef _PLAYLIST_MODEL_H_
 #define _PLAYLIST_MODEL_H_
 
-#ifdef HAVE_CONFIG_H
-# include "config.h"
-#endif
+#include "qt4.hpp"
 
 #include <vlc_input.h>
 #include <vlc_playlist.h>

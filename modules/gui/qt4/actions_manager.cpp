@@ -25,6 +25,8 @@
 # include "config.h"
 #endif
 
+#include "qt4.hpp"
+
 #include <vlc_vout.h>
 #include <vlc_keys.h>
 

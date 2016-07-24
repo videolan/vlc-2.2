@@ -25,8 +25,10 @@
 #ifndef QVLC_VLM_DIALOG_H_
 #define QVLC_VLM_DIALOG_H_ 1
 
+#include "qt4.hpp"
+
 #ifdef HAVE_CONFIG_H
-# include "config.h"
+#include "config.h"
 #endif
 
 #ifdef ENABLE_VLM

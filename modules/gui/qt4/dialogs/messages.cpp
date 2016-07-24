@@ -24,6 +24,8 @@
 # include "config.h"
 #endif
 
+#include "qt4.hpp"
+
 #include "dialogs/messages.hpp"
 
 #include <QPlainTextEdit>

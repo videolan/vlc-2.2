@@ -30,6 +30,8 @@
 # include "config.h"
 #endif
 
+#include "qt4.hpp"
+
 #include "input_manager.hpp"
 #include "recents.hpp"
 

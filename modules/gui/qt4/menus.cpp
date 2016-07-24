@@ -34,6 +34,8 @@
 # include "config.h"
 #endif
 
+#include "qt4.hpp"
+
 #include <vlc_common.h>
 #include <vlc_intf_strings.h>
 #include <vlc_vout.h>                             /* vout_thread_t */
