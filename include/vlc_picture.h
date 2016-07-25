@@ -32,7 +32,9 @@
  */
 
 #include <vlc_es.h>
-#include <vlc_atomic.h>
+#if (defined (__LIBVLC__) && !defined (__PLUGIN__))
+# include <vlc_atomic.h>
+#endif
 
 /** Description of a planar graphic field */
 typedef struct plane_t
