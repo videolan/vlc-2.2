@@ -179,6 +179,9 @@ static int Open( vlc_object_t *p_this )
         return VLC_EGENERIC;
     }
 
+    p_sys->fmt.video.i_frame_rate      = 1000000;
+    p_sys->fmt.video.i_frame_rate_base = p_sys->i_incr;
+
     msg_Dbg( p_demux, "screen width: %i, height: %i, depth: %i",
              p_sys->fmt.video.i_width, p_sys->fmt.video.i_height,
              p_sys->fmt.video.i_bits_per_pixel );
