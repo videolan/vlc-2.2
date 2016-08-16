@@ -481,11 +481,6 @@ static int Mux(sout_mux_t *p_mux)
                 p_sys->i_first_dts = p_data->i_dts;
         }
 
-        if(p_stream->i_last_dts < p_data->i_dts)
-            p_stream->i_last_dts = p_data->i_dts;
-        else if(p_stream->i_last_dts < p_data->i_pts)
-            p_stream->i_last_dts = p_data->i_pts;
-
         if (p_stream->fmt.i_cat != SPU_ES) {
             /* Fix length of the sample */
             if (block_FifoCount(p_input->p_fifo) > 0) {
@@ -538,16 +533,20 @@ static int Mux(sout_mux_t *p_mux)
         if (p_stream->fmt.i_cat == SPU_ES && p_stream->i_entry_count > 0) {
             int64_t i_length = p_data->i_dts - p_stream->i_last_dts;
 
-            if (i_length <= 0) /* FIXME handle this broken case */
-                i_length = 1;
+            if (i_length < 0) /* FIXME handle this broken case */
+                i_length = 0;
 
             /* Fix last entry */
-            if (p_stream->entry[p_stream->i_entry_count-1].i_length <= 0)
-                p_stream->entry[p_stream->i_entry_count-1].i_length = i_length;
+            p_stream->entry[p_stream->i_entry_count-1].i_length = i_length;
+            p_stream->i_duration += i_length;
         }
 
+        /* Update (Not earlier for SPU!) */
+        if(p_stream->i_last_dts < p_data->i_dts)
+            p_stream->i_last_dts = p_data->i_dts;
+
         /* add index entry */
-        mp4_entry_t *e = &p_stream->entry[p_stream->i_entry_count];
+        mp4_entry_t *e = &p_stream->entry[p_stream->i_entry_count++];
         e->i_pos    = p_sys->i_pos;
         e->i_size   = p_data->i_buffer;
 
@@ -562,7 +561,6 @@ static int Mux(sout_mux_t *p_mux)
         e->i_length = p_data->i_length;
         e->i_flags  = p_data->i_flags;
 
-        p_stream->i_entry_count++;
         /* XXX: -1 to always have 2 entry for easy adding of empty SPU */
         if (p_stream->i_entry_count >= p_stream->i_entry_max - 1) {
             p_stream->i_entry_max += 1000;
@@ -574,54 +572,40 @@ static int Mux(sout_mux_t *p_mux)
         p_stream->i_duration += __MAX( 0, p_data->i_length );
         p_sys->i_pos += p_data->i_buffer;
 
-        /* Save the DTS for SPU */
-        p_stream->i_last_dts = p_data->i_dts;
-
         /* write data */
         sout_AccessOutWrite(p_mux->p_access, p_data);
 
         /* close subtitle with empty frame */
         if (p_stream->fmt.i_cat == SPU_ES) {
-            int64_t i_length = p_stream->entry[p_stream->i_entry_count-1].i_length;
 
-            if ( i_length != 0 && (p_data = block_Alloc(3)) ) {
+            if ( (p_data = block_Alloc(3)) ) {
                 /* TODO */
                 msg_Dbg(p_mux, "writing an empty sub") ;
 
+                /* point to start of our empty */
+                p_stream->i_last_dts += e->i_length;
+
                 /* Append a idx entry */
-                mp4_entry_t *e = &p_stream->entry[p_stream->i_entry_count];
-                e->i_pos    = p_sys->i_pos;
-                e->i_size   = 3;
-                e->i_pts_dts= 0;
-                e->i_length = 0;
-                e->i_flags  = 0;
-
-                /* XXX: No need to grow the entry here */
-                p_stream->i_entry_count++;
-
-                /* Fix last dts */
-                p_stream->i_last_dts += i_length;
+                mp4_entry_t *p_empty = &p_stream->entry[p_stream->i_entry_count++];
+                p_empty->i_pos    = p_sys->i_pos;
+                p_empty->i_size   = 3;
+                p_empty->i_pts_dts= 0;
+                p_empty->i_length = 0;
+                p_empty->i_flags  = 0;
 
                 /* Write a " " */
-                p_data->i_dts = p_stream->i_last_dts;
-                p_data->i_dts = p_data->i_pts;
                 p_data->p_buffer[0] = 0;
                 p_data->p_buffer[1] = 1;
                 p_data->p_buffer[2] = ' ';
 
                 p_sys->i_pos += p_data->i_buffer;
-                p_stream->i_duration += p_data->i_length;
 
                 sout_AccessOutWrite(p_mux->p_access, p_data);
             }
         }
-    }
 
-    /* Update the global segment/media duration */
-    for ( unsigned int i=0; i<p_sys->i_nb_streams; i++ )
-    {
-        if ( p_sys->pp_streams[i]->i_duration > p_sys->i_duration )
-            p_sys->i_duration = p_sys->pp_streams[i]->i_duration;
+        if ( p_stream->i_duration > p_sys->i_duration )
+            p_sys->i_duration = p_stream->i_duration;
     }
 
     return(VLC_SUCCESS);
