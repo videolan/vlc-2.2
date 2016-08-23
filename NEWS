@@ -4,6 +4,24 @@ Changes between 2.2.4 and 2.2.5:
 Decoder:
  * Fix mp3 playback quality regression in libmad
 
+Demuxer:
+ * Fix possible ASF integer overflow
+ * Fix MP4 divide-by-zero
+
+Video output:
+ * Fix green line on Windows with AMD drivers
+
+Access:
+ * Fix crash in screen recording on Windows
+
+Mux:
+ * Fix mp4 drift
+
+Windows:
+ * The plugins loading will not load external DLLs by default.
+   Plugins will need to LoadLibrary explicitely.
+ * Fix uninstaller path handling
+
 
 Changes between 2.2.3 and 2.2.4:
 --------------------------------
