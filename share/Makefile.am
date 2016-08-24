@@ -243,8 +243,7 @@ EXTRA_DIST += \
 	lua/sd/fmc.lua \
 	lua/sd/icecast.lua \
 	lua/sd/icast.lua \
-	lua/sd/jamendo.lua \
-	lua/sd/metachannels.lua
+	lua/sd/jamendo.lua
 
 DIST_http_lua = \
 	lua/http/view.html \
