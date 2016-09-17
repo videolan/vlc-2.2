@@ -37,6 +37,9 @@
     NSInteger i_lastScrollWheelDirection;
     NSTimeInterval t_lastScrollEvent;
 
+    CGFloat f_cumulatedXScrollValue;
+    CGFloat f_cumulatedYScrollValue;
+
     CGFloat f_cumulated_magnification;
 
     vout_thread_t *p_vout;
