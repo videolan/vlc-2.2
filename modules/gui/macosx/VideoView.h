@@ -28,14 +28,14 @@
 
 #import <vlc_vout.h>
 
-
 /*****************************************************************************
  * VLCVoutView interface
  *****************************************************************************/
 @interface VLCVoutView : NSView
 {
+    NSTimer *p_scrollTimer;
+
     NSInteger i_lastScrollWheelDirection;
-    NSTimeInterval t_lastScrollEvent;
 
     CGFloat f_cumulatedXScrollValue;
     CGFloat f_cumulatedYScrollValue;

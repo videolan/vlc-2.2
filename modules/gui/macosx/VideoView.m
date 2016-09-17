@@ -189,11 +189,9 @@
 
 - (void)resetScrollWheelDirection
 {
-    /* release the scroll direction 0.8 secs after the last event */
-    if (([NSDate timeIntervalSinceReferenceDate] - t_lastScrollEvent) >= 0.80) {
-        i_lastScrollWheelDirection = 0;
-        f_cumulatedXScrollValue = f_cumulatedYScrollValue = 0.;
-    }
+    i_lastScrollWheelDirection = 0;
+    f_cumulatedXScrollValue = f_cumulatedYScrollValue = 0.;
+    msg_Dbg(VLCIntf, "Reset scrolling timer");
 }
 
 - (void)scrollWheel:(NSEvent *)theEvent
@@ -225,7 +223,7 @@
 
     /* in the following, we're forwarding either a x or a y event */
     /* Multiple key events are send depending on the intensity of the event */
-    /* the opposite direction is being blocked for 0.8 secs */
+    /* the opposite direction is being blocked for a couple of milli seconds */
     if (f_deltaYAbs > f_directionThreshold) {
         if (i_lastScrollWheelDirection < 0) // last was a X
             return;
@@ -240,13 +238,7 @@
             msg_Dbg(p_intf, "Scrolling in y direction");
         }
 
-        t_lastScrollEvent = [NSDate timeIntervalSinceReferenceDate];
-        [self performSelector:@selector(resetScrollWheelDirection)
-                   withObject: NULL
-                   afterDelay:1.00];
-        return;
-    }
-    if (f_deltaXAbs > f_directionThreshold) {
+    } else if (f_deltaXAbs > f_directionThreshold) {
         if (i_lastScrollWheelDirection > 0) // last was a Y
             return;
         i_lastScrollWheelDirection = -1; // X
@@ -259,12 +251,14 @@
             var_SetInteger(p_intf->p_libvlc, "key-pressed", key);
             msg_Dbg(p_intf, "Scrolling in x direction");
         }
-
-        t_lastScrollEvent = [NSDate timeIntervalSinceReferenceDate];
-        [self performSelector:@selector(resetScrollWheelDirection)
-                   withObject: NULL
-                   afterDelay:1.00];
     }
+
+    if (p_scrollTimer) {
+        [p_scrollTimer invalidate];
+        [p_scrollTimer release];
+        p_scrollTimer = nil;
+    }
+    p_scrollTimer = [[NSTimer scheduledTimerWithTimeInterval:0.4 target:self selector:@selector(resetScrollWheelDirection) userInfo:nil repeats:NO] retain];
 }
 
 #pragma mark -
