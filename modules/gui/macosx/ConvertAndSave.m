@@ -481,21 +481,21 @@ static VLCConvertAndSave *_o_sharedInstance = nil;
     [labelContent release];
 
     /* catch obvious errors */
-    if (![[_stream_address_fld stringValue] length] > 0) {
+    if ([[_stream_address_fld stringValue] length] == 0) {
         NSBeginInformationalAlertSheet(_NS("No Address given"),
                                        _NS("OK"), @"", @"", _stream_panel, nil, nil, nil, nil,
                                        @"%@", _NS("In order to stream, a valid destination address is required."));
         return;
     }
 
-    if ([_stream_sap_ckb state] && ![[_stream_channel_fld stringValue] length] > 0) {
+    if ([_stream_sap_ckb state] && [[_stream_channel_fld stringValue] length] == 0) {
         NSBeginInformationalAlertSheet(_NS("No Channel Name given"),
                                        _NS("OK"), @"", @"", _stream_panel, nil, nil, nil, nil,
                                        @"%@", _NS("SAP stream announcement is enabled. However, no channel name is provided."));
         return;
     }
 
-    if ([_stream_sdp_matrix isEnabled] && [_stream_sdp_matrix selectedCell] != [_stream_sdp_matrix cellWithTag:0] && ![[_stream_sdp_fld stringValue] length] > 0) {
+    if ([_stream_sdp_matrix isEnabled] && [_stream_sdp_matrix selectedCell] != [_stream_sdp_matrix cellWithTag:0] && [[_stream_sdp_fld stringValue] length] == 0) {
         NSBeginInformationalAlertSheet(_NS("No SDP URL given"),
                                        _NS("OK"), @"", @"", _stream_panel, nil, nil, nil, nil,
                                        @"%@", _NS("A SDP export is requested, but no URL is provided."));
