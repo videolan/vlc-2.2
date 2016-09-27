@@ -681,6 +681,27 @@ picture_t *DecodeVideo( decoder_t *p_dec, block_t **pp_block )
             continue;
         }
 
+#if LIBAVCODEC_VERSION_MAJOR >= 54
+        if( p_context->pix_fmt == AV_PIX_FMT_PAL8
+         && !p_dec->fmt_out.video.p_palette && p_sys->p_ff_pic->data[1] )
+        {
+            video_palette_t *p_palette;
+            p_palette = p_dec->fmt_out.video.p_palette
+                      = malloc( sizeof(video_palette_t) );
+            if( !p_palette )
+            {
+                if( p_block )
+                    block_Release( p_block );
+                return NULL;
+            }
+            static_assert( sizeof(p_palette->palette) == AVPALETTE_SIZE,
+                           "Palette size mismatch between vlc and libavutil" );
+            memcpy( p_palette->palette, p_sys->p_ff_pic->data[1],
+                    AVPALETTE_SIZE );
+            p_palette->i_entries = AVPALETTE_COUNT;
+        }
+#endif
+
         /* Sanity check (seems to be needed for some streams) */
         if( p_sys->p_ff_pic->pict_type == AV_PICTURE_TYPE_B)
         {
