@@ -3,6 +3,9 @@ Changes between 2.2.4 and 2.2.5:
 
 Decoder:
  * Fix mp3 playback quality regression in libmad
+ * Fix video scaling in VDPAU
+ * Fix playback of palettized codecs
+ * Fix ADPCM heap corruption (FG-VD-16-067)
 
 Demuxer:
  * Fix possible ASF integer overflow
@@ -13,6 +16,7 @@ Video output:
 
 Access:
  * Fix crash in screen recording on Windows
+ * Fix FTP scan string injection
 
 Mux:
  * Fix mp4 drift
@@ -21,6 +25,9 @@ Windows:
  * The plugins loading will not load external DLLs by default.
    Plugins will need to LoadLibrary explicitely.
  * Fix uninstaller path handling
+
+MacOS:
+ * Fix scrolling sensitivity on Sierra
 
 
 Changes between 2.2.3 and 2.2.4:
