@@ -243,8 +243,7 @@ static void check_crashdump(void)
 
                 if( FtpPutFile( ftp, mv_crashdump_path, remote_file,
                             FTP_TRANSFER_TYPE_BINARY, 0) )
-                    MessageBox( NULL, L"Report sent correctly. Thanks a lot " \
-                                "for the help.", L"Report sent", MB_OK);
+                    fprintf(stderr, "Report sent correctly to FTP.\n");
                 else
                     MessageBox( NULL, L"There was an error while "\
                                 "transferring the data to the FTP server.\n"\
@@ -269,6 +268,8 @@ static void check_crashdump(void)
                                 "Thanks a lot for the help anyway.",
                                 L"Report sending failed", MB_OK);
         }
+        MessageBox( NULL, L"Thanks a lot for helping improving VLC!",
+                    L"VLC crash report" , MB_OK);
     }
 
     _wremove(mv_crashdump_path);
