@@ -25,11 +25,6 @@
 
 @implementation VLCDocumentController
 
-+ (void)load
-{
-    id controller = [[VLCDocumentController alloc] init];
-}
-
 - (IBAction)clearRecentDocuments:(id)sender
 {
     msg_Dbg(VLCIntf, "Clear recent items list and resume points");
