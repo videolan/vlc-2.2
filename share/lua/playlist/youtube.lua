@@ -324,10 +324,11 @@ function parse()
                 else
                     format = ""
                 end
-                -- Without "el=detailpage", /get_video_info fails for many
-                -- music videos with errors about copyrighted content being
-                -- "restricted from playback on certain sites"
-                path = vlc.access.."://www.youtube.com/get_video_info?video_id="..video_id..format.."&el=detailpage"
+                -- Passing no "el" parameter to /get_video_info seems to
+                -- let it default to "embedded", and both known values
+                -- of "embedded" and "detailpage" are wrong and fail for
+                -- various restricted videos, so we pass a different value
+                path = vlc.access.."://www.youtube.com/get_video_info?video_id="..video_id..format.."&el=detail"
                 vlc.msg.warn( "Couldn't extract video URL, falling back to alternate youtube API" )
             end
         end
