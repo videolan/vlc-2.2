@@ -445,7 +445,6 @@ static int ReadNSVf( demux_t *p_demux )
 {
     /* demux_sys_t *p_sys = p_demux->p_sys; */
     const uint8_t     *p;
-    int         i_size;
 
     msg_Dbg( p_demux, "new NSVf chunk" );
     if( stream_Peek( p_demux->s, &p, 8 ) < 8 )
@@ -453,10 +452,14 @@ static int ReadNSVf( demux_t *p_demux )
         return VLC_EGENERIC;
     }
 
-    i_size = GetDWLE( &p[4] );
-    msg_Dbg( p_demux, "    - size=%d", i_size );
+    uint32_t i_header_size = GetDWLE( &p[4] );
+    msg_Dbg( p_demux, "    - size=%" PRIu32, i_header_size );
 
-    return stream_Read( p_demux->s, NULL, i_size ) == i_size ? VLC_SUCCESS : VLC_EGENERIC;
+    if( i_header_size == 0 || i_header_size == UINT32_MAX )
+        return VLC_EGENERIC;
+
+
+    return stream_Read( p_demux->s, NULL, i_header_size ) == i_header_size ? VLC_SUCCESS : VLC_EGENERIC;
 }
 /*****************************************************************************
  * ReadNSVs:
