@@ -277,6 +277,7 @@ static inline int64_t MP4_TrackGetPTSDelta( demux_t *p_demux, mp4_track_t *p_tra
 
         i_sample -= ck->p_sample_count_pts[i_index];
     }
+    return -1;
 }
 
 static inline int64_t MP4_GetMoviePTS(demux_sys_t *p_sys )
