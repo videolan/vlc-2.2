@@ -164,8 +164,8 @@ static int MP4_NextBox( stream_t *p_stream, MP4_Box_t *p_box )
          * and we skip the followong check */
         if( p_box->p_father->i_size > 0 )
         {
-            const off_t i_box_end = p_box->i_size + p_box->i_pos;
-            const off_t i_father_end = p_box->p_father->i_size + p_box->p_father->i_pos;
+            const uint64_t i_box_end = p_box->i_size + p_box->i_pos;
+            const uint64_t i_father_end = p_box->p_father->i_size + p_box->p_father->i_pos;
 
             /* check if it's within p-father */
             if( i_box_end >= i_father_end )
@@ -197,9 +197,12 @@ int MP4_ReadBoxContainerChildren( stream_t *p_stream,
 
     /* Size of root container is set to 0 when unknown, for exemple
      * with a DASH stream. In that case, we skip the following check */
-    if( p_container->i_size
-            && ( stream_Tell( p_stream ) + 8 >
-        (off_t)(p_container->i_pos + p_container->i_size) )
+    int64_t i_tell = stream_Tell( p_stream );
+    if( unlikely(i_tell < 0 || (UINT64_MAX - 8 < (uint64_t)i_tell)) )
+        return 0;
+
+    if( p_container->i_size && ( (uint64_t)i_tell + 8 >
+        p_container->i_pos + p_container->i_size )
       )
     {
         /* there is no box to load */
