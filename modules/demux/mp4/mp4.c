@@ -875,6 +875,8 @@ static int Demux( demux_t *p_demux )
         }
     }
 
+    uint32_t i_nb_samples = 0;
+    uint32_t i_samplessize = 0;
     if ( !tk )
     {
         msg_Dbg( p_demux, "Could not select track by data position" );
@@ -897,8 +899,7 @@ static int Demux( demux_t *p_demux )
              MP4_GetMoviePTS( p_sys ), i_candidate_pos );
 #endif
 
-    uint32_t i_nb_samples = 0;
-    uint32_t i_samplessize = MP4_TrackGetReadSize( tk, &i_nb_samples );
+    i_samplessize = MP4_TrackGetReadSize( tk, &i_nb_samples );
     if( i_samplessize > 0 )
     {
         block_t *p_block;
