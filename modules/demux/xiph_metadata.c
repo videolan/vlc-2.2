@@ -430,12 +430,16 @@ void vorbis_ParseComment( es_format_t *p_fmt, vlc_meta_t **pp_meta,
     }
 #undef RM
 
-    for ( unsigned int i=0; i<chapters_array.i_size; i++ )
+    if( i_seekpoint && ppp_seekpoint )
     {
-        if ( !chapters_array.pp_chapters[i] ) continue;
-        TAB_APPEND_CAST( (seekpoint_t**), *i_seekpoint, *ppp_seekpoint,
-                         chapters_array.pp_chapters[i] );
+        for ( unsigned int i=0; i<chapters_array.i_size; i++ )
+        {
+            if ( !chapters_array.pp_chapters[i] ) continue;
+            TAB_APPEND_CAST( (seekpoint_t**), *i_seekpoint, *ppp_seekpoint,
+                chapters_array.pp_chapters[i] );
+        }
     }
+
     free( chapters_array.pp_chapters );
 }
 
