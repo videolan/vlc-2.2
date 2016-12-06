@@ -6,10 +6,16 @@ Decoder:
  * Fix video scaling in VDPAU
  * Fix playback of palettized codecs
  * Fix ADPCM heap corruption (FG-VD-16-067)
+ * Fix AES3 16bps decoding
 
 Demuxer:
  * Fix possible ASF integer overflow
- * Fix MP4 divide-by-zero
+ * Fix MP4, VOC, XA, SMF divide-by-zero errors
+ * Fix MP4 heap buffer overflows
+ * Fix Flac metadata integer overflow
+ * Fix NSVf and AIFF infinite loops
+ * Fix flac null-pointer dereference
+ * Fix vorbis comment integer overflow
 
 Video output:
  * Fix green line on Windows with AMD drivers
@@ -17,9 +23,14 @@ Video output:
 Access:
  * Fix crash in screen recording on Windows
  * Fix FTP scan string injection
+ * Fix HTTP size handling
 
 Mux:
  * Fix mp4 drift
+
+Lua:
+ * Fix vimeo, youtube, dailymotion, cli, appletrailers, http,
+   soundcloud scripts
 
 Windows:
  * The plugins loading will not load external DLLs by default.
