@@ -113,15 +113,21 @@ static VLCDocumentController *documentController = nil;
 int OpenIntf (vlc_object_t *p_this)
 {
     NSAutoreleasePool *o_pool = [[NSAutoreleasePool alloc] init];
-    [VLCApplication sharedApplication];
-    // Register subclass for recent items controller
-    documentController = [[VLCDocumentController alloc] init];
+    @try {
+        [VLCApplication sharedApplication];
+        // Register subclass for recent items controller
+        documentController = [[VLCDocumentController alloc] init];
 
-    intf_thread_t *p_intf = (intf_thread_t*) p_this;
-    msg_Dbg(p_intf, "Starting macosx interface");
-    Run(p_intf);
+        intf_thread_t *p_intf = (intf_thread_t*) p_this;
+        msg_Dbg(p_intf, "Starting macosx interface");
+        Run(p_intf);
 
-    [documentController release];
+        [documentController release];
+    } @catch (NSException *exception) {
+        [o_pool release];
+        return VLC_EGENERIC;
+    }
+
     [o_pool release];
     return VLC_SUCCESS;
 }
