@@ -95,6 +95,9 @@ protected:
     void dropEventPlay( QDropEvent* event, bool b_play ) { dropEventPlay(event, b_play, true); }
     void dropEventPlay( QDropEvent *, bool, bool );
 #ifdef _WIN32
+#if HAS_QT5
+    virtual bool nativeEvent(const QByteArray &eventType, void *message, long *result);
+#endif
     virtual bool winEvent( MSG *, long * );
 #endif
     virtual void changeEvent( QEvent * );
