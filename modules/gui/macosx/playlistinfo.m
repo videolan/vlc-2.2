@@ -473,26 +473,27 @@ error:
             for (int i = 0 ; i < p_item->i_categories ; i++) {
                 NSString * name = toNSStr(p_item->pp_categories[i]->psz_name);
                 VLCInfoTreeItem * item = [[VLCInfoTreeItem alloc] initWithName:name value:@"" ID:i parent:self];
+
+                info_category_t * cat = p_item->pp_categories[i];
+                NSMutableArray *o_subChilds = [[[NSMutableArray alloc] initWithCapacity: cat->i_infos] autorelease];
+                for (int j = 0 ; j < cat->i_infos ; j++) {
+                    NSString * subName = toNSStr(cat->pp_infos[j]->psz_name);
+                    NSString * subValue = toNSStr(cat->pp_infos[j]->psz_value);
+                    VLCInfoTreeItem * subItem = [[VLCInfoTreeItem alloc] initWithName:subName value:subValue ID:j parent:item];
+                    [subItem autorelease];
+                    [o_subChilds addObject:subItem];
+                }
+                [item setChildren: o_subChilds];
+
                 [item autorelease];
                 [o_children addObject:item];
             }
             vlc_mutex_unlock(&p_item->lock);
-        }
-        else if (o_parent->i_object_id == -1) {
-            vlc_mutex_lock(&p_item->lock);
-            info_category_t * cat = p_item->pp_categories[i_object_id];
-            o_children = [[NSMutableArray alloc] initWithCapacity: cat->i_infos];
-            for (int i = 0 ; i < cat->i_infos ; i++) {
-                NSString * name = toNSStr(cat->pp_infos[i]->psz_name);
-                NSString * value = toNSStr(cat->pp_infos[i]->psz_value);
-                VLCInfoTreeItem * item = [[VLCInfoTreeItem alloc] initWithName:name value:value ID:i parent:self];
-                [item autorelease];
-                [o_children addObject:item];
-            }
-            vlc_mutex_unlock(&p_item->lock);
-        }
-        else
+        } else {
+            // must be item for category info already
+            assert(o_parent->i_object_id != -1);
             o_children = IsALeafNode;
+        }
     }
     return o_children;
 }
@@ -507,6 +508,16 @@ error:
     [o_children release];
     o_children = nil;
 }
+
+
+- (void)setChildren:(NSMutableArray *)children {
+    if (o_children && o_children != IsALeafNode)
+        [o_children release];
+
+    o_children = children;
+    [o_children retain];
+}
+
 
 - (VLCInfoTreeItem *)childAtIndex:(NSUInteger)i_index {
     return [[self children] objectAtIndex:i_index];

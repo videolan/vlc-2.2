@@ -133,6 +133,8 @@
 @property (readonly) NSString * name;
 @property (readonly) NSString * value;
 
+- (void)setChildren:(NSMutableArray *)children;
+
 - (VLCInfoTreeItem *)childAtIndex:(NSUInteger)i_index;
 - (void)refresh;
 
