@@ -8,6 +8,7 @@ Decoder:
  * Fix ADPCM heap corruption (FG-VD-16-067)
  * Fix AES3 16bps decoding
  * Fix DVD/LPCM heap corruption (FG-VD-16-090)
+ * Fix SCTE-27 colors
 
 Demuxer:
  * Fix possible ASF integer overflow
@@ -16,10 +17,11 @@ Demuxer:
  * Fix Flac metadata integer overflow
  * Fix NSVf and AIFF infinite loops
  * Fix flac null-pointer dereference
- * Fix vorbis comment integer overflow
+ * Fix vorbisi and opus comments integer overflows and leaks
 
 Video output:
  * Fix green line on Windows with AMD drivers
+ * Fix screenshots size
 
 Access:
  * Fix crash in screen recording on Windows
@@ -37,6 +39,7 @@ Windows:
  * The plugins loading will not load external DLLs by default.
    Plugins will need to LoadLibrary explicitely.
  * Fix uninstaller path handling
+ * Fix taskbar buttons behavior
 
 MacOS:
  * Fix scrolling sensitivity on Sierra
