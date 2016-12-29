@@ -1093,7 +1093,7 @@ void FullscreenControllerWidget::keyPressEvent( QKeyEvent *event )
 }
 
 /* */
-static int FullscreenControllerWidgetFullscreenChanged( vlc_object_t *vlc_object,
+int FullscreenControllerWidget::FullscreenChanged( vlc_object_t *vlc_object,
                 const char *variable, vlc_value_t old_val,
                 vlc_value_t new_val,  void *data )
 {
@@ -1151,7 +1151,7 @@ void FullscreenControllerWidget::setVoutList( vout_thread_t **pp_vout, int i_vou
     foreach( vout_thread_t *p_vout, del )
     {
         var_DelCallback( p_vout, "fullscreen",
-                         FullscreenControllerWidgetFullscreenChanged, this );
+                         FullscreenControllerWidget::FullscreenChanged, this );
         vlc_mutex_lock( &lock );
         fullscreenChanged( p_vout, false, 0 );
         vout.removeAll( p_vout );
@@ -1176,7 +1176,7 @@ void FullscreenControllerWidget::setVoutList( vout_thread_t **pp_vout, int i_vou
         vlc_mutex_lock( &lock );
         vout.append( p_vout );
         var_AddCallback( p_vout, "fullscreen",
-                         FullscreenControllerWidgetFullscreenChanged, this );
+                         FullscreenControllerWidget::FullscreenChanged, this );
         /* I miss a add and fire */
         fullscreenChanged( p_vout, var_GetBool( THEPL, "fullscreen" ),
                            var_GetInteger( p_vout, "mouse-hide-timeout" ) );
