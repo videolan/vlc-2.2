@@ -684,6 +684,11 @@
 
     id o_item = [o_outline_dict objectForKey:[NSString stringWithFormat: @"%p", p_item]];
     NSInteger i_index = [o_outline_view rowForItem:o_item];
+    if (i_index == -1) {
+        i_index = [o_outline_view numberOfRows] - 1;
+        msg_Dbg(VLCIntf, "Cannot find playing item, assuming last one with index %ld", (long)i_index);
+    }
+
     [o_outline_view selectRowIndexes:[NSIndexSet indexSetWithIndex:i_index] byExtendingSelection:NO];
     [o_outline_view setNeedsDisplay:YES];
 }
