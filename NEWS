@@ -35,6 +35,9 @@ Lua:
  * Fix vimeo, youtube, dailymotion, cli, appletrailers, http,
    soundcloud scripts
 
+Audio filter:
+ * Fix heap write in stereo_widen audio filter
+
 Windows:
  * The plugins loading will not load external DLLs by default.
    Plugins will need to LoadLibrary explicitely.
