@@ -1271,6 +1271,7 @@ static int  ParseSami( demux_t *p_demux, subtitle_t *p_subtitle, int i_idx )
 
     i_text = 0;
     text[0] = '\0';
+    const char *psz_startline = s;
     /* now get all txt until  a "Start=" line */
     for( ;; )
     {
@@ -1287,7 +1288,8 @@ static int  ParseSami( demux_t *p_demux, subtitle_t *p_subtitle, int i_idx )
             {
                 c = '\n';
             }
-            else if( strcasestr( s, "Start=" ) )
+            else if( strcasestr( s, "Start=" ) &&
+                     psz_startline != s )
             {
                 TextPreviousLine( txt );
                 break;
