@@ -13,7 +13,7 @@ PKGDIR="vlc"
 AC_SUBST(PKGDIR)
 
 CONFIGURE_LINE="`echo "$0 $ac_configure_args" | sed -e 's/\\\/\\\\\\\/g'`"
-CODENAME="SunMaker"
+CODENAME="Umbrella"
 COPYRIGHT_YEARS="1996-2017"
 
 AC_CONFIG_SRCDIR(src/libvlc.c)
