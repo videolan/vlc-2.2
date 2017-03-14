@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2016-12-29 10:43+0100\n"
+"POT-Creation-Date: 2017-03-15 00:30+0100\n"
 "PO-Revision-Date: 2015-05-21 03:57+0000\n"
 "Last-Translator: Chandrakant Dhutadmal <chandrakantd@cdac.in>\n"
 "Language-Team: Maithili (http://www.transifex.com/projects/p/vlc-trans/"
@@ -1252,7 +1252,7 @@ msgstr "कोडेक"
 
 #: src/input/es_out.c:2918 src/input/meta.c:66 modules/access/imem.c:71
 #: modules/gui/macosx/MainMenu.m:80 modules/gui/macosx/simple_prefs.m:380
-#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:510
+#: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:517
 msgid "Language"
 msgstr "भाषा"
 
@@ -1358,7 +1358,7 @@ msgstr "'%s' क प्रारूप नहि पाएल जाए सक�
 msgid "Title"
 msgstr "शीर्षक"
 
-#: src/input/meta.c:56 modules/gui/macosx/playlist.m:1204
+#: src/input/meta.c:56 modules/gui/macosx/playlist.m:1209
 #: modules/gui/macosx/playlistinfo.m:74 modules/mux/avi.c:48
 msgid "Artist"
 msgstr "कलाकार"
@@ -1793,7 +1793,7 @@ msgstr ""
 "सराउन्ड सँ इनकोडित नहि हए पर सेहो एहि विकल्प केँ चुनब पर अहाँकेँ नीक अनुभव हाएत, खासकए "
 "जखन एकरा हेडफोन चैनल मिक्सर क सँग जोड़ल जाइत अछि।"
 
-#: src/libvlc-module.c:178 src/win32/thread.c:885
+#: src/libvlc-module.c:178 src/win32/thread.c:904
 #: modules/audio_output/kai.c:106 modules/codec/x264.c:442
 #: modules/gui/macosx/simple_prefs.m:122
 #: modules/gui/qt4/components/simple_preferences.cpp:136
@@ -3685,7 +3685,7 @@ msgid "Tell VLC that it is being launched due to a file association in the OS"
 msgstr ""
 "वीएलसी केँ बताउ जे ओएस मे एकटा फाइल संबद्धता हए क कारण एकरा शुरू कएल जाए रहल अछि।"
 
-#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:530
+#: src/libvlc-module.c:1085 modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Use only one instance when started from file manager"
 msgstr "फाइल प्रबंधक सँ शुरू कएल जाए पर केवल एकटा दृष्टांत क उपयोग करू"
 
@@ -3708,7 +3708,7 @@ msgstr ""
 "समय ले सकैत अछि आओर पूरा सिस्टम केँ अनरेस्पोन्सिव कए सकैत छी आओर अहाँकेँ अपन मशीन केँ सेहो "
 "रिबुट कएनाइ पर सकैत अछि।"
 
-#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:533
+#: src/libvlc-module.c:1097 modules/gui/qt4/ui/sprefs_interface.h:541
 msgid "Enqueue items into playlist in one instance mode"
 msgstr "प्लेलिस्ट मे मद केँ एकटा दृष्टांत मोड मे कतारबद्ध करू"
 
@@ -3740,7 +3740,7 @@ msgstr "प्लेलिस्ट मे जोड़ल गेल फाइ�
 
 #: src/libvlc-module.c:1116 modules/gui/macosx/simple_prefs.m:391
 #: modules/gui/qt4/dialogs/firstrun.cpp:98
-#: modules/gui/qt4/ui/sprefs_interface.h:543
+#: modules/gui/qt4/ui/sprefs_interface.h:551
 msgid "Allow metadata network access"
 msgstr "मेटाडाटा संजाल पहुँचक अनुमति दिअ"
 
@@ -3834,7 +3834,7 @@ msgstr ""
 "मीडिया लाइब्रेरी स्वतः सहेजल जाइछ आओर हर बेर जखन अहाँ वी एल सी चलाबैत छी तँ ई लोड "
 "होइत अछि।"
 
-#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:531
+#: src/libvlc-module.c:1161 modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Display playlist tree"
 msgstr "प्लेलिस्ट ट्री प्रदर्शित करू"
 
@@ -3851,7 +3851,7 @@ msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr ""
 "ई सेटिंग्स वैश्विक वीएलसी कुँजी बाइंडिंग छी जकरा \"हौटकी\"  क रूपेँ जएनाइ जाइत अछि।"
 
-#: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1854
+#: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1860
 msgid "Ignore"
 msgstr "अनदेख करू"
 
@@ -8017,11 +8017,11 @@ msgstr "RTP"
 msgid "Real-Time Protocol (RTP) input"
 msgstr "रियल टाइम प्रोटोकाल (आरटीपी) इनपुट"
 
-#: modules/access/rtp/rtp.c:756
+#: modules/access/rtp/rtp.c:759
 msgid "SDP required"
 msgstr "SDP आवश्यक अछि"
 
-#: modules/access/rtp/rtp.c:757
+#: modules/access/rtp/rtp.c:760
 #, c-format
 msgid ""
 "A description in SDP format is required to receive the RTP stream. Note that "
@@ -9360,7 +9360,7 @@ msgid "Add a delay effect to the sound"
 msgstr "ध्वनि मे एकटा विलम्बन प्रभाव जोड़ू"
 
 #: modules/audio_filter/chorus_flanger.c:80
-#: modules/audio_filter/stereo_widen.c:59
+#: modules/audio_filter/stereo_widen.c:57
 msgid "Delay time"
 msgstr "विलम्बन काल"
 
@@ -9389,7 +9389,7 @@ msgid "Rate of change of sweep depth in milliseconds shift per second of play"
 msgstr "चलाबैत समय क प्रति सेकंड मिलिसेकेंड शिफ्ट मे स्वीप क गहराइ मे परिवर्तन क दर"
 
 #: modules/audio_filter/chorus_flanger.c:89
-#: modules/audio_filter/stereo_widen.c:62
+#: modules/audio_filter/stereo_widen.c:60
 msgid "Feedback gain"
 msgstr "प्रतिक्रिया लाभ"
 
@@ -9908,7 +9908,7 @@ msgstr "आडियो स्पैटीलाइजर"
 msgid "Spatializer"
 msgstr "स्पैटीलाइजर"
 
-#: modules/audio_filter/stereo_widen.c:55
+#: modules/audio_filter/stereo_widen.c:53
 msgid ""
 "This filter enhances the stereo effect by suppressing mono (signal common to "
 "both channels) and by delaying the signal of left into right and vice versa, "
@@ -9918,11 +9918,11 @@ msgstr ""
 "विपरीत क सिगनल केँ विलंबित कएक स्टीरियो क प्रभाव केँ बढ़ाता अछि जकरासँ स्टीरियो क "
 "प्रभाव व्यापक होइछ. "
 
-#: modules/audio_filter/stereo_widen.c:60
+#: modules/audio_filter/stereo_widen.c:58
 msgid "Time in ms of the delay of left signal into right and vice versa."
 msgstr "बम्माँ सिगनल क दहिन्ना कात तथा एकर विपरीत क विलंब क समय मिसे मे."
 
-#: modules/audio_filter/stereo_widen.c:63
+#: modules/audio_filter/stereo_widen.c:61
 msgid ""
 "Amount of gain in delayed left signal into right and vice versa. Gives a "
 "delay effect of left signal in right output and vice versa which gives "
@@ -9932,11 +9932,11 @@ msgstr ""
 "बम्माँ कात क सिगनल आओर एकर विपरीत क एकटा विलंबित प्रभाव देत अछि जे व्यापक प्रभाव "
 "उत्पन्न करैत अछि."
 
-#: modules/audio_filter/stereo_widen.c:66
+#: modules/audio_filter/stereo_widen.c:64
 msgid "Crossfeed"
 msgstr "क्रासफीड"
 
-#: modules/audio_filter/stereo_widen.c:67
+#: modules/audio_filter/stereo_widen.c:65
 msgid ""
 "Cross feed of left into right with inverted phase. This helps in suppressing "
 "the mono. If the value is 1 it will cancel all the signal common to both "
@@ -9945,19 +9945,19 @@ msgstr ""
 "विपरीत चरण क सँग बम्माँ क दहिन्ना कात क्रॉस फीड. ई मोनो केँ छिपाने मे मदति करैत अछि. जँ "
 "मान 1 अछि तँ ई दुनू चैनल क लेल आम सबहि संकेत केँ रद्द कए देताह."
 
-#: modules/audio_filter/stereo_widen.c:70
+#: modules/audio_filter/stereo_widen.c:68
 msgid "Dry mix"
 msgstr "शुष्क मिश्रण"
 
-#: modules/audio_filter/stereo_widen.c:71
+#: modules/audio_filter/stereo_widen.c:69
 msgid "Level of input signal of original channel."
 msgstr "मूल चैनल क इनपुट सिगनल क स्तर."
 
-#: modules/audio_filter/stereo_widen.c:77
+#: modules/audio_filter/stereo_widen.c:75
 msgid "Stereo Enhancer"
 msgstr "स्टीरियो संवर्धक"
 
-#: modules/audio_filter/stereo_widen.c:78
+#: modules/audio_filter/stereo_widen.c:76
 msgid "Simple stereo widening effect"
 msgstr "सरल स्टीरियो वाइडनिंग प्रभाव"
 
@@ -16291,7 +16291,7 @@ msgstr "नव प्रोफाइल क लेल एकटा नाम द
 #: modules/gui/macosx/AudioEffects.m:373 modules/gui/macosx/AudioEffects.m:614
 #: modules/gui/macosx/ConvertAndSave.m:376
 #: modules/gui/macosx/ConvertAndSave.m:408 modules/gui/macosx/output.m:456
-#: modules/gui/macosx/playlist.m:780 modules/gui/macosx/prefs.m:208
+#: modules/gui/macosx/playlist.m:785 modules/gui/macosx/prefs.m:208
 #: modules/gui/macosx/simple_prefs.m:376 modules/gui/macosx/simple_prefs.m:441
 #: modules/gui/macosx/VideoEffects.m:679
 #: modules/gui/qt4/components/sout/profile_selector.cpp:424
@@ -16389,7 +16389,7 @@ msgstr "समय"
 msgid "OK"
 msgstr "ठीक"
 
-#: modules/gui/macosx/bookmarks.m:144 modules/gui/macosx/playlist.m:770
+#: modules/gui/macosx/bookmarks.m:144 modules/gui/macosx/playlist.m:775
 msgid "Untitled"
 msgstr "शीर्षकहीन"
 
@@ -16887,19 +16887,19 @@ msgstr "(कोनो मद नहि चलि रहल अछि)"
 msgid "Click to exit fullscreen playback."
 msgstr "फुलस्क्रीन प्लेबैक सँ बाहर निकलब क लेल क्लिक करू."
 
-#: modules/gui/macosx/intf.m:1556 modules/gui/macosx/intf.m:1573
+#: modules/gui/macosx/intf.m:1562 modules/gui/macosx/intf.m:1579
 msgid "VLC media playback"
 msgstr "VLC मीडिया प्लेबैक"
 
-#: modules/gui/macosx/intf.m:1852
+#: modules/gui/macosx/intf.m:1858
 msgid "Remove old preferences?"
 msgstr "पुरानी वरीयता केँ हटाउ?"
 
-#: modules/gui/macosx/intf.m:1853
+#: modules/gui/macosx/intf.m:1859
 msgid "We just found an older version of VLC's preferences files."
 msgstr "हम सिर्फ वीएलसी क वरीयता फाइल क पुराना संस्करण पाएल।"
 
-#: modules/gui/macosx/intf.m:1854
+#: modules/gui/macosx/intf.m:1860
 msgid "Move To Trash and Relaunch VLC"
 msgstr "कचरे मे डाले आओर वीएलसी केँ फिनु लान्च करू"
 
@@ -17662,7 +17662,7 @@ msgstr "तुल्यकालिक आन मीडिया चलाउ"
 
 #: modules/gui/macosx/open.m:143 modules/gui/macosx/open.m:362
 #: modules/gui/macosx/simple_prefs.m:405 modules/gui/macosx/wizard.m:343
-#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:527
+#: modules/gui/macosx/wizard.m:411 modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Choose..."
 msgstr "चुनू..."
 
@@ -17948,27 +17948,27 @@ msgstr "नोड केँ लेखक क नाम क अनुसार �
 msgid "Search in Playlist"
 msgstr "गीत सूची मे खोजू"
 
-#: modules/gui/macosx/playlist.m:774
+#: modules/gui/macosx/playlist.m:779
 msgid "File Format:"
 msgstr "फाइल फार्मेट"
 
-#: modules/gui/macosx/playlist.m:775
+#: modules/gui/macosx/playlist.m:780
 msgid "Extended M3U"
 msgstr "विस्तारित M3U"
 
-#: modules/gui/macosx/playlist.m:776
+#: modules/gui/macosx/playlist.m:781
 msgid "XML Shareable Playlist Format (XSPF)"
 msgstr "XML शेयरेवल प्लेलिस्ट प्रारूप (XSPF)"
 
-#: modules/gui/macosx/playlist.m:777 modules/gui/qt4/dialogs_provider.cpp:563
+#: modules/gui/macosx/playlist.m:782 modules/gui/qt4/dialogs_provider.cpp:563
 msgid "HTML playlist"
 msgstr "HTML गीत-सूची"
 
-#: modules/gui/macosx/playlist.m:779
+#: modules/gui/macosx/playlist.m:784
 msgid "Save Playlist"
 msgstr "सहेजू प्लेलिस्ट"
 
-#: modules/gui/macosx/playlist.m:1204
+#: modules/gui/macosx/playlist.m:1209
 msgid "Meta-information"
 msgstr "मेटा जानकारी"
 
@@ -18082,7 +18082,7 @@ msgid "Select"
 msgstr "चुनू"
 
 #: modules/gui/macosx/ResumeDialogController.m:44 modules/gui/qt4/qt4.cpp:188
-#: modules/gui/qt4/ui/sprefs_interface.h:544
+#: modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Continue playback?"
 msgstr "प्लेबैक जारी राखू?"
 
@@ -18244,7 +18244,7 @@ msgid "Show Fullscreen Controller"
 msgstr "फुलस्क्रीन नियंत्रक देखाउ"
 
 #: modules/gui/macosx/simple_prefs.m:387
-#: modules/gui/qt4/ui/sprefs_interface.h:534
+#: modules/gui/qt4/ui/sprefs_interface.h:542
 msgid "Privacy / Network Interaction"
 msgstr "गोपनीयता / संजाल इंटरेक्शन"
 
@@ -20147,7 +20147,7 @@ msgid "File names:"
 msgstr "फाइल क नाम:"
 
 #: modules/gui/qt4/components/open_panels.cpp:162
-#: modules/gui/qt4/ui/sprefs_interface.h:537
+#: modules/gui/qt4/ui/sprefs_interface.h:545
 msgid "Filter:"
 msgstr "फिल्टर"
 
@@ -21322,7 +21322,7 @@ msgid "Repeat delay:"
 msgstr "विलम्ब दोहराउ:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:107
-#: modules/gui/qt4/ui/sprefs_interface.h:535
+#: modules/gui/qt4/ui/sprefs_interface.h:543
 msgid " days"
 msgstr " दिन"
 
@@ -28463,7 +28463,7 @@ msgstr "अद्यतन"
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:296
 #: modules/gui/qt4/ui/open_net.h:96 modules/gui/qt4/ui/sprefs_audio.h:425
 #: modules/gui/qt4/ui/sprefs_input.h:345
-#: modules/gui/qt4/ui/sprefs_interface.h:509
+#: modules/gui/qt4/ui/sprefs_interface.h:516
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/sprefs_video.h:320 modules/gui/qt4/ui/streampanel.h:167
 msgid "Form"
@@ -28933,99 +28933,99 @@ msgstr "Live555 धारा परिवहन"
 msgid "Default caching policy"
 msgstr "पूर्वनिर्धारित कैचिंग नीति"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:511
+#: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "Menus language:"
 msgstr "मेनू भाषा:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:512
+#: modules/gui/qt4/ui/sprefs_interface.h:519
 msgid "Look and feel"
 msgstr "देखू आओर महसूस करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:513
+#: modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Use custom skin"
 msgstr "प्रचलित त्वचा क प्रयोग करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:515
+#: modules/gui/qt4/ui/sprefs_interface.h:522
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr "ई VLC क पूर्वनिर्धारित अंतरफलक,  देशी रँग - रूप आओर अनुभव अछि."
 
-#: modules/gui/qt4/ui/sprefs_interface.h:517
+#: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Use native style"
 msgstr "मूल शैली क प्रयोग करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:518
+#: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Resize interface to video size"
 msgstr "अंतरफलक क आकार वीडियो क आकार क कए दिअ'।"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:519
+#: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Show controls in full screen mode"
 msgstr "पूर्ण स्क्रीन मोड मे नियंत्रण देखाउ"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:520
+#: modules/gui/qt4/ui/sprefs_interface.h:527
 msgid "Pause playback when minimized"
 msgstr "छोट कएल गेल जाए पर प्लेबैक रोकू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:521
+#: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "Show media change popup:"
 msgstr "मीडिया परिवर्तन पापअप देखाउ:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:522
+#: modules/gui/qt4/ui/sprefs_interface.h:529
 msgid "Start in minimal view mode"
 msgstr "कम सँ कम दृश्य मोड मे प्रारंभ करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:523
+#: modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Force window style:"
 msgstr "शक्ति विंडो शैली:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:524
+#: modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Integrate video in interface"
 msgstr "अंतरफलक मे वीडियो केँ एकीकृत करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:525
+#: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Show systray icon"
 msgstr "सिस्ट्रे चिह्न देखाउ"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:526
+#: modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Skin resource file:"
 msgstr "त्वचा संसाधन फाइल:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:528
+#: modules/gui/qt4/ui/sprefs_interface.h:536
 msgid "Playlist and Instances"
 msgstr "प्लेलिस्ट आओर दृष्टांत"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:529
+#: modules/gui/qt4/ui/sprefs_interface.h:537
 msgid "Allow only one instance"
 msgstr "केवल एकटा आवृत्ति क अनुमति दिअ'"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:532
+#: modules/gui/qt4/ui/sprefs_interface.h:540
 msgid "Pause on the last frame of a video"
 msgstr "वीडियो क अंतिम फ्रेम पर रोकू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:536
+#: modules/gui/qt4/ui/sprefs_interface.h:544
 msgid "Every "
 msgstr "प्रत्येक"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:539
+#: modules/gui/qt4/ui/sprefs_interface.h:547
 msgid "Separate words by | (without space)"
 msgstr "| द्वारा शब्द केँ (स्थान क बिना) अलग करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:541
+#: modules/gui/qt4/ui/sprefs_interface.h:549
 msgid "Save recently played items"
 msgstr "हाल  मे चलाएल गेल मद सहेजू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:542
+#: modules/gui/qt4/ui/sprefs_interface.h:550
 msgid "Activate updates notifier"
 msgstr "अद्यतन सूचक सक्रिय करू"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:545
+#: modules/gui/qt4/ui/sprefs_interface.h:552
 msgid "Operating System Integration"
 msgstr "आपरेटिंग सिस्टमक एकीकरण"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:546
+#: modules/gui/qt4/ui/sprefs_interface.h:553
 msgid "File extensions association"
 msgstr "फाइल संघक विस्तार"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:547
+#: modules/gui/qt4/ui/sprefs_interface.h:554
 msgid "Set up associations..."
 msgstr "संगठन केँ सेट करू ..."
 
