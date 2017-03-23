@@ -1106,19 +1106,25 @@ static int Direct3DCreateScene(vout_display_t *vd, const video_format_t *fmt)
     IDirect3DDevice9_SetSamplerState(d3ddev, 0, D3DSAMP_ADDRESSV, D3DTADDRESS_CLAMP);
 
     // Set linear filtering quality
-    if (sys->d3dcaps.TextureFilterCaps & D3DPTFILTERCAPS_MINFLINEAR) {
+    /* we can't use linear interpolation in software decoding, the pictures
+     * are not initialized to black */
+    if ( sys->d3dcaps.TextureFilterCaps & D3DPTFILTERCAPS_MINFLINEAR ) {
         msg_Dbg(vd, "Using D3DTEXF_LINEAR for minification");
         IDirect3DDevice9_SetSamplerState(d3ddev, 0, D3DSAMP_MINFILTER, D3DTEXF_LINEAR);
+        sys->minFilter = D3DTEXF_LINEAR;
     } else {
         msg_Dbg(vd, "Using D3DTEXF_POINT for minification");
         IDirect3DDevice9_SetSamplerState(d3ddev, 0, D3DSAMP_MINFILTER, D3DTEXF_POINT);
+        sys->minFilter = D3DTEXF_POINT;
     }
-    if (sys->d3dcaps.TextureFilterCaps & D3DPTFILTERCAPS_MAGFLINEAR) {
+    if ( sys->d3dcaps.TextureFilterCaps & D3DPTFILTERCAPS_MAGFLINEAR ) {
         msg_Dbg(vd, "Using D3DTEXF_LINEAR for magnification");
         IDirect3DDevice9_SetSamplerState(d3ddev, 0, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR);
+        sys->magFilter = D3DTEXF_LINEAR;
     } else {
         msg_Dbg(vd, "Using D3DTEXF_POINT for magnification");
         IDirect3DDevice9_SetSamplerState(d3ddev, 0, D3DSAMP_MAGFILTER, D3DTEXF_POINT);
+        sys->magFilter = D3DTEXF_POINT;
     }
 
     // set maximum ambient light
@@ -1463,7 +1469,14 @@ static int Direct3DImportPicture(vout_display_t *vd,
 
     /* Copy picture surface into texture surface
      * color space conversion happen here */
-    hr = IDirect3DDevice9_StretchRect(sys->d3ddev, source, &vd->sys->rect_src_clipped, destination, NULL, D3DTEXF_NONE );
+    D3DTEXTUREFILTERTYPE filterType;
+    if (sys->rect_src_clipped.right < sys->rect_dest_clipped.right)
+        filterType = sys->magFilter;
+    else if (sys->rect_src_clipped.right > sys->rect_dest_clipped.right)
+        filterType = sys->minFilter;
+    else
+        filterType = D3DTEXF_NONE;
+    hr = IDirect3DDevice9_StretchRect(sys->d3ddev, source, &sys->rect_src_clipped, destination, NULL, filterType );
     IDirect3DSurface9_Release(destination);
     if (FAILED(hr)) {
         msg_Dbg(vd, "%s:%d (hr=0x%0lX)", __FUNCTION__, __LINE__, hr);

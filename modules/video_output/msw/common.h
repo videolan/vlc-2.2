@@ -154,6 +154,8 @@ struct vout_display_sys_t
     D3DCAPS9                d3dcaps;
     LPDIRECT3DDEVICE9       d3ddev;
     D3DPRESENT_PARAMETERS   d3dpp;
+    D3DTEXTUREFILTERTYPE    minFilter;
+    D3DTEXTUREFILTERTYPE    magFilter;
 
     // scene objects
     LPDIRECT3DTEXTURE9      d3dtex;
