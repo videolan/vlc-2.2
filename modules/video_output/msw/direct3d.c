@@ -270,13 +270,6 @@ static void Close(vlc_object_t *object)
     free(vd->sys);
 }
 
-static D3DCOLOR GetFormatBlack(D3DFORMAT format)
-{
-    if (vlc_fourcc_IsYUV(format))
-        return D3DCOLOR_XYUV(0,0x80,0x80);
-    return D3DCOLOR_ARGB(0xFF, 0, 0, 0);
-}
-
 /* */
 static picture_pool_t *Pool(vout_display_t *vd, unsigned count)
 {
@@ -989,7 +982,7 @@ static int Direct3DCreatePool(vout_display_t *vd, video_format_t *fmt)
         return VLC_EGENERIC;
     }
     /* fill surface with black color */
-    IDirect3DDevice9_ColorFill(d3ddev, surface, NULL, GetFormatBlack(d3dfmt->format));
+    IDirect3DDevice9_ColorFill(d3ddev, surface, NULL, D3DCOLOR_ARGB(0xFF, 0, 0, 0));
 
     /* Create the associated picture */
     picture_sys_t *picsys = malloc(sizeof(*picsys));
