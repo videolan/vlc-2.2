@@ -2431,7 +2431,7 @@ AS_IF([test "${enable_dxva2}" != "no"], [
     AS_IF([test "${enable_dxva2}" = "yes"],
               [AC_MSG_ERROR([Could not find required dxva2api.h])],
               [AC_MSG_WARN([dxva2api.h not found])])
-      ])
+      ], [#include <d3d9.h>])
   ],[
     AS_IF([test "x${enable_dxva2}" != "x"], [
       AC_MSG_ERROR([--enable-dxva2 and --disable-avcodec options are mutually exclusive.])
