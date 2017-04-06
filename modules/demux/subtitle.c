@@ -1867,7 +1867,7 @@ static int ParseJSS( demux_t *p_demux, subtitle_t *p_subtitle, int i_idx )
             if( ( toupper((unsigned char)*(psz_text + 1 ) ) == 'C' ) ||
                     ( toupper((unsigned char)*(psz_text + 1 ) ) == 'F' ) )
             {
-                psz_text++; psz_text++;
+                psz_text++;
                 break;
             }
             if( (*(psz_text + 1 ) ) == 'B' || (*(psz_text + 1 ) ) == 'b' ||
