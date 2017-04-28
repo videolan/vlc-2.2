@@ -1886,8 +1886,8 @@ static int ParseJSS( demux_t *p_demux, subtitle_t *p_subtitle, int i_idx )
             if( (*(psz_text + 1 ) ) == '~' || (*(psz_text + 1 ) ) == '{' ||
                 (*(psz_text + 1 ) ) == '\\' )
                 psz_text++;
-            else if( *(psz_text + 1 ) == '\r' ||  *(psz_text + 1 ) == '\n' ||
-                     *(psz_text + 1 ) == '\0' )
+            else if( ( *(psz_text + 1 ) == '\r' ||  *(psz_text + 1 ) == '\n' ) &&
+                     *(psz_text + 1 ) != '\0' )
             {
                 psz_text++;
             }
