@@ -610,7 +610,7 @@ picture_t *DecodeVideo( decoder_t *p_dec, block_t **pp_block )
         post_mt( p_sys );
 
         av_init_packet( &pkt );
-        if( p_block )
+        if( p_block && p_block->i_buffer > 0 )
         {
             pkt.data = p_block->p_buffer;
             pkt.size = p_block->i_buffer;
