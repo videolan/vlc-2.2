@@ -142,8 +142,10 @@ enum nal_unit_type_e
     NAL_SEI         = 6,    /* ref_idc == 0 */
     NAL_SPS         = 7,
     NAL_PPS         = 8,
-    NAL_AU_DELIMITER= 9
+    NAL_AU_DELIMITER= 9,
     /* ref_idc == 0 for 6,9,10,11,12 */
+    NAL_END_OF_SEQ  = 10,
+    NAL_END_OF_STREAM = 11,
 };
 
 #define BLOCK_FLAG_PRIVATE_AUD (1 << BLOCK_FLAG_PRIVATE_SHIFT)
@@ -660,6 +662,22 @@ static block_t *ParseNALBlock( decoder_t *p_dec, bool *pb_ts_used, block_t *p_fr
 
         /* Do not append the PPS because we will insert it on keyframes */
         p_frag = NULL;
+    }
+    else if( i_nal_type == NAL_END_OF_SEQ || i_nal_type == NAL_END_OF_STREAM )
+    {
+        /* Force early output */
+        if( p_frag )
+        {
+            block_ChainAppend( &p_sys->p_frame, p_frag );
+            p_frag = NULL;
+        }
+
+        if( p_sys->b_slice )
+        {
+            p_pic = OutputPicture( p_dec );
+            if( p_pic ) /* set flag for menus / stills */
+                p_pic->i_flags |= BLOCK_FLAG_END_OF_SEQUENCE;
+        }
     }
     else if( i_nal_type == NAL_AU_DELIMITER ||
              i_nal_type == NAL_SEI ||
