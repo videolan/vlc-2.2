@@ -469,7 +469,7 @@ static int Demux( demux_t *p_demux )
                         if( ( psz_parse = strcasestr( psz_parse, "\"" ) ) )
                         {
                             i_strlen = psz_parse-psz_backup;
-                            if( i_strlen < 1 ) continue;
+                            if( i_strlen < 1 || i_strlen > 32768 ) continue;
                             psz_string = xmalloc( i_strlen +1);
                             memcpy( psz_string, psz_backup, i_strlen );
                             psz_string[i_strlen] = '\0';
@@ -631,7 +631,7 @@ static int Demux( demux_t *p_demux )
                         {
                             char *psz_tmp;
                             i_strlen = psz_parse-psz_backup;
-                            if( i_strlen < 1 ) continue;
+                            if( i_strlen < 1 || i_strlen > 32768 ) continue;
 
                             if( psz_href )
                             {
