@@ -255,7 +255,7 @@ static int Demux( demux_t *p_demux )
             i_pos += i_read;
             p_sys->i_data_len <<= 1 ;
             p_sys->psz_data = xrealloc( p_sys->psz_data,
-                                   p_sys->i_data_len * sizeof( char * ) + 1 );
+                                   p_sys->i_data_len * sizeof( *p_sys->psz_data ) + 1 );
         }
         if( p_sys->i_data_len <= 0 ) return -1;
     }
