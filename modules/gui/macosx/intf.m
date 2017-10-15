@@ -687,6 +687,10 @@ static VLCMain *_o_sharedMainInstance = nil;
 
     o_open = [[VLCOpen alloc] init];
     o_coredialogs = [[VLCCoreDialogProvider alloc] init];
+    if (!nib_coredialogs_loaded) {
+        nib_coredialogs_loaded = [NSBundle loadNibNamed:@"CoreDialogs" owner: NSApp];
+    }
+
     o_mainmenu = [[VLCMainMenu alloc] init];
     o_coreinteraction = [[VLCCoreInteraction alloc] init];
     o_eyetv = [[VLCEyeTVController alloc] init];
@@ -1769,10 +1773,6 @@ static bool f_appExit = false;
 
 - (id)coreDialogProvider
 {
-    if (!nib_coredialogs_loaded) {
-        nib_coredialogs_loaded = [NSBundle loadNibNamed:@"CoreDialogs" owner: NSApp];
-    }
-
     return o_coredialogs;
 }
 
