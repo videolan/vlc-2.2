@@ -404,7 +404,9 @@ static int InputEvent(vlc_object_t *p_this, const char *psz_var,
         case INPUT_EVENT_BOOKMARK:
             break;
         case INPUT_EVENT_RECORD:
-            [[VLCMain sharedInstance] updateRecordState: var_GetBool(p_this, "record")];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [[VLCMain sharedInstance] updateRecordState: var_GetBool(p_this, "record")];
+            });
             break;
         case INPUT_EVENT_PROGRAM:
             [[VLCMain sharedInstance] performSelectorOnMainThread:@selector(updateMainMenu) withObject: nil waitUntilDone:NO];
@@ -512,8 +514,10 @@ static int BossCallback(vlc_object_t *p_this, const char *psz_var,
 {
     NSAutoreleasePool * o_pool = [[NSAutoreleasePool alloc] init];
 
-    [[VLCCoreInteraction sharedInstance] performSelectorOnMainThread:@selector(pause) withObject:nil waitUntilDone:NO];
-    [[VLCApplication sharedApplication] hide:nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[VLCCoreInteraction sharedInstance] pause];
+        [[VLCApplication sharedApplication] hide:nil];
+    });
 
     [o_pool release];
     return VLC_SUCCESS;
