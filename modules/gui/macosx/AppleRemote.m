@@ -106,6 +106,11 @@ static AppleRemote *_o_sharedInstance = nil;
         /* Lion cookies */
             [mutableCookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteControl_Switched]     forKey:@"42_33_23_21_20_2_33_23_21_20_2_"];
 
+        if (OSX_HIGH_SIERRA_AND_HIGHER) {
+            [mutableCookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteButtonVolume_Plus]    forKey:@"33_21_20_15_12_2_"];
+            [mutableCookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteButtonVolume_Minus]   forKey:@"33_21_20_16_12_2_"];
+        }
+
         _cookieToButtonMapping = [[NSDictionary alloc] initWithDictionary: mutableCookieToButtonMapping];
         [mutableCookieToButtonMapping release];
 

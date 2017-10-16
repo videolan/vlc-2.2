@@ -31,6 +31,7 @@
 #define OSX_MAVERICKS (NSAppKitVersionNumber < 1334 && NSAppKitVersionNumber >= 1244)
 #define OSX_YOSEMITE (NSAppKitVersionNumber < 1404 && NSAppKitVersionNumber >= 1334)
 #define OSX_EL_CAPITAN (NSAppKitVersionNumber >= 1404)
+#define OSX_HIGH_SIERRA_AND_HIGHER (NSAppKitVersionNumber >= 1560)
 
 #pragma mark -
 #pragma Fixes for OS X Snow Leopard (10.6)
