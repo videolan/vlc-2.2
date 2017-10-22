@@ -33,6 +33,7 @@ $(TARBALLS)/libass-$(ASS_VERSION).tar.gz:
 libass: libass-$(ASS_VERSION).tar.gz .sum-ass
 	$(UNPACK)
 	$(APPLY) $(SRC)/ass/ass-macosx.patch
+	$(APPLY) $(SRC)/ass/ass-macosx-coretext.patch
 	$(APPLY) $(SRC)/ass/ass-solaris.patch
 	$(UPDATE_AUTOCONFIG)
 	$(MOVE)
