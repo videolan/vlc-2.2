@@ -1,12 +1,11 @@
 # Portuguese translation
 # Copyright (C) 2017 VideoLAN
-# This file is distributed under the same license as the vlc package.
+# This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # alfalb_mansil, 2014
 # André Filipe Sobral de Matos Gomes <andre.filipe.gomez@gmail.com>, 2013
-# Drew Melim <nokostya.translation@gmail.com>, 2014
-# Bruno Queiros <bqueiros@gmail.com>, 2014-2016
+# Bruno Queiros <bqueiros@gmail.com>, 2014-2017
 # enVide neFelibata <info@envidenefelibata.com>, 2014
 # Gonçalo Matos , 2015-2016
 # Gonçalo Silva, 2013-2016
@@ -16,19 +15,20 @@
 # Luis Neves <luisjneves@gmail.com>, 2014
 # Manuela Silva <manuela.silva@sky.com>, 2014,2016
 # Miguel Sousa <migueljorgesousa@sapo.pt>, 2012
+# Drew Melim <nokostya.translation@gmail.com>, 2014
 # Pedro Ivo, 2015
 # pingo.mister <joao.lnsa@netcabo.pt>, 2012
 # pvaladares, 2012
 # Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012
 # Rui <xymarior@yandex.com>, 2017
-# Sérgio Marques <smarquespt@gmail.com>, 2015-2016
+# Sérgio Marques <smarquespt@gmail.com>, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2017-03-15 00:30+0100\n"
-"PO-Revision-Date: 2017-02-06 13:43+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2017-10-10 09:14+0000\n"
+"Last-Translator: Bruno Queiros <bqueiros@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/yaron/vlc-"
 "trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -2646,8 +2646,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -4595,12 +4596,14 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Percorre as faixas de legendas disponíveis."
 
 #: src/libvlc-module.c:1352
+#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Alternar legendas"
+msgstr "Legendas do teletexto"
 
 #: src/libvlc-module.c:1353
+#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Alternar visibilidade da faixa de legendas."
+msgstr "Percorrer a faixa de legendas"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -6627,8 +6630,9 @@ msgid "Layer C time interleaving"
 msgstr "intercalação do tempo da camada C"
 
 #: modules/access/dtv/access.c:154
+#, fuzzy
 msgid "Stream identifier"
-msgstr "Identificador da transmissão"
+msgstr "Identificador de rede"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -6921,8 +6925,9 @@ msgid "DVDnav Input"
 msgstr "Entrada DVDnav"
 
 #: modules/access/dvdnav.c:104
+#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Demuxer DVDnav"
+msgstr "Desmultiplexador NUV"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -6975,8 +6980,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "Entrada EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "A leitura do ficheiro falhou"
 
@@ -7066,8 +7072,8 @@ msgstr "Entrada de ficheiro"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8942,7 +8948,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9794,7 +9801,8 @@ msgstr "Equalizador"
 msgid "Flat"
 msgstr "Plano"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Clássica"
 
@@ -9803,7 +9811,8 @@ msgstr "Clássica"
 msgid "Club"
 msgstr "Clube"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dança"
 
@@ -9835,19 +9844,23 @@ msgstr "Ao vivo"
 msgid "Party"
 msgstr "Festa"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "Pop"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "Reggae"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "Rock"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "Ska"
 
@@ -9859,7 +9872,8 @@ msgstr "Suave"
 msgid "Soft rock"
 msgstr "Rock suave"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "Techno"
 
@@ -14968,8 +14982,8 @@ msgstr "Imagem"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "Fotogramas por segundo"
 
@@ -16471,13 +16485,15 @@ msgstr "Descoberta de serviço"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
+#, fuzzy
 msgid "Interfaces"
-msgstr "Interfaces"
+msgstr "Interface"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
+#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Obtentor de imagem e informações"
+msgstr "Meta coletor Lua"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16544,7 +16560,8 @@ msgstr "Ativar compressão de faixa dinâmica"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "Repor"
 
@@ -16664,8 +16681,8 @@ msgid "Bookmarks"
 msgstr "Marcadores"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "Adicionar"
 
@@ -16982,8 +16999,9 @@ msgid "Setup Streaming..."
 msgstr "Configurar transmissão..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
+#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Selecione o métoso de transmissão"
+msgstr "Método de transmissão"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18689,20 +18707,24 @@ msgid "No check was performed yet."
 msgstr "Ainda não foi feita qualquer verificação."
 
 #: modules/gui/macosx/simple_prefs.m:739
+#, fuzzy
 msgid "Lowest Latency"
-msgstr "Latência muito baixa"
+msgstr "Latência mais baixa"
 
 #: modules/gui/macosx/simple_prefs.m:742
+#, fuzzy
 msgid "Low Latency"
 msgstr "Latência baixa"
 
 #: modules/gui/macosx/simple_prefs.m:748
+#, fuzzy
 msgid "Higher Latency"
-msgstr "Latência alta"
+msgstr "Latência mais alta"
 
 #: modules/gui/macosx/simple_prefs.m:751
+#, fuzzy
 msgid "Highest Latency"
-msgstr "Latência muito alta"
+msgstr "Latência mais alta"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18851,7 +18873,8 @@ msgstr ""
 "to their content and this value.\n"
 "Set 0 to disable."
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "Efeitos de vídeo"
 
@@ -18859,7 +18882,8 @@ msgstr "Efeitos de vídeo"
 msgid "Basic"
 msgstr "Básico"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "Geometria"
 
@@ -18876,7 +18900,8 @@ msgstr "Cor"
 msgid "Image Adjust"
 msgstr "Ajustar a imagem"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "Limite de brilho"
 
@@ -18885,12 +18910,14 @@ msgstr "Limite de brilho"
 msgid "Sharpen"
 msgstr "Melhorar"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Remover gradação"
 
@@ -18899,7 +18926,8 @@ msgstr "Remover gradação"
 msgid "Radius"
 msgstr "Raio"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "Remover granularidade"
 
@@ -19043,7 +19071,8 @@ msgstr "Desfoque de movimento"
 msgid "Factor"
 msgstr "Fator"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "Deteção de movimento"
 
@@ -19076,8 +19105,9 @@ msgstr "Adicionar logotipo"
 msgid "Logo"
 msgstr "Logotipo"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "Transparência"
 
@@ -19405,7 +19435,8 @@ msgstr "Unicast RTP"
 msgid "UDP Multicast"
 msgstr "Multicast UDP"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "Transcodificação"
 
@@ -20849,8 +20880,8 @@ msgstr "&Aplicar"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20996,8 +21027,8 @@ msgstr "Apagar todos os marcadores"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:83
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -21017,7 +21048,8 @@ msgstr "Bytes"
 msgid "Convert"
 msgstr "Converter"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "Ficheiro destino:"
 
@@ -21121,7 +21153,8 @@ msgstr "Ir"
 msgid "Go to time"
 msgstr "Ir para o tempo"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "Informações"
@@ -21721,8 +21754,9 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Pretende continuar a reprodução onde deixou?"
 
 #: modules/gui/qt4/main_interface.cpp:390
+#, fuzzy
 msgid "&Continue"
-msgstr "&Continuar"
+msgstr "Continuar"
 
 #: modules/gui/qt4/main_interface.cpp:1312
 msgid "Control menu for the player"
@@ -23335,8 +23369,9 @@ msgid "LibNotify Notification Plugin"
 msgstr "Extra de notificação LibNotify"
 
 #: modules/packetizer/avparser.h:49
+#, fuzzy
 msgid "avparser packetizer"
-msgstr "Empacotador avparser"
+msgstr "Copiar empacotador"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -23982,7 +24017,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "Transparência da figura em mosaico."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Deslocamento no eixo X"
 
@@ -23992,7 +24028,8 @@ msgstr ""
 "Coordenada X do canto superior esquerdo do mosaico, se não for negativo."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Deslocamento no eixo Y"
 
@@ -29127,8 +29164,9 @@ msgid "FLAC"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:703
+#, fuzzy
 msgid "MP&4/MOV"
-msgstr ""
+msgstr "MP4/MOV"
 
 #: modules/gui/qt4/ui/profiles.h:704
 msgid "Ogg/Ogm"
@@ -29139,8 +29177,9 @@ msgid "M&KV"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:706
+#, fuzzy
 msgid "M&JPEG"
-msgstr ""
+msgstr "MJPEG"
 
 #: modules/gui/qt4/ui/profiles.h:707
 msgid "MPEG-PS"
@@ -29151,8 +29190,9 @@ msgid "F&LV"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:709
+#, fuzzy
 msgid "&MPEG-TS"
-msgstr ""
+msgstr "MPEG-TS"
 
 #: modules/gui/qt4/ui/profiles.h:710
 msgid "RAW"
@@ -29167,8 +29207,9 @@ msgid "Webm"
 msgstr "Webm"
 
 #: modules/gui/qt4/ui/profiles.h:713
+#, fuzzy
 msgid "MPEG &1"
-msgstr ""
+msgstr "MPEG 1"
 
 #: modules/gui/qt4/ui/profiles.h:714
 msgid "AVI"
@@ -29199,8 +29240,9 @@ msgid "Menus"
 msgstr "Menus"
 
 #: modules/gui/qt4/ui/profiles.h:730
+#, fuzzy
 msgid "Fra&me Rate"
-msgstr ""
+msgstr "Taxa de fotogramas"
 
 #: modules/gui/qt4/ui/profiles.h:731
 msgid "Same as source"
@@ -29215,8 +29257,9 @@ msgid "Custom options"
 msgstr "Opções personalizadas"
 
 #: modules/gui/qt4/ui/profiles.h:735
+#, fuzzy
 msgid "&Quality"
-msgstr ""
+msgstr "Qualidade"
 
 #: modules/gui/qt4/ui/profiles.h:736 modules/gui/qt4/ui/profiles.h:737
 msgid "Not Used"
@@ -29239,12 +29282,14 @@ msgid "px"
 msgstr "px"
 
 #: modules/gui/qt4/ui/profiles.h:758
+#, fuzzy
 msgid "Sa&mple Rate"
-msgstr ""
+msgstr "Frequência"
 
 #: modules/gui/qt4/ui/profiles.h:766
+#, fuzzy
 msgid "Profile &Name"
-msgstr ""
+msgstr "Nome do perfil"
 
 #: modules/gui/qt4/ui/sout.h:203
 msgid "Set up media sources to stream"
@@ -29804,56 +29849,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Lista do gestor multimédia"
-
-#~ msgid "FLV"
-#~ msgstr "FLV"
-
-#~ msgid ""
-#~ "If your framebuffer supports hardware acceleration or does double "
-#~ "buffering in hardware then you must disable this option. It then does "
-#~ "double buffering in software."
-#~ msgstr ""
-#~ "Se o seu framebuffer suportar a aceleração de hardware ou o buffer duplo "
-#~ "no hardware, então deve desativar esta opção. Depois faz o buffer duplo "
-#~ "no software."
-
-#~ msgid ""
-#~ "The XVideo rendering acceleration driver does not support the required "
-#~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
-#~ "Acceleration will thus be disabled. Performance may be degraded severely "
-#~ "if the resolution is large."
-#~ msgstr ""
-#~ "The XVideo rendering acceleration driver does not support the required "
-#~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
-#~ "Acceleration will thus be disabled. Performance may be degraded severely "
-#~ "if the resolution is large."
-
-#~ msgid ""
-#~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
-#~ msgstr ""
-#~ "Envia ip:porta específicos para o TS pelo udp (você deve saber o que está "
-#~ "fazendo)."
-
-#~ msgid "MTU for out mode"
-#~ msgstr "MTU para modo de saída"
-
-#~ msgid "MTU for out mode."
-#~ msgstr "MTU para modo de saída."
-
-#~ msgid "Uncompressed RAR"
-#~ msgstr "RAR descomprimido"
-
-#~ msgid "VLC Debug Log (%s).rtf"
-#~ msgstr "VLC Debug Log (%s).rtf"
-
-#~ msgid "No EPG Data Available"
-#~ msgstr "Não há dados disponíveis do EPG"
-
-#~ msgid " (%1+ rated)"
-#~ msgstr "(%1+ Classificado)"
-
-#~ msgid "Empty"
-#~ msgstr "Vazio"
 
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
@@ -31655,6 +31650,56 @@ msgstr "Lista do gestor multimédia"
 #~ "subtítulos, por exemplo ao definir o tipo de subtítulos ou nome de "
 #~ "ficheiro."
 
+#~ msgid "FLV"
+#~ msgstr "FLV"
+
+#~ msgid ""
+#~ "If your framebuffer supports hardware acceleration or does double "
+#~ "buffering in hardware then you must disable this option. It then does "
+#~ "double buffering in software."
+#~ msgstr ""
+#~ "Se o seu framebuffer suportar a aceleração de hardware ou efectuar duplo "
+#~ "buffer por hardware, então deve desativar esta opção. Fazendo assim "
+#~ "depois duplo buffer por software."
+
+#~ msgid ""
+#~ "The XVideo rendering acceleration driver does not support the required "
+#~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
+#~ "Acceleration will thus be disabled. Performance may be degraded severely "
+#~ "if the resolution is large."
+#~ msgstr ""
+#~ "O driver de aceleração de renderização XVideo não suporta a resolução "
+#~ "necessária de %ux%u pixels mas suporta %<PRIu32>x%<PRIu32> pixels.\n"
+#~ "Aceleração será desactivada. A performance pode ser degradada severamente "
+#~ "se a resolução for grande."
+
+#~ msgid ""
+#~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
+#~ msgstr ""
+#~ "Enviar TS para um ip:port específico por udp (você tem que saber o que "
+#~ "está a fazer)."
+
+#~ msgid "MTU for out mode"
+#~ msgstr "MTU para o modo de saída"
+
+#~ msgid "MTU for out mode."
+#~ msgstr "MTU para o modo de saída."
+
+#~ msgid "Uncompressed RAR"
+#~ msgstr "RAR descomprimido"
+
+#~ msgid "VLC Debug Log (%s).rtf"
+#~ msgstr "Registo de depuração do VLC (%s).rtf"
+
+#~ msgid "No EPG Data Available"
+#~ msgstr "Dados EPG não disponíveis"
+
+#~ msgid " (%1+ rated)"
+#~ msgstr "(%1+ classificado)"
+
+#~ msgid "Empty"
+#~ msgstr "Vazio"
+
 #, fuzzy
 #~ msgid "MOV"
 #~ msgstr "MKV"
@@ -31663,130 +31708,102 @@ msgstr "Lista do gestor multimédia"
 #~ msgid "MJPEG:"
 #~ msgstr "MJPEG"
 
-#, fuzzy
 #~ msgid "MKV"
-#~ msgstr "KVA"
+#~ msgstr "MKV"
 
-#, fuzzy
 #~ msgid "---  DVD Menu"
-#~ msgstr "Menus de DVD"
+#~ msgstr "---  Menu de DVD"
 
-#, fuzzy
 #~ msgid "First Played"
 #~ msgstr "Primeira reprodução"
 
-#, fuzzy
 #~ msgid "Video Manager"
-#~ msgstr "Gestor de extras"
+#~ msgstr "Gestor de vídeos"
 
-#, fuzzy
 #~ msgid "----- Title"
-#~ msgstr "Título"
+#~ msgstr "----- Título"
 
-#, fuzzy
 #~ msgid "Select a matching identity"
-#~ msgstr "Selecione o métoso de transmissão"
+#~ msgstr "Selecione a identidade correspondente"
 
-#, fuzzy
 #~ msgid "Video acceleration not available"
-#~ msgstr "Saída de vídeo K Video Acceleration"
+#~ msgstr "Aceleração de vídeo não disponível"
 
-#, fuzzy
 #~ msgid "Subtitle track added"
-#~ msgstr "Faixa de legendas"
+#~ msgstr "Legenda adicionada"
 
-#, fuzzy
 #~ msgid "Media in Zip"
-#~ msgstr "Recuar"
+#~ msgstr "Multimédia no ZIP"
 
-#, fuzzy
 #~ msgid "Path to the media in the Zip archive"
-#~ msgstr "O caminho do tema a utilizar."
+#~ msgstr "Caminho para o arquivo ZIP"
 
-#, fuzzy
 #~ msgid "Fast udp streaming"
-#~ msgstr "Configurar transmissão..."
+#~ msgstr "Streaming rápido udp"
 
-#, fuzzy
 #~ msgid "AVFoundation Video Capture"
-#~ msgstr "Captura vídeo"
+#~ msgstr "Captura de vídeo AVFoundation"
 
-#, fuzzy
 #~ msgid "AVFoundation video capture module."
-#~ msgstr "Módulo de saída de áudio"
+#~ msgstr "Módulo para captura de vídeo AVFoundation."
 
-#, fuzzy
 #~ msgid "No video devices found"
-#~ msgstr "Nenhum dispositivo de entrada encontrado"
+#~ msgstr "Nenhum dispositivo encontrado"
 
-#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable video input device. "
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "O seu Mac não está equipado com um dispositivo de entrada adequado. "
-#~ "Verifique os conectores e controladores."
+#~ "Parece que o seu Mac não está equipado com um dispositivo de áudio "
+#~ "adequado.  Verifique os seus conectores e os controladores."
 
-#, fuzzy
 #~ msgid "QTSound"
-#~ msgstr "Surround"
+#~ msgstr "QTSound"
 
-#, fuzzy
 #~ msgid "QuickTime Sound Capture"
-#~ msgstr "Captura Quicktime"
+#~ msgstr "Captura de som QuickTime"
 
-#, fuzzy
 #~ msgid "No Audio Input device found"
-#~ msgstr "Nenhum dispositivo de entrada encontrado"
+#~ msgstr "Nenhum dispositivo áudio encontrado"
 
-#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable audio input device."
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "O seu Mac não está equipado com um dispositivo de entrada adequado. "
-#~ "Verifique os conectores e controladores."
+#~ "Parece que o seu Mac não está equipado com um dispositivo de áudio "
+#~ "adequado.  Verifique os seus conectores e os controladores."
 
-#, fuzzy
 #~ msgid "No audio input device found"
-#~ msgstr "Nenhum dispositivo de entrada encontrado"
+#~ msgstr "Nenhum dispositivo áudio encontrado"
 
-#, fuzzy
 #~ msgid "Save this Log..."
-#~ msgstr "&Guardar como..."
+#~ msgstr "Guardar este registo..."
 
-#, fuzzy
 #~ msgid "Deactivate"
-#~ msgstr "Ativar"
+#~ msgstr "Desativar"
 
-#, fuzzy
 #~ msgid "Audio Fingerprinting"
-#~ msgstr "&Impressão digital"
+#~ msgstr "Impressão digital áudio"
 
-#, fuzzy
 #~ msgid "No fingerprint has been found"
-#~ msgstr "Nenhuma entrada encontrada"
+#~ msgstr "Impressão digital não encontrada"
 
-#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
-#~ msgstr "Limpar "
+#~ msgstr "Limpar"
 
-#, fuzzy
 #~ msgid ""
 #~ "Please wait while your font cache is rebuilt.\n"
 #~ "This should take less than a few minutes."
 #~ msgstr ""
-#~ "Aguarde enquanto o cache de fontes é reorganizado.\n"
-#~ "Isto deve levar menos de um minuto."
+#~ "Por favor aguarde enquanto o cache de fontes é reconstruída.\n"
+#~ "Isto não deve demorar muitos minutos."
 
-#, fuzzy
 #~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLC media player - Interface Web"
+#~ msgstr "Reprodutor multimédia VLC - Visualizador flash"
 
-#, fuzzy
 #~ msgid "Streaming Output"
-#~ msgstr "Saída da transmissão"
+#~ msgstr "Saída de transmissão"
 
 #, fuzzy
 #~ msgid "Path to OSD menu images"
@@ -32443,7 +32460,7 @@ msgstr "Lista do gestor multimédia"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "Ficheiro de saída de áudio"
+#~ msgstr "Saída de áudio Windows Store"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -34580,7 +34597,7 @@ msgstr "Lista do gestor multimédia"
 
 #, fuzzy
 #~ msgid "Quality:"
-#~ msgstr "Qualidade VBR"
+#~ msgstr "Qualidade"
 
 #, fuzzy
 #~ msgid "Decimation:"
@@ -35821,7 +35838,7 @@ msgstr "Lista do gestor multimédia"
 
 #, fuzzy
 #~ msgid "MPEG-4 V"
-#~ msgstr "MPEG-4 video"
+#~ msgstr "MPEG 1"
 
 #, fuzzy
 #~ msgid "Open Subtitles"
@@ -35833,7 +35850,7 @@ msgstr "Lista do gestor multimédia"
 
 #, fuzzy
 #~ msgid "MPEG1"
-#~ msgstr "MPEG-PS"
+#~ msgstr "MPEG 1"
 
 #, fuzzy
 #~ msgid "Disc Devices"
@@ -35870,3 +35887,135 @@ msgstr "Lista do gestor multimédia"
 #, fuzzy
 #~ msgid "Addon Manager"
 #~ msgstr "Gestor de extras"
+
+#~ msgid "Probe DVB card for capabilities"
+#~ msgstr "Testar capacidades da placa DVB"
+
+#~ msgid ""
+#~ "Some DVB cards do not like to be probed for their capabilities, you can "
+#~ "disable this feature if you experience some trouble."
+#~ msgstr ""
+#~ "Algumas placas DVB não gostam que testem as suas capacidades. Pode "
+#~ "desativar esta funcionalidade se estiverem a ocorrer erros."
+
+#~ msgid "Satellite scanning config"
+#~ msgstr "Configuração da pesquisa por satélite"
+
+#~ msgid "filename of config file in share/dvb/dvb-s"
+#~ msgstr "nome do ficheiro ou ficheiro de configuração em share/dvb/dvb-s"
+
+#~ msgid "DVB"
+#~ msgstr "DVB"
+
+#~ msgid "DVB input with v4l2 support"
+#~ msgstr "Entrada DVB com suporte v4l2"
+
+#~ msgid ""
+#~ "%.1f MHz (%d services)\n"
+#~ "~%s remaining"
+#~ msgstr ""
+#~ "%.1f MHz (%d serviços)\n"
+#~ "Restam ~%s"
+
+#~ msgid "Scanning DVB"
+#~ msgstr "A analisar DVB"
+
+#~ msgid "Windows Multimedia Device output"
+#~ msgstr "Dispositivo de Saída Multimédia Windows"
+
+#~ msgid "SCTE-27 decoder"
+#~ msgstr "Descodificador SCTE-27"
+
+#~ msgid "SCTE-27"
+#~ msgstr "SCTE-27"
+
+#~ msgid "Specify the width to decode the image too"
+#~ msgstr "Especifique a largura para a descodificação da imagem"
+
+#~ msgid "Specify the height to decode the image too"
+#~ msgstr "Especifique a altura para a descodificação da imagem"
+
+#~ msgid "Scale factor to apply to image"
+#~ msgstr "Fator de escala a aplicar à imagem"
+
+#~ msgid "SVG video decoder"
+#~ msgstr "Descodificador de vídeo SVG"
+
+#~ msgid "WinMsg"
+#~ msgstr "WinMsg"
+
+#~ msgid "Windows messages interface"
+#~ msgstr "Interface de mensagens do Windows"
+
+#~ msgid "Fingerprinting track..."
+#~ msgstr "A identificar faixa..."
+
+#~ msgid ""
+#~ "Extension '%s' does not respond.\n"
+#~ "Do you want to kill it now? "
+#~ msgstr ""
+#~ "A extensão %s não está a responder.\n"
+#~ "Deseja terminar a sua execução?"
+
+#~ msgid "Extension not responding!"
+#~ msgstr "A extensão não responde! "
+
+#~ msgid "addons local storage"
+#~ msgstr "armanezamento local de extras"
+
+#~ msgid "Addons local storage installer"
+#~ msgstr "Instalador de armazenamento local de extras"
+
+#~ msgid "Addons local storage lister"
+#~ msgstr "Lister de addons em armazenamento local"
+
+#~ msgid "Videolan.org's addons finder"
+#~ msgstr "Localizador de extras Videolan.org"
+
+#~ msgid "addons.videolan.org addons finder"
+#~ msgstr "Localizador de extras addons.videolan.org"
+
+#~ msgid "Videolan.org's single archive addons finder"
+#~ msgstr "Localizador de addons de arquivo único Videolan.org"
+
+#~ msgid "single .vlp archive addons finder"
+#~ msgstr "Localizador de addons de único arquivo .vlp"
+
+#~ msgid "acoustid"
+#~ msgstr "acoustid"
+
+#~ msgid "Track fingerprinter (based on Acoustid)"
+#~ msgstr "Impressão digital da faixa (baseado em Acousticid)"
+
+#~ msgid "Duration of the fingerprinting"
+#~ msgstr "Duração da impressão digital"
+
+#~ msgid "Default: 90sec"
+#~ msgstr "Padrão: 90 seg."
+
+#~ msgid "Chromaprint stream output"
+#~ msgstr "Saída de stream chromaprint"
+
+#~ msgid "The width of the visualization window, in pixels."
+#~ msgstr "A largura da janela de vídeo, em pixels."
+
+#~ msgid "The height of the visualization window, in pixels."
+#~ msgstr "A altura da janela de visualização, em pixéis."
+
+#~ msgid "glSpectrum"
+#~ msgstr "glSpectrum"
+
+#~ msgid "3D OpenGL spectrum visualization"
+#~ msgstr "Visualização de espetro 3D OpenGL"
+
+#~ msgid "Hann"
+#~ msgstr "Hann"
+
+#~ msgid "Flat Top"
+#~ msgstr "Topo Plano"
+
+#~ msgid "Blackman-Harris"
+#~ msgstr "Blackman-Harris"
+
+#~ msgid "Kaiser"
+#~ msgstr "Kaiser"
