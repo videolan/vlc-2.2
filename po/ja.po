@@ -1,16 +1,16 @@
 # Japanese translation
-# Copyright (C) 2016 VideoLAN
-# This file is distributed under the same license as the vlc package.
+# Copyright (C) 2017 VideoLAN
+# This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2016
+# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2017
 # Tadashi Jokagi <elf@elf.no-ip.org>, 2004-2009
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2017-03-15 00:30+0100\n"
-"PO-Revision-Date: 2016-01-22 13:19+0000\n"
+"PO-Revision-Date: 2017-09-23 19:54+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/yaron/vlc-trans/language/"
 "ja/)\n"
@@ -2601,8 +2601,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -4503,12 +4504,14 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "使用可能な字幕トラックを切り替えます。"
 
 #: src/libvlc-module.c:1352
+#, fuzzy
 msgid "Toggle subtitles"
-msgstr "字幕の切替"
+msgstr "テレテキスト字幕"
 
 #: src/libvlc-module.c:1353
+#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "字幕表示の切替"
+msgstr "字幕トラックの切り替え"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -6525,8 +6528,9 @@ msgid "Layer C time interleaving"
 msgstr "レイヤー C タイムインターリーブ"
 
 #: modules/access/dtv/access.c:154
+#, fuzzy
 msgid "Stream identifier"
-msgstr "ストリーム識別子"
+msgstr "ネットワーク識別子"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -6815,8 +6819,9 @@ msgid "DVDnav Input"
 msgstr "DVDnav入力"
 
 #: modules/access/dvdnav.c:104
+#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "DVDnavデマルチプレクサー"
+msgstr "Nuvデマルチプレクサー"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -6869,8 +6874,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV入力"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "ファイルの読み込みに失敗しました"
 
@@ -6959,8 +6965,8 @@ msgstr "ファイル入力"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8826,7 +8832,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9671,7 +9678,8 @@ msgstr "イコライザー"
 msgid "Flat"
 msgstr "フラット"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "クラシカル"
 
@@ -9680,7 +9688,8 @@ msgstr "クラシカル"
 msgid "Club"
 msgstr "クラブ"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "ダンス"
 
@@ -9712,19 +9721,23 @@ msgstr "ライブ"
 msgid "Party"
 msgstr "パーティ"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "ポップ"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "レゲエ"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "ロック"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "スカ"
 
@@ -9736,7 +9749,8 @@ msgstr "ソフト"
 msgid "Soft rock"
 msgstr "ソフトロック"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "テクノ"
 
@@ -14810,8 +14824,8 @@ msgstr "画像"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "フレーム数/秒"
 
@@ -16308,13 +16322,15 @@ msgstr "サービスの検出"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
+#, fuzzy
 msgid "Interfaces"
 msgstr "インターフェース"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
+#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "アルバムアートとメタ情報フェッチャー"
+msgstr "Luaメタフェッチャー"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16381,7 +16397,8 @@ msgstr "ダイナミックレンジ圧縮の有効化"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "リセット"
 
@@ -16501,8 +16518,8 @@ msgid "Bookmarks"
 msgstr "ブックマーク"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "追加"
 
@@ -16816,8 +16833,9 @@ msgid "Setup Streaming..."
 msgstr "ストリーミングを設定..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
+#, fuzzy
 msgid "Select Streaming Method"
-msgstr "ストリーミング方法を選択してください"
+msgstr "ストリーミング方法"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18523,20 +18541,24 @@ msgid "No check was performed yet."
 msgstr "まだ何もチェックされていません。"
 
 #: modules/gui/macosx/simple_prefs.m:739
+#, fuzzy
 msgid "Lowest Latency"
-msgstr "最低(小)遅延"
+msgstr "より遅延が少ない"
 
 #: modules/gui/macosx/simple_prefs.m:742
+#, fuzzy
 msgid "Low Latency"
-msgstr "低遅延"
+msgstr "遅延が少ない"
 
 #: modules/gui/macosx/simple_prefs.m:748
+#, fuzzy
 msgid "Higher Latency"
-msgstr "より大きな遅延"
+msgstr "より遅延が大きい"
 
 #: modules/gui/macosx/simple_prefs.m:751
+#, fuzzy
 msgid "Highest Latency"
-msgstr "最高(大)遅延"
+msgstr "より遅延が大きい"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -18684,7 +18706,8 @@ msgstr ""
 "字幕の持続時間をその要素とこの値で再計算します。\n"
 "0を設定すると無効化します。"
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "ビデオエフェクト"
 
@@ -18692,7 +18715,8 @@ msgstr "ビデオエフェクト"
 msgid "Basic"
 msgstr "基本"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "ジオメトリ"
 
@@ -18709,7 +18733,8 @@ msgstr "色"
 msgid "Image Adjust"
 msgstr "画像調整"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "明るさの閾値"
 
@@ -18718,12 +18743,14 @@ msgstr "明るさの閾値"
 msgid "Sharpen"
 msgstr "シャープネス"
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "シグマ"
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "バンディングノイズ除去"
 
@@ -18732,7 +18759,8 @@ msgstr "バンディングノイズ除去"
 msgid "Radius"
 msgstr "半径"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "フィルム粒状化"
 
@@ -18876,7 +18904,8 @@ msgstr "モーションぼかし"
 msgid "Factor"
 msgstr "係数"
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "モーション検出"
 
@@ -18909,8 +18938,9 @@ msgstr "ロゴの追加"
 msgid "Logo"
 msgstr "ロゴ"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "透明度"
 
@@ -19237,7 +19267,8 @@ msgstr "UDPユニキャスト"
 msgid "UDP Multicast"
 msgstr "UDPマルチキャスト"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "トランスコーディング"
 
@@ -20158,11 +20189,11 @@ msgstr "このダイアログの値で更新する"
 
 #: modules/gui/qt4/components/info_panels.cpp:150
 msgid "&Fingerprint"
-msgstr "&Fingerprint"
+msgstr "フィンガープリント (&F)"
 
 #: modules/gui/qt4/components/info_panels.cpp:151
 msgid "Find meta data using audio fingerprinting"
-msgstr "Audio Fingerprintingを使用したメタデータの検索"
+msgstr "オーディオフィンガープリントを使用したメタデータの検索"
 
 #: modules/gui/qt4/components/info_panels.cpp:392
 msgid "Extra metadata and other information are shown in this panel.\n"
@@ -20687,8 +20718,8 @@ msgstr "適用 (&A)"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20846,8 +20877,8 @@ msgstr "すべてのブックマークを削除"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:83
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20867,7 +20898,8 @@ msgstr "バイト"
 msgid "Convert"
 msgstr "変換"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "出力ファイル:"
 
@@ -20972,7 +21004,8 @@ msgstr "再生 (&G)"
 msgid "Go to time"
 msgstr "指定時間に移動"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "VideoLANについて"
@@ -21571,8 +21604,9 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "再生を停止した位置からの再生再開を行いますか?"
 
 #: modules/gui/qt4/main_interface.cpp:390
+#, fuzzy
 msgid "&Continue"
-msgstr "続ける(&C)"
+msgstr "続ける"
 
 #: modules/gui/qt4/main_interface.cpp:1312
 msgid "Control menu for the player"
@@ -23181,8 +23215,9 @@ msgid "LibNotify Notification Plugin"
 msgstr "LibNotify通知プラグイン"
 
 #: modules/packetizer/avparser.h:49
+#, fuzzy
 msgid "avparser packetizer"
-msgstr "AVパーサーパケッタイザー"
+msgstr "コピーのパケッタイザー"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -23822,7 +23857,8 @@ msgid "Transparency of the mosaic picture."
 msgstr "モザイク画像の透過度"
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "Xオフセット"
 
@@ -23831,7 +23867,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "負の値でない場合、モザイクの左上のX座標を指定します。"
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Yオフセット"
 
@@ -29596,42 +29633,6 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "メディアマネージャーリスト"
 
-#~ msgid "MKV"
-#~ msgstr "MKV"
-
-#~ msgid "FLV"
-#~ msgstr "FLV"
-
-#~ msgid ""
-#~ "If your framebuffer supports hardware acceleration or does double "
-#~ "buffering in hardware then you must disable this option. It then does "
-#~ "double buffering in software."
-#~ msgstr ""
-#~ "フレームバッファーがハードウェアアクセラレーション、またはダブルバッファリ"
-#~ "ングをハードウェアでサポートしている場合、このオプションを無効化しなければ"
-#~ "なりません。無効化するとダブルバッファリングはソフトウェアで行われます。"
-
-#~ msgid ""
-#~ "The XVideo rendering acceleration driver does not support the required "
-#~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
-#~ "Acceleration will thus be disabled. Performance may be degraded severely "
-#~ "if the resolution is large."
-#~ msgstr ""
-#~ "XVideoレンダリングアクセラレーションドライバーは要求された解像度 %ux%u ピ"
-#~ "クセルをサポートしていません。%<PRIu32>x%<PRIu32> ピクセルを使用してくださ"
-#~ "い。\n"
-#~ "アクセラレーションは無効化されます。解像度が高い場合性能が劣化することがあ"
-#~ "ります。"
-
-#, fuzzy
-#~ msgid ""
-#~ "%.1f MHz (%d services)\n"
-#~ "~%s remaining"
-#~ msgstr "%.1f MHz (%d サービス)"
-
-#~ msgid "Scanning DVB"
-#~ msgstr "DVBを検索中"
-
 #~ msgid ""
 #~ "SAP is a way to publically announce streams that are being sent using "
 #~ "multicast UDP or RTP."
@@ -31756,92 +31757,6 @@ msgstr "メディアマネージャーリスト"
 #~ "語, $P = 位置(%), $R = レート, $S = オーディオのサンプリングレート(kHz), "
 #~ "$T = 経過時間, $U = 発行者, $V = 音量, $_ = 改行) "
 
-#~ msgid ""
-#~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
-#~ msgstr ""
-#~ "特定のIP:ポート番号にUDPでTSを送信します。(設定内容を理解した上で設定して"
-#~ "ください)"
-
-#~ msgid "MTU for out mode"
-#~ msgstr "出力モードのMTU"
-
-#~ msgid "MTU for out mode."
-#~ msgstr "出力モードのMTUです。"
-
-#~ msgid "Probe DVB card for capabilities"
-#~ msgstr "DVBカードの検出"
-
-#~ msgid ""
-#~ "Some DVB cards do not like to be probed for their capabilities, you can "
-#~ "disable this feature if you experience some trouble."
-#~ msgstr ""
-#~ "いくつかのDVBカードは自動検出に不向きです。自動検出で問題が発生する場合、"
-#~ "検出を無効化できます。"
-
-#~ msgid "filename of config file in share/dvb/dvb-s"
-#~ msgstr "share/dvb/dvb-s中の設定ファイル名"
-
-#~ msgid "DVB input with v4l2 support"
-#~ msgstr "DVB入力 (v4l2サポート有)"
-
-#~ msgid "Uncompressed RAR"
-#~ msgstr "PARの解凍"
-
-#~ msgid "SCTE-27"
-#~ msgstr "SCTE-27"
-
-#~ msgid "WinMsg"
-#~ msgstr "WinMsg"
-
-#~ msgid "VLC Debug Log (%s).rtf"
-#~ msgstr "VLCデバッグログ(%s).rtf"
-
-#~ msgid "No EPG Data Available"
-#~ msgstr "EPGデータがありません"
-
-#~ msgid " (%1+ rated)"
-#~ msgstr " (レート %1+)"
-
-#~ msgid "Empty"
-#~ msgstr "空"
-
-#~ msgid ""
-#~ "Extension '%s' does not respond.\n"
-#~ "Do you want to kill it now? "
-#~ msgstr ""
-#~ "エクステンション '%s' が応答しません。\n"
-#~ "強制終了しますか?"
-
-#~ msgid "Extension not responding!"
-#~ msgstr "エクステンションが応答しません!"
-
-#~ msgid "Addons local storage installer"
-#~ msgstr "ローカルストレージのアドオンインストーラー"
-
-#~ msgid "Addons local storage lister"
-#~ msgstr "ローカルストレージのアドオンリスト"
-
-#~ msgid "addons.videolan.org addons finder"
-#~ msgstr "addons.videolan.orgアドオン検索"
-
-#~ msgid "Videolan.org's single archive addons finder"
-#~ msgstr "Videolan.org単一アーカイブアドオン検索"
-
-#~ msgid "single .vlp archive addons finder"
-#~ msgstr "単一.vlpアーカイブアドオン検索"
-
-#~ msgid "Track fingerprinter (based on Acoustid)"
-#~ msgstr "トラックフィンガープリント(Acoustidベース)"
-
-#~ msgid "Hann"
-#~ msgstr "Hann"
-
-#~ msgid "Blackman-Harris"
-#~ msgstr "Blackman-Harris"
-
-#~ msgid "Kaiser"
-#~ msgstr "カイザー"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "ここでは好みのビデオ出力と設定を選択します。"
 
@@ -31879,9 +31794,129 @@ msgstr "メディアマネージャーリスト"
 #~ "字幕のデマルチプレクサーの動作に関する設定を行います。例えば、字幕のタイト"
 #~ "ルやファイル名を指定します。"
 
+#~ msgid "MKV"
+#~ msgstr "MKV"
+
+#~ msgid "FLV"
+#~ msgstr "FLV"
+
+#~ msgid ""
+#~ "If your framebuffer supports hardware acceleration or does double "
+#~ "buffering in hardware then you must disable this option. It then does "
+#~ "double buffering in software."
+#~ msgstr ""
+#~ "フレームバッファがハードウェアアクセラレーションをサポートしているかダブル"
+#~ "バッファリングをハードウェアで実施する場合、このオプションは無効にしてくだ"
+#~ "さい。ソフトウェアでダブルバッファリングを行います。"
+
+#~ msgid ""
+#~ "The XVideo rendering acceleration driver does not support the required "
+#~ "resolution of %ux%u pixels but %<PRIu32>x%<PRIu32> pixels instead.\n"
+#~ "Acceleration will thus be disabled. Performance may be degraded severely "
+#~ "if the resolution is large."
+#~ msgstr ""
+#~ "XVideoレンダリングアクセラレーションドライバーは要求された解像度 %ux%u を"
+#~ "サポートしません。 %<PRIu32>x%<PRIu32> ピクセルを使用してください。\n"
+#~ "アクセラレーションは無効化されるため、解像度が高い場合、パフォーマンスが劣"
+#~ "化する可能性があります。"
+
+#~ msgid ""
+#~ "%.1f MHz (%d services)\n"
+#~ "~%s remaining"
+#~ msgstr ""
+#~ "%.1f MHz (%d サービス)\n"
+#~ "残り ~%s"
+
+#~ msgid "Scanning DVB"
+#~ msgstr "DVBを検索中"
+
+#~ msgid ""
+#~ "Sends TS to specific ip:port by udp (you must know what you are doing)."
+#~ msgstr "UDPで指定されたIP:ポートにTSを送信 (詳細を理解している場合に使用)"
+
+#~ msgid "MTU for out mode"
+#~ msgstr "出力モードのMTU"
+
+#~ msgid "MTU for out mode."
+#~ msgstr "出力モードのMTU"
+
+#~ msgid "Probe DVB card for capabilities"
+#~ msgstr "DVBカードの検索"
+
+#~ msgid ""
+#~ "Some DVB cards do not like to be probed for their capabilities, you can "
+#~ "disable this feature if you experience some trouble."
+#~ msgstr ""
+#~ "DVBカードによっては検知で問題が発生する場合があります。問題が発生する場合"
+#~ "はこのオプションを無効にしてください。"
+
+#~ msgid "filename of config file in share/dvb/dvb-s"
+#~ msgstr "共有/DVB/DVB-Sにある設定ファイル名"
+
+#~ msgid "DVB input with v4l2 support"
+#~ msgstr "DVBの入力でv4l2をサポート"
+
+#~ msgid "Uncompressed RAR"
+#~ msgstr "未圧縮RAR"
+
+#~ msgid "SCTE-27"
+#~ msgstr "SCTE-27"
+
+#~ msgid "WinMsg"
+#~ msgstr "WinMsg"
+
+#~ msgid "VLC Debug Log (%s).rtf"
+#~ msgstr "VLCデバッグログ (%s).rtf"
+
+#~ msgid "No EPG Data Available"
+#~ msgstr "EPGデータがありません"
+
+#~ msgid " (%1+ rated)"
+#~ msgstr " (%1+ 評価)"
+
+#~ msgid "Empty"
+#~ msgstr "空"
+
+#~ msgid ""
+#~ "Extension '%s' does not respond.\n"
+#~ "Do you want to kill it now? "
+#~ msgstr ""
+#~ "拡張機能 '%s' が応答しません。\n"
+#~ "強制修了しますか? "
+
+#~ msgid "Extension not responding!"
+#~ msgstr "拡張機能が応答しません!"
+
+#~ msgid "Addons local storage installer"
+#~ msgstr "ローカルストレージアドオンインストーラー"
+
+#~ msgid "Addons local storage lister"
+#~ msgstr "ローカルストレージリスターアドオン"
+
+#~ msgid "addons.videolan.org addons finder"
+#~ msgstr "addons.videolan.orgアドオン検索"
+
+#~ msgid "Videolan.org's single archive addons finder"
+#~ msgstr "Videolan.orgシングルアーカイブアドオン検索"
+
+#~ msgid "single .vlp archive addons finder"
+#~ msgstr "シングル .vlp アーカイブアドオン検索"
+
+#~ msgid "Track fingerprinter (based on Acoustid)"
+#~ msgstr "フィンガープリントトラック (Acoustidベース)"
+
+#~ msgid "Hann"
+#~ msgstr "Hann"
+
+#~ msgid "Blackman-Harris"
+#~ msgstr "Blackman-Harris"
+
+#~ msgid "Kaiser"
+#~ msgstr "Kaiser"
+
 #, fuzzy
 #~ msgid "VLC Debug Log (%s).rtfd"
-#~ msgstr "VLCデバッグログ(%s).rtf"
+#~ msgstr "VLCデバッグログ (%s).rtf"
 
 #, fuzzy
 #~ msgid ""
@@ -31891,221 +31926,170 @@ msgstr "メディアマネージャーリスト"
 #~ "Video output acceleration will be disabled. However, rendering videos "
 #~ "with overly large resolution may cause severe performance degration."
 #~ msgstr ""
-#~ "XVideoレンダリングアクセラレーションドライバーは要求された解像度 %ux%u ピ"
-#~ "クセルをサポートしていません。%<PRIu32>x%<PRIu32> ピクセルを使用してくださ"
-#~ "い。\n"
-#~ "アクセラレーションは無効化されます。解像度が高い場合性能が劣化することがあ"
-#~ "ります。"
+#~ "XVideoレンダリングアクセラレーションドライバーは要求された解像度 %ux%u を"
+#~ "サポートしません。 %<PRIu32>x%<PRIu32> ピクセルを使用してください。\n"
+#~ "アクセラレーションは無効化されるため、解像度が高い場合、パフォーマンスが劣"
+#~ "化する可能性があります。"
 
-#, fuzzy
 #~ msgid "---  DVD Menu"
-#~ msgstr "DVDメニュー"
+#~ msgstr "---  DVDメニュー"
 
-#, fuzzy
 #~ msgid "First Played"
-#~ msgstr "最初の再生"
+#~ msgstr "初めての再生"
 
-#, fuzzy
 #~ msgid "Video Manager"
-#~ msgstr "アドオン管理"
+#~ msgstr "ビデオマネージャー"
 
-#, fuzzy
 #~ msgid "----- Title"
-#~ msgstr "タイトル"
+#~ msgstr "----- タイトル"
 
-#, fuzzy
 #~ msgid "Select a matching identity"
-#~ msgstr "ストリーミング方法を選択してください"
+#~ msgstr "一致させるための識別子を選択"
 
-#, fuzzy
 #~ msgid "Video acceleration not available"
-#~ msgstr "Kビデオアクセラレーションビデオ出力"
+#~ msgstr "ビデオアクセラレーションが有効ではありません"
 
-#, fuzzy
 #~ msgid "Subtitle track added"
-#~ msgstr "字幕トラック"
+#~ msgstr "字幕トラックが追加されました"
 
-#, fuzzy
 #~ msgid "Media in Zip"
-#~ msgstr "メディア 戻す"
+#~ msgstr "ZIP化されたメディア"
 
-#, fuzzy
 #~ msgid "Path to the media in the Zip archive"
-#~ msgstr "使用するスキンのパスを指定します。"
+#~ msgstr "ZIPアーカイブ中のメディアへのパス"
 
-#, fuzzy
 #~ msgid "Fast udp streaming"
-#~ msgstr "ストリーミングを設定..."
+#~ msgstr "高速UDPストリーミング"
 
-#, fuzzy
 #~ msgid "AVFoundation Video Capture"
-#~ msgstr "ビデオキャプチャー"
+#~ msgstr "AVFoundationビデオキャプチャー"
 
-#, fuzzy
 #~ msgid "AVFoundation video capture module."
-#~ msgstr "オーディオ出力モジュール"
+#~ msgstr "AVFoundationビデオキャプチャーモジュール"
 
-#, fuzzy
 #~ msgid "No video devices found"
-#~ msgstr "入力デバイスが見つかりません"
+#~ msgstr "ビデオデバイスが見つかりません"
 
-#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable video input device. "
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "あなたのMacは適切な入力デバイスを持っていないようです。ドライバーと接続を"
-#~ "確認してください。"
+#~ "あなたのMacはビデオ入力デバイスが見つかりません。コネクターおよびドライ"
+#~ "バーを確認してください。"
 
-#, fuzzy
 #~ msgid "Satellite scanning config"
-#~ msgstr "衛星レンジコード"
+#~ msgstr "衛星スキャン設定"
 
-#, fuzzy
 #~ msgid "DVB"
-#~ msgstr "DV"
+#~ msgstr "DVB"
 
-#, fuzzy
 #~ msgid "QTSound"
-#~ msgstr "サラウンド"
+#~ msgstr "QTSound"
 
-#, fuzzy
 #~ msgid "QuickTime Sound Capture"
-#~ msgstr "QuickTimeキャプチャー"
+#~ msgstr "QuickTimeサウンドキャプチャー"
 
-#, fuzzy
 #~ msgid "No Audio Input device found"
-#~ msgstr "入力デバイスが見つかりません"
+#~ msgstr "オーディオ入力デバイスが見つかりません"
 
-#, fuzzy
 #~ msgid ""
 #~ "Your Mac does not seem to be equipped with a suitable audio input device."
 #~ "Please check your connectors and drivers."
 #~ msgstr ""
-#~ "あなたのMacは適切な入力デバイスを持っていないようです。ドライバーと接続を"
-#~ "確認してください。"
+#~ "あなたのMacはオーディオ入力デバイスが見つかりません。コネクターおよびドラ"
+#~ "イバーを確認してください。"
 
-#, fuzzy
 #~ msgid "No audio input device found"
-#~ msgstr "入力デバイスが見つかりません"
+#~ msgstr "オーディオ入力デバイスが見つかりません"
 
-#, fuzzy
 #~ msgid "Windows Multimedia Device output"
-#~ msgstr "Windows GDIビデオ出力"
+#~ msgstr "Windowsマルチメディアデバイス出力"
 
-#, fuzzy
 #~ msgid "Windows Store audio output"
-#~ msgstr "Windows GDIビデオ出力"
+#~ msgstr "Windowsストアオーディオ出力"
 
-#, fuzzy
 #~ msgid "SCTE-27 decoder"
-#~ msgstr "G.711デコーダー"
+#~ msgstr "SCTE-27デコーダー"
 
-#, fuzzy
 #~ msgid "Specify the width to decode the image too"
-#~ msgstr "言語を含む行を指定します。"
+#~ msgstr "画像をデコードする幅を指定してください"
 
-#, fuzzy
 #~ msgid "Specify the height to decode the image too"
-#~ msgstr "使用するデインターレースモジュールを指定します。"
+#~ msgstr "画像をデコードする高さを指定してください"
 
-#, fuzzy
 #~ msgid "Scale factor to apply to image"
-#~ msgstr ""
-#~ "トランスコーディング中のビデオに適用される倍率因子を指定します。(例: 0.25)"
+#~ msgstr "画像に適用するスケーリング係数"
 
-#, fuzzy
 #~ msgid "SVG video decoder"
-#~ msgstr "CDGビデオデコーダー"
+#~ msgstr "SVGビデオデコーダー"
 
-#, fuzzy
 #~ msgid "Windows messages interface"
-#~ msgstr "Windowsサービスインターフェース"
+#~ msgstr "WIndowsメッセージインターフェース"
 
-#, fuzzy
 #~ msgid "Save this Log..."
-#~ msgstr "名前を付けて保存 (&S)..."
+#~ msgstr "このログを保存..."
 
-#, fuzzy
 #~ msgid "Deactivate"
-#~ msgstr "選択"
+#~ msgstr "無効化"
 
-#, fuzzy
 #~ msgid "Audio Fingerprinting"
-#~ msgstr "&Fingerprint"
+#~ msgstr "オーディオフィンガープリント"
 
-#, fuzzy
 #~ msgid "No fingerprint has been found"
-#~ msgstr "入力が見つかりません"
+#~ msgstr "フィンガープリントが見つかりませんでした"
 
-#, fuzzy
 #~ msgid "Fingerprinting track..."
-#~ msgstr "&Fingerprint"
+#~ msgstr "トラックをフィンガープリント中"
 
-#, fuzzy
 #~ msgctxt "Tooltip|Clear"
 #~ msgid "Clear"
 #~ msgstr "クリア"
 
-#, fuzzy
 #~ msgid "addons local storage"
-#~ msgstr "ローカルの最大ビットレート"
+#~ msgstr "ローカルストレージアドオン"
 
-#, fuzzy
 #~ msgid "Videolan.org's addons finder"
-#~ msgstr "ビデオ位置変換フィルター"
+#~ msgstr "Videolan.orgアドオン検索"
 
-#, fuzzy
 #~ msgid "acoustid"
-#~ msgstr "アコースティック"
+#~ msgstr "acoustid"
 
-#, fuzzy
 #~ msgid "Duration of the fingerprinting"
-#~ msgstr "ミラーリングの方向を指定します。"
+#~ msgstr "フィンガープリントの長さ"
 
-#, fuzzy
 #~ msgid "Default: 90sec"
-#~ msgstr "デフォルトのストリーム"
+#~ msgstr "デフォルト: 90秒"
 
-#, fuzzy
 #~ msgid "Chromaprint stream output"
-#~ msgstr "ストリーム出力の集積"
+#~ msgstr "クロマプリントストリーム出力"
 
-#, fuzzy
 #~ msgid ""
 #~ "Please wait while your font cache is rebuilt.\n"
 #~ "This should take less than a few minutes."
 #~ msgstr ""
-#~ "フォントキャッシュの再構築中です。しばらくお待ちください。\n"
-#~ "おそらく1分未満で完了します。"
+#~ "フォントキャッシュの再構成中です。しばらくお待ちください。\n"
+#~ "最大数分間かかります。"
 
-#, fuzzy
 #~ msgid "The width of the visualization window, in pixels."
-#~ msgstr "ビデオウィンドウの幅をピクセルで指定します。"
+#~ msgstr "視覚化ウィンドウの幅をピクセルで指定してください。"
 
-#, fuzzy
 #~ msgid "The height of the visualization window, in pixels."
-#~ msgstr "ビデオウィンドウの高さをピクセルで指定します。"
+#~ msgstr "視覚化ウィンドウの高さをピクセルで指定してください。"
 
-#, fuzzy
 #~ msgid "glSpectrum"
-#~ msgstr "スペクトル"
+#~ msgstr "glSpectrum"
 
-#, fuzzy
 #~ msgid "3D OpenGL spectrum visualization"
-#~ msgstr "現在の視覚化"
+#~ msgstr "3D OpenGLスペクトル視覚化"
 
-#, fuzzy
 #~ msgid "Flat Top"
-#~ msgstr "常に前面に表示"
+#~ msgstr "フラットトップ"
 
-#, fuzzy
 #~ msgid "VLC media player - Flash Viewer"
-#~ msgstr "VLCメディアプレイヤー - ウェブインターフェース"
+#~ msgstr "VLCメディアプレイヤー - フラッシュビューワー"
 
-#, fuzzy
 #~ msgid "Streaming Output"
-#~ msgstr "ストリーム出力"
+#~ msgstr "ストリーミング出力"
 
 #, fuzzy
 #~ msgid ""
@@ -32430,7 +32414,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "This will force a mono audio output."
-#~ msgstr "ファイルオーディオ出力"
+#~ msgstr "Windowsストアオーディオ出力"
 
 #, fuzzy
 #~ msgid "Default audio volume"
@@ -32976,7 +32960,7 @@ msgstr "メディアマネージャーリスト"
 
 #, fuzzy
 #~ msgid "RealVideo library decoder"
-#~ msgstr "QuickTimeライブラリデコーダー"
+#~ msgstr "ビデオエンコーダー"
 
 #, fuzzy
 #~ msgid "Subtitles text encoding"
