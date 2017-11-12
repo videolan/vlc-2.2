@@ -1,22 +1,22 @@
 # Thai translation
-# Copyright (C) 2015 VideoLAN
+# Copyright (C) 2017 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Chaisiri Toomthong <chaisiri_tt@hotmail.com>, 2015
-# <develop5@datawiz.co.th>, 2006
-# jerng <jernghan@gmail.com>, 2011-2014
 # Chalermpon Dasri <d.chalermpon@gmail.com>, 2013
+# <develop5@datawiz.co.th>, 2006
+# jerng <jernghan@gmail.com>, 2014
+# Rockers RRock <sumoisrock@gmail.com>, 2017
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2017-03-15 00:30+0100\n"
-"PO-Revision-Date: 2015-03-17 18:24+0000\n"
-"Last-Translator: Chaisiri Toomthong <chaisiri_tt@hotmail.com>\n"
-"Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
-"th/)\n"
+"PO-Revision-Date: 2017-09-20 03:42+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Thai (http://www.transifex.com/yaron/vlc-trans/language/th/)\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -163,7 +163,7 @@ msgstr "ค่าตั้งวีดิทัศน์ทั่วไป"
 
 #: include/vlc_config_cat.h:77
 msgid "General settings for video output modules."
-msgstr ""
+msgstr "ค่าตั้งทั่วไปของมอดูลแสดงวีดิทัศน์"
 
 #: include/vlc_config_cat.h:80
 msgid "Video filters are used to process the video stream."
@@ -594,7 +594,7 @@ msgstr "การผันค่าเสียงล้มเหลว"
 #: src/audio_output/filters.c:248
 #, c-format
 msgid "The maximum number of filters (%u) was reached."
-msgstr ""
+msgstr "ถึงจำนวนสูงสุดของตัวกรอง (%u) แล้ว"
 
 #: src/audio_output/output.c:229 src/config/core.c:408 src/input/es_out.c:904
 #: src/libvlc-module.c:538 modules/gui/macosx/MainMenu.m:279
@@ -1150,7 +1150,7 @@ msgstr "ปุ่ม Command+"
 
 #: src/darwin/error.c:37
 msgid "Unknown error"
-msgstr ""
+msgstr "ข้อผิดพลาดที่ไม่ทราบ"
 
 #: src/input/control.c:226
 #, c-format
@@ -1183,16 +1183,16 @@ msgstr "VLC ไม่สามารถเปิดมอดูลตัวอ�
 
 #: src/input/decoder.c:691
 msgid "No description for this codec"
-msgstr ""
+msgstr "ไม่มีคำอธิบายของตัวแปลงสัญญาณนี้"
 
 #: src/input/decoder.c:693
 msgid "Codec not supported"
-msgstr ""
+msgstr "ยังไม่รองรับตัวแปลงสัญญาณนี้"
 
 #: src/input/decoder.c:694
 #, c-format
 msgid "VLC could not decode the format \"%4.4s\" (%s)"
-msgstr ""
+msgstr "VLC ไม่สามารถอ่านรหัสรูปแบบ \"%4.4s\" ได้ (%s)"
 
 #: src/input/decoder.c:698
 msgid "Unidentified codec"
@@ -1582,6 +1582,8 @@ msgid ""
 "select the main interface, additional interface modules, and define various "
 "related options."
 msgstr ""
+"ตัวเลือกเหล่านี้จะอนุญาตให้คุณตั้งค่าส่วนติดต่อที่ใช้โดย VLC ได้ คุณสามารถเลือกส่วนติดต่อหลัก "
+"มอดูลส่วนติดต่อเพิ่มเติม และกำหนดตัวเลือกอื่นๆ ที่เกี่ยวข้องได้"
 
 #: src/libvlc-module.c:66
 msgid "Interface module"
@@ -1660,6 +1662,8 @@ msgid ""
 "When this is enabled, the preferences and/or interfaces will show all "
 "available options, including those that most users should never touch."
 msgstr ""
+"เมื่อเปิดใช้งานตัวเลือกนี้แล้ว ค่าปรับแต่งและ/หรือส่วนติดต่อต่างๆ จะแสดงตัวเลือกทั้งหมดที่พร้อมใช้งาน "
+"รวมถึงตัวเลือกที่ผู้ใช้ส่วนใหญ่ไม่ควรเข้าไปปรับแต่งด้วย"
 
 #: src/libvlc-module.c:107
 msgid "Interface interaction"
@@ -1846,7 +1850,7 @@ msgstr "ป้องกันไม่ให้เกิดการหั่น
 
 #: src/libvlc-module.c:219
 msgid "Enable time stretching audio"
-msgstr ""
+msgstr "เปิดใช้งานการยืดเสียง"
 
 #: src/libvlc-module.c:221
 msgid ""
@@ -2495,8 +2499,9 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
-#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021
+#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
+#: modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -4237,12 +4242,14 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "สับเปลี่ยนระหว่างร่องบทบรรยายที่มีอยู่"
 
 #: src/libvlc-module.c:1352
+#, fuzzy
 msgid "Toggle subtitles"
-msgstr ""
+msgstr "บทบรรยายข่าวข้อความ"
 
 #: src/libvlc-module.c:1353
+#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr ""
+msgstr "สับเปลี่ยนร่องบทบรรยาย"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -6175,8 +6182,9 @@ msgid "Layer C time interleaving"
 msgstr "การแทรกเวลาชั้น C"
 
 #: modules/access/dtv/access.c:154
+#, fuzzy
 msgid "Stream identifier"
-msgstr ""
+msgstr "ตัวผันค่ากระแส"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -6492,8 +6500,9 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "ส่วนนำเข้า EyeTV"
 
-#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
-#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304
+#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
+#: modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "การอ่านแฟ้มล้มเหลว"
 
@@ -6570,8 +6579,8 @@ msgstr "ส่วนนำเข้าแฟ้ม"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
-#: modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413
+#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8342,7 +8351,8 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93
+#: modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9146,7 +9156,8 @@ msgstr "ตัวปรับสมดุล"
 msgid "Flat"
 msgstr "Flat"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "Classical"
 
@@ -9155,7 +9166,8 @@ msgstr "Classical"
 msgid "Club"
 msgstr "Club"
 
-#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54
+#: modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "Dance"
 
@@ -9187,19 +9199,23 @@ msgstr "แสดงสด"
 msgid "Party"
 msgstr "งานเลี้ยง"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "ป๊อบ"
 
-#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56
+#: modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "เร็กเก้"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "ร็อค"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "สกา"
 
@@ -9211,7 +9227,8 @@ msgstr "นุ่มนวล"
 msgid "Soft rock"
 msgstr "ซอฟต์ร็อค"
 
-#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57
+#: modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "เทคโน"
 
@@ -13871,8 +13888,8 @@ msgstr "ภาพ"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
-#: modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
+#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "เฟรมต่อวินาที"
 
@@ -15397,7 +15414,8 @@ msgstr ""
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94
+#: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "กลับค่าเดิม"
 
@@ -15517,8 +15535,8 @@ msgid "Bookmarks"
 msgstr "ที่คั่น"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
-#: modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "เพิ่ม"
 
@@ -17606,7 +17624,8 @@ msgid ""
 "Set 0 to disable."
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74
+#: modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "ลูกเล่นวีดิทัศน์"
 
@@ -17614,7 +17633,8 @@ msgstr "ลูกเล่นวีดิทัศน์"
 msgid "Basic"
 msgstr "พื้นฐาน"
 
-#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81
+#: modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "ลักษณะตำแหน่ง"
 
@@ -17631,7 +17651,8 @@ msgstr "สี"
 msgid "Image Adjust"
 msgstr "ปรับภาพ"
 
-#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91
+#: modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "ขีดเริ่มของความสว่าง"
 
@@ -17640,12 +17661,14 @@ msgstr "ขีดเริ่มของความสว่าง"
 msgid "Sharpen"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96
+#: modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97
+#: modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr ""
 
@@ -17654,7 +17677,8 @@ msgstr ""
 msgid "Radius"
 msgstr "รัศมี"
 
-#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99
+#: modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr ""
 
@@ -17798,7 +17822,8 @@ msgstr ""
 msgid "Factor"
 msgstr ""
 
-#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155
+#: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr ""
 
@@ -17831,8 +17856,9 @@ msgstr "ใส่โลโก้"
 msgid "Logo"
 msgstr "โลโก้"
 
-#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
-#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205
+#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
+#: modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "ความโปร่งแสง"
 
@@ -18114,7 +18140,8 @@ msgstr "การส่งสัญญาณเดี่ยว UDP"
 msgid "UDP Multicast"
 msgstr "การส่งสัญญาณหมู่ UDP"
 
-#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373
+#: modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "แปลงรหัส"
 
@@ -19487,8 +19514,8 @@ msgstr "&ใช้"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
-#: modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49
+#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -19632,8 +19659,8 @@ msgstr "ลบที่คั่นทั้งหมด"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
-#: modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110
+#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:83
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -19653,7 +19680,8 @@ msgstr "ไบต์"
 msgid "Convert"
 msgstr "แปลง"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58
+#: modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "แฟ้มปลายทาง:"
 
@@ -19748,7 +19776,8 @@ msgstr "&ไป"
 msgid "Go to time"
 msgstr "ไปยังเวลา"
 
-#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86
+#: modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "เกี่ยวกับ"
@@ -20328,8 +20357,9 @@ msgid "Do you want to restart the playback where left off?"
 msgstr ""
 
 #: modules/gui/qt4/main_interface.cpp:390
+#, fuzzy
 msgid "&Continue"
-msgstr ""
+msgstr "ทำต่อ"
 
 #: modules/gui/qt4/main_interface.cpp:1312
 msgid "Control menu for the player"
@@ -20657,7 +20687,7 @@ msgstr ""
 
 #: modules/gui/qt4/menus.cpp:1652
 msgid "&Post processing"
-msgstr "&ลดภาพเสีย"
+msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:78
 msgid "Show advanced preferences over simple ones"
@@ -21836,8 +21866,9 @@ msgid "LibNotify Notification Plugin"
 msgstr "ปลั๊กอินแจ้งเหตุโดยใช้ LibNotify"
 
 #: modules/packetizer/avparser.h:49
+#, fuzzy
 msgid "avparser packetizer"
-msgstr ""
+msgstr "ตัวทำแพ็กเก็ตคัดลอก"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -22446,7 +22477,8 @@ msgid "Transparency of the mosaic picture."
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142
+#: share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "ออฟเซต X"
 
@@ -22455,7 +22487,8 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144
+#: share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "ออฟเซต Y"
 
@@ -27027,9 +27060,8 @@ msgstr "ปรับปรุง"
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 #: modules/gui/qt4/ui/sprefs_subtitles.h:289
 #: modules/gui/qt4/ui/sprefs_video.h:320 modules/gui/qt4/ui/streampanel.h:167
-#, fuzzy
 msgid "Form"
-msgstr "รูปแบบ"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
@@ -27040,9 +27072,8 @@ msgid "0.00 dB"
 msgstr "0.00 dB"
 
 #: modules/gui/qt4/ui/messages_panel.h:139
-#, fuzzy
 msgid "&Verbosity:"
-msgstr "ระดับรายละเอียด"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:140
 msgid "&Filter:"
@@ -27161,9 +27192,8 @@ msgid "Audio and Subtitles"
 msgstr "เสียงและบทบรรยาย"
 
 #: modules/gui/qt4/ui/open_file.h:143
-#, fuzzy
 msgid "Use a sub&title file"
-msgstr "ใช้แฟ้มบทบรรยาย"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:145
 msgid "Select the subtitle file"
@@ -27204,7 +27234,7 @@ msgstr ""
 #: modules/gui/qt4/ui/profiles.h:703
 #, fuzzy
 msgid "MP&4/MOV"
-msgstr "MP4/MOV"
+msgstr "ตัวรวมกระแส MP4/MOV"
 
 #: modules/gui/qt4/ui/profiles.h:704
 msgid "Ogg/Ogm"
@@ -27230,7 +27260,7 @@ msgstr ""
 #: modules/gui/qt4/ui/profiles.h:709
 #, fuzzy
 msgid "&MPEG-TS"
-msgstr "MPEG-TS"
+msgstr "MPEG-PS"
 
 #: modules/gui/qt4/ui/profiles.h:710
 msgid "RAW"
@@ -27247,7 +27277,7 @@ msgstr "Webm"
 #: modules/gui/qt4/ui/profiles.h:713
 #, fuzzy
 msgid "MPEG &1"
-msgstr "MPEG 1"
+msgstr "รูปแบบ MPEG 1"
 
 #: modules/gui/qt4/ui/profiles.h:714
 msgid "AVI"
@@ -27352,9 +27382,8 @@ msgid "New destination"
 msgstr "เพิ่มการส่ง"
 
 #: modules/gui/qt4/ui/sout.h:210
-#, fuzzy
 msgid "Display locally"
-msgstr "แสดง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:212
 msgid "Transcoding Options"
@@ -27373,9 +27402,8 @@ msgid "Option Setup"
 msgstr "ตั้งค่าตัวเลือก"
 
 #: modules/gui/qt4/ui/sout.h:216
-#, fuzzy
 msgid "Set up any additional options for streaming"
-msgstr "เลือกปลายทางที่จะทำกระแสส่งไป"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:217
 msgid "Miscellaneous Options"
@@ -27386,9 +27414,8 @@ msgid "Stream all elementary streams"
 msgstr "ทำกระแสพวกกระแสมูลฐานทั้งหมด"
 
 #: modules/gui/qt4/ui/sout.h:219
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "ค่าตั้งทั่วไปของส่วนส่งกระแส"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:428
 msgid " %"
@@ -27407,9 +27434,8 @@ msgid "Visualization:"
 msgstr "มโนทัศน์:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:437
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "เปิดใช้เสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:438
 msgid "Dolby Surround:"
@@ -27588,14 +27614,12 @@ msgid "Operating System Integration"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:553
-#, fuzzy
 msgid "File extensions association"
-msgstr "การเข้าใช้แฟ้ม"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:554
-#, fuzzy
 msgid "Set up associations..."
-msgstr "การเข้าใช้แฟ้ม"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:291
 msgid "Enable On Screen Display (OSD)"
@@ -27658,9 +27682,8 @@ msgid "KVA"
 msgstr "KVA"
 
 #: modules/gui/qt4/ui/sprefs_video.h:335
-#, fuzzy
 msgid "Deinterlacing"
-msgstr "แยกภาพประสาน"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:337
 msgid "Force Aspect Ratio"
@@ -27691,14 +27714,12 @@ msgid "Run manually"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:176
-#, fuzzy
 msgid "Setup schedule"
-msgstr "ตารางเวลา"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:177
-#, fuzzy
 msgid "Run on schedule"
-msgstr "ตารางเวลา"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:178
 msgid "Status"
@@ -27787,9 +27808,8 @@ msgid "Mask"
 msgstr "ตัวพราง"
 
 #: modules/gui/qt4/ui/video_effects.h:1468
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "มอดูลแสดงผล"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1469
 msgid "Brightness (%)"
@@ -27800,9 +27820,8 @@ msgid "Mark analyzed Pixels"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1473
-#, fuzzy
 msgid "Filter threshold (%)"
-msgstr "ขีดเริ่มของความสว่าง"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1476
 msgid "Anaglyph 3D"
@@ -27817,23 +27836,20 @@ msgid "Motion detect"
 msgstr "ตรวจจับการเคลื่อนไหว"
 
 #: modules/gui/qt4/ui/video_effects.h:1482
-#, fuzzy
 msgid "Spatial blur"
-msgstr "สภาวะเสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1486
 msgid "Anti-Flickering"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1487
-#, fuzzy
 msgid "Soften"
-msgstr "นุ่มนวล"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1488
-#, fuzzy
 msgid "Denoiser"
-msgstr "Noise"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1489
 msgid "Spatial luma strength"
@@ -27898,24 +27914,6 @@ msgstr "AAAA; "
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "รายการตัวจัดการสื่อ"
-
-#~ msgid "MKV"
-#~ msgstr "MKV"
-
-#~ msgid "FLV"
-#~ msgstr "FLV"
-
-#~ msgid "---  DVD Menu"
-#~ msgstr "---  เมนู DVD"
-
-#~ msgid "Video Manager"
-#~ msgstr "ตัวจัดการวีดิทัศน์"
-
-#~ msgid "----- Title"
-#~ msgstr "----- หัวเรื่อง"
-
-#~ msgid "Scanning DVB"
-#~ msgstr "กำลังสแกน DVB"
 
 #~ msgid ""
 #~ "Magnify a part of the video. You can select which part of the image "
@@ -28450,12 +28448,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #~ msgid "Don't repair"
 #~ msgstr "ไม่ต้องส่ง"
 
-#~ msgid "MTU for out mode"
-#~ msgstr "MTU สำหรับรูปแบบส่วนแสดงผล"
-
-#~ msgid "MTU for out mode."
-#~ msgstr "MTU สำหรับรูปแบบส่วนแสดงผล"
-
 #~ msgid "Choose your preferred video output and configure it here."
 #~ msgstr "เลือกส่วนแสดงผลวีดิทัศน์ และตั้งค่ามันได้ที่นี่"
 
@@ -28469,14 +28461,6 @@ msgstr "รายการตัวจัดการสื่อ"
 #, fuzzy
 #~ msgid "Album art download policy:"
 #~ msgstr "ข้อกำหนดการดาวน์โหลดภาพปก"
-
-#, fuzzy
-#~ msgid "Media in Zip"
-#~ msgstr "ปุ่มเล่นย้อนกลับ (Rewind, ◂)"
-
-#, fuzzy
-#~ msgid "Save this Log..."
-#~ msgstr "&บ&ันทึกเป็น"
 
 #, fuzzy
 #~ msgid "No suitable decoder module"
@@ -28925,7 +28909,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "RealVideo library decoder"
-#~ msgstr "ตัวอ่านรหัสไลบรารี QuickTime"
+#~ msgstr "ตัวลงรหัสวีดิทัศน์"
 
 #, fuzzy
 #~ msgid "Subtitles text encoding"
@@ -29929,7 +29913,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Unknown soundcard"
-#~ msgstr "วีดิทัศน์ไม่ทราบประเภท"
+#~ msgstr "ข้อผิดพลาดที่ไม่ทราบ"
 
 #, fuzzy
 #~ msgid "UNIX OSS audio output"
