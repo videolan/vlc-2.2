@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2017-03-15 00:30+0100\n"
+"POT-Creation-Date: 2017-11-15 16:45+0100\n"
 "PO-Revision-Date: 2017-11-09 11:12+0000\n"
 "Last-Translator: Dian Li <xslidian@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/yaron/vlc-trans/"
@@ -2504,9 +2504,8 @@ msgstr ""
 #: src/video_output/vout_intf.c:116 modules/access/dshow/dshow.cpp:92
 #: modules/access/dshow/dshow.cpp:99 modules/access/dshow/dshow.cpp:119
 #: modules/access/dshow/dshow.cpp:2017 modules/audio_output/alsa.c:746
-#: modules/audio_output/directsound.c:1021
-#: modules/gui/macosx/AudioEffects.m:86 modules/gui/macosx/MainMenu.m:641
-#: modules/gui/macosx/prefs_widgets.m:1221
+#: modules/audio_output/directsound.c:1021 modules/gui/macosx/AudioEffects.m:86
+#: modules/gui/macosx/MainMenu.m:641 modules/gui/macosx/prefs_widgets.m:1221
 #: modules/gui/macosx/prefs_widgets.m:1284
 #: modules/gui/macosx/simple_prefs.m:690 modules/gui/macosx/VideoEffects.m:55
 #: modules/gui/qt4/components/preferences_widgets.cpp:547
@@ -3702,7 +3701,7 @@ msgstr "播放列表可以使用树形结构来分类某些项目，类似目录
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr "这些设置是 VLC 的全局快捷键绑定，也被称作“热键“。"
 
-#: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1860
+#: src/libvlc-module.c:1183 modules/gui/macosx/intf.m:1864
 msgid "Ignore"
 msgstr "忽略"
 
@@ -6617,9 +6616,8 @@ msgstr ""
 msgid "EyeTV input"
 msgstr "EyeTV 输入"
 
-#: modules/access/file.c:177 modules/access/file.c:304
-#: modules/access/mtp.c:195 modules/access/mtp.c:286 modules/access/vdr.c:374
-#: modules/access/vdr.c:541
+#: modules/access/file.c:177 modules/access/file.c:304 modules/access/mtp.c:195
+#: modules/access/mtp.c:286 modules/access/vdr.c:374 modules/access/vdr.c:541
 msgid "File reading failed"
 msgstr "文件读取失败"
 
@@ -6703,8 +6701,8 @@ msgstr "文件输入"
 #: modules/audio_output/file.c:113 modules/gui/macosx/open.m:130
 #: modules/gui/macosx/open.m:590 modules/gui/macosx/output.m:133
 #: modules/gui/macosx/output.m:217 modules/gui/macosx/output.m:341
-#: modules/gui/qt4/dialogs/plugins.cpp:1413
-#: modules/gui/qt4/dialogs/sout.cpp:69 modules/gui/qt4/dialogs/sout.cpp:121
+#: modules/gui/qt4/dialogs/plugins.cpp:1413 modules/gui/qt4/dialogs/sout.cpp:69
+#: modules/gui/qt4/dialogs/sout.cpp:121
 #: share/lua/http/dialogs/create_stream.html:204
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
@@ -8513,8 +8511,7 @@ msgstr ""
 
 #: modules/access/v4l2/v4l2.c:242 modules/codec/avcodec/avcodec.c:68
 #: modules/codec/x264.c:437 modules/control/hotkeys.c:193
-#: modules/gui/macosx/AddonManager.m:93
-#: modules/gui/qt4/dialogs/convert.cpp:136
+#: modules/gui/macosx/AddonManager.m:93 modules/gui/qt4/dialogs/convert.cpp:136
 #: modules/gui/qt4/dialogs/plugins.cpp:372
 #: modules/gui/qt4/dialogs/preferences.cpp:77
 msgid "All"
@@ -9334,8 +9331,7 @@ msgstr "均衡器"
 msgid "Flat"
 msgstr "单调"
 
-#: modules/audio_filter/equalizer_presets.h:54
-#: modules/demux/mp4/id3genres.h:64
+#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:64
 msgid "Classical"
 msgstr "经典"
 
@@ -9344,8 +9340,7 @@ msgstr "经典"
 msgid "Club"
 msgstr "俱乐部"
 
-#: modules/audio_filter/equalizer_presets.h:54
-#: modules/demux/mp4/id3genres.h:35
+#: modules/audio_filter/equalizer_presets.h:54 modules/demux/mp4/id3genres.h:35
 msgid "Dance"
 msgstr "舞曲"
 
@@ -9377,23 +9372,19 @@ msgstr "实况"
 msgid "Party"
 msgstr "聚会"
 
-#: modules/audio_filter/equalizer_presets.h:56
-#: modules/demux/mp4/id3genres.h:45
+#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:45
 msgid "Pop"
 msgstr "流行"
 
-#: modules/audio_filter/equalizer_presets.h:56
-#: modules/demux/mp4/id3genres.h:48
+#: modules/audio_filter/equalizer_presets.h:56 modules/demux/mp4/id3genres.h:48
 msgid "Reggae"
 msgstr "雷盖"
 
-#: modules/audio_filter/equalizer_presets.h:57
-#: modules/demux/mp4/id3genres.h:49
+#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:49
 msgid "Rock"
 msgstr "摇滚"
 
-#: modules/audio_filter/equalizer_presets.h:57
-#: modules/demux/mp4/id3genres.h:53
+#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:53
 msgid "Ska"
 msgstr "斯卡"
 
@@ -9405,8 +9396,7 @@ msgstr "柔和"
 msgid "Soft rock"
 msgstr "慢摇"
 
-#: modules/audio_filter/equalizer_presets.h:57
-#: modules/demux/mp4/id3genres.h:50
+#: modules/audio_filter/equalizer_presets.h:57 modules/demux/mp4/id3genres.h:50
 msgid "Techno"
 msgstr "电子乐"
 
@@ -10761,11 +10751,11 @@ msgstr "FDKAAC"
 msgid "FDK-AAC Audio encoder"
 msgstr "FDK-AAC 音频编码器"
 
-#: modules/codec/flac.c:112
+#: modules/codec/flac.c:127
 msgid "Flac audio decoder"
 msgstr "Flac 音频解码器"
 
-#: modules/codec/flac.c:119
+#: modules/codec/flac.c:134
 msgid "Flac audio encoder"
 msgstr "Flac 音频编码器"
 
@@ -14294,8 +14284,8 @@ msgstr "图像"
 
 #: modules/demux/mjpeg.c:46 modules/demux/mpeg/es.c:50
 #: modules/demux/mpeg/h264.c:43 modules/demux/mpeg/hevc.c:46
-#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75
-#: modules/demux/vc1.c:43 modules/gui/macosx/open.m:203
+#: modules/demux/rawvid.c:44 modules/demux/subtitle.c:75 modules/demux/vc1.c:43
+#: modules/gui/macosx/open.m:203
 msgid "Frames per Second"
 msgstr "每秒帧数"
 
@@ -15839,8 +15829,7 @@ msgstr "启用动态范围压缩器"
 
 #: modules/gui/macosx/AudioEffects.m:118 modules/gui/macosx/AudioEffects.m:129
 #: modules/gui/macosx/TrackSynchronization.m:60
-#: modules/gui/macosx/VideoEffects.m:94
-#: modules/gui/qt4/dialogs/gototime.cpp:66
+#: modules/gui/macosx/VideoEffects.m:94 modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
 msgstr "复位"
 
@@ -15960,8 +15949,8 @@ msgid "Bookmarks"
 msgstr "书签"
 
 #: modules/gui/macosx/bookmarks.m:97
-#: modules/gui/qt4/ui/podcast_configuration.h:103
-#: modules/gui/qt4/ui/sout.h:209 modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/podcast_configuration.h:103 modules/gui/qt4/ui/sout.h:209
+#: modules/gui/qt4/ui/vlm.h:299
 msgid "Add"
 msgstr "添加"
 
@@ -16482,19 +16471,19 @@ msgstr "(没有正在播放的项目)"
 msgid "Click to exit fullscreen playback."
 msgstr "点击可退出全屏回放。"
 
-#: modules/gui/macosx/intf.m:1562 modules/gui/macosx/intf.m:1579
+#: modules/gui/macosx/intf.m:1570 modules/gui/macosx/intf.m:1587
 msgid "VLC media playback"
 msgstr "VLC 媒体回放"
 
-#: modules/gui/macosx/intf.m:1858
+#: modules/gui/macosx/intf.m:1862
 msgid "Remove old preferences?"
 msgstr "是否移除旧的偏好设置?"
 
-#: modules/gui/macosx/intf.m:1859
+#: modules/gui/macosx/intf.m:1863
 msgid "We just found an older version of VLC's preferences files."
 msgstr "我们发现了一个旧版本的 VLC 偏好设置文件。"
 
-#: modules/gui/macosx/intf.m:1860
+#: modules/gui/macosx/intf.m:1864
 msgid "Move To Trash and Relaunch VLC"
 msgstr "移动到回收站并重新启动 VLC"
 
@@ -18094,8 +18083,7 @@ msgstr ""
 "根据内容及该值重新计算字幕时长。\n"
 "设为 0 可禁用。"
 
-#: modules/gui/macosx/VideoEffects.m:74
-#: modules/gui/qt4/dialogs/extended.cpp:84
+#: modules/gui/macosx/VideoEffects.m:74 modules/gui/qt4/dialogs/extended.cpp:84
 msgid "Video Effects"
 msgstr "视频效果"
 
@@ -18103,8 +18091,7 @@ msgstr "视频效果"
 msgid "Basic"
 msgstr "基础"
 
-#: modules/gui/macosx/VideoEffects.m:81
-#: modules/gui/qt4/ui/video_effects.h:1444
+#: modules/gui/macosx/VideoEffects.m:81 modules/gui/qt4/ui/video_effects.h:1444
 msgid "Geometry"
 msgstr "几何"
 
@@ -18121,8 +18108,7 @@ msgstr "颜色"
 msgid "Image Adjust"
 msgstr "图像调整"
 
-#: modules/gui/macosx/VideoEffects.m:91
-#: modules/gui/qt4/ui/video_effects.h:1394
+#: modules/gui/macosx/VideoEffects.m:91 modules/gui/qt4/ui/video_effects.h:1394
 msgid "Brightness Threshold"
 msgstr "亮度阈值"
 
@@ -18131,14 +18117,12 @@ msgstr "亮度阈值"
 msgid "Sharpen"
 msgstr "锐利"
 
-#: modules/gui/macosx/VideoEffects.m:96
-#: modules/gui/qt4/ui/video_effects.h:1399
+#: modules/gui/macosx/VideoEffects.m:96 modules/gui/qt4/ui/video_effects.h:1399
 #: modules/gui/qt4/ui/video_effects.h:1483
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/macosx/VideoEffects.m:97
-#: modules/gui/qt4/ui/video_effects.h:1400
+#: modules/gui/macosx/VideoEffects.m:97 modules/gui/qt4/ui/video_effects.h:1400
 msgid "Banding removal"
 msgstr "Banding 移除"
 
@@ -18147,8 +18131,7 @@ msgstr "Banding 移除"
 msgid "Radius"
 msgstr "半径"
 
-#: modules/gui/macosx/VideoEffects.m:99
-#: modules/gui/qt4/ui/video_effects.h:1402
+#: modules/gui/macosx/VideoEffects.m:99 modules/gui/qt4/ui/video_effects.h:1402
 msgid "Film Grain"
 msgstr "胶片颗粒"
 
@@ -18292,8 +18275,7 @@ msgstr "动态模糊"
 msgid "Factor"
 msgstr "因素"
 
-#: modules/gui/macosx/VideoEffects.m:155
-#: modules/video_filter/motiondetect.c:49
+#: modules/gui/macosx/VideoEffects.m:155 modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
 msgstr "运动检测"
 
@@ -18326,9 +18308,8 @@ msgstr "添加标志"
 msgid "Logo"
 msgstr "标志"
 
-#: modules/gui/macosx/VideoEffects.m:205
-#: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
-#: modules/gui/qt4/ui/video_effects.h:1453
+#: modules/gui/macosx/VideoEffects.m:205 modules/stream_out/mosaic_bridge.c:128
+#: modules/video_filter/mosaic.c:87 modules/gui/qt4/ui/video_effects.h:1453
 msgid "Transparency"
 msgstr "透明"
 
@@ -18627,8 +18608,7 @@ msgstr "UDP 单播"
 msgid "UDP Multicast"
 msgstr "UDP 多播"
 
-#: modules/gui/macosx/wizard.m:373
-#: modules/stream_out/transcode/transcode.c:147
+#: modules/gui/macosx/wizard.m:373 modules/stream_out/transcode/transcode.c:147
 msgid "Transcode"
 msgstr "转码"
 
@@ -20040,8 +20020,8 @@ msgstr "应用(&A)"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1381
 #: modules/gui/qt4/dialogs/convert.cpp:109
-#: modules/gui/qt4/dialogs/gototime.cpp:49
-#: modules/gui/qt4/dialogs/open.cpp:108 modules/gui/qt4/dialogs/openurl.cpp:61
+#: modules/gui/qt4/dialogs/gototime.cpp:49 modules/gui/qt4/dialogs/open.cpp:108
+#: modules/gui/qt4/dialogs/openurl.cpp:61
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:94
 #: modules/gui/qt4/dialogs/toolbar.cpp:196
@@ -20185,8 +20165,8 @@ msgstr "删除所有书签"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:62
 #: modules/gui/qt4/dialogs/errors.cpp:49
-#: modules/gui/qt4/dialogs/extended.cpp:110
-#: modules/gui/qt4/dialogs/help.cpp:66 modules/gui/qt4/dialogs/help.cpp:212
+#: modules/gui/qt4/dialogs/extended.cpp:110 modules/gui/qt4/dialogs/help.cpp:66
+#: modules/gui/qt4/dialogs/help.cpp:212
 #: modules/gui/qt4/dialogs/mediainfo.cpp:80
 #: modules/gui/qt4/dialogs/messages.cpp:83
 #: modules/gui/qt4/dialogs/plugins.cpp:88
@@ -20206,8 +20186,7 @@ msgstr "字节"
 msgid "Convert"
 msgstr "转换"
 
-#: modules/gui/qt4/dialogs/convert.cpp:58
-#: modules/gui/qt4/ui/sprefs_audio.h:432
+#: modules/gui/qt4/dialogs/convert.cpp:58 modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Destination file:"
 msgstr "目标文件:"
 
@@ -20308,8 +20287,7 @@ msgstr "转到(&G)"
 msgid "Go to time"
 msgstr "转到时间"
 
-#: modules/gui/qt4/dialogs/help.cpp:86
-#: modules/gui/qt4/dialogs/plugins.cpp:1360
+#: modules/gui/qt4/dialogs/help.cpp:86 modules/gui/qt4/dialogs/plugins.cpp:1360
 #: modules/gui/qt4/dialogs/plugins.cpp:1443
 msgid "About"
 msgstr "关于"
@@ -22673,7 +22651,7 @@ msgstr "HD DVD"
 msgid "Unknown type"
 msgstr "未知类型"
 
-#: modules/services_discovery/upnp.cpp:71
+#: modules/services_discovery/upnp.cpp:109
 msgid "Universal Plug'n'Play"
 msgstr "通用即插即播"
 
@@ -23071,8 +23049,7 @@ msgid "Transparency of the mosaic picture."
 msgstr "mosaic 图像的透明度。"
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:95
-#: modules/video_filter/rss.c:142
-#: share/lua/http/dialogs/mosaic_window.html:100
+#: modules/video_filter/rss.c:142 share/lua/http/dialogs/mosaic_window.html:100
 msgid "X offset"
 msgstr "X 偏移"
 
@@ -23081,8 +23058,7 @@ msgid "X coordinate of the upper left corner in the mosaic if non negative."
 msgstr "在 mosaic 左上角开始的非负 X 坐标。"
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:97
-#: modules/video_filter/rss.c:144
-#: share/lua/http/dialogs/mosaic_window.html:118
+#: modules/video_filter/rss.c:144 share/lua/http/dialogs/mosaic_window.html:118
 msgid "Y offset"
 msgstr "Y 偏移"
 
