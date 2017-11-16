@@ -867,6 +867,11 @@ block_t * ReadFrame( demux_t *p_demux, const avi_track_t *tk,
     /* skip header */
     if( tk->i_idxposb == 0 )
     {
+        if( i_header >= p_frame->i_buffer )
+        {
+            p_frame->i_buffer = 0;
+            return p_frame;
+        }
         p_frame->p_buffer += i_header;
         p_frame->i_buffer -= i_header;
     }
