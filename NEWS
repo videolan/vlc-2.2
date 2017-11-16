@@ -3,7 +3,8 @@ Changes between 2.2.6 and 2.2.7:
 
 Decoders:
  * Fix flac heap write overflow on format change
- * Fix crash in libavcodec module (heap write out-of band) CVE-10699
+ * Fix crash in libavcodec module (heap write out-of band) (CVE-2017-10699)
+ * Fix AVI read/write overflow
  * Fix infinite loop in sami subtitle
  * Fix AAC 7.1 channels detection
  * Fix potential crash in ASX parser
@@ -32,7 +33,7 @@ Video output:
  * Fix direct3d SPU texture offsets handling
 
 Demuxer:
- * Fix heap buffer overflows
+ * Fix heap buffer overflows (CVE-2017-8310, 8311, 8312, 8313)
 
 Changes between 2.2.5 and 2.2.5.1:
 ----------------------------------
