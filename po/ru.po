@@ -11,7 +11,7 @@
 # Valek Filippov <frob@df.ru>, 2001
 msgid ""
 msgstr ""
-"Project-Id-Version: VLC - Trans\n"
+"Project-Id-Version: vlc 2.2.7\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2017-11-15 16:45+0100\n"
 "PO-Revision-Date: 2017-09-23 19:54+0000\n"
@@ -4548,14 +4548,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Переключает доступные дорожки субтитров по кругу."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Субтитры телетекста"
+msgstr "Вкл/выкл. субтитры"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Переключение дорожек субтитров"
+msgstr "Управление отображением дорожки субтитров."
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -6566,9 +6564,8 @@ msgid "Layer C time interleaving"
 msgstr "Перемежение в слое C"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Идентификатор сети"
+msgstr "Идентификатор потока"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -6861,9 +6858,8 @@ msgid "DVDnav Input"
 msgstr "Ввод DVDnav"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Демультиплексор Nuv"
+msgstr "Демультиплексор DVD-навигации"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -12711,7 +12707,6 @@ msgstr "Декодер текстовых субтитров"
 #. Western European languages normally use "CP1252", which is a
 #. Microsoft-variant of ISO 8859-1. That suits the Latin alphabet.
 #. Other scripts use other code pages.
-#.
 #. This MUST be a valid iconv character set. If unsure, please refer
 #. the VideoLAN translators mailing list.
 #: modules/codec/subsdec.c:296 modules/demux/avi/avi.c:99
@@ -16412,15 +16407,13 @@ msgstr "Обнаружение служб"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
-msgstr "Интерфейс"
+msgstr "Интерфейсы"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Загрузчик метаданных"
+msgstr "Загрузчики обложек и метаданных"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -16922,9 +16915,8 @@ msgid "Setup Streaming..."
 msgstr "Настройка передачи..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Метод вещания"
+msgstr "Выберите метод вещания"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18635,24 +18627,20 @@ msgid "No check was performed yet."
 msgstr "Проверка ещё не выполнялась."
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
 msgstr "наименьшая задержка"
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
-msgstr "малая задержка"
+msgstr "уменьшенная задержка"
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
 msgstr "увеличенная задержка"
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "увеличенная задержка"
+msgstr "наибольшая задержка"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -21284,7 +21272,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
-msgstr "Загружают доп. материалы и обложку для воспроизводимого содержимого."
+msgstr "Загружают доп. материалы и обложки для воспроизводимого содержимого."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -21664,9 +21652,8 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Вы хотите начать воспроизведение с последней позиции?"
 
 #: modules/gui/qt4/main_interface.cpp:390
-#, fuzzy
 msgid "&Continue"
-msgstr "Продолжить"
+msgstr "&Продолжить"
 
 #: modules/gui/qt4/main_interface.cpp:1312
 msgid "Control menu for the player"
@@ -23271,9 +23258,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "Модуль уведомления LibNotify"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Упаковщик копированием"
+msgstr "Упаковщик avparser"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -29015,12 +29001,11 @@ msgstr "Редактирование профиля"
 
 #: modules/gui/qt4/ui/profiles.h:702
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: modules/gui/qt4/ui/profiles.h:703
-#, fuzzy
 msgid "MP&4/MOV"
-msgstr "MP4/MOV"
+msgstr "MP&4/MOV"
 
 #: modules/gui/qt4/ui/profiles.h:704
 msgid "Ogg/Ogm"
@@ -29028,12 +29013,11 @@ msgstr "Ogg/Ogm"
 
 #: modules/gui/qt4/ui/profiles.h:705
 msgid "M&KV"
-msgstr ""
+msgstr "M&KV"
 
 #: modules/gui/qt4/ui/profiles.h:706
-#, fuzzy
 msgid "M&JPEG"
-msgstr "MJPEG"
+msgstr "M&JPEG"
 
 #: modules/gui/qt4/ui/profiles.h:707
 msgid "MPEG-PS"
@@ -29041,12 +29025,11 @@ msgstr "MPEG-PS"
 
 #: modules/gui/qt4/ui/profiles.h:708
 msgid "F&LV"
-msgstr ""
+msgstr "F&LV"
 
 #: modules/gui/qt4/ui/profiles.h:709
-#, fuzzy
 msgid "&MPEG-TS"
-msgstr "MPEG-TS"
+msgstr "&MPEG-TS"
 
 #: modules/gui/qt4/ui/profiles.h:710
 msgid "RAW"
@@ -29061,9 +29044,8 @@ msgid "Webm"
 msgstr "Webm"
 
 #: modules/gui/qt4/ui/profiles.h:713
-#, fuzzy
 msgid "MPEG &1"
-msgstr "MPEG 1"
+msgstr "MPEG &1"
 
 #: modules/gui/qt4/ui/profiles.h:714
 msgid "AVI"
@@ -29075,7 +29057,7 @@ msgstr "ASF/WMV"
 
 #: modules/gui/qt4/ui/profiles.h:716
 msgid "MP&3"
-msgstr ""
+msgstr "MP&3"
 
 #: modules/gui/qt4/ui/profiles.h:717
 msgid "Features"
@@ -29094,9 +29076,8 @@ msgid "Menus"
 msgstr "Меню"
 
 #: modules/gui/qt4/ui/profiles.h:730
-#, fuzzy
 msgid "Fra&me Rate"
-msgstr "Частота кадров"
+msgstr "Час&тота кадров"
 
 #: modules/gui/qt4/ui/profiles.h:731
 msgid "Same as source"
@@ -29111,9 +29092,8 @@ msgid "Custom options"
 msgstr "Настраиваемые параметры"
 
 #: modules/gui/qt4/ui/profiles.h:735
-#, fuzzy
 msgid "&Quality"
-msgstr "Качество"
+msgstr "&Качество"
 
 #: modules/gui/qt4/ui/profiles.h:736 modules/gui/qt4/ui/profiles.h:737
 msgid "Not Used"
@@ -29136,14 +29116,12 @@ msgid "px"
 msgstr "пкс"
 
 #: modules/gui/qt4/ui/profiles.h:758
-#, fuzzy
 msgid "Sa&mple Rate"
-msgstr "Частота дискретизации"
+msgstr "Ч&астота дискретизации"
 
 #: modules/gui/qt4/ui/profiles.h:766
-#, fuzzy
 msgid "Profile &Name"
-msgstr "Название профиля"
+msgstr "&Название профиля"
 
 #: modules/gui/qt4/ui/sout.h:203
 msgid "Set up media sources to stream"
