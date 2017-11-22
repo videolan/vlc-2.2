@@ -9,10 +9,10 @@
 # Thomas De Rocker, 2008-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: VLC - Trans\n"
+"Project-Id-Version: vlc 2.2.7\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2017-11-15 16:45+0100\n"
-"PO-Revision-Date: 2017-10-21 07:46+0000\n"
+"PO-Revision-Date: 2017-11-22 21:15+0100\n"
 "Last-Translator: Thomas De Rocker\n"
 "Language-Team: Dutch (http://www.transifex.com/yaron/vlc-trans/language/"
 "nl/)\n"
@@ -1247,7 +1247,7 @@ msgstr "Ja"
 #: src/input/es_out.c:2018
 #, c-format
 msgid "Closed captions %u"
-msgstr "Gesloten onderschriften %u"
+msgstr "Gesloten ondertitels %u"
 
 #: src/input/es_out.c:2876
 #, c-format
@@ -4582,14 +4582,12 @@ msgid "Cycle through the available subtitle tracks."
 msgstr "Tussen beschikbare ondertitelsporen schakelen."
 
 #: src/libvlc-module.c:1352
-#, fuzzy
 msgid "Toggle subtitles"
-msgstr "Teletekst-ondertitels"
+msgstr "Ondertitels aan/uit"
 
 #: src/libvlc-module.c:1353
-#, fuzzy
 msgid "Toggle subtitle track visibility."
-msgstr "Ondertitelspoor veranderen"
+msgstr "Zichtbaarheid ondertitelspoor aan/uit"
 
 #: src/libvlc-module.c:1354
 msgid "Cycle next program Service ID"
@@ -6118,7 +6116,7 @@ msgstr "10-bits"
 
 #: modules/access/decklink.cpp:319 modules/demux/ty.c:776
 msgid "Closed captions 1"
-msgstr "Gesloten onderschriften 1"
+msgstr "Gesloten ondertitels 1"
 
 #: modules/access/dshow/dshow.cpp:92
 msgid "Cable"
@@ -6615,9 +6613,8 @@ msgid "Layer C time interleaving"
 msgstr "Layer C time interleaving"
 
 #: modules/access/dtv/access.c:154
-#, fuzzy
 msgid "Stream identifier"
-msgstr "Netwerkidentificatie"
+msgstr "Stream-identificatie"
 
 #: modules/access/dtv/access.c:156
 msgid "Pilot"
@@ -6910,9 +6907,8 @@ msgid "DVDnav Input"
 msgstr "DVDnav invoer"
 
 #: modules/access/dvdnav.c:104
-#, fuzzy
 msgid "DVDnav demuxer"
-msgstr "Nuv-demuxer"
+msgstr "DVDnav-demuxer"
 
 #: modules/access/dvdnav.c:299 modules/access/dvdread.c:200
 #: modules/access/dvdread.c:462 modules/access/dvdread.c:530
@@ -8546,8 +8542,7 @@ msgstr "VBI-opnameapparaat"
 #: modules/access/v4l2/v4l2.c:48
 msgid "The device node where VBI data can be read  (for closed captions) "
 msgstr ""
-"Apparaat-node waar VBI-data gelezen kunnen worden (voor gesloten "
-"bijschriften)"
+"Apparaat-node waar VBI-data gelezen kan worden (voor gesloten ondertitels)"
 
 #: modules/access/v4l2/v4l2.c:50 modules/stream_out/standard.c:90
 msgid "Standard"
@@ -12046,7 +12041,7 @@ msgstr ""
 
 #: modules/codec/quicktime.c:66
 msgid "QuickTime library decoder"
-msgstr "QuickTime-bibliotheekdecoder"
+msgstr "QuickTime-bibliotheek decoder"
 
 #: modules/codec/rawvideo.c:66
 msgid "Pseudo raw video decoder"
@@ -12803,7 +12798,6 @@ msgstr "Tekst ondertiteldecoder"
 #. Western European languages normally use "CP1252", which is a
 #. Microsoft-variant of ISO 8859-1. That suits the Latin alphabet.
 #. Other scripts use other code pages.
-#.
 #. This MUST be a valid iconv character set. If unsure, please refer
 #. the VideoLAN translators mailing list.
 #: modules/codec/subsdec.c:296 modules/demux/avi/avi.c:99
@@ -16355,15 +16349,15 @@ msgstr "TY Stream audio/video-demuxer"
 
 #: modules/demux/ty.c:777
 msgid "Closed captions 2"
-msgstr "Gesloten onderschriften 2"
+msgstr "Gesloten ondertitels 2"
 
 #: modules/demux/ty.c:778
 msgid "Closed captions 3"
-msgstr "Gesloten onderschriften 3"
+msgstr "Gesloten ondertitels 3"
 
 #: modules/demux/ty.c:779
 msgid "Closed captions 4"
-msgstr "Gesloten onderschriften 4"
+msgstr "Gesloten ondertitels 4"
 
 #: modules/demux/vc1.c:44
 msgid "Desired frame rate for the VC-1 stream."
@@ -16391,7 +16385,7 @@ msgstr "XA-demuxer"
 
 #: modules/demux/xiph_metadata.h:48
 msgid "Closed captions"
-msgstr "Gesloten onderschriften"
+msgstr "Gesloten ondertitels"
 
 #: modules/demux/xiph_metadata.h:50
 msgid "Textual audio descriptions"
@@ -16505,15 +16499,13 @@ msgstr "Dienstontdekking"
 
 #: modules/gui/macosx/AddonManager.m:102
 #: modules/gui/qt4/dialogs/plugins.cpp:386
-#, fuzzy
 msgid "Interfaces"
-msgstr "Interface"
+msgstr "Interfaces"
 
 #: modules/gui/macosx/AddonManager.m:104
 #: modules/gui/qt4/dialogs/plugins.cpp:389
-#, fuzzy
 msgid "Art and meta fetchers"
-msgstr "Lua-meta-ophaler"
+msgstr "Albumhoes- en metadata-ophalers"
 
 #: modules/gui/macosx/AddonManager.m:106 modules/gui/macosx/AddonManager.m:355
 #: modules/gui/macosx/MainMenu.m:352 modules/gui/macosx/MainMenu.m:353
@@ -17017,9 +17009,8 @@ msgid "Setup Streaming..."
 msgstr "Streamen instellen..."
 
 #: modules/gui/macosx/ConvertAndSave.m:163
-#, fuzzy
 msgid "Select Streaming Method"
-msgstr "Streammethode"
+msgstr "Streammethode selecteren"
 
 #: modules/gui/macosx/ConvertAndSave.m:164
 msgid "Save as File"
@@ -18733,24 +18724,20 @@ msgid "No check was performed yet."
 msgstr "Er is nog geen controle uitgevoerd."
 
 #: modules/gui/macosx/simple_prefs.m:739
-#, fuzzy
 msgid "Lowest Latency"
 msgstr "Laagste latentietijd"
 
 #: modules/gui/macosx/simple_prefs.m:742
-#, fuzzy
 msgid "Low Latency"
 msgstr "Lage latentietijd"
 
 #: modules/gui/macosx/simple_prefs.m:748
-#, fuzzy
 msgid "Higher Latency"
 msgstr "Hogere latentietijd"
 
 #: modules/gui/macosx/simple_prefs.m:751
-#, fuzzy
 msgid "Highest Latency"
-msgstr "Hogere latentietijd"
+msgstr "Hoogste latentietijd"
 
 #: modules/gui/macosx/simple_prefs.m:876
 #: modules/gui/qt4/dialogs/preferences.cpp:327
@@ -20949,7 +20936,7 @@ msgstr "Deze muxer wordt niet direct voorzien door VLC: hij kan ontbreken."
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:612
 msgid "This muxer is missing. Using this profile will fail"
-msgstr "De muxer ontbreekt. Gebruik van dit profiel zal mislukken"
+msgstr "Deze muxer ontbreekt. Gebruik van dit profiel zal mislukken"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:756
 msgid " Profile Name Missing"
@@ -21410,7 +21397,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:390
 msgid "Retrieves extra info and art for playlist items"
-msgstr "Haalt extra info en albumhoes op voor aspeellijst-items"
+msgstr "Haalt extra informatie en albumhoezen op voor afspeellijst-items"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:393
 msgid ""
@@ -21792,7 +21779,6 @@ msgid "Do you want to restart the playback where left off?"
 msgstr "Wilt u het afspelen opnieuw starten vanaf het laatste punt?"
 
 #: modules/gui/qt4/main_interface.cpp:390
-#, fuzzy
 msgid "&Continue"
 msgstr "Doorgaan"
 
@@ -23408,9 +23394,8 @@ msgid "LibNotify Notification Plugin"
 msgstr "LibNotify Meldingsplugin"
 
 #: modules/packetizer/avparser.h:49
-#, fuzzy
 msgid "avparser packetizer"
-msgstr "Copy packetizer"
+msgstr "avparser packetizer"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
@@ -27835,7 +27820,7 @@ msgstr "Framebuffer gebruikt hw versnelling"
 
 #: modules/video_output/fb.c:71
 msgid "Disable for double buffering in software."
-msgstr "Uitschakelen voor dubbel bufferen in software."
+msgstr "Uitschakelen voor dubbel bufferen in software"
 
 #: modules/video_output/fb.c:73
 msgid "Image format (default RGB)"
@@ -29232,12 +29217,11 @@ msgstr "Profielwijziging"
 
 #: modules/gui/qt4/ui/profiles.h:702
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: modules/gui/qt4/ui/profiles.h:703
-#, fuzzy
 msgid "MP&4/MOV"
-msgstr "MP4/MOV"
+msgstr "MP&4/MOV"
 
 #: modules/gui/qt4/ui/profiles.h:704
 msgid "Ogg/Ogm"
@@ -29245,12 +29229,11 @@ msgstr "Ogg/Ogm"
 
 #: modules/gui/qt4/ui/profiles.h:705
 msgid "M&KV"
-msgstr ""
+msgstr "M&KV"
 
 #: modules/gui/qt4/ui/profiles.h:706
-#, fuzzy
 msgid "M&JPEG"
-msgstr "MJPEG"
+msgstr "M&JPEG"
 
 #: modules/gui/qt4/ui/profiles.h:707
 msgid "MPEG-PS"
@@ -29258,12 +29241,11 @@ msgstr "MPEG-PS"
 
 #: modules/gui/qt4/ui/profiles.h:708
 msgid "F&LV"
-msgstr ""
+msgstr "F&LV"
 
 #: modules/gui/qt4/ui/profiles.h:709
-#, fuzzy
 msgid "&MPEG-TS"
-msgstr "MPEG-TS"
+msgstr "&MPEG-TS"
 
 #: modules/gui/qt4/ui/profiles.h:710
 msgid "RAW"
@@ -29278,9 +29260,8 @@ msgid "Webm"
 msgstr "Webm"
 
 #: modules/gui/qt4/ui/profiles.h:713
-#, fuzzy
 msgid "MPEG &1"
-msgstr "MPEG 1"
+msgstr "MPEG &1"
 
 #: modules/gui/qt4/ui/profiles.h:714
 msgid "AVI"
@@ -29292,7 +29273,7 @@ msgstr "ASF/WMV"
 
 #: modules/gui/qt4/ui/profiles.h:716
 msgid "MP&3"
-msgstr ""
+msgstr "MP&3"
 
 #: modules/gui/qt4/ui/profiles.h:717
 msgid "Features"
@@ -29311,7 +29292,6 @@ msgid "Menus"
 msgstr "Menu's"
 
 #: modules/gui/qt4/ui/profiles.h:730
-#, fuzzy
 msgid "Fra&me Rate"
 msgstr "Beeldsnelheid"
 
@@ -29328,7 +29308,6 @@ msgid "Custom options"
 msgstr "Aangepaste opties"
 
 #: modules/gui/qt4/ui/profiles.h:735
-#, fuzzy
 msgid "&Quality"
 msgstr "Kwaliteit"
 
@@ -29353,12 +29332,10 @@ msgid "px"
 msgstr "px"
 
 #: modules/gui/qt4/ui/profiles.h:758
-#, fuzzy
 msgid "Sa&mple Rate"
 msgstr "Samplerate"
 
 #: modules/gui/qt4/ui/profiles.h:766
-#, fuzzy
 msgid "Profile &Name"
 msgstr "Profielnaam"
 
