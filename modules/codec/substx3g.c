@@ -260,7 +260,7 @@ static subpicture_t *Decode( decoder_t *p_dec, block_t **pp_block )
     if( p_block->i_buffer < i_psz_bytelength + 2U )
     {
         block_Release( p_block );
-        return VLCDEC_SUCCESS;
+        return NULL;
     }
 
     const uint8_t *p_pszstart = p_block->p_buffer + sizeof(uint16_t);
